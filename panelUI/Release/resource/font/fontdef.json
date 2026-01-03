@@ -1,0 +1,50 @@
+﻿{
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 3
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 4
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 6
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 8
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 10
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 11
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 12
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 14
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 16
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 18
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 20
+  },
+  "fontdef" : {
+    "file" : "wqyzh.ttf",
+    "fontSize" : 24
+  }
+}

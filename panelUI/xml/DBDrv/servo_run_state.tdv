@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="servo_run_state">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.svo数据18">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">正转运行</string>
+<string lang_id="1" lang="俄文">ВпередБежать</string>
+<string lang_id="2" lang="韩文">앞으로 실행</string>
+<string lang_id="3" lang="英文">Forward Run</string>
+<string lang_id="4" lang="阿拉伯文">تشغيل إيجابي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Marcha Adelante</string>
+<string lang_id="7" lang="土耳其语">Koşu</string>
+<string lang_id="8" lang="波斯文">حرکت به جلو</string>
+<string lang_id="9" lang="葡萄牙语">Forward Run</string>
+<string lang_id="10" lang="越南文">Vận hành thuần</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">反转运行</string>
+<string lang_id="1" lang="俄文">ОбратныеБежать</string>
+<string lang_id="2" lang="韩文">이전으로 실행</string>
+<string lang_id="3" lang="英文">Backward Run</string>
+<string lang_id="4" lang="阿拉伯文">تشغيل عكسي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Marcha Atras</string>
+<string lang_id="7" lang="土耳其语">Koşu</string>
+<string lang_id="8" lang="波斯文">حرکت معکوس</string>
+<string lang_id="9" lang="葡萄牙语">Retrocesso Run</string>
+<string lang_id="10" lang="越南文">Vận hành ngược</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">停止</string>
+<string lang_id="1" lang="俄文">Стоп</string>
+<string lang_id="2" lang="韩文">정지</string>
+<string lang_id="3" lang="英文">Stop</string>
+<string lang_id="4" lang="阿拉伯文">توقف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Paro</string>
+<string lang_id="7" lang="土耳其语">Durdur</string>
+<string lang_id="8" lang="波斯文">توقف</string>
+<string lang_id="9" lang="葡萄牙语">Parar</string>
+<string lang_id="10" lang="越南文">Dừng</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">调谐</string>
+<string lang_id="1" lang="俄文">Тюнинг</string>
+<string lang_id="2" lang="韩文">동조</string>
+<string lang_id="3" lang="英文">Tuning</string>
+<string lang_id="4" lang="阿拉伯文">ضبط</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">afinación</string>
+<string lang_id="7" lang="土耳其语">Akort</string>
+<string lang_id="8" lang="波斯文">میزان کردن</string>
+<string lang_id="9" lang="葡萄牙语">Tuning</string>
+<string lang_id="10" lang="越南文">ĐC sóng hài</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">警报</string>
+<string lang_id="1" lang="俄文">Ошибка</string>
+<string lang_id="2" lang="韩文">오류</string>
+<string lang_id="3" lang="英文">Error</string>
+<string lang_id="4" lang="阿拉伯文">تحذير</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Alarma</string>
+<string lang_id="7" lang="土耳其语">Hata</string>
+<string lang_id="8" lang="波斯文">هشدار</string>
+<string lang_id="9" lang="葡萄牙语">Erro</string>
+<string lang_id="10" lang="越南文">Sai lỗi</string>
+</item>
+</group>
+</MapDrv>

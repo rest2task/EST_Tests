@@ -1,0 +1,2647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="page_help">
+<config name="转换器类型" value="字符串映射"/>
+<group data_src="">
+<item type="1">
+<value>AD_Adjust</value>
+<string lang_id="0" lang="中文">窗口名：电子尺调整
+
+1.归零设定：射出、开关模、托模及压力传感器在零位时（射出到底、关模到底、托模退到底、系统压力为0），而当前位置显示不为零，则在归零设置选择确定进行归零。
+
+2.调整位置：射出、开关模及托模在最大位置时（射退到底、开模到底、托模进到底），用圈尺测量机构到零点的距离，将测量值输入对应的‘调整位置’框，当前位置变为测量值时，完成调整。
+
+3.把每个动作在最大位置测量到的数值，即最大机械行程，减去2～5mm后输入到机器配置页面的机械行程栏内。此步骤是限制了动作终止位置输入上限，以防止机械撞击。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Machine AD Adjust
+
+1.Reset: When the screw, mold, ejector and pressure sensor are reset (clamp is fully closed, full injection, ejector returns completely, and system pressure is 0), and the current position is not reset, choose Reset and press ENT to reset the position.
+
+2.ADJ Pos: When the screw, mold and ejector are at the maximum position (clamp is fully open, suck-back completely, fully ejected), measure the distance between the mechanism and the reset position. Enter the value into the corresponding 'ADJ Pos'. The adjustment is completed when the current position reaches the measured value.
+
+3.Deduct 2-5 mm from the maximum mechanical stroke of each movement and enter the value into the mechanical stroke column on the machine configuration page. This limits the end position of each movement and prevents mechanical parts from colliding with each other.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>AD_Zero</value>
+<string lang_id="0" lang="中文">窗口名：电子尺归零
+
+1.归零设定：射出、开关模、托模及压力传感器在零位时（射出到底、关模到底、托模退到底、系统压力为0），而当前位置显示不为零，则在归零设置选择确定进行归零。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window：Zero
+
+1.You can recover Previous Data, Factory Data and Original Data. Factory Data is stored before delivery from factory.
+
+2.Original Data is the initial data in the EST computer.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Alarm</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Alarm_Para</value>
+<string lang_id="0" lang="中文">窗口名：警报参数
+
+1.自动警报启动模数：
+1.1此参数设定为0或自动警报选择不使用，不启动自动警报，并且用本页面作为警报参数；
+1.2此参数设定不为0且自动警报选择使用，到达设定模数后，启用自动警报；
+
+2.关模低压计时警报上限：关模低压计时的警报上限；
+
+3.关模高压计时警报上限：关模高压计时的警报上限。
+
+4.储料计时警报上限：储料动作的总时间，超过此设定时间即报警“储料未定时完成”；
+
+5.射退计时警报上限：射退动作的总时间，超过此设定时间即报警“射退终未到定位”；
+
+6.料管温度上下限警报值：料管实际温度值与料管设定温度值差值大于此上限设定值，则报“温度偏差”故障；料管设定温度值与料管实际温度值差值大于此下限警报值，则报“温度偏差”；
+
+7.开关模计时警报上限：在配置中CODE0包含40时，启用开关模计时警报，在设定的时间内未到达开关模终止位置，则报警“开模未到定位”或“关模未到定位”；
+
+8.“警报切电热时间”与“蜂鸣器警报次数”关联使用，当报警时蜂鸣器闪烁次数达到警报次数后，切马达，马达关闭之后，延时“警报切电热时间”后，电热关闭；</string>
+<string lang_id="1" lang="俄文">1</string>
+<string lang_id="2" lang="韩文">1</string>
+<string lang_id="3" lang="英文">window name：Warn Para
+
+1.Auto Alarm On Cycle Number: 
+1.1When the value is 0, auto alarm is disabled and alarm parameters are set to values on this page;
+1.2When it is not 0, auto alarm will be enabled when the preset cycle number is reached;
+
+2.Closing Low Pressure Alarm Time: maximum time of the clamp closing process in low pressure before alarm;
+
+3.Closing High Pressure Alarm Time: maximum time of the clamp closing process in high pressure before alarm;
+
+4.Charging Alarm Time: It is the total time of the charging process. The alarm "Fail to Complete Charging in Time" will be made when the time expires;
+
+5.Suck Back Alarm Time: It is the total time of the suck-back process. The alarm "Fail to Suck Back" will be made when the time expires;
+
+6.Max and Min Alarming Tube Temp: When the difference between the actual temperature of the charging tube and the preset temperature is larger than the maximum or minimum value, the system prompts "Temperature Error";
+
+7.Max Alarming Clamp Opening/Closing Time: When CODE0 includes 40 in configuration and clamp opening/closing alarm is enabled, the alarm "Clamp Opening Failure" or "Clamp Closing Failure" will be made when the clamp opening or closing process is not completed within the preset time;
+
+8."Heater Off Time" and "Buzzer Count": When the number of times that the buzzer flickers reaches the preset value that triggers the alarm, the motor will be turned off and the heater will be turned off too after the "Heater Off Time" expires;</string>
+<string lang_id="4" lang="阿拉伯文">1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">1</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Charge_Curve</value>
+<string lang_id="0" lang="中文">窗口名：储料曲线
+
+此画面显示的是电机转速，储料压力，螺杆转速，设定压力四条曲线状态。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name:Charge Curve</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Charge_Func</value>
+<string lang_id="0" lang="中文">窗口名：储料射退功能
+
+1.储前冷却时间：保压结束到下次开始储料的冷却间隔时间。
+
+2. 储料开模功能：Code1加上100，此参数开放，输入1，储料同时开模，输入0不使用此功能。
+
+3.储料快速功能：如输出点有“储料快速”，这里选为使用，该点在储料时才输出。
+
+4.清料时间：设定进行自动清料时储料动作的时间。
+
+5.清料次数：设定自动清料动作的循环次数，该次数到，自动清料完成。
+
+6.BMC机下压缸：Code0加上2，可设置下压缸的压力流量。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Charge Function</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Charge_h</value>
+<string lang_id="0" lang="中文">窗口名：储料射退设定
+
+1.模具冷却时间：开模前开始计时，计时完成后开模。
+
+2.储料使用段数，进入F2功能参数界面设置；
+
+3.再次储料计时：射出前按该设定时间做储料动作。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Charge</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Charge_Param</value>
+<string lang_id="0" lang="中文">窗口名：储料参数
+
+1.压力、流量斜率：加减速时间，单位为秒(S)；适当设置斜率，可使机器动作连贯柔和，但机器响应会有所变慢。
+
+2.储料慢速调试压力、流量：调模状态下做储料动作输出的压力、流量。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Charge Para
+
+1.Setup Pressure/Flow: pressure and flow output during the charging process under the mold adjustment status.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Clamp_Curve</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Clamp_Func</value>
+<string lang_id="0" lang="中文">窗口名：开关模功能
+
+1.开模联动：与开模动作一起进行，可选中子、托模 : Code1需加上2000；联动位置须大于低压模保位置；单油路联动，开模压力流量优先输出，开模完成后切换到中子或托模的压力流量。
+
+2.开模位置有效区:开模终止设定位置-此设定值 &lt; 模座位置 &lt; 开模终止设定位置+此设定值，才允许做托模动作，否则报警“开模未到定位”。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：clamp function
+
+2.Effective Area: During the manual operation process, Core/Eject action can only be performed when the mold is between the set opening end position and opening end position + the value set here. Otherwise, the system gives the alarm “Clamp is not fully open”.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Clamp_h</value>
+<string lang_id="0" lang="中文">窗口名：开关模
+
+1.左侧栏数据为实时数据显示；
+
+2.关模到底电子尺显示最小值，开模到底则显示最大；
+
+3.终止位置的输入受相邻段位置限制，所以要按以下顺序设定：关模从关模一段依次往下设定，开模从开模终止依次向上设定；
+
+4.开关模终止位置设定：每一段设定的终止位置到达前，按该段压力、流量输出。
+
+5.关模三段和开模四段：进入F2功能中选择。
+
+6.差动合模：选为使用时，在进入关模低压前，输出差动阀；
+
+7.再循环计时：产品顶出后与下一模开始之间的间隔时间；
+
+8.模具冷却时间：开模前开始计时，计时完成后开模。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window Name：clamp
+
+1.The white data with a blue background on the left shows the current position of the mold；
+
+2.The electric scale shows the minimum value when the clamp is fully closed and the maximum value when it is fully opened；
+
+3.Inputs of the end position are limited by its neighboring positions. Therefore, inputs of the clamp closing process must be set from Close #1 and those of the clamp opening process from Open End；
+
+4.Clamp opening and closing: close #1 is output when the mold’s position is larger than 350; Close #2 is output when the mold’s position is between 300 and 350; (Open #1 is output when the mold’s position is smaller than 40; Open #2 is output when the mold’s position is between 40 and 80); All the stages are output in the order.
+
+5.Close #3 and Open #4: They can be enabled or disabled in PAR1 and PAR2。</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Clamp_Param_1</value>
+<string lang_id="0" lang="中文">窗口名：关模参数
+1.压力、流量斜率：加减速时间，单位为秒(S)；适当设置斜率，可使机器动作连贯柔和，但机器响应会有所变慢；
+
+2.斜率与延时的含义，如下图曲线示意；
+
+3.关模慢速调试压力、流量：粗调模状态下做关模动作输出的压力、流量。
+
+4.动作结束延时计时：关模结束后，本动作延迟关闭的时间。
+
+5.斜率和曲线的示意图如下：</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：close parameter
+
+1.Pressure/Flow Slope: It refers to the acceleration time in seconds; an appropriate slope ensures that the machine works smoothly, but may slow the machine’s response；
+
+2.See the follow figure for meaning of the slope and delay；
+
+3.Auto ADJ Low Pressure Time: It is the duration of the first mold pressing process in auto adjustment
+
+5.See the follow figure for meaning of the slope and delay：</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Clamp_Param_2</value>
+<string lang_id="0" lang="中文">窗口名：开模参数
+
+1.压力、流量斜率：加减速时间，单位为秒(S)；适当设置斜率，可使机器动作连贯柔和，但机器响应会有所变慢。
+
+2.开模一段是一慢，开模终是二慢，中间3段为快；
+
+3.开模慢速调试压力：粗调模状态下做开模动作输出的压力、流量。
+
+4.开模慢速阀动作时间:特殊机使用，慢速阀用时间控制。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">winodow name：open parameter
+
+1.Pressure/Flow Slope: It refers to the acceleration time in seconds; an appropriate slope ensures that the machine works smoothly, but may slow the machine’s response.
+
+2.Open #1 is Slow 1. Open End is Slow 2. Middle #3 is fast；
+
+3.Setup Pressure/Flow: pressure and flow are output during the clamp opening process under the mold adjustment status
+
+</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Core</value>
+<string lang_id="0" lang="中文">窗口名：中子一
+
+1.功能选择：可选“不使用、中子、或绞牙”。中子动作为抽芯和插芯，绞牙动作为旋转攻牙。
+
+2.控制方式：中子有行程和时间两种方式，绞牙有计数和时间两种方式。
+
+2.1 行程方式：中子进终、退终有效，则动作结束。
+2.2 时间方式：中子阀根据“动作时间”的设置输出。
+2.3 计数方式：绞牙时，装有绞牙电眼对绞牙进行计数，计数到达“绞牙计数”的设定值则停止输出。
+
+3.动作位置：开关模位置到达此设定值时，开始做中子动作。
+
+开模中子动作位置：
+
+3.1 动作位置=0，开模前；
+3.2 0&lt;动作位置&lt;开终位置-有效区，开模途中；
+3.3 动作位置&gt;开终位置-有效区，开模结束;
+
+关模中子动作位置：
+
+3.4 动作位置=0，关模结束；
+3.5 0&lt;动作位置&lt;开终位置-有效区，关模途中；
+3.6 动作位置&gt;开终位置-有效区，关模前。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Core
+
+1.Action Position: The core starts when the set clamp opening/closing position is reached. Core action position in the clamp opening process:
+
+2.1 When the value is 0, the core starts before the clamp opens;
+
+2.2 When the value is between 0 and the difference between the opening end position and the effective area, the core starts in the clamp opening process;
+
+2.3 When the value is larger than the difference, the core starts after the clamp opens;
+
+3.Core action position in the clamp closing process:
+
+3.1 When the value is 0, the core starts after the clamp is closed;
+
+3.2 0&lt;&lt;When the value is between 0 and the difference between the opening end position and the effective area, the core starts during the clamp closing process；
+
+3.3 &gt;When the value is larger than the difference, the core starts before the clamp is closed;</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Core_2</value>
+<string lang_id="0" lang="中文">窗口名：中子二
+
+1.功能选择：可选“不使用、中子、或绞牙”。中子动作为抽芯和插芯，绞牙动作为旋转攻牙。
+
+2.控制方式：中子有行程和时间两种方式，绞牙有计数和时间两种方式。
+
+2.1 行程方式：中子进终、退终有效，则动作结束；
+2.2 时间方式：中子阀根据“动作时间”的设置输出；
+2.3 计数方式：绞牙时，装有绞牙电眼对绞牙进行计数，计数到达“绞牙计数”的设定值则停止输出。
+
+3.动作位置：开关模位置到达此设定值时，开始做中子动作。
+
+开模中子动作位置：
+
+3.1 动作位置=0，开模前；
+3.2 0&lt;动作位置&lt;开终位置-有效区，开模途中；
+3.3 动作位置&gt;开终位置-有效区，开模结束;
+
+关模中子进动作位置：
+
+3.4 动作位置=0，关模结束；
+3.5 0&lt;动作位置&lt;开终位置-有效区，关模途中；
+3.6 动作位置&gt;开终位置-有效区，关模前。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Core2
+
+1.Action Position: The core starts when the set clamp opening/closing position is reached. Core action position in the clamp opening process:
+
+
+2.1 When the value is 0, the core starts before the clamp opens;
+
+2.2 When the value is between 0 and the difference between the opening end position and the effective area, the core starts in the clamp opening process;
+
+2.3 When the value is larger than the difference, the core starts after the clamp opens;
+
+
+3.Core action position in the clamp closing process:
+
+
+3.1 When the value is 0, the core starts after the clamp is closed;
+
+3.2 0&lt;&lt;When the value is between 0 and the difference between the opening end position and the effective area, the core starts during the clamp closing process；
+
+3.3 &gt;When the value is larger than the difference, the core starts before the clamp is closed;</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Core_Func</value>
+<string lang_id="0" lang="中文">窗口名：中子功能
+
+1.中子保护功能：选择为使用时。
+
+1.1 关模前将检测中子是否到位；
+
+1.2 手动时，假定中子动作位置为A，开模有效位置为B，0&lt;A-B&lt; 允许手动操作的中子动作区 &lt; A+B，其它位置不能做中子动作。
+
+2.途中中子位置有效区：途中中子动作的有效范围。
+
+3.中子A按键选择：可选择为A或D,如选择了中子D,按下中子A,就是做中子D动作
+
+4.中子B按键选择：可选择为B或E,如选择了中子E,按下中子B,就是做中子E动作
+
+5.中子C按键选择：可选择为C或F，如选择了中子F,按下中子C,就是做中子F动作
+
+6.特殊中子功能选择：有6种模式，选中其中1种模式时，页面下方会显示该模式的动作过程。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Core Function</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Core_Param</value>
+<string lang_id="0" lang="中文">窗口名：中子参数
+
+1.多组中子的参数每次只能选择其中一组进行设置。可在“中子选择”下拉框中选择相应中子进行设置。
+
+2.压力、流量斜率：加减速时间，单位为秒(S)；适当设置斜率，可使机器动作连贯柔和，但机器响应会有所变慢；
+
+3.中子慢速调试压力、流量：调模状态下做中子动作输出的压力、流量。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Core Para</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>DA_Adjust</value>
+<string lang_id="0" lang="中文">窗口名：机器调整DA
+
+机器调整DA步骤：
+
+1.DA线性调整：机器类型为普通机时，须进行压力、流量DA调整。
+
+2.DA选择：共四组，第一组对应P、F通道，默认为系统压力、流量；第二组对应Pre2端口，一般选为储料背压；第三、四组对应扩展板的DA通道。
+
+3.启动马达，选择DA压力调整：
+
+3.1 设定起流，一般为30%；
+3.2 压力调零，选中调整按输入变调整中后，按面板上下键调整，直至压力表或对应的电流表指向零位。
+3.3 最大压力，操作同上，直至压力表稳定在系统最大压力。
+
+3.4 线性调整，第一种方法，把压力表显示压力输入相应的压力Bar栏；第二种方法更改输出值直至压力表显示与Bar值相等。调整完毕，保存确认。
+
+4.选择DA流量调整：操作方法同第3步。但需通过计算螺杆转速确认流量的大小，故需选中左侧的“流量调整时输出储料动作”；设定并开启加热，待料筒温度达到一定温度（200度左右）才可进行流量调整。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Machine DA Adjust
+
+DA Linear ADJ: When the machine is an ordinary machine, you need to perform pressure and flow DC adjustment
+
+1.DA Selection: There are three groups. The first group corresponds with channel P and F. By default, it is the system pressure and flow; The second group corresponds with port Pre2 and is generally the charge back pressure; The third group corresponds with the expansion board's DA channel.
+
+2.Start the motor and choose DA pressure adjustment
+
+3.Set the start pressure, generally 30%;
+
+3.1 Reset the pressure. Choose ADJ and press ENT. After it becomes In ADJ, press up and down arrows on the panel to reset the pressure or corresponding current meter.
+3.2 The step of adjusting the maximum pressure is same as the fore-mentioned one. Adjust it until the pressure meter stays at the maximum pressure of the system.
+3.3 The first method of linear adjustment is to enter the pressure shown on the pressure meter into the corresponding pressure Bar column. The second method is to change the input until the pressure meter's reading is same as the Bar value. Press ENT after completing adjustment.
+3.4 Choose DA flow adjustment: The procedure is same as step 3. You need to calculate the flow by measuring the screw's rotate speed. Therefore, you need to select “Output Charge In Flow ADJ” on the left side; Set and enable heating. Flow can be adjusted only when the barrel reaches about 200 centigrade</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Data_Diag</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Data_Operation</value>
+<string lang_id="0" lang="中文">窗口名：数据操作
+
+1.工作参数导入导出：当模具换到另一台注塑机或更换面板时使用。
+
+2.该页面备份的是：面板基本设置，机器参数，当前模具参数，泵浦配置参数，DA比例阀线性参数。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Data Operation
+
+1.Import/Export Work Parameters: The function is used when a mold needs to be used on another IMM or the panel needs to be replaced.
+
+2.On this page, you can make backup copies of: basic panel settings, machine parameters, current mold parameters, pump configuration parameters and DA proportional valve's linear parameters.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Eject</value>
+<string lang_id="0" lang="中文">窗口名：托模吹气设定
+
+1.延时：表示自开模动作开始后多久才托模/吹气。即延时计时到达，托模/吹气动作开始。托模/吹气长短由动作计时栏控制。
+
+2.吹气设定：
+
+2.1吹气方式4种：开模时间、位置，射出时间、位置；
+2.2动作时间：即吹气阀输出时间；
+
+2.3延时：当吹气方式选择为开模、射出时间，开模、射出后，经过延时后输出吹气；
+
+2.4动作位置：当吹气方式选择为开模、射出位置，到达此设定位置才开始输出吹气。
+
+3.首次独立行程：托模定次时，首次托模进采用独立行程控制，行程在“首次位置”设置；
+
+4.吹气按键选择：选择相应的吹气组，则按下面板上的吹气按键会对相应的吹气组进行操作</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">winodow name：Eject
+
+1.Delay: delay in actions by the pressure, flow and direction valves;
+
+
+2.Air blow setting：
+
+2.There are four air blow modes: clamp opening time/position, injection time/position;
+2.2Action time: It is the output time of the air blow valve；
+
+2.3Delay: When the air blow mode is clamp opening/injection time, the IMM will blow after the delay upon clamp opening and injection；
+
+2.4Action position: When the air blow mode is clamp opening/injection position, the IMM will only start blowing after the set position is reached.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Eject_Func</value>
+<string lang_id="0" lang="中文">窗口名：托模吹气功能
+
+1.电眼检出选择：选择使用时为电眼自动，当电眼检测不到产品掉落，则不能关模并警报；当电眼检测一直有输入则认为产品堆满并警报；
+
+2.半托时不切托进阀：选择为1且托模方式为停留时，才有此功能，保持托进时动作压力、流量为托模慢速调试压力、流量；
+
+3.吹气按键选择：选择相应的吹气组，则按下面板上的吹气按键会对相应的吹气组进行操作；
+
+4.托模终检测时间：在关模过程中，超出此设定时间未检测到托模终信号，则报警。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Eject Function
+
+1.Electric eye detection: It can be enabled and disabled. When it is enabled, it can automatically detect products that do not fall from the mold. In this case, the clamp cannot be closed and an alarm will be made. When the electric eye detects continuous input, it indicates that the tray is full and an alarm will be made.
+
+3.Air Blow Button: When the 2nd Group is selected, press the air blow button on the panel under the manual status to activate the 2nd group blow output.
+
+4.Eject End Detect Time: If no ejection end signal is detected after the time expires in the clamp closing process, an alarm will be made.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Eject_Param</value>
+<string lang_id="0" lang="中文">窗口名：托模参数
+
+1.压力、流量斜率：压力、流量加减速时间，单位（S）；
+
+2.托模调试：调模状态时托模动作压力、流量输出；
+
+3.托模退位置有效区：托模退终位置在此偏差范围内方允许关模；
+
+4.托模退位置允许最大值：即“托退二段”终止位置允许设定最大值；</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Eject Para
+
+1.Pressure/Flow Slope: It refers to the acceleration time in seconds；
+
+2.Setup Pressure/Flow: pressure and flow outputs when the ejector works under the mold adjustment status；
+
+3.Effective Eject Return Area: The clamp can be closed when the ejector’s return end position is within the effective area；
+
+4.Max Eject Return Position: It refers to the maximum return end position of Eject Return #2；</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Face</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Fast</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_Curve</value>
+<string lang_id="0" lang="中文">窗口名：射出曲线
+
+在射出功能一画面的射出曲线模式上选择位置进入此画面。
+
+1.曲线选择处可以选择：当前曲线和历史曲线。
+
+当前曲线显示的是实时的曲线状态；
+
+历史曲线最多显示最近10次射出曲线。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Injection Curve</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_Curve_1</value>
+<string lang_id="0" lang="中文">窗口名：射出曲线
+
+在射出功能一画面的射出曲线模式上选择时间进入此画面。
+
+1 .曲线选择处可以选择：当前曲线和历史曲线。
+
+当前曲线显示的是实时的曲线状态；
+
+历史曲线最多显示最近10次射出曲线。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Injection Curve</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_Func_2</value>
+<string lang_id="0" lang="中文">窗口名：射出功能二
+
+1.排气功能：特殊机使用（热固性产品使用）；此功能须在Code3处打100；
+
+2.液压喷嘴：可控喷嘴，射出时打开气阀，射出完关闭气阀。此功能须在Code4处打8000；
+
+3.座进前清料：此功能须在Code4处打4000。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Inject Function2
+
+1.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_Func</value>
+<string lang_id="0" lang="中文">窗口名：射出功能一
+
+1.保压压力：压力传感器闭环时，射出压力到此设定值时切换到保压。当保压转换方式为“压力”时方可设定。
+
+2.射出压力：显示当前反馈压力；
+
+3.射出快速阀：即使用射出快速阀，只在射出2段打开；Code1加上16，此输出点生效。
+
+4.射出监控功能：选择使用时，射出转保压位置实行监控并警报。
+
+5.射出旁路阀： 5.1射出开：射出动作时开阀； 5.2保压开：保压动作时开阀； 5.3射保开：射出保压动作时开阀。
+
+6.压塑功能：使用特殊注射功能，先关模到低压位置，注射完后，再高压压模。可选择不使用、射出后及射出一后。此功能须在Code2处打4。
+
+7.压塑射出一段计时：射出一段后，在该设定时间到后，再高压压模；</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Inject Function
+
+1.Holding Position/Pressure: When the value is reached, the system switches to pressure holding status. Injection Pressure: It shows the current feedback pressure.
+
+3.Inject Fast: Use the inject fast valve only in Inject #2. Define the output point 2BH (43) and add 16 to Code1 to enable the function.
+
+4.Inject Monitor: When the function is enabled, the inject/holding position is monitored and alarm can be made.
+
+5.Bypass valve: Define the output point 39H (57). 1) Open during injection: Open the valve during injection; 2) Open during holding: Open the valve during pressure holding; 3) Open during holding: Open the valve during injection and pressure holding.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_h</value>
+<string lang_id="0" lang="中文">窗口名：射出
+
+1.射出段数可在“功能”中选择；
+
+2.终止位置：设定值受相邻段位置限制，需按以下顺序设定：从射出一段依次往下设定；
+
+3.注射时间：此设定值需依据“保压转换方式”设定；CODE1加上8，射出时间可精确到0.001S ；
+
+4.保压转换方式：
+
+4.1 位置：当射出时螺杆的位置到达保压切换的位置（即转保压位置的设定值）时，即转为保压，此时应将“注射时间”设定比螺杆到达切换位置所需的时间要长些。
+
+4.2 时间：当射出的实际时间达到保压切换时间（即射出总时）所设定的时间时，即转为保压。
+
+4.3 时间或位置：保压切换位置和保压切换时间哪个先到达设定值，哪个触发保压切换。
+
+4.4 压力：当射出压力达到设定保压转换压力时，进行保压切换。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Injection
+
+1.Inject #5 can be enabled in F4 PAR；
+
+2.Inputs of the end position are limited by its neighboring positions. Therefore, inputs of the injection process must be set from Inject #1.
+
+3.Inject Time: Injection output stops when the time expires. Add 8 to CODE1, the injection time can be accurate to 0.01s.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Inject_Param</value>
+<string lang_id="0" lang="中文">窗口名：射出参数
+
+1.射出调试：调模状态做射出动作时以此处设定的压力、流量输出；
+
+2.射出启动压力、速度斜率：射出一段压力、流量上升的时间；
+
+3.射出转换压力、流量斜率：射出过程中各动作段切换时压力、流量上升的时间；
+
+4.射出任务前延时：延迟该设定的时间后做射出动作。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Injection Para
+
+1.Injection Setup Pressure/Flow: pressure and flow outputs during the injection process under the mold adjustment status；</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Install</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>InstallPay</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>IO_Input</value>
+<string lang_id="0" lang="中文">窗口名：输入点一
+
+1.输入点的功能和状态：
+
+1.1 每一个输入点编号的右边表示该点功能，左边的圆圈表示该点输入状态，变绿/变黑时为输入有效。
+
+1.2 若某个点输入硬件损坏，可通过 “IO重定义”可用一个空余的点将坏的点替换掉（注意下位机相应接线的调整）。
+
+2.A620主机配置24个输入点，A920主机配置32个输入点。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：IO In
+
+1.Function and Status:
+
+1.1 1.1 The function of each input is described on the right side of the number and its status is indicated by the dot on the left. When the dot turns green, the input is effective.
+
+1.2 Where the hardware of an input is broken, you can replace the input with a spare input in "IO Redefine". Notably, you need to reconnect the IO terminal on the PLC accordingly.
+
+2.The host of A620 has 24 inputs, while that of A920 has 32 inputs.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>IO_Input_2</value>
+<string lang_id="0" lang="中文">窗口名：输入点二
+
+1.扩展输入点：加了扩展板才会显示。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window：IO In 2
+
+1.Expansion Input: Only displayed when an expansion board is added.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>IO_Output</value>
+<string lang_id="0" lang="中文">窗口名：输出点一
+
+1.输出点的功能和状态： 1.1 每一个输出点编号的右边表示该点功能，左边的圆圈表示该点输出状态，变绿/变黑时为输出有效。
+
+1.2 若某个点输出硬件损坏，可通过 “IO重定义”可用一个空余的点将坏的点替换掉（注意下位机相应接线的调整）。
+
+2.A620主机配置24个输出点，A920主机配置32个输出点。
+
+3.在手动的状态中按下输入键，光标下的点会强制输出。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：IO Out1
+
+1.Function and Status: 1.1 The function of each output is described on the right side of the number and its status is indicated by the dot on the left. When the dot turns green, the output is effective.
+
+1.2 Where the hardware of an output is broken, you can replace the output with a spare output in "IO Redefine". Notably, you need to reconnect the IO terminal on the PLC accordingly.
+
+2.The host of A620 has 24 outputs, while that of A920 has 32 outputs.
+
+3.Press ENTER in manual status. The chosen output will output compulsorily.
+
+ </string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>IO_Output_2</value>
+<string lang_id="0" lang="中文">窗口名：输出点二
+
+1.扩展输出点：加了扩展板才会显示。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window：IO Out 2
+
+1.Expansion Output: Only displayed when an expansion board is added.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>IO_Redefine</value>
+<string lang_id="0" lang="中文">窗口名：I/O重新定义
+
+1.重定义操作：输入、输出点编号必须从首行开始依次往下使用，前面有空行则后面定义无效。输入完毕需保存后才生效。
+
+2.输入、输出点编号：对电脑主机板上的输入、输出点编号。
+
+3.输入、输出点定义：只有输入、输出点编号更改后，同一行的定义才会显示，并可下拉选择需要的功能。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：IO Redefine
+
+1.Redefine: Inputs and outputs must be numbered top down. If a line is blank, the definition of all the following lines is invalid. Press Save to save the inputs.
+
+2.Number Input and Output: Number inputs and outputs on the main board of the computer;
+
+3.Define Input and Output: The definition of a line is only displayed after the input and output are numbered. Select the function needed from the pull-down menu. Press left and right arrows on the panel to turn to another page.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Key_Test</value>
+<string lang_id="0" lang="中文">窗口名：面板测试
+
+1.此功能用于面板按键和显示灯测试；当按下面板键后，画面上对应的显示颜色将发生变化，若面板上有显示灯，则该显示灯状态也发生变化；连续按“主画面”键三次可退出本画面。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Panel Test
+
+1.This function is used to test panel buttons and indicators; When you press a panel button, the color of the corresponding box on the display will change. When there is an indicator light on the panel, the status of the light will also change; Press “Main Page” three times to exit the page.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Language</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Lubr</value>
+<string lang_id="0" lang="中文">窗口名：润滑
+
+1.共三组润滑，润滑1、润滑2和润滑3表示三组独立的润滑系统。电脑系统默认使用润滑1。
+
+2.润滑模式：可输入0、1或2，表示3种不同模式。
+
+2.1 输入“0”为时间润滑方式：按“自动润滑计时”做单次润滑。
+
+2.2 输入“1”时，压力检测继电器应装在润滑泵出口端：
+
+润滑开始 ，“自动润滑计时”到马上检查“润滑检知”输入点。输入点无效，则警报；输入点有效，检查“自动润滑总计时”是否到达，如到了则结束润滑；如未到则继续做润滑，“自动润滑延计时”一到再次检查是否超过总计时，超过即结束；未超，开始第二次润滑循环。
+
+2.3 输入“2”时，压力检测继电器装在润滑油路末端：润滑开始，如果“自动润滑计时”时间先到，步骤同上2.2；如果“润滑检知”先有效，检查总计时是否到，到了结束，未到就做润滑延时时间，润滑延时时间到。再次检查是否超过总计时，超过即结束，未超，开始第二次润滑循环。
+
+3.自动润滑模数：启动自动润滑所需开模数。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Lubrication
+
+1.There are three independent lubrication system: Lub 1, 2 and 3. Lub 1 is used by default.
+
+2.Lub Mode: There are three lubrication modes: 1, 2 and 3.
+
+2.1 Enter 0 to use the time lubrication mode: Single lubrication is performed according to Auto Lub Time.
+
+2.2 To enter 1, the pressure detecting relay should be installed at the outlet of the lubrication pump: Lubrication starts, "Auto Lub Time" immediately detects the input terminal of "Lub Detect". 1 is invalid, alarm; 2 is valid, check if "Auto Lub Total Time" expires. If yes, stop lubrication. If not, continue lubrication. When "Auto Lub Delay Time" expires, check if the total time expires. If yes, stop lubrication; if not, start the second lubrication cycle.
+
+2.3 To enter 2, the pressure detecting relay should be installed at the end of the lubricant circuit: Lubrication starts. If "Auto Lub Time" expires first, perform step 2.2; if "Lub Detect" becomes valid first, check if the total time expires. When it expires, stop lubrication. If not, continue lubrication until the lubrication delay time expires. Check if the total time expires again. If yes, stop lubrication. If not, start the second lubrication cycle
+
+3.Auto Lub Count: It is the number of cycle counts before lubrication is started.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Lubr1</value>
+<string lang_id="0" lang="中文">窗口名：润滑
+
+1.共三组润滑，润滑1、润滑2和润滑3表示三组独立的润滑系统。电脑系统默认使用润滑1。
+
+2.润滑模式：可输入0、1或2，表示3种不同模式。
+
+2.1 输入“0”为时间润滑方式：按“自动润滑计时”做单次润滑。
+
+2.2 输入“1”时，压力检测继电器应装在润滑泵出口端：
+
+润滑开始 ，“自动润滑计时”到马上检查“润滑检知”输入点。输入点无效，则警报；输入点有效，检查“自动润滑总计时”是否到达，如到了则结束润滑；如未到则继续做润滑，“自动润滑延计时”一到再次检查是否超过总计时，超过即结束；未超，开始第二次润滑循环。
+
+2.3 输入“2”时，压力检测继电器装在润滑油路末端：润滑开始，如果“自动润滑计时”时间先到，步骤同上2.2；如果“润滑检知”先有效，检查总计时是否到，到了结束，未到就做润滑延时时间，润滑延时时间到。再次检查是否超过总计时，超过即结束，未超，开始第二次润滑循环。
+
+3.自动润滑模数：启动自动润滑所需开模数。1</string>
+<string lang_id="1" lang="俄文">1</string>
+<string lang_id="2" lang="韩文">1</string>
+<string lang_id="3" lang="英文">window name：Lubrication
+
+1.There are three independent lubrication system: Lub 1, 2 and 3. Lub 1 is used by default.
+
+2.Lub Mode: There are three lubrication modes: 1, 2 and 3.
+
+2.1 Enter 0 to use the time lubrication mode: Single lubrication is performed according to Auto Lub Time.
+
+2.2 To enter 1, the pressure detecting relay should be installed at the outlet of the lubrication pump: Lubrication starts, "Auto Lub Time" immediately detects the input terminal of "Lub Detect". 1 is invalid, alarm; 2 is valid, check if "Auto Lub Total Time" expires. If yes, stop lubrication. If not, continue lubrication. When "Auto Lub Delay Time" expires, check if the total time expires. If yes, stop lubrication; if not, start the second lubrication cycle.
+
+2.3 To enter 2, the pressure detecting relay should be installed at the end of the lubricant circuit: Lubrication starts. If "Auto Lub Time" expires first, perform step 2.2; if "Lub Detect" becomes valid first, check if the total time expires. When it expires, stop lubrication. If not, continue lubrication until the lubrication delay time expires. Check if the total time expires again. If yes, stop lubrication. If not, start the second lubrication cycle
+
+3.Auto Lub Count: It is the number of cycle counts before lubrication is started.1</string>
+<string lang_id="4" lang="阿拉伯文">1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">1</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Mach_Cfg</value>
+<string lang_id="0" lang="中文">窗口名：机器配置
+
+1.Code码：每个代码包含16种功能。每个功能代码对应的16进制数，从小开始依次是1、2、4、8、10、20、40、80、100、200、400、800、1000、2000、4000、8000。当一个Code码同时使用几个功能时，则将几个功能对应的16进制数累加起来，然后输入对应的Code框。增加功能时，也是把功能代码叠加到对应的Code框，以免删除了原来的功能。
+
+2.机器类型：普通机和伺服机，必须正确选择。
+
+3.储料RPM孔数：输入实际储料电眼的个数，储料画面会正常显示螺杆转速。
+
+4.各个功能及Code码修改需先输入正确的修改密码。
+
+5.系统压力上限：所有动作的压力都受此参数限制。
+
+6.主机的机器配置参数备份恢复：在此页面进行写U盘，就可把机器配置代码和参数复制到U盘，然后在其他电脑上进行读U盘，把代码参数复制过去。多台相同机型调试或更换主机时使用。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Machine Config
+
+1.Code: Each code has 16 functions. Each function code corresponds to the following hexadecimal numbers: 1, 2, 4, 8, 10, 20, 40, 80, 100, 200, 400, 800, 1000, 2000, 4000, and 8000. When one code has several functions, their hexadecimal numbers will be added and entered into the corresponding code column. When you want to add a function, you can add the function's code into the corresponding code column to prevent existing functions from being deleted.
+
+2.Machine Type: Ordinary and servo machine, it must be selected properly.
+
+3.RPM Holes: Enter the number of actual RPM holes. The charge page will show the screw's rotate speed.
+
+4.You need to enter correct modification code to modify each function and code.
+
+5.System Press Limit: Pressures of all movements are limited by the parameter.
+
+6.Config and PRM backup and recovery: Select Write to copy configuration codes and parameters into a flash disk. Select Read to copy the codes and parameters to another computer. The function can be used to commission same models or replace the host</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>machTbCfg</value>
+<string lang_id="0" lang="中文">窗口名：配置
+
+1.机器型号：当面板有机器型号文件存在时，可用于选择相应的机型，并按保存导入相应机型的配置。
+
+2.面板数据是否导入：当有面板数据文件存在时，选机型后可以将面板数据选上，并按保存导入相应面板数据。
+
+注：机器型号文件和面板数据文件都需要PC端工具软件生成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Machine Config
+
+1.Machine Type:When the panel has the machine model file exists, it can be used to select the appropriate model, and press save import the appropriate model configuration.
+
+2.Include Panel Data: When the panel data file exists, the data can be select on the panel, and press save import the appropriate panel data models after the election.
+
+Note: Machine Model files and panel data files are required to generate the PC utility software.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Main_Adjust</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Mold_Set</value>
+<string lang_id="0" lang="中文">窗口名：模具
+
+1.模具参数的保存和写入：
+
+1.1 保存：指保存当前模具的工作参数，先输入模具名称(材料、颜色可选择输入），在对应的行选择保存，就保存了当前模具参数。
+
+1.2 读入：指将该行模具工作参数恢复到操作面板。
+
+1.3 删除：指将该行删除掉。
+
+1.4 写U盘：指将该行模具参数复制到U盘。
+
+1.5 读U盘：指将U盘中的单个模具参数导入面板，并将保存到该行以外的空行上。
+
+2.全部写U盘：将面板上保存的全部模具参数复制到U盘； 全部读U盘：将U盘中模具参数文件包导入面板，并将保存到原面板上的模具参数以外的空行上。
+注：进行写U盘操作时，需要给导出的文件编一个文件名，新建的文件名不能和U盘已有文件相同，否则会将原文件删除。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Mold
+
+1.Input and save mold parameters:
+
+1.1 Save: Save running parameters of the current mold. First enter the mold’s name (material and color are optional). Select Save on corresponding lines to save them
+
+1.2 Input: Recover the running parameters of the mold in the line onto the operation panel.
+
+1.3 Delete: Delete the line.
+
+1.4 Export: Copy the parameters in the line to a flash disk.
+
+1.5 Import: Copy one mold’s parameters from a flash disk to a specific line. If there are parameters saved in the line, they will be deleted and replaced.
+
+Export All: Copy all mold parameters saved on the panel to a flash disk. Import All: Import all mold parameters in a flash disk to the panel and delete all existing parameters on the panel. 
+Note: To export a file, you need to name the file. The name must be different from that of any file in the flash disk. Otherwise, the new file will replace the existing one with the same name.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Operate_Record</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Other</value>
+<string lang_id="0" lang="中文">窗口名：其它
+
+1.粗调模模式：可选择“长动、点动、点动加长动”。
+
+“长动”是指按着调模进、退键就一直输出，松开按键马上停止输出。
+
+“点动”模式时 ，若“调模微调计时”不为0，则这个时间一到就停止输出；若为0时那么“调模微调步数”到就停止输出 。
+
+“点动加长动”是先按点动模式调模，当点动结束后按键未松开就按长动模式继续输出。
+
+任何一种调模模式在调模输出时，4秒钟未检测到调模电眼信号有变化，则警报“调模电眼失败”。
+
+2.调模微调计时：点动模式，调模输出时间。
+
+3.调模微调步数：点动模式，且调模微计时为0，调模电眼脉冲数到达调模微调步数,就停止输出。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Others</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Other_Func</value>
+<string lang_id="0" lang="中文">窗口名：其它功能
+
+1. 座退方式：全自动生产时，座台退的方式，可选为“不使用、储料后、开模前、射出后”。 
+2. 自动安全门的安装和使用：
+2.1 在Code4代码加上80，安全门参数才可选择；
+
+2.2 模式选择：“电动安全门”和“液压安全门” ;
+
+2.3 若IO输出页面没有安全门开、安全门关的输出点还需将两个空余的点重定义为“安全门开、安全门关” ；
+
+2.4 安全门开关按键安装，分别将安全门开、安全门关按钮的一组常开触点焊接到面板背面的接点“OPEN”和“CLOSE” ；
+
+2.5 点动模式：按一下按钮，安全门开、安全门关一直输出至开关门完成，需要在Code0加上4000此模式生效；否则按钮须按住才会持续输出。
+
+3. 安全门开模式：1）开模前：开模开始的同时开安全门，安全门开完成后做托模动作。2）开模后：开模结束后做托模的同时开安全门。
+
+4. 安全门开计时：安全门开保护，在此设定时间内安全门开未完成，停止安全门开输出。设为0时不保护。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Other Function
+
+1. Power Door: When the power door is used, 
+
+1.1 This option must be enabled, 1) Add 128 to Code4, 2) Two spare output points must be defined 96/97 if there is no power door switch output point on the IO page. 3) Install the On and Off buttons of the power door. Weld a group of always-on contacts of the power door’s On and Off buttons on the connection points OPEN and CLOSE on the rear of the panel. 4) Continuous Mode: Press the button and the switch of the power door will receive continuous output before the power door is fully opened or closed. Add 32768 to Code0 to enable the function. Otherwise, you have to press and hold the button to get continuous output. 4) Continuous Mode: Press the button and the switch of the power door will receive continuous output before the power door is fully open or closed. Add 32768 to Code0 to enable the function. Otherwise, press and hold the button to get continuous output. 6) Add 512 to Code3 when a hydraulic pressure power door is used.
+
+2.Power Door Opening Mode: 1) Before clamp opening: The power door opens when the clamp starts opening and ejection is performed after the door is fully open. 2) After clamp opening: Ejection is performed and the door opens concurrently after the clamp is fully open.
+
+Power Door Opening Time: It is used to protect the door. If the door fails to fully open before the time expires, the door opening output will be stopped. Set the value to 0 to disable the function.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Other_Param_1</value>
+<string lang_id="0" lang="中文">窗口名：其它参数一
+
+一、座台：
+1. 斜率：加减速时间，单位为秒(S)；适当设置斜率，可使机器动作连贯柔和，但机器响应会有所变慢。
+
+2. 座台慢速调试压力、流量：调模状态下，做座台进退动作输出的压力、流量。
+
+3. 座台进慢速计时：在全自动的时候，第一模需要座台进，“座进终”或“电子尺位置”到位，使用此时间继续前进，压力、流量使用装模压力、流量。
+
+二、调模：
+1. 关模自调模低压计时：自动调模时，首次压模的持续时间 。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window：Ohter Param 1
+
+Nozzle：
+1. Slow Mold ADJ: When you manually adjust the mold, the mold is adjusted in a low speed in the beginning. If the value is 0, the mold is adjusted in a high speed from the beginning.
+
+
+2. Mold ADJ Count: counting value of the first adjustment in the automatic mold adjustment mode;
+
+
+3. ADJ Proportion: It is adjusted by 0.01mm. It is set to 5 generally, that means 0.05mm.
+
+</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Other_Param_2</value>
+<string lang_id="0" lang="中文">窗口名：其它参数二
+
+1. 液压安全门液压参数设置。
+
+2. 安全门慢速调试压力、流量：调模状态下，液压安全门开、关输出的压力和流量。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">window name：Other Param 2
+
+1. Setting of oil pressure parameters of the oil-pressure power door</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Para_Record</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">1</string>
+<string lang_id="2" lang="韩文">1</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">1</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Power</value>
+<string lang_id="0" lang="中文">窗口名：功耗监测
+
+1.伺服机才有显示此画面：统计每模每个动作的功耗曲线，且可以查看最近100模的生产功耗统计。</string>
+<string lang_id="1" lang="俄文">2</string>
+<string lang_id="2" lang="韩文">2</string>
+<string lang_id="3" lang="英文">window name：Power Consumption
+
+This figure is only available on an IMM with a servo: It shows the power consumption of each step in each cycle and can record power consumption of 100 previous cycles.</string>
+<string lang_id="4" lang="阿拉伯文">2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">2</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Prod_Moni</value>
+<string lang_id="0" lang="中文">窗口名：成品监测一
+
+1.成品监测：最多可同时监测6个参数，在成品监测二画面可查看更多参数。
+
+2.残料位置：在整个注射保压过程中记录电子尺的最小位置。</string>
+<string lang_id="1" lang="俄文">3</string>
+<string lang_id="2" lang="韩文">3</string>
+<string lang_id="3" lang="英文">window name：Product Moni
+
+1.Product Monitor: It can monitor six parameters concurrently at most. Choose parameters to be monitored in the pull-down menus.
+
+2.Residual Pos: It is the minimum position of the electric scale in the entire injection and pressure holding process.</string>
+<string lang_id="4" lang="阿拉伯文">3</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">3</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>ProdManage_1</value>
+<string lang_id="0" lang="中文">窗口名：生产管理
+
+1.每模产品数：即模具穴位数。
+
+2.每包开模数：当产品数到达设定值时，面板提示“开模包装数已到”。
+
+3.目标开模数/产品数：当产品数到达设定值时，面板提示“开模数已到”，并且停机。</string>
+<string lang_id="1" lang="俄文">4</string>
+<string lang_id="2" lang="韩文">4</string>
+<string lang_id="3" lang="英文">window name：Product Management</string>
+<string lang_id="4" lang="阿拉伯文">4</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">4</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Product_2</value>
+<string lang_id="0" lang="中文">窗口名：成品监测二
+
+1.成品监测：最多可同时监测6个参数，每个参数窗口可下拉选择需要监控的参数。
+
+2.残料位置：在整个注射保压过程中记录电子尺的最小位置。</string>
+<string lang_id="1" lang="俄文">5</string>
+<string lang_id="2" lang="韩文">5</string>
+<string lang_id="3" lang="英文">window：Product Moni 2
+
+1.Product Monitor: It can monitor six parameters concurrently at most. Choose parameters to be monitored in the pull-down menus.
+
+
+2.Residual Pos: It is the minimum position of the electric scale in the entire injection and pressure holding process.</string>
+<string lang_id="4" lang="阿拉伯文">5</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">5</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Product_Alarm</value>
+<string lang_id="0" lang="中文">窗口名：生产自动警报
+
+1.自动警报：选择使用，到F3警报参数里的“自动警报启动模数”后，会自动开启。
+
+2.射出监控：例如设置是+a 、b-，则a、b 表示自动监控允许射出位置偏差值范围。当射出完成时，射出位置与设定位置的差值超出此范围，会警报“射出监控失败“。所以该范围越小，产品良品率越高，但太小容易警报，所以应合理设置此参数。
+
+3.每一个警报计时上限，在启动自动警报时会自动统计生成，不需要人工输入。</string>
+<string lang_id="1" lang="俄文">6</string>
+<string lang_id="2" lang="韩文">6</string>
+<string lang_id="3" lang="英文">window：Product Auto Alarm
+
+1.Auto Alarm: It does not need to be enabled. When the "Auto Alarm Number" in F3 is reached, it is enabled automatically.
+
+
+2.Injection Monitor: If it is set to +a and b-, a and b define the deviation range of the injection position that auto monitoring allows. When injection completes, if the difference between the injection position and preset position exceeds the range, the alarm "Injection Monitoring Failure" will be made. A small range can ensure a low defect rate but also trigger too many alarms. Therefore, you should set a proper range.
+
+
+3.The up limit of each alarm timer is generated when auto alarm is enabled and does not need to be entered manually.</string>
+<string lang_id="4" lang="阿拉伯文">6</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">6</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>ProgUpdate</value>
+<string lang_id="0" lang="中文">窗口名：程序升级
+
+1.更新面板或主机程序：插入U盘，输入更新代码（面板代码4位，主机代码为12位,每4位一组按顺序填在配置代码、厂商代码、程序代码上）选择更新后，下方进度条会显示更新进度。</string>
+<string lang_id="1" lang="俄文">7</string>
+<string lang_id="2" lang="韩文">7</string>
+<string lang_id="3" lang="英文">window name：Program Update
+
+1.Upgrade Panel or Host Program: Insert the flash disk and enter the upgrade code. The panel code has four digits while the host code has 12. The host code comprises Config Code, Factory Code and Program Code, with four digits each. After you start upgrade, the upgrade progress will be shown with a white bar in the bottom.</string>
+<string lang_id="4" lang="阿拉伯文">7</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">7</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Pump_Cfg</value>
+<string lang_id="0" lang="中文">窗口名：泵浦配置
+
+1.选中左下方泵浦调整才能进行泵浦配置。
+
+2.配置方法：选中“泵浦调整”，设定每个动作的泵浦配置。对应的小方框设为1，表示进行该动作时此泵输出。每次改变泵浦必须按手动键确认。</string>
+<string lang_id="1" lang="俄文">8</string>
+<string lang_id="2" lang="韩文">8</string>
+<string lang_id="3" lang="英文">window name：Pump Config
+
+1.Select Pump ADJ on the left bottom.
+
+2.Config Method: Select “Pump AJD”, configure pumps for each movement. Tick off small boxes to enable output to corresponding pumps during the movement. You need to pressure ENT manually to confirm every pump modification.</string>
+<string lang_id="4" lang="阿拉伯文">8</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">8</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Pump_Cfg_x</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">9</string>
+<string lang_id="2" lang="韩文">9</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">9</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">9</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Pushtable</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">10</string>
+<string lang_id="2" lang="韩文">10</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">10</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">10</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>QC_Moni</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">11</string>
+<string lang_id="2" lang="韩文">11</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">11</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">11</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>QC_Moni_Result</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">12</string>
+<string lang_id="2" lang="韩文">12</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">12</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">12</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Safety</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">13</string>
+<string lang_id="2" lang="韩文">13</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">13</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">13</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Act</value>
+<string lang_id="0" lang="中文">窗口名：动作调试
+
+1.缺省P，I值用于油压安全门动作调整，一般每次加减50调整。
+
+2.其它参数为工程参数，客户暂不必调整。</string>
+<string lang_id="1" lang="俄文">14</string>
+<string lang_id="2" lang="韩文">14</string>
+<string lang_id="3" lang="英文">window name：Servo Action
+
+1.By default, P and I are used to adjust movements of the core, nozzle and oil-pressure power door by +50 and -50 normally.
+
+2.Others are engineering parameters and do not need to be adjusted.</string>
+<string lang_id="4" lang="阿拉伯文">14</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">14</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Cfg</value>
+<string lang_id="0" lang="中文">窗口名：伺服自学习
+
+1.自学习步骤:（必须关闭马达）
+
+1.1 选择要自学习的驱动编号，选择驱动器参数重置。
+1.2 选择电机型号，设定最大转速。
+1.3 打开油路上的安全阀，以防自学习时电机正转产生高压油。
+1.4 选择动态或者静态，选择开始自学习。
+1.5 自学习时弹出警报，自学习不成功，排除故障后重新自学习；自学习成功弹出提示“将控制模式改为EST控制”，确认后转到伺服调试画面。
+
+2.自学习时故障处理：
+
+2.1“ERR43”故障：
+a）查看驱动器F1组电机参数 ，F1-01～F1-05分别对应额定功率、额定电压、额定电流、额定频率、额定转速。若不正确，手动更正或面板上重新选择电机型号;
+b）检查电机编码器线连接是否紧固.或PG卡是否正常;
+c）检查电机油泵是否卡死;
+
+2.2“ERR2/3/4”等过流故障：检查驱动器输入输出是否短路.检查电机三相绕阻和电缆线是否对地短路或相互间短路。
+
+</string>
+<string lang_id="1" lang="俄文">15</string>
+<string lang_id="2" lang="韩文">15</string>
+<string lang_id="3" lang="英文">window name：Servo Cfg
+
+1.Self-learning step: (the motor must be switched off)
+
+1.1 Choose the number of the self-learning drive. Reset parameters of the drive.
+1.2 Choose the motor's model number and set the maximum rotate speed.
+1.3 Open the safety valve of the oil circuit to prevent high-pressure oil from being generated by forward rotation of the motor during self-learning.
+1.4 Select Static or Dynamic and start self-learning.
+1.5 If an alarm is prompted during self-learning, the self-learning fails. Re-start self-learning after the problem is solved; After self-learning succeeds, the system will prompt "Control Mode Is Changed to EST Control". After you press ENT, the system will enter serve debugging.
+
+2.Self-learning Troubleshooting:
+2.1ERR43:
+a）Check motor parameters of the drive in F1 group. F1-100 to F5-05 are motor's power, rated voltage, current, frequency and rotate speed. If any parameter is wrong, manually modify it or re-select the motor model on the panel;
+b）check if the motor's encoder is well connected and if the PG card is normal;
+c）check if the motor's oil pump is jammed;
+
+2.2“ERR2/3/4” and other over-current fault: Check if the drive's input and output are short-circuit. Check if the motor's three-phase winding and cable are power-to-ground or mutual short-circuit.
+
+</string>
+<string lang_id="4" lang="阿拉伯文">15</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">15</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Curve</value>
+<string lang_id="0" lang="中文">窗口名：伺服曲线
+
+1.勾选上相关参数才会有对应的曲线显示。
+
+2.每次只能查看一个伺服泵运行曲线，左则最下方可选择要查看的伺服编号。</string>
+<string lang_id="1" lang="俄文">16</string>
+<string lang_id="2" lang="韩文">16</string>
+<string lang_id="3" lang="英文">window：Servo Curve
+
+1.Select related parameters to display corresponding curves.
+
+2.You can only display one servo pump's running curves. Select the model of the servo to be displayed at the left bottom.</string>
+<string lang_id="4" lang="阿拉伯文">16</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">16</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Help</value>
+<string lang_id="0" lang="中文">窗口名：伺服帮助
+
+1.页面左侧可查看：调试须知、调试步骤、如何试压及如何泵浦配置的内容。
+
+2.页面右侧，输入对应的驱动器警报编号，下方自动显示故障内容和排除方法。如驱动器报“ERR10”, 就在此框输入10 。</string>
+<string lang_id="1" lang="俄文">17</string>
+<string lang_id="2" lang="韩文">17</string>
+<string lang_id="3" lang="英文">window name：Servo Help
+
+1.The left side of the page shows: commissioning tips and steps, pressure test and pump configuration instructions.
+
+2.You can enter corresponding drive alarm numbers on the right side of the page to display faults and solutions in the bottom. For example, if ERR10 occurs on the drive, enter 10.</string>
+<string lang_id="4" lang="阿拉伯文">17</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">17</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_State</value>
+<string lang_id="0" lang="中文">窗口名：伺服状态
+
+1.此页面可同时观察各个伺服泵的运行状态，尤其方便观察多泵系统的机器每个动作的泵浦配置情况。
+
+2.通讯测试： 
+2.1“丢包率%”状态显示橙色，表示丢包过多，检查通讯线连接是否良好。
+
+2.2 显示负值颜色为黑色表示有两台以上驱动编号重复。如通讯正常，进入下一步电机自学习。</string>
+<string lang_id="1" lang="俄文">18</string>
+<string lang_id="2" lang="韩文">18</string>
+<string lang_id="3" lang="英文">window name：Servo State
+
+1.You can observe running status of every servo pump on this page. It is very convenient to observe the configuration of pumps during this movement in the multi-pump system.
+
+2.Communication Test: 
+2.1When "Packet Loss Rate %" is orange, it indicates that many packets are lost. Check the communication wire.
+
+2.2 If the value is negative and the box is black, two or more drives have the same number. If the communication is sound, IMM will enter the motor parameter self-learning step.
+
+</string>
+<string lang_id="4" lang="阿拉伯文">18</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">18</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Test3</value>
+<string lang_id="0" lang="中文">窗口名：伺服调试
+
+1.伺服调试步骤：
+
+1.1 更改控制模式为“EST控制” （多泵系统副泵勿忘更改），然后开启马达。
+1.2 通过设定座退压力流量进行测量，下方可查看各种运行参数 。
+1.3多泵系统，通过储料动作进行泵浦测试，需注意开启螺杆加热。依次选择各个储料泵浦调试，查看螺杆转速是否正常。
+1.4若某个电机转向不对，右上方参数旋转方向改为1。
+
+2.调试时报ERR10”驱动器过载故障处理：
+
+2.1 观察压力是否超出，若超出则检查压力传感器，
+2.2 查看电机油泵是否匹配;
+2.3 电机油泵是否卡转;
+2.4 驱动器型号是否偏小。
+
+3.压力抖动：适当调整右侧参数‘高速增益/低速增益’数值。
+
+4.更多故障处理请查看伺服帮助。</string>
+<string lang_id="1" lang="俄文">19</string>
+<string lang_id="2" lang="韩文">19</string>
+<string lang_id="3" lang="英文">window name：Servo Debug
+
+1.Servo debugging steps:
+
+1.1 Change the control mode to “EST Control”. Do not forget to change it on slave pumps in a multi-pump system. Switch the motor on.
+1.2 Set the pressure and flow of the nozzle return process. Observe running parameters below.
+1.3The multi-pump system is tested through the charging movement. Start screw heating. Commission charging pumps one by one to see if the rotate speed of the screw is normal.
+1.4If the rotate direction of a motor is wrong, change the value of the rotate direction on the upper right corner to 1.
+
+2.ERR10 drive overload during commissioning:
+
+2.1 Check the pressure. If it exceeds the normal value, check the pressure sensor;
+2.2 check the motor's oil pump matches the motor;
+2.3 check if the oil pump is jammed;
+2.4 check if the drive is too small.
+
+3.Pressure Vibration: Adjust 'High speed gain/low speed gain' on the right side.
+
+4.See Servo Help for more failure troubleshooting</string>
+<string lang_id="4" lang="阿拉伯文">19</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">19</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Servo_Test5</value>
+<string lang_id="0" lang="中文">窗口名：伺服调试
+
+1.伺服调试步骤：
+
+1.1 更改控制模式为“EST控制” （多泵系统副泵勿忘更改），然后开启马达。
+1.2 通过设定座退压力流量进行测量，下方可查看各种运行参数 。
+1.3多泵系统，通过储料动作进行泵浦测试，需注意开启螺杆加热。依次选择各个储料泵浦调试，查看螺杆转速是否正常。
+1.4若某个电机转向不对，右上方参数旋转方向改为1。
+
+2.调试时报ERR10”驱动器过载故障处理：
+
+2.1 观察压力是否超出，若超出则检查压力传感器，
+2.2 查看电机油泵是否匹配;
+2.3 电机油泵是否卡转;
+2.4 驱动器型号是否偏小。
+
+3.压力抖动：适当调整右侧参数‘高速增益/低速增益’数值。
+
+4.更多故障处理请查看伺服帮助。</string>
+<string lang_id="1" lang="俄文">20</string>
+<string lang_id="2" lang="韩文">20</string>
+<string lang_id="3" lang="英文">window name：Servo Debug
+
+1.Servo debugging steps:
+
+1.1 Change the control mode to “EST Control”. Do not forget to change it on slave pumps in a multi-pump system. Switch the motor on.
+1.2 Set the pressure and flow of the nozzle return process. Observe running parameters below.
+1.3The multi-pump system is tested through the charging movement. Start screw heating. Commission charging pumps one by one to see if the rotate speed of the screw is normal.
+1.4If the rotate direction of a motor is wrong, change the value of the rotate direction on the upper right corner to 1.
+
+2.ERR10 drive overload during commissioning:
+
+2.1 Check the pressure. If it exceeds the normal value, check the pressure sensor;
+2.2 check the motor's oil pump matches the motor;
+2.3 check if the oil pump is jammed;
+2.4 check if the drive is too small.
+
+3.Pressure Vibration: Adjust 'High speed gain/low speed gain' on the right side.
+
+4.See Servo Help for more failure troubleshooting</string>
+<string lang_id="4" lang="阿拉伯文">20</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">20</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Cfg</value>
+<string lang_id="0" lang="中文">窗口名：系统设置
+
+1.画面显示：默认横排，表示每个动作的压力、流量、终止位置等参数的排列。
+
+2. 背景：可选择背景图片。
+
+3.网络：用主ERP软件和IE浏览器浏览或管理面板。</string>
+<string lang_id="1" lang="俄文">21</string>
+<string lang_id="2" lang="韩文">21</string>
+<string lang_id="3" lang="英文">window name：System
+
+1.Display: The layout of parameters such as pressure, flow and end positions can be vertical or horizontal.
+
+2. Appearance: The background color can be changed. Choose a background color, the background color will change; Choose a background image, the background image will change.
+
+3.Network: Use ERP and IE Browser to browse or manage the panel.</string>
+<string lang_id="4" lang="阿拉伯文">21</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">21</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para</value>
+<string lang_id="0" lang="中文">窗口名：机器系统参数一
+
+1.马达保护计时：马达在Y转△启动完成后，保护持续时间，即在这个持续时间内不允许电机动作。
+
+2.马达启动计时：马达Y启动的持续时间。
+
+3.马达需要时间：马达Y转△的，中间转换所需时间。
+
+4.马达警报计时：输入点“马达启动完成”未输入，在启动时间超过马达警报计时，报警“马达启动失败”。
+
+5.射出储能压力、流量：在有储能器的时候，射出储能过程中输出的压力.流量。
+
+6.小动作压力上限：座台、托模和中子动作的压力上限。</string>
+<string lang_id="1" lang="俄文">22</string>
+<string lang_id="2" lang="韩文">22</string>
+<string lang_id="3" lang="英文">window：System Param 1
+
+1.Motor On Hold Time: It is the protection duration after the motor completes Y-&gt;△ switch. During the period, the motor remains still;
+
+2.Motor Y Start: It is the duration of the motor's Y starting
+
+3.Motor Delta Time: It is the time that the Y-&gt;△ switch process takes;
+
+4.Motor Count: When the number is not 1, output terminals of the motors do not output;
+
+5.Motor On Alarm Time: When the input terminal "Motor On Completes" receives no input within the time, the alarm "Motor On Fails" will be made;
+
+6. Power Match 1-7: It is the proportional valve opening condition in a normal IMM system. The proportional valve only opens when an action's set flow reaches or exceeds the valve's set value.
+
+7.Injection Store Pressure/Flow: It is the pressure and flow output during the injection energy storage process when there is an energy accumulator.</string>
+<string lang_id="4" lang="阿拉伯文">22</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">22</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para_2</value>
+<string lang_id="0" lang="中文">窗口名：机器系统参数二
+
+1.液压延时：是指压力、流量经过延时后输出。
+
+2.动作延时：动作结束延时，压力、流量及阀都经过延时后关闭。</string>
+<string lang_id="1" lang="俄文">23</string>
+<string lang_id="2" lang="韩文">23</string>
+<string lang_id="3" lang="英文">window name：Machine Para2
+
+1.Hydraulic Delay: Pressure and flow are output after the delay.
+
+2.Action Delay: Pressure, flow and valves are closed after the movement and delay.</string>
+<string lang_id="4" lang="阿拉伯文">23</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">23</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para1</value>
+<string lang_id="0" lang="中文">窗口名：机器系统参数一
+
+1.马达保护计时：马达在Y转△启动完成后，保护持续时间，即在这个持续时间内不允许电机动作。
+
+2.马达启动计时：马达Y启动的持续时间。
+
+3.马达需要时间：马达Y转△的，中间转换所需时间。
+
+4.马达警报计时：输入点“马达启动完成”未输入，在启动时间超过马达警报计时，报警“马达启动失败”。
+
+5.射出储能压力、流量：在有储能器的时候，射出储能过程中输出的压力.流量。
+
+6.小动作压力上限：座台、托模和中子动作的压力上限。</string>
+<string lang_id="1" lang="俄文">24</string>
+<string lang_id="2" lang="韩文">24</string>
+<string lang_id="3" lang="英文">window：System Param 1
+
+1.Motor On Hold Time: It is the protection duration after the motor completes Y-&gt;△ switch. During the period, the motor remains still;
+
+2.Motor Y Start: It is the duration of the motor's Y starting
+
+3.Motor Delta Time: It is the time that the Y-&gt;△ switch process takes;
+
+4.Motor Count: When the number is not 1, output terminals of the motors do not output;
+
+5.Motor On Alarm Time: When the input terminal "Motor On Completes" receives no input within the time, the alarm "Motor On Fails" will be made;
+
+6. Power Match 1-7: It is the proportional valve opening condition in a normal IMM system. The proportional valve only opens when an action's set flow reaches or exceeds the valve's set value.
+
+7.Injection Store Pressure/Flow: It is the pressure and flow output during the injection energy storage process when there is an energy accumulator.</string>
+<string lang_id="4" lang="阿拉伯文">24</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">24</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para1_2</value>
+<string lang_id="0" lang="中文">窗口名：机器系统参数二
+
+1.液压延时：是指压力、流量经过延时后输出。
+
+2.动作延时：动作结束延时，压力、流量及阀都经过延时后关闭。</string>
+<string lang_id="1" lang="俄文">25</string>
+<string lang_id="2" lang="韩文">25</string>
+<string lang_id="3" lang="英文">window name：Machine Para2
+
+1.Hydraulic Delay: Pressure and flow are output after the delay.
+
+2.Action Delay: Pressure, flow and valves are closed after the movement and delay.</string>
+<string lang_id="4" lang="阿拉伯文">25</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">25</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para1_3</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">26</string>
+<string lang_id="2" lang="韩文">26</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">26</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">26</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para1_4</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">27</string>
+<string lang_id="2" lang="韩文">27</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">27</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">27</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para1_5</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">28</string>
+<string lang_id="2" lang="韩文">28</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">28</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">28</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para3</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">29</string>
+<string lang_id="2" lang="韩文">29</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">29</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">29</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para4</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">30</string>
+<string lang_id="2" lang="韩文">30</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">30</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">30</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Sys_Para5</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">31</string>
+<string lang_id="2" lang="韩文">31</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">31</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">31</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Temp</value>
+<string lang_id="0" lang="中文">窗口名：温度设定
+
+1.加温状态说明：
+
+1.1 空白：无加温；
+1.2 +：电热开启且实际温度在PID控制区之外；
+1.3 *：电热开启且实际温度在PID控制区之内；
+1.4 故障：温度异常；
+
+2.温度显示说明：
+
+2.1 显示999或777，感温线断开或接反。
+2.2 设定值不能输入表示该段未使用。
+
+3.保温功能：当保温功能使用时，料筒每段的加热温度就以保温温度设定值为目标温度。
+
+4.首段温度使用百分比加热方式，必须将首段温控缓冲区设为0。
+
+5.预温计时：有效数值范围1到30，其他数值，则下位机默认预温功能不使用。预温功能使用时，下位机检测料筒每段温度是否到达设定值，温度达到后，继续检测此时时间是否大于预温计时，如果预温计时没到而开始做射出、储料或者射退动作，则报警：预温计时未到。</string>
+<string lang_id="1" lang="俄文">32</string>
+<string lang_id="2" lang="韩文">32</string>
+<string lang_id="3" lang="英文">window name：Temp
+
+1.Heating status：
+
+1.1 Blank: No heating；
+1.2 +: Heating starts and the actual temperature exceeds the PID control range；
+1.3 *: Heating starts and the actual temperature is within the PID control range；
+1.4 ) Fault: The temperature is abnormal；
+
+2.Temp display：
+
+2.1When 999 or 777 is displayed, the temperature sensor cable is broken or reversely connected.
+2.2 When the field cannot be entered, the field is disabled.
+
+3.3.Change "Manual Temp Control Cycle" to "First Section Temp Control Cycle" followed by S as the unit. Change "Manual Heating Percentage" to "Heating Percentage"; use the percentage heating mode to heat the first section. The temperature control buffer of the first section must be set to 0.
+
+4.Heater Warm Time: When each section’s actual temperature reaches the effective temperature, the timer starts. Injection, charging, purging and suck-back can only be performed after the time expires;the effective temperature = preset temperature – 5 centigrade.</string>
+<string lang_id="4" lang="阿拉伯文">32</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">32</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Temp_Func</value>
+<string lang_id="0" lang="中文">窗口名：温度功能
+
+1.定时开启和关闭加温设定：设定起始时间并选择使用，定时加温生效。</string>
+<string lang_id="1" lang="俄文">33</string>
+<string lang_id="2" lang="韩文">33</string>
+<string lang_id="3" lang="英文">window name：Temp Function
+
+1.Heating Timer: Set and enable the start time when heating starts.</string>
+<string lang_id="4" lang="阿拉伯文">33</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">33</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Temp_Param_1</value>
+<string lang_id="0" lang="中文">窗口名：温度参数一
+
+1. 缓冲区含义：例：设定温度200 ℃ ，缓冲区设定值为30，则实际加热温度大于等于170 ℃时，关闭电热，进入缓冲加热。
+
+2. 缓冲区设为0 ，关闭相应温度段。
+
+3. 缓冲区&gt;1，缓冲区自动整定加热方式；如：设定温度200℃，缓冲区为30，首次加温实际到达205 ℃，而后开始下降，则缓冲区自动设定为35，如果温度只达到190 ℃，则缓冲区自动设为20。
+
+4. 缓冲区=1，固定缓冲区加热方式；首尾段温度缓冲区将使用参数二内的“温控缓冲区”，中间段缓冲区= 温控缓冲区*2。
+
+5. 温控x段系数，程序内部控制系数，与调整无关。</string>
+<string lang_id="1" lang="俄文">34</string>
+<string lang_id="2" lang="韩文">34</string>
+<string lang_id="3" lang="英文">window：Temp Param 1
+
+1. Buffer: For instance, if the preset temperature is 200 centigrade and the buffer is 30, heating will be stopped when the actual temperature is equal to or larger than 170 centigrade.
+
+
+2. When the buffer is 0, the corresponding temperature section is disabled.
+
+
+3. When the buffer is larger than 1, the buffer self-tunes the heating mode; For example, the preset value is 200 centigrade and the buffer is 30, the initial actual temperature reaches 205 centigrade and then starts to fall, then the buffer will be set to 35. If the temperature only reaches 190 centigrade, the buffer will be set to 20.
+
+
+4. If the buffer is 1, the heating mode in the buffer area is fixed; the buffer for the first and last section is the Temp Control Buffer in PAR2 and that for the middle sections is Temp Control Buffer *2;
+
+
+5. Temperature control x coefficient, internal control coefficient, irrelevant to adjustment</string>
+<string lang_id="4" lang="阿拉伯文">34</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">34</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Temp_Param_2</value>
+<string lang_id="0" lang="中文">窗口名：温度参数二
+
+1.油温高开冷却：
+（油箱实际温度≥油温上限-油温高开冷却值时，开启油箱温度冷却器）
+
+2.油温低关冷却：
+（油箱实际温度≤油温下限-油温低关冷却值时，关闭油箱温度冷却器）
+
+3.料管冷却开偏差值：料管温度高于（设定温度+此值），冷却风扇开。
+
+4.料管冷却关偏差值：料管温度低于（设定温度-此值），冷却风扇关。
+
+5.电热连续加温不检查：如设定值为0，加热过程中检测到料筒某段的温度在200秒内没有变化，即警报“温度没有上升”；设定值为1，不作检查。</string>
+<string lang_id="1" lang="俄文">35</string>
+<string lang_id="2" lang="韩文">35</string>
+<string lang_id="3" lang="英文">window name：Temp Param 2
+
+1.Cooling On Temp：
+IMM starts cooling when the oil temperature exceeds the value.
+
+2.Cooling Off Temp：
+IMM stops cooling when the oil temperature is lower than the value.
+
+3.Tube Fan On Difference：The cooling fan is turned on when the difference between the charge tube’s temperature and set temperature is reached.
+
+4.Tube Fan Off Difference: The cooling fan is turned off when the difference between the charge tube’s temperature and set temperature is reached.</string>
+<string lang_id="4" lang="阿拉伯文">35</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">35</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Tempx</value>
+<string lang_id="0" lang="中文">窗口名：温度设定
+
+1.加温状态说明：
+
+1.1 空白：无加温；
+1.2 +：电热开启且实际温度在PID控制区之外；
+1.3 *：电热开启且实际温度在PID控制区之内；
+1.4 故障：温度异常；
+
+2.温度显示说明：
+
+2.1 显示999或777，感温线断开或接反。
+2.2 设定值不能输入表示该段未使用。
+
+3.保温功能：当保温功能使用时，料筒每段的加热温度就以保温温度设定值为目标温度。
+
+4.首段温度使用百分比加热方式，必须将首段温控缓冲区设为0。
+
+5.预温计时：有效数值范围1到30，其他数值，则下位机默认预温功能不使用。预温功能使用时，下位机检测料筒每段温度是否到达设定值，温度达到后，继续检测此时时间是否大于预温计时，如果预温计时没到而开始做射出、储料或者射退动作，则报警：预温计时未到。</string>
+<string lang_id="1" lang="俄文">36</string>
+<string lang_id="2" lang="韩文">36</string>
+<string lang_id="3" lang="英文">window name：Temp
+
+1.Heating status：
+
+1.1 Blank: No heating；
+1.2 +: Heating starts and the actual temperature exceeds the PID control range；
+1.3 *: Heating starts and the actual temperature is within the PID control range；
+1.4 ) Fault: The temperature is abnormal；
+
+2.Temp display：
+
+2.1When 999 or 777 is displayed, the temperature sensor cable is broken or reversely connected.
+2.2 When the field cannot be entered, the field is disabled.
+
+3.3.Change "Manual Temp Control Cycle" to "First Section Temp Control Cycle" followed by S as the unit. Change "Manual Heating Percentage" to "Heating Percentage"; use the percentage heating mode to heat the first section. The temperature control buffer of the first section must be set to 0.
+
+4.Heater Warm Time: When each section’s actual temperature reaches the effective temperature, the timer starts. Injection, charging, purging and suck-back can only be performed after the time expires;the effective temperature = preset temperature – 5 centigrade.</string>
+<string lang_id="4" lang="阿拉伯文">36</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">36</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>User_Manage</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">Там нет помощи для этого окна</string>
+<string lang_id="2" lang="韩文">이 창에 대한 도움말이 없습니다</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">37</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">37</string>
+<string lang_id="7" lang="土耳其语">Bu pencere için yardım yok</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="1">
+<value>Version</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                     此窗口暂无帮助</string>
+<string lang_id="1" lang="俄文">Там нет помощи для этого окна</string>
+<string lang_id="2" lang="韩文">이 창에 대한 도움말이 없습니다</string>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                     No Help</string>
+<string lang_id="4" lang="阿拉伯文">38</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">38</string>
+<string lang_id="7" lang="土耳其语">Bu pencere için yardım yok</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

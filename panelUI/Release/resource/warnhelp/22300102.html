@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中子C动作位置偏差</title>
+
+<style type="text/css">
+.警报标题 {
+ color: #900;
+ font-size: 18px;
+    font-weight: bold;
+}
+.标题 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.文本 {
+    font-size: 18px;
+}
+.backcolor {
+ color:rgb(0,111,55);
+ word-spacing: normal;
+}
+</style>
+</head>
+<body style="width:650px;">
+    <h2 class="警报标题">警报名称：中子C动作位置偏差(22300102)</h2>
+<br />
+<p class="标题">警报说明</p>
+<p class="文本">中子保护选择“1”时，开模前做中子动作，开关模电子尺位置超出警报偏差范围。</p>
+<br />
+<p class="标题">排除方法</p>
+<p class="文本">1.查看面板I/O界面“关模终”输入是否正常，关模终行程开关是否损坏；<br />查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。<br />2.查看中子动作位置参数和开模位置有效区位置设置是否正确。<br />提示：0＜中子动作位置-开模位置有效区 ＜ 当前开关模电子尺位置 ＜ 中子动作位置+开模位置有效区。<br />3.适当的调整开关模速度。</p>
+<br />
+<p><img src = "page1.png" width = "520" height = "172"/></p>
+</body>
+</html>

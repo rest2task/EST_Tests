@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Panel_DetailInfo" 可见="-1" 标题="0:其他信息|||1:Прочее |||2:기타|||3:OtherInfo|||4: أخرى . |||5:Autres|||6:Otros|||7:diğer|||8:دیگر|||9:outros|||10:Khác|||default:OtherInfo" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="91" 宽度="176" 高度="24" 语言表索引="0" 文本="0:24小时写次数上限|||1:24HourWriteMax|||2:24HourWriteMax|||3:24HourWriteMax|||6:24HourWriteMax|||7:24HourWriteMax|||9:24HourWriteMax|||10:24HourWriteMax|||4:24HourWriteMax|||5:24HourWriteMax|||8:24HourWriteMax|||default:24HourWriteMax" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label200" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="181" 宽度="176" 高度="24" 语言表索引="0" 文本="0:连续多少模写文件|||1:Continue file writing|||2:Continue file writing|||3:Continue file writing|||6:Continue file writing|||7:Continue file writing|||9:Continue file writing|||10:Continue file writing|||4:Continue file writing|||5:Continue file writing|||8:Continue file writing|||default:Continue file writing" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="261" 宽度="176" 高度="24" 语言表索引="0" 文本="0:写文件总次数|||1:Write File Total Cnt|||2:Write File Total Cnt|||3:Write File Total Cnt|||4:Write File Total Cnt|||5:Write File Total Cnt|||6:Write File Total Cnt|||7:Write File Total Cnt|||8:Write File Total Cnt|||9:Write File Total Cnt|||10:Write File Total Cnt|||default:Write File Total Cnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label201" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="51" 宽度="125" 高度="24" 语言表索引="0" 文本="0:设定|||1:Set|||2:Set|||3:Set|||4:Set|||5:Set|||6:Set|||7:Set|||8:Set|||9:Set|||10:Set|||default:Set" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="91" 宽度="125" 高度="24" 文本="1.00" 字体="宋体" 字号="18" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:1.00" 关联变量="p.PP.MACHSET.24HOURWRITEFILEMAX" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="5000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.24HOURWRITEFILEMAX"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit2" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="181" 宽度="125" 高度="24" 文本="1.00" 字体="宋体" 字号="18" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:1.00" 关联变量="p.PP.MACHSET.ContinueWriteFilw" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="5000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.ContinueWriteFilw"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editTotal" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="261" 宽度="125" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPVAL1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label204" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="145" 宽度="125" 高度="24" 语言表索引="0" 文本="0:设定|||1:Set|||2:Set|||3:Set|||4:Set|||5:Set|||6:Set|||7:Set|||8:Set|||9:Set|||10:Set|||default:Set" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label202" 索引="0" 可见="-1" 可用="-1" 左="324" 顶="51" 宽度="125" 高度="24" 语言表索引="0" 文本="0:计时(h:min)|||1:Time(h:min)|||2:Time(h:min)|||3:Time(h:min)|||4:Time(h:min)|||5:Time(h:min)|||6:Time(h:min)|||7:Time(h:min)|||8:Time(h:min)|||9:Time(h:min)|||10:Time(h:min)|||default:Time(h:min)" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit109" 索引="0" 可见="-1" 可用="-1" 左="324" 顶="91" 宽度="59" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPVAL2" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label205" 索引="0" 可见="-1" 可用="-1" 左="324" 顶="145" 宽度="125" 高度="24" 语言表索引="0" 文本="0:连续模数|||1:Continue Cnt|||2:Continue Cnt|||3:Continue Cnt|||4:Continue Cnt|||5:Continue Cnt|||6:Continue Cnt|||7:Continue Cnt|||8:Continue Cnt|||9:Continue Cnt|||10:Continue Cnt|||default:Continue Cnt" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit110" 索引="0" 可见="-1" 可用="-1" 左="324" 顶="181" 宽度="125" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPVAL4" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label206" 索引="0" 可见="-1" 可用="-1" 左="382" 顶="91" 宽度="15" 高度="24" 语言表索引="0" 文本="0::|||1::|||2::|||3::|||4::|||5::|||6::|||7::|||8::|||9::|||10::|||default::" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit112" 索引="0" 可见="-1" 可用="-1" 左="395" 顶="91" 宽度="59" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPVAL5" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label203" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="51" 宽度="125" 高度="24" 语言表索引="0" 文本="0:写文件次数|||1:Write File Cnt|||2:Write File Cnt|||3:Write File Cnt|||4:Write File Cnt|||5:Write File Cnt|||6:Write File Cnt|||7:Write File Cnt|||8:Write File Cnt|||9:Write File Cnt|||10:Write File Cnt|||default:Write File Cnt" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="91" 宽度="125" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPVAL3" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label207" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="421" 宽度="176" 高度="24" 语言表索引="0" 文本="0:保存警报间隔时间|||1:Save Interval Tm|||2:Save Interval Tm|||3:Save Interval Tm|||6:Save Interval Tm|||7:Save Interval Tm|||9:Save Interval Tm|||10:Save Interval Tm|||4:Save Interval Tm|||5:Save Interval Tm|||8:Save Interval Tm|||default:Save Interval Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit113" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="421" 宽度="125" 高度="24" 文本="1.00" 字体="宋体" 字号="18" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:1.00" 关联变量="p.PP.MACHSET.ALARM_WRITETM" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="5000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.ALARM_WRITETM"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label208" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="421" 宽度="30" 高度="24" 语言表索引="0" 文本="0:分|||1:миним|||2:최소값|||3:min|||4:Min|||5:Min|||6:Min|||7:Mini|||8:حداقل|||9:min|||10:p|||default:min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.TOKEEPWARM_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelmem" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="341" 宽度="176" 高度="24" 语言表索引="0" 文本="0:内存使用情况|||1:Mem Used|||2:Mem Used|||3:Mem Used|||4:Mem Used|||5:Mem Used|||6:Mem Used|||7:Mem Used|||8:Mem Used|||9:Mem Used|||10:Mem Used|||default:Mem Used" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit114" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="341" 宽度="175" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="default:0" 关联变量="p.PP.TMP.TMPSTR1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR1"/>
+</element>
+<horz order="0" ele_index="7" ele_name="edit1"/>
+<horz order="1" ele_index="8" ele_name="edit2"/>
+<horz order="2" ele_index="20" ele_name="edit113"/>
+<vert order="0" ele_index="7" ele_name="edit1"/>
+<vert order="1" ele_index="8" ele_name="edit2"/>
+<vert order="2" ele_index="20" ele_name="edit113"/>
+<tab order="0" ele_index="7" ele_name="edit1"/>
+<tab order="1" ele_index="8" ele_name="edit2"/>
+<tab order="2" ele_index="20" ele_name="edit113"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="_input_range_labellabel"/>
+<id order="2" ele_index="2" ele_name="_input_range_label"/>
+<id order="3" ele_index="3" ele_name="label4"/>
+<id order="4" ele_index="4" ele_name="label200"/>
+<id order="5" ele_index="5" ele_name="label26"/>
+<id order="6" ele_index="6" ele_name="label201"/>
+<id order="7" ele_index="7" ele_name="edit1"/>
+<id order="8" ele_index="8" ele_name="edit2"/>
+<id order="9" ele_index="9" ele_name="editTotal"/>
+<id order="10" ele_index="10" ele_name="label204"/>
+<id order="11" ele_index="11" ele_name="label202"/>
+<id order="12" ele_index="12" ele_name="edit109"/>
+<id order="13" ele_index="13" ele_name="label205"/>
+<id order="14" ele_index="14" ele_name="edit110"/>
+<id order="15" ele_index="15" ele_name="label206"/>
+<id order="16" ele_index="16" ele_name="edit112"/>
+<id order="17" ele_index="17" ele_name="label203"/>
+<id order="18" ele_index="18" ele_name="edit111"/>
+<id order="19" ele_index="19" ele_name="label207"/>
+<id order="20" ele_index="20" ele_name="edit113"/>
+<id order="21" ele_index="21" ele_name="label208"/>
+<id order="22" ele_index="22" ele_name="labelmem"/>
+<id order="23" ele_index="23" ele_name="edit114"/>
+</element>

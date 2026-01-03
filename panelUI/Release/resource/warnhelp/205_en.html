@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<p>window name：Lubrication</p>
+<p>1.There are three independent lubrication system: Lub 1, 2 and 3.  Lub 1 is used by default. </p>
+<p><br />
+  2.Lub Mode: There are three lubrication modes: 1, 2 and 3.  </p>
+<p> 2.1 Enter 0 to use the time lubrication mode: Single lubrication is performed according to Auto Lub Time. </p>
+<p><br />
+2.2 To enter 1, the pressure detecting relay should be installed at the outlet of the lubrication pump: Lubrication starts, "Auto Lub Time" immediately detects the input terminal of "Lub Detect". 1 is invalid, alarm; 2 is valid, check if "Auto Lub Total Time" expires. If yes, stop lubrication. If not, continue lubrication. When "Auto Lub Delay Time" expires, check if the total time expires. If yes, stop lubrication; if not, start the second lubrication cycle. </p>
+<p><br />
+  2.3 To enter 2, the pressure detecting relay should be installed at the end of the lubricant circuit: Lubrication starts. If "Auto Lub Time" expires first, perform step 2.2; if "Lub Detect" becomes valid first, check if the total time expires. When it expires, stop lubrication. If not, continue lubrication until the lubrication delay time expires. Check if the total time expires again. If yes, stop lubrication. If not, start the second lubrication cycle</p>
+<p><br />
+  3.Auto Lub Count: It is the number of cycle counts before lubrication is started.  </p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+login config_dlg  Login;
+login config_jump 0 ProgUpdate;
+login config_jump 1 Sys_Cfg;
+login config_jump 2 Servo_State;
+login config_jump 3 AD_Adjust;
+login config_jump 4 Install;
+login config_jump 5 Safety;
+login config_jump 6 Main_Adjust;
+login config_jump 7 Syscfg_Ctrl;
+login config_jump 8 Temp_Adj;
+login config_jump 9 NetCfg;
+login config_jump 10 NetForm;
+login config_jump 11 Main_Record;

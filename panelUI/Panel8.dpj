@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Panel8" mach="0" fact="2" exe_ver="2.0.0.3" key_map="0">
+<sys_admin>
+<sys name="MapDrv" title="数据表">
+<item>week</item>
+<item>alarm</item>
+<item>act</item>
+<item>step</item>
+<item>servo_run_state</item>
+<item>servo_comm_state</item>
+<item>can_state</item>
+<item>output</item>
+<item>input</item>
+<item>operatmoni</item>
+<item>information</item>
+<item>servo_state</item>
+<item>phase_motor</item>
+<item>inovance_motor</item>
+<item>servo_self_learn</item>
+<item>servo_alarm_help</item>
+<item>text_table</item>
+<item>heat_state</item>
+<item>alarm_help</item>
+<item>page_help</item>
+<item>iot_state</item>
+<item>power_type</item>
+<item>mach_type</item>
+<item>use_type</item>
+<item>main_cmd</item>
+<item>panel_rec</item>
+<item>vlv_logic</item>
+<item>servo_alarm</item>
+<item>pump_func</item>
+</sys>
+<sys name="KeyMap" title="KeyMap">
+<item>KeyMap</item>
+<item>KeyMap-G15</item>
+<item>KeyMap-G15Board</item>
+</sys>
+</sys_admin>
+<io_admin>
+<io name="EstDEV" title="伊士通设备">
+<item>设备参数</item>
+</io>
+<io name="UnitMap" title="UnitMap"/>
+</io_admin>
+</project>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Sys_ParaLimit" 可见="-1" 标题="0:上限设定|||1:Limit Set|||2:Limit Set|||3:Limit Set|||6:Limit Set|||7:Limit Set|||9:Limit Set|||10:Limit Set|||4:Limit Set|||5:Limit Set|||8:Limit Set|||default:Limit Set" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox3" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="291" 高度="330" 文本="0:压力上限|||1:ДавлMакс|||2:압력 상한|||3:Press Max|||4:الحد الضغط العلوي|||5:Press Max|||6:Prs Máx|||7:Basın Maks|||8:سقف فشار|||9:Pressão Máx|||10:GHT áp.s|||default:Press Max" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label51" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="56" 宽度="183" 高度="24" 语言表索引="0" 文本="0:开关模压力上限|||1:МаксДавлСжатия|||2:형체 압력 상한|||3:Clamp Prs Max|||4:ضغط صب الحد من التبديل|||5:Clamp Prs Max|||6:Presión máxima de cierre|||7:Mengne Basın Maks|||8:سقف فشار گیره|||9:Clamp Limite Pressão|||10:Đ.mở k GHT AS|||default:Clamp Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label52" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="196" 宽度="183" 高度="24" 语言表索引="0" 文本="0:调模压力上限|||1:УстнМаксДвлСжат|||2:금형 조정압력 상한|||3:Adjust Prs Max|||4:نقل الحد ضغط الوضع|||5:Adjust Prs Max|||6:Presión máxima de ajuste|||7:Ayarı Basın Maks|||8:سقف فشار تنظیم|||9:Ajuste Pressão Limite|||10:GH trên AS diều chỉnh k.|||default:Adjust Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="224" 宽度="183" 高度="24" 语言表索引="0" 文本="0:储料背压压力上限|||1:Предел Противодавл.|||2:계량 배압 압력 상한|||3:Chg BackPrs Max|||4:تخزين المواد الحد احداهما|||5:Chg BackPrs Max|||6:Carga ConPrs Máx|||7:İtici ArkaBasın Maks|||8:شارژ حداکثر فشار برگشتی|||9:Carregar ContraPrs MáX|||10:Trữ L.GHT AS ngược|||default:Chg BackPrs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label55" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="252" 宽度="183" 高度="24" 语言表索引="0" 文本="0:小动作压力上限|||1:ДругМаксДавл|||2:기타압력상한|||3:Other Prs Max|||4:حد الضغط خدعة|||5:Other Prs Max|||6:Presión máxima otros|||7:Diğer Basın Maks|||8:سقف فشار دیگر|||9:Outros Pressão Limite|||10:GHT AS đ.tác nhỏ|||default:Other Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit31" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="56" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAPRES_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_CLPLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_CLPLIMIT"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit32" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="196" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAPRES_ADJUSTLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_ADJUSTLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_ADJUSTLIMIT"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit34" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="224" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="14" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.BACK_PRS_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit35" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="252" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAPRES_LIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_LIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_LIMIT"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label54" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="140" 宽度="183" 高度="24" 语言表索引="0" 文本="0:储料压力上限|||1:ЗарядкаПрессПредел|||2:계량 압력 상한|||3:Charge Prs Max|||4:تخزين الحد الضغط|||5:Charge Prs Max|||6:Presión máxima de carga|||7:Mal Alm Basın Maks|||8:سقف فشار شارژ|||9:Carregar Pressão Limite|||10:Giới hạn trên của AS trữ L.|||default:Charge Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit33" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="140" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAPRES_CHARGELIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_CHARGELIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_CHARGELIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox5" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="10" 宽度="281" 高度="330" 文本="0:速度上限|||1:МаксСкорость|||2:속도 상한|||3:Speed Max|||4:حد السرعة|||5:Speed Max|||6:Vel Máx|||7:Hız Maks|||8:سقف سرعت|||9:Fluxo Máx|||10:GHT TĐ|||default:Speed Max" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label64" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="56" 宽度="190" 高度="24" 语言表索引="0" 文本="0:开关模速度上限|||1:ОткЗакрФормыСкормакс|||2:형체 속도 최대값|||3:Clamp Spd Max|||4:المشبك سرعة ماكس|||5:Clamp Spd Max|||6:Cierre Veloc Máx|||7:Mengene Hız Maks|||8:سقف سرعت گیره|||9:Clamp Fluxo Max|||10:Đ.mở khu. Tốc độ GHT|||default:Clamp Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit40" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="56" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_CLPLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_CLPLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label65" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="84" 宽度="183" 高度="24" 语言表索引="0" 文本="0:关模低压压力上限|||1:Закр.Низ.максДавл|||2:형폐 저압 압력 상한|||3:Cls LowPrs Prs Max|||4:أقصى تحامل  الضغط المنخفض|||5:Cls LowPrs Prs Max|||6:Cierre BajaPrs Prs Máx|||7:Kapat DüşBas Maks Bas|||8:سقف فشار فشار پایین بستن|||9:Fechar BaixaPrs MáX|||10:Giới hạn trên áp suất thấp áp đóng khuôn|||default:Cls LowPrs Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit41" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="84" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DALOWPRES_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DALOWPRES_CLPLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DALOWPRES_CLPLIMIT"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label66" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="84" 宽度="190" 高度="24" 语言表索引="0" 文本="0:关模低压速度上限|||1:Закр.Низ.максCкор|||2:형폐 저압 속도 상한|||3:Cls LowPrs Spd Max|||4:قبالة ضغط منخفض|||5:Cls LowPrs Spd Max|||6:Cierre BajaPrs Veloc Máx|||7:Kapat DüşBas Maks Zman|||8:سقف سرعت فشار پایین بستن|||9:Fechar BaixaPrs Fluxo Máx|||10:Giới hạn trên tốc độ thấp áp đóng khuôn|||default:Cls LowPrs Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit42" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="84" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DALOWFLOW_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DALOWFLOW_CLPLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DALOWFLOW_CLPLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label67" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="112" 宽度="183" 高度="24" 语言表索引="0" 文本="0:关模高压压力上限|||1:Закр.Выс.максДавл|||2:형폐 고압 압력 상한|||3:Cls HiPrs Prs Max|||4:الحد من الضغط العالي|||5:Cls HiPrs Prs Max|||6:Cierre AltaPrs Pres Máx|||7:Kapat YükBas Bas Maks|||8:سقف فشار بالای بستن|||9:Fechar AltaPrs Prs MáX|||10:GHT AS c.áp khóa.k|||default:Cls HiPrs Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit43" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="112" 宽度="70" 高度="24" 文本="140" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:140" 关联变量="d.autoctrl1.MOLDSET.DAHIPRES_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAHIPRES_CLPLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAHIPRES_CLPLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label68" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="112" 宽度="190" 高度="24" 语言表索引="0" 文本="0:关模高压速度上限|||1:Закр.Выс.максCкор|||2:형폐 고압 속도 상한|||3:Cls HiPrs Spd Max|||4:حد سرعة الضغط العالي|||5:Cls HiPrs Spd Max|||6:Cierre AltaPrs Veloc Máx|||7:Kapat YükBas Maks Hız|||8:سقف سرعت فشار بالای بستن|||9:Fechar AltaPrs Fluxo Máx |||10:GHT TĐ c.áp đóng k.|||default:Cls HiPrs Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit44" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="112" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAHIFLOW_CLPLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAHIFLOW_CLPLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAHIFLOW_CLPLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label37" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="140" 宽度="190" 高度="24" 语言表索引="0" 文本="0:储料速度上限|||1:ОбъемЗагрузкиПредел|||2:계량 속도 상항|||3:Charge Spd Max|||4:تخزين الحد الأقصى للسرعة|||5:Charge Spd Max|||6:Velocidad máxima de carga|||7:Mal Alm Hız Maks|||8:سقف سرعت شارژ|||9:Carregar Fluxo Limite|||10:Giới hạn trên tốc độ trữ L.|||default:Charge Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit16" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="140" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_CHARGELIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_CHARGELIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_CHARGELIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label58" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="168" 宽度="190" 高度="24" 语言表索引="0" 文本="0:托模速度上限|||1:МаксОбъмОтвода|||2:에젝트속도상한|||3:Eject Spd Max|||4:الحد الأقصى للسرعة القاذف|||5:Eject Spd Max|||6:Velocidad máxima expulsión|||7:İtici Hız Maks|||8:سقف سرعت EJ|||9:Eject Fluxo Limite|||10:GHT TĐ đỡ k.|||default:Eject Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit38" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="168" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_EJECTLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_EJECTLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_EJECTLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label69" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="168" 宽度="183" 高度="24" 语言表索引="0" 文本="0:托模压力上限|||1:ТолкательДавлМакс|||2:최대 과압 범위 이젝터|||3:Eject Prs Max|||4:ضغط الحد القاذف|||5:Eject Prs Max|||6:Presión máxima expulsión|||7:İtici Bas Maks|||8:زمان تاخیر|||9:Eject Prs Máx|||10:GHT AS đỡ k.|||default:Eject Prs Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit45" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="168" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAPRES_EJECTLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAPRES_EJECTLIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_EJECTLIMIT"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label57" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="196" 宽度="190" 高度="24" 语言表索引="0" 文本="0:调模速度上限|||1:РегМаксОбъем|||2:금형조정속도상한|||3:Adjust Spd Max|||4:الحد الأقصى للسرعة القالب|||5:Adjust Spd Max|||6:Velocidad máxima ajuste|||7:Ayarı Hız Maks|||8:سقف سرعت تنظیم|||9:Ajustar Fluxo Limite|||10:GH trên TĐC|||default:Adjust Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit37" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="196" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_ADJUSTLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_ADJUSTLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_ADJUSTLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label56" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="224" 宽度="190" 高度="24" 语言表索引="0" 文本="0:座台速度上限|||1:МаксОбъемСопла|||2:노즐속도상한|||3:Nozzle Spd Max|||4:مقعد الحد لسرعة الجدول|||5:Nozzle Spd Max|||6:Velocidad máxima tobera|||7:Grup Hız Maks|||8:سقف سرعت بینی|||9:Bico Fluxo Limite|||10:Giới hạn trên tốc độ bệ|||default:Nozzle Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit36" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="224" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_NOZZLELIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_NOZZLELIMIT"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_NOZZLELIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label59" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="252" 宽度="190" 高度="24" 语言表索引="0" 文本="0:保压速度上限|||1:МаксОбъмВыдДавл|||2:보압속도상한|||3:Hold Spd Max|||4:اضغط على الضغط|||5:Hold Spd Max|||6:Velocidad máxima posterior presión|||7:Tutma Hız Maks|||8:سقف سرعتحفظ فشار |||9:Hold Fluxo Limite|||10:Giữ áp giới hạn trên tốc độ|||default:Hold Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit39" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="252" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label70" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="56" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="84" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="112" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label73" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="140" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label74" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="168" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label75" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="196" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label76" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="224" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label77" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="252" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label78" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="56" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label79" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="84" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label80" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="112" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label81" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="140" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label82" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="168" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label83" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="196" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label84" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="224" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label85" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="252" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelpsw" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="28" 宽度="183" 高度="24" 语言表索引="0" 文本="0:密码|||1:Пароль|||2:비밀번호|||3:Password|||4:Password|||5:Password|||6:Contraseña|||7:Şifre|||8:Password|||9:Senha|||10:Mật khẩu|||default:Password" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editpsw" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="28" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="p.PP.TMP.TMPVAL58" 延迟更新="0" 只读="0" 密码模式="-1" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="999999" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL58"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL58"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label209" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="280" 宽度="190" 高度="24" 语言表索引="0" 文本="0:射出速度上限|||1:ВпрыскмаксCкор|||2:사출 속도 상한|||3:Inject Spd Max|||5:Inject Spd Max|||6:Inyect Vel Máx|||7:Enjek Hız Maks|||9:Injetar Fluxo Máx|||10:GHT TĐ Bắn ra|||default:Inject Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit110" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="280" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAFLOW_INJECTLIMIT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAFLOW_INJECTLIMIT"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label210" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="280" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label216" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="308" 宽度="190" 高度="24" 语言表索引="0" 文本="0:射退速度上限|||1:|||2:|||3:SuckBack Spd Max|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:Inject Spd Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="308" 宽度="70" 高度="24" 文本="99" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:99" 关联变量="d.autoctrl1.MOLDSET.DAHIFLOW_SUCKBACKLIMIT_NEW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.autoctrl1.MOLDSET.DAHIFLOW_SUCKBACKLIMIT_NEW"/>
+<var prop="文本" orient="out" tag="d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label217" 索引="0" 可见="-1" 可用="-1" 左="577" 顶="308" 宽度="15" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+</element>
+<horz order="0" ele_index="54" ele_name="editpsw"/>
+<horz order="1" ele_index="6" ele_name="edit31"/>
+<horz order="2" ele_index="14" ele_name="edit40"/>
+<horz order="3" ele_index="16" ele_name="edit41"/>
+<horz order="4" ele_index="18" ele_name="edit42"/>
+<horz order="5" ele_index="20" ele_name="edit43"/>
+<horz order="6" ele_index="22" ele_name="edit44"/>
+<horz order="7" ele_index="11" ele_name="edit33"/>
+<horz order="8" ele_index="24" ele_name="edit16"/>
+<horz order="9" ele_index="28" ele_name="edit45"/>
+<horz order="10" ele_index="26" ele_name="edit38"/>
+<horz order="11" ele_index="7" ele_name="edit32"/>
+<horz order="12" ele_index="30" ele_name="edit37"/>
+<horz order="13" ele_index="8" ele_name="edit34"/>
+<horz order="14" ele_index="32" ele_name="edit36"/>
+<horz order="15" ele_index="9" ele_name="edit35"/>
+<horz order="16" ele_index="34" ele_name="edit39"/>
+<horz order="17" ele_index="56" ele_name="edit110"/>
+<horz order="18" ele_index="59" ele_name="edit111"/>
+<vert order="0" ele_index="54" ele_name="editpsw"/>
+<vert order="1" ele_index="6" ele_name="edit31"/>
+<vert order="2" ele_index="16" ele_name="edit41"/>
+<vert order="3" ele_index="20" ele_name="edit43"/>
+<vert order="4" ele_index="11" ele_name="edit33"/>
+<vert order="5" ele_index="28" ele_name="edit45"/>
+<vert order="6" ele_index="7" ele_name="edit32"/>
+<vert order="7" ele_index="8" ele_name="edit34"/>
+<vert order="8" ele_index="9" ele_name="edit35"/>
+<vert order="9" ele_index="14" ele_name="edit40"/>
+<vert order="10" ele_index="18" ele_name="edit42"/>
+<vert order="11" ele_index="22" ele_name="edit44"/>
+<vert order="12" ele_index="24" ele_name="edit16"/>
+<vert order="13" ele_index="26" ele_name="edit38"/>
+<vert order="14" ele_index="30" ele_name="edit37"/>
+<vert order="15" ele_index="32" ele_name="edit36"/>
+<vert order="16" ele_index="34" ele_name="edit39"/>
+<vert order="17" ele_index="56" ele_name="edit110"/>
+<vert order="18" ele_index="59" ele_name="edit111"/>
+<tab order="0" ele_index="54" ele_name="editpsw"/>
+<tab order="1" ele_index="6" ele_name="edit31"/>
+<tab order="2" ele_index="16" ele_name="edit41"/>
+<tab order="3" ele_index="20" ele_name="edit43"/>
+<tab order="4" ele_index="11" ele_name="edit33"/>
+<tab order="5" ele_index="28" ele_name="edit45"/>
+<tab order="6" ele_index="7" ele_name="edit32"/>
+<tab order="7" ele_index="8" ele_name="edit34"/>
+<tab order="8" ele_index="9" ele_name="edit35"/>
+<tab order="9" ele_index="14" ele_name="edit40"/>
+<tab order="10" ele_index="18" ele_name="edit42"/>
+<tab order="11" ele_index="22" ele_name="edit44"/>
+<tab order="12" ele_index="24" ele_name="edit16"/>
+<tab order="13" ele_index="26" ele_name="edit38"/>
+<tab order="14" ele_index="30" ele_name="edit37"/>
+<tab order="15" ele_index="32" ele_name="edit36"/>
+<tab order="16" ele_index="34" ele_name="edit39"/>
+<tab order="17" ele_index="56" ele_name="edit110"/>
+<tab order="18" ele_index="59" ele_name="edit111"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox3"/>
+<id order="2" ele_index="2" ele_name="label51"/>
+<id order="3" ele_index="3" ele_name="label52"/>
+<id order="4" ele_index="4" ele_name="label53"/>
+<id order="5" ele_index="5" ele_name="label55"/>
+<id order="6" ele_index="6" ele_name="edit31"/>
+<id order="7" ele_index="7" ele_name="edit32"/>
+<id order="8" ele_index="8" ele_name="edit34"/>
+<id order="9" ele_index="9" ele_name="edit35"/>
+<id order="10" ele_index="10" ele_name="label54"/>
+<id order="11" ele_index="11" ele_name="edit33"/>
+<id order="12" ele_index="12" ele_name="groupbox5"/>
+<id order="13" ele_index="13" ele_name="label64"/>
+<id order="14" ele_index="14" ele_name="edit40"/>
+<id order="15" ele_index="15" ele_name="label65"/>
+<id order="16" ele_index="16" ele_name="edit41"/>
+<id order="17" ele_index="17" ele_name="label66"/>
+<id order="18" ele_index="18" ele_name="edit42"/>
+<id order="19" ele_index="19" ele_name="label67"/>
+<id order="20" ele_index="20" ele_name="edit43"/>
+<id order="21" ele_index="21" ele_name="label68"/>
+<id order="22" ele_index="22" ele_name="edit44"/>
+<id order="23" ele_index="23" ele_name="label37"/>
+<id order="24" ele_index="24" ele_name="edit16"/>
+<id order="25" ele_index="25" ele_name="label58"/>
+<id order="26" ele_index="26" ele_name="edit38"/>
+<id order="27" ele_index="27" ele_name="label69"/>
+<id order="28" ele_index="28" ele_name="edit45"/>
+<id order="29" ele_index="29" ele_name="label57"/>
+<id order="30" ele_index="30" ele_name="edit37"/>
+<id order="31" ele_index="31" ele_name="label56"/>
+<id order="32" ele_index="32" ele_name="edit36"/>
+<id order="33" ele_index="33" ele_name="label59"/>
+<id order="34" ele_index="34" ele_name="edit39"/>
+<id order="35" ele_index="35" ele_name="label70"/>
+<id order="36" ele_index="36" ele_name="label71"/>
+<id order="37" ele_index="37" ele_name="label72"/>
+<id order="38" ele_index="38" ele_name="label73"/>
+<id order="39" ele_index="39" ele_name="label74"/>
+<id order="40" ele_index="40" ele_name="label75"/>
+<id order="41" ele_index="41" ele_name="label76"/>
+<id order="42" ele_index="42" ele_name="label77"/>
+<id order="43" ele_index="43" ele_name="label78"/>
+<id order="44" ele_index="44" ele_name="label79"/>
+<id order="45" ele_index="45" ele_name="label80"/>
+<id order="46" ele_index="46" ele_name="label81"/>
+<id order="47" ele_index="47" ele_name="label82"/>
+<id order="48" ele_index="48" ele_name="label83"/>
+<id order="49" ele_index="49" ele_name="label84"/>
+<id order="50" ele_index="50" ele_name="label85"/>
+<id order="51" ele_index="51" ele_name="_input_range_labellabel"/>
+<id order="52" ele_index="52" ele_name="_input_range_label"/>
+<id order="53" ele_index="53" ele_name="labelpsw"/>
+<id order="54" ele_index="54" ele_name="editpsw"/>
+<id order="55" ele_index="55" ele_name="label209"/>
+<id order="56" ele_index="56" ele_name="edit110"/>
+<id order="57" ele_index="57" ele_name="label210"/>
+<id order="58" ele_index="58" ele_name="label216"/>
+<id order="59" ele_index="59" ele_name="edit111"/>
+<id order="60" ele_index="60" ele_name="label217"/>
+</element>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="ServodataOperate" 可见="-1" 标题="0:伺服数据操作|||1:Servo данных операц.|||2:서보 데이터 조작|||3:Servo Operate|||6:Servo Operar|||7:Servo Veri işleme|||9:Operação servo|||10:Hoạt động Servo|||default:Servo Operate" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="0" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="26" 宽度="580" 高度="230" 文本="0:批量操作|||1:партия операц.|||2:대량 작업|||3:Batch operation|||6:Opera Ppor Lotes|||7:Yığın işleme|||9:Operação em lote|||10:Hoạt động hàng loạt|||default:Batch operation" 字体="宋体" 字号="16" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label18" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="76" 宽度="110" 高度="24" 语言表索引="0" 文本="0:文件名|||1:Имя файла|||2:파일이름|||3:File Name|||6:Nombre Archivo|||7:Dosya Adı|||9:Arquivo Nome|||10:Tên tệp|||default:File Name" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropimport" 索引="0" 可见="-1" 可用="-1" 左="418" 顶="76" 宽度="165" 高度="24" 数据="3:|||default:" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL2" 当前值="0" cur_text="" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL2"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btimport" 索引="0" 可见="-1" 可用="-1" 左="418" 顶="122" 宽度="140" 高度="30" 标题="0:读U盘|||1:Импорт|||2:입력|||3:Import|||6:Importar|||7:İthalat|||9:Importar|||10:Tải vào|||default:Import" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stimport" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="194" 宽度="256" 高度="24" 语言表索引="0" 文本="0:文件导入中，请等待...|||1:Импорт файла, пожалуйста, подождите ...|||2:파일 가져 오기, 기다려주세요...|||3:Import File, Please Wait...|||6:Importar archivo, espere ...|||7:Dosya Içe,Lütfen bekle...|||9:Importando arquivo, por favor aguarde ...|||10:Nhập tệp, vui lòng đợi...|||default:Import File, Please Wait..." 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label20" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="76" 宽度="110" 高度="24" 语言表索引="0" 文本="0:文件名|||1:Имя файла|||2:파일이름|||3:File Name|||6:Nombre Archivo|||7:Dosya Adı|||9:Arquivo Nome|||10:Tên tệp|||default:File Name" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropoutport" 索引="0" 可见="-1" 可用="-1" 左="128" 顶="76" 宽度="165" 高度="24" 数据="3:|||default:" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL4" 当前值="0" cur_text="" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btoutport" 索引="0" 可见="-1" 可用="-1" 左="128" 顶="126" 宽度="140" 高度="30" 标题="0:写U盘|||1:Экспорт|||2:수출|||3:Export|||6:Exportar|||7:Ihracat|||9:Outport|||10:Chuyển ra|||default:Export" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stoutport" 索引="0" 可见="-1" 可用="-1" 左="25" 顶="194" 宽度="256" 高度="24" 语言表索引="0" 文本="0:文件导出中，请等待...|||1:Экспорт файла, пожалуйста, подождите ...|||2:파일 내보내기, 기다려주십시오...|||3:Export File, Please Wait...|||6:Exportar archivo, espere ...|||7:Dosya Ihracat,Lütfen bekle...|||9:Exportação de arquivo, por favor aguarde ...|||10:Xuất tệp, vui lòng đợi...|||default:Export File, Please Wait..." 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="281" 宽度="580" 高度="260" 文本="0:单个操作|||1:Один операц.|||2:단일 조작|||3:Single operation|||6:Operación única|||7:Tek işleme|||9:Operação única|||10:Hoạt động đơn lẻ|||default:Single operation" 字体="宋体" 字号="16" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label23" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="340" 宽度="185" 高度="24" 语言表索引="0" 文本="0:驱动ID|||1:Идентификатор водителя|||2:서보 ID|||3:Driver ID|||6:Driver ID|||7:Servo ID|||9:ID da unidade|||10:ID tài xế|||default:Driver ID" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label24" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="370" 宽度="185" 高度="24" 语言表索引="0" 文本="0:参数地址|||1:Адрес параметра|||2:변수주소|||3:Parameter Addr|||6:Parameter Addr|||7:Param Adres|||9:Endereço Parâm|||10:Trình bổ sung tham số|||default:Parameter Addr" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label25" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="400" 宽度="185" 高度="24" 语言表索引="0" 文本="0:参数地址长度|||1:Длина адреса параметра|||2:변수주소길이|||3:Parameter Addr Length|||6:Parameter Addr Length|||7:Param Adres Uzunluk|||9:Parâm Comprimento |||10:Độ dài địa chỉ tham số|||default:Parameter Addr Length" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="430" 宽度="135" 高度="24" 语言表索引="0" 文本="0:输入数据|||1:Входные данные|||2:입력 데이터|||3:Input Data|||6:Entra Los Datos|||7:Giri Veri|||9:Dados entrada|||10:Dữ liệu đầu vào|||default:Input Data" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed_data" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="430" 宽度="125" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL14" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="-1" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btimportpanel" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="483" 宽度="100" 高度="30" 标题="0:写入|||1:Написать|||2:쓰다|||3:Write|||6:Escribir|||7:Yazmak|||9:Escreva|||10:Viết|||default:Write" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="340" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL11" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="1" 使用数据库="0" 最小值="1" 最大值="8" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit2" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="370" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL12" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="4" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed_addr" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="400" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL13" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="340" 宽度="185" 高度="24" 语言表索引="0" 文本="0:驱动ID|||1:Идентификатор водителя|||2:서보 ID|||3:Driver ID|||6:Driver ID|||7:Servo ID|||9:ID da unidade|||10:ID tài xế|||default:Driver ID" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="370" 宽度="185" 高度="24" 语言表索引="0" 文本="0:参数地址|||1:Адрес параметра|||2:변수주소|||3:Parameter Addr|||6:Parameter Addr|||7:Param Adres|||9:Endereço Parâm|||10:Trình bổ sung tham số|||default:Parameter Addr" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="400" 宽度="185" 高度="24" 语言表索引="0" 文本="0:参数地址长度|||1:Длина адреса параметра|||2:변수주소길이|||3:Parameter Addr Length|||6:Parameter Addr Length|||7:Param Adres Uzunluk|||9:Parâm Comprimento |||10:Độ dài địa chỉ tham số|||default:Parameter Addr Length" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label27" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="430" 宽度="135" 高度="24" 语言表索引="0" 文本="0:当前数据|||1:Текущие данные|||2:현재의 데이터|||3:Real Data|||6:Real Datos|||7:Gerçek Veri|||9:Dados atuais|||10:Dữ liệu thực|||default:Real Data" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit8" 索引="0" 可见="-1" 可用="-1" 左="470" 顶="430" 宽度="100" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL35" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL35"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btoutportpanel" 索引="0" 可见="-1" 可用="-1" 左="470" 顶="487" 宽度="100" 高度="30" 标题="0:读取|||1:Чтен|||2:읽기|||3:Read|||6:Lectura|||7:Oku|||9:Ler|||10:Đọc|||default:Read" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit5" 索引="0" 可见="-1" 可用="-1" 左="495" 顶="340" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL21" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="1" 使用数据库="0" 最小值="1" 最大值="8" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL21"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit6" 索引="0" 可见="-1" 可用="-1" 左="495" 顶="370" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit7" 索引="0" 可见="-1" 可用="-1" 左="495" 顶="400" 宽度="75" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL23" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL23"/>
+</element>
+<horz order="0" ele_index="7" ele_name="dropoutport"/>
+<horz order="1" ele_index="3" ele_name="dropimport"/>
+<horz order="2" ele_index="8" ele_name="btoutport"/>
+<horz order="3" ele_index="4" ele_name="btimport"/>
+<horz order="4" ele_index="19" ele_name="edit1"/>
+<horz order="5" ele_index="28" ele_name="edit5"/>
+<horz order="6" ele_index="20" ele_name="edit2"/>
+<horz order="7" ele_index="29" ele_name="edit6"/>
+<horz order="8" ele_index="21" ele_name="ed_addr"/>
+<horz order="9" ele_index="30" ele_name="edit7"/>
+<horz order="10" ele_index="17" ele_name="ed_data"/>
+<horz order="11" ele_index="26" ele_name="edit8"/>
+<horz order="12" ele_index="18" ele_name="btimportpanel"/>
+<horz order="13" ele_index="27" ele_name="btoutportpanel"/>
+<vert order="0" ele_index="7" ele_name="dropoutport"/>
+<vert order="1" ele_index="8" ele_name="btoutport"/>
+<vert order="2" ele_index="19" ele_name="edit1"/>
+<vert order="3" ele_index="20" ele_name="edit2"/>
+<vert order="4" ele_index="21" ele_name="ed_addr"/>
+<vert order="5" ele_index="17" ele_name="ed_data"/>
+<vert order="6" ele_index="18" ele_name="btimportpanel"/>
+<vert order="7" ele_index="3" ele_name="dropimport"/>
+<vert order="8" ele_index="4" ele_name="btimport"/>
+<vert order="9" ele_index="28" ele_name="edit5"/>
+<vert order="10" ele_index="29" ele_name="edit6"/>
+<vert order="11" ele_index="30" ele_name="edit7"/>
+<vert order="12" ele_index="26" ele_name="edit8"/>
+<vert order="13" ele_index="27" ele_name="btoutportpanel"/>
+<tab order="0" ele_index="7" ele_name="dropoutport"/>
+<tab order="1" ele_index="8" ele_name="btoutport"/>
+<tab order="2" ele_index="19" ele_name="edit1"/>
+<tab order="3" ele_index="20" ele_name="edit2"/>
+<tab order="4" ele_index="21" ele_name="ed_addr"/>
+<tab order="5" ele_index="17" ele_name="ed_data"/>
+<tab order="6" ele_index="18" ele_name="btimportpanel"/>
+<tab order="7" ele_index="3" ele_name="dropimport"/>
+<tab order="8" ele_index="4" ele_name="btimport"/>
+<tab order="9" ele_index="28" ele_name="edit5"/>
+<tab order="10" ele_index="29" ele_name="edit6"/>
+<tab order="11" ele_index="30" ele_name="edit7"/>
+<tab order="12" ele_index="26" ele_name="edit8"/>
+<tab order="13" ele_index="27" ele_name="btoutportpanel"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label18"/>
+<id order="3" ele_index="3" ele_name="dropimport"/>
+<id order="4" ele_index="4" ele_name="btimport"/>
+<id order="5" ele_index="5" ele_name="stimport"/>
+<id order="6" ele_index="6" ele_name="label20"/>
+<id order="7" ele_index="7" ele_name="dropoutport"/>
+<id order="8" ele_index="8" ele_name="btoutport"/>
+<id order="9" ele_index="9" ele_name="stoutport"/>
+<id order="10" ele_index="10" ele_name="_input_range_labellabel"/>
+<id order="11" ele_index="11" ele_name="_input_range_label"/>
+<id order="12" ele_index="12" ele_name="groupbox2"/>
+<id order="13" ele_index="13" ele_name="label23"/>
+<id order="14" ele_index="14" ele_name="label24"/>
+<id order="15" ele_index="15" ele_name="label25"/>
+<id order="16" ele_index="16" ele_name="label26"/>
+<id order="17" ele_index="17" ele_name="ed_data"/>
+<id order="18" ele_index="18" ele_name="btimportpanel"/>
+<id order="19" ele_index="19" ele_name="edit1"/>
+<id order="20" ele_index="20" ele_name="edit2"/>
+<id order="21" ele_index="21" ele_name="ed_addr"/>
+<id order="22" ele_index="22" ele_name="label28"/>
+<id order="23" ele_index="23" ele_name="label29"/>
+<id order="24" ele_index="24" ele_name="label30"/>
+<id order="25" ele_index="25" ele_name="label27"/>
+<id order="26" ele_index="26" ele_name="edit8"/>
+<id order="27" ele_index="27" ele_name="btoutportpanel"/>
+<id order="28" ele_index="28" ele_name="edit5"/>
+<id order="29" ele_index="29" ele_name="edit6"/>
+<id order="30" ele_index="30" ele_name="edit7"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Сост.|||2:상태|||3:STAT|||4:STAT|||5:STAT|||6:Estado|||0:状态|||7:Durum|||8:STAT|||9:Stat|||10:Tr.thái|||default:STAT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTAT.png" 按下图片="btnSTATx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:МашКфг1|||2:구성 1|||3:CFG1|||4:CFG1|||5:CFG1|||6:Config1|||0:配置1|||7:Yapı1|||8:CFG1|||9:Cfg1|||10:CFG1|||default:CFG1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG1.png" 按下图片="btnCFG1x.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模功能&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:МашКфг2|||2:구성 2|||3:CFG2|||4:CFG2|||5:CFG2|||6:Config2|||0:配置2|||7:Yapı2|||8:CFG2|||9:Cfg2|||10:CFG2|||default:CFG2" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG2.png" 按下图片="btnCFG2x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;开关模曲线&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:работы|||2:운영 중|||3:OPT|||4:OPT|||5:OPT|||6:Operan|||0:操作|||7:Işlemi|||8:OPT|||9:Opt|||10:OPT|||default:OPT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOPT.png" 按下图片="btnOPTx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:Насос1|||2:펌프1|||3:PUMP1|||4:PUMP1|||5:PUMP1|||6:Bomba1|||0:油泵1|||7:Pompa1|||8:PUMP1|||9:Bomba1|||10:PUMP1|||default:PUMP1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP1.png" 按下图片="btnPUMP1x.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="0:油泵2|||1:Насос2|||2:펌프2|||3:PUMP2|||4:PUMP2|||5:PUMP2|||6:Bomba2|||7:Pompa2|||8:PUMP2|||9:Bomba2|||10:PUMP2|||default:PUMP2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnPUMP2.png" 按下图片="btnPUMP2x.png" 聚焦图片="" 快捷键="6" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="0:动作|||1:Действие|||2:동작|||3:ACT|||4:ACT|||5:ACT|||6:Actuar|||7:Aksiyon|||8:ACT|||9:Açao|||10:ACT|||default:ACT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnACT.png" 按下图片="btnACTx.png" 聚焦图片="" 快捷键="7" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

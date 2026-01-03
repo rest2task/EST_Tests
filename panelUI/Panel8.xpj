@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Panel8" ver="0207.0002" date="20250708" desc="" main="Main" pnl_style="6" pnl_size="10" frame="Mainframe" navi_num="7" width="600" height="800" path_c="" path_lua="" path_json="E:\pages" path_compile="" input_hint="0" hint_color="0">
+<group_wnd>
+<group_wnd name="MoldTemp">
+<window state="0">MoldTemp1</window>
+<window state="0">MoldTemp2</window>
+<window state="0">MoldTemp3</window>
+<window state="0">MoldTemp4</window>
+<window state="0">MoldTemp5</window>
+<window state="0">MoldTemp6</window>
+<window state="0">MoldTemp7</window>
+</group_wnd>
+<window state="1">Clamp_h</window>
+<window state="1">Eject</window>
+<window state="1">Inject_h</window>
+<window state="1">Core</window>
+<window state="1">Other</window>
+<window state="0">Pushtable</window>
+<window state="0">Inject_Curve_1</window>
+<window state="0">Inject_Curve</window>
+<window state="0">Charge_Curve</window>
+<window state="0">ProdManage_1</window>
+<window state="0">Para_Record</window>
+<window state="0">Operate_Record</window>
+<window state="0">Product_Alarm</window>
+<window state="0">Prod_Moni</window>
+<window state="0">Product_2</window>
+<window state="0">Mold_Set</window>
+<window state="0">IO_Output</window>
+<window state="0">IO_Input</window>
+<window state="0">IO_Input_2</window>
+<window state="0">IO_Output_2</window>
+<window state="0">Sys_Cfg</window>
+<window state="0">Face</window>
+<window state="0">Version</window>
+<window state="0">Lubr</window>
+<window state="0">Sys_Para</window>
+<window state="0">Sys_Para_2</window>
+<window state="0">Language</window>
+<window state="0">DA_Adjust</window>
+<window state="0">Pump_Cfg_x</window>
+<window state="0">IO_Redefine</window>
+<window state="0">ProgUpdate</window>
+<window state="0">Key_Test</window>
+<window state="0">Data_Diag</window>
+<window state="0">Data_Operation</window>
+<window state="0">Install</window>
+<window state="0">User_Manage</window>
+<window state="0">Information</window>
+<window state="0">Question</window>
+<window state="0">Page_Help</window>
+<window state="0">Alarm</window>
+<window state="0">Main</window>
+<window state="0">Clamp_Curve</window>
+<window state="0">Mainframe</window>
+<window state="0">ReadUDisk</window>
+<window state="0">WriteUDisk</window>
+<window state="0">Sys_Para4</window>
+<window state="0">Pump_Cfg</window>
+<window state="0">Sys_Para5</window>
+<window state="0">Syscfg_Ctrl</window>
+<window state="0">NetCfg</window>
+<window state="0">NetForm</window>
+<window state="0">Authentication</window>
+<window state="0">Planning_Sheet</window>
+<window state="0">Supplement</window>
+<window state="0">DayOutput</window>
+<window state="0">MonthOutput</window>
+<window state="1">Charge_h</window>
+<window state="1">Key</window>
+<window state="1">Other_Adjust</window>
+<window state="0">Other_Robot</window>
+<window state="0">Other_SafeDoor</window>
+<window state="0">AD_Ex</window>
+<window state="0">Mach_Set</window>
+<window state="0">Mach_Cal</window>
+<window state="0">Pump_Set</window>
+<window state="0">ServoDebug1</window>
+<window state="0">ServoDebug2</window>
+<window state="0">ServoStatex1</window>
+<window state="0">ServodataOperate</window>
+<window state="0">ServoPump1</window>
+<window state="0">ServoPump2</window>
+<window state="0">ServoStudy</window>
+<window state="0">Pump_Cfg_xx</window>
+<window state="0">Main_Adjustx</window>
+<window state="0">IO_Force</window>
+<window state="0">IO_Outputx</window>
+<window state="0">IO_Outputx2</window>
+<window state="0">IO_Output_Ex</window>
+<window state="0">AD_Adjustx</window>
+<window state="0">Mach_Cfg_5200</window>
+<window state="0">Reset</window>
+<window state="0">machTbCfg_5200</window>
+<window state="0">Login</window>
+<window state="0">Install_Ask</window>
+<window state="0">InstallPay</window>
+<window state="0">Sys_Cfgx</window>
+<window state="0">Key_Record</window>
+<window state="0">Main_Record</window>
+<window state="0">WarnHelp</window>
+<window state="0">WarnData_Rec</window>
+<window state="0">SaveExcel_Diag</window>
+<window state="0">Clampx_h</window>
+<window state="0">Sys_Para5x</window>
+<window state="0">Seq_Vlv</window>
+<window state="1">Temp_xx</window>
+<window state="0">AdjMach</window>
+<window state="1">Clamp_Smart</window>
+<window state="0">Version2</window>
+<window state="0">Study_Message</window>
+<window state="0">UserPwd_Reset</window>
+<window state="0">Pushtable_Param</window>
+<window state="0">Pushtable2</window>
+<window state="0">SpecFunc_Select</window>
+<window state="1">Spec_Func1</window>
+<window state="1">Servo_Config</window>
+<window state="0">Open_Cal</window>
+<window state="0">Temp_Curve</window>
+<window state="0">Servo_Curve</window>
+<window state="0">Panel_Record</window>
+<window state="0">UdiskAutoUpdate</window>
+<window state="0">Spec_Func2</window>
+<window state="0">Vlv_LogicTable</window>
+<window state="0">Part_Table</window>
+<window state="0">DayPower</window>
+<window state="0">MonthPower</window>
+<window state="0">YearPower</window>
+<window state="0">ProductPower</window>
+<window state="0">Seq_Vlv_2</window>
+<window state="0">Key_Define</window>
+<window state="0">Servo_Ask1</window>
+<window state="0">Servo_Ask2</window>
+<window state="0">Servo_Ask4</window>
+<window state="0">Servo_Ask5</window>
+<window state="0">Servo_Ask6</window>
+<window state="0">Servo_Cfg</window>
+<window state="0">Servo_Help</window>
+<window state="0">Servo_Pump5</window>
+<window state="0">Servo_State</window>
+<window state="0">Servo_Test5</window>
+<window state="0">Servo5_Curve</window>
+<window state="0">Lub_Para</window>
+<window state="0">CoreProt_Ask</window>
+<window state="0">SpcCore_Information</window>
+<window state="0">Message_Touch</window>
+<window state="0">Wake_Screen</window>
+<window state="0">Panel_DetailInfo</window>
+<window state="0">Sys_ParaLimit</window>
+<window state="0">Sys_ParaLimit_Spc</window>
+<window state="0">Servo_StateMM</window>
+<window state="0">Blow</window>
+<window state="0">Blow2</window>
+<window state="0">PropVlv</window>
+<window state="0">Pump_Func</window>
+<window state="0">Mold_Setx</window>
+<window state="0">Temp_Curve_2</window>
+<window state="0">Key_Test_JY</window>
+</group_wnd>
+<lang_admin>
+<lang name="中文" ab="zh-CN" hide="0" charset="0" chkwid="1"/>
+<lang name="俄文" ab="ru" hide="0" charset="0" chkwid="1"/>
+<lang name="韩文" ab="ko" hide="0" charset="0" chkwid="1"/>
+<lang name="英文" ab="en" hide="0" charset="0" chkwid="1"/>
+<lang name="阿拉伯文" ab="ar" hide="0" charset="0" chkwid="0"/>
+<lang name="法语" ab="fr" hide="0" charset="0" chkwid="0"/>
+<lang name="西班牙语" ab="es" hide="0" charset="0" chkwid="0"/>
+<lang name="土耳其语" ab="tr" hide="0" charset="0" chkwid="1"/>
+<lang name="波斯文" ab="fa" hide="0" charset="0" chkwid="0"/>
+<lang name="葡萄牙语" ab="pt" hide="0" charset="0" chkwid="0"/>
+<lang name="越南文" ab="vi" hide="0" charset="0" chkwid="0"/>
+<curlang>0</curlang>
+</lang_admin>
+<ts_ver is_eletag_eng="0"/>
+</project>

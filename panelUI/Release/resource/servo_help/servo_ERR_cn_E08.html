@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+.STYLE2 {font-size: 18px}
+.警报名字体大小 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.警报号字体颜色 {
+	color: #900;
+	font-size: 18px;
+}
+.产生机理字体大小 {
+	font-size: 18px;
+	color: #603;
+}
+.backcolor {
+	color:rgb(0,111,55);
+	word-spacing: normal;
+}
+</style>
+</head>
+
+<body>
+<p><span class="STYLE2">警报名：</span><span class="警报号字体颜色">ER.E08</span><span class="警报名字体大小"> 同步丢失</span><br />
+ <br />
+<span class="产生机理字体大小">产生机理：</span><br />
+<span class="backcolor">同步通信时，主站同步信号丢失。<br />
+</span></p>
+
+<table width="620" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <th width="100" bgcolor="#999999" scope="col">原因</th>
+    <th width="210" bgcolor="#999999" scope="col">处理措施</th>
+  </tr>
+  <tr>
+    <td>&nbsp;1.同步通信时，从站接收异常</td>
+    <td>&nbsp;1. 检查接线，并使用带屏蔽功能的双绞屏蔽线缆 。
+      2. 通过左起第一位数码管查看网络连接状态。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;2.同步通信时，主站发送异常</td>
+    <td>&nbsp;1. 通过后台示波器或者实际示波器测量同步周期 。
+      2. 首先检查网线是否按照 IN 端口进，OUT 端口出的顺序连接各从站，然后重启网络。
+      3. 逐渐增大从站的同步丢失故障容限 200E-21h。</td>
+  </tr>
+</table>
+</body>
+</html>

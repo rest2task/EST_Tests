@@ -1,0 +1,5059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EstCODE name="EstCODE">
+<config name="多语言描述" value="单语言"/>
+<group name="" id="0">
+<group name="machine" id="0">
+<tag name="A320" ID="0" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CTRLMODEL == 0xA320">
+<ml_desc lang_id="0">主机型号A320</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Mengene</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="A620" ID="1048577" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CTRLMODEL == 0xA620">
+<ml_desc lang_id="0">主机型号A620</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">İtici</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="A920" ID="2097154" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CTRLMODEL == 0xA920">
+<ml_desc lang_id="0">主机型号A920</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="3100" ID="3145731" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CTRLMODEL == 0x3100">
+<ml_desc lang_id="0">主机型号3100</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="2100" ID="4194308" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CTRLMODEL == 0x2100">
+<ml_desc lang_id="0">主机型号2100</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useServo" ID="5242885" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL6 &amp; 0x20) != 0">
+<ml_desc lang_id="0">使用伺服驱动</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useCanServo" ID="6291462" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL6 &amp; 0x1020) != 0">
+<ml_desc lang_id="0">使用带CAN伺服驱动</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Grup</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useServo5" ID="7340039" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useCanServo &amp;&amp; (d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 4) == 0">
+<ml_desc lang_id="0">使用伺服5模式</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Mengene</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useServo3" ID="8388616" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useCanServo &amp;&amp; (d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 4) != 0">
+<ml_desc lang_id="0">使用伺服3模式</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">İtici</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="clamp" id="0">
+<tag name="npoint" ID="9441280" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINEMODEL ? 2:1">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isPush" ID="10489857" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINEMODEL != 0">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="7200" ID="11538434" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_CUSTOMID &amp; OxFF00) == 0x7200">
+<ml_desc lang_id="0">客户代码为0x7200</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="imachine" ID="12587011" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINEMODEL==1">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="BA00" ID="13635588" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_CUSTOMID &amp; OxFF00) == 0xBA00">
+<ml_desc lang_id="0">客户代码为0xBA00</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Grup</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clampCODE43" ID="14684165" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINECTRL43 &amp; 0x0400">
+<ml_desc lang_id="0">客户代码为0xBA00</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">EĞRİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clampInternal6" ID="15732742" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINTERNAL6 &amp; 0x1020">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clampCtl5" ID="16781319" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINECTRL5 &amp; 0x8000">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useOpen4" ID="17829896" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.MOLDSET.FL_OPN4 == 1">
+<ml_desc lang_id="0">是否使用开模4段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useCls3" ID="18878473" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.MOLDSET.FL_CLS3 == 1">
+<ml_desc lang_id="0">是否使用关模3段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="usePres2" ID="19927050" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.MACHSET.FL_CLSHIPRES2 == 1">
+<ml_desc lang_id="0">是否使用关模高压2段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clampCtl0" ID="20975627" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINECTRL0&amp;0x0004">
+<ml_desc lang_id="0">机器动作编码</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Arka</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close1Max" ID="22024204" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.7200 || this.BA00) ? d.clamp1.ACTPARA.ADPOSI_OPENENDEND : d.admeter1.STATE.ADPOSI_METERMAX_2">
+<ml_desc lang_id="0">机器动作编码</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">EĞRİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close2MaxSub1" ID="23072781" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.clampCODE43 &amp;&amp; this.clampCtl0 &amp;&amp; this.clampInternal6">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close2MaxSub2" ID="24121358" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.close1Max">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close2Max" ID="25169935" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.close2MaxSub1 ? this.close2MaxSub2 : d.clamp1.ACTPARA.ADPOSI_CLS1END">
+<ml_desc lang_id="0">关模2段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close2MinSub1" ID="26218512" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1d.clamp1.ACTPARA.ADPOSI_CLSPROTECTEND/10):d.clamp1d.clamp1.ACTPARA.ADPOSI_CLSPROTECTEND">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close2Min" ID="27267089" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useCls3 ? d.clamp1.ACTPARA.ADPOSI_CLS3END : this.close2MinSub1">
+<ml_desc lang_id="0">关模2段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="close3Min" ID="28315666" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.close2MinSub1">
+<ml_desc lang_id="0">关模3段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Arka</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeLPMin" ID="29364243" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.MACHSET.FL_CLSHIPRES2 ? d.clamp1.ACTPARA.ADPOS_CLSHIPRES2 : 0">
+<ml_desc lang_id="0">关模低压模保段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeLPMaxSub1" ID="30412820" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_CLS3END*10) : d.clamp1.ACTPARA.ADPOSI_CLS3END">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeLPMaxSub2" ID="31461397" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_CLS2END*10) : d.clamp1.ACTPARA.ADPOSI_CLS2END">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeLPMax" ID="32509974" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useCls3 ? this.closeLPMaxSub1 : this.closeLPMaxSub2">
+<ml_desc lang_id="0">关模低压模保最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open1EMin" ID="33558551" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useOpen4 ? d.clamp1.ACTPARA.DAPRES_OPEN4 : d.clamp1.ACTPARA.DAPRES_OPEN3">
+<ml_desc lang_id="0">开模终止最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open1EMax" ID="34607128" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_METERMAX_2">
+<ml_desc lang_id="0">开模终止最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA3</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open4MinSub1" ID="35655705" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_OPENENDSLOW/10) : d.clamp1.ACTPARA.ADPOSI_OPENENDSLOW">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA4</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open4Min" ID="36704282" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6) ? this.open4MinSub1 : d.clamp1.ACTPARA.ADPOSI_OPENEND3">
+<ml_desc lang_id="0">开模4段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA5</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open4Max" ID="37752859" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.ACTPARA.ADPOSI_OPENENDEND">
+<ml_desc lang_id="0">开模4段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open3Min" ID="38801436" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6 &amp;&amp; this.useOpen4) ? d.clamp1.ACTPARA.ADPOSI_OPENEND2 : 0">
+<ml_desc lang_id="0">开模3段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open3MaxSub1" ID="39850013" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useOpen4 ? d.clamp1.ACTPARA.ADPOSI_OPENEND4 : d.clamp1.ACTPARA.ADPOSI_OPENENDEND">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open3Max" ID="40898590" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6)?d.clamp1.STATE.TM_CLAMPMOV : this.open3MaxSub1">
+<ml_desc lang_id="0">开模3段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open2MinSub1" ID="41947167" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_OPENENDSLOW/10.0):d.clamp1.ACTPARA.ADPOSI_OPENENDSLOW">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open2Min" ID="42995744" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6)?0:this.open2MinSub1">
+<ml_desc lang_id="0">开模2段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open2Max" ID="44044321" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6)?d.clamp1.STATE.TM_CLAMPMOV : d.clamp1.ACTPARA.ADPOSI_OPENEND3">
+<ml_desc lang_id="0">开模2段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open1MaxSub1" ID="45092898" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_OPENEND4 * 10) : d.clamp1.ACTPARA.ADPOSI_OPENEND4">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open1MaxSub2" ID="46141475" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.imachine ? (d.clamp1.ACTPARA.ADPOSI_OPENEND2 * 10) : d.clamp1.ACTPARA.ADPOSI_OPENEND2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="open1Max" ID="47190052" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.clampCODE43 &amp;&amp; this.clampInternal6)?this.open1MaxSub1:this.open1MaxSub2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clampAve" ID="48238629" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.ACTPARA.ADPOSI_OPENENDEND / 5">
+<ml_desc lang_id="0">每张图片间隔距离 5为图片数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isShow" ID="49287206" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.clamp1.MACHSET.FL_CLSHIPRES2 == 0">
+<ml_desc lang_id="0">单位是否显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="picIndex" ID="50335783" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.admeter1.STATE.ADPOSI_RELATIVE_2 / this.clampAve)+1">
+<ml_desc lang_id="0">开模图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isShow1" ID="51384360" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isPush &amp;&amp; this.isShow">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체력</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA3</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isShow2" ID="52432937" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isPush &amp;&amp; d.clamp1.MACHSET.FL_CLSHIPRES2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA4</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="openPicIndex" ID="53481514" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.clamp1.PO.O_OP_SOL == 1)+1">
+<ml_desc lang_id="0">开模红绿灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA5</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closePicIndex" ID="54530091" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.clamp1.PO.O_CLS_SOL == 1)+1">
+<ml_desc lang_id="0">关模红绿灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeEndPicIndex" ID="55578668" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.clamp1.PI.I_CLS_END == 1)+1">
+<ml_desc lang_id="0">关模结束红绿灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useCode1" ID="56627245" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINECTRL1&amp;0x2000">
+<ml_desc lang_id="0">code1打0x2000</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="openLinkShow" ID="57675822" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MOLDSET.FL_OPNEJTCORE &amp;&amp; this.useCode1">
+<ml_desc lang_id="0">开模联动部分显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİGE</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="closeLinkShow" ID="58724399" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MOLDSET.FL_CLOSJTCORE &amp;&amp; this.useCode1">
+<ml_desc lang_id="0">关模联动部分显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체력</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">IŞLEMI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="floatCylinderShow" ID="59772976" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL0&amp;0x2000)">
+<ml_desc lang_id="0">浮动缸显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clsSlowShow" ID="60821553" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINTERNAL1&amp;0x1000">
+<ml_desc lang_id="0">开模减速显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="IntelMode" ID="61870130" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCODE43 &amp;&amp; this.useServo5)">
+<ml_desc lang_id="0">智能关模显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="cls3Show" ID="62918707" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.IntelMode)">
+<ml_desc lang_id="0">关模三段显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="clsHpress" ID="63967284" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINECTRL4&amp;0x0400">
+<ml_desc lang_id="0">关模高压</ml_desc>
+<ml_desc lang_id="1">ДавлВысЗак.</ml_desc>
+<ml_desc lang_id="2">형폐 고압</ml_desc>
+<ml_desc lang_id="3">Cls HiPrs</ml_desc>
+<ml_desc lang_id="4">ضغط القالب</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Cierre AltaPrs </ml_desc>
+<ml_desc lang_id="7">Kapat Yüksek Bas</ml_desc>
+<ml_desc lang_id="8">فشار بالای بستن</ml_desc>
+<ml_desc lang_id="9">AltPrs Desl</ml_desc>
+<ml_desc lang_id="10">Đóng k.cao áp </ml_desc>
+</tag>
+<tag name="nHPrsPoint" ID="65015861" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.clsHpress ? 2 : 1">
+<ml_desc lang_id="0">小数位</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="nHPrsMax" ID="66064438" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.clsHpress ? 9999 : 999">
+<ml_desc lang_id="0">最大值</ml_desc>
+<ml_desc lang_id="1">макс</ml_desc>
+<ml_desc lang_id="2">최대값</ml_desc>
+<ml_desc lang_id="3">Max</ml_desc>
+<ml_desc lang_id="4">ماكس</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Máx</ml_desc>
+<ml_desc lang_id="7">Maks</ml_desc>
+<ml_desc lang_id="8">سقف</ml_desc>
+<ml_desc lang_id="9">Máx</ml_desc>
+<ml_desc lang_id="10">GHT</ml_desc>
+</tag>
+<tag name="useFast" ID="67113015" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.clampCtl0 &amp;&amp; this.clampInternal6 &amp;&amp; this.clampCtl5">
+<ml_desc lang_id="0">快速使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="posCtl" ID="68161592" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_METER &amp; 0x0004">
+<ml_desc lang_id="0">位置尺控制码</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="curveAddrSub1" ID="69210169" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.clampCtl0 &amp;&amp; this.clampInternal6 &amp;&amp; posCtl ">
+<ml_desc lang_id="0">曲线地址切换条件</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="curveAddrSub2" ID="70258746" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.A320 || this.A620) ? 0x07160005 : 0x07160007">
+<ml_desc lang_id="0">根据主机型号切换</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="curveAddr" ID="71307323" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.curveAddrSub1 ? 0x0A160042 : this.curveAddrSub2">
+<ml_desc lang_id="0">曲线地址切换条件</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYAR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="showEdit1" ID="72355900" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.curveAddrSub1">
+<ml_desc lang_id="0">同位控件显示表达1</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AUTH</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="showEdit2" ID="73404477" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(!this.curveAddrSub1 &amp;&amp; (this.A320 || this.A620)">
+<ml_desc lang_id="0">同位控件显示表达2</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PLAN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="showEdit3" ID="74453054" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(!this.curveAddrSub1 &amp;&amp; this.A920)">
+<ml_desc lang_id="0">同位控件显示表达3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SUPP</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="maxClampPosSub" ID="75501631" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_METERMAX_2">
+<ml_desc lang_id="0">同位控件显示表达3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="maxClampPos" ID="76550208" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.maxClampPosSub&gt;3500) ? (this.maxClampPosSub+500) : (this.maxClampPosSub+300)">
+<ml_desc lang_id="0">同位控件显示表达3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="maxClampPosB" ID="77598785" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="0-this.maxClampPos">
+<ml_desc lang_id="0">同位控件显示表达3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="maxClampAvg" ID="78647362" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.maxClampPos/10">
+<ml_desc lang_id="0">开模曲线x轴坐标刻度间隔</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYAR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="motorSpeed" ID="79695939" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.servo1.STATE.SERVO_SPEED_1 % 32768">
+<ml_desc lang_id="0">电机速度</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AUTH</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="opn4Show" ID="80744516" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.clampCtl5 &amp;&amp; this.useServo5)">
+<ml_desc lang_id="0">开模四段显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="opn4Sel" ID="81793093" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.opn4Show">
+<ml_desc lang_id="0">开模四段选择</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="eject" id="0">
+<tag name="enableEjtCnt" ID="82845696" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTCTRL !=0">
+<ml_desc lang_id="0">托模方式不是停留时，托模次数可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableShake" ID="83894273" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTCTRL ==2">
+<ml_desc lang_id="0">托模方式为震动时，震动参数可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableTravel" ID="84942850" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTCTRL ==1">
+<ml_desc lang_id="0">托模方式为定次时，首次独立行程可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="shakeMdPos" ID="85991427" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTVIBRATEMODE == 1">
+<ml_desc lang_id="0">震动托模为位置时，震动距离可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYAR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="shakeMode" ID="87040004" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTVIBRATEMODE == 0">
+<ml_desc lang_id="0">震动托模为时间时，震动时间可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AUTH</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air1ActPos" ID="88088581" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow1.MOLDSET.FL_BLAST ==1 || d.airblow1.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气1方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산관리</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PLAN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air2ActPos" ID="89137158" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow2.MOLDSET.FL_BLAST ==1 || d.airblow2.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气2方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">일일 출력</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SUPP</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air3ActPos" ID="90185735" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow3.MOLDSET.FL_BLAST ==1 || d.airblow3.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气3方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">월간 생산</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air4ActPos" ID="91234312" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow4.MOLDSET.FL_BLAST ==1 || d.airblow4.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气4方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air5ActPos" ID="92282889" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow5.MOLDSET.FL_BLAST ==1 || d.airblow5.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气5方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air6ActPos" ID="93331466" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow6.MOLDSET.FL_BLAST ==1 || d.airblow6.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气6方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYAR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air7ActPos" ID="94380043" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow7.MOLDSET.FL_BLAST ==1 || d.airblow7.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气7方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AUTH</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air8ActPos" ID="95428620" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow8.MOLDSET.FL_BLAST ==1 || d.airblow8.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气8方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PLAN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air9ActPos" ID="96477197" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow9.MOLDSET.FL_BLAST ==1 || d.airblow9.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气9方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">작업상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SUPP</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air10ActPos" ID="97525774" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow10.MOLDSET.FL_BLAST ==1 || d.airblow10.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气10方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air11ActPos" ID="98574351" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow11.MOLDSET.FL_BLAST ==1 || d.airblow11.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气11方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air12ActPos" ID="99622928" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow12.MOLDSET.FL_BLAST ==1 || d.airblow12.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气12方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air13ActPos" ID="100671505" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow13.MOLDSET.FL_BLAST ==1 || d.airblow13.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气13方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYAR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air14ActPos" ID="101720082" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow14.MOLDSET.FL_BLAST ==1 || d.airblow14.MOLDSET.FL_BLAST ==3">
+<ml_desc lang_id="0">吹气14方式是开模位置或射出位置时，动作位置可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AUTH</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHoldKeep" ID="102768659" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.eject1.MOLDSET.FL_EJTCTRL ==0">
+<ml_desc lang_id="0">托模方式是停留时，托进保持可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PLAN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isEjtDly" ID="103817236" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isHoldKeep || this.enableTravel">
+<ml_desc lang_id="0">托模方式是停留时，托进保持可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">작업상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SUPP</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air1PosMax" ID="104865813" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow1.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气1方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">페이지 기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air2PosMax" ID="105914390" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow2.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气2方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">주요 기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air3PosMax" ID="106962967" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow3.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气3方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air4PosMax" ID="108011544" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow4.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气4方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ÜRÜN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air5PosMax" ID="109060121" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow5.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气5方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Günlük çıkış</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air6PosMax" ID="110108698" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow6.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气6方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Ay</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air7PosMax" ID="111157275" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow7.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气7方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">작업상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air8PosMax" ID="112205852" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow8.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气8方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">페이지 기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air9PosMax" ID="113254429" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow9.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气9方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">주요 기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air10PosMax" ID="114303006" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow10.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气10方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air11PosMax" ID="115351583" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow11.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气11方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ÜRÜN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air12PosMax" ID="116400160" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow12.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气12方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Günlük çıkış</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air13PosMax" ID="117448737" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow13.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气13方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">경보기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Ay</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="air14PosMax" ID="118497314" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.airblow14.MOLDSET.FL_BLAST ==1 ? d.admeter1.STATE.ADPOSI_METERMAX_2 : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">吹气14方式是开模位置或射出位置时，最大值不同</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">정보</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejectAve" ID="119545891" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_METERMAX_3 / 3">
+<ml_desc lang_id="0">每张图片间隔距离 3为图片数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtPicIndex" ID="120594468" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.admeter1.STATE.ADPOSI_RELATIVE_3 / this.ejectAve)+1">
+<ml_desc lang_id="0">托模图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtAdvPicIndex" ID="121643045" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.eject1.PO.O_EJT_FWD == 1)+1">
+<ml_desc lang_id="0">托进阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtRetPicIndex" ID="122691622" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.eject1.PO.O_EJT_BWD == 1)+1">
+<ml_desc lang_id="0">托退阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Mengene</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtAdvEndPicIndex" ID="123740199" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.eject1.PI.I_EJT_FWD == 1)+1">
+<ml_desc lang_id="0">托进终灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">İtici</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtRetEndPicIndex" ID="124788776" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.eject1.PI.I_EJT_BWD == 1)+1">
+<ml_desc lang_id="0">托退终灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtDlyPoint" ID="125837353" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 0x2000) ? 2:1">
+<ml_desc lang_id="0">托模延迟计时精确2位小数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ejtDlyMax" ID="126885930" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 0x2000) ? 9999:999">
+<ml_desc lang_id="0">托模延迟计时最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="inject" id="0">
+<tag name="isInj2" ID="127938560" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_INJ &gt;=2">
+<ml_desc lang_id="0">射出2段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInj3" ID="128987137" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_INJ &gt;=3">
+<ml_desc lang_id="0">射出3段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Grup</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInj4" ID="130035714" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_INJ &gt;=4">
+<ml_desc lang_id="0">射出4段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Diğer</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInj5" ID="131084291" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_INJ &gt;=5">
+<ml_desc lang_id="0">射出5段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ÜRÜN</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInj6" ID="132132868" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_INJ &gt;=6">
+<ml_desc lang_id="0">射出6段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjetTm" ID="133181445" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL5 &amp; 0x20) &amp;&amp; (d.inject1.MOLDSET.FL_TURNTOHOLD ==3)">
+<ml_desc lang_id="0">射出使用时间分段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">생산기록2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Alarm</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjTm2" ID="134230022" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj2 &amp;&amp; this.isInjetTm">
+<ml_desc lang_id="0">射出时间2段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MONI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjTm3" ID="135278599" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj3 &amp;&amp; this.isInjetTm">
+<ml_desc lang_id="0">射出时间3段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Kalıp</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjTm4" ID="136327176" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj4 &amp;&amp; this.isInjetTm">
+<ml_desc lang_id="0">射出时间4段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">IO</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjTm5" ID="137375753" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj5 &amp;&amp; this.isInjetTm">
+<ml_desc lang_id="0">射出时间5段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Ayar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjTm6" ID="138424330" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj6 &amp;&amp; this.isInjetTm">
+<ml_desc lang_id="0">射出时间6段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">GüvKapı</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos" ID="139472907" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.isInjetTm">
+<ml_desc lang_id="0">射出位置模式</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">모듈</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Robot</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos2" ID="140521484" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj2 &amp;&amp; !this.isInjetTm">
+<ml_desc lang_id="0">射出位置2段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos3" ID="141570061" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj3 &amp;&amp; !this.isInjetTm">
+<ml_desc lang_id="0">射出位置3段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos4" ID="142618638" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj4 &amp;&amp; !this.isInjetTm">
+<ml_desc lang_id="0">射出位置4段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos5" ID="143667215" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj5 &amp;&amp; !this.isInjetTm">
+<ml_desc lang_id="0">射出位置5段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjPos6" ID="144715792" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj6 &amp;&amp; !this.isInjetTm">
+<ml_desc lang_id="0">射出位置6段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Ayar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHoldPos" ID="145764369" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_TURNTOHOLD == 0 || d.inject1.MOLDSET.FL_TURNTOHOLD == 4">
+<ml_desc lang_id="0">转保压位置是可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">GüvKapı</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHold2" ID="146812946" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_HOLD &gt;=2">
+<ml_desc lang_id="0">保压2段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Robot</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHold3" ID="147861523" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_HOLD &gt;=3">
+<ml_desc lang_id="0">保压3段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SIRA VANA</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHold4" ID="148910100" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_HOLD &gt;=4">
+<ml_desc lang_id="0">保压4段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHold5" ID="149958677" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_HOLD &gt;=5">
+<ml_desc lang_id="0">保压5段是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPos1Min" ID="151007254" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj2 ? d.inject1.ACTPARA.ADPOSI_INJ2END : 0">
+<ml_desc lang_id="0">射出1段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPos2Min" ID="152055831" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj3 ? d.inject1.ACTPARA.ADPOSI_INJ3END : 0">
+<ml_desc lang_id="0">射出2段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ADJ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPos3Min" ID="153104408" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj4 ? d.inject1.ACTPARA.ADPOSI_INJ4END : 0">
+<ml_desc lang_id="0">射出3段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SFDR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPos4Min" ID="154152985" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj5 ? d.inject1.ACTPARA.ADPOSI_INJ5END : 0">
+<ml_desc lang_id="0">射出4段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Robot</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPos5Min" ID="155201562" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInj6 ? d.inject1.ACTPARA.ADPOSI_INJ6END : 0">
+<ml_desc lang_id="0">射出5段最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injHodSpd1point" ID="156250139" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL5 &amp; 0x100) != 0">
+<ml_desc lang_id="0">射出和保压速度精确到0.1</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injSpdMax" ID="157298716" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.injHodSpd1point ? 999 : 99">
+<ml_desc lang_id="0">射出速度精确到0.1s时的上限值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdSpdMax" ID="158347293" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.injHodSpd1point ? d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT *10 : d.autoctrl1.MOLDSET.DAFLOW_HOLDLIMIT">
+<ml_desc lang_id="0">保压速度精确到0.1s时的上限值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmPoint" ID="159395870" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL1 &amp; 0x08) ? 3 : 1">
+<ml_desc lang_id="0">射出和保压时间精确到0.001或 0.1</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ADJ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHoldPrs" ID="160444447" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_TURNTOHOLD == 1">
+<ml_desc lang_id="0">转保压压力时可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SFDR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHoldSpd" ID="161493024" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_TURNTOHOLD == 2">
+<ml_desc lang_id="0">转保压速度时可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Robot</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdPrs" ID="162541601" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_TURNTOHOLD != 2">
+<ml_desc lang_id="0">转保压不是速度时可见</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHoldPrsSpd" ID="163590178" 类型="0" 读写方式="0" 初始值="0" prop="8" exp=" this.isHoldSpd || this.isHoldPrs">
+<ml_desc lang_id="0">转保压压力或速度时可见</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isComppress" ID="164638755" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL2 &amp; 0x04) !=0">
+<ml_desc lang_id="0">压塑功能是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isAftInj#1" ID="165687332" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MOLDSET.FL_INJMOLDIN == 2">
+<ml_desc lang_id="0">压塑功能射出一后</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력3</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="comprsMaxTm" ID="166735909" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL1 &amp; 0x08) ? 60000 : 999">
+<ml_desc lang_id="0">压塑功能射出一后时间最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AD</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injectStor3" ID="167784486" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.injstor1.MACHSET.INJSTOR_METERCH == 3">
+<ml_desc lang_id="0">射出储能通道3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ADGE</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injectStor4" ID="168833063" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.injstor1.MACHSET.INJSTOR_METERCH == 4">
+<ml_desc lang_id="0">射出储能通道4</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injectStor5" ID="169881640" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.injstor1.MACHSET.INJSTOR_METERCH == 5">
+<ml_desc lang_id="0">射出储能通道5</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injectStor6" ID="170930217" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.injstor1.MACHSET.INJSTOR_METERCH == 6">
+<ml_desc lang_id="0">射出储能通道6</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjAccum" ID="171978794" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_INCACC &gt;= 1">
+<ml_desc lang_id="0">射出储能使用压力继电器</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjAccumSnor" ID="173027371" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_INCACC  == 2">
+<ml_desc lang_id="0">射出储能使用压力传感器</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isExhaust" ID="174075948" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL3 &amp; 0x100) !=0">
+<ml_desc lang_id="0">排气功能使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="exhtInjTm" ID="175124525" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isExhaust &amp;&amp; d.clamp1.MOLDSET.FL_EXHAUSTMODE == 5">
+<ml_desc lang_id="0">排气射出时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">UYUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="exhtInjPos" ID="176173102" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isExhaust &amp;&amp; d.clamp1.MOLDSET.FL_EXHAUSTMODE == 6">
+<ml_desc lang_id="0">排气射出位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MOTOR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="inj2TmMax" ID="177221679" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.ACTPARA.TM_INJ1 + d.inject1.ACTPARA.TM_INJ2">
+<ml_desc lang_id="0">射出2段最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">입력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="inj3TmMax" ID="178270256" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.inj2TmMax + d.inject1.ACTPARA.TM_INJ3">
+<ml_desc lang_id="0">射出3段最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="inj4TmMax" ID="179318833" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.inj3TmMax + d.inject1.ACTPARA.TM_INJ4">
+<ml_desc lang_id="0">射出4段最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">출력2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="inj5TmMax" ID="180367410" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.inj4TmMax + d.inject1.ACTPARA.TM_INJ5">
+<ml_desc lang_id="0">射出5段最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Arka</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="inj6TmMax" ID="181415987" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.inj5TmMax + d.inject1.ACTPARA.TM_INJ6">
+<ml_desc lang_id="0">射出6段最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmMax2" ID="182464564" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInjetTm &amp;&amp; this.isInj2 ? this.inj2TmMax : d.inject1.ACTPARA.TM_INJ1">
+<ml_desc lang_id="0">射出使用时间2段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">UYUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmMax3" ID="183513141" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInjetTm &amp;&amp; this.isInj3 ? this.inj3TmMax : this.injTmMax2">
+<ml_desc lang_id="0">射出使用时间3段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">시스템 </ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmMax4" ID="184561718" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInjetTm &amp;&amp; this.isInj4 ? this.inj4TmMax : this.injTmMax3">
+<ml_desc lang_id="0">射出使用时间4段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmMax5" ID="185610295" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInjetTm &amp;&amp; this.isInj5 ? this.inj5TmMax : this.injTmMax4">
+<ml_desc lang_id="0">射出使用时间5段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmMax" ID="186658872" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isInjetTm &amp;&amp; this.isInj6 ? this.inj6TmMax : this.injTmMax5">
+<ml_desc lang_id="0">排气使用射出时间最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHydNoz" ID="187707449" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL4 &amp; 0x8000) !=0">
+<ml_desc lang_id="0">使用液压挡板功能</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Arka</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjBefNozAdv" ID="188756026" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL4 &amp; 0x4000) !=0">
+<ml_desc lang_id="0">使用座进前射出</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injTmBefNozAdv" ID="189804603" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_AUTOPURGE == 1 &amp;&amp; this.isInjBefNozAdv">
+<ml_desc lang_id="0">使用座进前射出模式时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">UYUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPosBefNozAdv" ID="190853180" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_AUTOPURGE == 2 &amp;&amp; this.isInjBefNozAdv">
+<ml_desc lang_id="0">使用座进前射出模式位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">시스템 </ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MOTOR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injectAve" ID="191901757" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_METERMAX_1 / 4">
+<ml_desc lang_id="0">每张图片间隔距离 4为图片数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">LOGO</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injPicIndex" ID="192950334" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.admeter1.STATE.ADPOSI_RELATIVE_1 / this.injectAve)+1">
+<ml_desc lang_id="0">射出图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">버전</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injVlvPicIndex" ID="193998911" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.inject1.PO.O_INJ_SOL == 1)+1">
+<ml_desc lang_id="0">射出阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">제로</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="nozAdvPicIndex" ID="195047488" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.nozzle1.PO.O_NOZ_FWD == 1)+1">
+<ml_desc lang_id="0">座进阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">윤활</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injCurvePos" ID="196096065" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.INJECT_CUREMODE == 0">
+<ml_desc lang_id="0">射出曲线模式为位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="injCurveTm" ID="197144642" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.INJECT_CUREMODE == 1">
+<ml_desc lang_id="0">射出曲线模式为时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">언어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">UYUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmDly" ID="198193219" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MACHSET.TMDLY_VLV_OFFINJEND + d.inject1.MACHSET.TMDLY_INJEND">
+<ml_desc lang_id="0">射出延迟计时</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">버전</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MOTOR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmDlyMax" ID="199241796" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL1 &amp; 0x08) ? this.holdTmDly*10 : this.holdTmDly/10">
+<ml_desc lang_id="0">小数位改变时最大值改变</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="hold2TmMax" ID="200290373" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.ACTPARA.TM_INJHOLD1 + d.inject1.ACTPARA.TM_INJHOLD2 + this.holdTmDlyMax">
+<ml_desc lang_id="0">保压2段曲线最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="hold3TmMax" ID="201338950" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.hold2TmMax + d.inject1.ACTPARA.TM_INJHOLD3">
+<ml_desc lang_id="0">保压3段曲线最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="hold4TmMax" ID="202387527" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.hold3TmMax + d.inject1.ACTPARA.TM_INJHOLD4">
+<ml_desc lang_id="0">保压4段曲线最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="hold5TmMax" ID="203436104" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.hold4TmMax + d.inject1.ACTPARA.TM_INJHOLD5">
+<ml_desc lang_id="0">保压5段曲线最大时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmMax2" ID="204484681" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isHold2 ? this.hold2TmMax : d.inject1.ACTPARA.TM_INJHOLD1 + this.holdTmDlyMax">
+<ml_desc lang_id="0">保压使用时间3段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmMax3" ID="205533258" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isHold3 ? this.hold3TmMax : this.hold2TmMax">
+<ml_desc lang_id="0">保压使用时间3段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">윤활유</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmMax4" ID="206581835" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isHold4 ? this.hold4TmMax : this.hold3TmMax">
+<ml_desc lang_id="0">保压使用时间4段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmMax" ID="207630412" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isHold5 ? this.hold5TmMax : this.hold4TmMax">
+<ml_desc lang_id="0">保压使用时间5段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="holdTmMax1" ID="208678989" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="-this.holdTmMax">
+<ml_desc lang_id="0">保压使用时间5段最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="charge" id="0">
+<tag name="enableChg3" ID="209731584" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_CHG == 3">
+<ml_desc lang_id="0">储料使用第3段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableBkPrs" ID="210780161" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL2 &amp; 0x2000) != 0">
+<ml_desc lang_id="0">储料使用背压</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableBkPrs3" ID="211828738" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.enableChg3 &amp;&amp; this.enableBkPrs">
+<ml_desc lang_id="0">储料使用背压3段</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="chg2PosMax" ID="212877315" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.enableChg3 ? d.inject1.ACTPARA.ADPOSI_CHG3END : d.admeter1.STATE.ADPOSI_METERMAX_1">
+<ml_desc lang_id="0">储料2段位置最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="remelt" ID="213925892" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL6 &amp; 0x80) != 0">
+<ml_desc lang_id="0">再次储料</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="bkPrsDot1" ID="214974469" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL5 &amp; 0x1000) !=0 ? 1 : 0">
+<ml_desc lang_id="0">储料背压压力精确到1位小数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수3</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="bkPrsMax" ID="216023046" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL5 &amp; 0x1000) !=0 ? d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT*10 : d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT">
+<ml_desc lang_id="0">储料背压压力精确到1位小数时的最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수4</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isSbDist" ID="217071623" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_SUCKBACKBEFORECHG == 1">
+<ml_desc lang_id="0">储前射退模式==距离</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수5</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isSbTime" ID="218120200" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.FL_SUCKBACKBEFORECHG == 2">
+<ml_desc lang_id="0">储前射退模式==时间</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">구조</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isChgOpnLink" ID="219168777" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL1 &amp; 0x100) != 0">
+<ml_desc lang_id="0">储料开模联动功能</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isBMC" ID="220217354" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 0x02) != 0">
+<ml_desc lang_id="0">BMC功能是否使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수1</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isChgInjHod" ID="221265931" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL5 &amp; 0x80) != 0">
+<ml_desc lang_id="0">储料射出保压开环</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수2</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isHMD" ID="222314508" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_CUSTOMID &amp; 0xFF00) == 0x8400 ">
+<ml_desc lang_id="0">厂商为华美达时</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수3</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="sbbkPicIndex" ID="223363085" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.inject1.PO.O_SUC_SOL == 1)+1">
+<ml_desc lang_id="0">射退阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수4</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="chgPicIndex" ID="224411662" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.inject1.PO.O_CHR_SOL == 1)+1">
+<ml_desc lang_id="0">储料阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수5</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="core" id="0">
+<tag name="coreAscrew" ID="225464320" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">구조</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreBscrew" ID="226512897" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreB.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreCscrew" ID="227561474" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreC.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">언어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreDscrew" ID="228610051" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreD.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreEscrew" ID="229658628" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreE.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreFscrew" ID="230707205" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreF.MOLDSET.FL_CORE_CTRL == 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreAcore" ID="231755782" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreBcore" ID="232804359" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreB.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreCcore" ID="233852936" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreC.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreDcore" ID="234901513" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreD.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">DA</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreEcore" ID="235950090" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreE.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreFcore" ID="236998667" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreF.MOLDSET.FL_CORE_CTRL != 2">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableAPos" ID="238047244" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 1)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableARPos" ID="239095821" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 2)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableBPos" ID="240144398" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 2)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableBRPos" ID="241192975" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 3)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableCPos" ID="242241552" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 3)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">펌프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableCRPos" ID="243290129" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 4)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableDPos" ID="244338706" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 4)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableDRPos" ID="245387283" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 5)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableEPos" ID="246435860" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 5)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableERPos" ID="247484437" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 6)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableFPos" ID="248533014" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_CLOSJTCORE == 6)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enableFRPos" ID="249581591" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!(this.useCode1 &amp;&amp; d.machine1.MOLDSET.FL_OPNEJTCORE == 7)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">IO A</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="coreOutMinPos_Max" ID="250630168" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.clamp1.MACHSET.ADPOSI_EFFCPR &lt; 10) ? d.clamp1.ACTPARA.ADPOSI_OPENENDEND : (d.clamp1.ACTPARA.ADPOSI_OPENENDEND+10-d.clamp1.MACHSET.ADPOSI_EFFCPR)">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse1" ID="251678745" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 1">
+<ml_desc lang_id="0">特殊中子A功能为1</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse2" ID="252727322" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 2">
+<ml_desc lang_id="0">特殊中子A功能为2</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse3" ID="253775899" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 3">
+<ml_desc lang_id="0">特殊中子A功能为3</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse4" ID="254824476" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 4">
+<ml_desc lang_id="0">特殊中子A功能为4</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">DURUM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse5" ID="255873053" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 5">
+<ml_desc lang_id="0">特殊中子A功能为5</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="splCoreUse6" ID="256921630" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.coreA.MOLDSET.FL_SPECIALCODE == 6">
+<ml_desc lang_id="0">特殊中子A功能为6</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPI2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="notCoreSW" ID="257970207" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_SERVOMODE &amp; 0x20) ==0">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SEÇENEĞİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreSW" ID="259018784" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_SERVOMODE &amp; 0x20) !=0">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreAPAR" ID="260067361" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 0 || this.isCoreSW">
+<ml_desc lang_id="0">使用中子A的参数或code44&amp;0X20</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreBPAR" ID="261115938" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 1 &amp;&amp; this.notCoreSW">
+<ml_desc lang_id="0">使用中子B的参数并且code44&amp;0x20==0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AKSİYON</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreCPAR" ID="262164515" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 2 &amp;&amp; this.notCoreSW">
+<ml_desc lang_id="0">使用中子C的参数并且code44&amp;0x20==0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">POMPA</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreDPAR" ID="263213092" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 3 &amp;&amp; this.notCoreSW">
+<ml_desc lang_id="0">使用中子D的参数并且code44&amp;0x20==0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreEPAR" ID="264261669" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 4 &amp;&amp; this.notCoreSW">
+<ml_desc lang_id="0">使用中子E的参数并且code44&amp;0x20==0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCoreFPAR" ID="265310246" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.CORE_SELECT == 5 &amp;&amp; this.notCoreSW">
+<ml_desc lang_id="0">使用中子F的参数并且code44&amp;0x20==0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="temp" id="0">
+<tag name="manualTemp" ID="266362880" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.tempctrl1.MACHSET.DATEMP_RAMP_1 == 0">
+<ml_desc lang_id="0">使用手动温控功能</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="temp6Visible" ID="267411457" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.3100 || this.A920 || this.A620 &amp;&amp; (d.machine1.MACHSET.FL_MACHINECTRL4 &amp; 0x10) == 0">
+<ml_desc lang_id="0">温度6段允许使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="temp6Light" ID="268460034" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.temp6Visible &amp;&amp; d.tempctrl1.STATE.FL_HEATERSTATUS != 0">
+<ml_desc lang_id="0">温度6段状态允许点亮</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="temp7Visible" ID="269508611" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.3100 || this.A920 &amp;&amp; (d.machine1.MACHSET.FL_MACHINECTRL4 &amp; 0x10) == 0">
+<ml_desc lang_id="0">温度7段允许使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ÖLÇEK</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="temp7Light" ID="270557188" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.temp7Visible &amp;&amp; d.tempctrl1.STATE.FL_HEATERSTATUS != 0">
+<ml_desc lang_id="0">温度7段状态允许点亮</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="temp8Light" ID="271605765" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.3100 &amp;&amp; d.tempctrl1.STATE.FL_HEATERSTATUS != 0">
+<ml_desc lang_id="0">温度8寸状态允许点亮</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempLeft" ID="272654342" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.tempctrl1.MOLDSET.TM_HEATERWARM !=0 || d.PP.MACHSET.TEMP_LEFTMIN !=0 || d.PP.MACHSET.TEMP_LEFTSEC !=0">
+<ml_desc lang_id="0">预温功能是否启用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExpand" ID="273702919" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINTERNAL6 &amp; 0x0400">
+<ml_desc lang_id="0">温度扩展功能</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempPidMin" ID="274751496" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_TEMPER &amp; 0x4000) ? 0:165">
+<ml_desc lang_id="0">温控系数最小值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempPidMax" ID="275800073" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_TEMPER &amp; 0x4000) ? 700:195">
+<ml_desc lang_id="0">温控系数最大值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="other" id="0">
+<tag name="posAdjust" ID="276852736" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL0 &amp; 0x08) != 0">
+<ml_desc lang_id="0">震雄调模</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isNozPos" ID="277901313" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_METER &amp; 0x04) !=0 &amp;&amp; (this.useServo3 &amp;&amp; this.A620 || this.A320) == 0">
+<ml_desc lang_id="0">座进座退使用位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Giriş 1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isNozMeter" ID="278949890" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.A920 || this.useServo3 == 0">
+<ml_desc lang_id="0">座台电子尺显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Giriş 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isPressor" ID="279998467" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useServo3 &amp;&amp; this.A620">
+<ml_desc lang_id="0">使用伺服3模式显示传感器</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isZero" ID="281047044" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.useServo5 &amp;&amp; (this.A620 || this.A320) &amp;&amp; (d.machine1.MACHSET.FL_METER &amp; 0x04) ==0">
+<ml_desc lang_id="0">伺服5模式，A6/A3时显示为0</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isAD4" ID="282095621" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isZero == 0">
+<ml_desc lang_id="0">显示AD4电子尺</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 3</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useEU12" ID="283144198" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.robot1.MOLDSET.FL_ROBOTCTRL &gt;=2">
+<ml_desc lang_id="0">机械手使用EU12</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="useEU67" ID="284192775" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.robot1.MOLDSET.FL_ROBOTCTRL ==3">
+<ml_desc lang_id="0">机械手使用EU67</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="releaseMd" ID="285241352" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL5 &amp;0x0200) !=0">
+<ml_desc lang_id="0">松模初始化</ml_desc>
+<ml_desc lang_id="1">Инициал.Съемной</ml_desc>
+<ml_desc lang_id="2">느슨한 금형 초기화</ml_desc>
+<ml_desc lang_id="3">ReleaseMd Initial</ml_desc>
+<ml_desc lang_id="4">وضع أغنية التهيئة</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Pino Initial</ml_desc>
+<ml_desc lang_id="7">Gevşek Kalıp</ml_desc>
+<ml_desc lang_id="8">مقداردهی اولیه شل سازی</ml_desc>
+<ml_desc lang_id="9">Incli Molde Solto</ml_desc>
+<ml_desc lang_id="10">Làm lòng khuôn khởi tạo</ml_desc>
+</tag>
+<tag name="sysPrsMax10" ID="286289929" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.DAPRES_SYSLMT *10">
+<ml_desc lang_id="0">系统压力上限*10</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Giriş 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="nozRetPicIndex" ID="287338506" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.nozzle1.PO.O_NOZ_BWD == 1)+1">
+<ml_desc lang_id="0">座退阀灰红灯图片索引</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isStep" ID="288387083" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.adjust1.ACTPARA.ADPOSI_ADJMD &amp;&amp; d.adjust1.ACTPARA.CN_ADJFIRST ==0">
+<ml_desc lang_id="0">每次点动步数是否可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isRotStrPos" ID="289435660" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.robot1.MOLDSET.FL_ROBOTCTRL&gt;0 &amp;&amp; d.clamp1.MACHSET.FL_ADPOSROBOT&gt;0">
+<ml_desc lang_id="0">途中机械手启动位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 3</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="prodManage" id="0">
+<tag name="prodBadShot" ID="290488320" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.clamp1.STATE.CN_MOLDOPNNUM1 &gt; d.clamp1.STATE.CN_VALIDMOLD) ? (d.clamp1.STATE.CN_MOLDOPNNUM1 - d.clamp1.STATE.CN_VALIDMOLD) : 0 ">
+<ml_desc lang_id="0">当前不良品数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="prodCnt" ID="291536897" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.MACHSET.PROD_CUROPCNT * p.PP.MACHSET.PROD_PERCNT">
+<ml_desc lang_id="0">当前产品数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="prodCnt1" ID="292585474" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.prodCnt">
+<ml_desc lang_id="0">当前良品数 目前和当前产品数一致</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Giriş 1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="realTime" ID="293634051" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.STATE.TM_CYCLE_LAST ">
+<ml_desc lang_id="0">本次循环实际值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Giriş 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="prodHourCnt" ID="294682628" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.realTime ? (3600/this.realTime)*100">
+<ml_desc lang_id="0">每小时开模数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 1</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="remainShotCnt" ID="295731205" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="((d.clamp1.MOLDSET.CN_PRODUCTSETTING1&lt;&lt;16)|d.clamp1.MOLDSET.CN_PRODUCTSETTING2) - p.PP.STATE.totalOpenCnt">
+<ml_desc lang_id="0">剩余开模数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 2</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="remainTH" ID="296779782" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.remainShotCnt/(36000/this.realTime)">
+<ml_desc lang_id="0">剩余时间小时</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Çıktı 3</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="remainTM" ID="297828359" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.remainShotCnt*this.realTime/600">
+<ml_desc lang_id="0">剩余时间分钟</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="operateRecord" id="0">
+<tag name="showButton" ID="298881024" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL20 == 9595">
+<ml_desc lang_id="0">输入的密码是否等于9595</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="version" id="0">
+<tag name="ioExtend1" ID="299933696" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; 1)!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AD</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend2" ID="300982273" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;1))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ADGE</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend3" ID="302030850" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;2))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend4" ID="303079427" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;3))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend5" ID="304128004" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;4))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend6" ID="305176581" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;5))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="ioExtend7" ID="306225158" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTIOST &amp; (1&lt;&lt;6))!=0">
+<ml_desc lang_id="0">IO扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend1" ID="307273735" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; 1)!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend2" ID="308322312" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;1))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">업데이트</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİGE</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend3" ID="309370889" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;2))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">IŞLEMI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend4" ID="310419466" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;3))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend5" ID="311468043" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;4))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend6" ID="312516620" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;5))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daExtend7" ID="313565197" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTDAST &amp; (1&lt;&lt;6))!=0">
+<ml_desc lang_id="0">DA扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend1" ID="314613774" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; 1)!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend2" ID="315662351" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;1))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">판넬</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend3" ID="316710928" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;2))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAKİGE</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend4" ID="317759505" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;3))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">IŞLEMI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend5" ID="318808082" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;4))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend6" ID="319856659" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;5))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="tempExtend7" ID="320905236" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.STATE.EXTTEMPST &amp; (1&lt;&lt;6))!=0">
+<ml_desc lang_id="0">温度扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend1" ID="321953813" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX1 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend2" ID="323002390" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX2 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">찾기</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend3" ID="324050967" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX3 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend4" ID="325099544" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX4 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YÜKLEMEK</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend5" ID="326148121" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX5 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SİSTEM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend6" ID="327196698" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX6 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="mdtpExtend7" ID="328245275" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.PP.MACHSET.MDTEMP_STATEX7 == 1">
+<ml_desc lang_id="0">模温扩展板连接状态</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="admeter" id="0">
+<tag name="addSign1" ID="329297920" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_ABSOLUTE_1 &gt;= d.admeter1.MACHSET.ZSET_1">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="addSign2" ID="330346497" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_ABSOLUTE_2 &gt;= d.admeter1.MACHSET.ZSET_2">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">데이터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="addSign3" ID="331395074" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_ABSOLUTE_3 &gt;= d.admeter1.MACHSET.ZSET_3">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="addSign4" ID="332443651" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.admeter1.STATE.ADPOSI_ABSOLUTE_4 &gt;= d.admeter1.MACHSET.ZSET_4">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YÜKLEMEK</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="addSign5" ID="333492228" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.admeter1.STATE.ADPOSI_ABSOLUTE_5 &gt;= d.admeter1.MACHSET.ZSET_5) &amp;&amp; this.A920">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SİSTEM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="addSign6" ID="334540805" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.admeter1.STATE.ADPOSI_ABSOLUTE_6 &gt;= d.admeter1.MACHSET.ZSET_6) &amp;&amp; this.A920">
+<ml_desc lang_id="0">AD绝对值大于等于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign1" ID="335589382" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign1">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign2" ID="336637959" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign2">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign3" ID="337686536" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign3">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">중단 시간</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign4" ID="338735113" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign4">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign5" ID="339783690" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign5 &amp;&amp; this.A920">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">P.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="subSign6" ID="340832267" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.addSign6 &amp;&amp; this.A920">
+<ml_desc lang_id="0">AD绝对值小于AD归零值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">D.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isMeterServo" ID="341880844" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(this.A920 == 0) &amp;&amp; this.useServo3">
+<ml_desc lang_id="0">是否普通电子尺下使用伺服</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">R.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isMeterNoz" ID="342929421" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.isMeterServo">
+<ml_desc lang_id="0">是否使用座台电子尺</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">A.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="sysparam" id="0">
+<tag name="useSpcData" ID="343982080" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_CUSTOMID &amp; 0xFF00)== 0x8B00 || (d.machine1.MACHSET.FL_MACHINTERNAL3 &amp; 0x40)!=0">
+<ml_desc lang_id="0">使用高压校正系数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="machinecfg" id="0">
+<tag name="isSetCode" ID="345034752" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL100 == 4321">
+<ml_desc lang_id="0">输入的密码是否等于4321</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사용자</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isMainReset" ID="346083329" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL102 == 95">
+<ml_desc lang_id="0">输入的密码是否等于95</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isResetInfo" ID="347131906" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL200 == 33 &amp;&amp; d.machine1.MACHSET.FL_CTRLDATE ==0">
+<ml_desc lang_id="0">配置重值提示显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">P.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isReadCode" ID="348180483" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.isSetCode">
+<ml_desc lang_id="0">code码是否只读</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">D.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="pumpcfg" id="0">
+<tag name="isMultPump" ID="349233152" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_HYDRAUIC &amp; 0x800">
+<ml_desc lang_id="0">使用多泵</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">R.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isSinglePump" ID="350281729" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_HYDRAUIC &amp; 0x800) == 0">
+<ml_desc lang_id="0">使用单泵</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">A.KAYIT</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isPumpAdjust" ID="351330306" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.hydr1.MACHSET.FL_PWRMATCHTBL == 1">
+<ml_desc lang_id="0">使用泵浦调整功能</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isViceStrStop" ID="352378883" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isMultPump &amp;&amp; this.isPumpAdjust &amp;&amp; this.useServo5">
+<ml_desc lang_id="0">副泵启停速度</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isPumpAdj" ID="353427460" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.isMultPump &amp;&amp; this.isPumpAdjust">
+<ml_desc lang_id="0">泵浦2-6调整</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="autoalarm" id="0">
+<tag name="autoArmState" ID="354480128" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINTERNAL0 &amp; 0x0100)!=0">
+<ml_desc lang_id="0">自动警报状态(老)</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="autoArmStatex" ID="355528705" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.autoArmState">
+<ml_desc lang_id="0">自动警报状态（新）</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Alarm</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInjEndPos" ID="356577282" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(d.machine1.MACHSET.FL_MACHINECTRL2 &amp; 0x01)!=0">
+<ml_desc lang_id="0">射出终点位置实际值</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Bilgi</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isTrunHoldPos" ID="357625859" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.isInjEndPos">
+<ml_desc lang_id="0">射出转保压位置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARAM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="mainadj" id="0">
+<tag name="roomAddSign" ID="358678528" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.tempctrl1.STATE.WTEMP_LM73 &lt;= 0x8000">
+<ml_desc lang_id="0">室温正负显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="roomSubSign" ID="359727105" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="!this.roomAddSign">
+<ml_desc lang_id="0">室温正负显示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="userManage" id="0">
+<tag name="user1Pwd" ID="360779776" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 == 1 &amp;&amp; p.PP.TMP.TMPVAL1 == 19001">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="user2Pwd" ID="361828353" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 == 2 &amp;&amp; p.PP.TMP.TMPVAL1 == 19002">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="user3Pwd" ID="362876930" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 == 3 &amp;&amp; p.PP.TMP.TMPVAL1 == 19003">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="userPwdChg" ID="363925507" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.user1Pwd || this.user2Pwd || this.user3Pwd">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Mengene</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="dataDiag" id="0">
+<tag name="showCheck" ID="364978176" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_MACHINTERNAL3 &amp; 0x0002">
+<ml_desc lang_id="0"/>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">배압</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">İtici</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="machTable" id="0">
+<tag name="showPress" ID="366030848" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL152 &amp;&amp; p.PP.TMP.TMPVAL153">
+<ml_desc lang_id="0">AD6显示压力</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="showAD6" ID="367079425" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL152 &amp;&amp; (!(p.PP.TMP.TMPVAL153))">
+<ml_desc lang_id="0">AD6</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="servo" id="0">
+<tag name="isServoID" ID="368132096" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL400 ==0">
+<ml_desc lang_id="0">测试时伺服ID是否可选</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isPhaseMotor" ID="369180673" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL302 ==0">
+<ml_desc lang_id="0">电机品牌是菲仕</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isInovaMotor" ID="370229250" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL302 ==1">
+<ml_desc lang_id="0">电机品牌是汇川</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Grup</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isStartSelf" ID="371277827" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.SERVO.SERVO_SELFLEANSWITCH ==0">
+<ml_desc lang_id="0">开始自学习</ml_desc>
+<ml_desc lang_id="1">Нач.Самообучени</ml_desc>
+<ml_desc lang_id="2">자기 학습 시작</ml_desc>
+<ml_desc lang_id="3">Start Self-learn</ml_desc>
+<ml_desc lang_id="4">بداية التعلم الذاتي</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Iniciar Auto Learn</ml_desc>
+<ml_desc lang_id="7">Kendi kendine öğrenme Başlat</ml_desc>
+<ml_desc lang_id="8">خودآموزی استارت</ml_desc>
+<ml_desc lang_id="9">Come Auto-Estudo</ml_desc>
+<ml_desc lang_id="10">Bắt đầu tự học</ml_desc>
+</tag>
+<tag name="isStopSelf" ID="372326404" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.SERVO.SERVO_SELFLEANSWITCH ==1">
+<ml_desc lang_id="0">停止自学习</ml_desc>
+<ml_desc lang_id="1">СтопСамообучени</ml_desc>
+<ml_desc lang_id="2">자기 학습 중지</ml_desc>
+<ml_desc lang_id="3">Stop Self-learn</ml_desc>
+<ml_desc lang_id="4">وقف التعلم الذاتي</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Detener Autoaprendizaje</ml_desc>
+<ml_desc lang_id="7">Kendi kendine öğrenme durdurmak</ml_desc>
+<ml_desc lang_id="8">خودآموزی توقف</ml_desc>
+<ml_desc lang_id="9">Pare Auto-Estudo</ml_desc>
+<ml_desc lang_id="10">Dừng tự học</ml_desc>
+</tag>
+<tag name="isSelfLearn" ID="373374981" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.SERVO.SERVO_SELFLEANPROMPT ==0">
+<ml_desc lang_id="0">自学习步奏提示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">경보기록</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isServoAlarm" ID="374423558" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.SERVO.SERVO_SELFLEANPROMPT ==1">
+<ml_desc lang_id="0">驱动器警报提示</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">정보</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isShowAD4" ID="375472135" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.A320 || this.A620 || d.machine1.MACHSET.FL_CTRLMODEL ==0">
+<ml_desc lang_id="0">伺服曲线停止</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">변수</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isShowAD6" ID="376520712" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.A920">
+<ml_desc lang_id="0">伺服曲线停止</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="wHelp0" ID="377569289" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL1==0">
+<ml_desc lang_id="0">调试须知</ml_desc>
+<ml_desc lang_id="1">Отладка</ml_desc>
+<ml_desc lang_id="2">디버깅 공지 사항</ml_desc>
+<ml_desc lang_id="3">Debugging Notice</ml_desc>
+<ml_desc lang_id="4">معلومات التصحيح</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Depuración Aviso</ml_desc>
+<ml_desc lang_id="7">Bildirimi Ayıklama</ml_desc>
+<ml_desc lang_id="8">تذکرات درباره تنظیم</ml_desc>
+<ml_desc lang_id="9">Nota Depur</ml_desc>
+<ml_desc lang_id="10">Gỡ lỗi phải biết</ml_desc>
+</tag>
+<tag name="wHelp1" ID="378617866" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL1==1">
+<ml_desc lang_id="0">伺服调试步骤</ml_desc>
+<ml_desc lang_id="1">Servo инстру</ml_desc>
+<ml_desc lang_id="2">서보 디버깅 단계</ml_desc>
+<ml_desc lang_id="3">Servo Debugging Steps</ml_desc>
+<ml_desc lang_id="4">خطوات المؤازرة التكليف</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Pasos Depuración Servo</ml_desc>
+<ml_desc lang_id="7">Servo hata ayıklama adımları</ml_desc>
+<ml_desc lang_id="8">مراحل تنظیم سروو</ml_desc>
+<ml_desc lang_id="9">Passo De Ensaio De Servo</ml_desc>
+<ml_desc lang_id="10">Bước điều chỉnh thử servo</ml_desc>
+</tag>
+<tag name="wHelp2" ID="379666443" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL1==2">
+<ml_desc lang_id="0">如何试压</ml_desc>
+<ml_desc lang_id="1">Помощь Испытан</ml_desc>
+<ml_desc lang_id="2">압력 시험 도움말</ml_desc>
+<ml_desc lang_id="3">Pressure Test Help</ml_desc>
+<ml_desc lang_id="4">انظر كيف اختبار الضغط</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Presión De Prueba Ayuda</ml_desc>
+<ml_desc lang_id="7">Basınç Testi Yardım</ml_desc>
+<ml_desc lang_id="8">کمک تست فشار</ml_desc>
+<ml_desc lang_id="9">Veja Como Faz Ensaio Prs</ml_desc>
+<ml_desc lang_id="10">Kiểm tra thử áp thế nào</ml_desc>
+</tag>
+<tag name="wHelp3" ID="380715020" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL1==3">
+<ml_desc lang_id="0">如何泵浦测试</ml_desc>
+<ml_desc lang_id="1">Помощь дл</ml_desc>
+<ml_desc lang_id="2">펌프 테스트 도움말</ml_desc>
+<ml_desc lang_id="3">Pump Test Help</ml_desc>
+<ml_desc lang_id="4">كيفية اختبار المضخة</ml_desc>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6">Bomba Trueba Presión</ml_desc>
+<ml_desc lang_id="7">Pompa Testi Yardım</ml_desc>
+<ml_desc lang_id="8">کمک تست پمپ</ml_desc>
+<ml_desc lang_id="9">Como Faz Ensaio Bomb</ml_desc>
+<ml_desc lang_id="10">Kiểm tra pumping thế nào</ml_desc>
+</tag>
+</group>
+<group name="daAdjust" id="0">
+<tag name="isCharge1" ID="381767680" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_CHG ==1">
+<ml_desc lang_id="0">储料一段使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">상태</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA4</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCharge2" ID="382816257" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_CHG ==2">
+<ml_desc lang_id="0">储料二段使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">자기학습</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">PARA5</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isCharge3" ID="383864834" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.inject1.MOLDSET.SEC_CHG ==3">
+<ml_desc lang_id="0">储料三段使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">디버그</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">YAPISI</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="isWeiYa" ID="384913411" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="d.machine1.MACHSET.FL_CUSTOMID != 0xBA00">
+<ml_desc lang_id="0">厂商为威压</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">동작</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daPrsMax" ID="385961988" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(p.PP.TMP.TMPVAL0 &gt;0 &amp;&amp; ((p.PP.TMP.TMPVAL0 +1) == p.PP.TMP.TMPVAL120)) ? d.autoctrl1.MOLDSET.DAPRES_BACKLIMIT :d.machine1.MACHSET.DAPRES_SYSLMT">
+<ml_desc lang_id="0">DA输出压力上限</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">그래프</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">ADJ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daSel1" ID="387010565" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 ==0">
+<ml_desc lang_id="0">DA选择第1组</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">도움말</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SFDR</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daSel2" ID="388059142" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 ==1">
+<ml_desc lang_id="0">DA选择第2组</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2"/>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Robot</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daSel3" ID="389107719" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 ==2">
+<ml_desc lang_id="0">DA选择第3组</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">SIRA VANA</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daSel4" ID="390156296" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0 ==3">
+<ml_desc lang_id="0">DA选择第4组</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="prsReadOnly" ID="391204873" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL102 ==0">
+<ml_desc lang_id="0">压力调整只读</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="spdReadOnly" ID="392253450" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL106 ==0">
+<ml_desc lang_id="0">速度调整只读</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="daReset" ID="393302027" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL115 ==95">
+<ml_desc lang_id="0">DA线性重置</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Mengene</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="ioredef" id="0">
+<tag name="pwdCheck" ID="394354688" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL4 == 9510">
+<ml_desc lang_id="0">重定义密码</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">İtici</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+<group name="install" id="0">
+<tag name="payNumMax" ID="395407360" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(p.PP.TMP.TMPVAL15==2) ? 6:50">
+<ml_desc lang_id="0">停机方式确定最大分期数</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Enjeksiyon</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="usePayFunc" ID="396455937" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="p.PP.TMP.TMPVAL0!=0">
+<ml_desc lang_id="0">分期停机功能使用</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">형체</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">MAL ALM</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enIntervalDay" ID="397504514" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="(p.PP.TMP.TMPVAL0!=0) &amp;&amp; (p.PP.TMP.TMPVAL15 ==0) &amp;&amp; (p.PP.TMP.TMPVAL1&gt;1)">
+<ml_desc lang_id="0">间隔天数是否可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">에젝터</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Maça</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enSecPay" ID="398553091" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.usePayFunc &amp;&amp; (p.PP.TMP.TMPVAL15 ==2) &amp;&amp; (p.PP.TMP.TMPVAL1&gt;=2)">
+<ml_desc lang_id="0">第二期可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">사출</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Isılar</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enThirdPay" ID="399601668" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.usePayFunc &amp;&amp; (p.PP.TMP.TMPVAL15 ==2) &amp;&amp; (p.PP.TMP.TMPVAL1&gt;=3)">
+<ml_desc lang_id="0">第三期可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">계량</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">Grup</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enFourPay" ID="400650245" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.usePayFunc &amp;&amp; (p.PP.TMP.TMPVAL15 ==2) &amp;&amp; (p.PP.TMP.TMPVAL1&gt;=4)">
+<ml_desc lang_id="0">第四期可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">코어</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7">AYARMAKİ</ml_desc>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enFivePay" ID="401698822" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.usePayFunc &amp;&amp; (p.PP.TMP.TMPVAL15 ==2) &amp;&amp; (p.PP.TMP.TMPVAL1&gt;=5)">
+<ml_desc lang_id="0">第五期可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">온도</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+<tag name="enSixPay" ID="402747399" 类型="0" 读写方式="0" 初始值="0" prop="8" exp="this.usePayFunc &amp;&amp; (p.PP.TMP.TMPVAL15 ==2) &amp;&amp; (p.PP.TMP.TMPVAL1==6)">
+<ml_desc lang_id="0">第六期可设</ml_desc>
+<ml_desc lang_id="1"/>
+<ml_desc lang_id="2">노즐</ml_desc>
+<ml_desc lang_id="3"/>
+<ml_desc lang_id="4"/>
+<ml_desc lang_id="5"/>
+<ml_desc lang_id="6"/>
+<ml_desc lang_id="7"/>
+<ml_desc lang_id="8"/>
+<ml_desc lang_id="9"/>
+<ml_desc lang_id="10"/>
+</tag>
+</group>
+</group>
+</EstCODE>

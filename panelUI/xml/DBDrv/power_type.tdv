@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="power_type">
+<config name="转换器类型" value="按值"/>
+<group data_src="">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">液压</string>
+<string lang_id="1" lang="俄文">Гидравл.</string>
+<string lang_id="2" lang="韩文">유압오일라인</string>
+<string lang_id="3" lang="英文">Hydraulic</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Presión aceite hidráulico</string>
+<string lang_id="7" lang="土耳其语">Hidrolik</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">ÓLeoHidráulica</string>
+<string lang_id="10" lang="越南文">T.lực đg dầu</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">混电</string>
+<string lang_id="1" lang="俄文">смесь</string>
+<string lang_id="2" lang="韩文">하이브리드 전기</string>
+<string lang_id="3" lang="英文">MixElect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Mezc Elect</string>
+<string lang_id="7" lang="土耳其语">Mix</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Híbrido</string>
+<string lang_id="10" lang="越南文">PhaĐiện</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">全电</string>
+<string lang_id="1" lang="俄文">Электрическая</string>
+<string lang_id="2" lang="韩文">모든 전기</string>
+<string lang_id="3" lang="英文">Electric</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Todo Eléc</string>
+<string lang_id="7" lang="土耳其语">Elektrik</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Electric</string>
+<string lang_id="10" lang="越南文">Toàn điện</string>
+</item>
+</group>
+</MapDrv>

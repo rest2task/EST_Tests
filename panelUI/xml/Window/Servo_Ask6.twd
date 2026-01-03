@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Servo_Ask6" 可见="-1" 标题="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="250" 宽度="400" 高度="300" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="ok" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="492" 宽度="139" 高度="30" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:确定" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="250" 宽度="400" 高度="26" 语言表索引="0" 文本="0:注意|||1:внимание|||2:주의|||3:Attention|||4:ملاحظة|||5:Attention|||6:Nota|||7:Dikkat|||8:توجه|||9:Atenção|||10:Chú ý|||default:注意" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="cancel" 索引="0" 可见="-1" 可用="-1" 左="314" 顶="492" 宽度="139" 高度="30" 标题="0:取消|||1:Отмен|||2:취소|||3:Cancel|||4:إلغاء|||5:Cancel|||6:Cancel|||7:İptal|||8:لغو|||9:Cancelar|||10:Hủy|||default:取消" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="servo cancel;dlg close"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="106" 顶="293" 宽度="383" 高度="20" 语言表索引="0" 文本="0:自学习成功，选择确定自动执行下列操作,|||1:успеха,делать следующие вещи,|||2:성공, 다음 작업을 하기 위해 계속합니다.|||3:Succeed,Confirm for execute the following operation,|||4:نجاح التعلم الذاتي، اختر التأكيد للقيام تلقائيا|||5:Succeed,Confirm for execute the following operation,|||6:Éxito, Y Seguir Haciendo Las Cosas Siguientes,|||7:Başarılı ve aşağıdaki şeyler yapmaya devam,|||8:موفق. برای اجرای عملیات زیر تأیید کنید|||9:Sucesso Auto-Estudo, Selecione Sim Para Efetuar As OperaçõEs Seguintes|||10:Tự học thành công, chọn xác định tự động chấp hành thao tác dưới,|||default:自学习成功，选择确定自动执行下列操作," 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="113" 顶="361" 宽度="383" 高度="20" 语言表索引="0" 文本="0:1.选择取消进行手动操作.|||1:или выб.Отмена в ручной режим.|||2:또는 수동 조작 취소를 선택합니다.|||3:Choose Cancel to Manual operation.|||4:الغاء الاختيار للتشغيل اليدوي|||5:Choose Cancel to Manual operation.|||6:Cancelar Manual Operación .|||7:veya manuel çalışma için iptal seçin.|||8:انتخاب لغو برای عمل دستی|||9:Slecione Cancelar Para Operar Manualmente|||10:Chọn hủy để thao tác bằng tay|||default:1.选择取消进行手动操作." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="113" 顶="388" 宽度="383" 高度="20" 语言表索引="0" 文本="0:2.驱动模式处于EST控制.|||1:Серво-перек. режимов в EST-Ctrl.|||2:서보 모드는 EST 콘트롤입니다.|||3:Servo mode under EST ctrl.|||4:وضع المحرك في تحكم EST|||5:Servo mode under EST ctrl.|||6:Interruptor Modo Servo EST-Ctrl.|||7:EST-Ctrl Servo modu anahtarı.|||8:تغییر مد سروو به کنترل EST|||9:Modo De Condutor Fica No Controlo EST|||10:Chế độ drive nằm ở điều khiển EST|||default:2.驱动模式处于EST控制." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="113" 顶="419" 宽度="383" 高度="20" 语言表索引="0" 文本="0:3.转到F3调试页面进行液压或泵浦测试.|||1:Перек.на F3отладки и тест.|||2:F3 디버깅 눌러 테스트 페이지로 갑니다.|||3:Switch to DEBUG to test Hydraulic and Pump.|||4:تحويل الي صفحة التعديل  لاختبار المضخة الهيدروليكية|||5:Switch to DEBUG to test Hydraulic and Pump.|||6:Cambiar A DEBUG Y Prueba.|||7:Hata ayıklama ve test etmek için geçiş.|||8:برای تست هیدرولیک و پمپ به &quot;تنظیم&quot; بروید|||9:Virar A &quot;Teste&quot;Para Fazer Teste  Hidráulica Ou De Bombeamento|||10:Chuyển &quot;ĐCT&quot; t.lực hoặc pumping|||default:3.转到F3调试页面进行液压或泵浦测试." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="1" ele_name="ok"/>
+<horz order="1" ele_index="3" ele_name="cancel"/>
+<vert order="0" ele_index="1" ele_name="ok"/>
+<vert order="1" ele_index="3" ele_name="cancel"/>
+<tab order="0" ele_index="1" ele_name="ok"/>
+<tab order="1" ele_index="3" ele_name="cancel"/>
+<id order="0" ele_index="0" ele_name="label7"/>
+<id order="1" ele_index="1" ele_name="ok"/>
+<id order="2" ele_index="2" ele_name="label2"/>
+<id order="3" ele_index="3" ele_name="cancel"/>
+<id order="4" ele_index="4" ele_name="label3"/>
+<id order="5" ele_index="5" ele_name="label4"/>
+<id order="6" ele_index="6" ele_name="label5"/>
+<id order="7" ele_index="7" ele_name="label6"/>
+<jmp_list desc=""/>
+</element>

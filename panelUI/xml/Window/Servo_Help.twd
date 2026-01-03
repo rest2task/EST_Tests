@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Servo_Help" 可见="-1" 标题="0:伺服帮助|||1:Servo Помощь|||2:서보 도움말|||3:Servo Help|||4:مساعدة الأجهزة |||5:Servo Help|||6:Servo Ayuda|||7:SERVO YARDIM|||8:کمک سروو|||9:Ajuda Servo|||10:Servo giúp đỡ|||default:伺服帮助" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802" prop_nottsb="1"/>
+<var prop="数据保护" orient="in" tag=".z数据保护"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label200" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="15" 宽度="281" 高度="520" 文本="0:其它帮助|||1:Дополни|||2:다른 도움말|||3:Other Help|||4:تعليمات أخرى|||5:Other Help|||6:Más Ayuda|||7:DIGER YARDIM|||8:کمک دیگر|||9:outra Ajuda|||10:Hỗ trợ khác|||default:其它帮助" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="40" 宽度="260" 高度="24" 数据="0:调试须知;伺服调试步骤;如何试压;如何泵浦测试|||1:Инст.отл.;Шаг сервоотладки;Осм.опресс.;Как исп. насос|||2:디버깅 공지 사항;서보 디버깅 단계;압력 시험 도움말;펌프 테스트 도움말|||3:Debugging Notice;Servo Debugging Steps;Pressure Test Help;Pump Test Help|||4:معلومات التصحيح;خطوات المؤازرة التكليف;انظر كيف اختبار الضغط;كيفية اختبار المضخة|||5:Debugging Notice;Servo Debugging Steps;Pressure Test Help;Pump Test Help|||6:Depuración Aviso;Pasos Depuración Servo;Presión De Prueba Ayuda;Bomba Trueba Presión|||7:Bildirimi Ayıklama;Servo Ayarla Adımlar;Basınç Teftiş Yardım;Pompa Teftiş Yardım|||8:تذکرات درباره تنظیم;مراحل تنظیم سروو;کمک تست فشار;کمک تست پمپ|||9:Nota Depur;Passo De Ensaio De Servo;Veja Como Faz Ensaio Prs;Como Faz Ensaio Bomb|||10:Gỡ lỗi phải biết;Bước điều chỉnh thử servo;Kiểm tra thử áp thế nào;Kiểm tra pumping thế nào|||default:调试须知" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL1" 当前值="0" cur_text="调试须知" cbox_line_color2="3" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<event name="选择改变" act=""/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="295" 顶="15" 宽度="291" 高度="520" 文本="0:驱动器警报代码查看|||1:Привод просмотра|||2:서보 에러 코드보기|||3:Servo Alarm Code View|||4:سائق تنبيه عرض رمز|||5:Servo Alarm Code View|||6:Código Error Servo View|||7:SERVO ALARM KODU GÖRÜNÜMÜ|||8:نمایش کد هشدار سروو|||9:Ver Código Alarme Condutor|||10:Kiểm tra xem mã cảnh báo driver|||default:驱动器警报代码查看" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="75" 宽度="80" 高度="24" 语言表索引="0" 文本="0:Err|||1:Err|||2:Err|||3:Err|||4:Err|||5:Err|||6:Err|||7:Err|||8:Err|||9:Err|||10:Err|||default:Err" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit19" 索引="0" 可见="-1" 可用="-1" 左="385" 顶="75" 宽度="80" 高度="24" 文本="0" 字体="宋体" 字号="18" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0" 关联变量="p.PP.TMP.TMPVAL2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="1" 最大值="63" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label54" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="40" 宽度="280" 高度="24" 语言表索引="0" 文本="0:请输入故障代码编号:|||1:Пожалуйста, введите номер кода ошибки|||2:오류 코드를 입력하십시오 :|||3:Please enter the alarm code|||4:يرجى إدخال رمز الخطأ|||5:Please enter the alarm code|||6:Por Favor Introduce Código Error:|||7:Lütfen alarm kodunu giriniz|||8:لطفا کد خطا را وارد کنید|||9:Digite número Código Falha|||10:Vui lòng viết vào mã số trục trặc|||default:请输入故障代码编号:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label67" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="103" 宽度="271" 高度="420" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="0" 纵向对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="4" 格式="" 转换表名称="servo_alarm_help" 自动换行="0"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label79" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="80" 宽度="261" 高度="450" 语言表索引="0" 文本="0:1.底色为灰色，且光标无法移入的选
+项，请先关马达和驱动使能，或将驱
+动器模式改为调试.
+2.多驱动器(多泵)系统，请先在驱动
+器参数A2-01设定驱动编号；编号范
+围1-7，对应泵1-泵7；单驱动器(单
+泵)忽略此步骤.
+3.通讯测试时“丢包率%”状态显示
+橙色，表示丢包率过多，必须先排
+除相应故障再做下一步调试，显示
+负值颜色为黑色表示有两台以上驱
+动编号重复.
+4.“伺服调试步骤”请在此下拉框内
+选择查看.|||1:|||2:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||3:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||4:|||5:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||6:|||7:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||8:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||9:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||10:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary.|||default:1.The target background is
+ different and unable to get
+ focus,please close Motor and 
+ServoEn,or change servo mode
+ to Debug.
+2.Multiple drives(pump)system 
+must set up the drive number 
+which drive address is A2-01;
+Numbers range from 1 to 7,the  
+corresponding pump 1-7;Single 
+drive or pump system ignore
+ this setp.
+ 3.The packet loss too much if 
+communication test shows
+ orange,please rule out the 
+corresponding fault first and 
+then make the next setp
+debugging.If communication test 
+shows black,there are two or more 
+drives have the same server-id.
+ 4.Also view the servo debugging 
+setps here if necessary." 横向对齐="0" 纵向对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label80" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="80" 宽度="261" 高度="450" 语言表索引="0" 文本="0:1.先进入“状态”进行通讯测试.
+主机和驱动器测试需要开启马达.
+2.转到“自学习”重置驱动参数,
+再设定电机参数.
+3.电机参数自学习.
+4.转到“调试”进行压力测试.
+5.如果是多泵,进行泵浦测试.
+6.调试完成.|||1:|||2:|||3:1.Switch to the State to test
+communicationsfirst,the host and 
+drives test must open the motor.
+2.Swtich to the Self-learning 
+to reset the drive parameters,
+and then set she motor 
+parameters.
+3.Motor parameter self learning.
+4.Switche to the Debug to test
+pressure.
+5.If it is multiple pump,pump
+test.
+6.Debug completed.|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:1.Switch to the State to test
+communicationsfirst,the host and 
+drives test must open the motor.
+2.Swtich to the Self-learning 
+to reset the drive parameters,
+and then set she motor 
+parameters.
+3.Motor parameter self learning.
+4.Switche to the Debug to test
+pressure.
+5.If it is multiple pump,pump
+test.
+6.Debug completed." 横向对齐="0" 纵向对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label81" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="80" 宽度="261" 高度="450" 语言表索引="0" 文本="0:试压前请确认:
+1.系统安全阀已关闭.
+2.油路无泄漏.
+3.驱动模式处于EST控制.
+4.电机已开启.
+5.以座退作为试压动作.
+6.油泵处于正转.|||1:|||2:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||3:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||4:|||5:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||6:|||7:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||8:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||9:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||10:Please confirm before test pressure:
+1.System safety valve has been closed.
+2.No leakage oil.
+3.Servo mode is EST ctrl.
+4.Motor is ON.
+5.Test pressure by nozzle retreat.
+6.Pump is running forward.|||default:试压前请确认:
+1.系统安全阀已关闭.
+2.油路无泄漏.
+3.驱动模式处于EST控制.
+4.电机已开启.
+5.以座退作为试压动作.
+6.油泵处于正转." 横向对齐="0" 纵向对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label82" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="80" 宽度="265" 高度="450" 语言表索引="0" 文本="0:1.对于多泵合流,需要进行泵浦测试.
+2.请在主泵(泵1)试压正常后进行.
+3.使用储料一段动作测试,注意螺杆
+当前位置.
+4.必须为空料筒,请注意料筒温度.
+5.先测试泵1,按储料查看并记录螺
+杆转速.
+6.依次加入其它泵,查看螺杆转速是
+否符合流量设计要求.
+7.如加入其中一个泵,螺杆转速未增
+加,可能该泵为反转.
+8.如果油泵反转,可选择对应驱动编
+码后更改旋转方向.|||1:|||2:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||3:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||4:|||5:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||6:|||7:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||8:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||9:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||10:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation.|||default:1.While more pump confluence ,
+pump-test is needed.
+2.Make sure the pump1 pressure
+test is normal.
+3.Use the charge#1 testing and
+note the pos.
+4.Charging basket is empty and 
+note the temp.
+5.Test the pump1 first and record
+ screw speed while charging.
+6.Then add one by one and check 
+screw speed.
+7.Pump may run backward if screw 
+speed has not increased.
+8.If the pump run backward,select 
+collect servo-Id and change the 
+directiong of  rotation." 横向对齐="0" 纵向对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Variavalinser:|||10:Phạm vi:|||default:输入值范围：" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="2" ele_name="dropdown2"/>
+<horz order="1" ele_index="5" ele_name="edit19"/>
+<vert order="0" ele_index="2" ele_name="dropdown2"/>
+<vert order="1" ele_index="5" ele_name="edit19"/>
+<tab order="0" ele_index="2" ele_name="dropdown2"/>
+<tab order="1" ele_index="5" ele_name="edit19"/>
+<id order="0" ele_index="0" ele_name="label200"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="dropdown2"/>
+<id order="3" ele_index="3" ele_name="groupbox2"/>
+<id order="4" ele_index="4" ele_name="label53"/>
+<id order="5" ele_index="5" ele_name="edit19"/>
+<id order="6" ele_index="6" ele_name="label54"/>
+<id order="7" ele_index="7" ele_name="label67"/>
+<id order="8" ele_index="8" ele_name="label79"/>
+<id order="9" ele_index="9" ele_name="label80"/>
+<id order="10" ele_index="10" ele_name="label81"/>
+<id order="11" ele_index="11" ele_name="label82"/>
+<id order="12" ele_index="12" ele_name="_input_range_labellabel"/>
+<id order="13" ele_index="13" ele_name="_input_range_label"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Сост.|||2:상태|||3:STAT|||4:حالة|||5:STAT|||6:Estado|||0:状态|||7:DURUM|||8:حالت|||9:Estado|||10:Tr.thái|||default:STAT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTAT.png" 按下图片="btnSTATx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服状态&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:ЯCnt|||2:자기학습|||3:LRN|||4:التعلم الذاتي|||5:LRN|||6:Learn|||0:自学习|||7:ÖĞRENİN|||8:خودآموزی|||9:Auto-apre|||10:Tự học tập|||default:LRN" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLRN.png" 按下图片="btnLRNx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服配置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:отлад|||2:디버그|||3:DBG|||4:تكييف  |||5:DBG|||6:Dbg|||0:调试|||7:AYAR|||8:تنظیم|||9:Depu|||10:Gỡ lỗi|||default:DBG" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDBG.png" 按下图片="btnDBGx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;Servo_Test5&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Действие|||2:동작|||3:ACT|||4:التصرف|||5:ACT|||6:Acción|||0:动作|||7:AKSİYON|||8:عمل|||9:Ação|||10:Động|||default:ACT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnACT.png" 按下图片="btnACTx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:График|||2:그래프|||3:CURV|||4:منحنى |||5:CURV|||6:Curv|||0:曲线|||7:EĞRİ|||8:منحنی|||9:Curva|||10:Đg cong |||default:CURV" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCURV.png" 按下图片="btnCURVx.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服曲线&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:Помощь|||2:도움말|||3:HELP|||4:مساعدة|||5:HELP|||6:Help|||0:帮助|||7:YARDIM|||8:کمک|||9:Ajuda|||10:Hỗ trợ|||default:HELP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnHELP.png" 按下图片="btnHELPx.png" 聚焦图片="btPress.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:Насос|||2:펌프|||3: PUMP |||4:PUMP|||5:PUMP|||6:Bomba|||0:油泵|||7:Pompa|||8:PUMP|||9:Bomba|||10:PUMP|||default: PUMP " 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP.png" 按下图片="btnPUMPx.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

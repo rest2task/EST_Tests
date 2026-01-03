@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Wake_Screen" 可见="0" 标题="0:屏幕唤醒|||3:Wake Screen|||default:Wake Screen" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="-1" 背景图="back.png" 透明度="1" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="11381421"/>
+<var prop="过渡" orient="in" tag=".渐变类型"/>
+<var prop="过渡色" orient="in" tag=".渐变色"/>
+<var prop="使用背景图片" orient="in" tag=".背景图片使用选择"/>
+<event name="绘图" act=""/>
+<element type_name="button" type_id="16">
+<prop 名称="btscreen" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="600" 高度="800" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+<id order="0" ele_index="0" ele_name="btscreen"/>
+</element>

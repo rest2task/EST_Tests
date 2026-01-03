@@ -1,0 +1,2015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Pump_Cfg_x" 可见="-1" 标题="0:泵浦配置|||1:Насос Конфиг|||2:펌프 설정|||3:Pump Config|||4:تكوين المضخة|||5:Pump Config|||6:Bomba Config|||7:Pompa Yapıland|||8:پیکردهی پمپ|||9:Bomba Config|||10:Cấu hình|||default:Pump Config" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="30" 宽度="570" 高度="560" 文本="0:泵浦组合|||1:Насос|||2:펌프|||3:Pump|||4:مضخة |||5:Pump|||6:Bomba|||7:Pompa|||8:پمپ|||9:Bomba|||10:Máy bơm|||default:Pump" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label76" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="76" 宽度="130" 高度="18" 语言表索引="0" 文本="0:调模关模|||1:Рег.Закр.|||2:조정 형폐|||3:Adj Close|||4:تعديل القالب إغلاق قالب|||5:AdjMold Cls|||6:Ajuste Cierre|||7:Ayar Kapat|||8:تنظیم بستن|||9:Adj Fechar|||10:Chỉnh k.đóng k|||default:Adj Close" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label77" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="96" 宽度="130" 高度="18" 语言表索引="0" 文本="0:关模快速|||1:БыстрЗакр|||2:형폐고속|||3:Close Fast|||4:إغلاق القالب بسرعة|||5:Close Fast|||6:CierreRápid|||7:Hızlı Kapat|||8:سریع بستن|||9:Fechar Fast|||10:Đóng k.nhanh|||default:Close Fast" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label78" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="116" 宽度="130" 高度="18" 语言表索引="0" 文本="0:关模高压|||1:ДавлВысЗак.|||2:형폐고압|||3:Close HiPrs|||4:الضغط العالي|||5:Close HiPrs|||6:Cier AltaPrs|||7:Kap.YükBas|||8:فشار بالای بستن قالب|||9:Fechar HiPrs|||10:Đóng k.cao áp|||default:Close HiPrs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label79" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="136" 宽度="130" 高度="18" 语言表索引="0" 文本="0:关模低压|||1:ЗактьнизкоP|||2:형폐저압|||3:Close LowPrs|||4:ضغط منخفض|||5:Close LowPrs|||6:Cerrar BajaPrs|||7:Kap.DüşBas|||8:فشار پایین بستن|||9:Fechar LowPrs|||10:Đóng khuôn thấp áp|||default:Close LowPrs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label80" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="156" 宽度="130" 高度="18" 语言表索引="0" 文本="0:关模慢速|||1:МедлЗакр.|||2:형폐저속|||3:Close Slow|||4:تحامل بطيئة|||5:Close Slow|||6:Cierre Lent|||7:Kapat Yavaş|||8:سرعت پایین بستن|||9:Lento Fechar|||10:Đóng k.chậm|||default:Close Slow" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label81" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="176" 宽度="130" 高度="18" 语言表索引="0" 文本="0:调模开模|||1:Рег.Откр.|||2:형조정 형개|||3:Adj Open|||4:تعديل القالب فتح قالب|||5:AdjMold Open|||6:Ajuste Abrir|||7:Ayar Açma|||8:تنظیم بازکردن|||9:Adj Abrir|||10:Chỉnh k.MK|||default:Adj Open" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label82" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="196" 宽度="130" 高度="18" 语言表索引="0" 文本="0:开模一慢|||1:МедлОткр1|||2:개저1|||3:Open Slow1|||4:القالب بطيئ1|||5:Open Slow1|||6:Abrir Lent1|||7:Açma Yavaş1|||8:بازکردن کند 1|||9:Abrir Lento1|||10:Mở k.1 chậm|||default:Open Slow1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label83" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="216" 宽度="130" 高度="18" 语言表索引="0" 文本="0:开模快速|||1:БстрОткр|||2:형개고속|||3:Open Fast|||4:قالب سريع|||5:Open Fast|||6:Abrir Rápid|||7:Açma Hızlı|||8:بازکردن سریع|||9:Rápido Abrir|||10:Mở k.nhanh|||default:Open Fast" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label84" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="236" 宽度="130" 高度="18" 语言表索引="0" 文本="0:开模二慢|||1:МедлОткр2|||2:개저2|||3:Open Slow2|||4:2 القالب بطيئة|||5:Open Slow2|||6:Abrir Lent2|||7:Açma Yavaş2|||8:بازکردن کند2|||9:Abrir Lento2|||10:Mở k.2 chậm|||default:Open Slow2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label85" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="256" 宽度="130" 高度="18" 语言表索引="0" 文本="0:调模射出|||1:Рег.Впрск|||2:형조정 사출|||3:Adj Inject|||4:تعديل القالب حقن|||5:AdjMold Inject|||6:Ajuste Inyect|||7:Ayar Enj|||8:تنظیم تزریق|||9:Adj Inject|||10:Chỉnh k.bắn|||default:Adj Inject" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check2" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check3" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check4" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check5" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check6" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check7" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check8" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="76" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check10" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check11" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check12" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check13" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check14" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check15" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check16" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="96" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check18" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check19" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check20" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check21" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check22" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check23" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check24" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="116" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSHIG"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check26" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check27" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check28" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check29" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check30" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check31" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check32" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="136" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSPROTECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check34" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check35" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check36" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check37" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check38" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check39" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check40" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="156" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_CLSSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check42" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check43" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check44" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check45" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check46" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check47" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check48" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="176" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check50" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check51" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check52" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check53" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check54" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check55" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check56" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="196" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check58" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check59" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check60" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check61" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check62" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check63" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check64" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="216" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNFAST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check66" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="0:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check67" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="1:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check68" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="2:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check69" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="3:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check70" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="4:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check71" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="5:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check72" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="236" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.clamp1.HYDR.HYDR_PUMPS_OPNEND" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="选择" orient="in" tag="6:d.clamp1.HYDR.HYDR_PUMPS_OPNEND"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check74" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="0:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check75" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="1:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check76" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="2:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check77" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="3:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check78" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="4:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check79" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="5:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check80" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="256" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.inject1.HYDR.HYDR_PUMPS_INJSETUP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="选择" orient="out" tag="6:d.inject1.HYDR.HYDR_PUMPS_INJSETUP"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label104" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="276" 宽度="130" 高度="18" 语言表索引="0" 文本="0:射出|||1:Впрыск|||2:사출|||3:Inject|||4:حقن|||5:Inject|||6:Inyección|||7:Enjekte|||8:تزریق|||9:Injectar|||10:Bắn ra|||default:Inject" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check82" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="0:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check83" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="1:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check84" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="2:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check85" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="3:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check86" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="4:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check87" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="5:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check88" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="276" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.inject1.HYDR.HYDR_PUMPS_INJCT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="选择" orient="out" tag="6:d.inject1.HYDR.HYDR_PUMPS_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label113" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="316" 宽度="130" 高度="18" 语言表索引="0" 文本="0:储料|||1:Загруз|||2:계량|||3:Charge|||4:تخزين المواد|||5:Charge|||6:Carga|||7:Mal Alm|||8:شارژتغذیه|||9:Carregar|||10:Trữ liệu|||default:Charge" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label114" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="336" 宽度="130" 高度="18" 语言表索引="0" 文本="0:射退|||1:Cосать назад|||2:강제후퇴|||3:SuckBack|||4:اطلاق|||5:SuckBack|||6:Succión|||7:Geri Emme|||8:مکیدن|||9:Suck Voltar|||10:Bắn thoát|||default:SuckBack" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label115" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="356" 宽度="130" 高度="18" 语言表索引="0" 文本="0:托模|||1:Толкатель|||2:에젝터|||3:Eject|||4:طرد|||5:Eject|||6:Expul|||7:İtici|||8:EJ|||9:Eject|||10:Đỡ khuôn|||default:Eject" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label116" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="376" 宽度="130" 高度="18" 语言表索引="0" 文本="0:座台|||1:Сопло|||2:노즐|||3:Nozzle|||4:قاعدة|||5:Nozzle|||6:Boquilla|||7:Grup|||8:بینی|||9:Bico|||10:Bệ|||default:Nozzle" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label117" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="396" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子A|||1:ЗнакA|||2:코어1|||3:Core A|||4:جوهر  A|||5:Core A|||6:Noyo A|||7:Maça A|||8:مغز A|||9:Core A|||10:Nơtron A|||default:Core A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label118" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="516" 宽度="130" 高度="18" 语言表索引="0" 文本="0:调模|||1:Регулировка|||2:금형조정|||3:Adj Mold|||4:تعديل القالب|||5:Adjust Mold|||6:Ajuste|||7:Ayar|||8:تنظیم|||9:Ajuste|||10:Diều chỉnh k.|||default:Adj Mold" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label119" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="536" 宽度="130" 高度="18" 语言表索引="0" 文本="0:安全门|||1:Зап.дв.|||2:안전문|||3:SafeDoor|||4:باب الأمن|||5:SafeDoor|||6:SegPt|||7:Güv Kapı|||8:درب ایمنی|||9:PortaSegura|||10:Cửa an toà|||default:SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check96" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="0:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check97" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="1:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check98" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="2:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check99" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="3:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check100" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="4:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check101" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="5:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check102" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="316" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.inject1.HYDR.HYDR_PUMPS_CHARGE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="选择" orient="out" tag="6:d.inject1.HYDR.HYDR_PUMPS_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check103" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="0:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="0:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check104" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="1:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="1:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check105" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="2:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="2:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check106" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="3:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="3:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check107" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="4:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="4:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check108" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="5:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="5:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check109" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="336" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="6:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="选择" orient="in" tag="6:d.inject1.HYDR.HYDR_PUMPS_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check110" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="0:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check111" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="1:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check112" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="2:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check113" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="3:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check114" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="4:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check115" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="5:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check116" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="356" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.eject1.HYDR.HYDR_PUMPS_EJECT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="选择" orient="out" tag="6:d.eject1.HYDR.HYDR_PUMPS_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check117" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="0:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check118" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="1:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check119" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="2:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check120" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="3:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check121" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="4:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check122" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="5:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check123" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="376" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="选择" orient="out" tag="6:d.nozzle1.HYDR.HYDR_PUMPS_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check124" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check125" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check126" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check127" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check128" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check129" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check130" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="396" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreA.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreA.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check131" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="0:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="0:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check132" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="1:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="1:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check133" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="2:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="2:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check134" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="3:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="3:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check135" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="4:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="4:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check136" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="5:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="5:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check137" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="516" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.adjust1.HYDR.HYDR_PUMPS_ADJUST" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag="6:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="选择" orient="in" tag="6:d.adjust1.HYDR.HYDR_PUMPS_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check138" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="0:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check139" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="1:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check140" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="2:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check141" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="3:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check142" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="4:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check143" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="5:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check144" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="536" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="选择" orient="out" tag="6:d.safedoor1.HYDR.HYDR_PUMPS_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label120" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="416" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子B|||1:ЗнакB|||2:코어2|||3:Core B|||4:جوهر  B|||5:Core B|||6:Noyo B|||7:Maça B|||8:مغز B|||9:Core B|||10:Nơtron B|||default:Core B" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check145" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check146" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check147" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check148" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check149" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check150" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check151" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="416" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreB.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreB.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label121" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="436" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子C|||1:ЗнакC|||2:코어3|||3:Core C|||4:جوهر  C|||5:Core C|||6:Noyo C|||7:Maça C|||8:مغز C|||9:Core C|||10:Nơtron C|||default:Core C" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check152" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check153" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check154" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check155" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check156" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check157" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check158" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="436" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreC.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreC.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label122" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="456" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子D|||1:ЗнакD|||2:코어4|||3:Core D|||4:جوهر  D|||5:Core D|||6:Noyo D|||7:Maça D|||8:مغز D|||9:Core D|||10:Nơtron D|||default:Core D" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check159" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check160" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check161" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check162" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check163" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check164" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check165" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="456" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreD.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreD.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="30" 顶="10" 宽度="125" 高度="20" 语言表索引="0" 文本="0:泵浦调整|||1:НасосНастр|||2:펌프 조정|||3:Pump Adjust|||4:تعديل مضخة|||5:Pump Adjust|||6:Bomba Ajuste|||7:Pompa Ayarla|||8:تنظیم پمپ|||9:Bomba Ajuste|||10:Điều chỉnh|||default:Pump Adjust" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown6" 索引="0" 可见="-1" 可用="-1" 左="165" 顶="10" 宽度="80" 高度="20" 数据="0:不使用;使用|||1:НеИспо;Испо|||2:비사용;사용|||3:Not Use;Use|||4:لا استعمال;استعمال|||5:Not Use;Use|||6:No Usar;Uso|||7:Kullanma;Kullan|||8:عدم استفاده;استفاده|||9:Não utilize;utilizar|||10:Ko SD;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.hydr1.MACHSET.FL_PWRMATCHTBL" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="7895160"/>
+<var prop="值" orient="in" tag="d.hydr1.MACHSET.FL_PWRMATCHTBL"/>
+<var prop="值" orient="out" tag="d.hydr1.MACHSET.FL_PWRMATCHTBL"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label123" 索引="0" 可见="-1" 可用="-1" 左="650" 顶="72" 宽度="130" 高度="18" 语言表索引="0" 文本="0:副泵启动速度(%)|||1:Вспо.насосHачать|||2:부시작속도(%)|||3:ViceStrSpd(%)|||4:(%)سرعة بدء التشغيل |||5:ViceStrSpd(%)|||6:Bomba2Inicio Vel(%)|||7:Yard.P BaşlatHız|||8:سرعت استارتپمپ کمکی (%)|||9:ViceStrSpd(%)|||10:TĐ bơm.p(%)|||default:ViceStrSpd(%)" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label124" 索引="0" 可见="-1" 可用="-1" 左="650" 顶="92" 宽度="130" 高度="18" 语言表索引="0" 文本="0:副泵退出速度(%)|||1:Вспо.насосBыбывать|||2:부출구속도(%)|||3:ViceStopSpd(%)|||4:(%)سرعة الخروج |||5:ViceStopSpd(%)|||6:Bomba2Fin Vel(%)|||7:Yard.P KapalıHız|||8:سرعت توقف پمپ کمکی (%)|||9:ViceStopSpd(%)|||10:thoát bơm.p(%)|||default:ViceStopSpd(%)" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label125" 索引="0" 可见="-1" 可用="-1" 左="235" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P2|||1:P2|||2:P2|||3:P2|||4:P2|||5:P2|||6:P2|||7:P2|||8:P2|||9:P2|||10:P2|||default:P2" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit2" 索引="0" 可见="-1" 可用="-1" 左="846" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL0" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit3" 索引="0" 可见="-1" 可用="-1" 左="901" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit4" 索引="0" 可见="-1" 可用="-1" 左="956" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit5" 索引="0" 可见="-1" 可用="-1" 左="1011" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit6" 索引="0" 可见="-1" 可用="-1" 左="1066" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit7" 索引="0" 可见="-1" 可用="-1" 左="1121" 顶="72" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit9" 索引="0" 可见="-1" 可用="-1" 左="846" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL10" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL10"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit10" 索引="0" 可见="-1" 可用="-1" 左="901" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL11" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit11" 索引="0" 可见="-1" 可用="-1" 左="956" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL12" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL12"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit12" 索引="0" 可见="-1" 可用="-1" 左="1011" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL13" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL13"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit13" 索引="0" 可见="-1" 可用="-1" 左="1066" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL14" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL14"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit14" 索引="0" 可见="-1" 可用="-1" 左="1121" 顶="92" 宽度="40" 高度="18" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL15" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL15"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.VICE_STR_STOP_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label126" 索引="0" 可见="-1" 可用="-1" 左="290" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P3|||1:P3|||2:P3|||3:P3|||4:P3|||5:P3|||6:P3|||7:P3|||8:P3|||9:P3|||10:P3|||default:P3" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label127" 索引="0" 可见="-1" 可用="-1" 左="345" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P4|||1:P4|||2:P4|||3:P4|||4:P4|||5:P4|||6:P4|||7:P4|||8:P4|||9:P4|||10:P4|||default:P4" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label128" 索引="0" 可见="-1" 可用="-1" 左="400" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P5|||1:P5|||2:P5|||3:P5|||4:P5|||5:P5|||6:P5|||7:P5|||8:P5|||9:P5|||10:P5|||default:P5" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label129" 索引="0" 可见="-1" 可用="-1" 左="455" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P6|||1:P6|||2:P6|||3:P6|||4:P6|||5:P6|||6:P6|||7:P6|||8:P6|||9:P6|||10:P6|||default:P6" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label130" 索引="0" 可见="-1" 可用="-1" 左="510" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P7|||1:P7|||2:P7|||3:P7|||4:P7|||5:P7|||6:P7|||7:P7|||8:P7|||9:P7|||10:P7|||default:P7" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label138" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="50" 宽度="30" 高度="20" 语言表索引="0" 文本="0:P1|||1:P1|||2:P1|||3:P1|||4:P1|||5:P1|||6:P1|||7:P1|||8:P1|||9:P1|||10:P1|||default:P1" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label146" 索引="0" 可见="-1" 可用="-1" 左="470" 顶="10" 宽度="120" 高度="20" 语言表索引="0" 文本="0:单泵|||1:ОдинНасос|||2:단일 펌프|||3:Single pump|||4:مضخة واحدة|||5:Single pump|||6:Simplebomba|||7:Tek pompa|||8:پمپ تکی|||9:única pump|||10:Bơm đơn|||default:Single pump" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SINGLE_PUMP_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label147" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="10" 宽度="120" 高度="20" 语言表索引="0" 文本="0:泵浦类型:|||1:Тип насоса|||2:펌프 유형|||3:Pump Type|||4:نوع المضخة|||5:Pump Type|||6:Bomba Tipo:|||7:Pompa Tipi|||8:نوع پمپ|||9:Bomba Tipos|||10:Mã hiệu|||default:Pump Type" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label148" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="296" 宽度="130" 高度="18" 语言表索引="0" 文本="0:保压|||1:Выд|||2:보압|||3:Hold|||4:عقد الضغط|||5:Hold|||6:Manten|||7:Tutma|||8:حفظ فشار|||9:Hold|||10:Giữ áp|||default:Hold" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check166" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="0:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check167" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="1:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check168" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="2:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check169" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="3:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check170" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="4:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check171" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="5:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check172" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="296" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.inject1.HYDR.HYDR_PUMPS_HOLD" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="选择" orient="out" tag="6:d.inject1.HYDR.HYDR_PUMPS_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label149" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="476" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子E|||1:Пу E |||2:코어5|||3:Core E|||4:جوهر  E|||5:Core E|||6:Noyo E|||7:Maça E|||8:مغز E|||9:Core E|||10:Nơtron E|||default:Core E" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check173" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check174" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check175" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check176" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check177" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check178" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check179" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="476" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreE.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreE.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label150" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="496" 宽度="130" 高度="18" 语言表索引="0" 文本="0:中子F|||1:Пуа F |||2:코어6|||3:Core F|||4:جوهر  F|||5:Core F|||6:Noyo F|||7:Maça F|||8:مغز F|||9:Core F|||10:Nơtron F|||default:Core F" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check180" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="0:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="0:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJUST_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check181" 索引="0" 可见="-1" 可用="-1" 左="246" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="1:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="1:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="1:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check182" 索引="0" 可见="-1" 可用="-1" 左="301" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="2:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="2:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="2:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check183" 索引="0" 可见="-1" 可用="-1" 左="356" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="3:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="3:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="3:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check184" 索引="0" 可见="-1" 可用="-1" 左="411" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="4:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="4:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="4:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check185" 索引="0" 可见="-1" 可用="-1" 左="466" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="5:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="5:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="5:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check186" 索引="0" 可见="-1" 可用="-1" 左="521" 顶="496" 宽度="40" 高度="18" 选择="0" 关联变量="6:d.coreF.HYDR.HYDR_PUMPS_CORE" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="6:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="选择" orient="out" tag="6:d.coreF.HYDR.HYDR_PUMPS_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.PUMP_ADJ_2TO7_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label151" 索引="0" 可见="-1" 可用="-1" 左="470" 顶="10" 宽度="120" 高度="20" 语言表索引="0" 文本="0:多泵|||1:МультиНасос|||2:멀티 펌프|||3:Multi pump|||4:متعدد مضخة|||5:Multi pump|||6:Multibomba|||7:çok pompa|||8:چند پمپ|||9:múltiplas pump|||10:Nhiều m.bơm|||default:Multi pump" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.MULT_PUMP_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="171" ele_name="dropdown6"/>
+<horz order="1" ele_index="12" ele_name="check2"/>
+<horz order="2" ele_index="13" ele_name="check3"/>
+<horz order="3" ele_index="14" ele_name="check4"/>
+<horz order="4" ele_index="15" ele_name="check5"/>
+<horz order="5" ele_index="16" ele_name="check6"/>
+<horz order="6" ele_index="17" ele_name="check7"/>
+<horz order="7" ele_index="18" ele_name="check8"/>
+<horz order="8" ele_index="19" ele_name="check10"/>
+<horz order="9" ele_index="20" ele_name="check11"/>
+<horz order="10" ele_index="21" ele_name="check12"/>
+<horz order="11" ele_index="22" ele_name="check13"/>
+<horz order="12" ele_index="23" ele_name="check14"/>
+<horz order="13" ele_index="24" ele_name="check15"/>
+<horz order="14" ele_index="25" ele_name="check16"/>
+<horz order="15" ele_index="26" ele_name="check18"/>
+<horz order="16" ele_index="27" ele_name="check19"/>
+<horz order="17" ele_index="28" ele_name="check20"/>
+<horz order="18" ele_index="29" ele_name="check21"/>
+<horz order="19" ele_index="30" ele_name="check22"/>
+<horz order="20" ele_index="31" ele_name="check23"/>
+<horz order="21" ele_index="32" ele_name="check24"/>
+<horz order="22" ele_index="33" ele_name="check26"/>
+<horz order="23" ele_index="34" ele_name="check27"/>
+<horz order="24" ele_index="35" ele_name="check28"/>
+<horz order="25" ele_index="36" ele_name="check29"/>
+<horz order="26" ele_index="37" ele_name="check30"/>
+<horz order="27" ele_index="38" ele_name="check31"/>
+<horz order="28" ele_index="39" ele_name="check32"/>
+<horz order="29" ele_index="40" ele_name="check34"/>
+<horz order="30" ele_index="41" ele_name="check35"/>
+<horz order="31" ele_index="42" ele_name="check36"/>
+<horz order="32" ele_index="43" ele_name="check37"/>
+<horz order="33" ele_index="44" ele_name="check38"/>
+<horz order="34" ele_index="45" ele_name="check39"/>
+<horz order="35" ele_index="46" ele_name="check40"/>
+<horz order="36" ele_index="47" ele_name="check42"/>
+<horz order="37" ele_index="48" ele_name="check43"/>
+<horz order="38" ele_index="49" ele_name="check44"/>
+<horz order="39" ele_index="50" ele_name="check45"/>
+<horz order="40" ele_index="51" ele_name="check46"/>
+<horz order="41" ele_index="52" ele_name="check47"/>
+<horz order="42" ele_index="53" ele_name="check48"/>
+<horz order="43" ele_index="54" ele_name="check50"/>
+<horz order="44" ele_index="55" ele_name="check51"/>
+<horz order="45" ele_index="56" ele_name="check52"/>
+<horz order="46" ele_index="57" ele_name="check53"/>
+<horz order="47" ele_index="58" ele_name="check54"/>
+<horz order="48" ele_index="59" ele_name="check55"/>
+<horz order="49" ele_index="60" ele_name="check56"/>
+<horz order="50" ele_index="61" ele_name="check58"/>
+<horz order="51" ele_index="62" ele_name="check59"/>
+<horz order="52" ele_index="63" ele_name="check60"/>
+<horz order="53" ele_index="64" ele_name="check61"/>
+<horz order="54" ele_index="65" ele_name="check62"/>
+<horz order="55" ele_index="66" ele_name="check63"/>
+<horz order="56" ele_index="67" ele_name="check64"/>
+<horz order="57" ele_index="68" ele_name="check66"/>
+<horz order="58" ele_index="69" ele_name="check67"/>
+<horz order="59" ele_index="70" ele_name="check68"/>
+<horz order="60" ele_index="71" ele_name="check69"/>
+<horz order="61" ele_index="72" ele_name="check70"/>
+<horz order="62" ele_index="73" ele_name="check71"/>
+<horz order="63" ele_index="74" ele_name="check72"/>
+<horz order="64" ele_index="75" ele_name="check74"/>
+<horz order="65" ele_index="76" ele_name="check75"/>
+<horz order="66" ele_index="77" ele_name="check76"/>
+<horz order="67" ele_index="78" ele_name="check77"/>
+<horz order="68" ele_index="79" ele_name="check78"/>
+<horz order="69" ele_index="80" ele_name="check79"/>
+<horz order="70" ele_index="81" ele_name="check80"/>
+<horz order="71" ele_index="83" ele_name="check82"/>
+<horz order="72" ele_index="84" ele_name="check83"/>
+<horz order="73" ele_index="85" ele_name="check84"/>
+<horz order="74" ele_index="86" ele_name="check85"/>
+<horz order="75" ele_index="87" ele_name="check86"/>
+<horz order="76" ele_index="88" ele_name="check87"/>
+<horz order="77" ele_index="89" ele_name="check88"/>
+<horz order="78" ele_index="196" ele_name="check166"/>
+<horz order="79" ele_index="197" ele_name="check167"/>
+<horz order="80" ele_index="198" ele_name="check168"/>
+<horz order="81" ele_index="199" ele_name="check169"/>
+<horz order="82" ele_index="200" ele_name="check170"/>
+<horz order="83" ele_index="201" ele_name="check171"/>
+<horz order="84" ele_index="202" ele_name="check172"/>
+<horz order="85" ele_index="97" ele_name="check96"/>
+<horz order="86" ele_index="98" ele_name="check97"/>
+<horz order="87" ele_index="99" ele_name="check98"/>
+<horz order="88" ele_index="100" ele_name="check99"/>
+<horz order="89" ele_index="101" ele_name="check100"/>
+<horz order="90" ele_index="102" ele_name="check101"/>
+<horz order="91" ele_index="103" ele_name="check102"/>
+<horz order="92" ele_index="104" ele_name="check103"/>
+<horz order="93" ele_index="105" ele_name="check104"/>
+<horz order="94" ele_index="106" ele_name="check105"/>
+<horz order="95" ele_index="107" ele_name="check106"/>
+<horz order="96" ele_index="108" ele_name="check107"/>
+<horz order="97" ele_index="109" ele_name="check108"/>
+<horz order="98" ele_index="110" ele_name="check109"/>
+<horz order="99" ele_index="111" ele_name="check110"/>
+<horz order="100" ele_index="112" ele_name="check111"/>
+<horz order="101" ele_index="113" ele_name="check112"/>
+<horz order="102" ele_index="114" ele_name="check113"/>
+<horz order="103" ele_index="115" ele_name="check114"/>
+<horz order="104" ele_index="116" ele_name="check115"/>
+<horz order="105" ele_index="117" ele_name="check116"/>
+<horz order="106" ele_index="118" ele_name="check117"/>
+<horz order="107" ele_index="119" ele_name="check118"/>
+<horz order="108" ele_index="120" ele_name="check119"/>
+<horz order="109" ele_index="121" ele_name="check120"/>
+<horz order="110" ele_index="122" ele_name="check121"/>
+<horz order="111" ele_index="123" ele_name="check122"/>
+<horz order="112" ele_index="124" ele_name="check123"/>
+<horz order="113" ele_index="125" ele_name="check124"/>
+<horz order="114" ele_index="126" ele_name="check125"/>
+<horz order="115" ele_index="127" ele_name="check126"/>
+<horz order="116" ele_index="128" ele_name="check127"/>
+<horz order="117" ele_index="129" ele_name="check128"/>
+<horz order="118" ele_index="130" ele_name="check129"/>
+<horz order="119" ele_index="131" ele_name="check130"/>
+<horz order="120" ele_index="147" ele_name="check145"/>
+<horz order="121" ele_index="148" ele_name="check146"/>
+<horz order="122" ele_index="149" ele_name="check147"/>
+<horz order="123" ele_index="150" ele_name="check148"/>
+<horz order="124" ele_index="151" ele_name="check149"/>
+<horz order="125" ele_index="152" ele_name="check150"/>
+<horz order="126" ele_index="153" ele_name="check151"/>
+<horz order="127" ele_index="155" ele_name="check152"/>
+<horz order="128" ele_index="156" ele_name="check153"/>
+<horz order="129" ele_index="157" ele_name="check154"/>
+<horz order="130" ele_index="158" ele_name="check155"/>
+<horz order="131" ele_index="159" ele_name="check156"/>
+<horz order="132" ele_index="160" ele_name="check157"/>
+<horz order="133" ele_index="161" ele_name="check158"/>
+<horz order="134" ele_index="163" ele_name="check159"/>
+<horz order="135" ele_index="164" ele_name="check160"/>
+<horz order="136" ele_index="165" ele_name="check161"/>
+<horz order="137" ele_index="166" ele_name="check162"/>
+<horz order="138" ele_index="167" ele_name="check163"/>
+<horz order="139" ele_index="168" ele_name="check164"/>
+<horz order="140" ele_index="169" ele_name="check165"/>
+<horz order="141" ele_index="204" ele_name="check173"/>
+<horz order="142" ele_index="205" ele_name="check174"/>
+<horz order="143" ele_index="206" ele_name="check175"/>
+<horz order="144" ele_index="207" ele_name="check176"/>
+<horz order="145" ele_index="208" ele_name="check177"/>
+<horz order="146" ele_index="209" ele_name="check178"/>
+<horz order="147" ele_index="210" ele_name="check179"/>
+<horz order="148" ele_index="212" ele_name="check180"/>
+<horz order="149" ele_index="213" ele_name="check181"/>
+<horz order="150" ele_index="214" ele_name="check182"/>
+<horz order="151" ele_index="215" ele_name="check183"/>
+<horz order="152" ele_index="216" ele_name="check184"/>
+<horz order="153" ele_index="217" ele_name="check185"/>
+<horz order="154" ele_index="218" ele_name="check186"/>
+<horz order="155" ele_index="132" ele_name="check131"/>
+<horz order="156" ele_index="133" ele_name="check132"/>
+<horz order="157" ele_index="134" ele_name="check133"/>
+<horz order="158" ele_index="135" ele_name="check134"/>
+<horz order="159" ele_index="136" ele_name="check135"/>
+<horz order="160" ele_index="137" ele_name="check136"/>
+<horz order="161" ele_index="138" ele_name="check137"/>
+<horz order="162" ele_index="139" ele_name="check138"/>
+<horz order="163" ele_index="140" ele_name="check139"/>
+<horz order="164" ele_index="141" ele_name="check140"/>
+<horz order="165" ele_index="142" ele_name="check141"/>
+<horz order="166" ele_index="143" ele_name="check142"/>
+<horz order="167" ele_index="144" ele_name="check143"/>
+<horz order="168" ele_index="145" ele_name="check144"/>
+<vert order="0" ele_index="171" ele_name="dropdown6"/>
+<vert order="1" ele_index="12" ele_name="check2"/>
+<vert order="2" ele_index="19" ele_name="check10"/>
+<vert order="3" ele_index="26" ele_name="check18"/>
+<vert order="4" ele_index="33" ele_name="check26"/>
+<vert order="5" ele_index="40" ele_name="check34"/>
+<vert order="6" ele_index="47" ele_name="check42"/>
+<vert order="7" ele_index="54" ele_name="check50"/>
+<vert order="8" ele_index="61" ele_name="check58"/>
+<vert order="9" ele_index="68" ele_name="check66"/>
+<vert order="10" ele_index="75" ele_name="check74"/>
+<vert order="11" ele_index="83" ele_name="check82"/>
+<vert order="12" ele_index="196" ele_name="check166"/>
+<vert order="13" ele_index="97" ele_name="check96"/>
+<vert order="14" ele_index="104" ele_name="check103"/>
+<vert order="15" ele_index="111" ele_name="check110"/>
+<vert order="16" ele_index="118" ele_name="check117"/>
+<vert order="17" ele_index="125" ele_name="check124"/>
+<vert order="18" ele_index="147" ele_name="check145"/>
+<vert order="19" ele_index="155" ele_name="check152"/>
+<vert order="20" ele_index="163" ele_name="check159"/>
+<vert order="21" ele_index="204" ele_name="check173"/>
+<vert order="22" ele_index="212" ele_name="check180"/>
+<vert order="23" ele_index="132" ele_name="check131"/>
+<vert order="24" ele_index="139" ele_name="check138"/>
+<vert order="25" ele_index="13" ele_name="check3"/>
+<vert order="26" ele_index="20" ele_name="check11"/>
+<vert order="27" ele_index="27" ele_name="check19"/>
+<vert order="28" ele_index="34" ele_name="check27"/>
+<vert order="29" ele_index="41" ele_name="check35"/>
+<vert order="30" ele_index="48" ele_name="check43"/>
+<vert order="31" ele_index="55" ele_name="check51"/>
+<vert order="32" ele_index="62" ele_name="check59"/>
+<vert order="33" ele_index="69" ele_name="check67"/>
+<vert order="34" ele_index="76" ele_name="check75"/>
+<vert order="35" ele_index="84" ele_name="check83"/>
+<vert order="36" ele_index="197" ele_name="check167"/>
+<vert order="37" ele_index="98" ele_name="check97"/>
+<vert order="38" ele_index="105" ele_name="check104"/>
+<vert order="39" ele_index="112" ele_name="check111"/>
+<vert order="40" ele_index="119" ele_name="check118"/>
+<vert order="41" ele_index="126" ele_name="check125"/>
+<vert order="42" ele_index="148" ele_name="check146"/>
+<vert order="43" ele_index="156" ele_name="check153"/>
+<vert order="44" ele_index="164" ele_name="check160"/>
+<vert order="45" ele_index="205" ele_name="check174"/>
+<vert order="46" ele_index="213" ele_name="check181"/>
+<vert order="47" ele_index="133" ele_name="check132"/>
+<vert order="48" ele_index="140" ele_name="check139"/>
+<vert order="49" ele_index="14" ele_name="check4"/>
+<vert order="50" ele_index="21" ele_name="check12"/>
+<vert order="51" ele_index="28" ele_name="check20"/>
+<vert order="52" ele_index="35" ele_name="check28"/>
+<vert order="53" ele_index="42" ele_name="check36"/>
+<vert order="54" ele_index="49" ele_name="check44"/>
+<vert order="55" ele_index="56" ele_name="check52"/>
+<vert order="56" ele_index="63" ele_name="check60"/>
+<vert order="57" ele_index="70" ele_name="check68"/>
+<vert order="58" ele_index="77" ele_name="check76"/>
+<vert order="59" ele_index="85" ele_name="check84"/>
+<vert order="60" ele_index="198" ele_name="check168"/>
+<vert order="61" ele_index="99" ele_name="check98"/>
+<vert order="62" ele_index="106" ele_name="check105"/>
+<vert order="63" ele_index="113" ele_name="check112"/>
+<vert order="64" ele_index="120" ele_name="check119"/>
+<vert order="65" ele_index="127" ele_name="check126"/>
+<vert order="66" ele_index="149" ele_name="check147"/>
+<vert order="67" ele_index="157" ele_name="check154"/>
+<vert order="68" ele_index="165" ele_name="check161"/>
+<vert order="69" ele_index="206" ele_name="check175"/>
+<vert order="70" ele_index="214" ele_name="check182"/>
+<vert order="71" ele_index="134" ele_name="check133"/>
+<vert order="72" ele_index="141" ele_name="check140"/>
+<vert order="73" ele_index="15" ele_name="check5"/>
+<vert order="74" ele_index="22" ele_name="check13"/>
+<vert order="75" ele_index="29" ele_name="check21"/>
+<vert order="76" ele_index="36" ele_name="check29"/>
+<vert order="77" ele_index="43" ele_name="check37"/>
+<vert order="78" ele_index="50" ele_name="check45"/>
+<vert order="79" ele_index="57" ele_name="check53"/>
+<vert order="80" ele_index="64" ele_name="check61"/>
+<vert order="81" ele_index="71" ele_name="check69"/>
+<vert order="82" ele_index="78" ele_name="check77"/>
+<vert order="83" ele_index="86" ele_name="check85"/>
+<vert order="84" ele_index="199" ele_name="check169"/>
+<vert order="85" ele_index="100" ele_name="check99"/>
+<vert order="86" ele_index="107" ele_name="check106"/>
+<vert order="87" ele_index="114" ele_name="check113"/>
+<vert order="88" ele_index="121" ele_name="check120"/>
+<vert order="89" ele_index="128" ele_name="check127"/>
+<vert order="90" ele_index="150" ele_name="check148"/>
+<vert order="91" ele_index="158" ele_name="check155"/>
+<vert order="92" ele_index="166" ele_name="check162"/>
+<vert order="93" ele_index="207" ele_name="check176"/>
+<vert order="94" ele_index="215" ele_name="check183"/>
+<vert order="95" ele_index="135" ele_name="check134"/>
+<vert order="96" ele_index="142" ele_name="check141"/>
+<vert order="97" ele_index="16" ele_name="check6"/>
+<vert order="98" ele_index="23" ele_name="check14"/>
+<vert order="99" ele_index="30" ele_name="check22"/>
+<vert order="100" ele_index="37" ele_name="check30"/>
+<vert order="101" ele_index="44" ele_name="check38"/>
+<vert order="102" ele_index="51" ele_name="check46"/>
+<vert order="103" ele_index="58" ele_name="check54"/>
+<vert order="104" ele_index="65" ele_name="check62"/>
+<vert order="105" ele_index="72" ele_name="check70"/>
+<vert order="106" ele_index="79" ele_name="check78"/>
+<vert order="107" ele_index="87" ele_name="check86"/>
+<vert order="108" ele_index="200" ele_name="check170"/>
+<vert order="109" ele_index="101" ele_name="check100"/>
+<vert order="110" ele_index="108" ele_name="check107"/>
+<vert order="111" ele_index="115" ele_name="check114"/>
+<vert order="112" ele_index="122" ele_name="check121"/>
+<vert order="113" ele_index="129" ele_name="check128"/>
+<vert order="114" ele_index="151" ele_name="check149"/>
+<vert order="115" ele_index="159" ele_name="check156"/>
+<vert order="116" ele_index="167" ele_name="check163"/>
+<vert order="117" ele_index="208" ele_name="check177"/>
+<vert order="118" ele_index="216" ele_name="check184"/>
+<vert order="119" ele_index="136" ele_name="check135"/>
+<vert order="120" ele_index="143" ele_name="check142"/>
+<vert order="121" ele_index="17" ele_name="check7"/>
+<vert order="122" ele_index="24" ele_name="check15"/>
+<vert order="123" ele_index="31" ele_name="check23"/>
+<vert order="124" ele_index="38" ele_name="check31"/>
+<vert order="125" ele_index="45" ele_name="check39"/>
+<vert order="126" ele_index="52" ele_name="check47"/>
+<vert order="127" ele_index="59" ele_name="check55"/>
+<vert order="128" ele_index="66" ele_name="check63"/>
+<vert order="129" ele_index="73" ele_name="check71"/>
+<vert order="130" ele_index="80" ele_name="check79"/>
+<vert order="131" ele_index="88" ele_name="check87"/>
+<vert order="132" ele_index="201" ele_name="check171"/>
+<vert order="133" ele_index="102" ele_name="check101"/>
+<vert order="134" ele_index="109" ele_name="check108"/>
+<vert order="135" ele_index="116" ele_name="check115"/>
+<vert order="136" ele_index="123" ele_name="check122"/>
+<vert order="137" ele_index="130" ele_name="check129"/>
+<vert order="138" ele_index="152" ele_name="check150"/>
+<vert order="139" ele_index="160" ele_name="check157"/>
+<vert order="140" ele_index="168" ele_name="check164"/>
+<vert order="141" ele_index="209" ele_name="check178"/>
+<vert order="142" ele_index="217" ele_name="check185"/>
+<vert order="143" ele_index="137" ele_name="check136"/>
+<vert order="144" ele_index="144" ele_name="check143"/>
+<vert order="145" ele_index="18" ele_name="check8"/>
+<vert order="146" ele_index="25" ele_name="check16"/>
+<vert order="147" ele_index="32" ele_name="check24"/>
+<vert order="148" ele_index="39" ele_name="check32"/>
+<vert order="149" ele_index="46" ele_name="check40"/>
+<vert order="150" ele_index="53" ele_name="check48"/>
+<vert order="151" ele_index="60" ele_name="check56"/>
+<vert order="152" ele_index="67" ele_name="check64"/>
+<vert order="153" ele_index="74" ele_name="check72"/>
+<vert order="154" ele_index="81" ele_name="check80"/>
+<vert order="155" ele_index="89" ele_name="check88"/>
+<vert order="156" ele_index="202" ele_name="check172"/>
+<vert order="157" ele_index="103" ele_name="check102"/>
+<vert order="158" ele_index="110" ele_name="check109"/>
+<vert order="159" ele_index="117" ele_name="check116"/>
+<vert order="160" ele_index="124" ele_name="check123"/>
+<vert order="161" ele_index="131" ele_name="check130"/>
+<vert order="162" ele_index="153" ele_name="check151"/>
+<vert order="163" ele_index="161" ele_name="check158"/>
+<vert order="164" ele_index="169" ele_name="check165"/>
+<vert order="165" ele_index="210" ele_name="check179"/>
+<vert order="166" ele_index="218" ele_name="check186"/>
+<vert order="167" ele_index="138" ele_name="check137"/>
+<vert order="168" ele_index="145" ele_name="check144"/>
+<tab order="0" ele_index="171" ele_name="dropdown6"/>
+<tab order="1" ele_index="12" ele_name="check2"/>
+<tab order="2" ele_index="13" ele_name="check3"/>
+<tab order="3" ele_index="14" ele_name="check4"/>
+<tab order="4" ele_index="15" ele_name="check5"/>
+<tab order="5" ele_index="16" ele_name="check6"/>
+<tab order="6" ele_index="17" ele_name="check7"/>
+<tab order="7" ele_index="18" ele_name="check8"/>
+<tab order="8" ele_index="19" ele_name="check10"/>
+<tab order="9" ele_index="20" ele_name="check11"/>
+<tab order="10" ele_index="21" ele_name="check12"/>
+<tab order="11" ele_index="22" ele_name="check13"/>
+<tab order="12" ele_index="23" ele_name="check14"/>
+<tab order="13" ele_index="24" ele_name="check15"/>
+<tab order="14" ele_index="25" ele_name="check16"/>
+<tab order="15" ele_index="26" ele_name="check18"/>
+<tab order="16" ele_index="27" ele_name="check19"/>
+<tab order="17" ele_index="28" ele_name="check20"/>
+<tab order="18" ele_index="29" ele_name="check21"/>
+<tab order="19" ele_index="30" ele_name="check22"/>
+<tab order="20" ele_index="31" ele_name="check23"/>
+<tab order="21" ele_index="32" ele_name="check24"/>
+<tab order="22" ele_index="33" ele_name="check26"/>
+<tab order="23" ele_index="34" ele_name="check27"/>
+<tab order="24" ele_index="35" ele_name="check28"/>
+<tab order="25" ele_index="36" ele_name="check29"/>
+<tab order="26" ele_index="37" ele_name="check30"/>
+<tab order="27" ele_index="38" ele_name="check31"/>
+<tab order="28" ele_index="39" ele_name="check32"/>
+<tab order="29" ele_index="40" ele_name="check34"/>
+<tab order="30" ele_index="41" ele_name="check35"/>
+<tab order="31" ele_index="42" ele_name="check36"/>
+<tab order="32" ele_index="43" ele_name="check37"/>
+<tab order="33" ele_index="44" ele_name="check38"/>
+<tab order="34" ele_index="45" ele_name="check39"/>
+<tab order="35" ele_index="46" ele_name="check40"/>
+<tab order="36" ele_index="47" ele_name="check42"/>
+<tab order="37" ele_index="48" ele_name="check43"/>
+<tab order="38" ele_index="49" ele_name="check44"/>
+<tab order="39" ele_index="50" ele_name="check45"/>
+<tab order="40" ele_index="51" ele_name="check46"/>
+<tab order="41" ele_index="52" ele_name="check47"/>
+<tab order="42" ele_index="53" ele_name="check48"/>
+<tab order="43" ele_index="54" ele_name="check50"/>
+<tab order="44" ele_index="55" ele_name="check51"/>
+<tab order="45" ele_index="56" ele_name="check52"/>
+<tab order="46" ele_index="57" ele_name="check53"/>
+<tab order="47" ele_index="58" ele_name="check54"/>
+<tab order="48" ele_index="59" ele_name="check55"/>
+<tab order="49" ele_index="60" ele_name="check56"/>
+<tab order="50" ele_index="61" ele_name="check58"/>
+<tab order="51" ele_index="62" ele_name="check59"/>
+<tab order="52" ele_index="63" ele_name="check60"/>
+<tab order="53" ele_index="64" ele_name="check61"/>
+<tab order="54" ele_index="65" ele_name="check62"/>
+<tab order="55" ele_index="66" ele_name="check63"/>
+<tab order="56" ele_index="67" ele_name="check64"/>
+<tab order="57" ele_index="68" ele_name="check66"/>
+<tab order="58" ele_index="69" ele_name="check67"/>
+<tab order="59" ele_index="70" ele_name="check68"/>
+<tab order="60" ele_index="71" ele_name="check69"/>
+<tab order="61" ele_index="72" ele_name="check70"/>
+<tab order="62" ele_index="73" ele_name="check71"/>
+<tab order="63" ele_index="74" ele_name="check72"/>
+<tab order="64" ele_index="75" ele_name="check74"/>
+<tab order="65" ele_index="76" ele_name="check75"/>
+<tab order="66" ele_index="77" ele_name="check76"/>
+<tab order="67" ele_index="78" ele_name="check77"/>
+<tab order="68" ele_index="79" ele_name="check78"/>
+<tab order="69" ele_index="80" ele_name="check79"/>
+<tab order="70" ele_index="81" ele_name="check80"/>
+<tab order="71" ele_index="83" ele_name="check82"/>
+<tab order="72" ele_index="84" ele_name="check83"/>
+<tab order="73" ele_index="85" ele_name="check84"/>
+<tab order="74" ele_index="86" ele_name="check85"/>
+<tab order="75" ele_index="87" ele_name="check86"/>
+<tab order="76" ele_index="88" ele_name="check87"/>
+<tab order="77" ele_index="89" ele_name="check88"/>
+<tab order="78" ele_index="196" ele_name="check166"/>
+<tab order="79" ele_index="197" ele_name="check167"/>
+<tab order="80" ele_index="198" ele_name="check168"/>
+<tab order="81" ele_index="199" ele_name="check169"/>
+<tab order="82" ele_index="200" ele_name="check170"/>
+<tab order="83" ele_index="201" ele_name="check171"/>
+<tab order="84" ele_index="202" ele_name="check172"/>
+<tab order="85" ele_index="97" ele_name="check96"/>
+<tab order="86" ele_index="98" ele_name="check97"/>
+<tab order="87" ele_index="99" ele_name="check98"/>
+<tab order="88" ele_index="100" ele_name="check99"/>
+<tab order="89" ele_index="101" ele_name="check100"/>
+<tab order="90" ele_index="102" ele_name="check101"/>
+<tab order="91" ele_index="103" ele_name="check102"/>
+<tab order="92" ele_index="104" ele_name="check103"/>
+<tab order="93" ele_index="105" ele_name="check104"/>
+<tab order="94" ele_index="106" ele_name="check105"/>
+<tab order="95" ele_index="107" ele_name="check106"/>
+<tab order="96" ele_index="108" ele_name="check107"/>
+<tab order="97" ele_index="109" ele_name="check108"/>
+<tab order="98" ele_index="110" ele_name="check109"/>
+<tab order="99" ele_index="111" ele_name="check110"/>
+<tab order="100" ele_index="112" ele_name="check111"/>
+<tab order="101" ele_index="113" ele_name="check112"/>
+<tab order="102" ele_index="114" ele_name="check113"/>
+<tab order="103" ele_index="115" ele_name="check114"/>
+<tab order="104" ele_index="116" ele_name="check115"/>
+<tab order="105" ele_index="117" ele_name="check116"/>
+<tab order="106" ele_index="118" ele_name="check117"/>
+<tab order="107" ele_index="119" ele_name="check118"/>
+<tab order="108" ele_index="120" ele_name="check119"/>
+<tab order="109" ele_index="121" ele_name="check120"/>
+<tab order="110" ele_index="122" ele_name="check121"/>
+<tab order="111" ele_index="123" ele_name="check122"/>
+<tab order="112" ele_index="124" ele_name="check123"/>
+<tab order="113" ele_index="125" ele_name="check124"/>
+<tab order="114" ele_index="126" ele_name="check125"/>
+<tab order="115" ele_index="127" ele_name="check126"/>
+<tab order="116" ele_index="128" ele_name="check127"/>
+<tab order="117" ele_index="129" ele_name="check128"/>
+<tab order="118" ele_index="130" ele_name="check129"/>
+<tab order="119" ele_index="131" ele_name="check130"/>
+<tab order="120" ele_index="147" ele_name="check145"/>
+<tab order="121" ele_index="148" ele_name="check146"/>
+<tab order="122" ele_index="149" ele_name="check147"/>
+<tab order="123" ele_index="150" ele_name="check148"/>
+<tab order="124" ele_index="151" ele_name="check149"/>
+<tab order="125" ele_index="152" ele_name="check150"/>
+<tab order="126" ele_index="153" ele_name="check151"/>
+<tab order="127" ele_index="155" ele_name="check152"/>
+<tab order="128" ele_index="156" ele_name="check153"/>
+<tab order="129" ele_index="157" ele_name="check154"/>
+<tab order="130" ele_index="158" ele_name="check155"/>
+<tab order="131" ele_index="159" ele_name="check156"/>
+<tab order="132" ele_index="160" ele_name="check157"/>
+<tab order="133" ele_index="161" ele_name="check158"/>
+<tab order="134" ele_index="163" ele_name="check159"/>
+<tab order="135" ele_index="164" ele_name="check160"/>
+<tab order="136" ele_index="165" ele_name="check161"/>
+<tab order="137" ele_index="166" ele_name="check162"/>
+<tab order="138" ele_index="167" ele_name="check163"/>
+<tab order="139" ele_index="168" ele_name="check164"/>
+<tab order="140" ele_index="169" ele_name="check165"/>
+<tab order="141" ele_index="204" ele_name="check173"/>
+<tab order="142" ele_index="205" ele_name="check174"/>
+<tab order="143" ele_index="206" ele_name="check175"/>
+<tab order="144" ele_index="207" ele_name="check176"/>
+<tab order="145" ele_index="208" ele_name="check177"/>
+<tab order="146" ele_index="209" ele_name="check178"/>
+<tab order="147" ele_index="210" ele_name="check179"/>
+<tab order="148" ele_index="212" ele_name="check180"/>
+<tab order="149" ele_index="213" ele_name="check181"/>
+<tab order="150" ele_index="214" ele_name="check182"/>
+<tab order="151" ele_index="215" ele_name="check183"/>
+<tab order="152" ele_index="216" ele_name="check184"/>
+<tab order="153" ele_index="217" ele_name="check185"/>
+<tab order="154" ele_index="218" ele_name="check186"/>
+<tab order="155" ele_index="132" ele_name="check131"/>
+<tab order="156" ele_index="133" ele_name="check132"/>
+<tab order="157" ele_index="134" ele_name="check133"/>
+<tab order="158" ele_index="135" ele_name="check134"/>
+<tab order="159" ele_index="136" ele_name="check135"/>
+<tab order="160" ele_index="137" ele_name="check136"/>
+<tab order="161" ele_index="138" ele_name="check137"/>
+<tab order="162" ele_index="139" ele_name="check138"/>
+<tab order="163" ele_index="140" ele_name="check139"/>
+<tab order="164" ele_index="141" ele_name="check140"/>
+<tab order="165" ele_index="142" ele_name="check141"/>
+<tab order="166" ele_index="143" ele_name="check142"/>
+<tab order="167" ele_index="144" ele_name="check143"/>
+<tab order="168" ele_index="145" ele_name="check144"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label76"/>
+<id order="3" ele_index="3" ele_name="label77"/>
+<id order="4" ele_index="4" ele_name="label78"/>
+<id order="5" ele_index="5" ele_name="label79"/>
+<id order="6" ele_index="6" ele_name="label80"/>
+<id order="7" ele_index="7" ele_name="label81"/>
+<id order="8" ele_index="8" ele_name="label82"/>
+<id order="9" ele_index="9" ele_name="label83"/>
+<id order="10" ele_index="10" ele_name="label84"/>
+<id order="11" ele_index="11" ele_name="label85"/>
+<id order="12" ele_index="12" ele_name="check2"/>
+<id order="13" ele_index="13" ele_name="check3"/>
+<id order="14" ele_index="14" ele_name="check4"/>
+<id order="15" ele_index="15" ele_name="check5"/>
+<id order="16" ele_index="16" ele_name="check6"/>
+<id order="17" ele_index="17" ele_name="check7"/>
+<id order="18" ele_index="18" ele_name="check8"/>
+<id order="19" ele_index="19" ele_name="check10"/>
+<id order="20" ele_index="20" ele_name="check11"/>
+<id order="21" ele_index="21" ele_name="check12"/>
+<id order="22" ele_index="22" ele_name="check13"/>
+<id order="23" ele_index="23" ele_name="check14"/>
+<id order="24" ele_index="24" ele_name="check15"/>
+<id order="25" ele_index="25" ele_name="check16"/>
+<id order="26" ele_index="26" ele_name="check18"/>
+<id order="27" ele_index="27" ele_name="check19"/>
+<id order="28" ele_index="28" ele_name="check20"/>
+<id order="29" ele_index="29" ele_name="check21"/>
+<id order="30" ele_index="30" ele_name="check22"/>
+<id order="31" ele_index="31" ele_name="check23"/>
+<id order="32" ele_index="32" ele_name="check24"/>
+<id order="33" ele_index="33" ele_name="check26"/>
+<id order="34" ele_index="34" ele_name="check27"/>
+<id order="35" ele_index="35" ele_name="check28"/>
+<id order="36" ele_index="36" ele_name="check29"/>
+<id order="37" ele_index="37" ele_name="check30"/>
+<id order="38" ele_index="38" ele_name="check31"/>
+<id order="39" ele_index="39" ele_name="check32"/>
+<id order="40" ele_index="40" ele_name="check34"/>
+<id order="41" ele_index="41" ele_name="check35"/>
+<id order="42" ele_index="42" ele_name="check36"/>
+<id order="43" ele_index="43" ele_name="check37"/>
+<id order="44" ele_index="44" ele_name="check38"/>
+<id order="45" ele_index="45" ele_name="check39"/>
+<id order="46" ele_index="46" ele_name="check40"/>
+<id order="47" ele_index="47" ele_name="check42"/>
+<id order="48" ele_index="48" ele_name="check43"/>
+<id order="49" ele_index="49" ele_name="check44"/>
+<id order="50" ele_index="50" ele_name="check45"/>
+<id order="51" ele_index="51" ele_name="check46"/>
+<id order="52" ele_index="52" ele_name="check47"/>
+<id order="53" ele_index="53" ele_name="check48"/>
+<id order="54" ele_index="54" ele_name="check50"/>
+<id order="55" ele_index="55" ele_name="check51"/>
+<id order="56" ele_index="56" ele_name="check52"/>
+<id order="57" ele_index="57" ele_name="check53"/>
+<id order="58" ele_index="58" ele_name="check54"/>
+<id order="59" ele_index="59" ele_name="check55"/>
+<id order="60" ele_index="60" ele_name="check56"/>
+<id order="61" ele_index="61" ele_name="check58"/>
+<id order="62" ele_index="62" ele_name="check59"/>
+<id order="63" ele_index="63" ele_name="check60"/>
+<id order="64" ele_index="64" ele_name="check61"/>
+<id order="65" ele_index="65" ele_name="check62"/>
+<id order="66" ele_index="66" ele_name="check63"/>
+<id order="67" ele_index="67" ele_name="check64"/>
+<id order="68" ele_index="68" ele_name="check66"/>
+<id order="69" ele_index="69" ele_name="check67"/>
+<id order="70" ele_index="70" ele_name="check68"/>
+<id order="71" ele_index="71" ele_name="check69"/>
+<id order="72" ele_index="72" ele_name="check70"/>
+<id order="73" ele_index="73" ele_name="check71"/>
+<id order="74" ele_index="74" ele_name="check72"/>
+<id order="75" ele_index="75" ele_name="check74"/>
+<id order="76" ele_index="76" ele_name="check75"/>
+<id order="77" ele_index="77" ele_name="check76"/>
+<id order="78" ele_index="78" ele_name="check77"/>
+<id order="79" ele_index="79" ele_name="check78"/>
+<id order="80" ele_index="80" ele_name="check79"/>
+<id order="81" ele_index="81" ele_name="check80"/>
+<id order="82" ele_index="82" ele_name="label104"/>
+<id order="83" ele_index="83" ele_name="check82"/>
+<id order="84" ele_index="84" ele_name="check83"/>
+<id order="85" ele_index="85" ele_name="check84"/>
+<id order="86" ele_index="86" ele_name="check85"/>
+<id order="87" ele_index="87" ele_name="check86"/>
+<id order="88" ele_index="88" ele_name="check87"/>
+<id order="89" ele_index="89" ele_name="check88"/>
+<id order="90" ele_index="90" ele_name="label113"/>
+<id order="91" ele_index="91" ele_name="label114"/>
+<id order="92" ele_index="92" ele_name="label115"/>
+<id order="93" ele_index="93" ele_name="label116"/>
+<id order="94" ele_index="94" ele_name="label117"/>
+<id order="95" ele_index="95" ele_name="label118"/>
+<id order="96" ele_index="96" ele_name="label119"/>
+<id order="97" ele_index="97" ele_name="check96"/>
+<id order="98" ele_index="98" ele_name="check97"/>
+<id order="99" ele_index="99" ele_name="check98"/>
+<id order="100" ele_index="100" ele_name="check99"/>
+<id order="101" ele_index="101" ele_name="check100"/>
+<id order="102" ele_index="102" ele_name="check101"/>
+<id order="103" ele_index="103" ele_name="check102"/>
+<id order="104" ele_index="104" ele_name="check103"/>
+<id order="105" ele_index="105" ele_name="check104"/>
+<id order="106" ele_index="106" ele_name="check105"/>
+<id order="107" ele_index="107" ele_name="check106"/>
+<id order="108" ele_index="108" ele_name="check107"/>
+<id order="109" ele_index="109" ele_name="check108"/>
+<id order="110" ele_index="110" ele_name="check109"/>
+<id order="111" ele_index="111" ele_name="check110"/>
+<id order="112" ele_index="112" ele_name="check111"/>
+<id order="113" ele_index="113" ele_name="check112"/>
+<id order="114" ele_index="114" ele_name="check113"/>
+<id order="115" ele_index="115" ele_name="check114"/>
+<id order="116" ele_index="116" ele_name="check115"/>
+<id order="117" ele_index="117" ele_name="check116"/>
+<id order="118" ele_index="118" ele_name="check117"/>
+<id order="119" ele_index="119" ele_name="check118"/>
+<id order="120" ele_index="120" ele_name="check119"/>
+<id order="121" ele_index="121" ele_name="check120"/>
+<id order="122" ele_index="122" ele_name="check121"/>
+<id order="123" ele_index="123" ele_name="check122"/>
+<id order="124" ele_index="124" ele_name="check123"/>
+<id order="125" ele_index="125" ele_name="check124"/>
+<id order="126" ele_index="126" ele_name="check125"/>
+<id order="127" ele_index="127" ele_name="check126"/>
+<id order="128" ele_index="128" ele_name="check127"/>
+<id order="129" ele_index="129" ele_name="check128"/>
+<id order="130" ele_index="130" ele_name="check129"/>
+<id order="131" ele_index="131" ele_name="check130"/>
+<id order="132" ele_index="132" ele_name="check131"/>
+<id order="133" ele_index="133" ele_name="check132"/>
+<id order="134" ele_index="134" ele_name="check133"/>
+<id order="135" ele_index="135" ele_name="check134"/>
+<id order="136" ele_index="136" ele_name="check135"/>
+<id order="137" ele_index="137" ele_name="check136"/>
+<id order="138" ele_index="138" ele_name="check137"/>
+<id order="139" ele_index="139" ele_name="check138"/>
+<id order="140" ele_index="140" ele_name="check139"/>
+<id order="141" ele_index="141" ele_name="check140"/>
+<id order="142" ele_index="142" ele_name="check141"/>
+<id order="143" ele_index="143" ele_name="check142"/>
+<id order="144" ele_index="144" ele_name="check143"/>
+<id order="145" ele_index="145" ele_name="check144"/>
+<id order="146" ele_index="146" ele_name="label120"/>
+<id order="147" ele_index="147" ele_name="check145"/>
+<id order="148" ele_index="148" ele_name="check146"/>
+<id order="149" ele_index="149" ele_name="check147"/>
+<id order="150" ele_index="150" ele_name="check148"/>
+<id order="151" ele_index="151" ele_name="check149"/>
+<id order="152" ele_index="152" ele_name="check150"/>
+<id order="153" ele_index="153" ele_name="check151"/>
+<id order="154" ele_index="154" ele_name="label121"/>
+<id order="155" ele_index="155" ele_name="check152"/>
+<id order="156" ele_index="156" ele_name="check153"/>
+<id order="157" ele_index="157" ele_name="check154"/>
+<id order="158" ele_index="158" ele_name="check155"/>
+<id order="159" ele_index="159" ele_name="check156"/>
+<id order="160" ele_index="160" ele_name="check157"/>
+<id order="161" ele_index="161" ele_name="check158"/>
+<id order="162" ele_index="162" ele_name="label122"/>
+<id order="163" ele_index="163" ele_name="check159"/>
+<id order="164" ele_index="164" ele_name="check160"/>
+<id order="165" ele_index="165" ele_name="check161"/>
+<id order="166" ele_index="166" ele_name="check162"/>
+<id order="167" ele_index="167" ele_name="check163"/>
+<id order="168" ele_index="168" ele_name="check164"/>
+<id order="169" ele_index="169" ele_name="check165"/>
+<id order="170" ele_index="170" ele_name="label26"/>
+<id order="171" ele_index="171" ele_name="dropdown6"/>
+<id order="172" ele_index="172" ele_name="label123"/>
+<id order="173" ele_index="173" ele_name="label124"/>
+<id order="174" ele_index="174" ele_name="label125"/>
+<id order="175" ele_index="175" ele_name="edit2"/>
+<id order="176" ele_index="176" ele_name="edit3"/>
+<id order="177" ele_index="177" ele_name="edit4"/>
+<id order="178" ele_index="178" ele_name="edit5"/>
+<id order="179" ele_index="179" ele_name="edit6"/>
+<id order="180" ele_index="180" ele_name="edit7"/>
+<id order="181" ele_index="181" ele_name="edit9"/>
+<id order="182" ele_index="182" ele_name="edit10"/>
+<id order="183" ele_index="183" ele_name="edit11"/>
+<id order="184" ele_index="184" ele_name="edit12"/>
+<id order="185" ele_index="185" ele_name="edit13"/>
+<id order="186" ele_index="186" ele_name="edit14"/>
+<id order="187" ele_index="187" ele_name="label126"/>
+<id order="188" ele_index="188" ele_name="label127"/>
+<id order="189" ele_index="189" ele_name="label128"/>
+<id order="190" ele_index="190" ele_name="label129"/>
+<id order="191" ele_index="191" ele_name="label130"/>
+<id order="192" ele_index="192" ele_name="label138"/>
+<id order="193" ele_index="193" ele_name="label146"/>
+<id order="194" ele_index="194" ele_name="label147"/>
+<id order="195" ele_index="195" ele_name="label148"/>
+<id order="196" ele_index="196" ele_name="check166"/>
+<id order="197" ele_index="197" ele_name="check167"/>
+<id order="198" ele_index="198" ele_name="check168"/>
+<id order="199" ele_index="199" ele_name="check169"/>
+<id order="200" ele_index="200" ele_name="check170"/>
+<id order="201" ele_index="201" ele_name="check171"/>
+<id order="202" ele_index="202" ele_name="check172"/>
+<id order="203" ele_index="203" ele_name="label149"/>
+<id order="204" ele_index="204" ele_name="check173"/>
+<id order="205" ele_index="205" ele_name="check174"/>
+<id order="206" ele_index="206" ele_name="check175"/>
+<id order="207" ele_index="207" ele_name="check176"/>
+<id order="208" ele_index="208" ele_name="check177"/>
+<id order="209" ele_index="209" ele_name="check178"/>
+<id order="210" ele_index="210" ele_name="check179"/>
+<id order="211" ele_index="211" ele_name="label150"/>
+<id order="212" ele_index="212" ele_name="check180"/>
+<id order="213" ele_index="213" ele_name="check181"/>
+<id order="214" ele_index="214" ele_name="check182"/>
+<id order="215" ele_index="215" ele_name="check183"/>
+<id order="216" ele_index="216" ele_name="check184"/>
+<id order="217" ele_index="217" ele_name="check185"/>
+<id order="218" ele_index="218" ele_name="check186"/>
+<id order="219" ele_index="219" ele_name="label151"/>
+<id order="220" ele_index="220" ele_name="_input_range_labellabel"/>
+<id order="221" ele_index="221" ele_name="_input_range_label"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Насос|||2:펌프|||3:PUMP|||4:PUMP|||5:PUMP|||6:Bomba|||0:泵浦|||7:Pompa|||8:PUMP|||9:Bomba|||10:Máy bơm|||default:PUMP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP.png" 按下图片="btnPUMPx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;电子尺调整&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:LINKHYDR|||2:LINKHYDR|||3:LINKHYDR|||4:LINKHYDR|||5:LINKHYDR|||6:LINKHYDR|||0:联动油路|||7:LINKHYDR|||8:LINKHYDR|||9:LINKHYDR|||10:LINKHYDR|||default:LINKHYDR" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLINKHYDR.png" 按下图片="btnLINKHYDRx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;机器调整DA&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;机器配置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;IO重定义&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;润滑1&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;参数1&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

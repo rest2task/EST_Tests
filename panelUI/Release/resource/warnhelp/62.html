@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<p>窗口名：温度参数一</p>
+<p>1. 缓冲区含义：例：设定温度200 ℃ ，缓冲区设定值为30，则实际加热温度大于等于170 ℃时，关闭电热，进入缓冲加热。</p>
+<p><br />
+  2. 缓冲区设为0 ，关闭相应温度段。</p>
+<p><br />
+  3. 缓冲区&gt;1，缓冲区自动整定加热方式；如：设定温度200℃，缓冲区为30，首次加温实际到达205 ℃，而后开始下降，则缓冲区自动设定为35，如果温度只达到190 ℃，则缓冲区自动设为20。</p>
+<p><br />
+  4. 缓冲区=1，固定缓冲区加热方式；首尾段温度缓冲区将使用参数二内的“温控缓冲区”，中间段缓冲区= 温控缓冲区*2。</p>
+<p><br />
+  5. 温控x段系数，程序内部控制系数，与调整无关。 </p>
+</body>
+</html>

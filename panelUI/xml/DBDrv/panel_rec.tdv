@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="panel_rec">
+<config name="转换器类型" value="按值"/>
+<group data_src="">
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">清空所有记录</string>
+<string lang_id="1" lang="俄文">УдалитьВсеЗаписи</string>
+<string lang_id="2" lang="韩文">모든기록삭제</string>
+<string lang_id="3" lang="英文">Clear All Records</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eliminar</string>
+<string lang_id="7" lang="土耳其语">Tüm.Kayıt.Sil</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Claro Todos Rec</string>
+<string lang_id="10" lang="越南文">Xóa hết nhật ký</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">读U盘</string>
+<string lang_id="1" lang="俄文">Импорт</string>
+<string lang_id="2" lang="韩文">입력</string>
+<string lang_id="3" lang="英文">Import</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Importar</string>
+<string lang_id="7" lang="土耳其语">İthalat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Importar</string>
+<string lang_id="10" lang="越南文">Tải vào</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">写U盘</string>
+<string lang_id="1" lang="俄文">Импорт</string>
+<string lang_id="2" lang="韩文">수출</string>
+<string lang_id="3" lang="英文">Export</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Exportar</string>
+<string lang_id="7" lang="土耳其语">Ihracat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Outport</string>
+<string lang_id="10" lang="越南文">Chuyển ra</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">读入</string>
+<string lang_id="1" lang="俄文">Чтен</string>
+<string lang_id="2" lang="韩文">읽기</string>
+<string lang_id="3" lang="英文">Read</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lectura</string>
+<string lang_id="7" lang="土耳其语">Oku</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ler</string>
+<string lang_id="10" lang="越南文">Đọc</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">保存</string>
+<string lang_id="1" lang="俄文">Сохр</string>
+<string lang_id="2" lang="韩文">저장</string>
+<string lang_id="3" lang="英文">Save</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Guardar</string>
+<string lang_id="7" lang="土耳其语">Kaydet</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Salvar</string>
+<string lang_id="10" lang="越南文">Lưu</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">删除</string>
+<string lang_id="1" lang="俄文">Удал</string>
+<string lang_id="2" lang="韩文">삭제</string>
+<string lang_id="3" lang="英文">Delete</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Borrar</string>
+<string lang_id="7" lang="土耳其语">Sil</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Excluir</string>
+<string lang_id="10" lang="越南文">Xóa</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">删除当前日期</string>
+<string lang_id="1" lang="俄文">Дата</string>
+<string lang_id="2" lang="韩文">날짜</string>
+<string lang_id="3" lang="英文">Delete Cur Day</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eliminar la fecha actual</string>
+<string lang_id="7" lang="土耳其语">Tarih ürün Sayısı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Apagar a data atual</string>
+<string lang_id="10" lang="越南文">Xóa ngày hiện tại</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">删除当前月份</string>
+<string lang_id="1" lang="俄文">месяц</string>
+<string lang_id="2" lang="韩文">월</string>
+<string lang_id="3" lang="英文">Delete Cur Month</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eliminar el mes actual</string>
+<string lang_id="7" lang="土耳其语">Ay</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Excluir o mês atual</string>
+<string lang_id="10" lang="越南文">Xóa tháng hiện tại</string>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">导出excel</string>
+<string lang_id="1" lang="俄文">Экспорт</string>
+<string lang_id="2" lang="韩文">수출</string>
+<string lang_id="3" lang="英文">Export excel</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Exportar Excel</string>
+<string lang_id="7" lang="土耳其语">Ihracat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Exportar excel</string>
+<string lang_id="10" lang="越南文">Xuất Excel</string>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">重置</string>
+<string lang_id="1" lang="俄文">Сброс</string>
+<string lang_id="2" lang="韩文">리셋</string>
+<string lang_id="3" lang="英文">Reset</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Restablecer</string>
+<string lang_id="7" lang="土耳其语">Yeni.Kur</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Reset</string>
+<string lang_id="10" lang="越南文">Cài lại</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">全部</string>
+<string lang_id="1" lang="俄文">Все</string>
+<string lang_id="2" lang="韩文">모두</string>
+<string lang_id="3" lang="英文">All</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Todos</string>
+<string lang_id="7" lang="土耳其语">Tümü</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Todos</string>
+<string lang_id="10" lang="越南文">To.bộ</string>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">主机</string>
+<string lang_id="1" lang="俄文">Основные</string>
+<string lang_id="2" lang="韩文">호스트</string>
+<string lang_id="3" lang="英文">Host</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Host</string>
+<string lang_id="7" lang="土耳其语">Ana</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Main</string>
+<string lang_id="10" lang="越南文">Máy chủ</string>
+</item>
+<item type="0">
+<value>13</value>
+<string lang_id="0" lang="中文">面板</string>
+<string lang_id="1" lang="俄文">Панель</string>
+<string lang_id="2" lang="韩文">판넬</string>
+<string lang_id="3" lang="英文">Panel</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Panel</string>
+<string lang_id="7" lang="土耳其语">Panel</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Painel</string>
+<string lang_id="10" lang="越南文">Pane</string>
+</item>
+<item type="0">
+<value>14</value>
+<string lang_id="0" lang="中文">模组</string>
+<string lang_id="1" lang="俄文">Форма</string>
+<string lang_id="2" lang="韩文">금형자료</string>
+<string lang_id="3" lang="英文">Mold Set</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde</string>
+<string lang_id="7" lang="土耳其语">Kalıp</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Molde Conjunto</string>
+<string lang_id="10" lang="越南文">Nhóm khuôn</string>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">伺服</string>
+<string lang_id="1" lang="俄文">серво</string>
+<string lang_id="2" lang="韩文">서보</string>
+<string lang_id="3" lang="英文">Servo</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo</string>
+<string lang_id="7" lang="土耳其语">Servo</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Servo</string>
+<string lang_id="10" lang="越南文">Servo</string>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">导出</string>
+<string lang_id="1" lang="俄文">Импорт</string>
+<string lang_id="2" lang="韩文">수출</string>
+<string lang_id="3" lang="英文">Export</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Exportar</string>
+<string lang_id="7" lang="土耳其语">Ihracat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Outport</string>
+<string lang_id="10" lang="越南文">Chuyển ra</string>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">导入</string>
+<string lang_id="1" lang="俄文">Вход</string>
+<string lang_id="2" lang="韩文">입력</string>
+<string lang_id="3" lang="英文">Input</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Entrada</string>
+<string lang_id="7" lang="土耳其语">Giriş</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">ENT</string>
+<string lang_id="10" lang="越南文">Đầu vào</string>
+</item>
+<item type="0">
+<value>18</value>
+<string lang_id="0" lang="中文">恢复为出厂值</string>
+<string lang_id="1" lang="俄文">завод.</string>
+<string lang_id="2" lang="韩文">초기 설정으로 복원</string>
+<string lang_id="3" lang="英文">RestoreToSaved</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Restaurar Fábrica</string>
+<string lang_id="7" lang="土耳其语">Varsayılan değer</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Restaurar Fábrica</string>
+<string lang_id="10" lang="越南文">Khôi phục thành Đã lưu</string>
+</item>
+<item type="0">
+<value>19</value>
+<string lang_id="0" lang="中文">恢复为默认值</string>
+<string lang_id="1" lang="俄文">умолчанию</string>
+<string lang_id="2" lang="韩文">복원에디폴트</string>
+<string lang_id="3" lang="英文">RestoreToDefault</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Restaurar Defecto</string>
+<string lang_id="7" lang="土耳其语">Varsayılanları</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Restaurar Padrão</string>
+<string lang_id="10" lang="越南文">Khôi phục về mặc định</string>
+</item>
+<item type="0">
+<value>20</value>
+<string lang_id="0" lang="中文">结构参数</string>
+<string lang_id="1" lang="俄文">состав</string>
+<string lang_id="2" lang="韩文">구조</string>
+<string lang_id="3" lang="英文">MachSet</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Máquina Set</string>
+<string lang_id="7" lang="土耳其语">Yapısı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Estrutura</string>
+<string lang_id="10" lang="越南文">Máy móc thô.số</string>
+</item>
+<item type="0">
+<value>21</value>
+<string lang_id="0" lang="中文">更新面板</string>
+<string lang_id="1" lang="俄文">Panel Update</string>
+<string lang_id="2" lang="韩文">Panel Update</string>
+<string lang_id="3" lang="英文">Panel Update</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语">Panel Update</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22</value>
+<string lang_id="0" lang="中文">面板更新包校验失败</string>
+<string lang_id="1" lang="俄文">Update verification fail</string>
+<string lang_id="2" lang="韩文">Update verification fail</string>
+<string lang_id="3" lang="英文">Update verification fail</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语">Update verification fail</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23</value>
+<string lang_id="0" lang="中文">修改面板时间</string>
+<string lang_id="1" lang="俄文">Change Panel Time</string>
+<string lang_id="2" lang="韩文">Change Panel Time</string>
+<string lang_id="3" lang="英文">Change Panel Time</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

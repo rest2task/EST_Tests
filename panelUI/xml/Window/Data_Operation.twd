@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Data_Operation" 可见="-1" 标题="0:数据操作|||1:Операц. данные|||2:데이터 조작|||3:Data Operation|||4:معالجة البيانات|||5:Data Operation|||6:Manipulación Datos|||7:Veri Manıpülasyon|||8:عمل داده|||9:Manipulação dados|||10:Thao tác số liệu|||default:Data Operation" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<var prop="数据保护" orient="in" tag=".z数据保护"/>
+<event name="绘图" act=""/>
+<event name="显示" act=""/>
+<event name="定时器" act="dataop opupdate"/>
+<event name="初始化" act="dataop opinit"/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="80" 宽度="580" 高度="337" 文本="0:数据操作|||1:Операц. данные|||2:데이터 조작|||3:Data Operation|||4:معالجة البيانات|||5:Data Operation|||6:Manipulación Datos|||7:Veri Manıpülasyon|||8:عمل داده|||9:Manipulação dados|||10:Thao tác số liệu|||default:Data Operation" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown3" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="200" 宽度="155" 高度="28" 数据="3:|||default:" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL2" 当前值="0" cur_text="" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="文本" orient="out" tag=".机器机型"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="数据" orient="in" tag="p.PP.TMP.TMPSTR0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL21"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL21"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="181" 顶="200" 宽度="155" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.MACHSET.MACHTAB_SYSTEMNAME" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="21" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="255" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="1" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.MACHTAB_SYSTEMNAME"/>
+<var prop="文本" orient="out" tag="p.PP.MACHSET.MACHTAB_SYSTEMNAME"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="424" 宽度="580" 高度="80" 文本="3:|||0:|||default:" 字体="宋体" 字号="16" 透明度="255" 文本色="16711702" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="120" 宽度="120" 高度="28" 语言表索引="0" 文本="0:状态|||1:Сост.|||2:상태|||3:State|||4:حالة|||5:State|||6:Estado|||7:Durum|||8:حالت|||9:State|||10:Tr.thái|||default:State" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="200" 宽度="120" 高度="28" 语言表索引="0" 文本="0:机器类型名称|||1:ТипМашин|||2:기계 유형|||3:MachType Name|||4:نوع الجهاز|||5:Machine Type|||6:Escriba Nombre|||7:Makine Tipi|||8:نوع ماشین|||9:Máquina Nome|||10:Tên loại máy|||default:MachType Name" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag=".机型名称使能"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="160" 宽度="120" 高度="28" 语言表索引="0" 文本="0:操作方式|||1:РежимРаботы|||2:운전|||3:Operate Mode|||4:طريقة التشغيل|||5:Operate Mode|||6:Operación Modo|||7:Modu İşlet|||8:مد عمل|||9:Método Operação|||10:P.thức thao tác|||default:Operate Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label13" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="240" 宽度="120" 高度="28" 语言表索引="0" 文本="0:数据类型|||1:Тип данных|||2:데이터 유형|||3:Data Type|||4:أنواع البيانات|||5:Data Type|||6:Datos Tipos|||7:Veri Tipleri|||8:نوع داده|||9:Tipo dados|||10:Loại hình số liệu|||default:Data Type" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button43" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="373" 宽度="95" 高度="28" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown1" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="160" 宽度="155" 高度="28" 数据="0:导出;导入;恢复为出厂值;恢复为默认值|||1:Импорт;Вход;Восст. в вып.;умолчанию|||2:수출;입력;초기 설정으로 복원;복원에디폴트|||3:Export;Input;RestoreToDelivery;RestoreToDefault|||4:تصدير;نقطة الإدخال;استعادة لضبط المصنع;استعادة القيمة الافتراضية|||5:Export;Input;RestoreToDelivery;RestoreToDefault|||6:Exportar;Entrada;Restaurar Fábrica;Restaurar Defecto|||7:Ihracat;Giriş;Fabrikaya Geri Yükle;Varsayılanları|||8:خروج;نقطه وارد کردن;برگشت به ارزش کارخانه;برگشت به پیش فرض|||9:Outport;ENT;Recup Val Fabri;Restaurar Padrão|||10:Chuyển ra;Đầu vào;Khôi phục trị số xuất xưởng;Khôi phục về mặc định|||default:导出" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL1" 当前值="0" cur_text="导出" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL1"/>
+<event name="选择改变" act="dataop btoperate"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="0" 可见="-1" 可用="0" 左="180" 顶="120" 宽度="155" 高度="28" 数据="0:正常;商务|||1:Hормальный;занятость|||2:정상;사업|||3:Normal;Commerce|||4:تقليدي;عمل|||5:Normal;Commerce|||6:Normal;Comercio|||7:Normal;Ticaret|||8:عادی;بازرگانی|||9:Normal;Negócio|||10:Bình.t;Thương mại|||default:正常" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL0" 当前值="0" cur_text="正常" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label20" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="160" 宽度="250" 高度="28" 语言表索引="0" 文本="0:U盘不存在！请插入U盘|||1:Вставьте диск|||2:U디스크 없음|||3:U Disk Not Exist!|||4:قرص U غير موجود، يرجي إدراج قرص U.|||5:U Disk Not Exist!|||6:Insertar USB|||7:U disk yok!|||8:فلش کارت وجود ندارد!|||9:Disk U Not Exist!|||10:USB không tồn tại!|||default:U Disk Not Exist!" 横向对齐="0" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="457" 宽度="180" 高度="28" 语言表索引="0" 文本="0:出厂数据保存口令|||1:СохрДанныхПароль:|||2:데이터 저장 비밀번호|||3:Data Save Password|||4:بيانات المصنع المخزنة كلمة السر|||5:Data Save Password|||6:Clave Salvar Datos|||7:Veri Parolayı Kaydet|||8:رمز ذخیره داده|||9:Salvar dados Senha|||10:Lệnh lưu số liệu|||default:Data Save Password" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit80" 索引="0" 可见="-1" 可用="-1" 左="233" 顶="457" 宽度="100" 高度="28" 文本="0000" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0000" 关联变量="p.PP.TMP.TMPVAL9" 延迟更新="0" 只读="0" 密码模式="-1" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="3" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL9"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button47" 索引="0" 可见="-1" 可用="-1" 左="348" 顶="457" 宽度="80" 高度="28" 标题="0:保存|||1:Сохр|||2:저장|||3:Save|||4:حفظ|||5:Save|||6:Guardar|||7:Kaydet|||8:ذخیره|||9:Salvar|||10:Lưu|||default:保存" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label110" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="200" 宽度="250" 高度="28" 语言表索引="0" 文本="0:U盘中无机型数据！|||1:Нет данных на U-диске|||2:U 디스크 데이터 아니오 모델!|||3:No Data In U Disk!|||4:دون نماذج البيانات في القرص U!|||5:No Data In U Disk!|||6:U Disk Sin Modelos Datos!|||7:U Disk No Veriler|||8:داده در فلش کارت وجود ندارد!|||9:Dados inorgânicos no disco U!|||10:Trong USB không có số liệu loại máy!|||default:No Data In U Disk!" 横向对齐="0" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label112" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="310" 宽度="114" 高度="28" 语言表索引="0" 文本="0:msg|||1:No Data In U Disk!|||2:msg|||3:msg|||4:No Data In U Disk!|||5:msg|||6:No Data In U Disk!|||7:msg|||8:msg|||9:msg|||10:msg|||default:msg" 横向对齐="0" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.SETUP_SERVO_MSG"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label113" 索引="0" 可见="-1" 可用="-1" 左="455" 顶="457" 宽度="114" 高度="28" 语言表索引="0" 文本="0:msg|||1:No Data In U Disk!|||2:msg|||3:msg|||4:No Data In U Disk!|||5:msg|||6:No Data In U Disk!|||7:msg|||8:msg|||9:msg|||10:msg|||default:msg" 横向对齐="0" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.SETUP_SERVO_MSGDEF"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox1" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="245" 宽度="82" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL3" 关联变量位="-1" 标题="0:全部|||1:Все|||2:모두|||3:All|||4:كامل|||5:All|||6:Todos|||7:Tümü|||8:همه|||9:Todos|||10:To.bộ|||default:All" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL3"/>
+<event name="点击" act="dataop selall"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox2" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="277" 宽度="100" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL4" 关联变量位="-1" 标题="0:主机|||1:Основные|||2:호스트|||3:Host|||4:الكمبيوتر|||5:Host|||6:Host|||7:Ana|||8:میزبان|||9:Main|||10:Máy chủ|||default:Host" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+<event name="点击" act="dataop selhost"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox3" 索引="0" 可见="-1" 可用="-1" 左="320" 顶="277" 宽度="100" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL5" 关联变量位="-1" 标题="0:面板|||1:Панель|||2:판넬|||3:HMI|||4:لوحة|||5:Panel|||6:Panel|||7:Paneli|||8:صفحه|||9:Painel|||10:Pane|||default:HMI" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL5"/>
+<event name="点击" act="dataop selhmi"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox4" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="310" 宽度="100" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL6" 关联变量位="-1" 标题="0:模组|||1:Форма|||2:금형자료|||3:Mold Set|||4:وحدة|||5:Mold Set|||6:Molde|||7:Kalıp|||8:گروه قالب|||9:Molde Conjunto|||10:Nhóm khuôn|||default:Mold Set" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL6"/>
+<event name="点击" act="dataop selmold"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox5" 索引="0" 可见="-1" 可用="-1" 左="320" 顶="310" 宽度="100" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL7" 关联变量位="-1" 标题="0:伺服|||1:серво|||2:서보|||3:Servo|||4:مؤازرة|||5:Servo|||6:Servo|||7:Servo|||8:سروو|||9:Servo|||10:Servo|||default:Servo" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL7"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL7"/>
+<event name="点击" act="dataop selservo"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox6" 索引="0" 可见="-1" 可用="-1" 左="460" 顶="277" 宽度="100" 高度="28" 选择="0" 关联变量="p.PP.TMP.TMPVAL8" 关联变量位="-1" 标题="0:结构参数|||1:состав|||2:구조|||3:MachSet|||6:Máquina Set|||7:Yapısı|||9:Estrutura|||10:Máy móc thô.số|||default:MachSet" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL8"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL5"/>
+<event name="点击" act="dataop selhmi"/>
+</element>
+<horz order="0" ele_index="11" ele_name="dropdown2"/>
+<horz order="1" ele_index="10" ele_name="dropdown1"/>
+<horz order="2" ele_index="2" ele_name="dropdown3"/>
+<horz order="3" ele_index="3" ele_name="edit1"/>
+<horz order="4" ele_index="19" ele_name="checkbox1"/>
+<horz order="5" ele_index="20" ele_name="checkbox2"/>
+<horz order="6" ele_index="21" ele_name="checkbox3"/>
+<horz order="7" ele_index="26" ele_name="checkbox6"/>
+<horz order="8" ele_index="22" ele_name="checkbox4"/>
+<horz order="9" ele_index="23" ele_name="checkbox5"/>
+<horz order="10" ele_index="9" ele_name="button43"/>
+<horz order="11" ele_index="14" ele_name="edit80"/>
+<horz order="12" ele_index="15" ele_name="button47"/>
+<vert order="0" ele_index="11" ele_name="dropdown2"/>
+<vert order="1" ele_index="10" ele_name="dropdown1"/>
+<vert order="2" ele_index="2" ele_name="dropdown3"/>
+<vert order="3" ele_index="3" ele_name="edit1"/>
+<vert order="4" ele_index="19" ele_name="checkbox1"/>
+<vert order="5" ele_index="20" ele_name="checkbox2"/>
+<vert order="6" ele_index="22" ele_name="checkbox4"/>
+<vert order="7" ele_index="9" ele_name="button43"/>
+<vert order="8" ele_index="14" ele_name="edit80"/>
+<vert order="9" ele_index="21" ele_name="checkbox3"/>
+<vert order="10" ele_index="23" ele_name="checkbox5"/>
+<vert order="11" ele_index="15" ele_name="button47"/>
+<vert order="12" ele_index="26" ele_name="checkbox6"/>
+<tab order="0" ele_index="11" ele_name="dropdown2"/>
+<tab order="1" ele_index="10" ele_name="dropdown1"/>
+<tab order="2" ele_index="2" ele_name="dropdown3"/>
+<tab order="3" ele_index="3" ele_name="edit1"/>
+<tab order="4" ele_index="19" ele_name="checkbox1"/>
+<tab order="5" ele_index="20" ele_name="checkbox2"/>
+<tab order="6" ele_index="21" ele_name="checkbox3"/>
+<tab order="7" ele_index="26" ele_name="checkbox6"/>
+<tab order="8" ele_index="22" ele_name="checkbox4"/>
+<tab order="9" ele_index="23" ele_name="checkbox5"/>
+<tab order="10" ele_index="9" ele_name="button43"/>
+<tab order="11" ele_index="14" ele_name="edit80"/>
+<tab order="12" ele_index="15" ele_name="button47"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox2"/>
+<id order="2" ele_index="2" ele_name="dropdown3"/>
+<id order="3" ele_index="3" ele_name="edit1"/>
+<id order="4" ele_index="4" ele_name="groupbox1"/>
+<id order="5" ele_index="5" ele_name="label10"/>
+<id order="6" ele_index="6" ele_name="label11"/>
+<id order="7" ele_index="7" ele_name="label12"/>
+<id order="8" ele_index="8" ele_name="label13"/>
+<id order="9" ele_index="9" ele_name="button43"/>
+<id order="10" ele_index="10" ele_name="dropdown1"/>
+<id order="11" ele_index="11" ele_name="dropdown2"/>
+<id order="12" ele_index="12" ele_name="label20"/>
+<id order="13" ele_index="13" ele_name="label32"/>
+<id order="14" ele_index="14" ele_name="edit80"/>
+<id order="15" ele_index="15" ele_name="button47"/>
+<id order="16" ele_index="16" ele_name="label110"/>
+<id order="17" ele_index="17" ele_name="label112"/>
+<id order="18" ele_index="18" ele_name="label113"/>
+<id order="19" ele_index="19" ele_name="checkbox1"/>
+<id order="20" ele_index="20" ele_name="checkbox2"/>
+<id order="21" ele_index="21" ele_name="checkbox3"/>
+<id order="22" ele_index="22" ele_name="checkbox4"/>
+<id order="23" ele_index="23" ele_name="checkbox5"/>
+<id order="24" ele_index="24" ele_name="_input_range_labellabel"/>
+<id order="25" ele_index="25" ele_name="_input_range_label"/>
+<id order="26" ele_index="26" ele_name="checkbox6"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Данные|||2:데이터|||3:DATA|||4:|||5:|||6:Datos|||0:数据|||7:Veri|||8:|||9:Dados|||10:dữ liệu|||default:DATA" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDATA.png" 按下图片="btnDATAx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;程序升级&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиДета|||2:부품 표|||3:P.TBL|||4:|||5:|||6:Piezas|||0:部件表|||7:P.Tablo|||8:|||9:ListP.|||10:P.bàn|||default:P.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnP.TBL.png" 按下图片="btnP.TBLx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;面板测试&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиKлап|||2:밸브|||3:V.TBL|||4:|||5:|||6:Válvula|||0:阀逻辑表|||7:V.Tablo|||8:|||9:ListL.|||10:V.bàn|||default:V.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnV.TBL.png" 按下图片="btnV.TBLx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;数据检测&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;配置表&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

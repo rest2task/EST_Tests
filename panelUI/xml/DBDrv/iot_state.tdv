@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="iot_state">
+<config name="转换器类型" value="按值"/>
+<group data_src="">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">网络未连</string>
+<string lang_id="1" lang="俄文">Не подключен</string>
+<string lang_id="2" lang="韩文">휴식</string>
+<string lang_id="3" lang="英文">DisConnect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sin Conexión</string>
+<string lang_id="7" lang="土耳其语">Bağlı Değil</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">DisConnect</string>
+<string lang_id="10" lang="越南文">Không kết nối</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">网络已连</string>
+<string lang_id="1" lang="俄文">соединенный</string>
+<string lang_id="2" lang="韩文">연결</string>
+<string lang_id="3" lang="英文">Connect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ha Conectado</string>
+<string lang_id="7" lang="土耳其语">Bağlanın</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Connect</string>
+<string lang_id="10" lang="越南文">Đã kết nối</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">正常</string>
+<string lang_id="1" lang="俄文">Hормальный</string>
+<string lang_id="2" lang="韩文">정상</string>
+<string lang_id="3" lang="英文">Normal</string>
+<string lang_id="4" lang="阿拉伯文">تقليدي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Normal</string>
+<string lang_id="7" lang="土耳其语">Normal</string>
+<string lang_id="8" lang="波斯文">عادی</string>
+<string lang_id="9" lang="葡萄牙语">Normal</string>
+<string lang_id="10" lang="越南文">Bình.t</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">设备未发现</string>
+<string lang_id="1" lang="俄文">инактивированный</string>
+<string lang_id="2" lang="韩文">활성화되지 않음</string>
+<string lang_id="3" lang="英文">InActive</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">No Activado</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi</string>
+<string lang_id="8" lang="波斯文">غیر فعال</string>
+<string lang_id="9" lang="葡萄牙语">InActive</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">初始化失败</string>
+<string lang_id="1" lang="俄文">Не подключе1</string>
+<string lang_id="2" lang="韩文">활성화되지 않음1</string>
+<string lang_id="3" lang="英文">InActive1</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل1</string>
+<string lang_id="5" lang="法语">1</string>
+<string lang_id="6" lang="西班牙语">SinActiva1</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi1</string>
+<string lang_id="8" lang="波斯文">غیر فعال1</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado1</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt1</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">信号读取失败</string>
+<string lang_id="1" lang="俄文">Не подключе2</string>
+<string lang_id="2" lang="韩文">활성화되지 않음2</string>
+<string lang_id="3" lang="英文">InActive2</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل2</string>
+<string lang_id="5" lang="法语">2</string>
+<string lang_id="6" lang="西班牙语">SinActiva2</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi2</string>
+<string lang_id="8" lang="波斯文">غیر فعال2</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado2</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt2</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">SIM卡错误</string>
+<string lang_id="1" lang="俄文">Не подключе3</string>
+<string lang_id="2" lang="韩文">활성화되지 않음3</string>
+<string lang_id="3" lang="英文">InActive3</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل3</string>
+<string lang_id="5" lang="法语">3</string>
+<string lang_id="6" lang="西班牙语">SinActiva3</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi3</string>
+<string lang_id="8" lang="波斯文">غیر فعال3</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado3</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt3</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">地址错误</string>
+<string lang_id="1" lang="俄文">Не подключе4</string>
+<string lang_id="2" lang="韩文">활성화되지 않음4</string>
+<string lang_id="3" lang="英文">InActive4</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل4</string>
+<string lang_id="5" lang="法语">4</string>
+<string lang_id="6" lang="西班牙语">SinActiva4</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi4</string>
+<string lang_id="8" lang="波斯文">غیر فعال4</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado4</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt4</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">连接失败</string>
+<string lang_id="1" lang="俄文">Не подключе5</string>
+<string lang_id="2" lang="韩文">활성화되지 않음5</string>
+<string lang_id="3" lang="英文">InActive5</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل5</string>
+<string lang_id="5" lang="法语">5</string>
+<string lang_id="6" lang="西班牙语">SinActiva5</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi5</string>
+<string lang_id="8" lang="波斯文">غیر فعال5</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado5</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt5</string>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">数据发送失败</string>
+<string lang_id="1" lang="俄文">Не подключе6</string>
+<string lang_id="2" lang="韩文">활성화되지 않음6</string>
+<string lang_id="3" lang="英文">InActive6</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل6</string>
+<string lang_id="5" lang="法语">6</string>
+<string lang_id="6" lang="西班牙语">SinActiva6</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi6</string>
+<string lang_id="8" lang="波斯文">غیر فعال6</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado6</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt6</string>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">数据接收失败</string>
+<string lang_id="1" lang="俄文">Не подключе7</string>
+<string lang_id="2" lang="韩文">활성화되지 않음7</string>
+<string lang_id="3" lang="英文">InActive7</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل7</string>
+<string lang_id="5" lang="法语">7</string>
+<string lang_id="6" lang="西班牙语">SinActiva7</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi7</string>
+<string lang_id="8" lang="波斯文">غیر فعال7</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado7</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt7</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">模块更新</string>
+<string lang_id="1" lang="俄文">Не подключе8</string>
+<string lang_id="2" lang="韩文">활성화되지 않음8</string>
+<string lang_id="3" lang="英文">InActive8</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل8</string>
+<string lang_id="5" lang="法语">8</string>
+<string lang_id="6" lang="西班牙语">SinActiva8</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi8</string>
+<string lang_id="8" lang="波斯文">غیر فعال8</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado8</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt8</string>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">低信号</string>
+<string lang_id="1" lang="俄文">Не подключе9</string>
+<string lang_id="2" lang="韩文">활성화되지 않음9</string>
+<string lang_id="3" lang="英文">InActive9</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل9</string>
+<string lang_id="5" lang="法语">9</string>
+<string lang_id="6" lang="西班牙语">SinActiva9</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi9</string>
+<string lang_id="8" lang="波斯文">غیر فعال9</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado9</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt9</string>
+</item>
+<item type="0">
+<value>240</value>
+<string lang_id="0" lang="中文">未激活</string>
+<string lang_id="1" lang="俄文">Не подключе10</string>
+<string lang_id="2" lang="韩文">활성화되지 않음10</string>
+<string lang_id="3" lang="英文">InActive10</string>
+<string lang_id="4" lang="阿拉伯文">غير مفعل10</string>
+<string lang_id="5" lang="法语">10</string>
+<string lang_id="6" lang="西班牙语">SinActiva10</string>
+<string lang_id="7" lang="土耳其语">Etkinleştirilmedi10</string>
+<string lang_id="8" lang="波斯文">غیر فعال10</string>
+<string lang_id="9" lang="葡萄牙语">Não Ativado10</string>
+<string lang_id="10" lang="越南文">Chưa kích hoạt10</string>
+</item>
+<item type="0">
+<value>241</value>
+<string lang_id="0" lang="中文">未注册</string>
+<string lang_id="1" lang="俄文">незарегистрированный</string>
+<string lang_id="2" lang="韩文">미등록</string>
+<string lang_id="3" lang="英文">UnRegistered</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">no registrado</string>
+<string lang_id="7" lang="土耳其语">kayıtsız</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">não registrado</string>
+<string lang_id="10" lang="越南文">chưa đăng ký</string>
+</item>
+<item type="0">
+<value>500</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>501</value>
+<string lang_id="0" lang="中文">密码设置中</string>
+<string lang_id="1" lang="俄文">Установка пароля</string>
+<string lang_id="2" lang="韩文">비밀번호 설정</string>
+<string lang_id="3" lang="英文">Set Passwd</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Configuración de contraseña</string>
+<string lang_id="7" lang="土耳其语">Şifre ayarı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Configuração de senha</string>
+<string lang_id="10" lang="越南文">Cài đặt mật khẩu</string>
+</item>
+<item type="0">
+<value>502</value>
+<string lang_id="0" lang="中文">设置成功，请牢记密码</string>
+<string lang_id="1" lang="俄文">Установите успешно, пожалуйста, запомните пароль</string>
+<string lang_id="2" lang="韩文">설정이 완료되었습니다. 비밀번호를 기억하십시오</string>
+<string lang_id="3" lang="英文">Success</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Configuración exitosa, recuerde la contraseña</string>
+<string lang_id="7" lang="土耳其语">Başarılı bir şekilde ayarlayın, lütfen şifreyi unutmayın</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Configurado com sucesso, lembre-se da senha</string>
+<string lang_id="10" lang="越南文">Thiết lập thành công, vui lòng nhớ mật khẩu</string>
+</item>
+<item type="0">
+<value>503</value>
+<string lang_id="0" lang="中文">模块信息读取失败，无法生成二维码</string>
+<string lang_id="1" lang="俄文">Не удалось прочитать информацию о модуле, невозможно создать QR-код</string>
+<string lang_id="2" lang="韩文">QR 코드를 생성 할 수없는 모듈 정보를 읽지 못했습니다</string>
+<string lang_id="3" lang="英文">Err</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">No se pudo leer la información del módulo, no se pudo generar el código QR</string>
+<string lang_id="7" lang="土耳其语">Modül bilgileri okunamadı, QR kodu oluşturulamadı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Falha ao ler as informações do módulo, não foi possível gerar o código QR</string>
+<string lang_id="10" lang="越南文">Không đọc được thông tin mô-đun, không thể tạo mã QR</string>
+</item>
+<item type="0">
+<value>504</value>
+<string lang_id="0" lang="中文">密码错误</string>
+<string lang_id="1" lang="俄文">ПарольОшибка</string>
+<string lang_id="2" lang="韩文">비밀번호 에러</string>
+<string lang_id="3" lang="英文">PasswdERR</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">contraseña incorrecta</string>
+<string lang_id="7" lang="土耳其语">Parola Error</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">senha incorreta</string>
+<string lang_id="10" lang="越南文">sai mật khẩu</string>
+</item>
+<item type="0">
+<value>65535</value>
+<string lang_id="0" lang="中文">设备断开连接</string>
+<string lang_id="1" lang="俄文">Устройство отключено</string>
+<string lang_id="2" lang="韩文">장치 연결이 끊어졌습니다</string>
+<string lang_id="3" lang="英文">Dev Disconnect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Dispositivo desconectado</string>
+<string lang_id="7" lang="土耳其语">cihaz bağlantısı koptu</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Dispositivo desconectado</string>
+<string lang_id="10" lang="越南文">thiết bị ngắt kết nối</string>
+</item>
+</group>
+</MapDrv>

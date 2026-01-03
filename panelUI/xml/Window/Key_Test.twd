@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Key_Test" 可见="-1" 标题="0:面板测试|||1:ИспытПанель|||2:테스트 패널|||3:Test Panel|||6:Prueba Panel|||7:Paneli Teftiş|||9:Teste Painel|||10:KiểmPanel|||default:Test Panel" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="显示" act=""/>
+<event name="隐藏" act=""/>
+<event name="初始化" act="keytest start"/>
+<event name="关闭" act="keytest stop"/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button11" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="35" 宽度="75" 高度="29" 标题="0:主画面|||1:Главн|||2:주화면|||3:Main|||4:الشاشة الرئيسية|||5:Main|||6:MAIN|||7:ANA|||8:صفحه اصلی|||9:MAIN|||10:Giao diện chính|||default:Main" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4150" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL100"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button12" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="35" 宽度="59" 高度="29" 标题="0:F1|||1:F1|||2:F1|||3:F1|||4:F1|||5:F1|||6:F1|||7:F1|||8:F1|||9:F1|||10:F1|||default:F1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4144" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL101"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button13" 索引="0" 可见="-1" 可用="-1" 左="151" 顶="35" 宽度="59" 高度="29" 标题="0:F2|||1:F2|||2:F2|||3:F2|||4:F2|||5:F2|||6:F2|||7:F2|||8:F2|||9:F2|||10:F2|||default:F2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4145" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL102"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button14" 索引="0" 可见="-1" 可用="-1" 左="211" 顶="35" 宽度="59" 高度="29" 标题="0:F3|||1:F3|||2:F3|||3:F3|||4:F3|||5:F3|||6:F3|||7:F3|||8:F3|||9:F3|||10:F3|||default:F3" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4146" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL103"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button15" 索引="0" 可见="-1" 可用="-1" 左="271" 顶="35" 宽度="59" 高度="29" 标题="0:F4|||1:F4|||2:F4|||3:F4|||4:F4|||5:F4|||6:F4|||7:F4|||8:F4|||9:F4|||10:F4|||default:F4" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4147" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL104"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button16" 索引="0" 可见="-1" 可用="-1" 左="331" 顶="35" 宽度="59" 高度="29" 标题="0:F5|||1:F5|||2:F5|||3:F5|||4:F5|||5:F5|||6:F5|||7:F5|||8:F5|||9:F5|||10:F5|||default:F5" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4148" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL105"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button17" 索引="0" 可见="-1" 可用="-1" 左="391" 顶="35" 宽度="59" 高度="29" 标题="0:F6|||1:F6|||2:F6|||3:F6|||4:F6|||5:F6|||6:F6|||7:F6|||8:F6|||9:F6|||10:F6|||default:F6" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4149" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL106"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button18" 索引="0" 可见="-1" 可用="-1" 左="451" 顶="35" 宽度="59" 高度="29" 标题="0:F7|||1:F7|||2:F7|||3:F7|||4:F7|||5:F7|||6:F7|||7:F7|||8:F7|||9:F7|||10:F7|||default:F7" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="8500" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL7"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL107"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button19" 索引="0" 可见="-1" 可用="-1" 左="511" 顶="35" 宽度="75" 高度="29" 标题="0:换页|||1:Kормить|||2:다음 페이지|||3:NextPage|||4:تغيير الصحفة|||5:NextPage|||6:Sig Pag|||7:SONRAKİ|||8:صفحه بعدی|||9:Alimentar|||10:Chuyển|||default:NextPage" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="8499" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL8"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL108"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button20" 索引="0" 可见="-1" 可用="-1" 左="405" 顶="95" 宽度="59" 高度="29" 标题="0:7|||1:7|||2:7|||3:7|||4:7|||5:7|||6:7|||7:7|||8:7|||9:7|||10:7|||default:7" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="55" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL9"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL109"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button21" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="95" 宽度="59" 高度="29" 标题="0:8|||1:8|||2:8|||3:8|||4:8|||5:8|||6:8|||7:8|||8:8|||9:8|||10:8|||default:8" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="56" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL110"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button22" 索引="0" 可见="-1" 可用="-1" 左="525" 顶="95" 宽度="59" 高度="29" 标题="0:9|||1:9|||2:9|||3:9|||4:9|||5:9|||6:9|||7:9|||8:9|||9:9|||10:9|||default:9" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="57" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL111"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button23" 索引="0" 可见="-1" 可用="-1" 左="405" 顶="135" 宽度="59" 高度="29" 标题="0:4|||1:4|||2:4|||3:4|||4:4|||5:4|||6:4|||7:4|||8:4|||9:4|||10:4|||default:4" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="52" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL113"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button24" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="135" 宽度="59" 高度="29" 标题="0:5|||1:5|||2:5|||3:5|||4:5|||5:5|||6:5|||7:5|||8:5|||9:5|||10:5|||default:5" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="53" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL114"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button25" 索引="0" 可见="-1" 可用="-1" 左="525" 顶="135" 宽度="59" 高度="29" 标题="0:6|||1:6|||2:6|||3:6|||4:6|||5:6|||6:6|||7:6|||8:6|||9:6|||10:6|||default:6" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="54" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL115"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button26" 索引="0" 可见="-1" 可用="-1" 左="405" 顶="175" 宽度="59" 高度="29" 标题="0:1|||1:1|||2:1|||3:1|||4:1|||5:1|||6:1|||7:1|||8:1|||9:1|||10:1|||default:1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="49" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL19"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL119"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button27" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="175" 宽度="59" 高度="29" 标题="0:2|||1:2|||2:2|||3:2|||4:2|||5:2|||6:2|||7:2|||8:2|||9:2|||10:2|||default:2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="50" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL20"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL120"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button28" 索引="0" 可见="-1" 可用="-1" 左="525" 顶="175" 宽度="59" 高度="29" 标题="0:3|||1:3|||2:3|||3:3|||4:3|||5:3|||6:3|||7:3|||8:3|||9:3|||10:3|||default:3" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="51" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL21"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL121"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button29" 索引="0" 可见="-1" 可用="-1" 左="405" 顶="215" 宽度="59" 高度="29" 标题="0:清除|||1:Дели|||2:삭제|||3:Del|||4:إزالة|||5:Del|||6:DEL|||7:SIL|||8:حذف|||9:DEL|||10:Xóa bỏ|||default:Del" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="8" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL25"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL125"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button30" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="215" 宽度="59" 高度="29" 标题="0:0|||1:0|||2:0|||3:0|||4:0|||5:0|||6:0|||7:0|||8:0|||9:0|||10:0|||default:0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="48" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL26"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL126"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button31" 索引="0" 可见="-1" 可用="-1" 左="525" 顶="215" 宽度="59" 高度="29" 标题="0:输入|||1:Вход|||2:입력|||3:Enter|||4:دخول|||5:ENT|||6:Entrada|||7:Gir.|||8:وارد کردن|||9:INPU|||10:Đi vào|||default:Enter" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="13" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL27"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL127"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button32" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="285" 宽度="72" 高度="29" 标题="0:手动|||1:Ручной.|||2:수동|||3:Manual|||4:يدويا|||5:Manual|||6:Manual|||7:El ile|||8:دستی|||9:MANUAL|||10:Bằng tay|||default:Manual" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16436" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL28"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL128"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button33" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="285" 宽度="72" 高度="29" 标题="0:半自动|||1:Semi|||2:반자동|||3:SemiAuto|||4:نصف التلقائي|||5:SemiAuto|||6:Semiatutomático|||7:Yarı.Oto|||8:نیمه خودکار|||9:SEMIAUTO|||10:Bán tự động|||default:SemiAuto" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16437" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL29"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL129"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button34" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="285" 宽度="72" 高度="29" 标题="0:全自动|||1:Авто|||2:키 조작|||3:Auto|||4: التلقائي|||5:Auto|||6:Auto|||7:Oto|||8:خودکار|||9:Auto|||10:Tự động|||default:Auto" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16439" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL30"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL130"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button35" 索引="0" 可见="-1" 可用="-1" 左="232" 顶="285" 宽度="72" 高度="29" 标题="0:运行|||1:Pаботать|||2:싸클시작|||3:Cyc Star|||4:تشغيل|||5:Cyc Start|||6:Arranque|||7:Çalıştır|||8:اجرا|||9:Correr|||10:Vận hành|||default:Cyc Star" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16438" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL31"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL131"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button36" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="330" 宽度="72" 高度="29" 标题="0:开模|||1:Откртие|||2:형개|||3:Open|||4:فتح قالب|||5:Mold Open|||6:Abrir|||7:Açma|||8:بازکردن قالب|||9:Abrir|||10:Mở k.|||default:Open" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16431" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL35"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL135"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button37" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="330" 宽度="72" 高度="29" 标题="0:关模|||1:Закр.|||2:형폐|||3:Close|||4:إغلاق قالب|||5:Mold Cls|||6:Cierre|||7:Kapat|||8:بستن قالب|||9:Fechar|||10:Đóng k.|||default:Close" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16432" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL36"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL136"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button40" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="375" 宽度="72" 高度="29" 标题="0:托模退|||1:ОтведениеСбрасыв.|||2:에젝터 후진|||3:Eject Ret|||4:طرد الي الخلف|||5:Eject Ret|||6:Expul Ret|||7:İtici Çekis|||8:برگشت EJ|||9:Eject Retiro|||10:Đỡ khuôn rút|||default:Eject Ret" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16419" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL42"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL142"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button41" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="375" 宽度="72" 高度="29" 标题="0:托模进|||1:Продв.впередвытал.|||2:에젝터 전진|||3:Eject Adv|||4:طرد الي الأمام|||5:Eject Adv|||6:Expul Avan|||7:İtici İleri|||8:پیشرفت EJ|||9:Eject Entrar|||10:Đỡ khuôn vào|||default:Eject Adv" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16420" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL43"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL143"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button44" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="465" 宽度="72" 高度="29" 标题="0:吹气 1|||1:Выдув 1|||2:에어1|||3:AirBlow1|||4:تهب 1|||5:AirBlow1|||6:Aire1|||7:Hava1|||8:وزش باد 1|||9:Golpe1|||10:ThổiKhí1|||default:AirBlow1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16423" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL49"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL149"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button45" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="465" 宽度="72" 高度="29" 标题="0:吹气 2|||1:Выдув 2|||2:에어2|||3:AirBlow2|||4:تهب 2|||5:AirBlow2|||6:Aire2|||7:Hava2|||8:وزش باد 2|||9:Golpe2|||10:ThổiKhí2|||default:AirBlow2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16424" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL50"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL150"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button46" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="420" 宽度="72" 高度="29" 标题="0:中子切换|||1:ядровыберите|||2:코어선택|||3:Core Selt|||4:تبديل النيوترون|||5:Core Selt|||6:Noyo Sel|||7:Maça Seç|||8:تعویض مغز|||9:Core Sel|||10:nơtr.đổi|||default:Core Selt" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="24577" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL44"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL144"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button47" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="465" 宽度="72" 高度="29" 标题="0:吹气切换|||1:Взрыввыберите|||2:에어선택|||3:Air Selt|||4:تهب اختر|||5:Air Selt|||6:Aire Selec|||7:Hava Seç|||8:تعویض وزش باد|||9:Golpe Sel|||10:ThổiK.đổi|||default:Air Selt" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="24578" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL45"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL145"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button48" 索引="0" 可见="-1" 可用="-1" 左="232" 顶="420" 宽度="72" 高度="29" 标题="0:润滑|||1:Смазка|||2:윤활유|||3:Lub|||4:تشحيم|||5:Lub|||6:Engrase|||7:Yağlama|||8:روغنکاری|||9:Lubri.|||10:Bôi trơn|||default:Lub" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16416" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL53"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL153"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button51" 索引="0" 可见="-1" 可用="-1" 左="232" 顶="375" 宽度="72" 高度="29" 标题="0:清料|||1:Чистка|||2:퍼지|||3:Purge|||4:تنظيف المواد|||5:Purge|||6:Purga|||7:Temizle|||8:تصفیه|||9:Purge|||10:Xả liệu|||default:Purge" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16434" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL46"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL146"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button52" 索引="0" 可见="-1" 可用="-1" 左="232" 顶="465" 宽度="72" 高度="29" 标题="0:调模使用|||1:Регулир|||2:금형조정|||3:MoldAdj|||4:وضع النقل باستخدام|||5:AdjMold Use|||6:Ajuste Molde|||7:AyarKalıp|||8:استفاده از تنظیم|||9:MoldAdj|||10:SD ĐC k|||default:MoldAdj" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16435" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL32"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL132"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button53" 索引="0" 可见="-1" 可用="-1" 左="380" 顶="465" 宽度="68" 高度="29" 标题="0:调模进|||1:РегулПодвФормы|||2:조정 전진|||3:Md Thin|||4:القالب الي الأمام|||5:Mold Thin|||6:AjusteAvan|||7:Ayar İleri|||8:پیشرفت تنظیم|||9:Mold Ent|||10:Gầy khu.|||default:Md Thin" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16430" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL34"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL134"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button54" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="465" 宽度="68" 高度="29" 标题="0:调模退|||1:РегулОтводаФормы|||2:조정 후진|||3:Md Thick|||4:سمك العفن|||5:Mold Thick|||6:Ajuste Ret|||7:Ayar Çekil|||8:ضخامت قالب|||9:Mold Ret|||10:Độ dày k.|||default:Md Thick" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16429" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL33"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL133"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button55" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="330" 宽度="72" 高度="29" 标题="0:射出|||1:Впрыск|||2:사출|||3:Inject|||4:حقن|||5:Inject|||6:Inyección|||7:Enjekte|||8:تزریق|||9:Injectar|||10:Bắn ra|||default:Inject" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16425" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL39"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL139"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button56" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="375" 宽度="72" 高度="29" 标题="0:加料|||1:Загруз|||2:계량|||3:Charge|||4:تخزين المواد|||5:Charge|||6:Carga|||7:Mal Alm|||8:شارژتغذیه|||9:Carregar|||10:Trữ liệu|||default:Charge" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16433" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL40"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL140"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button57" 索引="0" 可见="-1" 可用="-1" 左="232" 顶="330" 宽度="72" 高度="29" 标题="0:射退|||1:Cосать назад|||2:강제후퇴|||3:SuckBack|||4:اطلاق|||5:SuckBack|||6:Succión|||7:GeriEm|||8:مکیدن|||9:Suck Voltar|||10:Bắn thoát|||default:SuckBack" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16426" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL41"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL141"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button59" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="420" 宽度="68" 高度="29" 标题="0:座进|||1:ПодводСопла|||2:노즐 전진|||3:Noz Adv|||4:قاعدة الأمام|||5:Noz Adv|||6:Boquil Avan|||7:Grup İleri|||8:بینی پیشرفت|||9:Bico Entrar|||10:Bệ vào |||default:Noz Adv" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16412" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL47"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL147"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button60" 索引="0" 可见="-1" 可用="-1" 左="380" 顶="420" 宽度="68" 高度="29" 标题="0:座退|||1:ОтводСопла|||2:노즐 후퇴|||3:Noz Ret|||4:قاعدة تراجع|||5:Noz Ret|||6:Boquil Ret|||7:Grup Geri|||8:بینی برگشت|||9:Bico Retiro|||10:Bệ Thoát|||default:Noz Ret" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16413" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL48"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL148"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button62" 索引="0" 可见="-1" 可用="-1" 左="450" 顶="465" 宽度="68" 高度="29" 标题="0:马达|||1:двигатель|||2:모터|||3:Motor|||4:محرك|||5:Motor|||6:Motor|||7:MOTOR|||8:موتور|||9:Motor|||10:Mô tơ|||default:Motor" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16414" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL56"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL156"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button64" 索引="0" 可见="-1" 可用="-1" 左="520" 顶="465" 宽度="68" 高度="29" 标题="0:电热|||1:Нагрев|||2:히터|||3:Heater|||4:التدفئة الكهربائية|||5:Heater|||6:Calent|||7:ISITICI|||8:هیتر|||9:Heater|||10:Nhiệt|||default:Heater" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16415" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL57"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL157"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button65" 索引="0" 可见="-1" 可用="-1" 左="212" 顶="110" 宽度="65" 高度="29" 标题="0:↑|||3:↑|||default:↑" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4115" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL112"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button66" 索引="0" 可见="-1" 可用="-1" 左="284" 顶="150" 宽度="65" 高度="29" 标题="0:→|||3:→|||default:→" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4116" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL18"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL118"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button67" 索引="0" 可见="-1" 可用="-1" 左="212" 顶="150" 宽度="65" 高度="29" 标题="0:↓|||3:↓|||default:↓" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4117" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL17"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL117"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button68" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="150" 宽度="65" 高度="29" 标题="0:←|||1:←|||2:←|||3:←|||default:←" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4114" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL16"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL116"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button69" 索引="0" 可见="-1" 可用="-1" 左="284" 顶="190" 宽度="65" 高度="29" 标题="0:帮助|||1:Помощь|||2:도움말|||3:Help|||4:مساعدة|||5:Help|||6:Ayuda|||7:YARDIM|||8:کمک|||9:HELP|||10:Hỗ trợ|||default:Help" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="8497" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL24"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL124"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button70" 索引="0" 可见="-1" 可用="-1" 左="212" 顶="190" 宽度="65" 高度="29" 标题="0:语言|||1:Язык|||2:언어|||3:Lang|||4:لغة|||5:Language|||6:Idioma|||7:DİL|||8:زبان|||9:IDIOMA|||10:Ng.ngữ|||default:Lang" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="4151" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL23"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL123"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button71" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="190" 宽度="65" 高度="29" 标题="0:系统|||1:Cистема|||2:시스템 |||3:System|||4:نظام |||5:System|||6:Sistema|||7:SİSTEM|||8:سیستم|||9:SISTEMA|||10:Hệ thống|||default:System" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="8496" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL122"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="555" 宽度="580" 高度="32" 语言表索引="0" 文本="0:按&quot;主画面&quot;键三次退出!|||1:Для выхода нажм 3 раза MAIN!|||2:나가기 위해 MAIN 키를 세번 누르세요|||3:Press MAIN key thrice to exit|||4:اضغط على زر &quot;الشاشة الرئيسية&quot; لثلاث مرات للخروج!|||5:Press MAIN key thrice to exit|||6:Pulsar MAIN 3 Veces Para Salir|||7:ANA Tuşuna3defaBasÇık!|||8:برای خروج کلید &quot;اصلی&quot; را فشار دهید|||9:Pressione três vezes para sair PRINCIPAL|||10:Bấm nút &quot;giao diện chính&quot; 3 lần thoát!|||default:Press MAIN key thrice to exit" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="Arial Narrow" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button73" 索引="0" 可见="-1" 可用="-1" 左="450" 顶="420" 宽度="68" 高度="29" 标题="0:备用一|||1:щадить1|||2:예비 1|||3:Spare 1|||4:احتياطية  1|||5:Spare 1|||6:Ahorrar 1|||7:Yedek 1|||8:زاپاس1 1|||9:Poupar 1|||10:Dự phòng 1|||default:Spare 1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16456" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL54"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL154"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button74" 索引="0" 可见="-1" 可用="-1" 左="520" 顶="420" 宽度="68" 高度="29" 标题="0:备用二|||1:щадить2|||2:예비 2|||3:Spare 2|||4:احتياطية  2|||5:Spare 2|||6:Ahorrar 2|||7:Yedek 2|||8:زاپاس1 2|||9:Poupar 2|||10:Dự phòng 2|||default:Spare 2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16457" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL55"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL155"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button79" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="420" 宽度="72" 高度="29" 标题="0:中子出|||1:ЗнакИз|||2:코어 후진|||3:Core Out|||4:جوهر    الي الوراء|||5:Core Out|||6:Noyo Ret|||7:MaçaÇıkışı|||8:مغز  خروج|||9:CoreRet|||10:nơtr.rút|||default:Core Out" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16428" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL37"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL137"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button80" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="420" 宽度="72" 高度="29" 标题="0:中子入|||1:ЗнакВ|||2:코어 전진|||3:Core In|||4:جوهر   دخول|||5:Core In|||6:Noyo En|||7:Maça In|||8:مغز  ورود|||9:CoreEnt|||10:nơtr.vào|||default:Core In" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16427" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL38"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL138"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label27" 索引="0" 可见="-1" 可用="-1" 左="9" 顶="522" 宽度="580" 高度="32" 语言表索引="0" 文本="0:按&quot;语言&quot;键两次息屏!|||1:Дважды нажмите кнопку LANG, чтобы выключить экран!|||2:&quot;언어&quot;버튼을 두 번 눌러 화면을 잡으십시오!|||3:Press LANG key twice to turn off screen!|||4:اضغط على زر &quot;الشاشة الرئيسية&quot; لثلاث مرات للخروج!|||5:Press MAIN key thrice to exit|||6:Presione la tecla LANG dos veces para apagar la pantalla.|||7:Ekranı kapatmak için &quot;Dil&quot; düğmesine iki kez basın!|||8:برای خروج کلید &quot;اصلی&quot; را فشار دهید|||9:Press  LANG duas vezes para desligar a tela!|||10:Nhấn phím LANG hai lần để tắt màn hình!|||default:Press LANG key twice to turn off screen!" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="Arial Narrow" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit163" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 文本="" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="7895160" 边框宽度="0" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label_check" 索引="0" 可见="-1" 可用="-1" 左="312" 顶="283" 宽度="277" 高度="32" 语言表索引="0" 文本="0:触摸屏检测中...|||1:|||2:|||3:Touch Screen Is Checking...|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:Touch Screen Is Checking..." 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="Arial Narrow" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label_error" 索引="0" 可见="-1" 可用="-1" 左="312" 顶="312" 宽度="277" 高度="60" 语言表索引="0" 文本="0:触摸屏检测异常,请与厂家联系!|||1:|||2:|||3:Touch Screen Check Error,Please Contact The Manufacturer!|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:Touch Screen Check Error,Please Contact The Manufacturer!" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="Arial Narrow" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label_ok" 索引="0" 可见="-1" 可用="-1" 左="312" 顶="312" 宽度="277" 高度="60" 语言表索引="0" 文本="0:触摸屏检测正常!|||1:|||2:|||3:Touch Screen Check Ok!|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:Touch Screen Check Ok!" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="Arial Narrow" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="-1"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="buttontouch" 索引="0" 可见="-1" 可用="-1" 左="382" 顶="376" 宽度="137" 高度="30" 标题="0:触摸测试|||1:Сенсорный тест|||2:터치 테스트|||3:Touch Test|||4:اختبار اللمس|||5:Test tactile|||6:Prueba táctil|||7:Dokunma Testi|||8:تست را لمس کنید|||9:Teste de toque|||10:|||default:Touch Test" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="12500670" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="16436" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="背景色" orient="in" tag="p.PP.TMP.TMPVAL28"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL128"/>
+</element>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="button11"/>
+<id order="2" ele_index="2" ele_name="button12"/>
+<id order="3" ele_index="3" ele_name="button13"/>
+<id order="4" ele_index="4" ele_name="button14"/>
+<id order="5" ele_index="5" ele_name="button15"/>
+<id order="6" ele_index="6" ele_name="button16"/>
+<id order="7" ele_index="7" ele_name="button17"/>
+<id order="8" ele_index="8" ele_name="button18"/>
+<id order="9" ele_index="9" ele_name="button19"/>
+<id order="10" ele_index="10" ele_name="button20"/>
+<id order="11" ele_index="11" ele_name="button21"/>
+<id order="12" ele_index="12" ele_name="button22"/>
+<id order="13" ele_index="13" ele_name="button23"/>
+<id order="14" ele_index="14" ele_name="button24"/>
+<id order="15" ele_index="15" ele_name="button25"/>
+<id order="16" ele_index="16" ele_name="button26"/>
+<id order="17" ele_index="17" ele_name="button27"/>
+<id order="18" ele_index="18" ele_name="button28"/>
+<id order="19" ele_index="19" ele_name="button29"/>
+<id order="20" ele_index="20" ele_name="button30"/>
+<id order="21" ele_index="21" ele_name="button31"/>
+<id order="22" ele_index="22" ele_name="button32"/>
+<id order="23" ele_index="23" ele_name="button33"/>
+<id order="24" ele_index="24" ele_name="button34"/>
+<id order="25" ele_index="25" ele_name="button35"/>
+<id order="26" ele_index="26" ele_name="button36"/>
+<id order="27" ele_index="27" ele_name="button37"/>
+<id order="28" ele_index="28" ele_name="button40"/>
+<id order="29" ele_index="29" ele_name="button41"/>
+<id order="30" ele_index="30" ele_name="button44"/>
+<id order="31" ele_index="31" ele_name="button45"/>
+<id order="32" ele_index="32" ele_name="button46"/>
+<id order="33" ele_index="33" ele_name="button47"/>
+<id order="34" ele_index="34" ele_name="button48"/>
+<id order="35" ele_index="35" ele_name="button51"/>
+<id order="36" ele_index="36" ele_name="button52"/>
+<id order="37" ele_index="37" ele_name="button53"/>
+<id order="38" ele_index="38" ele_name="button54"/>
+<id order="39" ele_index="39" ele_name="button55"/>
+<id order="40" ele_index="40" ele_name="button56"/>
+<id order="41" ele_index="41" ele_name="button57"/>
+<id order="42" ele_index="42" ele_name="button59"/>
+<id order="43" ele_index="43" ele_name="button60"/>
+<id order="44" ele_index="44" ele_name="button62"/>
+<id order="45" ele_index="45" ele_name="button64"/>
+<id order="46" ele_index="46" ele_name="button65"/>
+<id order="47" ele_index="47" ele_name="button66"/>
+<id order="48" ele_index="48" ele_name="button67"/>
+<id order="49" ele_index="49" ele_name="button68"/>
+<id order="50" ele_index="50" ele_name="button69"/>
+<id order="51" ele_index="51" ele_name="button70"/>
+<id order="52" ele_index="52" ele_name="button71"/>
+<id order="53" ele_index="53" ele_name="label26"/>
+<id order="54" ele_index="54" ele_name="button73"/>
+<id order="55" ele_index="55" ele_name="button74"/>
+<id order="56" ele_index="56" ele_name="button79"/>
+<id order="57" ele_index="57" ele_name="button80"/>
+<id order="58" ele_index="58" ele_name="label27"/>
+<id order="59" ele_index="59" ele_name="edit163"/>
+<id order="60" ele_index="60" ele_name="label_check"/>
+<id order="61" ele_index="61" ele_name="label_error"/>
+<id order="62" ele_index="62" ele_name="label_ok"/>
+<id order="63" ele_index="63" ele_name="buttontouch"/>
+<group name="按键" order="0" ele_index="1" ele_name="button11"/>
+<group name="按键" order="1" ele_index="2" ele_name="button12"/>
+<group name="按键" order="2" ele_index="3" ele_name="button13"/>
+<group name="按键" order="3" ele_index="4" ele_name="button14"/>
+<group name="按键" order="4" ele_index="5" ele_name="button15"/>
+<group name="按键" order="5" ele_index="6" ele_name="button16"/>
+<group name="按键" order="6" ele_index="7" ele_name="button17"/>
+<group name="按键" order="7" ele_index="8" ele_name="button18"/>
+<group name="按键" order="8" ele_index="9" ele_name="button19"/>
+<group name="按键" order="9" ele_index="10" ele_name="button20"/>
+<group name="按键" order="10" ele_index="11" ele_name="button21"/>
+<group name="按键" order="11" ele_index="12" ele_name="button22"/>
+<group name="按键" order="12" ele_index="13" ele_name="button23"/>
+<group name="按键" order="13" ele_index="14" ele_name="button24"/>
+<group name="按键" order="14" ele_index="15" ele_name="button25"/>
+<group name="按键" order="15" ele_index="16" ele_name="button26"/>
+<group name="按键" order="16" ele_index="17" ele_name="button27"/>
+<group name="按键" order="17" ele_index="18" ele_name="button28"/>
+<group name="按键" order="18" ele_index="19" ele_name="button29"/>
+<group name="按键" order="19" ele_index="20" ele_name="button30"/>
+<group name="按键" order="20" ele_index="21" ele_name="button31"/>
+<group name="按键" order="21" ele_index="23" ele_name="button33"/>
+<group name="按键" order="22" ele_index="24" ele_name="button34"/>
+<group name="按键" order="23" ele_index="25" ele_name="button35"/>
+<group name="按键" order="24" ele_index="26" ele_name="button36"/>
+<group name="按键" order="25" ele_index="27" ele_name="button37"/>
+<group name="按键" order="26" ele_index="28" ele_name="button40"/>
+<group name="按键" order="27" ele_index="29" ele_name="button41"/>
+<group name="按键" order="28" ele_index="30" ele_name="button44"/>
+<group name="按键" order="29" ele_index="31" ele_name="button45"/>
+<group name="按键" order="30" ele_index="34" ele_name="button48"/>
+<group name="按键" order="31" ele_index="35" ele_name="button51"/>
+<group name="按键" order="32" ele_index="36" ele_name="button52"/>
+<group name="按键" order="33" ele_index="37" ele_name="button53"/>
+<group name="按键" order="34" ele_index="38" ele_name="button54"/>
+<group name="按键" order="35" ele_index="39" ele_name="button55"/>
+<group name="按键" order="36" ele_index="40" ele_name="button56"/>
+<group name="按键" order="37" ele_index="41" ele_name="button57"/>
+<group name="按键" order="38" ele_index="42" ele_name="button59"/>
+<group name="按键" order="39" ele_index="43" ele_name="button60"/>
+<group name="按键" order="40" ele_index="44" ele_name="button62"/>
+<group name="按键" order="41" ele_index="45" ele_name="button64"/>
+<group name="按键" order="42" ele_index="46" ele_name="button65"/>
+<group name="按键" order="43" ele_index="47" ele_name="button66"/>
+<group name="按键" order="44" ele_index="48" ele_name="button67"/>
+<group name="按键" order="45" ele_index="49" ele_name="button68"/>
+<group name="按键" order="46" ele_index="50" ele_name="button69"/>
+<group name="按键" order="47" ele_index="51" ele_name="button70"/>
+<group name="按键" order="48" ele_index="52" ele_name="button71"/>
+<group name="按键" order="49" ele_index="54" ele_name="button73"/>
+<group name="按键" order="50" ele_index="55" ele_name="button74"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:кнопка|||2:판넬|||3:KEY|||4:|||5:|||6:Llave|||0:测键|||7:Anahtar|||8:|||9:Chave|||10:KEY|||default:KEY" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnKEY.png" 按下图片="btnKEYx.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;程序升级&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;数据检测&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;安装设置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;配置表&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

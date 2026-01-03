@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Other_Robot" 可见="-1" 标题="0:机械手|||1:Робот|||2:로보트|||3:Robot|||4:آخر|||5:Other|||6:Robot|||7:Robot|||8:دیگر|||9:Robot|||10:Tay cơ|||default:Robot" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="pixRobot" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="5" 宽度="40" 高度="40" 透明度="255" 背景图="vrobot.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb11" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="20" 宽度="120" 高度="24" 数据="0:不使用;常规;欧规12;欧规67|||1:НеИспо;Hормальный;EU12;EU67|||2:비사용;정상;EU12;EU67|||3:Not Use;Normal;EU12;EU67|||4:لا استعمال;تقليدي;;|||5:Not Use;Normal;EU12;EU67|||6:No Usar;Normal;EU12;EU67|||7:Kullanma;Normal;EU12;EU67|||8:عدم استفاده;عادی;;|||9:Não utilize;Normal;EU12;EU67|||10:Ko SD;Bình.t;EU12;EU67|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.robot1.MOLDSET.FL_ROBOTCTRL" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+<var prop="值" orient="out" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label161" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="74" 宽度="170" 高度="24" 语言表索引="0" 文本="0:途中机械手功能|||1:Робот В пути функция|||2:방식으로조작하|||3:Way Robot Func|||4:طريقة ظيفة اليد الميكانيكية|||5:Way Robot Func|||6:Func Robot en Camino|||7:Yolu Robot Fonksiyon|||8:کاربرد روبات درراه|||9:Meio Robô Funç|||10:CN tay cơ trong QT|||default:Way Robot Func" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label162" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="101" 宽度="170" 高度="24" 语言表索引="0" 文本="0:途中机械手启动位置|||1:Робот в поз.вых.|||2:형개중위치|||3:Way Rob StartPos|||4:روبوت بداية الموقف|||5:Way Rob StartPos|||6:Robot InicPos En Ruta|||7:Orta Rob Çıktı Poz|||8:موقعیت استارت روبات درراه|||9:Maneira Rob StartPos|||10:VT KĐ tay CG trong QT|||default:Way Rob StartPos" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.WAY_ROBOT_FUNC_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed31" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="101" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.clamp1.MOLDSET.POS_ROBOT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="700" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.MOLDSET.POS_ROBOT"/>
+<var prop="文本" orient="out" tag="d.clamp1.MOLDSET.POS_ROBOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.WAY_ROBOT_FUNC_ENABLE"/>
+<var prop="最大值" orient="in" tag="d.clamp1.ACTPARA.ADPOSI_OPENENDEND"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label169" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="101" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.WAY_ROBOT_FUNC_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label164" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="128" 宽度="170" 高度="24" 语言表索引="0" 文本="0:途中机械手输出时间|||1:Робот Выход Врем|||2:형개중시간|||3:Way Rob OutputTm|||4:الطريق مناور إخراج  وقت|||5:Way Robot Output Tm|||6:Robot Señal Salida Tm|||7:Orta Rob Çıktı Zaman|||8:نحو روبات خروج زمان|||9:MeioRobô SaíDa Tm|||10:TG ra Tay cơ trong QT|||default:Way Robot OutputTm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.RBT_OUTPUT_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed51" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="128" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.robot1.MOLDSET.TM_ROBOTMID" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.robot1.MOLDSET.TM_ROBOTMID"/>
+<var prop="文本" orient="out" tag="d.clamp1.MACHSET.TM_MANUALOUT"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.RBT_OUTPUT_TM_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label171" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="128" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.RBT_OUTPUT_TM_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label163" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="47" 宽度="170" 高度="24" 语言表索引="0" 文本="0:手动状态使用机械手|||1:Мех.рук.руч.|||2:형개중시간선택|||3:Manl Use Robot|||4:يدويا باستخدام الروبوت|||5:Manl Use Robot|||6:Man Uso Robot|||7:El İle Kullan Robot|||8:روبات استفاده دستی|||9:Manual Usa Robot |||10:SD tay CG tr.thái bằng tay|||default:手动状态使用机械手" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label158" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="182" 宽度="170" 高度="24" 语言表索引="0" 文本="0:中子信号2连接|||1:Соед.сиг.2 нейт.|||2:코어 2 링크|||3:Rob Core 2 Link|||4:النيوترون إشارة 2 اتصال|||5:Rob Core 2 Link|||6:Robot Noyo 2 Enlace|||7:Robot Maça 2 Bağla|||8:مغز 2 پیوند|||9:Core 2 Articular|||10:Rob nơtron 2 liên động|||default:Rob Core 2 Link" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.ROB_CORE_2_LINK_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label166" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="155" 宽度="170" 高度="24" 语言表索引="0" 文本="0:中子信号1连接|||1:Соед.сиг.1 нейт.|||2:코어 1 링크|||3:Rob Core 1 Link|||4:النيوترون إشارة 1 اتصال|||5:Rob Core 1 Link|||6:Robot Noyo 1 Enlace|||7:Robot Maça 1 Bağla|||8:مغز 1 پیوند|||9:Core 1 Articular|||10:Rob nơtron 1 liên động|||default:Rob Core 1 Link" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.ROB_CORE_1_LINK_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb61" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="155" 宽度="120" 高度="24" 数据="0:不使用;中子A;中子B;中子C;中子D;中子E;中子F|||1:НеИспо;ЗнакA;ЗнакB;ЗнакC;ЗнакD;Пу E ;Пуа F |||2:비사용;코어1;코어2;코어3;코어4;코어5;코어6|||3:Not Use;Core A;Core B;Core C;Core D;Core E;Core F|||4:لا استعمال;جوهر  A;جوهر  B;جوهر  C;جوهر  D;جوهر  E;جوهر  F|||5:Not Use;Core A;Core B;Core C;Core D;Core E;Core F|||6:No Usar;Noyo A;Noyo B;Noyo C;Noyo D;Noyo E;Noyo F|||7:Kullanma;Maça A;Maça B;Maça C;Maça D;Maça E;Maça F|||8:عدم استفاده;مغز A;مغز B;مغز C;مغز D;مغز E;مغز F|||9:Não utilize;Core A;Core B;Core C;Core D;Core E;Core F|||10:Ko SD;Nơtron A;Nơtron B;Nơtron C;Nơtron D;Nơtron E;Nơtron F|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.robot1.MOLDSET.FL_CORESEC1" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.robot1.MOLDSET.FL_CORESEC1"/>
+<var prop="值" orient="out" tag="d.robot1.MOLDSET.FL_CORESEC1"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.ROB_CORE_1_LINK_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb71" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="182" 宽度="120" 高度="24" 数据="0:不使用;中子A;中子B;中子C;中子D;中子E;中子F|||1:НеИспо;ЗнакA;ЗнакB;ЗнакC;ЗнакD;Пу E ;Пуа F |||2:비사용;코어1;코어2;코어3;코어4;코어5;코어6|||3:Not Use;Core A;Core B;Core C;Core D;Core E;Core F|||4:لا استعمال;جوهر  A;جوهر  B;جوهر  C;جوهر  D;جوهر  E;جوهر  F|||5:Not Use;Core A;Core B;Core C;Core D;Core E;Core F|||6:No Usar;Noyo A;Noyo B;Noyo C;Noyo D;Noyo E;Noyo F|||7:Kullanma;Maça A;Maça B;Maça C;Maça D;Maça E;Maça F|||8:عدم استفاده;مغز A;مغز B;مغز C;مغز D;مغز E;مغز F|||9:Não utilize;Core A;Core B;Core C;Core D;Core E;Core F|||10:Ko SD;Nơtron A;Nơtron B;Nơtron C;Nơtron D;Nơtron E;Nơtron F|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.robot1.MOLDSET.FL_CORESEC2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.robot1.MOLDSET.FL_CORESEC2"/>
+<var prop="值" orient="out" tag="d.robot1.MOLDSET.FL_CORESEC2"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.ROB_CORE_2_LINK_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbt21" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="74" 宽度="120" 高度="24" 数据="0:不使用;手动+自动;自动|||1:Not Use;Manual+Auto;Auto|||2:Not Use;Manual+Auto;Auto|||3:Not Use;Manual+Auto;Auto|||4:Not Use;Manual+Auto;Auto|||5:Not Use;Manual+Auto;Auto|||6:Not Use;Manual+Auto;Auto|||7:Not Use;Manual+Auto;Auto|||8:Not Use;Manual+Auto;Auto|||9:Not Use;Manual+Auto;Auto|||10:Not Use;Manual+Auto;Auto|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.robot1.MOLDSET.FL_ROBOTCLPMID" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCLPMID"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbt41" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="47" 宽度="120" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.robot1.MOLDSET.FL_MANUALOPN" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.robot1.MOLDSET.FL_MANUALOPN"/>
+<var prop="可用" orient="in" tag="d.robot1.MOLDSET.FL_ROBOTCTRL"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator1" 锁住="0" 左="10" 顶="128" 列数="2" 行数="3" 横向间距="11" 纵向间距="3" 横向偏移="0" 对齐方式="1"/>
+</element>
+<horz order="0" ele_index="2" ele_name="cb11"/>
+<horz order="1" ele_index="18" ele_name="stbt41"/>
+<horz order="2" ele_index="17" ele_name="stbt21"/>
+<horz order="3" ele_index="5" ele_name="ed31"/>
+<horz order="4" ele_index="8" ele_name="ed51"/>
+<horz order="5" ele_index="13" ele_name="cb61"/>
+<horz order="6" ele_index="14" ele_name="cb71"/>
+<vert order="0" ele_index="2" ele_name="cb11"/>
+<vert order="1" ele_index="18" ele_name="stbt41"/>
+<vert order="2" ele_index="17" ele_name="stbt21"/>
+<vert order="3" ele_index="5" ele_name="ed31"/>
+<vert order="4" ele_index="8" ele_name="ed51"/>
+<vert order="5" ele_index="13" ele_name="cb61"/>
+<vert order="6" ele_index="14" ele_name="cb71"/>
+<tab order="0" ele_index="2" ele_name="cb11"/>
+<tab order="1" ele_index="18" ele_name="stbt41"/>
+<tab order="2" ele_index="17" ele_name="stbt21"/>
+<tab order="3" ele_index="5" ele_name="ed31"/>
+<tab order="4" ele_index="8" ele_name="ed51"/>
+<tab order="5" ele_index="13" ele_name="cb61"/>
+<tab order="6" ele_index="14" ele_name="cb71"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="pixRobot"/>
+<id order="2" ele_index="2" ele_name="cb11"/>
+<id order="3" ele_index="3" ele_name="label161"/>
+<id order="4" ele_index="4" ele_name="label162"/>
+<id order="5" ele_index="5" ele_name="ed31"/>
+<id order="6" ele_index="6" ele_name="label169"/>
+<id order="7" ele_index="7" ele_name="label164"/>
+<id order="8" ele_index="8" ele_name="ed51"/>
+<id order="9" ele_index="9" ele_name="label171"/>
+<id order="10" ele_index="10" ele_name="label163"/>
+<id order="11" ele_index="11" ele_name="label158"/>
+<id order="12" ele_index="12" ele_name="label166"/>
+<id order="13" ele_index="13" ele_name="cb61"/>
+<id order="14" ele_index="14" ele_name="cb71"/>
+<id order="15" ele_index="15" ele_name="_input_range_labellabel"/>
+<id order="16" ele_index="16" ele_name="_input_range_label"/>
+<id order="17" ele_index="17" ele_name="stbt21"/>
+<id order="18" ele_index="18" ele_name="stbt41"/>
+<id order="19" ele_index="19" ele_name="locator1"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Регулировка|||2:금형조정|||3:ADJMOLD|||4:|||5:|||6:Ajuste|||0:调模|||7:AyarKalıp|||8:|||9:HT molde ajustar|||10:Diều chỉnh k.|||default:ADJMOLD" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnADJUST.png" 按下图片="btnADJUSTx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Зап.дв.|||2:안전문|||3:SAFEDR|||4:|||5:|||6:SegPuerta|||0:安全门|||7:Güv Kapı|||8:|||9:SafeDr|||10:Cửa an toà|||default:SAFEDR" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDOOR.png" 按下图片="btnDOORx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;其他功能&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Робот|||2:로보트|||3:ROBOT|||4:|||5:|||6:Robot|||0:机械手|||7:Robot|||8:|||9:Robot|||10:Tay cơ|||default:ROBOT" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnROBOT.png" 按下图片="btnROBOTx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;其他参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;其他参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="51200" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出h&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="51200" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;储料h&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;主窗口&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

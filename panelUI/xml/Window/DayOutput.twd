@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="DayOutput" 可见="-1" 标题="0:日产量|||1:Дата|||2:일일 생산량|||3:Product  DayCnt|||6:Dia Producción|||7:Günlük çıkış|||9:Data|||10:Hàng ngày|||default:Product  DayCnt" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="140" 高度="24" 语言表索引="0" 文本="0:生产日期:|||1:Датапроизводить|||2:생산 날짜：|||3:Product Date:|||6:Fecha De Producto|||7:Üretim tarihi|||9:Data Produção:|||10:Ngày sản xuất:|||default:Product Date:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit35" 索引="0" 可见="-1" 可用="-1" 左="179" 顶="10" 宽度="65" 高度="24" 文本="12" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:12" 关联变量="p.PP.TMP.TMPVAL10" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="1" 最大值="12" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.clamp1.ACTPARA.DAPRES_CLS1"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label35" 索引="0" 可见="-1" 可用="-1" 左="247" 顶="10" 宽度="30" 高度="24" 语言表索引="0" 文本="0:月|||1:М|||2:월|||3:M|||6:M|||7:Ay|||10:M|||default:M" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit75" 索引="0" 可见="-1" 可用="-1" 左="277" 顶="10" 宽度="65" 高度="24" 文本="25" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:25" 关联变量="p.PP.TMP.TMPVAL11" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="1" 最大值="31" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.clamp1.ACTPARA.DAPRES_CLS1"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL9"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label36" 索引="0" 可见="-1" 可用="-1" 左="345" 顶="10" 宽度="30" 高度="24" 语言表索引="0" 文本="0:日|||1:День|||2:날|||3:D|||6:D|||7:Gün|||9:D|||10:D|||default:D" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label37" 索引="0" 可见="-1" 可用="-1" 左="375" 顶="10" 宽度="130" 高度="24" 语言表索引="0" 文本="0:日产量:|||1:Дата|||2:일일 출력：|||3:Daily Output:|||6:Producto Dia|||7:Günlük çıkış|||9:Data:|||10:Hàng ngày:|||default:Daily Output:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label38" 索引="0" 可见="-1" 可用="-1" 左="375" 顶="39" 宽度="130" 高度="24" 语言表索引="0" 文本="0:每模产品数:|||1:КолГнездвФорме|||2:생산제품수량：|||3:Cnt Per Mold:|||4:مسح جميع السجلات|||5:Clear All Records:|||6:Contar Por Molde|||7:HerKalıp ÜrünSayı|||8:پاکسازی همه یادداشت ها|||9:ProdutNúm/Mold:|||10:Số sp của mỗi.k：|||default:Cnt Per Mold:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit69" 索引="0" 可见="-1" 可用="-1" 左="510" 顶="10" 宽度="75" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL12" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit76" 索引="0" 可见="-1" 可用="-1" 左="510" 顶="39" 宽度="75" 高度="24" 文本="1" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:1" 关联变量="p.PP.MACHSET.PROD_PERCNT" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.PROD_PERCNT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="wphistogram" type_id="65539">
+<prop 名称="wphistogram1" 左="10" 顶="86" 宽度="580" 高度="490" 可用="-1" 可见="-1" 边距="60" 立柱宽度="15" X轴线宽度="2" Y轴线宽度="0" Y轴分隔线宽度="2" 标题字体大小="15" 立柱字体大小="14" Y轴分隔线数量="5" Y轴分隔线型="1" 值文本旋转角度="315" 立柱数量="24" 背景色="16777215" 线颜色="-2004844416" 立柱颜色="-1166541" 标签文本颜色="-16777216" 值文本颜色="-16777216" X轴标签="" Y轴标签="" 标题="" 立柱标签列表="0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23" 值列表=""/>
+<var prop="值列表" orient="in" tag="p.PP.TMP.TMPVAL200;p.PP.TMP.TMPVAL201;p.PP.TMP.TMPVAL202;p.PP.TMP.TMPVAL203;p.PP.TMP.TMPVAL204;p.PP.TMP.TMPVAL205;p.PP.TMP.TMPVAL206;p.PP.TMP.TMPVAL207;p.PP.TMP.TMPVAL208;p.PP.TMP.TMPVAL209;p.PP.TMP.TMPVAL210;p.PP.TMP.TMPVAL211;p.PP.TMP.TMPVAL212;p.PP.TMP.TMPVAL213;p.PP.TMP.TMPVAL214;p.PP.TMP.TMPVAL215;p.PP.TMP.TMPVAL216;p.PP.TMP.TMPVAL217;p.PP.TMP.TMPVAL218;p.PP.TMP.TMPVAL219;p.PP.TMP.TMPVAL220;p.PP.TMP.TMPVAL221;p.PP.TMP.TMPVAL222;p.PP.TMP.TMPVAL223"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label39" 索引="0" 可见="-1" 可用="-1" 左="14" 顶="81" 宽度="80" 高度="20" 语言表索引="0" 文本="0:产量|||1:выход|||2:생산관리|||3:Product|||6:Productos|||7:Ürün|||9:Produção|||10:Năng suất|||default:Product" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label40" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="550" 宽度="100" 高度="20" 语言表索引="0" 文本="0:小时|||1:Час|||2:시과|||3:Hour|||6:Hora|||7:Saat|||9:Hora|||10:giờ|||default:Hour" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stDate" 索引="0" 可见="-1" 可用="-1" 左="250" 顶="72" 宽度="100" 高度="20" 语言表索引="0" 文本="0:2019-12-13|||3:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR11"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label33" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="39" 宽度="140" 高度="24" 语言表索引="0" 文本="0:清空所有记录:|||1:УдалитьВсеЗаписи:|||2:모든기록삭제|||3:Clear All Records:|||4:مسح جميع السجلات|||5:Clear All Records:|||6:Eliminar:|||7:Tüm.Kayıt.Sil|||8:پاکسازی همه یادداشت ها|||9:Claro Todos Rec:|||10:Xóa hết nhật ký:|||default:Clear All Records:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit74" 索引="0" 可见="-1" 可用="-1" 左="179" 顶="39" 宽度="65" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL3" 延迟更新="0" 只读="0" 密码模式="-1" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL102"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button8" 索引="0" 可见="-1" 可用="-1" 左="249" 顶="39" 宽度="65" 高度="24" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="prodmoni clearAll"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="year" 索引="0" 可见="-1" 可用="-1" 左="84" 顶="10" 宽度="65" 高度="24" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.TMP.TMPVAL13" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="1" 最大值="12" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.clamp1.ACTPARA.DAPRES_CLS1"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+<var prop="最大值" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<var prop="最小值" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label41" 索引="0" 可见="-1" 可用="-1" 左="151" 顶="10" 宽度="30" 高度="24" 语言表索引="0" 文本="0:年|||1:Y|||2:Y|||3:Y|||6:Y|||7:Y|||10:Y|||4:Y|||5:Y|||8:Y|||9:Y|||default:Y" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="19" ele_name="year"/>
+<horz order="1" ele_index="2" ele_name="edit35"/>
+<horz order="2" ele_index="4" ele_name="edit75"/>
+<horz order="3" ele_index="17" ele_name="edit74"/>
+<horz order="4" ele_index="18" ele_name="button8"/>
+<vert order="0" ele_index="19" ele_name="year"/>
+<vert order="1" ele_index="2" ele_name="edit35"/>
+<vert order="2" ele_index="4" ele_name="edit75"/>
+<vert order="3" ele_index="17" ele_name="edit74"/>
+<vert order="4" ele_index="18" ele_name="button8"/>
+<tab order="0" ele_index="19" ele_name="year"/>
+<tab order="1" ele_index="2" ele_name="edit35"/>
+<tab order="2" ele_index="4" ele_name="edit75"/>
+<tab order="3" ele_index="17" ele_name="edit74"/>
+<tab order="4" ele_index="18" ele_name="button8"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="label34"/>
+<id order="2" ele_index="2" ele_name="edit35"/>
+<id order="3" ele_index="3" ele_name="label35"/>
+<id order="4" ele_index="4" ele_name="edit75"/>
+<id order="5" ele_index="5" ele_name="label36"/>
+<id order="6" ele_index="6" ele_name="label37"/>
+<id order="7" ele_index="7" ele_name="label38"/>
+<id order="8" ele_index="8" ele_name="edit69"/>
+<id order="9" ele_index="9" ele_name="edit76"/>
+<id order="10" ele_index="10" ele_name="_input_range_labellabel"/>
+<id order="11" ele_index="11" ele_name="_input_range_label"/>
+<id order="12" ele_index="12" ele_name="wphistogram1"/>
+<id order="13" ele_index="13" ele_name="label39"/>
+<id order="14" ele_index="14" ele_name="label40"/>
+<id order="15" ele_index="15" ele_name="stDate"/>
+<id order="16" ele_index="16" ele_name="label33"/>
+<id order="17" ele_index="17" ele_name="edit74"/>
+<id order="18" ele_index="18" ele_name="button8"/>
+<id order="19" ele_index="19" ele_name="year"/>
+<id order="20" ele_index="20" ele_name="label41"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Произв|||2:생산관리|||3:PROD|||4:|||5:|||6:Productos|||0:生产|||7:Ürün|||8:|||9:Prod|||10:sản xuất|||default:PROD" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPROD.png" 按下图片="btnPRODx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:деньвыход|||2:일일 출력|||3:DAY|||4:|||5:|||6:Dia|||0:日产量|||7:Gün|||8:|||9:Diá|||10:Hàng|||default:DAY" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDAY.png" 按下图片="btnDAYx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;班别记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:месяцвыход|||2:월간 생산|||3:MONTH|||4:|||5:|||6:Mes|||0:月产量|||7:Ay|||8:|||9:Mês|||10:Tháng|||default:MONTH" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMONTH.png" 按下图片="btnMONTHx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;操作记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

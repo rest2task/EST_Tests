@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="main_cmd">
+<config name="转换器类型" value="十六进制"/>
+<config name="生成头文件" value="0"/>
+<group data_src="">
+<item type="0">
+<value>500001</value>
+<string lang_id="0" lang="中文">机器配置重置</string>
+<string lang_id="1" lang="俄文">Расстан.маш.Сброс</string>
+<string lang_id="2" lang="韩文">기계 구성 재설정</string>
+<string lang_id="3" lang="英文">Machine Cfg Reset</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Máquina Config Restablecer</string>
+<string lang_id="7" lang="土耳其语">Makine Yapıland Sıfırla</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Redefinir configuração máquina</string>
+<string lang_id="10" lang="越南文">Cấu hình máy Cài lại</string>
+</item>
+<item type="0">
+<value>500002</value>
+<string lang_id="0" lang="中文">进入调机状态</string>
+<string lang_id="1" lang="俄文">Войдите в Состояние тюнинга</string>
+<string lang_id="2" lang="韩文">튜닝 입력 종료</string>
+<string lang_id="3" lang="英文">Enter Tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Entran Estado sintonía</string>
+<string lang_id="7" lang="土耳其语">Ayarlama durumuna girin</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Entrar no estado ajuste</string>
+<string lang_id="10" lang="越南文">Vào trạng thái điều chỉnh</string>
+</item>
+<item type="0">
+<value>500003</value>
+<string lang_id="0" lang="中文">退出调机状态</string>
+<string lang_id="1" lang="俄文">Выход из Состояние тюнинга</string>
+<string lang_id="2" lang="韩文">튜닝 상태 종료</string>
+<string lang_id="3" lang="英文">Exit Tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Salida Estado sintonía</string>
+<string lang_id="7" lang="土耳其语">Ayarlama durumundan çıkma</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Sair do estado ajuste</string>
+<string lang_id="10" lang="越南文">Thoát trạng thái điều chỉnh</string>
+</item>
+<item type="0">
+<value>500004</value>
+<string lang_id="0" lang="中文">DA值调机</string>
+<string lang_id="1" lang="俄文">DAСостояние тюнинга</string>
+<string lang_id="2" lang="韩文">DA 값 조정</string>
+<string lang_id="3" lang="英文">DA Data Tuning</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Datos sintonía</string>
+<string lang_id="7" lang="土耳其语">DA Ayarlama</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste valor DA</string>
+<string lang_id="10" lang="越南文">Điều chỉnh dữ liệu DA</string>
+</item>
+<item type="0">
+<value>500005</value>
+<string lang_id="0" lang="中文">温度归零</string>
+<string lang_id="1" lang="俄文">Темп Обнуление</string>
+<string lang_id="2" lang="韩文">제로 온도</string>
+<string lang_id="3" lang="英文">Temp Zeroing</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Cero</string>
+<string lang_id="7" lang="土耳其语">Isı Sıfır</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Temperatura zero</string>
+<string lang_id="10" lang="越南文">Làm không nhiệt độ</string>
+</item>
+<item type="0">
+<value>500006</value>
+<string lang_id="0" lang="中文">校对温度</string>
+<string lang_id="1" lang="俄文">Tемпер проба</string>
+<string lang_id="2" lang="韩文">온도교정</string>
+<string lang_id="3" lang="英文">Temp Proof</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Corr</string>
+<string lang_id="7" lang="土耳其语">Isılar Kanıt</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Prova Temp</string>
+<string lang_id="10" lang="越南文">Hiệu chỉnh nhiệt độ</string>
+</item>
+<item type="0">
+<value>500007</value>
+<string lang_id="0" lang="中文">输出点强制输出</string>
+<string lang_id="1" lang="俄文">Прину.Выход</string>
+<string lang_id="2" lang="韩文">출력 포인트 강제 출력</string>
+<string lang_id="3" lang="英文">Forced Output</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Forzado Salida</string>
+<string lang_id="7" lang="土耳其语">Çıkış noktası zorlamalı çıkış</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ponto saída forçada</string>
+<string lang_id="10" lang="越南文">Đầu ra cưỡng bức</string>
+</item>
+<item type="0">
+<value>500008</value>
+<string lang_id="0" lang="中文">输出点强制输出结束</string>
+<string lang_id="1" lang="俄文">Прину.Выходкон.</string>
+<string lang_id="2" lang="韩文">출력 포인트 강제 출력 종료</string>
+<string lang_id="3" lang="英文">Forced Output end</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Forzado Salida Fin</string>
+<string lang_id="7" lang="土耳其语">Çıkış noktası zorlamalı çıkış uçları</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ponto saída forçada Fim</string>
+<string lang_id="10" lang="越南文">Kết thúc đầu ra cưỡng bức</string>
+</item>
+<item type="0">
+<value>500009</value>
+<string lang_id="0" lang="中文">进入DA调试状态</string>
+<string lang_id="1" lang="俄文">Войдите в DA Состояние тюнинга</string>
+<string lang_id="2" lang="韩文">DA 디버깅 상태 입력</string>
+<string lang_id="3" lang="英文">Enter DA Tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Entran DA Estado sintonía</string>
+<string lang_id="7" lang="土耳其语">DA Ayarlama durumuna girin</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Entrar estado depuração DA</string>
+<string lang_id="10" lang="越南文">Vào trạng thái điều chỉnh DA</string>
+</item>
+<item type="0">
+<value>50000a</value>
+<string lang_id="0" lang="中文">退出DA调试状态</string>
+<string lang_id="1" lang="俄文">Выход из DA Состояние тюнинга</string>
+<string lang_id="2" lang="韩文">DA 디버깅 상태 종료</string>
+<string lang_id="3" lang="英文">Exit DA Tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Salida DA Estado sintonía</string>
+<string lang_id="7" lang="土耳其语">DA Ayarlama durumundan çıkma</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Sair estado depuração DA</string>
+<string lang_id="10" lang="越南文">Thoát khỏi trạng thái điều chỉnh DA</string>
+</item>
+<item type="0">
+<value>50000b</value>
+<string lang_id="0" lang="中文">DA压力最大值调整</string>
+<string lang_id="1" lang="俄文">РегМаксДавл</string>
+<string lang_id="2" lang="韩文">DA 압력 최대 조정</string>
+<string lang_id="3" lang="英文">DA Press Max Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Máx Prs Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Basınç Maks Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste máximo pressão DA</string>
+<string lang_id="10" lang="越南文">DA Áp suất GHT Điều chỉnh</string>
+</item>
+<item type="0">
+<value>50000c</value>
+<string lang_id="0" lang="中文">DA速度最大值调整</string>
+<string lang_id="1" lang="俄文">РегМаксСкор</string>
+<string lang_id="2" lang="韩文">DA 속도 최대 조정</string>
+<string lang_id="3" lang="英文">DA Speed Max Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Máx Vel Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Hızı Maks Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste máximo Fluxo DA</string>
+<string lang_id="10" lang="越南文">DA Tốc độ  GHT Điều chỉnh</string>
+</item>
+<item type="0">
+<value>50000d</value>
+<string lang_id="0" lang="中文">DA压力曲线调整</string>
+<string lang_id="1" lang="俄文">РегКривойДавл</string>
+<string lang_id="2" lang="韩文">DA 압력 곡선 조정</string>
+<string lang_id="3" lang="英文">DA Press Curve Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Prs Curva Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Basınç Eğri Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste curva pressão DA</string>
+<string lang_id="10" lang="越南文">DA Áp suất Đg cong Điều chỉnh</string>
+</item>
+<item type="0">
+<value>50000e</value>
+<string lang_id="0" lang="中文">DA速度曲线调整</string>
+<string lang_id="1" lang="俄文">РегКривойСкор</string>
+<string lang_id="2" lang="韩文">DA 속도 곡선 조정</string>
+<string lang_id="3" lang="英文">DA Speed Curve Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Vel Curva Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Hızı Eğri Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste curva Fluxo DA</string>
+<string lang_id="10" lang="越南文">DA Tốc độ  Đg cong Điều chỉnh</string>
+</item>
+<item type="0">
+<value>50000f</value>
+<string lang_id="0" lang="中文">DA压力&amp;速度调整</string>
+<string lang_id="1" lang="俄文">РегДавл иСкор</string>
+<string lang_id="2" lang="韩文">DA 압력 및 속도 조정</string>
+<string lang_id="3" lang="英文">DA Prs&amp;Spd Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Prs&amp;Vel Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Basınç&amp;Hızı Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste pressão Fluxo DA</string>
+<string lang_id="10" lang="越南文">DA Áp s.&amp;T.độ Điều chỉnh</string>
+</item>
+<item type="0">
+<value>500010</value>
+<string lang_id="0" lang="中文">DA曲线保存</string>
+<string lang_id="1" lang="俄文">СохрКривой</string>
+<string lang_id="2" lang="韩文">DA 커브 저장</string>
+<string lang_id="3" lang="英文">DA Curve Save</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Curva Guardar</string>
+<string lang_id="7" lang="土耳其语">DA Eğri Kaydet</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Curva DA salva</string>
+<string lang_id="10" lang="越南文">DA Đường cong  Lưu</string>
+</item>
+<item type="0">
+<value>500011</value>
+<string lang_id="0" lang="中文">电子尺调整</string>
+<string lang_id="1" lang="俄文">AD Настройте</string>
+<string lang_id="2" lang="韩文">AD조정</string>
+<string lang_id="3" lang="英文">AD Meter Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AD Ajuste</string>
+<string lang_id="7" lang="土耳其语">AD Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">AD Ajuste</string>
+<string lang_id="10" lang="越南文">Thước điện tử diều chỉnh k.</string>
+</item>
+<item type="0">
+<value>500012</value>
+<string lang_id="0" lang="中文">电子尺归零</string>
+<string lang_id="1" lang="俄文">Обнуление</string>
+<string lang_id="2" lang="韩文">AD 제로</string>
+<string lang_id="3" lang="英文">AD Meter Zero</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AD Cero</string>
+<string lang_id="7" lang="土耳其语">AD SİFİR</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Reinicialização régua eletrônica</string>
+<string lang_id="10" lang="越南文">Thước điện tử quy 0</string>
+</item>
+<item type="0">
+<value>500013</value>
+<string lang_id="0" lang="中文">机器配置保存</string>
+<string lang_id="1" lang="俄文">Расстан.маш.Сохр</string>
+<string lang_id="2" lang="韩文">기계 구성 저장</string>
+<string lang_id="3" lang="英文">Machine Cfg Save</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Máquina Config Guardar</string>
+<string lang_id="7" lang="土耳其语">Makine Yapıland Kaydet</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Salvar configuração máquina</string>
+<string lang_id="10" lang="越南文">Cấu hình máy Lưu</string>
+</item>
+<item type="0">
+<value>500014</value>
+<string lang_id="0" lang="中文">DA重置</string>
+<string lang_id="1" lang="俄文">Сброс</string>
+<string lang_id="2" lang="韩文">DA 리셋</string>
+<string lang_id="3" lang="英文">DA Zeroing</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Restablecer</string>
+<string lang_id="7" lang="土耳其语">DA Sıfırla</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Redefinição DA</string>
+<string lang_id="10" lang="越南文">DA Cài lại</string>
+</item>
+<item type="0">
+<value>500015</value>
+<string lang_id="0" lang="中文">伺服调试</string>
+<string lang_id="1" lang="俄文">Тест серво</string>
+<string lang_id="2" lang="韩文">서보모터 테스트</string>
+<string lang_id="3" lang="英文">Servo Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo Ajuste</string>
+<string lang_id="7" lang="土耳其语">Servo Ayarla</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Depuração Servo</string>
+<string lang_id="10" lang="越南文">Điều chỉnh thử servo</string>
+</item>
+<item type="0">
+<value>500016</value>
+<string lang_id="0" lang="中文">室温校正</string>
+<string lang_id="1" lang="俄文">Номер Отрег</string>
+<string lang_id="2" lang="韩文">실내 온도 조절</string>
+<string lang_id="3" lang="英文">Room Temp Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Ambiente Corrección</string>
+<string lang_id="7" lang="土耳其语">Oda Adj</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Quarto Adj</string>
+<string lang_id="10" lang="越南文">HC n.độ phòng</string>
+</item>
+<item type="0">
+<value>500017</value>
+<string lang_id="0" lang="中文">固化主机配置</string>
+<string lang_id="1" lang="俄文">ВостанНастройки</string>
+<string lang_id="2" lang="韩文">치료 된 호스트 구성</string>
+<string lang_id="3" lang="英文">Curing Config</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Curación Config</string>
+<string lang_id="7" lang="土耳其语">Kür Ana Yapılandırma</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Solidifique configuração host</string>
+<string lang_id="10" lang="越南文">Cấu hình chữa bệnh</string>
+</item>
+<item type="0">
+<value>500018</value>
+<string lang_id="0" lang="中文">进入自整定状态</string>
+<string lang_id="1" lang="俄文">Войдите в Состояние самонастройка</string>
+<string lang_id="2" lang="韩文">자동 튜닝 상태로 들어가기</string>
+<string lang_id="3" lang="英文">Enter Self-tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Entran Estado Autoajuste</string>
+<string lang_id="7" lang="土耳其语">Otomatik ayarlama durumuna girme</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Entrar estado Autoajuste</string>
+<string lang_id="10" lang="越南文">Vào trạng thái tự điều chỉnh</string>
+</item>
+<item type="0">
+<value>500019</value>
+<string lang_id="0" lang="中文">退出自整定状态</string>
+<string lang_id="1" lang="俄文">Выход из Состояние самонастройка</string>
+<string lang_id="2" lang="韩文">자동 튜닝 종료</string>
+<string lang_id="3" lang="英文">Exit Self-tuning State</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Salida Estado Autoajuste</string>
+<string lang_id="7" lang="土耳其语">Otomatik ayardan çık</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Sair estado Autoajuste</string>
+<string lang_id="10" lang="越南文">Thoát khỏi trạng thái tự điều chỉnh</string>
+</item>
+<item type="0">
+<value>50001a</value>
+<string lang_id="0" lang="中文">自整定开始</string>
+<string lang_id="1" lang="俄文">Отре.Начать</string>
+<string lang_id="2" lang="韩文">튜닝 이후</string>
+<string lang_id="3" lang="英文">Start Self-tuning</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Auto-tuning Iniciar</string>
+<string lang_id="7" lang="土耳其语">Başlat Özayarlamalı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Autoajuste Começar</string>
+<string lang_id="10" lang="越南文">Bắt đầu tự điều chỉnh</string>
+</item>
+<item type="0">
+<value>50001b</value>
+<string lang_id="0" lang="中文">自整定结束</string>
+<string lang_id="1" lang="俄文">Отре.Кон.</string>
+<string lang_id="2" lang="韩文">자체 튜닝 종료</string>
+<string lang_id="3" lang="英文">Self-tuning End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Autoajuste Fin</string>
+<string lang_id="7" lang="土耳其语">Son Özayarlamalı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Autoajuste Fim</string>
+<string lang_id="10" lang="越南文">Kết thúc tự điều chỉnh</string>
+</item>
+<item type="0">
+<value>50001c</value>
+<string lang_id="0" lang="中文">DA最大值调整结束</string>
+<string lang_id="1" lang="俄文">КонМаксРегулДав</string>
+<string lang_id="2" lang="韩文">DA 최대 조정 끝</string>
+<string lang_id="3" lang="英文">DA Max Adj End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Máx Ajuste Fin</string>
+<string lang_id="7" lang="土耳其语">DA Maks Ayar Son</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Fim ajuste máximo DA</string>
+<string lang_id="10" lang="越南文">DA GHT Điều chỉnh Kết thúc</string>
+</item>
+<item type="0">
+<value>50001d</value>
+<string lang_id="0" lang="中文">DA压力最小值调整结束</string>
+<string lang_id="1" lang="俄文">КонецМинРегулДав</string>
+<string lang_id="2" lang="韩文">DA 압력 최소 조정 종료</string>
+<string lang_id="3" lang="英文">DA Prs Min Adj End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Min Prs Ajuste Fin</string>
+<string lang_id="7" lang="土耳其语">DA Basınç Mini Ayar Son</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Fim ajuste mínimo pressão DA</string>
+<string lang_id="10" lang="越南文">DA Áp suất GHD Điều chỉnh Kết thúc</string>
+</item>
+<item type="0">
+<value>50001e</value>
+<string lang_id="0" lang="中文">DA速度最小值调整结束</string>
+<string lang_id="1" lang="俄文">КонМинРегулСкор</string>
+<string lang_id="2" lang="韩文">DA 속도 최소 조정 종료</string>
+<string lang_id="3" lang="英文">DA Spd Min Adj End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Min Vel Ajuste Fin</string>
+<string lang_id="7" lang="土耳其语">DA Hızı Mini Ayar Son</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Fim ajuste mínimo Fluxo DA</string>
+<string lang_id="10" lang="越南文">DA Tốc độ GHD Điều chỉnh Kết thúc</string>
+</item>
+<item type="0">
+<value>50001f</value>
+<string lang_id="0" lang="中文">松模初始化</string>
+<string lang_id="1" lang="俄文">Инициал.Съемной</string>
+<string lang_id="2" lang="韩文">느슨한 금형 초기화</string>
+<string lang_id="3" lang="英文">ReleaseMd Initial</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">LiberaMolde Reinicializar</string>
+<string lang_id="7" lang="土耳其语">Gevşek Kalıp</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Solto Ajuste</string>
+<string lang_id="10" lang="越南文">Làm lòng khuôn khởi tạo</string>
+</item>
+<item type="0">
+<value>500020</value>
+<string lang_id="0" lang="中文">DA调整背压</string>
+<string lang_id="1" lang="俄文">РегулОбрДавл</string>
+<string lang_id="2" lang="韩文">DA 배압 조정</string>
+<string lang_id="3" lang="英文">DA BackPrs Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA ConPs Ajuste</string>
+<string lang_id="7" lang="土耳其语">DA Ayar ArkaBas</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">DA ajusta contrapressão</string>
+<string lang_id="10" lang="越南文">DA AS ngược Điều chỉnh</string>
+</item>
+<item type="0">
+<value>500021</value>
+<string lang_id="0" lang="中文">机器配置删除</string>
+<string lang_id="1" lang="俄文">Расстан.маш.Удал</string>
+<string lang_id="2" lang="韩文">머신 구성 삭제</string>
+<string lang_id="3" lang="英文">Machine Cfg Delete</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Máquina Config Borrar</string>
+<string lang_id="7" lang="土耳其语">Makine Yapıland Sil</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Exclusão configuração máquina</string>
+<string lang_id="10" lang="越南文">Cấu hình máy Xóa</string>
+</item>
+<item type="0">
+<value>500022</value>
+<string lang_id="0" lang="中文">DA校正线性选择</string>
+<string lang_id="1" lang="俄文">ЛинейВыборКорек</string>
+<string lang_id="2" lang="韩文">DA 보정 선형 선택</string>
+<string lang_id="3" lang="英文">DA Linear Select</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">DA Linear Selec</string>
+<string lang_id="7" lang="土耳其语">DA düzeltme doğrusal seçimi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Seleção linear correção DA</string>
+<string lang_id="10" lang="越南文">DA Tuyến tính</string>
+</item>
+<item type="0">
+<value>500023</value>
+<string lang_id="0" lang="中文">主机不发送CAN数据</string>
+<string lang_id="1" lang="俄文">НеПередаюДанныеCAN</string>
+<string lang_id="2" lang="韩文">호스트가 CAN을 보내지 않음</string>
+<string lang_id="3" lang="英文">Stop Host Can Comminute</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">No Permitir Host Can Comunicación</string>
+<string lang_id="7" lang="土耳其语">Ana CAN verisi göndermiyor</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Host não envia dados CAN</string>
+<string lang_id="10" lang="越南文">Ngừng giao tiếp với máy chủ lưu trữ</string>
+</item>
+<item type="0">
+<value>500024</value>
+<string lang_id="0" lang="中文">允许主机CAN通信</string>
+<string lang_id="1" lang="俄文">ОбменИнформСАN</string>
+<string lang_id="2" lang="韩文">호스트 CAN 통신 허용</string>
+<string lang_id="3" lang="英文">Allow Host Can Comminute</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Permitir Host Can Comunicación</string>
+<string lang_id="7" lang="土耳其语">Ana CAN iletişimine izin ver</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Permitir comunicação CAN host</string>
+<string lang_id="10" lang="越南文">Cho phép máy chủ giao tiếp</string>
+</item>
+<item type="0">
+<value>500025</value>
+<string lang_id="0" lang="中文">分期停机切手动</string>
+<string lang_id="1" lang="俄文">Период останов Переключитьсяручной</string>
+<string lang_id="2" lang="韩文">수동으로 단계적으로 중지</string>
+<string lang_id="3" lang="英文">In Pay State To Manual</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">En estado de pago a manual</string>
+<string lang_id="7" lang="土耳其语">Aşamada dur ve elle kes</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Desligamento manual por parcela</string>
+<string lang_id="10" lang="越南文">Trong thanh toán bằng tay</string>
+</item>
+<item type="0">
+<value>500026</value>
+<string lang_id="0" lang="中文">开启一个泄压阀</string>
+<string lang_id="1" lang="俄文">Откр.1 Выпуск.Клапана</string>
+<string lang_id="2" lang="韩文">압력 릴리프 밸브 1 개 열기</string>
+<string lang_id="3" lang="英文">Open A Press Relief Vlv</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abre un Alivio Válv</string>
+<string lang_id="7" lang="土耳其语">Bir basınç emniyet valfi açın</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Abra uma válvula alívio pressão</string>
+<string lang_id="10" lang="越南文">Mở một Van xả áp</string>
+</item>
+<item type="0">
+<value>500027</value>
+<string lang_id="0" lang="中文">扩展电子尺归零</string>
+<string lang_id="1" lang="俄文">РасширЛинейк вНоль</string>
+<string lang_id="2" lang="韩文">확장 AD 0</string>
+<string lang_id="3" lang="英文">Exten AD Meter Zeroing</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Extendida AD Metro Cero</string>
+<string lang_id="7" lang="土耳其语">Genişleme AD SİFİR</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Redefinição régua eletrônica estendida</string>
+<string lang_id="10" lang="越南文">Mở rộng AD quy về không</string>
+</item>
+<item type="0">
+<value>500028</value>
+<string lang_id="0" lang="中文">电子尺自动调整</string>
+<string lang_id="1" lang="俄文">АвтоРегулЛинейки</string>
+<string lang_id="2" lang="韩文">AD 자동 조정</string>
+<string lang_id="3" lang="英文">AD Meter Auto Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AD Metro Auto Ajuste</string>
+<string lang_id="7" lang="土耳其语">AD Otomatik Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste automático régua eletrônica</string>
+<string lang_id="10" lang="越南文">AD Tự động Điều chỉnh</string>
+</item>
+<item type="0">
+<value>500029</value>
+<string lang_id="0" lang="中文">死区时间自动学习</string>
+<string lang_id="1" lang="俄文">СамоОбучВремени</string>
+<string lang_id="2" lang="韩文">데드 타임 자동 학습</string>
+<string lang_id="3" lang="英文">Dead Time Self-learn</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Muerto Tiempo Auto Apren</string>
+<string lang_id="7" lang="土耳其语">Ölü zaman otomatik öğrenme</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Aprendizagem automática tempo morto</string>
+<string lang_id="10" lang="越南文">Thời gian chết Tự học</string>
+</item>
+<item type="0">
+<value>500030</value>
+<string lang_id="0" lang="中文">温度优化</string>
+<string lang_id="1" lang="俄文">Оптим.темп.</string>
+<string lang_id="2" lang="韩文">온도 최적화</string>
+<string lang_id="3" lang="英文">Temp Optimize</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Optimizar</string>
+<string lang_id="7" lang="土耳其语">Sıcaklık Optimiza</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Otimização temperatura</string>
+<string lang_id="10" lang="越南文">Tối ưu hóa nhiệt độ</string>
+</item>
+<item type="0">
+<value>500031</value>
+<string lang_id="0" lang="中文">扩展电子尺长度调整</string>
+<string lang_id="1" lang="俄文">ИзменДлинЛинейк</string>
+<string lang_id="2" lang="韩文">확장 된 AD 길이 조정</string>
+<string lang_id="3" lang="英文">Exten AD Meter Lenth Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Extendida AD Metro Longitud Ajuste</string>
+<string lang_id="7" lang="土耳其语">Genişleme AD Uzunluk Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste estendido comprimento régua eletrônica</string>
+<string lang_id="10" lang="越南文">Mở rộng AD Chiều dài Điều chỉnh</string>
+</item>
+<item type="0">
+<value>500032</value>
+<string lang_id="0" lang="中文">E505 Can通讯测试</string>
+<string lang_id="1" lang="俄文">E505 Can Пров связи</string>
+<string lang_id="2" lang="韩文">E505 Can 통신 테스트</string>
+<string lang_id="3" lang="英文">E505 Can Communicate Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">E505 Can Comunicación Prueba</string>
+<string lang_id="7" lang="土耳其语">E505 Can Iletişim Testi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">E505 pode testar comunicação</string>
+<string lang_id="10" lang="越南文">E505 Can Thử.ng thông.t</string>
+</item>
+<item type="0">
+<value>500033</value>
+<string lang_id="0" lang="中文">E502 Can通讯测试</string>
+<string lang_id="1" lang="俄文">E502 Can Пров связи</string>
+<string lang_id="2" lang="韩文">E502 Can 통신 테스트</string>
+<string lang_id="3" lang="英文">E502 Can Communicate Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">E502 Can Comunicación Prueba</string>
+<string lang_id="7" lang="土耳其语">E502 Can Iletişim Testi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">E502 pode testar comunicação</string>
+<string lang_id="10" lang="越南文">E502 Can Thử.ng thông.t</string>
+</item>
+<item type="0">
+<value>500034</value>
+<string lang_id="0" lang="中文">警报次数清空</string>
+<string lang_id="1" lang="俄文">Авария Отсчет очищен</string>
+<string lang_id="2" lang="韩文">알람 지우기</string>
+<string lang_id="3" lang="英文">Alarm Count Clear</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Alarma Contar Cero</string>
+<string lang_id="7" lang="土耳其语">Alarm Sıklık SİFİR</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Limpe número alarmes</string>
+<string lang_id="10" lang="越南文">Số báo động Xóa</string>
+</item>
+<item type="0">
+<value>500035</value>
+<string lang_id="0" lang="中文">退出E模块 Can通讯测试</string>
+<string lang_id="1" lang="俄文">ВыхСвязи Е</string>
+<string lang_id="2" lang="韩文">E- 블럭 종료 Can 통신 테스트</string>
+<string lang_id="3" lang="英文">Exit E-Block Can Communicate</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Salida E-Bloquear Can Comunicación Prueba</string>
+<string lang_id="7" lang="土耳其语">çıkış E-Blok Can Iletişim Testi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">módulo E saída Can testar comunicação</string>
+<string lang_id="10" lang="越南文">Thoát E-khối Can Thử.ng thông.t</string>
+</item>
+<item type="0">
+<value>500040</value>
+<string lang_id="0" lang="中文">伺服油泵保存</string>
+<string lang_id="1" lang="俄文">CервоНасосСохр</string>
+<string lang_id="2" lang="韩文">서보 펌프 저장</string>
+<string lang_id="3" lang="英文">Servo Pumps Write</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo Bomba Guardar</string>
+<string lang_id="7" lang="土耳其语">Servo POMPA Kaydet</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Salvar bomba servo</string>
+<string lang_id="10" lang="越南文">Viết bơm Servo</string>
+</item>
+<item type="0">
+<value>500041</value>
+<string lang_id="0" lang="中文">斜率校准</string>
+<string lang_id="1" lang="俄文">RAMPКалибровка</string>
+<string lang_id="2" lang="韩文">슬로프 교정</string>
+<string lang_id="3" lang="英文">Slope Calibration</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Rampa Calibr</string>
+<string lang_id="7" lang="土耳其语">Ramp Kalibre</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Calibração inclinação</string>
+<string lang_id="10" lang="越南文">Hiệu chỉnh độ dốc</string>
+</item>
+<item type="0">
+<value>500042</value>
+<string lang_id="0" lang="中文">恢复上一次PID</string>
+<string lang_id="1" lang="俄文">Tемп. PID Восстановить</string>
+<string lang_id="2" lang="韩文">마지막 PID 복원</string>
+<string lang_id="3" lang="英文">Temp PID Restore</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp PID Restaurar</string>
+<string lang_id="7" lang="土耳其语">Son PID'yi geri yükle</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Restaurar último PID</string>
+<string lang_id="10" lang="越南文">Khôi phục PID tạm thời</string>
+</item>
+<item type="0">
+<value>500043</value>
+<string lang_id="0" lang="中文">E501 Can通讯测试</string>
+<string lang_id="1" lang="俄文">ТестСвязиЕ501САN</string>
+<string lang_id="2" lang="韩文">E501 Can 통신 테스트</string>
+<string lang_id="3" lang="英文">E501 Can Communicate Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">E501 Can Comunicación Prueba</string>
+<string lang_id="7" lang="土耳其语">E501 Can Iletişim Testi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">E501 Can testar comunicação</string>
+<string lang_id="10" lang="越南文">E501 Can Thử.ng thông.t</string>
+</item>
+<item type="0">
+<value>500044</value>
+<string lang_id="0" lang="中文">模温优化</string>
+<string lang_id="1" lang="俄文">Оптим.Tемпформ</string>
+<string lang_id="2" lang="韩文">금형 온도 최적화</string>
+<string lang_id="3" lang="英文">TempMold Optimize</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">M.T. Optimizar</string>
+<string lang_id="7" lang="土耳其语">Kalıp Isılar Optimiza</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Otimização temperatura mold</string>
+<string lang_id="10" lang="越南文">Tối ưu hóa khuôn nhiệt độ</string>
+</item>
+<item type="0">
+<value>500045</value>
+<string lang_id="0" lang="中文">E700B Can通讯测试</string>
+<string lang_id="1" lang="俄文">ПровСвязи Е700В</string>
+<string lang_id="2" lang="韩文">E700B Can 통신 테스트</string>
+<string lang_id="3" lang="英文">E700B Can Communicate Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">E700B Can Comunicación Prueba</string>
+<string lang_id="7" lang="土耳其语">E700B Can Iletişim Testi</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">E700B Can testar comunicação</string>
+<string lang_id="10" lang="越南文">E700B Can Thử.ng thông.t</string>
+</item>
+<item type="0">
+<value>500046</value>
+<string lang_id="0" lang="中文">润滑模式3</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Lubri Mode3</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>500047</value>
+<string lang_id="0" lang="中文">液压阀扩展板通讯测试命令</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Hydr.Vlv Communicate Test</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>500048</value>
+<string lang_id="0" lang="中文">麦格米特伺服数据请求命令</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">MGMT Data Request</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>500049</value>
+<string lang_id="0" lang="中文">顺序阀强制输出命令</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">SeqVlv Force Out</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>5000101</value>
+<string lang_id="0" lang="中文">伺服数据读取</string>
+<string lang_id="1" lang="俄文">серво Данные Чтен</string>
+<string lang_id="2" lang="韩文">서보 데이터 판독</string>
+<string lang_id="3" lang="英文">ServoData Read</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ServoDatos Lectura</string>
+<string lang_id="7" lang="土耳其语">Servo Veri Oku</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Dados servo lidos</string>
+<string lang_id="10" lang="越南文">Đọc dữ liệu Servo</string>
+</item>
+<item type="0">
+<value>5000102</value>
+<string lang_id="0" lang="中文">伺服数据写入</string>
+<string lang_id="1" lang="俄文">серво Данные записывать</string>
+<string lang_id="2" lang="韩文">서보 데이터 쓰기</string>
+<string lang_id="3" lang="英文">ServoData Write</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ServoDatos Escritura</string>
+<string lang_id="7" lang="土耳其语">Servo Veri Yazmak</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Gravação dados servo</string>
+<string lang_id="10" lang="越南文">Ghi dữ liệu Servo</string>
+</item>
+<item type="0">
+<value>5000110</value>
+<string lang_id="0" lang="中文">读入警报数据</string>
+<string lang_id="1" lang="俄文">ЧтенОшибкиДанные </string>
+<string lang_id="2" lang="韩文">읽기 알람 데이터</string>
+<string lang_id="3" lang="英文">Read Alarm Data</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lectura Alarma Datos</string>
+<string lang_id="7" lang="土耳其语">Oku Alarm Veri</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ler Alarme Dados</string>
+<string lang_id="10" lang="越南文">Đọc Cảnh báo dữ liệu</string>
+</item>
+<item type="0">
+<value>5000111</value>
+<string lang_id="0" lang="中文">读入检测</string>
+<string lang_id="1" lang="俄文">ЧтенДиагнос</string>
+<string lang_id="2" lang="韩文">읽기 테스트</string>
+<string lang_id="3" lang="英文">Read Detect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lectura Detect</string>
+<string lang_id="7" lang="土耳其语">Oku Teftiş</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ler Detectar</string>
+<string lang_id="10" lang="越南文">Đọc Phát hiện</string>
+</item>
+<item type="0">
+<value>510000</value>
+<string lang_id="0" lang="中文">升级重启</string>
+<string lang_id="1" lang="俄文">рестарт</string>
+<string lang_id="2" lang="韩文">재부팅</string>
+<string lang_id="3" lang="英文">Updata Restart</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reinicio de actualización</string>
+<string lang_id="7" lang="土耳其语">Yeniden</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Reiniciar atualização</string>
+<string lang_id="10" lang="越南文">Nâng cấp khởi động lại</string>
+</item>
+</group>
+</MapDrv>

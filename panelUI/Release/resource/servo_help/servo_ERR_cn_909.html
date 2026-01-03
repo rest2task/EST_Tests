@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+.STYLE2 {font-size: 18px}
+.警报名字体大小 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.警报号字体颜色 {
+	color: #900;
+	font-size: 18px;
+}
+.产生机理字体大小 {
+	font-size: 18px;
+	color: #603;
+}
+.backcolor {
+	color:rgb(0,111,55);
+	word-spacing: normal;
+}
+</style>
+</head>
+
+<body>
+<p><span class="STYLE2">警报名：</span><span class="警报号字体颜色">ER.909</span><span class="警报名字体大小"> 电机过载警告</span><br />
+ <br />
+<span class="产生机理字体大小">产生机理：</span><br />
+<span class="backcolor">60Z系列200W与400W电机，电机累积热量过高，且达到警告值。<br />
+</span></p>
+
+<table width="620" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <th width="100" bgcolor="#999999" scope="col">原因</th>
+    <th width="230" bgcolor="#999999" scope="col">确认方法</th>
+    <th width="210" bgcolor="#999999" scope="col">处理措施</th>
+  </tr>
+  <tr>
+    <td>&nbsp;1.电机接线、编码器接线错误或不良。</td>
+    <td>
+    <p> &nbsp;对比正确接线图，查看电机、驱动器、编码器相互间接线。</p></td>
+    <td>
+    <p >&nbsp;按照正确接线图连接线缆；
+优先使用我司标配的线缆；
+使用自制线缆时，请按照硬件接线指导制作并连接。</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;2.负载太重，电机输出有效转矩超过额定转矩，长时间持续运转。</td>
+    <td>&nbsp;确认电机或驱动器的过载特性；
+查看驱动器平均负载率(200B-0Dh)是否长时间大于100.0%。</td>
+    <td>&nbsp;更换大容量驱动器及匹配的电机；
+或减轻负载，加大加减速时间。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;3.加减速太频繁或负载惯量过大</td>
+    <td>&nbsp;查看机械惯量比或进行惯量辨识，查看惯量比2008-10h。
+确认伺服电机循环运行时单次运行周期。</td>
+    <td>&nbsp;加大加减速时间。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;4.增益调整不合适或刚性过强</td>
+    <td>&nbsp;观察运行时电机是否振动，声音异常。</td>
+    <td>&nbsp;重新调整增益。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;5.驱动器或者电机型号设置错误</td>
+    <td>&nbsp;查看总线电机型号2000-06h和驱动器型号2001-03h。</td>
+    <td>&nbsp;查看驱动器铭牌，对照2.3节，设置正确的驱动器型号(2001-03h) 和电机型号更新成匹配机型。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;6.因机械因素导致电机堵转，造成运行时的负载过大</td>
+    <td>&nbsp;使用汇川驱动调试平台或面板查看运行指令和电机转速(200B-01h)：
+位置模式下运行指令：200B-0Eh
+(输入位置指令计数器)
+速度模式下运行指令：200B-02h
+(速度指令)
+转矩模式下运行指令：200B-03h
+(内部转矩指令)
+确认是否对应模式下，运行指令不为0或很大，而电机转速为0。</td>
+    <td>&nbsp;排除机械因素。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;7.伺服驱动器故障</td>
+    <td>&nbsp;下电后，重新上电。</td>
+    <td>&nbsp;重新上电仍报故障请更换伺服驱动器。</td>
+  </tr>
+</table>
+</body>
+</html>

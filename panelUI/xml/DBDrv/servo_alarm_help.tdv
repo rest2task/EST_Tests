@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="servo_alarm_help">
+<config name="转换器类型" value="按值"/>
+<config name="生成头文件" value="0"/>
+<group data_src="">
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">Err1:逆变单元保护
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err1:ContraVariant Unit Protect
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">Err2:加速电流过载
+
+可能原因及排除方法:
+1.驱动器输出回路有接地或短路现象.
+2.重新进行电机调谐.
+3.寻求技术支持.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err2:Accelerate Current Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive output
+circuit is earthed or short circuited.
+2.Perform motor tuning.
+3.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">Err3:减速电路过载
+
+可能原因及排除方法:
+1.驱动器输出回路有接地或短路现象.
+2.重新进行电机调谐.
+3.寻求技术支持.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err3:Reduce Current Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive output 
+circuit is earthed or short circuited.
+2.Perform motor tuning.
+3.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">Err4:恒速电流过载
+
+可能原因及排除方法:
+1.驱动器输出回路有接地或短路现象.
+2.重新进行电机调谐.
+3.电机负载过大.
+4.加大驱动器容量.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err4:Constant Current Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive output 
+circuit is earthed or short circuited.
+2.Perform motor tuning.
+3.Check whether the load can be reduced.
+4.Increase the capacity level of the servo 
+drive.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">Err5:加速电压过载
+
+可能原因及排除方法:
+1.驱动器三相输入电压是否过高.
+2.增加加速时间.
+3.制动电阻阻值是否过大.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err5:Accelerate Voltage Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive input 
+voltage is too high.
+2.Increase acceleration time.
+3.The braking resistor is too large.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">Err6:减速电压过载
+
+可能原因及排除方法:
+1.驱动器三相输入电压是否过高.
+2.增加减速时间.
+3.制动电阻阻值是否过大.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err6:Reduce Voltage Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive input 
+voltage is too high.
+2.Increase deceleration time.
+3.The braking resistor is too large.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">Err7:恒速电压过载
+
+可能原因及排除方法:
+1.驱动器三相输入电压是否过高.
+2.合理加装制动电阻.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err7:Constant Voltage Override
+
+Possible causes and elimination method:
+1.Check whether the servo drive input 
+voltage is too high.
+2.Install the braking resistor properly.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">Err8:控制电源故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err8:Control Powder Failure
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">Err9:欠压故障
+
+可能原因及排除方法:
+1.输入电源电压是否有瞬间断开.
+2.驱动器输入端电压是否过低.
+3.寻求技术支持.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err9:Low Voltage Failure
+
+Possible causes and elimination method:
+1.Check whether instantaneous power 
+failure occurs.
+2.Check whether the servo drive input 
+voltage is too low.
+3.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">Err10:驱动器过载
+
+可能原因及排除方法:
+1.请确认FF-01机型和电机参数是否设置正确.
+2.电机保护参数F9-01参数设置是否合适.
+3.负载过大(转动电机查看轴承是否有卡死)或电
+机堵转.
+4.加大驱动器容量.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err10:Servo Drive Override
+
+Possible causes and elimination method:
+1.Check whether parameter FF-01 or motor 
+parameter is correct.
+2.Check whether setting of motor protection 
+parameter F9-01 is proper.
+3.Check whether the load is too heavy or 
+the motor is blocked.
+4.Increase the capacity level of the servo 
+drive.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">Err11:电机过载
+
+可能原因及排除方法:
+1.请确认FF-01机型和电机参数是否设置正确.
+2.电机保护参数F9-01参数设置是否合适.
+3.负载过大(转动电机查看轴承是否有卡死)或
+电机堵转.
+4.加大驱动器容量.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err11:Motor Override
+
+Possible causes and elimination method:
+1.Check whether parameter FF-01 or motor 
+parameter is correct.
+2.Check whether setting of motor protection 
+parameter F9-01 is proper.
+3.Check whether the load is too heavy or 
+the motor is blocked.
+4.Increase the capacity level of the servo 
+drive.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">Err12:输入侧缺相
+
+可能原因及排除方法:
+1.驱动器三相输入电源缺相.
+2.输入端子是否未固定.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err12:Phase Loss at Input Side
+
+Possible causes and elimination method:
+1.Check whether three-phase input power 
+is normal.
+2.Check whether the input is fixed.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>13</value>
+<string lang_id="0" lang="中文">Err13:输出侧缺相
+
+可能原因及排除方法:
+1.检查驱动器到电机的动力电缆及接线端子.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err13:Phase Loss at Output Side
+
+Possible causes and elimination method:
+1.Check from drives to motor of the power 
+cable and terminal.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>14</value>
+<string lang_id="0" lang="中文">Err14:模块过热
+
+可能原因及排除方法:
+1.环境温度太高.
+2.风道堵塞,散热效果不理想.
+3.寻求技术支持.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err14:Module Overheat
+
+Possible causes and elimination method:
+1.Check whether ambient temperature is 
+too high.
+2.Check whether the air filter is blocked.
+3.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">Err15:外部设备故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err15:External Machine Fault
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">Err16:通讯故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err16:Communication Fault
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">Err17:接触器故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err17:Contactor Fault
+
+Possible causes and elimination method:
+1.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>18</value>
+<string lang_id="0" lang="中文">Err18:电流检测故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err18:Current Detection Fault
+
+Possible causes and elimination method:
+1.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>19</value>
+<string lang_id="0" lang="中文">Err19:电机调谐故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err19:Motor Tuning Fault
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20</value>
+<string lang_id="0" lang="中文">Err20:码盘故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err20:Encoder Fault
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>21</value>
+<string lang_id="0" lang="中文">Err21:数据溢出故障
+
+可能原因及排除方法:
+1.寻求技术支持.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err21:Data Overflow
+
+Possible causes and elimination method:
+1.Contact the agent or our company.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22</value>
+<string lang_id="0" lang="中文">Err22:变频器硬件故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err22:Transformer Failure
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23</value>
+<string lang_id="0" lang="中文">Err23:对地短路故障
+
+可能原因及排除方法:
+1.驱动器输入三相是否对地短路.
+2.电机侧三相是否有对外壳短路.
+3.更换驱动器.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err23:Short Circuit to Ground
+
+Possible causes and elimination method:
+1.Check whether the drive three-phase
+input is earthed or short circuited.
+2.Check whether the motor is short 
+circuited to ground.
+3.Replace the servo drive.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>24</value>
+<string lang_id="0" lang="中文">Err24:Err24
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err24:Err24
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>25</value>
+<string lang_id="0" lang="中文">Err25:Err25
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err25:Err25
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>26</value>
+<string lang_id="0" lang="中文">Err26:运行时间到达
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err26:Run Time Arrive
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>27</value>
+<string lang_id="0" lang="中文">Err27:Err27
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err27:Err27
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>28</value>
+<string lang_id="0" lang="中文">Err28:Err28
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err28:Err28
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29</value>
+<string lang_id="0" lang="中文">Err29:Err29
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err29:Err29
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>30</value>
+<string lang_id="0" lang="中文">Err30:Err30
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err30:Err30
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>31</value>
+<string lang_id="0" lang="中文">Err31:软件过流故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err31:Software Current Failure
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>32</value>
+<string lang_id="0" lang="中文">Err32:Err32
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err32:Err32
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>33</value>
+<string lang_id="0" lang="中文">Err33:Err33
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err33:Err33
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>34</value>
+<string lang_id="0" lang="中文">Err34:Err34
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err34:Err34
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>35</value>
+<string lang_id="0" lang="中文">Err35:Err35
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err35:Err35
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>36</value>
+<string lang_id="0" lang="中文">Err36:Err36
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err36:Err36
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>37</value>
+<string lang_id="0" lang="中文">Err37:Err37
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err37:Err37
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>38</value>
+<string lang_id="0" lang="中文">Err38:Err38
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err38:Err38
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>39</value>
+<string lang_id="0" lang="中文">Err39:Err39
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err39:Err39
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>40</value>
+<string lang_id="0" lang="中文">Err40:快速限流超时
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err40:Fast Limit Time Long
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>41</value>
+<string lang_id="0" lang="中文">Err41:切换电机故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err41:Switch Motor Failure
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>42</value>
+<string lang_id="0" lang="中文">Err42:CAN通讯中断故障
+
+可能原因及排除方法:
+1.CAN通讯连线有误.
+2.驱动器CAN通讯参数设置有误.
+3.端子板故障.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err42:CAN COM Interruption
+
+Possible causes and elimination method:
+1.Check whether CAN COM wiring is wrong.
+2.Check whether CAN COM parameters are
+ set improperly.
+3.It is the terminal block fault.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>43</value>
+<string lang_id="0" lang="中文">Err43:电机识别编码器故障
+
+可能原因及排除方法:
+1.编码器型号不匹配.
+2.编码器安装和连线故障.
+3.是否为PG卡故障.
+4.是否为控制板故障.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err43:Encoder Fault during Motor Tuning
+
+Possible causes and elimination method:
+1.Check whether the encoder model is 
+adapted.
+2.Check whether the encoder wiring or 
+encoder installation is wrong.
+3.Check whether the encoder is normal 
+after PG card is replaced.
+4.Check whether the encoder is normal 
+after controlling block is replaced.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>44</value>
+<string lang_id="0" lang="中文">Err44:速度偏差过大故障
+
+可能原因及排除方法:
+1.编码器安装和连线故障.
+2.电机动力线缆松脱.
+3.PG卡故障.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err44:Too Big Speed Deviation
+
+Possible causes and elimination method:
+1.Check whether the encoder installation 
+and wiring become loose.
+2.Check whether the motor power cables 
+become loose.
+3.It is PG card fault.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>45</value>
+<string lang_id="0" lang="中文">Err45:电机过热
+
+可能原因及排除方法:
+1.电机散热风扇故障.
+2.检查电机温度保护PTC及接线.
+3.电机过载或电机退磁.
+4.驱动器端子板故障.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err45:Motor Overheat
+
+Possible causes and elimination method:
+1.Motor cooling fan fault.
+2.Check whether the motor overheat 
+protection PTC wiring is wrong.
+3.Motor overload or motor demagnetization.
+4.It is terminal block fault.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>46</value>
+<string lang_id="0" lang="中文">Err46:传感器故障
+
+可能原因及排除方法:
+1.如果驱动模式为"EST控制",请将A3-21参数
+设为0.
+2.如果驱动模式为其他模式,请联系汇川服务
+人员.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err46:Sensor Failure
+
+Possible causes and elimination method:
+1.If drive mode is EST-CTRL,please 
+change the parameter A3-21 to 0.
+2.If drive mode is not EST-CTRL,please 
+contact Shenzhen Inovance Technology 
+Co., Ltd.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>47</value>
+<string lang_id="0" lang="中文">Err47:Err47
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err47:Err47
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>48</value>
+<string lang_id="0" lang="中文">Err48:CAN地址冲突
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err48:CAN Address conflicts
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>49</value>
+<string lang_id="0" lang="中文">Err49:旋变PG断线故障
+
+可能原因及排除方法:
+1.检查PG卡和旋变连接头是否脱落.
+2.检查旋变和PG卡连线是否正确.
+3.更换PG卡测试是否正常.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err49:Resolver PG droppedfault
+
+Possible causes and elimination method:
+1.Check PG card and resolver connection 
+joint is off.
+2.Check the resolver wiring is correct and 
+PG card.
+3.Replace PG card test is normal.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>50</value>
+<string lang_id="0" lang="中文">Err50:Err50
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err50:Err50
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>51</value>
+<string lang_id="0" lang="中文">Err51:Err51
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err51:Err51
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>52</value>
+<string lang_id="0" lang="中文">Err52:多泵合流多主故障
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err52:Multi-pump confluence failure
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>53</value>
+<string lang_id="0" lang="中文">Err53:Err53
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err53:Err53
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>54</value>
+<string lang_id="0" lang="中文">Err54:Err54
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err54:Err54
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>55</value>
+<string lang_id="0" lang="中文">Err55:Err55
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err55:Err55
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>56</value>
+<string lang_id="0" lang="中文">Err56:Err56
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err56:Err56
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>57</value>
+<string lang_id="0" lang="中文">Err57:Err57
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err57:Err57
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>58</value>
+<string lang_id="0" lang="中文">Err58:参数恢复错误故障
+
+可能原因及排除方法:
+1.是否是新机或新软件?
+2.是否进行过用户参数存储?</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err58:Parameter Recall Errors
+
+Possible causes and elimination method:
+1.Whether it is a new machine or new 
+software?
+2.Whether through user parameters are 
+stored?</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>59</value>
+<string lang_id="0" lang="中文">Err59:反电动势调谐故障
+
+可能原因及排除方法:
+1.检查F1组电机参数设置是否正确.
+2.更换同类型电机进行测试,请确认电机
+是否消磁.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err59:Tuning Fault Counter EMF
+
+Possible causes and elimination method:
+1.Check the F1 Group motor parameters 
+are set correctly.
+2.Replace the same type of motor tests 
+to confirm whether the motor flux.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>60</value>
+<string lang_id="0" lang="中文">Err60:Err60
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err60:Err60
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>61</value>
+<string lang_id="0" lang="中文">Err61:制动管长时间制动保护故障
+
+可能原因及排除方法:
+1.母线电压是否长时间高于制动电压.
+2.制动保护时间设置是否过小.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err61:Long Brake Failure Protectiong
+
+Possible causes and elimination method:
+1.If the bus voltage is higher than long 
+braking voltage.
+2.Brake protection time setting is too small.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>62</value>
+<string lang_id="0" lang="中文">Err62:Err62
+
+可能原因及排除方法:</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err62:Err62
+
+Possible causes and elimination method:</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>63</value>
+<string lang_id="0" lang="中文">Err63:反转运行时间到达
+
+可能原因及排除方法:
+1.流量下降时间设置是否过小.
+2.油压指令下降时间是否过小.</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Err63:Reverse Running Time Arrival
+
+Possible causes and elimination method:
+1.Flow down time set is too small.
+2.Hydraulic instruction fall time is too small.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

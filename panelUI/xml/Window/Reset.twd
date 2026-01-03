@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Reset" 可见="-1" 标题="3:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="260" 宽度="380" 高度="280" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="Outport" 索引="0" 可见="-1" 可用="-1" 左="136" 顶="480" 宽度="100" 高度="30" 标题="0:写U盘|||1:Экспорт|||2:수출|||3:Export|||4:تصدير|||5:Export|||6:Exportar|||7:Ihracat|||8:خروج|||9:Outport|||10:Chuyển ra|||default:Export" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="machcfg export;dlg close;dlg show WriteUDisk"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="265" 宽度="380" 高度="27" 语言表索引="0" 文本="0:提示|||1:Инфо|||2:정보|||3:Information|||4:تنبيه|||5:Information|||6:Information|||7:Bilgi|||8:تذکرات|||9:Informação|||10:Nhắc nhở|||default:Information" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="Cancel" 索引="0" 可见="-1" 可用="-1" 左="360" 顶="480" 宽度="100" 高度="30" 标题="0:取消|||1:Отмен|||2:취소|||3:Cancel|||4:إلغاء|||5:Cancel|||6:Cancel|||7:İptal|||8:لغو|||9:Cancelar|||10:Hủy|||default:Cancel" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="dlg close"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="Reset" 索引="0" 可见="-1" 可用="-1" 左="248" 顶="480" 宽度="100" 高度="30" 标题="0:重置|||1:Сброс|||2:리셋|||3:Reset|||4:إعادة تعيين|||5:Reset|||6:Restablecer|||7:Yeni.Kur|||8:تنظیم مجدد|||9:Reset|||10:Cài lại|||default:Reset" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="machcfg reset;dlg close"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="333" 宽度="315" 高度="100" 语言表索引="0" 文本="0:主机数据将恢复原始值，
+是否对现有主机数据写U
+盘备份？如不备份直接按
+重置！|||1:Данных хоста извлечение исходные,будь существующие данные написать U диска? Если нет,сразу сбросить!|||2:U 디스크에 백업한 데이터가 존재한다면호스트 데이터는 원래 값으로 복구될 것이다. 만약 백업이 안되있으며 직접 RESET 된다.|||3:Host data will restore the original values, whether existing host data write U disk backup? If no backup directly reset!|||4:البيانات المضيف يستعيد القيمة الأصلية، سواء كانت مكتوبة النسخ الاحتياطي للقرص U إلى البيانات المضيف الحالية؟ إذا لم يتم إجراء نسخ احتياطي اضغط مباشرة إعادة تعيين!|||5:Host data will restore the original values, whether existing host data write U disk backup? If no backup directly reset!|||6:Los Datos De Host Restaurarán El 
+valor Original, Ya Sea Para Escribir Una Copia De Seguridad De Disco U De Datos De Host Existentes? ¡Si No Se Realiza Una Copia De Seguridad Directamente Mediante El Restablecimiento!|||7:Ana veri mevcut ana veri U disk yedekleme yazmak olsun, özgün değerleri geri Mal Alnir? Herhangi bir yedek doğrudan sıfırlarsanız!|||8:داده های میزبان ارزش های اصلی را ذخیره می کند. آیا داده های میزبان موجود نسخه پشتیبان فلش کارت را می نویسند؟ اگر هیچ پشتیبان وجود ندارد، مستقیما تنظیم مجدد کنید!|||9:Dados do host irá restaurar os valores originais, se os dados de host existentes escrever backup em disco U? Se nenhum backup redefinir diretamente!|||10:Số liệu máy chủ sẽ khôi phục giá trị gốc, có lưu số liệu máy chủ vào USB dự phòng không? Nếu không bấm trực tiếp cài đặt lại!|||default:Host data will restore the original values, whether existing host data write U disk backup? If no backup directly reset!" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="-1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="130" Y1="465" X2="470" Y2="465" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<horz order="0" ele_index="1" ele_name="Outport"/>
+<horz order="1" ele_index="4" ele_name="Reset"/>
+<horz order="2" ele_index="3" ele_name="Cancel"/>
+<vert order="0" ele_index="1" ele_name="Outport"/>
+<vert order="1" ele_index="4" ele_name="Reset"/>
+<vert order="2" ele_index="3" ele_name="Cancel"/>
+<tab order="0" ele_index="1" ele_name="Outport"/>
+<tab order="1" ele_index="4" ele_name="Reset"/>
+<tab order="2" ele_index="3" ele_name="Cancel"/>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="Outport"/>
+<id order="2" ele_index="2" ele_name="label2"/>
+<id order="3" ele_index="3" ele_name="Cancel"/>
+<id order="4" ele_index="4" ele_name="Reset"/>
+<id order="5" ele_index="5" ele_name="label4"/>
+<id order="6" ele_index="6" ele_name="line1"/>
+<jmp_list desc=""/>
+</element>

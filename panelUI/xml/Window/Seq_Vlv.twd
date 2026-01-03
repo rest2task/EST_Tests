@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Seq_Vlv" 可见="-1" 标题="0:顺序阀|||1:заказ клап.|||2:순서 밸브|||3:Sequence Vlv|||4:تسلسل صمام|||5:Sequence Vlv|||6:OrdenVálv|||7:Sıra Vana|||8:دریچه سفارش|||9:SequênVál|||10:Trật tự Van|||default:Sequence Vlv" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="580" 高度="575" 文本="0:顺序阀|||1:заказ клап.|||2:순서밸브|||3:Sequence Vlv |||4:تسلسل صمام|||6:OrdenVálv|||7:Sıra Vana|||8:دریچه سفارش|||9:Sequên Válv|||10:Trật tự Van|||default:Sequence Vlv " 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="15" 可见="-1" 可用="-1" 左="280" 顶="78" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label35" 索引="16" 可见="-1" 可用="-1" 左="383" 顶="78" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label59" 索引="0" 可见="-1" 可用="-1" 左="207" 顶="27" 宽度="173" 高度="21" 语言表索引="0" 文本="0:射出|||1:Inject|||2:Inject|||3:Inject|||4:Inject|||5:Inject|||6:Inject|||7:Inject|||8:Inject|||9:Inject|||10:Inject|||default:Inject" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label216" 索引="0" 可见="-1" 可用="-1" 左="421" 顶="27" 宽度="157" 高度="21" 语言表索引="0" 文本="0:保压|||1:Hold|||2:Hold|||3:Hold|||4:Hold|||5:Hold|||6:Hold|||7:Hold|||8:Hold|||9:Hold|||10:Hold|||default:Hold" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox1" 索引="201" 可见="-1" 可用="-1" 左="20" 顶="78" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL0" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox2" 索引="202" 可见="-1" 可用="-1" 左="20" 顶="105" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL1" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox3" 索引="203" 可见="-1" 可用="-1" 左="20" 顶="132" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL2" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox4" 索引="204" 可见="-1" 可用="-1" 左="20" 顶="159" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL3" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox5" 索引="205" 可见="-1" 可用="-1" 左="20" 顶="186" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL4" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox6" 索引="206" 可见="-1" 可用="-1" 左="20" 顶="213" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL5" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox7" 索引="207" 可见="-1" 可用="-1" 左="20" 顶="240" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL6" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox8" 索引="208" 可见="-1" 可用="-1" 左="20" 顶="267" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL7" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL7"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox9" 索引="209" 可见="-1" 可用="-1" 左="20" 顶="294" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL8" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL8"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox10" 索引="210" 可见="-1" 可用="-1" 左="20" 顶="321" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL9" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL9"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox11" 索引="211" 可见="-1" 可用="-1" 左="20" 顶="348" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL10" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox12" 索引="212" 可见="-1" 可用="-1" 左="20" 顶="375" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL11" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox13" 索引="213" 可见="-1" 可用="-1" 左="20" 顶="402" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL12" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox14" 索引="214" 可见="-1" 可用="-1" 左="20" 顶="429" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL13" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox15" 索引="215" 可见="-1" 可用="-1" 左="20" 顶="456" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL14" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox16" 索引="216" 可见="-1" 可用="-1" 左="20" 顶="483" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL15" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox17" 索引="217" 可见="-1" 可用="-1" 左="20" 顶="510" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL16" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL16"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox18" 索引="218" 可见="-1" 可用="-1" 左="20" 顶="537" 宽度="50" 高度="22" 选择="0" 关联变量="p.PP.TMP.TMPVAL17" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL17"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir1" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="78" 宽度="30" 高度="22" 语言表索引="0" 文本="0:1|||1:1|||2:1|||3:1|||5:1|||7:1|||8:1|||9:1|||10:1|||default:1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir2" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="105" 宽度="30" 高度="22" 语言表索引="0" 文本="0:2|||1:2|||2:2|||3:2|||5:2|||7:2|||8:2|||9:2|||10:2|||default:2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir3" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="132" 宽度="30" 高度="22" 语言表索引="0" 文本="0:3|||1:3|||2:3|||3:3|||5:3|||7:3|||8:3|||9:3|||10:3|||default:3" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir4" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="159" 宽度="30" 高度="22" 语言表索引="0" 文本="0:4|||1:4|||2:4|||3:4|||5:4|||7:4|||8:4|||9:4|||10:4|||default:4" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir5" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="186" 宽度="30" 高度="22" 语言表索引="0" 文本="0:5|||1:5|||2:5|||3:5|||5:5|||7:5|||8:5|||9:5|||10:5|||default:5" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stAir6" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="213" 宽度="30" 高度="22" 语言表索引="0" 文本="0:6|||1:6|||2:6|||3:6|||5:6|||7:6|||8:6|||9:6|||10:6|||default:6" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label204" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="240" 宽度="30" 高度="22" 语言表索引="0" 文本="0:7|||1:7|||2:7|||3:7|||5:7|||7:7|||8:7|||9:7|||10:7|||default:7" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label205" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="267" 宽度="30" 高度="22" 语言表索引="0" 文本="0:8|||1:8|||2:8|||3:8|||5:8|||7:8|||8:8|||9:8|||10:8|||default:8" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label206" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="294" 宽度="30" 高度="22" 语言表索引="0" 文本="0:9|||1:9|||2:9|||3:9|||5:9|||7:9|||8:9|||9:9|||10:9|||default:9" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label207" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="321" 宽度="30" 高度="22" 语言表索引="0" 文本="0:10|||1:10|||2:10|||3:10|||5:10|||7:10|||8:10|||9:10|||10:10|||default:10" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label208" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="348" 宽度="30" 高度="22" 语言表索引="0" 文本="0:11|||1:11|||2:11|||3:11|||5:11|||7:11|||8:11|||9:11|||10:11|||default:11" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label209" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="375" 宽度="30" 高度="22" 语言表索引="0" 文本="0:12|||1:12|||2:12|||3:12|||5:12|||7:12|||8:12|||9:12|||10:12|||default:12" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label210" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="402" 宽度="30" 高度="22" 语言表索引="0" 文本="0:13|||1:13|||2:13|||3:13|||5:13|||7:13|||8:13|||9:13|||10:13|||default:13" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label211" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="429" 宽度="30" 高度="22" 语言表索引="0" 文本="0:14|||1:14|||2:14|||3:14|||5:14|||7:14|||8:14|||9:14|||10:14|||default:14" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label212" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="456" 宽度="30" 高度="22" 语言表索引="0" 文本="0:15|||3:15|||default:15" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label213" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="483" 宽度="30" 高度="22" 语言表索引="0" 文本="0:16|||3:16|||default:16" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label214" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="510" 宽度="30" 高度="22" 语言表索引="0" 文本="0:17|||3:17|||default:17" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label215" 索引="0" 可见="-1" 可用="-1" 左="47" 顶="537" 宽度="30" 高度="22" 语言表索引="0" 文本="0:18|||3:18|||default:18" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown1" 索引="10" 可见="-1" 可用="-1" 左="75" 顶="78" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow1.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="out" tag="d.airblow1.MOLDSET.FL_BLAST"/>
+<var prop="值" orient="in" tag="d.airblow1.MOLDSET.FL_SEQ_USE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="20" 可见="-1" 可用="-1" 左="75" 顶="105" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow1.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="out" tag="d.airblow2.MOLDSET.FL_BLAST"/>
+<var prop="值" orient="in" tag="d.airblow1.MOLDSET.FL_SEQ_USE2"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown3" 索引="30" 可见="-1" 可用="-1" 左="75" 顶="132" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow1.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow1.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow3.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown4" 索引="40" 可见="-1" 可用="-1" 左="75" 顶="159" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow2.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow2.MOLDSET.FL_SEQ_USE"/>
+<var prop="值" orient="out" tag="d.airblow4.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown5" 索引="50" 可见="-1" 可用="-1" 左="75" 顶="186" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow2.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow2.MOLDSET.FL_SEQ_USE2"/>
+<var prop="值" orient="out" tag="d.airblow5.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown6" 索引="60" 可见="-1" 可用="-1" 左="75" 顶="213" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow2.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow2.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow6.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown7" 索引="70" 可见="-1" 可用="-1" 左="75" 顶="240" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow3.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="out" tag="d.airblow1.MOLDSET.FL_BLAST"/>
+<var prop="值" orient="in" tag="d.airblow3.MOLDSET.FL_SEQ_USE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown8" 索引="80" 可见="-1" 可用="-1" 左="75" 顶="267" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow3.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="out" tag="d.airblow2.MOLDSET.FL_BLAST"/>
+<var prop="值" orient="in" tag="d.airblow3.MOLDSET.FL_SEQ_USE2"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown9" 索引="90" 可见="-1" 可用="-1" 左="75" 顶="294" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow3.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow3.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow3.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown10" 索引="100" 可见="-1" 可用="-1" 左="75" 顶="321" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow4.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow4.MOLDSET.FL_SEQ_USE"/>
+<var prop="值" orient="out" tag="d.airblow4.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown11" 索引="110" 可见="-1" 可用="-1" 左="75" 顶="348" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow4.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow4.MOLDSET.FL_SEQ_USE2"/>
+<var prop="值" orient="out" tag="d.airblow5.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown12" 索引="120" 可见="-1" 可用="-1" 左="75" 顶="375" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow4.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow4.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow6.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown13" 索引="130" 可见="-1" 可用="-1" 左="75" 顶="402" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow5.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow5.MOLDSET.FL_SEQ_USE"/>
+<var prop="值" orient="out" tag="d.airblow5.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown14" 索引="140" 可见="-1" 可用="-1" 左="75" 顶="429" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow5.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow5.MOLDSET.FL_SEQ_USE2"/>
+<var prop="值" orient="out" tag="d.airblow6.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown15" 索引="150" 可见="-1" 可用="-1" 左="75" 顶="456" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow5.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow5.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow5.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown16" 索引="160" 可见="-1" 可用="-1" 左="75" 顶="483" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow6.MOLDSET.FL_SEQ_USE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow6.MOLDSET.FL_SEQ_USE"/>
+<var prop="值" orient="out" tag="d.airblow6.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown17" 索引="170" 可见="-1" 可用="-1" 左="75" 顶="510" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow6.MOLDSET.FL_SEQ_USE2" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow6.MOLDSET.FL_SEQ_USE2"/>
+<var prop="值" orient="out" tag="d.airblow5.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown18" 索引="180" 可见="-1" 可用="-1" 左="75" 顶="537" 宽度="125" 高度="21" 数据="0:不使用;时间开时间关;位置开位置关;时间开位置关;位置开时间关|||1:НеИспо;Врем отк Врем Зак;пози отк пози Зак;Врем отк пози Зак;пози отк Врем Зак|||2:비사용;시간ON시간OFF;위치ON위치OFF;시간ON위치OFF;위치ON시간OFF|||3:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||4:لا استعمال;وقت;موقع;الوقت خارج الموقع قبالة;الموقع في الوقت المناسب|||5:Not Use;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||6:No Usar;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||7:Kullanma;ZmanOnZmanOff;PozOn PozOff;PozOn ZmanOff;PozOn ZmanOff|||8:عدم استفاده;زمان باز کردن خاموش;موقعیت در موقعیت خاموش;زمان باز کردن موقعیت خاموش;زمان مکان خاموش است|||9:Não utilize;TmOn TmOff;PosOn PosOff;TmOn PosOff;PosOn TmOff|||10:Ko SD;Gi.Mở Gi.Tắt;VTMở VTTắt;Gi.Mở VTTắt;VTMở Gi.Tắt|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.airblow6.MOLDSET.FL_SEQ_USE3" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.airblow6.MOLDSET.FL_SEQ_USE3"/>
+<var prop="值" orient="out" tag="d.airblow6.MOLDSET.FL_BLAST"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label121" 索引="0" 可见="-1" 可用="-1" 左="75" 顶="54" 宽度="125" 高度="21" 语言表索引="0" 文本="0:方式|||1:Режим|||2:동작모드|||3:UseMode|||4:كيفستعمل|||5:UseMode|||6:Uso Modo|||7:KullModu|||8:استفاده کنیدراه ها|||9:UseModo|||10:UseMode|||default:UseMode" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed73" 索引="11" 可见="-1" 可用="-1" 左="207" 顶="78" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_DELAY"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed83" 索引="21" 可见="-1" 可用="-1" 左="207" 顶="105" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_DELAY2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed93" 索引="31" 可见="-1" 可用="-1" 左="207" 顶="132" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="eda3" 索引="41" 可见="-1" 可用="-1" 左="207" 顶="159" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_DELAY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edb3" 索引="51" 可见="-1" 可用="-1" 左="207" 顶="186" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_DELAY2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edc3" 索引="61" 可见="-1" 可用="-1" 左="207" 顶="213" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit119" 索引="71" 可见="-1" 可用="-1" 左="207" 顶="240" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_DELAY"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit120" 索引="81" 可见="-1" 可用="-1" 左="207" 顶="267" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_DELAY2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit121" 索引="91" 可见="-1" 可用="-1" 左="207" 顶="294" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit122" 索引="101" 可见="-1" 可用="-1" 左="207" 顶="321" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_DELAY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit129" 索引="111" 可见="-1" 可用="-1" 左="207" 顶="348" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_DELAY2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit130" 索引="121" 可见="-1" 可用="-1" 左="207" 顶="375" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit141" 索引="131" 可见="-1" 可用="-1" 左="207" 顶="402" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_DELAY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit142" 索引="141" 可见="-1" 可用="-1" 左="207" 顶="429" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_DELAY2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit147" 索引="151" 可见="-1" 可用="-1" 左="207" 顶="456" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit148" 索引="161" 可见="-1" 可用="-1" 左="207" 顶="483" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_DELAY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_DELAY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit149" 索引="171" 可见="-1" 可用="-1" 左="207" 顶="510" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_DELAY2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit150" 索引="181" 可见="-1" 可用="-1" 左="207" 顶="537" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENDLY"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_DELAY3"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label119" 索引="0" 可见="-1" 可用="-1" 左="207" 顶="54" 宽度="70" 高度="21" 语言表索引="0" 文本="0:开启|||1:Open|||2:Open|||3:Open|||4:Open|||5:Open|||6:Open|||7:Open|||8:Open|||9:Open|||10:Open|||default:Open" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed74" 索引="12" 可见="-1" 可用="-1" 左="310" 顶="78" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed84" 索引="22" 可见="-1" 可用="-1" 左="310" 顶="105" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed94" 索引="32" 可见="-1" 可用="-1" 左="310" 顶="132" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow1.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="eda4" 索引="42" 可见="-1" 可用="-1" 左="310" 顶="159" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edb4" 索引="52" 可见="-1" 可用="-1" 左="310" 顶="186" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edc4" 索引="62" 可见="-1" 可用="-1" 左="310" 顶="213" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow2.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit115" 索引="72" 可见="-1" 可用="-1" 左="310" 顶="240" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit116" 索引="82" 可见="-1" 可用="-1" 左="310" 顶="267" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit117" 索引="92" 可见="-1" 可用="-1" 左="310" 顶="294" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow3.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit118" 索引="102" 可见="-1" 可用="-1" 左="310" 顶="321" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit127" 索引="112" 可见="-1" 可用="-1" 左="310" 顶="348" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit128" 索引="122" 可见="-1" 可用="-1" 左="310" 顶="375" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow4.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit139" 索引="132" 可见="-1" 可用="-1" 左="310" 顶="402" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit140" 索引="142" 可见="-1" 可用="-1" 左="310" 顶="429" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit151" 索引="152" 可见="-1" 可用="-1" 左="310" 顶="456" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow5.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit152" 索引="162" 可见="-1" 可用="-1" 左="310" 顶="483" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_MOVING" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_MOVING"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit153" 索引="172" 可见="-1" 可用="-1" 左="310" 顶="510" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit154" 索引="182" 可见="-1" 可用="-1" 左="310" 顶="537" 宽度="70" 高度="22" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.airblow6.MOLDSET.TM_SEQ_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_MOVING3"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.TM_MOVINGPLATENACT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label118" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="54" 宽度="70" 高度="21" 语言表索引="0" 文本="0:关闭|||1:Close|||2:Close|||3:Close|||4:Close|||5:Close|||6:Close|||7:Close|||8:Close|||9:Close|||10:Close|||default:Close" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed75" 索引="13" 可见="-1" 可用="-1" 左="421" 顶="78" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY1"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed85" 索引="23" 可见="-1" 可用="-1" 左="421" 顶="105" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed95" 索引="33" 可见="-1" 可用="-1" 左="421" 顶="132" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_DELAY3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="eda5" 索引="43" 可见="-1" 可用="-1" 左="421" 顶="159" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edb5" 索引="53" 可见="-1" 可用="-1" 左="421" 顶="186" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edc5" 索引="63" 可见="-1" 可用="-1" 左="421" 顶="213" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY6" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_DELAY6"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit126" 索引="73" 可见="-1" 可用="-1" 左="421" 顶="240" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY7" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY7"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit125" 索引="83" 可见="-1" 可用="-1" 左="421" 顶="267" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY8" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY8"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit124" 索引="93" 可见="-1" 可用="-1" 左="421" 顶="294" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY9" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_DELAY9"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit123" 索引="103" 可见="-1" 可用="-1" 左="421" 顶="321" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY10" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY10"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit132" 索引="113" 可见="-1" 可用="-1" 左="421" 顶="348" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY11" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY11"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit131" 索引="123" 可见="-1" 可用="-1" 左="421" 顶="375" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY12" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_DELAY12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit144" 索引="133" 可见="-1" 可用="-1" 左="421" 顶="402" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY13" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY13"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit143" 索引="143" 可见="-1" 可用="-1" 左="421" 顶="429" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY14" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY14"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit155" 索引="153" 可见="-1" 可用="-1" 左="421" 顶="456" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY15" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_DELAY15"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit156" 索引="163" 可见="-1" 可用="-1" 左="421" 顶="483" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY16" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY16"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit157" 索引="173" 可见="-1" 可用="-1" 左="421" 顶="510" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY17" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY17"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit158" 索引="183" 可见="-1" 可用="-1" 左="421" 顶="537" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY18" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_DELAY18"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit112" 索引="14" 可见="-1" 可用="-1" 左="508" 顶="78" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING1"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="24" 可见="-1" 可用="-1" 左="508" 顶="105" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING2"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit110" 索引="34" 可见="-1" 可用="-1" 左="508" 顶="132" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow1.MOLDSET.TM_SEQ_HOLD_MOVING3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit109" 索引="44" 可见="-1" 可用="-1" 左="508" 顶="159" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit114" 索引="54" 可见="-1" 可用="-1" 左="508" 顶="186" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit113" 索引="64" 可见="-1" 可用="-1" 左="508" 顶="213" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING6" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow2.MOLDSET.TM_SEQ_HOLD_MOVING6"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit136" 索引="74" 可见="-1" 可用="-1" 左="508" 顶="240" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING7" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING7"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit135" 索引="84" 可见="-1" 可用="-1" 左="508" 顶="267" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING8" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING8"/>
+<var prop="文本" orient="out" tag="d.airblow2.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit134" 索引="94" 可见="-1" 可用="-1" 左="508" 顶="294" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING9" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow3.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow3.MOLDSET.TM_SEQ_HOLD_MOVING9"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit133" 索引="104" 可见="-1" 可用="-1" 左="508" 顶="321" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING10" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow4.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING10"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit138" 索引="114" 可见="-1" 可用="-1" 左="508" 顶="348" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING11" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING11"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit137" 索引="124" 可见="-1" 可用="-1" 左="508" 顶="375" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING12" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow4.MOLDSET.TM_SEQ_HOLD_MOVING12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit146" 索引="134" 可见="-1" 可用="-1" 左="508" 顶="402" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING13" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING13"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit145" 索引="144" 可见="-1" 可用="-1" 左="508" 顶="429" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING14" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING14"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit159" 索引="154" 可见="-1" 可用="-1" 左="508" 顶="456" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING15" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow5.MOLDSET.TM_SEQ_HOLD_MOVING15"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit160" 索引="164" 可见="-1" 可用="-1" 左="508" 顶="483" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING16" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING16"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit161" 索引="174" 可见="-1" 可用="-1" 左="508" 顶="510" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING17" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow5.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING17"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit162" 索引="184" 可见="-1" 可用="-1" 左="508" 顶="537" 宽度="70" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING18" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.airblow6.MOLDSET.ADPOSI_MOVINGBLASTSTART"/>
+<var prop="文本" orient="in" tag="d.airblow6.MOLDSET.TM_SEQ_HOLD_MOVING18"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label231" 索引="0" 可见="-1" 可用="-1" 左="421" 顶="54" 宽度="70" 高度="21" 语言表索引="0" 文本="0:开启(s)|||1:Open(s)|||2:Open(s)|||3:Open(s)|||4:Open(s)|||5:Open(s)|||6:Open(s)|||7:Open(s)|||8:Open(s)|||9:Open(s)|||10:Open(s)|||default:Open(s)" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label232" 索引="0" 可见="-1" 可用="-1" 左="507" 顶="54" 宽度="70" 高度="21" 语言表索引="0" 文本="0:关闭(s)|||1:Close(s)|||2:Close(s)|||3:Close(s)|||4:Close(s)|||5:Close(s)|||6:Close(s)|||7:Close(s)|||8:Close(s)|||9:Close(s)|||10:Close(s)|||default:Close(s)" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label233" 索引="25" 可见="-1" 可用="-1" 左="280" 顶="105" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label234" 索引="26" 可见="-1" 可用="-1" 左="383" 顶="105" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label235" 索引="146" 可见="-1" 可用="-1" 左="383" 顶="429" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label236" 索引="145" 可见="-1" 可用="-1" 左="280" 顶="429" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label237" 索引="156" 可见="-1" 可用="-1" 左="383" 顶="456" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label238" 索引="155" 可见="-1" 可用="-1" 左="280" 顶="456" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label239" 索引="166" 可见="-1" 可用="-1" 左="383" 顶="483" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label240" 索引="165" 可见="-1" 可用="-1" 左="280" 顶="483" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label241" 索引="176" 可见="-1" 可用="-1" 左="383" 顶="510" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label242" 索引="175" 可见="-1" 可用="-1" 左="280" 顶="510" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label243" 索引="186" 可见="-1" 可用="-1" 左="383" 顶="537" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label244" 索引="185" 可见="-1" 可用="-1" 左="280" 顶="537" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label245" 索引="96" 可见="-1" 可用="-1" 左="383" 顶="294" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label246" 索引="106" 可见="-1" 可用="-1" 左="383" 顶="321" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label247" 索引="116" 可见="-1" 可用="-1" 左="383" 顶="348" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label248" 索引="126" 可见="-1" 可用="-1" 左="383" 顶="375" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label249" 索引="136" 可见="-1" 可用="-1" 左="383" 顶="402" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label250" 索引="95" 可见="-1" 可用="-1" 左="280" 顶="294" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label251" 索引="105" 可见="-1" 可用="-1" 左="280" 顶="321" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label252" 索引="115" 可见="-1" 可用="-1" 左="280" 顶="348" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label253" 索引="125" 可见="-1" 可用="-1" 左="280" 顶="375" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label254" 索引="135" 可见="-1" 可用="-1" 左="280" 顶="402" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label255" 索引="46" 可见="-1" 可用="-1" 左="383" 顶="159" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label256" 索引="56" 可见="-1" 可用="-1" 左="383" 顶="186" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label257" 索引="66" 可见="-1" 可用="-1" 左="383" 顶="213" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label258" 索引="76" 可见="-1" 可用="-1" 左="383" 顶="240" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label259" 索引="86" 可见="-1" 可用="-1" 左="383" 顶="267" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label260" 索引="45" 可见="-1" 可用="-1" 左="280" 顶="159" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label261" 索引="55" 可见="-1" 可用="-1" 左="280" 顶="186" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label262" 索引="65" 可见="-1" 可用="-1" 左="280" 顶="213" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label263" 索引="75" 可见="-1" 可用="-1" 左="280" 顶="240" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label264" 索引="85" 可见="-1" 可用="-1" 左="280" 顶="267" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label265" 索引="35" 可见="-1" 可用="-1" 左="280" 顶="132" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label266" 索引="36" 可见="-1" 可用="-1" 左="383" 顶="132" 宽度="29" 高度="22" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="413" Y1="35" X2="413" Y2="560" 颜色="0" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<horz order="0" ele_index="8" ele_name="checkbox1"/>
+<horz order="1" ele_index="44" ele_name="dropdown1"/>
+<horz order="2" ele_index="63" ele_name="ed73"/>
+<horz order="3" ele_index="82" ele_name="ed74"/>
+<horz order="4" ele_index="101" ele_name="ed75"/>
+<horz order="5" ele_index="119" ele_name="edit112"/>
+<horz order="6" ele_index="9" ele_name="checkbox2"/>
+<horz order="7" ele_index="45" ele_name="dropdown2"/>
+<horz order="8" ele_index="64" ele_name="ed83"/>
+<horz order="9" ele_index="83" ele_name="ed84"/>
+<horz order="10" ele_index="102" ele_name="ed85"/>
+<horz order="11" ele_index="120" ele_name="edit111"/>
+<horz order="12" ele_index="10" ele_name="checkbox3"/>
+<horz order="13" ele_index="46" ele_name="dropdown3"/>
+<horz order="14" ele_index="65" ele_name="ed93"/>
+<horz order="15" ele_index="84" ele_name="ed94"/>
+<horz order="16" ele_index="103" ele_name="ed95"/>
+<horz order="17" ele_index="121" ele_name="edit110"/>
+<horz order="18" ele_index="11" ele_name="checkbox4"/>
+<horz order="19" ele_index="47" ele_name="dropdown4"/>
+<horz order="20" ele_index="66" ele_name="eda3"/>
+<horz order="21" ele_index="85" ele_name="eda4"/>
+<horz order="22" ele_index="104" ele_name="eda5"/>
+<horz order="23" ele_index="122" ele_name="edit109"/>
+<horz order="24" ele_index="12" ele_name="checkbox5"/>
+<horz order="25" ele_index="48" ele_name="dropdown5"/>
+<horz order="26" ele_index="67" ele_name="edb3"/>
+<horz order="27" ele_index="86" ele_name="edb4"/>
+<horz order="28" ele_index="105" ele_name="edb5"/>
+<horz order="29" ele_index="123" ele_name="edit114"/>
+<horz order="30" ele_index="13" ele_name="checkbox6"/>
+<horz order="31" ele_index="49" ele_name="dropdown6"/>
+<horz order="32" ele_index="68" ele_name="edc3"/>
+<horz order="33" ele_index="87" ele_name="edc4"/>
+<horz order="34" ele_index="106" ele_name="edc5"/>
+<horz order="35" ele_index="124" ele_name="edit113"/>
+<horz order="36" ele_index="14" ele_name="checkbox7"/>
+<horz order="37" ele_index="50" ele_name="dropdown7"/>
+<horz order="38" ele_index="69" ele_name="edit119"/>
+<horz order="39" ele_index="88" ele_name="edit115"/>
+<horz order="40" ele_index="107" ele_name="edit126"/>
+<horz order="41" ele_index="125" ele_name="edit136"/>
+<horz order="42" ele_index="15" ele_name="checkbox8"/>
+<horz order="43" ele_index="51" ele_name="dropdown8"/>
+<horz order="44" ele_index="70" ele_name="edit120"/>
+<horz order="45" ele_index="89" ele_name="edit116"/>
+<horz order="46" ele_index="108" ele_name="edit125"/>
+<horz order="47" ele_index="126" ele_name="edit135"/>
+<horz order="48" ele_index="16" ele_name="checkbox9"/>
+<horz order="49" ele_index="52" ele_name="dropdown9"/>
+<horz order="50" ele_index="71" ele_name="edit121"/>
+<horz order="51" ele_index="90" ele_name="edit117"/>
+<horz order="52" ele_index="109" ele_name="edit124"/>
+<horz order="53" ele_index="127" ele_name="edit134"/>
+<horz order="54" ele_index="17" ele_name="checkbox10"/>
+<horz order="55" ele_index="53" ele_name="dropdown10"/>
+<horz order="56" ele_index="72" ele_name="edit122"/>
+<horz order="57" ele_index="91" ele_name="edit118"/>
+<horz order="58" ele_index="110" ele_name="edit123"/>
+<horz order="59" ele_index="128" ele_name="edit133"/>
+<horz order="60" ele_index="18" ele_name="checkbox11"/>
+<horz order="61" ele_index="54" ele_name="dropdown11"/>
+<horz order="62" ele_index="73" ele_name="edit129"/>
+<horz order="63" ele_index="92" ele_name="edit127"/>
+<horz order="64" ele_index="111" ele_name="edit132"/>
+<horz order="65" ele_index="129" ele_name="edit138"/>
+<horz order="66" ele_index="19" ele_name="checkbox12"/>
+<horz order="67" ele_index="55" ele_name="dropdown12"/>
+<horz order="68" ele_index="74" ele_name="edit130"/>
+<horz order="69" ele_index="93" ele_name="edit128"/>
+<horz order="70" ele_index="112" ele_name="edit131"/>
+<horz order="71" ele_index="130" ele_name="edit137"/>
+<horz order="72" ele_index="20" ele_name="checkbox13"/>
+<horz order="73" ele_index="56" ele_name="dropdown13"/>
+<horz order="74" ele_index="75" ele_name="edit141"/>
+<horz order="75" ele_index="94" ele_name="edit139"/>
+<horz order="76" ele_index="113" ele_name="edit144"/>
+<horz order="77" ele_index="131" ele_name="edit146"/>
+<horz order="78" ele_index="21" ele_name="checkbox14"/>
+<horz order="79" ele_index="57" ele_name="dropdown14"/>
+<horz order="80" ele_index="76" ele_name="edit142"/>
+<horz order="81" ele_index="95" ele_name="edit140"/>
+<horz order="82" ele_index="114" ele_name="edit143"/>
+<horz order="83" ele_index="132" ele_name="edit145"/>
+<horz order="84" ele_index="22" ele_name="checkbox15"/>
+<horz order="85" ele_index="58" ele_name="dropdown15"/>
+<horz order="86" ele_index="77" ele_name="edit147"/>
+<horz order="87" ele_index="96" ele_name="edit151"/>
+<horz order="88" ele_index="115" ele_name="edit155"/>
+<horz order="89" ele_index="133" ele_name="edit159"/>
+<horz order="90" ele_index="23" ele_name="checkbox16"/>
+<horz order="91" ele_index="59" ele_name="dropdown16"/>
+<horz order="92" ele_index="78" ele_name="edit148"/>
+<horz order="93" ele_index="97" ele_name="edit152"/>
+<horz order="94" ele_index="116" ele_name="edit156"/>
+<horz order="95" ele_index="134" ele_name="edit160"/>
+<horz order="96" ele_index="24" ele_name="checkbox17"/>
+<horz order="97" ele_index="60" ele_name="dropdown17"/>
+<horz order="98" ele_index="79" ele_name="edit149"/>
+<horz order="99" ele_index="98" ele_name="edit153"/>
+<horz order="100" ele_index="117" ele_name="edit157"/>
+<horz order="101" ele_index="135" ele_name="edit161"/>
+<horz order="102" ele_index="25" ele_name="checkbox18"/>
+<horz order="103" ele_index="61" ele_name="dropdown18"/>
+<horz order="104" ele_index="80" ele_name="edit150"/>
+<horz order="105" ele_index="99" ele_name="edit154"/>
+<horz order="106" ele_index="118" ele_name="edit158"/>
+<horz order="107" ele_index="136" ele_name="edit162"/>
+<vert order="0" ele_index="8" ele_name="checkbox1"/>
+<vert order="1" ele_index="9" ele_name="checkbox2"/>
+<vert order="2" ele_index="10" ele_name="checkbox3"/>
+<vert order="3" ele_index="11" ele_name="checkbox4"/>
+<vert order="4" ele_index="12" ele_name="checkbox5"/>
+<vert order="5" ele_index="13" ele_name="checkbox6"/>
+<vert order="6" ele_index="14" ele_name="checkbox7"/>
+<vert order="7" ele_index="15" ele_name="checkbox8"/>
+<vert order="8" ele_index="16" ele_name="checkbox9"/>
+<vert order="9" ele_index="17" ele_name="checkbox10"/>
+<vert order="10" ele_index="18" ele_name="checkbox11"/>
+<vert order="11" ele_index="19" ele_name="checkbox12"/>
+<vert order="12" ele_index="20" ele_name="checkbox13"/>
+<vert order="13" ele_index="21" ele_name="checkbox14"/>
+<vert order="14" ele_index="22" ele_name="checkbox15"/>
+<vert order="15" ele_index="23" ele_name="checkbox16"/>
+<vert order="16" ele_index="24" ele_name="checkbox17"/>
+<vert order="17" ele_index="25" ele_name="checkbox18"/>
+<vert order="18" ele_index="44" ele_name="dropdown1"/>
+<vert order="19" ele_index="45" ele_name="dropdown2"/>
+<vert order="20" ele_index="46" ele_name="dropdown3"/>
+<vert order="21" ele_index="47" ele_name="dropdown4"/>
+<vert order="22" ele_index="48" ele_name="dropdown5"/>
+<vert order="23" ele_index="49" ele_name="dropdown6"/>
+<vert order="24" ele_index="50" ele_name="dropdown7"/>
+<vert order="25" ele_index="51" ele_name="dropdown8"/>
+<vert order="26" ele_index="52" ele_name="dropdown9"/>
+<vert order="27" ele_index="53" ele_name="dropdown10"/>
+<vert order="28" ele_index="54" ele_name="dropdown11"/>
+<vert order="29" ele_index="55" ele_name="dropdown12"/>
+<vert order="30" ele_index="56" ele_name="dropdown13"/>
+<vert order="31" ele_index="57" ele_name="dropdown14"/>
+<vert order="32" ele_index="58" ele_name="dropdown15"/>
+<vert order="33" ele_index="59" ele_name="dropdown16"/>
+<vert order="34" ele_index="60" ele_name="dropdown17"/>
+<vert order="35" ele_index="61" ele_name="dropdown18"/>
+<vert order="36" ele_index="63" ele_name="ed73"/>
+<vert order="37" ele_index="64" ele_name="ed83"/>
+<vert order="38" ele_index="65" ele_name="ed93"/>
+<vert order="39" ele_index="66" ele_name="eda3"/>
+<vert order="40" ele_index="67" ele_name="edb3"/>
+<vert order="41" ele_index="68" ele_name="edc3"/>
+<vert order="42" ele_index="69" ele_name="edit119"/>
+<vert order="43" ele_index="70" ele_name="edit120"/>
+<vert order="44" ele_index="71" ele_name="edit121"/>
+<vert order="45" ele_index="72" ele_name="edit122"/>
+<vert order="46" ele_index="73" ele_name="edit129"/>
+<vert order="47" ele_index="74" ele_name="edit130"/>
+<vert order="48" ele_index="75" ele_name="edit141"/>
+<vert order="49" ele_index="76" ele_name="edit142"/>
+<vert order="50" ele_index="77" ele_name="edit147"/>
+<vert order="51" ele_index="78" ele_name="edit148"/>
+<vert order="52" ele_index="79" ele_name="edit149"/>
+<vert order="53" ele_index="80" ele_name="edit150"/>
+<vert order="54" ele_index="82" ele_name="ed74"/>
+<vert order="55" ele_index="83" ele_name="ed84"/>
+<vert order="56" ele_index="84" ele_name="ed94"/>
+<vert order="57" ele_index="85" ele_name="eda4"/>
+<vert order="58" ele_index="86" ele_name="edb4"/>
+<vert order="59" ele_index="87" ele_name="edc4"/>
+<vert order="60" ele_index="88" ele_name="edit115"/>
+<vert order="61" ele_index="89" ele_name="edit116"/>
+<vert order="62" ele_index="90" ele_name="edit117"/>
+<vert order="63" ele_index="91" ele_name="edit118"/>
+<vert order="64" ele_index="92" ele_name="edit127"/>
+<vert order="65" ele_index="93" ele_name="edit128"/>
+<vert order="66" ele_index="94" ele_name="edit139"/>
+<vert order="67" ele_index="95" ele_name="edit140"/>
+<vert order="68" ele_index="96" ele_name="edit151"/>
+<vert order="69" ele_index="97" ele_name="edit152"/>
+<vert order="70" ele_index="98" ele_name="edit153"/>
+<vert order="71" ele_index="99" ele_name="edit154"/>
+<vert order="72" ele_index="101" ele_name="ed75"/>
+<vert order="73" ele_index="102" ele_name="ed85"/>
+<vert order="74" ele_index="103" ele_name="ed95"/>
+<vert order="75" ele_index="104" ele_name="eda5"/>
+<vert order="76" ele_index="105" ele_name="edb5"/>
+<vert order="77" ele_index="106" ele_name="edc5"/>
+<vert order="78" ele_index="107" ele_name="edit126"/>
+<vert order="79" ele_index="108" ele_name="edit125"/>
+<vert order="80" ele_index="109" ele_name="edit124"/>
+<vert order="81" ele_index="110" ele_name="edit123"/>
+<vert order="82" ele_index="111" ele_name="edit132"/>
+<vert order="83" ele_index="112" ele_name="edit131"/>
+<vert order="84" ele_index="113" ele_name="edit144"/>
+<vert order="85" ele_index="114" ele_name="edit143"/>
+<vert order="86" ele_index="115" ele_name="edit155"/>
+<vert order="87" ele_index="116" ele_name="edit156"/>
+<vert order="88" ele_index="117" ele_name="edit157"/>
+<vert order="89" ele_index="118" ele_name="edit158"/>
+<vert order="90" ele_index="119" ele_name="edit112"/>
+<vert order="91" ele_index="120" ele_name="edit111"/>
+<vert order="92" ele_index="121" ele_name="edit110"/>
+<vert order="93" ele_index="122" ele_name="edit109"/>
+<vert order="94" ele_index="123" ele_name="edit114"/>
+<vert order="95" ele_index="124" ele_name="edit113"/>
+<vert order="96" ele_index="125" ele_name="edit136"/>
+<vert order="97" ele_index="126" ele_name="edit135"/>
+<vert order="98" ele_index="127" ele_name="edit134"/>
+<vert order="99" ele_index="128" ele_name="edit133"/>
+<vert order="100" ele_index="129" ele_name="edit138"/>
+<vert order="101" ele_index="130" ele_name="edit137"/>
+<vert order="102" ele_index="131" ele_name="edit146"/>
+<vert order="103" ele_index="132" ele_name="edit145"/>
+<vert order="104" ele_index="133" ele_name="edit159"/>
+<vert order="105" ele_index="134" ele_name="edit160"/>
+<vert order="106" ele_index="135" ele_name="edit161"/>
+<vert order="107" ele_index="136" ele_name="edit162"/>
+<tab order="0" ele_index="8" ele_name="checkbox1"/>
+<tab order="1" ele_index="9" ele_name="checkbox2"/>
+<tab order="2" ele_index="10" ele_name="checkbox3"/>
+<tab order="3" ele_index="11" ele_name="checkbox4"/>
+<tab order="4" ele_index="12" ele_name="checkbox5"/>
+<tab order="5" ele_index="13" ele_name="checkbox6"/>
+<tab order="6" ele_index="14" ele_name="checkbox7"/>
+<tab order="7" ele_index="15" ele_name="checkbox8"/>
+<tab order="8" ele_index="16" ele_name="checkbox9"/>
+<tab order="9" ele_index="17" ele_name="checkbox10"/>
+<tab order="10" ele_index="18" ele_name="checkbox11"/>
+<tab order="11" ele_index="19" ele_name="checkbox12"/>
+<tab order="12" ele_index="20" ele_name="checkbox13"/>
+<tab order="13" ele_index="21" ele_name="checkbox14"/>
+<tab order="14" ele_index="22" ele_name="checkbox15"/>
+<tab order="15" ele_index="23" ele_name="checkbox16"/>
+<tab order="16" ele_index="24" ele_name="checkbox17"/>
+<tab order="17" ele_index="25" ele_name="checkbox18"/>
+<tab order="18" ele_index="44" ele_name="dropdown1"/>
+<tab order="19" ele_index="45" ele_name="dropdown2"/>
+<tab order="20" ele_index="46" ele_name="dropdown3"/>
+<tab order="21" ele_index="47" ele_name="dropdown4"/>
+<tab order="22" ele_index="48" ele_name="dropdown5"/>
+<tab order="23" ele_index="49" ele_name="dropdown6"/>
+<tab order="24" ele_index="50" ele_name="dropdown7"/>
+<tab order="25" ele_index="51" ele_name="dropdown8"/>
+<tab order="26" ele_index="52" ele_name="dropdown9"/>
+<tab order="27" ele_index="53" ele_name="dropdown10"/>
+<tab order="28" ele_index="54" ele_name="dropdown11"/>
+<tab order="29" ele_index="55" ele_name="dropdown12"/>
+<tab order="30" ele_index="56" ele_name="dropdown13"/>
+<tab order="31" ele_index="57" ele_name="dropdown14"/>
+<tab order="32" ele_index="58" ele_name="dropdown15"/>
+<tab order="33" ele_index="59" ele_name="dropdown16"/>
+<tab order="34" ele_index="60" ele_name="dropdown17"/>
+<tab order="35" ele_index="61" ele_name="dropdown18"/>
+<tab order="36" ele_index="63" ele_name="ed73"/>
+<tab order="37" ele_index="64" ele_name="ed83"/>
+<tab order="38" ele_index="65" ele_name="ed93"/>
+<tab order="39" ele_index="66" ele_name="eda3"/>
+<tab order="40" ele_index="67" ele_name="edb3"/>
+<tab order="41" ele_index="68" ele_name="edc3"/>
+<tab order="42" ele_index="69" ele_name="edit119"/>
+<tab order="43" ele_index="70" ele_name="edit120"/>
+<tab order="44" ele_index="71" ele_name="edit121"/>
+<tab order="45" ele_index="72" ele_name="edit122"/>
+<tab order="46" ele_index="73" ele_name="edit129"/>
+<tab order="47" ele_index="74" ele_name="edit130"/>
+<tab order="48" ele_index="75" ele_name="edit141"/>
+<tab order="49" ele_index="76" ele_name="edit142"/>
+<tab order="50" ele_index="77" ele_name="edit147"/>
+<tab order="51" ele_index="78" ele_name="edit148"/>
+<tab order="52" ele_index="79" ele_name="edit149"/>
+<tab order="53" ele_index="80" ele_name="edit150"/>
+<tab order="54" ele_index="82" ele_name="ed74"/>
+<tab order="55" ele_index="83" ele_name="ed84"/>
+<tab order="56" ele_index="84" ele_name="ed94"/>
+<tab order="57" ele_index="85" ele_name="eda4"/>
+<tab order="58" ele_index="86" ele_name="edb4"/>
+<tab order="59" ele_index="87" ele_name="edc4"/>
+<tab order="60" ele_index="88" ele_name="edit115"/>
+<tab order="61" ele_index="89" ele_name="edit116"/>
+<tab order="62" ele_index="90" ele_name="edit117"/>
+<tab order="63" ele_index="91" ele_name="edit118"/>
+<tab order="64" ele_index="92" ele_name="edit127"/>
+<tab order="65" ele_index="93" ele_name="edit128"/>
+<tab order="66" ele_index="94" ele_name="edit139"/>
+<tab order="67" ele_index="95" ele_name="edit140"/>
+<tab order="68" ele_index="96" ele_name="edit151"/>
+<tab order="69" ele_index="97" ele_name="edit152"/>
+<tab order="70" ele_index="98" ele_name="edit153"/>
+<tab order="71" ele_index="99" ele_name="edit154"/>
+<tab order="72" ele_index="101" ele_name="ed75"/>
+<tab order="73" ele_index="102" ele_name="ed85"/>
+<tab order="74" ele_index="103" ele_name="ed95"/>
+<tab order="75" ele_index="104" ele_name="eda5"/>
+<tab order="76" ele_index="105" ele_name="edb5"/>
+<tab order="77" ele_index="106" ele_name="edc5"/>
+<tab order="78" ele_index="107" ele_name="edit126"/>
+<tab order="79" ele_index="108" ele_name="edit125"/>
+<tab order="80" ele_index="109" ele_name="edit124"/>
+<tab order="81" ele_index="110" ele_name="edit123"/>
+<tab order="82" ele_index="111" ele_name="edit132"/>
+<tab order="83" ele_index="112" ele_name="edit131"/>
+<tab order="84" ele_index="113" ele_name="edit144"/>
+<tab order="85" ele_index="114" ele_name="edit143"/>
+<tab order="86" ele_index="115" ele_name="edit155"/>
+<tab order="87" ele_index="116" ele_name="edit156"/>
+<tab order="88" ele_index="117" ele_name="edit157"/>
+<tab order="89" ele_index="118" ele_name="edit158"/>
+<tab order="90" ele_index="119" ele_name="edit112"/>
+<tab order="91" ele_index="120" ele_name="edit111"/>
+<tab order="92" ele_index="121" ele_name="edit110"/>
+<tab order="93" ele_index="122" ele_name="edit109"/>
+<tab order="94" ele_index="123" ele_name="edit114"/>
+<tab order="95" ele_index="124" ele_name="edit113"/>
+<tab order="96" ele_index="125" ele_name="edit136"/>
+<tab order="97" ele_index="126" ele_name="edit135"/>
+<tab order="98" ele_index="127" ele_name="edit134"/>
+<tab order="99" ele_index="128" ele_name="edit133"/>
+<tab order="100" ele_index="129" ele_name="edit138"/>
+<tab order="101" ele_index="130" ele_name="edit137"/>
+<tab order="102" ele_index="131" ele_name="edit146"/>
+<tab order="103" ele_index="132" ele_name="edit145"/>
+<tab order="104" ele_index="133" ele_name="edit159"/>
+<tab order="105" ele_index="134" ele_name="edit160"/>
+<tab order="106" ele_index="135" ele_name="edit161"/>
+<tab order="107" ele_index="136" ele_name="edit162"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label34"/>
+<id order="3" ele_index="3" ele_name="label35"/>
+<id order="4" ele_index="4" ele_name="_input_range_labellabel"/>
+<id order="5" ele_index="5" ele_name="_input_range_label"/>
+<id order="6" ele_index="6" ele_name="label59"/>
+<id order="7" ele_index="7" ele_name="label216"/>
+<id order="8" ele_index="8" ele_name="checkbox1"/>
+<id order="9" ele_index="9" ele_name="checkbox2"/>
+<id order="10" ele_index="10" ele_name="checkbox3"/>
+<id order="11" ele_index="11" ele_name="checkbox4"/>
+<id order="12" ele_index="12" ele_name="checkbox5"/>
+<id order="13" ele_index="13" ele_name="checkbox6"/>
+<id order="14" ele_index="14" ele_name="checkbox7"/>
+<id order="15" ele_index="15" ele_name="checkbox8"/>
+<id order="16" ele_index="16" ele_name="checkbox9"/>
+<id order="17" ele_index="17" ele_name="checkbox10"/>
+<id order="18" ele_index="18" ele_name="checkbox11"/>
+<id order="19" ele_index="19" ele_name="checkbox12"/>
+<id order="20" ele_index="20" ele_name="checkbox13"/>
+<id order="21" ele_index="21" ele_name="checkbox14"/>
+<id order="22" ele_index="22" ele_name="checkbox15"/>
+<id order="23" ele_index="23" ele_name="checkbox16"/>
+<id order="24" ele_index="24" ele_name="checkbox17"/>
+<id order="25" ele_index="25" ele_name="checkbox18"/>
+<id order="26" ele_index="26" ele_name="stAir1"/>
+<id order="27" ele_index="27" ele_name="stAir2"/>
+<id order="28" ele_index="28" ele_name="stAir3"/>
+<id order="29" ele_index="29" ele_name="stAir4"/>
+<id order="30" ele_index="30" ele_name="stAir5"/>
+<id order="31" ele_index="31" ele_name="stAir6"/>
+<id order="32" ele_index="32" ele_name="label204"/>
+<id order="33" ele_index="33" ele_name="label205"/>
+<id order="34" ele_index="34" ele_name="label206"/>
+<id order="35" ele_index="35" ele_name="label207"/>
+<id order="36" ele_index="36" ele_name="label208"/>
+<id order="37" ele_index="37" ele_name="label209"/>
+<id order="38" ele_index="38" ele_name="label210"/>
+<id order="39" ele_index="39" ele_name="label211"/>
+<id order="40" ele_index="40" ele_name="label212"/>
+<id order="41" ele_index="41" ele_name="label213"/>
+<id order="42" ele_index="42" ele_name="label214"/>
+<id order="43" ele_index="43" ele_name="label215"/>
+<id order="44" ele_index="44" ele_name="dropdown1"/>
+<id order="45" ele_index="45" ele_name="dropdown2"/>
+<id order="46" ele_index="46" ele_name="dropdown3"/>
+<id order="47" ele_index="47" ele_name="dropdown4"/>
+<id order="48" ele_index="48" ele_name="dropdown5"/>
+<id order="49" ele_index="49" ele_name="dropdown6"/>
+<id order="50" ele_index="50" ele_name="dropdown7"/>
+<id order="51" ele_index="51" ele_name="dropdown8"/>
+<id order="52" ele_index="52" ele_name="dropdown9"/>
+<id order="53" ele_index="53" ele_name="dropdown10"/>
+<id order="54" ele_index="54" ele_name="dropdown11"/>
+<id order="55" ele_index="55" ele_name="dropdown12"/>
+<id order="56" ele_index="56" ele_name="dropdown13"/>
+<id order="57" ele_index="57" ele_name="dropdown14"/>
+<id order="58" ele_index="58" ele_name="dropdown15"/>
+<id order="59" ele_index="59" ele_name="dropdown16"/>
+<id order="60" ele_index="60" ele_name="dropdown17"/>
+<id order="61" ele_index="61" ele_name="dropdown18"/>
+<id order="62" ele_index="62" ele_name="label121"/>
+<id order="63" ele_index="63" ele_name="ed73"/>
+<id order="64" ele_index="64" ele_name="ed83"/>
+<id order="65" ele_index="65" ele_name="ed93"/>
+<id order="66" ele_index="66" ele_name="eda3"/>
+<id order="67" ele_index="67" ele_name="edb3"/>
+<id order="68" ele_index="68" ele_name="edc3"/>
+<id order="69" ele_index="69" ele_name="edit119"/>
+<id order="70" ele_index="70" ele_name="edit120"/>
+<id order="71" ele_index="71" ele_name="edit121"/>
+<id order="72" ele_index="72" ele_name="edit122"/>
+<id order="73" ele_index="73" ele_name="edit129"/>
+<id order="74" ele_index="74" ele_name="edit130"/>
+<id order="75" ele_index="75" ele_name="edit141"/>
+<id order="76" ele_index="76" ele_name="edit142"/>
+<id order="77" ele_index="77" ele_name="edit147"/>
+<id order="78" ele_index="78" ele_name="edit148"/>
+<id order="79" ele_index="79" ele_name="edit149"/>
+<id order="80" ele_index="80" ele_name="edit150"/>
+<id order="81" ele_index="81" ele_name="label119"/>
+<id order="82" ele_index="82" ele_name="ed74"/>
+<id order="83" ele_index="83" ele_name="ed84"/>
+<id order="84" ele_index="84" ele_name="ed94"/>
+<id order="85" ele_index="85" ele_name="eda4"/>
+<id order="86" ele_index="86" ele_name="edb4"/>
+<id order="87" ele_index="87" ele_name="edc4"/>
+<id order="88" ele_index="88" ele_name="edit115"/>
+<id order="89" ele_index="89" ele_name="edit116"/>
+<id order="90" ele_index="90" ele_name="edit117"/>
+<id order="91" ele_index="91" ele_name="edit118"/>
+<id order="92" ele_index="92" ele_name="edit127"/>
+<id order="93" ele_index="93" ele_name="edit128"/>
+<id order="94" ele_index="94" ele_name="edit139"/>
+<id order="95" ele_index="95" ele_name="edit140"/>
+<id order="96" ele_index="96" ele_name="edit151"/>
+<id order="97" ele_index="97" ele_name="edit152"/>
+<id order="98" ele_index="98" ele_name="edit153"/>
+<id order="99" ele_index="99" ele_name="edit154"/>
+<id order="100" ele_index="100" ele_name="label118"/>
+<id order="101" ele_index="101" ele_name="ed75"/>
+<id order="102" ele_index="102" ele_name="ed85"/>
+<id order="103" ele_index="103" ele_name="ed95"/>
+<id order="104" ele_index="104" ele_name="eda5"/>
+<id order="105" ele_index="105" ele_name="edb5"/>
+<id order="106" ele_index="106" ele_name="edc5"/>
+<id order="107" ele_index="107" ele_name="edit126"/>
+<id order="108" ele_index="108" ele_name="edit125"/>
+<id order="109" ele_index="109" ele_name="edit124"/>
+<id order="110" ele_index="110" ele_name="edit123"/>
+<id order="111" ele_index="111" ele_name="edit132"/>
+<id order="112" ele_index="112" ele_name="edit131"/>
+<id order="113" ele_index="113" ele_name="edit144"/>
+<id order="114" ele_index="114" ele_name="edit143"/>
+<id order="115" ele_index="115" ele_name="edit155"/>
+<id order="116" ele_index="116" ele_name="edit156"/>
+<id order="117" ele_index="117" ele_name="edit157"/>
+<id order="118" ele_index="118" ele_name="edit158"/>
+<id order="119" ele_index="119" ele_name="edit112"/>
+<id order="120" ele_index="120" ele_name="edit111"/>
+<id order="121" ele_index="121" ele_name="edit110"/>
+<id order="122" ele_index="122" ele_name="edit109"/>
+<id order="123" ele_index="123" ele_name="edit114"/>
+<id order="124" ele_index="124" ele_name="edit113"/>
+<id order="125" ele_index="125" ele_name="edit136"/>
+<id order="126" ele_index="126" ele_name="edit135"/>
+<id order="127" ele_index="127" ele_name="edit134"/>
+<id order="128" ele_index="128" ele_name="edit133"/>
+<id order="129" ele_index="129" ele_name="edit138"/>
+<id order="130" ele_index="130" ele_name="edit137"/>
+<id order="131" ele_index="131" ele_name="edit146"/>
+<id order="132" ele_index="132" ele_name="edit145"/>
+<id order="133" ele_index="133" ele_name="edit159"/>
+<id order="134" ele_index="134" ele_name="edit160"/>
+<id order="135" ele_index="135" ele_name="edit161"/>
+<id order="136" ele_index="136" ele_name="edit162"/>
+<id order="137" ele_index="137" ele_name="label231"/>
+<id order="138" ele_index="138" ele_name="label232"/>
+<id order="139" ele_index="139" ele_name="label233"/>
+<id order="140" ele_index="140" ele_name="label234"/>
+<id order="141" ele_index="141" ele_name="label235"/>
+<id order="142" ele_index="142" ele_name="label236"/>
+<id order="143" ele_index="143" ele_name="label237"/>
+<id order="144" ele_index="144" ele_name="label238"/>
+<id order="145" ele_index="145" ele_name="label239"/>
+<id order="146" ele_index="146" ele_name="label240"/>
+<id order="147" ele_index="147" ele_name="label241"/>
+<id order="148" ele_index="148" ele_name="label242"/>
+<id order="149" ele_index="149" ele_name="label243"/>
+<id order="150" ele_index="150" ele_name="label244"/>
+<id order="151" ele_index="151" ele_name="label245"/>
+<id order="152" ele_index="152" ele_name="label246"/>
+<id order="153" ele_index="153" ele_name="label247"/>
+<id order="154" ele_index="154" ele_name="label248"/>
+<id order="155" ele_index="155" ele_name="label249"/>
+<id order="156" ele_index="156" ele_name="label250"/>
+<id order="157" ele_index="157" ele_name="label251"/>
+<id order="158" ele_index="158" ele_name="label252"/>
+<id order="159" ele_index="159" ele_name="label253"/>
+<id order="160" ele_index="160" ele_name="label254"/>
+<id order="161" ele_index="161" ele_name="label255"/>
+<id order="162" ele_index="162" ele_name="label256"/>
+<id order="163" ele_index="163" ele_name="label257"/>
+<id order="164" ele_index="164" ele_name="label258"/>
+<id order="165" ele_index="165" ele_name="label259"/>
+<id order="166" ele_index="166" ele_name="label260"/>
+<id order="167" ele_index="167" ele_name="label261"/>
+<id order="168" ele_index="168" ele_name="label262"/>
+<id order="169" ele_index="169" ele_name="label263"/>
+<id order="170" ele_index="170" ele_name="label264"/>
+<id order="171" ele_index="171" ele_name="label265"/>
+<id order="172" ele_index="172" ele_name="label266"/>
+<id order="173" ele_index="173" ele_name="line1"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="3:ADJMOLD|||0:调模|||1:Регулировка|||2:금형조정|||4:|||5:|||6:Ajuste|||7:AyarKalıp|||8:|||9:HT molde ajustar|||10:Diều chỉnh k.|||11:F1INJT|||default:ADJMOLD" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnADJUST.png" 按下图片="btnADJUSTx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="3:SAFEDR|||0:安全门|||1:Зап.дв.|||2:안전문|||4:|||5:|||6:SegPuerta|||7:Güv Kapı|||8:|||9:SafeDr|||10:Cửa an toà|||11:F2SEQUE|||default:SAFEDR" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDOOR.png" 按下图片="btnDOORx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="3:ROBOT|||0:机械手|||1:Робот|||2:로보트|||4:|||5:|||6:Robot|||7:Robot|||8:|||9:Robot|||10:Tay cơ|||11:F3FUNC|||default:ROBOT" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnROBOT.png" 按下图片="btnROBOTx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:заказ клап.|||4:|||5:|||6:OrdenVálv|||0:顺序阀|||3:SEQVLV|||2:순서밸브|||7:Sıra Vana|||8:|||9:SequênVál|||10:Trật tự Van|||11:F4FUNC2|||default:SEQVLV" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSEQVLV.png" 按下图片="btnSEQVLVx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR4"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR4"/>
+<event name="点击" act="jump key 4"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="3:SEQVLV2|||0:顺序阀2|||1:заказ клап.2|||2:순서밸브2|||4:|||5:|||6:OrdenVálv 2|||7:Sıra Vana2|||8:|||9:SequênVál2|||10:Trật tự Van|||11:F5CURV|||default:SEQVLV2" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSEQVLV2.png" 按下图片="btnSEQVLV2x.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||11:F6PARA|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||11:F7BACK|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

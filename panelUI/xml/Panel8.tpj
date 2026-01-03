@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db name="Panel8" fact="2">
+<system name="MapDrv" title="数据表" id="256">
+<MapDrv>week</MapDrv>
+<MapDrv>alarm</MapDrv>
+<MapDrv>act</MapDrv>
+<MapDrv>step</MapDrv>
+<MapDrv>servo_run_state</MapDrv>
+<MapDrv>servo_comm_state</MapDrv>
+<MapDrv>can_state</MapDrv>
+<MapDrv>output</MapDrv>
+<MapDrv>input</MapDrv>
+<MapDrv>operatmoni</MapDrv>
+<MapDrv>information</MapDrv>
+<MapDrv>servo_state</MapDrv>
+<MapDrv>phase_motor</MapDrv>
+<MapDrv>inovance_motor</MapDrv>
+<MapDrv>servo_self_learn</MapDrv>
+<MapDrv>servo_alarm_help</MapDrv>
+<MapDrv>text_table</MapDrv>
+<MapDrv>heat_state</MapDrv>
+<MapDrv>alarm_help</MapDrv>
+<MapDrv>page_help</MapDrv>
+<MapDrv>iot_state</MapDrv>
+<MapDrv>power_type</MapDrv>
+<MapDrv>mach_type</MapDrv>
+<MapDrv>use_type</MapDrv>
+<MapDrv>main_cmd</MapDrv>
+<MapDrv>panel_rec</MapDrv>
+<MapDrv>vlv_logic</MapDrv>
+<MapDrv>servo_alarm</MapDrv>
+<MapDrv>pump_func</MapDrv>
+</system>
+<system name="KeyMap" title="KeyMap" id="257">
+<KeyMap>KeyMap</KeyMap>
+<KeyMap>KeyMap-G15</KeyMap>
+<KeyMap>KeyMap-G15Board</KeyMap>
+</system>
+<device name="EstDEV" title="伊士通设备" id="259">
+<EstDEV>设备参数</EstDEV>
+</device>
+<device name="UnitMap" title="UnitMap" id="260"/>
+</db>

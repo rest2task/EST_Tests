@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="IO_Force" 可见="-1" 标题="3:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="215" 宽度="520" 高度="370" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btok" 索引="0" 可见="-1" 可用="-1" 左="325" 顶="530" 宽度="110" 高度="35" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btcancel" 索引="0" 可见="-1" 可用="-1" 左="155" 顶="530" 宽度="110" 高度="35" 标题="0:取消|||1:Отмен|||2:취소|||3:Cancel|||4:إلغاء|||5:Cancel|||6:Cancel|||7:İptal|||8:لغو|||9:Cancelar|||10:Hủy|||default:Cancel" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="dlg close"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="220" 宽度="200" 高度="26" 语言表索引="0" 文本="0:IO强制|||1:IO Обязательный|||2:IO 의무적 인|||3:IO Force|||6:IO Fuerza|||7:IO Güç|||9:IO Obrigatório|||10:IO Lực lượng|||default:IO Force" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="280" 宽度="490" 高度="65" 文本="3:|||0:|||default:" 字体="宋体" 字号="16" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="0" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox1" 索引="0" 可见="-1" 可用="0" 左="335" 顶="305" 宽度="50" 高度="30" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="305" 宽度="230" 高度="30" 语言表索引="0" 文本="0:实际输入状态值|||1:Факт.ВходСост.|||2:실제 입력 상태 값|||3:Real Input State|||6:Real Entrada Estado|||7:Gerçek Giriş Durumu|||9:Estado de entrada real|||10:Thật vào Tiểu bang|||default:Real Input State" 横向对齐="2" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="360" 宽度="490" 高度="125" 文本="3:|||0:|||default:" 字体="宋体" 字号="16" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="0" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="385" 宽度="230" 高度="30" 语言表索引="0" 文本="0:是否使用强制输入？|||1:Это обязательно?|||2:필수 입력을 사용합니까?|||3:Whether Use Force Input?|||6:¿Utilizar entrada forzada?|||7:Kuvvet Girdisi Kullanılsın mı?|||9:Quer usar entrada forçada?|||10:Cho dù sử dụng Lực lượng vào?|||default:Whether Use Force Input?" 横向对齐="2" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox2" 索引="0" 可见="-1" 可用="-1" 左="334" 顶="385" 宽度="50" 高度="30" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="430" 宽度="230" 高度="30" 语言表索引="0" 文本="0:强制设置|||1:Обязательная настройка|||2:필수 설정|||3:Forced Setting|||6:forzado Set|||7:Zorla Ayar|||9:Configuração Forçada|||10:Lực lượng Bộ|||default:Forced Setting" 横向对齐="2" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox3" 索引="0" 可见="-1" 可用="-1" 左="334" 顶="430" 宽度="50" 高度="30" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<horz order="0" ele_index="5" ele_name="checkbox1"/>
+<horz order="1" ele_index="9" ele_name="checkbox2"/>
+<horz order="2" ele_index="11" ele_name="checkbox3"/>
+<horz order="3" ele_index="2" ele_name="btcancel"/>
+<horz order="4" ele_index="1" ele_name="btok"/>
+<vert order="0" ele_index="5" ele_name="checkbox1"/>
+<vert order="1" ele_index="9" ele_name="checkbox2"/>
+<vert order="2" ele_index="11" ele_name="checkbox3"/>
+<vert order="3" ele_index="2" ele_name="btcancel"/>
+<vert order="4" ele_index="1" ele_name="btok"/>
+<tab order="0" ele_index="5" ele_name="checkbox1"/>
+<tab order="1" ele_index="9" ele_name="checkbox2"/>
+<tab order="2" ele_index="11" ele_name="checkbox3"/>
+<tab order="3" ele_index="2" ele_name="btcancel"/>
+<tab order="4" ele_index="1" ele_name="btok"/>
+<id order="0" ele_index="0" ele_name="label5"/>
+<id order="1" ele_index="1" ele_name="btok"/>
+<id order="2" ele_index="2" ele_name="btcancel"/>
+<id order="3" ele_index="3" ele_name="label1"/>
+<id order="4" ele_index="4" ele_name="groupbox1"/>
+<id order="5" ele_index="5" ele_name="checkbox1"/>
+<id order="6" ele_index="6" ele_name="label2"/>
+<id order="7" ele_index="7" ele_name="groupbox2"/>
+<id order="8" ele_index="8" ele_name="label3"/>
+<id order="9" ele_index="9" ele_name="checkbox2"/>
+<id order="10" ele_index="10" ele_name="label4"/>
+<id order="11" ele_index="11" ele_name="checkbox3"/>
+<jmp_list desc=""/>
+</element>

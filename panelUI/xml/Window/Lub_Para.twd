@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Lub_Para" 可见="-1" 标题="0:润滑参数|||1:СмазкаПараметр|||2:윤활유매개변수|||3:Lubri Para|||4:معلمات التشحيم|||5:Lubri Para|||6:Parám Lubricación|||7:Yağlama param|||8:پارامترهای روانکاری|||9:Parâm lubrificação|||10:Thông số bôi trơn|||default:Lubri Para" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="309" 顶="10" 宽度="282" 高度="260" 文本="0:润滑限制|||1:Предел смазки|||2:윤활 한계|||3:Lubrication Limit|||4:حد التشحيم|||5:|||6:Límite de lubricación|||7:Yağlama sınırı|||8:محدودیت روغن کاری|||9:Limite de lubrificação|||10:Giới hạn bôi trơn|||default:Lubrication Limit" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="35" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑模数上限|||1:СчетчикСмазкиМакс|||2:윤활 횟수최대|||3:AutoLub Count Max|||4:الحد الأعلى لوحدة التشحيم الأوتوماتيكي|||5:|||6:Auto Lub Contar Máx.|||7:OtoYağ Sayı Maks.|||8:حد بالایی ماژول روانکاری خودکار|||9:Auto Lubri Cnt Max|||10:Số lượng bồn rửa tự động tối đa|||default:AutoLub Count Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="147" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑计时下限|||1:ВремяСмазкиМин.|||2:윤활 시간 하한|||3:AutoLub Time Min|||4:توقيت التشحيم الحد الأدنى|||5:|||6:Auto Lub Tm Min|||7:OtoYağ Zaman Minimum|||8:زمان روغنکاری حد پایین تر|||9:Auto Lubri Tempo Min|||10:Thời gian bôi trơn giới hạn dưới|||default:AutoLub Time Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label33" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="175" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑延迟上限|||1:ЗадржСмзкиМакс|||2:윤활 지연 최대|||3:AutoLub Delay Max|||4:الحد الأعلى لتأخير التزييت|||5:|||6:Auto Lubri Retardo Máx.|||7:OtoYağ Gecikişi Maks.|||8:حد بالایی تاخیر روانکاری|||9:Auto Lubri Adia Max|||10:Giới hạn trên của độ trễ bôi trơn|||default:AutoLub Delay Max" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="203" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑总计时下限|||1:ОбщееВрмяСмзкиМин.|||2:윤활 전체시간하한|||3:AutoLub TotalTm Min|||4:الحد الأدنى لوقت التشحيم الكلي|||5:|||6:Auto Lub TotalTm Min|||7:OtoYağ ToplamZam Min|||8:حد پایین تر زمان کل روغن کاری|||9:Auto Lubri TotalTm Min|||10:Giới hạn dưới của tổng thời gian bôi trơn|||default:AutoLub TotalTm Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editset" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="35" 宽度="75" 高度="24" 文本="300" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:300" 关联变量="p.PP.MACHSET.wLUBCNTMAX" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBCNTMAX"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.CN_LUBUNIT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit11" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="147" 宽度="75" 高度="24" 文本="10.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:10.0" 关联变量="p.PP.MACHSET.wLUBTMMIN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="9999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBTMMIN"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.TM_LUBACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit12" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="175" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="p.PP.MACHSET.wLUBDLYMAX" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBDLYMAX"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.TM_LUBDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit13" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="203" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="p.PP.MACHSET.wLUBDLYMIN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="9999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBDLYMIN"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.TM_LUBTOTAL"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label61" 索引="0" 可见="-1" 可用="-1" 左="572" 顶="147" 宽度="20" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label62" 索引="0" 可见="-1" 可用="-1" 左="572" 顶="175" 宽度="20" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label63" 索引="0" 可见="-1" 可用="-1" 左="572" 顶="203" 宽度="20" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editmach" 索引="0" 可见="-1" 可用="0" 左="496" 顶="35" 宽度="75" 高度="24" 文本="300" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:300" 关联变量="d.machine1.MACHSET.FL_reserve_2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.MACHSET.FL_reserve_2"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.CN_LUBUNIT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label204" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="63" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑一模数下限|||1:|||2:|||3:AutoLub1 Cnt Min|||4:|||6:|||7:|||8:|||9:|||10:|||5:|||default:AutoLub1 Cnt Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label205" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="91" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑二模数下限|||1:|||2:|||3:AutoLub2 Cnt Min|||4:|||6:|||7:|||8:|||9:|||10:|||5:|||default:AutoLub2 Cnt Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label206" 索引="0" 可见="-1" 可用="-1" 左="319" 顶="119" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动润滑三模数下限|||1:|||2:|||3:AutoLub3 Cnt Min|||4:|||6:|||7:|||8:|||9:|||10:|||5:|||default:AutoLub3 Cnt Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit15" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="119" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="default:0.0" 关联变量="p.PP.MACHSET.wLUBR3_CNT_MIN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBR3_CNT_MIN"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.TM_LUBDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit14" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="91" 宽度="75" 高度="24" 文本="10.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="default:10.0" 关联变量="p.PP.MACHSET.wLUBR2_CNT_MIN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="9999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBR2_CNT_MIN"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.TM_LUBACT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit10" 索引="0" 可见="-1" 可用="-1" 左="496" 顶="63" 宽度="75" 高度="24" 文本="300" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="default:300" 关联变量="p.PP.MACHSET.wLUBR1_CNT_MIN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.wLUBR1_CNT_MIN"/>
+<var prop="文本" orient="out" tag="d.lub1.MACHSET.CN_LUBUNIT"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="295" 高度="260" 文本="0:润滑功能|||1:Lubrication Func|||2:Lubrication Func|||3:Lubrication Func|||4:Lubrication Func|||5:Lubrication Func|||6:Lubrication Func|||7:Lubrication Func|||8:Lubrication Func|||9:Lubrication Func|||10:Lubrication Func|||default:Lubrication Func" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelrelub" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="63" 宽度="195" 高度="24" 语言表索引="0" 文本="0:润滑异常立即重新润滑|||1:Lub Error ReLub|||2:Lub Error ReLub|||3:Lub Error ReLub|||4:Lub Error ReLub|||5:Lub Error ReLub|||6:Lub Error ReLub|||7:Lub Error ReLub|||8:Lub Error ReLub|||9:Lub Error ReLub|||10:Lub Error ReLub|||default:Lub Error ReLub" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dprelub" 索引="0" 可见="-1" 可用="-1" 左="216" 顶="63" 宽度="85" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.lub1.MACHSET.FL_LUBERR_AGAIN" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.lub1.MACHSET.FL_LUBERR_AGAIN"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labellubmod" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="91" 宽度="195" 高度="24" 语言表索引="0" 文本="0:润滑异常后自动前润滑模式 |||1:Aft LubError Bef Auto LubMode|||2:Aft LubError Bef Auto LubMode|||3:Aft LubError Bef Auto LubMode|||4:Aft LubError Bef Auto LubMode|||5:Aft LubError Bef Auto LubMode|||6:Aft LubError Bef Auto LubMode|||7:Aft LubError Bef Auto LubMode|||8:Aft LubError Bef Auto LubMode|||9:Aft LubError Bef Auto LubMode|||10:Aft LubError Bef Auto LubMode|||default:Aft LubError Bef Auto LubMode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dprelubmod" 索引="0" 可见="-1" 可用="-1" 左="216" 顶="91" 宽度="85" 高度="24" 数据="0:标准;单次|||1:Standard;Once|||2:Standard;Once|||3:Standard;Once|||4:Standard;Once|||5:Standard;Once|||6:Standard;Once|||7:Standard;Once|||8:Standard;Once|||9:Standard;Once|||10:Standard;Once|||default:标准" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.lub1.MACHSET.FL_LUBERR_AUTOMODE" 当前值="0" cur_text="标准" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.lub1.MACHSET.FL_LUBERR_AUTOMODE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label207" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="35" 宽度="195" 高度="24" 语言表索引="0" 文本="0:调模输出润滑|||1:Adjust Output Lub|||2:Adjust Output Lub|||3:Adjust Output Lub|||4:Adjust Output Lub|||6:Adjust Output Lub|||7:Adjust Output Lub|||8:Adjust Output Lub|||9:Adjust Output Lub|||10:Adjust Output Lub|||5:Adjust Output Lub|||default:Adjust Output Lub" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown1" 索引="0" 可见="-1" 可用="-1" 左="216" 顶="35" 宽度="85" 高度="24" 数据="0:不使用;润滑1;润滑2;润滑3|||1:Not Use;Lub1;Lub2;Lub3|||2:Not Use;Lub1;Lub2;Lub3|||3:Not Use;Lub1;Lub2;Lub3|||4:Not Use;Lub1;Lub2;Lub3|||5:Not Use;Lub1;Lub2;Lub3|||6:Not Use;Lub1;Lub2;Lub3|||7:Not Use;Lub1;Lub2;Lub3|||8:Not Use;Lub1;Lub2;Lub3|||9:Not Use;Lub1;Lub2;Lub3|||10:Not Use;Lub1;Lub2;Lub3|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.adjust1.MACHSET.FL_ADJ_LUB" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.adjust1.MACHSET.FL_ADJ_LUB"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label208" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="119" 宽度="195" 高度="24" 语言表索引="0" 文本="0:自动使用润滑按键|||1:Auto Use LubKey|||2:Auto Use LubKey|||3:Auto Use LubKey|||4:Auto Use LubKey|||6:Auto Use LubKey|||7:Auto Use LubKey|||8:Auto Use LubKey|||9:Auto Use LubKey|||10:Auto Use LubKey|||5:Auto Use LubKey|||default:Auto Use LubKey" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="btautolubkey" 索引="0" 可见="-1" 可用="-1" 左="216" 顶="119" 宽度="85" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.lub1.MACHSET.FL_LUBERR_AUTOKEY" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.lub1.MACHSET.FL_LUBERR_AUTOKEY"/>
+</element>
+<horz order="0" ele_index="28" ele_name="dropdown1"/>
+<horz order="1" ele_index="8" ele_name="editset"/>
+<horz order="2" ele_index="24" ele_name="dprelub"/>
+<horz order="3" ele_index="21" ele_name="edit10"/>
+<horz order="4" ele_index="26" ele_name="dprelubmod"/>
+<horz order="5" ele_index="20" ele_name="edit14"/>
+<horz order="6" ele_index="30" ele_name="btautolubkey"/>
+<horz order="7" ele_index="19" ele_name="edit15"/>
+<horz order="8" ele_index="9" ele_name="edit11"/>
+<horz order="9" ele_index="10" ele_name="edit12"/>
+<horz order="10" ele_index="11" ele_name="edit13"/>
+<vert order="0" ele_index="28" ele_name="dropdown1"/>
+<vert order="1" ele_index="24" ele_name="dprelub"/>
+<vert order="2" ele_index="26" ele_name="dprelubmod"/>
+<vert order="3" ele_index="30" ele_name="btautolubkey"/>
+<vert order="4" ele_index="8" ele_name="editset"/>
+<vert order="5" ele_index="21" ele_name="edit10"/>
+<vert order="6" ele_index="20" ele_name="edit14"/>
+<vert order="7" ele_index="19" ele_name="edit15"/>
+<vert order="8" ele_index="9" ele_name="edit11"/>
+<vert order="9" ele_index="10" ele_name="edit12"/>
+<vert order="10" ele_index="11" ele_name="edit13"/>
+<tab order="0" ele_index="28" ele_name="dropdown1"/>
+<tab order="1" ele_index="24" ele_name="dprelub"/>
+<tab order="2" ele_index="26" ele_name="dprelubmod"/>
+<tab order="3" ele_index="30" ele_name="btautolubkey"/>
+<tab order="4" ele_index="8" ele_name="editset"/>
+<tab order="5" ele_index="21" ele_name="edit10"/>
+<tab order="6" ele_index="20" ele_name="edit14"/>
+<tab order="7" ele_index="19" ele_name="edit15"/>
+<tab order="8" ele_index="9" ele_name="edit11"/>
+<tab order="9" ele_index="10" ele_name="edit12"/>
+<tab order="10" ele_index="11" ele_name="edit13"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="_input_range_labellabel"/>
+<id order="2" ele_index="2" ele_name="_input_range_label"/>
+<id order="3" ele_index="3" ele_name="groupbox1"/>
+<id order="4" ele_index="4" ele_name="label30"/>
+<id order="5" ele_index="5" ele_name="label32"/>
+<id order="6" ele_index="6" ele_name="label33"/>
+<id order="7" ele_index="7" ele_name="label34"/>
+<id order="8" ele_index="8" ele_name="editset"/>
+<id order="9" ele_index="9" ele_name="edit11"/>
+<id order="10" ele_index="10" ele_name="edit12"/>
+<id order="11" ele_index="11" ele_name="edit13"/>
+<id order="12" ele_index="12" ele_name="label61"/>
+<id order="13" ele_index="13" ele_name="label62"/>
+<id order="14" ele_index="14" ele_name="label63"/>
+<id order="15" ele_index="15" ele_name="editmach"/>
+<id order="16" ele_index="16" ele_name="label204"/>
+<id order="17" ele_index="17" ele_name="label205"/>
+<id order="18" ele_index="18" ele_name="label206"/>
+<id order="19" ele_index="19" ele_name="edit15"/>
+<id order="20" ele_index="20" ele_name="edit14"/>
+<id order="21" ele_index="21" ele_name="edit10"/>
+<id order="22" ele_index="22" ele_name="groupbox2"/>
+<id order="23" ele_index="23" ele_name="labelrelub"/>
+<id order="24" ele_index="24" ele_name="dprelub"/>
+<id order="25" ele_index="25" ele_name="labellubmod"/>
+<id order="26" ele_index="26" ele_name="dprelubmod"/>
+<id order="27" ele_index="27" ele_name="label207"/>
+<id order="28" ele_index="28" ele_name="dropdown1"/>
+<id order="29" ele_index="29" ele_name="label208"/>
+<id order="30" ele_index="30" ele_name="btautolubkey"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Смазка|||2:윤활유|||3:LUBR|||4:LUBR|||5:LUBR|||6:Engrase|||0:润滑|||7:Yağlama|||8:LUBR|||9:Lubri|||10:Bôi trơn|||default:LUBR" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLUBR.png" 按下图片="btnLUBRx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;系统&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Парам|||2:변수|||3:PARAM|||4:PARAM|||5:PARAM|||6:Param|||0:参数|||7:Param|||8:PARAM|||9:Parâm|||10:tham số|||default:PARAM" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARAM.png" 按下图片="btnPARAMx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;厂商&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;版本&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;重置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;语言&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

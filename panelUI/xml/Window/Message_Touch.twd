@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Message_Touch" 可见="-1" 标题="3:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="260" 宽度="380" 高度="280" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblinfo" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="310" 宽度="300" 高度="165" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="260" 宽度="200" 高度="28" 语言表索引="0" 文本="0:信息提示|||1:Сообщение|||2:메시지|||3:Message|||4:تنبيه|||5:Information|||6:Información De Operación|||7:İleti|||8:تذکرات|||9:Mensagem|||10:Thông tin thao tác|||default:Message" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="lblinfo"/>
+<id order="2" ele_index="2" ele_name="label2"/>
+<jmp_list desc=""/>
+</element>

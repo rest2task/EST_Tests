@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="UdiskAutoUpdate" 可见="-1" 标题="3:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="260" 宽度="380" 高度="280" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="260" 宽度="200" 高度="28" 语言表索引="0" 文本="0:自动更新|||1:АвтоОбновит|||2:키 조작 업데이트|||3:Auto Update|||4:تنبيه|||5:Information|||6:Auto Actualiz|||7:Oto Güncell|||8:تذکرات|||9:Auto Atualizar|||10:Tự động Cập nhiệt|||default:Auto Update" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="300" 宽度="369" 高度="42" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="4" 格式="" 转换表名称="information" 自动换行="-1"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.INFORMATION_INDEX"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb1" 索引="2" 可见="-1" 可用="-1" 左="287" 顶="406" 宽度="45" 高度="24" 选择="0" 关联变量="" 关联变量位="-1" 标题="0:1|||3:1|||default:1" 背景色="16777215" 焦点底色="-1" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb2" 索引="2" 可见="-1" 可用="-1" 左="344" 顶="406" 宽度="45" 高度="24" 选择="0" 关联变量="" 关联变量位="-1" 标题="0:2|||3:2|||default:2" 背景色="16777215" 焦点底色="-1" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb3" 索引="2" 可见="-1" 可用="-1" 左="401" 顶="406" 宽度="45" 高度="24" 选择="0" 关联变量="" 关联变量位="-1" 标题="0:3|||3:3|||default:3" 背景色="16777215" 焦点底色="-1" 焦点文本色="16777215" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="runkey" 索引="0" 可见="-1" 可用="-1" 左="178" 顶="406" 宽度="100" 高度="24" 语言表索引="0" 文本="0:运行键|||1:Pаботать|||2:싸이클 시작|||3:Cyc Start|||4:تشغيل|||5:Cyc Start|||6:Cyc Inicio|||7:Çalıştırmak|||8:اجرا|||9:Correr|||10:Vận hành|||default:Cyc Start" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="sec" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="361" 宽度="53" 高度="26" 语言表索引="0" 文本="0:s...|||1:s...|||2:s...|||3:s...|||4:s...|||5:s...|||6:s...|||7:s...|||8:s...|||9:s...|||10:s...|||default:s..." 横向对齐="0" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="22" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="progbar" type_id="25">
+<prop 名称="panelbar1" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="441" 宽度="230" 高度="28" 透明度="255" 条带颜色="14791680" 背景色="12632256" 文本色="0" 最大进度="100" 当前进度="0" 方向="0" 对齐="1" 是否变灰="0" 格式="%p%" 显示模式="0" 字体="宋体" 字号="16"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label51" 索引="0" 可见="0" 可用="-1" 左="121" 顶="472" 宽度="361" 高度="65" 语言表索引="0" 文本="0:更新中，请不要插拔U盘和电源......|||1:В обн.проц.нельзя вытащ.флэш.или прекр.эл.!|||2:프로그램 업데이트 중에는, U 디스크 또는 전원을 연결하지 마십시오|||3:Program updating, do not plug the U disk or power|||4:تحديث البرنامج، لا سد القرص U أو انقطاع التيار الكهربائي!|||5:Program updating, do not plug the U disk or power|||6:Actualización Programa, No Conecte Disco U O Poder|||7:Program Güncellemesi, U Disk Veya Güç Takmayın|||8:برنامه در حال به روز شدن است. فلش کارت را بیرون نکشید یا برق را قطع نکنید|||9:Atualizando, não retire pandrive U ou alimentação de energia!|||10:Chương trình đang cập nhật, vui lòng đừng rút USB hoặc cắt điện!|||default:Program updating, do not plug the U disk or power" 横向对齐="1" 纵向对齐="1" 文本色="16711702" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="-1"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="time" 索引="0" 可见="-1" 可用="-1" 左="254" 顶="361" 宽度="37" 高度="26" 文本="0" 字体="宋体" 字号="22" 透明度="255" 背景色="16777215" 禁用背景色="-1" 边框色="4294967295" 边框宽度="1" 对齐="2" 文本色="255" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL473" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="9990" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="-1"/>
+<var prop="文本" orient="out" tag="d.nozzle1.ACTPARA.TM_NOZADVACT"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL473"/>
+</element>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="label2"/>
+<id order="2" ele_index="2" ele_name="label1"/>
+<id order="3" ele_index="3" ele_name="cb1"/>
+<id order="4" ele_index="4" ele_name="cb2"/>
+<id order="5" ele_index="5" ele_name="cb3"/>
+<id order="6" ele_index="6" ele_name="runkey"/>
+<id order="7" ele_index="7" ele_name="sec"/>
+<id order="8" ele_index="8" ele_name="panelbar1"/>
+<id order="9" ele_index="9" ele_name="label51"/>
+<id order="10" ele_index="10" ele_name="time"/>
+<jmp_list desc=""/>
+</element>

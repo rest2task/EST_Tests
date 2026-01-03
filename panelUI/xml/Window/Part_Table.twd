@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Part_Table" 可见="-1" 标题="0:部件表|||1:Таб часть|||2:부품 표|||3:Part Table|||6:Piezas|||7:Parça Tablosu|||9:List Peças|||10:Phần bảng|||default:Part Table" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="切换控件" act=""/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="初始化" act=""/>
+<event name="定时器" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label0" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="65" 宽度="140" 高度="30" 语言表索引="0" 文本="0:部件名称|||1:часть имя|||2:부품 명|||3:Part Name|||6:Nombre Parte|||7:Parça adı|||9:Peça Nome|||10:Tên bộ phận|||default:Part Name" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="95" 宽度="140" 高度="28" 语言表索引="0" 文本="0:机器|||1:Машины|||2:제조사코드|||3:Machine|||6:Máquina|||7:Üretici|||9:Machine|||10:Máy móc|||default:Machine" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="123" 宽度="140" 高度="28" 语言表索引="0" 文本="0:马达|||1:двигатель|||2:모터|||3:Motor|||6:Motor|||7:MOTOR|||9:Motor|||10:Mô tơ|||default:Motor" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="263" 宽度="140" 高度="28" 语言表索引="0" 文本="0:TC温度|||1:TC Темп|||2:TC 온도|||3:TC Temp|||6:TC Temp|||7:TC Isılar|||9:TC Temp|||10:TC Nhiệt độ|||default:TC Temp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="151" 宽度="140" 高度="28" 语言表索引="0" 文本="0:液压动力|||1:Мощность гидравл.|||2:기계|||3:Hydr|||6:Hidráulica|||7:Hidr|||9:PoderHidráu.|||10:Động lực thủy lực|||default:Hydr" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="179" 宽度="140" 高度="28" 语言表索引="0" 文本="0:伺服|||1:серво|||2:서보|||3:Servo|||6:Servo|||7:Servo|||9:Servo|||10:Servo|||default:Servo" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="207" 宽度="140" 高度="28" 语言表索引="0" 文本="0:报警|||1:Ошибки|||2:알람|||3:Alarm|||6:Alarma|||7:Alarm|||9:Alarme|||10:Cảnh báo|||default:Alarm" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label8" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="235" 宽度="140" 高度="28" 语言表索引="0" 文本="0:油温|||1:Темп. масла|||2:기름|||3:Oil|||6:AceiteTemp|||7:Yağ Isı|||9:Oil Temp|||10:N.độ dầu|||default:Oil" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label9" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="319" 宽度="140" 高度="28" 语言表索引="0" 文本="0:开关模|||1:ОткЗакрФормы|||2:형체|||3:Clamp|||6:Cierre|||7:Mengene|||9:Clamp|||10:Đ.mở khu.|||default:Clamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="347" 宽度="140" 高度="28" 语言表索引="0" 文本="0:注射|||1:Впрыск|||2:사출|||3:Inject|||6:Inyección|||7:Enjekte|||9:Injectar|||10:Bắn ra|||default:Inject" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="375" 宽度="140" 高度="28" 语言表索引="0" 文本="0:座台|||1:Сопло|||2:노즐|||3:Nozzle|||6:Boquilla|||7:Grup|||9:Bico|||10:Bệ|||default:Nozzle" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="403" 宽度="140" 高度="28" 语言表索引="0" 文本="0:射出蓄能|||1:Аккум.изл.|||2:사출증압기능|||3:Injstor|||6:Inyect Acumulad|||7:Enjek Akümülatör|||9:Inj Armazena|||10:Bắn ra năng tích|||default:Injstor" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label13" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="431" 宽度="140" 高度="28" 语言表索引="0" 文本="0:储料下压缸|||1:Цилиндр давл.загрузки|||2:저압 실린더 저장|||3:ChargePress|||6:PrsCilind|||7:MalAlm Aşağı|||9:CilindroInferior|||10:Xi lanh dưới |||default:ChargePress" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label14" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="65" 宽度="140" 高度="30" 语言表索引="0" 文本="0:部件数量|||1:часть кол|||2:부품 번호|||3:Part Num|||6:Número Parte|||7:Parça Numarası|||9:Peças Número|||10:Số bộ phận|||default:Part Num" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edmachine" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="95" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edmotor" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="123" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edhydr" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="151" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edservo" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="179" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edalarm" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="207" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edoil" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="235" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edtctemp" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="263" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edclamp" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="319" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edinject" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="347" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ednozzle" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="375" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edinjstor" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="403" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edchargepress" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="431" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label27" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="65" 宽度="140" 高度="30" 语言表索引="0" 文本="0:部件名称|||1:часть имя|||2:부품 명|||3:Part Name|||6:Nombre Parte|||7:Parça adı|||9:Peça Nome|||10:Tên bộ phận|||default:Part Name" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="95" 宽度="140" 高度="28" 语言表索引="0" 文本="0:托模|||1:Толкатель|||2:에젝터|||3:Eject|||6:Expul|||7:İtici|||9:Eject|||10:Đỡ khuôn|||default:Eject" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="123" 宽度="140" 高度="28" 语言表索引="0" 文本="0:中子|||1:Знак|||2:코어|||3:Core|||6:Noyo|||7:Maça|||9:Core|||10:Nơtron|||default:Core" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="151" 宽度="140" 高度="28" 语言表索引="0" 文本="0:吹气|||1:Струя|||2:에어|||3:AirBlow|||6:Aire|||7:Hava|||9:Golpe|||10:ThổiKhí|||default:AirBlow" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label31" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="179" 宽度="140" 高度="28" 语言表索引="0" 文本="0:调模|||1:Регулир|||2:조정|||3:Adjust|||6:Ajuste|||7:AYAR|||9:Ajuste|||10:DiềuC.|||default:Adjust" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="207" 宽度="140" 高度="28" 语言表索引="0" 文本="0:浮动缸|||1:Всплывающийцилиндр|||2:시스템어큐|||3:FloatCylinder|||6:FlotantCilind|||7:Yüzer Silindir|||9:SysAcc2|||10:Xi lanh nổi|||default:FloatCylinder" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label33" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="235" 宽度="140" 高度="28" 语言表索引="0" 文本="0:挡板|||1:Выключить|||2:차단|||3:Baffle|||6:Baffle|||7:Bölme|||9:Defletor|||10:Tấm ngăn|||default:Baffle" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="263" 宽度="140" 高度="28" 语言表索引="0" 文本="0:滑模|||1:Скольз режим|||2:슬라이딩|||3:Rotate|||6:Girar|||7:Slayt|||9:Rodado|||10:Trượt khuôn|||default:Rotate" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label35" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="291" 宽度="140" 高度="28" 语言表索引="0" 文本="0:定位|||1:Локатор|||2:고정|||3:Locate|||6:Localizar|||7:Bulun|||9:Localizador|||10:Định vị|||default:Locate" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label36" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="319" 宽度="140" 高度="28" 语言表索引="0" 文本="0:安全门|||1:Зап.дв.|||2:안전문|||3:SafeDoor|||6:SegPt|||7:Güv Kapı|||9:PortaSegura|||10:Cửa an toà|||default:SafeDoor" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label37" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="375" 宽度="140" 高度="28" 语言表索引="0" 文本="0:润滑|||1:Смазка|||2:윤활유|||3:Lub|||6:Engrase|||7:Yağlama|||9:Lubri.|||10:Bôi trơn|||default:Lub" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label38" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="403" 宽度="140" 高度="28" 语言表索引="0" 文本="0:机械手|||1:Робот|||2:로보트|||3:Robot|||6:Robot|||7:Robot|||9:Robot|||10:Tay cơ|||default:Robot" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label39" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="431" 宽度="140" 高度="28" 语言表索引="0" 文本="0:电眼|||1:Датчик|||2:센서|||3:Sensor|||6:Sensor|||7:Sensör|||9:Pressor|||10:Bộ cảm ứng |||default:Sensor" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label40" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="65" 宽度="140" 高度="30" 语言表索引="0" 文本="0:部件数量|||1:часть кол|||2:부품 번호|||3:Part Num|||6:Número Parte|||7:Parça Numarası|||9:Peças Número|||10:Số bộ phận|||default:Part Num" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edeject" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="95" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edcore" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="123" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edairblow" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="151" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edadjust" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="179" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edsysacc" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="207" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edshut" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="235" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edrotate" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="263" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edlock" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="291" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edsafedoor" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="319" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edlub" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="375" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edrobot" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="403" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edsensor" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="431" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="291" 宽度="140" 高度="28" 语言表索引="0" 文本="0:主油路|||1:Насос|||2:펌프|||3:Pump|||6:Bomba|||7:Pompa|||9:Bomba|||10:Máy bơm|||default:Pump" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edpump" 索引="0" 可见="-1" 可用="-1" 左="160" 顶="291" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label55" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="347" 宽度="140" 高度="28" 语言表索引="0" 文本="0:模温|||1:Tемпформ|||2:금형온도|||3:MoldTemp|||6:Molde Temp|||7:Kalıp|||9:MoldTemp|||10:Nhi.độKhu.|||default:MoldTemp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label57" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="20" 宽度="560" 高度="35" 语言表索引="0" 文本="0:部件表|||1:Таб часть|||2:부품 표|||3:Part Table|||6:Piezas|||7:Parça Tablosu|||9:List Peças|||10:Phần bảng|||default:Part Table" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edmoldtemp" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="347" 宽度="140" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 禁用背景色="10789024" 边框色="12632256" 边框宽度="0" 对齐="1" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="20" Y1="65" X2="580" Y2="65" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line2" 可见="-1" 可用="-1" X1="20" Y1="65" X2="20" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line2"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line9" 可见="-1" 可用="-1" X1="20" Y1="95" X2="580" Y2="95" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line10" 可见="-1" 可用="-1" X1="20" Y1="123" X2="580" Y2="123" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line11" 可见="-1" 可用="-1" X1="20" Y1="151" X2="580" Y2="151" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line12" 可见="-1" 可用="-1" X1="20" Y1="179" X2="580" Y2="179" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line13" 可见="-1" 可用="-1" X1="20" Y1="207" X2="580" Y2="207" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line14" 可见="-1" 可用="-1" X1="20" Y1="235" X2="580" Y2="235" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line15" 可见="-1" 可用="-1" X1="20" Y1="263" X2="580" Y2="263" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line16" 可见="-1" 可用="-1" X1="20" Y1="291" X2="580" Y2="291" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line17" 可见="-1" 可用="-1" X1="20" Y1="319" X2="580" Y2="319" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line18" 可见="-1" 可用="-1" X1="20" Y1="347" X2="580" Y2="347" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line19" 可见="-1" 可用="-1" X1="20" Y1="375" X2="580" Y2="375" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line21" 可见="-1" 可用="-1" X1="20" Y1="403" X2="580" Y2="403" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line22" 可见="-1" 可用="-1" X1="20" Y1="431" X2="580" Y2="431" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line25" 可见="-1" 可用="-1" X1="20" Y1="459" X2="580" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line3" 可见="-1" 可用="-1" X1="160" Y1="65" X2="160" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line4" 可见="-1" 可用="-1" X1="300" Y1="65" X2="300" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line4"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line23" 可见="-1" 可用="-1" X1="440" Y1="65" X2="440" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line24" 可见="-1" 可用="-1" X1="580" Y1="65" X2="580" Y2="459" 颜色="7895160" 线型="0" 粗细="1" cur_text="line4"/>
+</element>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="_input_range_labellabel"/>
+<id order="2" ele_index="2" ele_name="_input_range_label"/>
+<id order="3" ele_index="3" ele_name="label0"/>
+<id order="4" ele_index="4" ele_name="label2"/>
+<id order="5" ele_index="5" ele_name="label3"/>
+<id order="6" ele_index="6" ele_name="label4"/>
+<id order="7" ele_index="7" ele_name="label5"/>
+<id order="8" ele_index="8" ele_name="label6"/>
+<id order="9" ele_index="9" ele_name="label7"/>
+<id order="10" ele_index="10" ele_name="label8"/>
+<id order="11" ele_index="11" ele_name="label9"/>
+<id order="12" ele_index="12" ele_name="label10"/>
+<id order="13" ele_index="13" ele_name="label11"/>
+<id order="14" ele_index="14" ele_name="label12"/>
+<id order="15" ele_index="15" ele_name="label13"/>
+<id order="16" ele_index="16" ele_name="label14"/>
+<id order="17" ele_index="17" ele_name="edmachine"/>
+<id order="18" ele_index="18" ele_name="edmotor"/>
+<id order="19" ele_index="19" ele_name="edhydr"/>
+<id order="20" ele_index="20" ele_name="edservo"/>
+<id order="21" ele_index="21" ele_name="edalarm"/>
+<id order="22" ele_index="22" ele_name="edoil"/>
+<id order="23" ele_index="23" ele_name="edtctemp"/>
+<id order="24" ele_index="24" ele_name="edclamp"/>
+<id order="25" ele_index="25" ele_name="edinject"/>
+<id order="26" ele_index="26" ele_name="ednozzle"/>
+<id order="27" ele_index="27" ele_name="edinjstor"/>
+<id order="28" ele_index="28" ele_name="edchargepress"/>
+<id order="29" ele_index="29" ele_name="label27"/>
+<id order="30" ele_index="30" ele_name="label28"/>
+<id order="31" ele_index="31" ele_name="label29"/>
+<id order="32" ele_index="32" ele_name="label30"/>
+<id order="33" ele_index="33" ele_name="label31"/>
+<id order="34" ele_index="34" ele_name="label32"/>
+<id order="35" ele_index="35" ele_name="label33"/>
+<id order="36" ele_index="36" ele_name="label34"/>
+<id order="37" ele_index="37" ele_name="label35"/>
+<id order="38" ele_index="38" ele_name="label36"/>
+<id order="39" ele_index="39" ele_name="label37"/>
+<id order="40" ele_index="40" ele_name="label38"/>
+<id order="41" ele_index="41" ele_name="label39"/>
+<id order="42" ele_index="42" ele_name="label40"/>
+<id order="43" ele_index="43" ele_name="edeject"/>
+<id order="44" ele_index="44" ele_name="edcore"/>
+<id order="45" ele_index="45" ele_name="edairblow"/>
+<id order="46" ele_index="46" ele_name="edadjust"/>
+<id order="47" ele_index="47" ele_name="edsysacc"/>
+<id order="48" ele_index="48" ele_name="edshut"/>
+<id order="49" ele_index="49" ele_name="edrotate"/>
+<id order="50" ele_index="50" ele_name="edlock"/>
+<id order="51" ele_index="51" ele_name="edsafedoor"/>
+<id order="52" ele_index="52" ele_name="edlub"/>
+<id order="53" ele_index="53" ele_name="edrobot"/>
+<id order="54" ele_index="54" ele_name="edsensor"/>
+<id order="55" ele_index="55" ele_name="label53"/>
+<id order="56" ele_index="56" ele_name="edpump"/>
+<id order="57" ele_index="57" ele_name="label55"/>
+<id order="58" ele_index="58" ele_name="label57"/>
+<id order="59" ele_index="59" ele_name="edmoldtemp"/>
+<id order="60" ele_index="60" ele_name="line1"/>
+<id order="61" ele_index="61" ele_name="line2"/>
+<id order="62" ele_index="62" ele_name="line9"/>
+<id order="63" ele_index="63" ele_name="line10"/>
+<id order="64" ele_index="64" ele_name="line11"/>
+<id order="65" ele_index="65" ele_name="line12"/>
+<id order="66" ele_index="66" ele_name="line13"/>
+<id order="67" ele_index="67" ele_name="line14"/>
+<id order="68" ele_index="68" ele_name="line15"/>
+<id order="69" ele_index="69" ele_name="line16"/>
+<id order="70" ele_index="70" ele_name="line17"/>
+<id order="71" ele_index="71" ele_name="line18"/>
+<id order="72" ele_index="72" ele_name="line19"/>
+<id order="73" ele_index="73" ele_name="line21"/>
+<id order="74" ele_index="74" ele_name="line22"/>
+<id order="75" ele_index="75" ele_name="line25"/>
+<id order="76" ele_index="76" ele_name="line3"/>
+<id order="77" ele_index="77" ele_name="line4"/>
+<id order="78" ele_index="78" ele_name="line23"/>
+<id order="79" ele_index="79" ele_name="line24"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Данные|||2:데이터|||3:DATA|||4:|||5:|||6:Datos|||0:数据|||7:Veri|||8:|||9:Dados|||10:dữ liệu|||default:DATA" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDATA.png" 按下图片="btnDATAx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиДета|||2:부품 표|||3:P.TBL|||4:|||5:|||6:Piezas|||0:部件表|||7:P.Tablo|||8:|||9:ListP.|||10:P.bàn|||default:P.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnP.TBL.png" 按下图片="btnP.TBLx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;生产自动警报&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиKлап|||2:밸브|||3:V.TBL|||4:|||5:|||6:Válvula|||0:阀逻辑表|||7:V.Tablo|||8:|||9:ListL.|||10:V.bàn|||default:V.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnV.TBL.png" 按下图片="btnV.TBLx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;警报参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 4"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="7" 焦点底色="65535" 焦点文本色="65535" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="65535"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<var prop="按下图片" orient="in" tag="p.PP.MACH2.JKEY_PRESS_IMG7"/>
+<var prop="常态图片" orient="in" tag="p.PP.MACH2.JKEY_RELEASE_IMG7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

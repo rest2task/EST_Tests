@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="information">
+<config name="转换器类型" value="按值"/>
+<config name="生成头文件" value="0"/>
+<group data_src="">
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">U盘不存在！请插入U盘。</string>
+<string lang_id="1" lang="俄文">Вставьте диск</string>
+<string lang_id="2" lang="韩文">U디스크 없음</string>
+<string lang_id="3" lang="英文">U Disk Not Exist!</string>
+<string lang_id="4" lang="阿拉伯文">قرص U غير موجود، يرجي إدراج قرص U.</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Insertar USB</string>
+<string lang_id="7" lang="土耳其语">U disk yok!</string>
+<string lang_id="8" lang="波斯文">فلش کارت وجود ندارد!</string>
+<string lang_id="9" lang="葡萄牙语">Disk U Not Exist!</string>
+<string lang_id="10" lang="越南文">USB không tồn tại!</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">U盘中无文件！</string>
+<string lang_id="1" lang="俄文">Диск не содержит данных</string>
+<string lang_id="2" lang="韩文">U디스크중 파일없음</string>
+<string lang_id="3" lang="英文">No File in U Disk!</string>
+<string lang_id="4" lang="阿拉伯文">برنامج غير موجود في قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Disco Programa Gratuito!</string>
+<string lang_id="7" lang="土耳其语">U diskte dosya yok</string>
+<string lang_id="8" lang="波斯文">برنامه در فلش کارت وجود ندارد!</string>
+<string lang_id="9" lang="葡萄牙语">No arquivo no disco U!</string>
+<string lang_id="10" lang="越南文">Trong USB không có chương trình!</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">U盘中无程序！</string>
+<string lang_id="1" lang="俄文">Диск не содержит данных</string>
+<string lang_id="2" lang="韩文">U디스크에 프로그램이 없음</string>
+<string lang_id="3" lang="英文">No Program in U Disk!</string>
+<string lang_id="4" lang="阿拉伯文">برنامج غير موجود في قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Disco Programa Gratuito!</string>
+<string lang_id="7" lang="土耳其语">U diskte program yok!</string>
+<string lang_id="8" lang="波斯文">برنامه در فلش کارت وجود ندارد!</string>
+<string lang_id="9" lang="葡萄牙语">No programa no disco U!</string>
+<string lang_id="10" lang="越南文">Trong USB không có chương trình!</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">请重新启动面板！</string>
+<string lang_id="1" lang="俄文">рестарт</string>
+<string lang_id="2" lang="韩文">재부팅</string>
+<string lang_id="3" lang="英文">Restart!</string>
+<string lang_id="4" lang="阿拉伯文">إعادة تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reanudar</string>
+<string lang_id="7" lang="土耳其语">Yeniden</string>
+<string lang_id="8" lang="波斯文">ریستارت</string>
+<string lang_id="9" lang="葡萄牙语">Restart</string>
+<string lang_id="10" lang="越南文">KĐ lại</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">请重新启动主机！</string>
+<string lang_id="1" lang="俄文">перезапуск основных.</string>
+<string lang_id="2" lang="韩文">호스트를 다시 시작하십시오.</string>
+<string lang_id="3" lang="英文">Please Restart The Main!</string>
+<string lang_id="4" lang="阿拉伯文">إعادة تشغيل المضيف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reiniciar Host</string>
+<string lang_id="7" lang="土耳其语">Ev sahibi yeniden başlatın</string>
+<string lang_id="8" lang="波斯文">لطفا دستگاه میزبان را ریستارت کنید</string>
+<string lang_id="9" lang="葡萄牙语">Reinicie o principal.</string>
+<string lang_id="10" lang="越南文">Vui lòng khởi động lại máy chủ</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">更新失败！</string>
+<string lang_id="1" lang="俄文">Обновление не удалось</string>
+<string lang_id="2" lang="韩文">업데이트가 실패</string>
+<string lang_id="3" lang="英文">Update Err！</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Actualización fallida</string>
+<string lang_id="7" lang="土耳其语">Güncelleştirme başarısız</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Atualização falhou</string>
+<string lang_id="10" lang="越南文">Cập nhật không thành công</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">请重新启动！</string>
+<string lang_id="1" lang="俄文">перезапуск основных.</string>
+<string lang_id="2" lang="韩文">호스트를 다시 시작하십시오.</string>
+<string lang_id="3" lang="英文">Please Restart The Main!</string>
+<string lang_id="4" lang="阿拉伯文">إعادة تشغيل المضيف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reiniciar Host</string>
+<string lang_id="7" lang="土耳其语">Ev sahibi yeniden başlatın</string>
+<string lang_id="8" lang="波斯文">لطفا دستگاه میزبان را ریستارت کنید</string>
+<string lang_id="9" lang="葡萄牙语">Reinicie o principal.</string>
+<string lang_id="10" lang="越南文">Vui lòng khởi động lại máy chủ</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">密码不正确！</string>
+<string lang_id="1" lang="俄文">НевернаяПароль!</string>
+<string lang_id="2" lang="韩文">비밀번호 틀림</string>
+<string lang_id="3" lang="英文">Invalid Password!</string>
+<string lang_id="4" lang="阿拉伯文">كلمة المرور غير صحيحة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">La Contraseña Es Incorrecta</string>
+<string lang_id="7" lang="土耳其语">GeçersizParola!</string>
+<string lang_id="8" lang="波斯文">رمز نادرست</string>
+<string lang_id="9" lang="葡萄牙语">Senha inválida!</string>
+<string lang_id="10" lang="越南文">Mật khẩu không chính xác</string>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">机器编码或识别码过短！</string>
+<string lang_id="1" lang="俄文">Признак Недостаточно</string>
+<string lang_id="2" lang="韩文">계량이 부족합니다</string>
+<string lang_id="3" lang="英文">Char is Not Enough!</string>
+<string lang_id="4" lang="阿拉伯文">رمز الجهاز أو رمز معرف قليل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Char No Es Suficiente</string>
+<string lang_id="7" lang="土耳其语">Char Yeterli Değildir</string>
+<string lang_id="8" lang="波斯文">تعداد شماره ها کافی نیست</string>
+<string lang_id="9" lang="葡萄牙语">Trabalho não é Bastante</string>
+<string lang_id="10" lang="越南文">Mã.m hoặc ID chữ số quá ít</string>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">输入非法日期！</string>
+<string lang_id="1" lang="俄文">Введите даты незаконным</string>
+<string lang_id="2" lang="韩文">잘못된 날짜를 입력</string>
+<string lang_id="3" lang="英文">Enter dates illegal!</string>
+<string lang_id="4" lang="阿拉伯文">إدخال التواريخ غير قانونية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Introduzca Fechas Ilegales</string>
+<string lang_id="7" lang="土耳其语">Yasadışı tarihlerini girin</string>
+<string lang_id="8" lang="波斯文">وارد کردن زمان غیرقانونی</string>
+<string lang_id="9" lang="葡萄牙语">Digite as datas ilegais</string>
+<string lang_id="10" lang="越南文">Nhập ngày trái quy định</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">识别码不一致！</string>
+<string lang_id="1" lang="俄文">несоответствием идентификатора</string>
+<string lang_id="2" lang="韩文">불일치 식별자</string>
+<string lang_id="3" lang="英文">Inconsistency identifier!</string>
+<string lang_id="4" lang="阿拉伯文">رمز التعريف غير نفسي!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Identificación Inconsistencia!</string>
+<string lang_id="7" lang="土耳其语">tutarsızlık tanımlayıcı</string>
+<string lang_id="8" lang="波斯文">ناسازگاری شناسه</string>
+<string lang_id="9" lang="葡萄牙语">identificador de inconsistência</string>
+<string lang_id="10" lang="越南文">Mã phân biệt không đồng nhất!</string>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">主机重置成功！</string>
+<string lang_id="1" lang="俄文">Принимающая Сбросить успех</string>
+<string lang_id="2" lang="韩文">호스트 재설정 성공</string>
+<string lang_id="3" lang="英文">Host Reset Success!</string>
+<string lang_id="4" lang="阿拉伯文">استضافة إعادة بنجاح!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sistema Reajustar éxito</string>
+<string lang_id="7" lang="土耳其语">Sıfırlama başarı ev sahipliği</string>
+<string lang_id="8" lang="波斯文">میزبان مجددا تنظیم شد</string>
+<string lang_id="9" lang="葡萄牙语">Host redefinido com sucesso</string>
+<string lang_id="10" lang="越南文">M.chủ cài.đ lại t.công</string>
+</item>
+<item type="0">
+<value>13</value>
+<string lang_id="0" lang="中文">伺服数据操作失败！</string>
+<string lang_id="1" lang="俄文">Servo данных Управляйте Сбой</string>
+<string lang_id="2" lang="韩文">서보 데이터는 실패를 작동</string>
+<string lang_id="3" lang="英文">Servo Data Operate Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت عملية المؤازرة!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo Operación Datos Falló!</string>
+<string lang_id="7" lang="土耳其语">Servo Veri Fail İşlet</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ورود داده سروو</string>
+<string lang_id="9" lang="葡萄牙语">Falha na importação Dados servo</string>
+<string lang_id="10" lang="越南文">Số liệu servo chuyển vào thất bại</string>
+</item>
+<item type="0">
+<value>14</value>
+<string lang_id="0" lang="中文">保存成功！</string>
+<string lang_id="1" lang="俄文">Сохранить Успешная</string>
+<string lang_id="2" lang="韩文">저장 성공</string>
+<string lang_id="3" lang="英文">Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">حفظ بنجاح</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Guardar éxito</string>
+<string lang_id="7" lang="土耳其语">Başarılı Kaydet</string>
+<string lang_id="8" lang="波斯文">موفقیت ذخیره</string>
+<string lang_id="9" lang="葡萄牙语">Salvar sucesso</string>
+<string lang_id="10" lang="越南文">Lưu thành công</string>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">U盘导入成功！</string>
+<string lang_id="1" lang="俄文">Диск U выведен успешно!</string>
+<string lang_id="2" lang="韩文">U디스크쓰기 성공</string>
+<string lang_id="3" lang="英文">U Disk Import Successfull!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡U disco importado correctamente!</string>
+<string lang_id="7" lang="土耳其语">U disk yazımı başarılı!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Disco U importado com sucesso!</string>
+<string lang_id="10" lang="越南文">Đã nhập đĩa U thành công!</string>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">请选择数据类型！</string>
+<string lang_id="1" lang="俄文">Выберите тип данных.</string>
+<string lang_id="2" lang="韩文">데이터 유형을 선택하세요</string>
+<string lang_id="3" lang="英文">Please Select Data Type!</string>
+<string lang_id="4" lang="阿拉伯文">الرجاء اختيار نوع من البيانات</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Please Selec Datos Tipo.</string>
+<string lang_id="7" lang="土耳其语">Veri Tipi Seçiniz Lütfen.</string>
+<string lang_id="8" lang="波斯文">لطفا نوع داده را انتخاب کنید</string>
+<string lang_id="9" lang="葡萄牙语">Please Select Data Type</string>
+<string lang_id="10" lang="越南文">Vui lòng chọn loại hình số liệu</string>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">请输入机型名称！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, введите имя</string>
+<string lang_id="2" lang="韩文">제발 입력 이름</string>
+<string lang_id="3" lang="英文">Please Input Name!</string>
+<string lang_id="4" lang="阿拉伯文">الرجاء إدخال اسم النموذج</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Por Favor Ingrese El Nombre</string>
+<string lang_id="7" lang="土耳其语">Lütfen Giriş Adı</string>
+<string lang_id="8" lang="波斯文">لطفا نام را وارد کنید</string>
+<string lang_id="9" lang="葡萄牙语">Por favor insira nome modelo</string>
+<string lang_id="10" lang="越南文">Vui lòng viết vào tên máy</string>
+</item>
+<item type="0">
+<value>18</value>
+<string lang_id="0" lang="中文">U盘中已存在数据，是否覆盖？</string>
+<string lang_id="1" lang="俄文">Тип уже в U-диске,распрост.или нет?</string>
+<string lang_id="2" lang="韩文">U 디스크该 모델 데이터왔다 덮어?</string>
+<string lang_id="3" lang="英文">Data Is Already In Udisk, Overwrite?</string>
+<string lang_id="4" lang="阿拉伯文">وكان القرص U بيانات النموذج، سواء كان أو لم يشملها؟</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Si La Cobertura?</string>
+<string lang_id="7" lang="土耳其语">Veri Zaten UDisk olarak mı, üzerine yazılsın mı?</string>
+<string lang_id="8" lang="波斯文">داده در فلش کارت است. آن را جانویسی می کنید؟</string>
+<string lang_id="9" lang="葡萄牙语">Já existe dados do modelo no pandrive U, vai cobrir？</string>
+<string lang_id="10" lang="越南文">Trong USB đã có số liệu của máy đó, có phủ không?</string>
+</item>
+<item type="0">
+<value>19</value>
+<string lang_id="0" lang="中文">即将还原到出厂值！</string>
+<string lang_id="1" lang="俄文">Выберите в настройках завода!</string>
+<string lang_id="2" lang="韩文">값의 선택 부분은 공장으로 복원됩니다!</string>
+<string lang_id="3" lang="英文">Selected Will Restore To Saved!</string>
+<string lang_id="4" lang="阿拉伯文">يتم استعادة الجزء المحدد إلى قيمة المصنع!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SelSección Recuperación Fábrica</string>
+<string lang_id="7" lang="土耳其语">Kayıtlı için Restore Will Seçilmiş!</string>
+<string lang_id="8" lang="波斯文">موارد انتخابی به انرزش کارخانه بر می گردد!</string>
+<string lang_id="9" lang="葡萄牙语">The selected part will be restored to factory value!</string>
+<string lang_id="10" lang="越南文">Phần đã chọn khôi phục trị số xuất xưởng!</string>
+</item>
+<item type="0">
+<value>20</value>
+<string lang_id="0" lang="中文">即将还原到默认值！</string>
+<string lang_id="1" lang="俄文">Выберите в настройках по умолчанию!</string>
+<string lang_id="2" lang="韩文">선택 부는초기 값으로 복원한다!</string>
+<string lang_id="3" lang="英文">Selected Will Restore To Default!</string>
+<string lang_id="4" lang="阿拉伯文">يتم استعادة الجزء المحدد إلى القيمة الأولية!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SelSección Recuperación Defecto</string>
+<string lang_id="7" lang="土耳其语">Standart için Restore Will Seçilmiş!</string>
+<string lang_id="8" lang="波斯文">موارد انتخابی به ارزش پیش فرض برمی گردد!</string>
+<string lang_id="9" lang="葡萄牙语">The selected part will be restored to its original value!</string>
+<string lang_id="10" lang="越南文">Phần đã chọn khôi phục trị số ban đầu!</string>
+</item>
+<item type="0">
+<value>21</value>
+<string lang_id="0" lang="中文">数据导入中，请稍等！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, подождите, пока данные импортируются!</string>
+<string lang_id="2" lang="韩文">데이터를 가져 오는 동안 기다려주십시오!</string>
+<string lang_id="3" lang="英文">Data import, please wait！</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Espere mientras se importan los datos!</string>
+<string lang_id="7" lang="土耳其语">Veriler içe aktarılırken lütfen bekleyin!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Aguarde enquanto os dados estão sendo importados!</string>
+<string lang_id="10" lang="越南文">Aguarde enquanto os dados estão sendo importados!</string>
+</item>
+<item type="0">
+<value>22</value>
+<string lang_id="0" lang="中文">数据导入成功！</string>
+<string lang_id="1" lang="俄文">Сохран данных Успешно!</string>
+<string lang_id="2" lang="韩文">데이터를성공적으로 저장하십시오!</string>
+<string lang_id="3" lang="英文">Data import successfully!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Los datos se importaron correctamente!</string>
+<string lang_id="7" lang="土耳其语">Veri Başarısını Kaydet!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Os dados foram importados com sucesso!</string>
+<string lang_id="10" lang="越南文">Dữ liệu được nhập thành công!</string>
+</item>
+<item type="0">
+<value>30</value>
+<string lang_id="0" lang="中文">驱动器控制模式错误！</string>
+<string lang_id="1" lang="俄文">Драйвер режима Ошибка</string>
+<string lang_id="2" lang="韩文">드라이버 모드 오류</string>
+<string lang_id="3" lang="英文">Driver Mode Err!</string>
+<string lang_id="4" lang="阿拉伯文">خطأ وضع جهاز السيطرة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Modo Drive</string>
+<string lang_id="7" lang="土耳其语">Sürücü Mode Hata</string>
+<string lang_id="8" lang="波斯文">خطای مد راننده</string>
+<string lang_id="9" lang="葡萄牙语">Motorista Modo Erro</string>
+<string lang_id="10" lang="越南文">Chế độ điều khiển bộ khởi động bi sai</string>
+</item>
+<item type="0">
+<value>31</value>
+<string lang_id="0" lang="中文">电机正在运行中...</string>
+<string lang_id="1" lang="俄文">Двигатель работает</string>
+<string lang_id="2" lang="韩文">모터 동작중입니다.</string>
+<string lang_id="3" lang="英文">Motor Is Running!</string>
+<string lang_id="4" lang="阿拉伯文">تشغيل المحرك ...</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Está En Marcha</string>
+<string lang_id="7" lang="土耳其语">Motor çalışıyor</string>
+<string lang_id="8" lang="波斯文">موتور در حرکت</string>
+<string lang_id="9" lang="葡萄牙语">Motor está em funcionamento</string>
+<string lang_id="10" lang="越南文">Mô tơ điện đang vận hành...</string>
+</item>
+<item type="0">
+<value>32</value>
+<string lang_id="0" lang="中文">驱动模式错误，请先转为调试模式！</string>
+<string lang_id="1" lang="俄文">измените режим отладки</string>
+<string lang_id="2" lang="韩文">디버그 모드로 변경하여 주세요</string>
+<string lang_id="3" lang="英文">Please change to debug mode!</string>
+<string lang_id="4" lang="阿拉伯文">خطأ وضع المحرك، يرجى التحويل الي وضع التعديل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cambie Al Modo Depuración</string>
+<string lang_id="7" lang="土耳其语">Modu hata ayıklama değiştirin</string>
+<string lang_id="8" lang="波斯文">لطفا به مد تنظیم تغییر دهید</string>
+<string lang_id="9" lang="葡萄牙语">Por favor,altere o modo de depuração</string>
+<string lang_id="10" lang="越南文">C.độ drive lỗi, chuyển c.độ ĐCT trước</string>
+</item>
+<item type="0">
+<value>33</value>
+<string lang_id="0" lang="中文">驱动器有报警,请先排除！</string>
+<string lang_id="1" lang="俄文">Драйв сигнализации,из</string>
+<string lang_id="2" lang="韩文">드라이버 경보 발생, 체크하여 주세요</string>
+<string lang_id="3" lang="英文">Drive the alarm, please out!</string>
+<string lang_id="4" lang="阿拉伯文">تنبيه المحرك، يرجي إزاله!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Conduzca La Alarma, Rectificación!</string>
+<string lang_id="7" lang="土耳其语">Alarm Sürücü üzerinden lütfen</string>
+<string lang_id="8" lang="波斯文">زنگ بزنید لطفا بیرون!</string>
+<string lang_id="9" lang="葡萄牙语">Alarmes de motorista,por favor excluir!</string>
+<string lang_id="10" lang="越南文">Bộ khởi động có báo động, đề nghị loại trừ trước!</string>
+</item>
+<item type="0">
+<value>34</value>
+<string lang_id="0" lang="中文">请先关闭电机！</string>
+<string lang_id="1" lang="俄文">Закройте Motor</string>
+<string lang_id="2" lang="韩文">모터 정지해 주세요</string>
+<string lang_id="3" lang="英文">Please Close Motor!</string>
+<string lang_id="4" lang="阿拉伯文">يرجى توقيف المحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Por Favor, Cerca Motor</string>
+<string lang_id="7" lang="土耳其语">Kapat Motor lütfen</string>
+<string lang_id="8" lang="波斯文">لطفا موتور را خاموش کنید</string>
+<string lang_id="9" lang="葡萄牙语">Por favor,feche Motor</string>
+<string lang_id="10" lang="越南文">Vui lòng tắt động cơ trước </string>
+</item>
+<item type="0">
+<value>35</value>
+<string lang_id="0" lang="中文">自学习被紧急停止！</string>
+<string lang_id="1" lang="俄文">Самообучение Срочно остановки</string>
+<string lang_id="2" lang="韩文">자기 학습 비상 정지됨</string>
+<string lang_id="3" lang="英文">Self-learn Emergency Stop!</string>
+<string lang_id="4" lang="阿拉伯文">التوقف عن التعلم الذاتي في حالات الطوارئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Autoaprendizaje Emergencia Parar</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme acil durdurma</string>
+<string lang_id="8" lang="波斯文">توقف اضطراری خودآموزی</string>
+<string lang_id="9" lang="葡萄牙语">Parada de emergência de auto-aprendizagem</string>
+<string lang_id="10" lang="越南文">Tự học bị dừng gấp</string>
+</item>
+<item type="0">
+<value>36</value>
+<string lang_id="0" lang="中文">电机自学习失败！</string>
+<string lang_id="1" lang="俄文">Мотор самообучением отказов</string>
+<string lang_id="2" lang="韩文">모터 자기 학습 실패</string>
+<string lang_id="3" lang="英文">Motor Self-learn Failure!</string>
+<string lang_id="4" lang="阿拉伯文">فشل التعلم الذاتي للمحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoAprendizaje Fallo</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme başarısız</string>
+<string lang_id="8" lang="波斯文">ناموفقیت خودآموزی موتور</string>
+<string lang_id="9" lang="葡萄牙语">Auto-aprendizagem não</string>
+<string lang_id="10" lang="越南文">Mô tơ điện tự học tập thất bại</string>
+</item>
+<item type="0">
+<value>37</value>
+<string lang_id="0" lang="中文">泵浦配置更改，请按手动键确认！</string>
+<string lang_id="1" lang="俄文">Пресс ручной подтверждения</string>
+<string lang_id="2" lang="韩文">확인을 위해 수동키를 눌러주세요</string>
+<string lang_id="3" lang="英文">Press Manual Key To Confirm!</string>
+<string lang_id="4" lang="阿拉伯文">تكوين المضخة مغير، اضغط على زر يدوي لتأكيد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Por Favor,pulse Botón Manual Confirmar</string>
+<string lang_id="7" lang="土耳其语">Onaylamak için manuel düğmesine basın</string>
+<string lang_id="8" lang="波斯文">برای تایید کلید "دستی" را فشار دهید</string>
+<string lang_id="9" lang="葡萄牙语">Por favor,pressione o botão manual para confirmar</string>
+<string lang_id="10" lang="越南文">Thay đổi cấu hình pumping, vui lòng bấm nút bằng tay xác định</string>
+</item>
+<item type="0">
+<value>40</value>
+<string lang_id="0" lang="中文">普通机第一路不作背压！</string>
+<string lang_id="1" lang="俄文">ОбычСтанокПервыхНеПротиводавление!</string>
+<string lang_id="2" lang="韩文">일반, 첫 번째 다시하지 압력!</string>
+<string lang_id="3" lang="英文">General,First not backpress!</string>
+<string lang_id="4" lang="阿拉伯文">الطريقة الأولى هي ليست آلة عادية الضغط الخلفي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">General,Primer Lugar No ConPrs !</string>
+<string lang_id="7" lang="土耳其语">Genel, İlk backpress değil!</string>
+<string lang_id="8" lang="波斯文">عادی اول نه فشار برگشتی</string>
+<string lang_id="9" lang="葡萄牙语">A máquina normal não executa contrapressão da primeira maneira!</string>
+<string lang_id="10" lang="越南文">Đường thứ 1 của máy phổ thông không làm áp suất ngược</string>
+</item>
+<item type="0">
+<value>50</value>
+<string lang_id="0" lang="中文">请在手动模式操作此功能！</string>
+<string lang_id="1" lang="俄文">Используйте ручной режим</string>
+<string lang_id="2" lang="韩文">수동모드에서 사용하세요</string>
+<string lang_id="3" lang="英文">Execute it in Manual Mode!</string>
+<string lang_id="4" lang="阿拉伯文">تعمل هذه الوظيفة في الوضع اليدوي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Usarlo en Modo Manual</string>
+<string lang_id="7" lang="土耳其语">Elcil modunda yürütün</string>
+<string lang_id="8" lang="波斯文">در مد دستی اجرا کنید!</string>
+<string lang_id="9" lang="葡萄牙语">Executá-lo em modo manual</string>
+<string lang_id="10" lang="越南文">ĐN t.tác CN này dưới C.độ bằng.t</string>
+</item>
+<item type="0">
+<value>51</value>
+<string lang_id="0" lang="中文">此中子已选择！</string>
+<string lang_id="1" lang="俄文">Дан.нейт.выбр.!</string>
+<string lang_id="2" lang="韩文">코어가 선택되었습니다</string>
+<string lang_id="3" lang="英文">Core Has Been Selected!</string>
+<string lang_id="4" lang="阿拉伯文">هذا النيوترون اختيار!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Neut Rones Ha Sido Seleccionado!</string>
+<string lang_id="7" lang="土耳其语">Bu Maça Seçilen!</string>
+<string lang_id="8" lang="波斯文">این مغز انتخاب شد!</string>
+<string lang_id="9" lang="葡萄牙语">Core núcleo puxando foi selecionado!</string>
+<string lang_id="10" lang="越南文">Nơtron này đã lựa chọn!</string>
+</item>
+<item type="0">
+<value>52</value>
+<string lang_id="0" lang="中文">请先停止自学习！</string>
+<string lang_id="1" lang="俄文">прекратите самообучения</string>
+<string lang_id="2" lang="韩文">자기 학습을 중지하십시오</string>
+<string lang_id="3" lang="英文">Please stop self-learning!</string>
+<string lang_id="4" lang="阿拉伯文">يرجى التوقف عن التعلم الذاتي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Por Favor,deje El Auto Learn</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme Lütfen dur</string>
+<string lang_id="8" lang="波斯文">لطفا خودآموزی را متوقف کنید</string>
+<string lang_id="9" lang="葡萄牙语">Por favor,pare de auto-aprendizagem</string>
+<string lang_id="10" lang="越南文">Vui lòng dừng lại tự học tập</string>
+</item>
+<item type="0">
+<value>53</value>
+<string lang_id="0" lang="中文">数据已修改,是否保存？</string>
+<string lang_id="1" lang="俄文">Данные были изменены,сохраните данные.</string>
+<string lang_id="2" lang="韩文">데이터가 수정되면, 데이터를 저장하십시오</string>
+<string lang_id="3" lang="英文">Data has been modified, please save the data!</string>
+<string lang_id="4" lang="阿拉伯文">تم تعديل البيانات، إذا كنت تريد حفظ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Datos Modificados, Por Favor Guardar</string>
+<string lang_id="7" lang="土耳其语">Veri değiştirildi, verileri kaydetmek lütfen</string>
+<string lang_id="8" lang="波斯文">داده اصلاح شده. آن را ذخیره می کنید؟</string>
+<string lang_id="9" lang="葡萄牙语">Os dados foram modificados, por favor, salve os dados.</string>
+<string lang_id="10" lang="越南文">Số liệu đã sửa, có lưu không</string>
+</item>
+<item type="0">
+<value>54</value>
+<string lang_id="0" lang="中文">是否删除并重置主机配置？</string>
+<string lang_id="1" lang="俄文">Удалить и переустановить расстановку ведущей машины?</string>
+<string lang_id="2" lang="韩文">거기에서 삭제하려는 호스트 구성을 재설정?</string>
+<string lang_id="3" lang="英文">Do you want to delete and reset the host configuration?</string>
+<string lang_id="4" lang="阿拉伯文">حذف وإعادة تكوين المضيف؟</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eliminar Y Restablecer La 
+configuración De Host?</string>
+<string lang_id="7" lang="土耳其语">Sil Ve Ana Yapılandsını Sıfırlamak?</string>
+<string lang_id="8" lang="波斯文">میخواهید پیکربندی میزبان را حذف و تنظیم مجدد کنید؟</string>
+<string lang_id="9" lang="葡萄牙语">Você deseja excluir e redefinir a configuração host?</string>
+<string lang_id="10" lang="越南文">Xóa và cầu hình lại máy chủ?</string>
+</item>
+<item type="0">
+<value>55</value>
+<string lang_id="0" lang="中文">请关闭马达并切换到手动模式！</string>
+<string lang_id="1" lang="俄文">Выключите мотор и переключите в ручную модель!</string>
+<string lang_id="2" lang="韩文">수동 모드에 가까운 모터와 스위치</string>
+<string lang_id="3" lang="英文">Close motor and switch to manual mode!</string>
+<string lang_id="4" lang="阿拉伯文">إيقاف المحرك والتبديل إلى الوضع اليدوي!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Apague Motor Y Conmutación Manual
+ Modo !</string>
+<string lang_id="7" lang="土耳其语">Motor Kapalı Ve El ile modu!</string>
+<string lang_id="8" lang="波斯文">لطفا موتور را خاموش کرده و وارد مد دستی شوید!</string>
+<string lang_id="9" lang="葡萄牙语">Desligue o motor e mude para o modo manual!</string>
+<string lang_id="10" lang="越南文">Close motor and switch to manual mode</string>
+</item>
+<item type="0">
+<value>60</value>
+<string lang_id="0" lang="中文">写U盘成功！</string>
+<string lang_id="1" lang="俄文">Диск U выведен успешно!</string>
+<string lang_id="2" lang="韩文">U디스크쓰기 성공</string>
+<string lang_id="3" lang="英文">U Disk Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت كتابة قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Disco De Salida Con éxito!</string>
+<string lang_id="7" lang="土耳其语">U disk yazımı başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت نوشتن فلش کارت!</string>
+<string lang_id="9" lang="葡萄牙语">U Saída de disco com sucesso!</string>
+<string lang_id="10" lang="越南文">Viết USB thành công!</string>
+</item>
+<item type="0">
+<value>61</value>
+<string lang_id="0" lang="中文">写U盘失败！</string>
+<string lang_id="1" lang="俄文">Ошибка при выводе диска U!</string>
+<string lang_id="2" lang="韩文">U디스크쓰기 실패</string>
+<string lang_id="3" lang="英文">U Disk Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت كتابة قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Falla La Salida De Disco!</string>
+<string lang_id="7" lang="土耳其语">U disk yazımı başarısız!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت نوشتن فلش کارت!</string>
+<string lang_id="9" lang="葡萄牙语">U Fail saída do disco!</string>
+<string lang_id="10" lang="越南文">Viết USB thất bại!</string>
+</item>
+<item type="0">
+<value>62</value>
+<string lang_id="0" lang="中文">读U盘成功！</string>
+<string lang_id="1" lang="俄文">Импорт диска U проведен успешно!</string>
+<string lang_id="2" lang="韩文">U디스크읽기 성공</string>
+<string lang_id="3" lang="英文">U Disk Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Disco Importación Con éxito!</string>
+<string lang_id="7" lang="土耳其语">U disk okumu başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت خواندن فلش کارت!</string>
+<string lang_id="9" lang="葡萄牙语">U Importação disco com sucesso!</string>
+<string lang_id="10" lang="越南文">Đọc USB thành công!</string>
+</item>
+<item type="0">
+<value>63</value>
+<string lang_id="0" lang="中文">读U盘失败！</string>
+<string lang_id="1" lang="俄文">Ошибка при импорте диска U!</string>
+<string lang_id="2" lang="韩文">U디스크읽기 실패</string>
+<string lang_id="3" lang="英文">U Disk Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة قرص U</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Error Importación Disco!</string>
+<string lang_id="7" lang="土耳其语">U disk okumu başarısız!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت خواندن فلش کارت!</string>
+<string lang_id="9" lang="葡萄牙语">U Fail Importação de disco!</string>
+<string lang_id="10" lang="越南文">Đọc USB thất bại!</string>
+</item>
+<item type="0">
+<value>64</value>
+<string lang_id="0" lang="中文">模具参数保存成功！</string>
+<string lang_id="1" lang="俄文">Модель вывод параметры успех!</string>
+<string lang_id="2" lang="韩文">금형 파라미터 내보내기 성공!</string>
+<string lang_id="3" lang="英文">MoldPar Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ معلمة القالب!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Parám Datos Guardar éxito.</string>
+<string lang_id="7" lang="土耳其语">Kalıp Parametre Çıkış Başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت ذخیره پارامتر قالب!</string>
+<string lang_id="9" lang="葡萄牙语">Mold Parâmetro Successfull saída!</string>
+<string lang_id="10" lang="越南文">Lưu thông số khuôn thành công!</string>
+</item>
+<item type="0">
+<value>65</value>
+<string lang_id="0" lang="中文">模具参数保存失败！</string>
+<string lang_id="1" lang="俄文">Модель вывод параметры не удалось!</string>
+<string lang_id="2" lang="韩文">금형 파라미터 내보내 실패!</string>
+<string lang_id="3" lang="英文">MoldPar Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ معلمة القالب!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Parám Datos Guardar Fallo.</string>
+<string lang_id="7" lang="土耳其语">Kalıp Parametre Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ذخیره پارامتر قالب!</string>
+<string lang_id="9" lang="葡萄牙语">Parâmetro de saída Mold falhar!</string>
+<string lang_id="10" lang="越南文">Lưu thông số khuôn thất bại!</string>
+</item>
+<item type="0">
+<value>66</value>
+<string lang_id="0" lang="中文">模具参数读取成功！</string>
+<string lang_id="1" lang="俄文">Модель входа параметр успех!</string>
+<string lang_id="2" lang="韩文">금형 파라미터 가져오기 성공!</string>
+<string lang_id="3" lang="英文">MoldPar Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة المعلمة القالب!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Parám Leer éxito.</string>
+<string lang_id="7" lang="土耳其语">Kalıp Parametre Başarılı İthalat!</string>
+<string lang_id="8" lang="波斯文">موفقیت ورود پارامتر قالب!</string>
+<string lang_id="9" lang="葡萄牙语">Mold parâmetro de importação bem sucedido!</string>
+<string lang_id="10" lang="越南文">Đọc thông số khuôn thành công!</string>
+</item>
+<item type="0">
+<value>67</value>
+<string lang_id="0" lang="中文">模具参数读取失败！</string>
+<string lang_id="1" lang="俄文">Модель вывод параметры не удалось!</string>
+<string lang_id="2" lang="韩文">금형 파라미터 가져오기 실패!</string>
+<string lang_id="3" lang="英文">MoldPar Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة المعلمة القالب!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Parám Leer Fallo.</string>
+<string lang_id="7" lang="土耳其语">Kalıp Parametre Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ذخیره پارامتر قالب!</string>
+<string lang_id="9" lang="葡萄牙语">Parâmetro de saída Mold falhar!</string>
+<string lang_id="10" lang="越南文">Đọc thông số khuôn thất bại!</string>
+</item>
+<item type="0">
+<value>68</value>
+<string lang_id="0" lang="中文">工作参数保存成功！</string>
+<string lang_id="1" lang="俄文">Рабочие параметры вывод успех!</string>
+<string lang_id="2" lang="韩文">작동 파라미터 내보내 성공!</string>
+<string lang_id="3" lang="英文">WorkPar Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ معلمة العمل!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Guarde éxito Parámetros Funcionamiento!</string>
+<string lang_id="7" lang="土耳其语">Parametre Çıkış Başarılı iş!</string>
+<string lang_id="8" lang="波斯文">موفقیت ذخیره پارامتر کار!</string>
+<string lang_id="9" lang="葡萄牙语">Trabalhe Parâmetro Successfull saída!</string>
+<string lang_id="10" lang="越南文">Thông số làm việc lưu thành công!</string>
+</item>
+<item type="0">
+<value>69</value>
+<string lang_id="0" lang="中文">工作参数保存失败！</string>
+<string lang_id="1" lang="俄文">Рабочие параметры вывод не удалось!</string>
+<string lang_id="2" lang="韩文">작동 파라미터 내보내 실패!</string>
+<string lang_id="3" lang="英文">WorkPar Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ معلمة العمل!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Guardar Los Parámetros Funcionamiento!</string>
+<string lang_id="7" lang="土耳其语">Parametre Çıkış Fail çalışın!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ذخیره پارامتر کار!</string>
+<string lang_id="9" lang="葡萄牙语">Trabalhe parâmetro de saída falhar!</string>
+<string lang_id="10" lang="越南文">Thông số làm việc lưu thất bại!</string>
+</item>
+<item type="0">
+<value>70</value>
+<string lang_id="0" lang="中文">工作参数读取成功！</string>
+<string lang_id="1" lang="俄文">Рабочие параметр входа успех!</string>
+<string lang_id="2" lang="韩文">작동 파라미터 가져오기 성공!</string>
+<string lang_id="3" lang="英文">WorkPar Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة معلمة العمل!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Operativos Parám Leer éxito.</string>
+<string lang_id="7" lang="土耳其语">Parametre İthalat Başarılı iş!</string>
+<string lang_id="8" lang="波斯文">موفقیت خواندن پارامتر کار!</string>
+<string lang_id="9" lang="葡萄牙语">Trabalhe parâmetro de importação bem sucedido!</string>
+<string lang_id="10" lang="越南文">Thông số làm việc đọc thành công!</string>
+</item>
+<item type="0">
+<value>71</value>
+<string lang_id="0" lang="中文">工作参数读取失败！</string>
+<string lang_id="1" lang="俄文">Рабочие параметр входа не удалось!</string>
+<string lang_id="2" lang="韩文">작동 파라미터 가져오기 실패!</string>
+<string lang_id="3" lang="英文">WorkPar Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة معلمة العمل!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Operativos Parám Leer Fallo.</string>
+<string lang_id="7" lang="土耳其语">Parametre İthalat Fail çalışın!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت خواندن پارامتر کار!</string>
+<string lang_id="9" lang="葡萄牙语">Trabalhe parâmetro de importação falhar!</string>
+<string lang_id="10" lang="越南文">Thông số làm việc đọc thất bại!</string>
+</item>
+<item type="0">
+<value>72</value>
+<string lang_id="0" lang="中文">十字头数据保存成功！</string>
+<string lang_id="1" lang="俄文">Упорная вывод таблицы успех!</string>
+<string lang_id="2" lang="韩文">푸쉬 테이블 내보내 성공!</string>
+<string lang_id="3" lang="英文">Pushtable Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ بيانات القاعدة!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Empuje Datos Guardar éxito.</string>
+<string lang_id="7" lang="土耳其语">Pushtable Çıkış Başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت ذخیره داده کراس هد!</string>
+<string lang_id="9" lang="葡萄牙语">Empurre mesa bem sucedido de saída!</string>
+<string lang_id="10" lang="越南文">Số liệu đầu chữ thập lưu thành công!</string>
+</item>
+<item type="0">
+<value>73</value>
+<string lang_id="0" lang="中文">十字头数据保存失败！</string>
+<string lang_id="1" lang="俄文">Упорная таблицы вывод не удалось!</string>
+<string lang_id="2" lang="韩文">푸쉬 테이블 내보내 실패!</string>
+<string lang_id="3" lang="英文">Pushtable Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ بيانات القاعدة!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Empuje Datos Guardar Fallo.</string>
+<string lang_id="7" lang="土耳其语">Pushtable Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ذخیره داده کراس هد!</string>
+<string lang_id="9" lang="葡萄牙语">Empurre mesa falha de saída!</string>
+<string lang_id="10" lang="越南文">Số liệu đầu chữ thập lưu thất bại!</string>
+</item>
+<item type="0">
+<value>74</value>
+<string lang_id="0" lang="中文">十字头数据读取成功！</string>
+<string lang_id="1" lang="俄文">Таблица упорное входа успешно!</string>
+<string lang_id="2" lang="韩文">푸쉬 테이블 가져오기 성공!</string>
+<string lang_id="3" lang="英文">Pushtable Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة بيانات القاعدة!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Empuje Datos Leer éxito.</string>
+<string lang_id="7" lang="土耳其语">Pushtable İthalat Başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت خواندن داده کراس هد!</string>
+<string lang_id="9" lang="葡萄牙语">Empurre mesa Importação bem sucedido!</string>
+<string lang_id="10" lang="越南文">Số liệu đầu chữ thập đọc thành công!</string>
+</item>
+<item type="0">
+<value>75</value>
+<string lang_id="0" lang="中文">十字头数据读取失败！</string>
+<string lang_id="1" lang="俄文">Упорная входа таблиц не удалось!</string>
+<string lang_id="2" lang="韩文">푸쉬 테이블 가져오기 실패!</string>
+<string lang_id="3" lang="英文">Pushtable Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة بيانات القاعدة!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Empuje Datos Leer Fallo.</string>
+<string lang_id="7" lang="土耳其语">Pushtable İthalat Fail!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت خواندن داده کراس هد!</string>
+<string lang_id="9" lang="葡萄牙语">Empurre mesa Importação falha!</string>
+<string lang_id="10" lang="越南文">Số liệu đầu chữ thập đọc thất bại!</string>
+</item>
+<item type="0">
+<value>76</value>
+<string lang_id="0" lang="中文">主机配置数据保存成功！</string>
+<string lang_id="1" lang="俄文">Настройка вывод успех!</string>
+<string lang_id="2" lang="韩文">콘트롤러 설정 내보내 성공!</string>
+<string lang_id="3" lang="英文">Config Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ البيانات لتكوين المضيف!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">HostConfig Datos Guardar éxito.</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Çıkış Başarılı!</string>
+<string lang_id="8" lang="波斯文">ذخیره موفق داده پیکردهی میزبان!</string>
+<string lang_id="9" lang="葡萄牙语">Configuração de saída bem sucedido!</string>
+<string lang_id="10" lang="越南文">Lưu số liệu cấu hình máy chủ thành công!</string>
+</item>
+<item type="0">
+<value>77</value>
+<string lang_id="0" lang="中文">主机配置数据保存失败！</string>
+<string lang_id="1" lang="俄文">Настройка вывод не удалось!</string>
+<string lang_id="2" lang="韩文">콘트롤러 설정 내보내 실패!</string>
+<string lang_id="3" lang="英文">Config Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ البيانات لتكوين المضيف!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">HostConfig Datos Guardar Fallo.</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ذخیره ناموفق داده پیکردهی میزبان!</string>
+<string lang_id="9" lang="葡萄牙语">Saída de configuração falhar!</string>
+<string lang_id="10" lang="越南文">Lưu số liệu cấu hình máy chủ thất bại!</string>
+</item>
+<item type="0">
+<value>78</value>
+<string lang_id="0" lang="中文">主机配置数据读取成功！</string>
+<string lang_id="1" lang="俄文">Конфигураций входа успешно!</string>
+<string lang_id="2" lang="韩文">콘트롤러 설정 가져 오기 성공!</string>
+<string lang_id="3" lang="英文">Config Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة البيانات لتكوين المضيف!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">HostConfig Datos Leer éxito.</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma İthalat Başarılı!</string>
+<string lang_id="8" lang="波斯文">خواندن موفق داده پیکردهی میزبان!</string>
+<string lang_id="9" lang="葡萄牙语">Configuração Importação bem sucedido!</string>
+<string lang_id="10" lang="越南文">Đọc số liệu cấu hình máy chủ thành công!</string>
+</item>
+<item type="0">
+<value>79</value>
+<string lang_id="0" lang="中文">主机配置数据读取失败！</string>
+<string lang_id="1" lang="俄文">Конфигураций входа не удалось!</string>
+<string lang_id="2" lang="韩文">콘트롤러 설정 가져 오기 실패!</string>
+<string lang_id="3" lang="英文">Config Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة البيانات لتكوين المضيف!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">HostConfig Datos Leer Fallo.</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma İthalat Fail!</string>
+<string lang_id="8" lang="波斯文">خواندن ناموفق داده پیکردهی میزبان!</string>
+<string lang_id="9" lang="葡萄牙语">Configuração Importação falhar!</string>
+<string lang_id="10" lang="越南文">Đọc số liệu cấu hình máy chủ thất bại!</string>
+</item>
+<item type="0">
+<value>80</value>
+<string lang_id="0" lang="中文">配置文件保存成功！</string>
+<string lang_id="1" lang="俄文">Файл конфигурации вывод успех!</string>
+<string lang_id="2" lang="韩文">구성 파일 내보내기 성공!</string>
+<string lang_id="3" lang="英文">ConfigFile Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ ملف التكوين!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Config Doc Guardar éxito</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Dosya Çıkış Başarılı!</string>
+<string lang_id="8" lang="波斯文">ذخیره موفق فایل پیکردهی!</string>
+<string lang_id="9" lang="葡萄牙语">Arquivo de configuração de saída sucesso!</string>
+<string lang_id="10" lang="越南文">Lưu số liệu file cấu hình thành công!</string>
+</item>
+<item type="0">
+<value>81</value>
+<string lang_id="0" lang="中文">配置文件保存失败！</string>
+<string lang_id="1" lang="俄文">Файл конфигурации вывод не удалось!</string>
+<string lang_id="2" lang="韩文">구성 파일 내보내기 실패!</string>
+<string lang_id="3" lang="英文">ConfigFile Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ ملف التكوين!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Config Doc Guardar Fallo</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Dosya Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ذخیره ناموفق فایل پیکردهی!</string>
+<string lang_id="9" lang="葡萄牙语">Arquivo de configuração de saída falhou!</string>
+<string lang_id="10" lang="越南文">Lưu số liệu file cấu hình thất bại!</string>
+</item>
+<item type="0">
+<value>82</value>
+<string lang_id="0" lang="中文">配置文件读取成功！</string>
+<string lang_id="1" lang="俄文">входа конфигурации файла успешно!</string>
+<string lang_id="2" lang="韩文">구성 파일 가져오기 성공!</string>
+<string lang_id="3" lang="英文">ConfigFile Read Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجحت قراءة ملف التكوين!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Config Doc Leer éxito</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Dosya İthalat Başarılı!</string>
+<string lang_id="8" lang="波斯文">خواندن موفق قایل پیکردهی!</string>
+<string lang_id="9" lang="葡萄牙语">Entrada de arquivo de configuração com sucesso!</string>
+<string lang_id="10" lang="越南文">Đọc số liệu file cấu hình thành công!</string>
+</item>
+<item type="0">
+<value>83</value>
+<string lang_id="0" lang="中文">配置文件读取失败！</string>
+<string lang_id="1" lang="俄文">входа конфигурации файла не удалась!</string>
+<string lang_id="2" lang="韩文">구성 파일 가져오기 실패!</string>
+<string lang_id="3" lang="英文">ConfigFile Read Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشلت قراءة ملف التكوين!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Config Doc Leer Fallo</string>
+<string lang_id="7" lang="土耳其语">Yapılandırma Dosya İthalat Fail!</string>
+<string lang_id="8" lang="波斯文">خواندن ناموفق فایل پیکردهی!</string>
+<string lang_id="9" lang="葡萄牙语">Digite o arquivo de configuração falhou!</string>
+<string lang_id="10" lang="越南文">Đọc số liệu file cấu hình thất bại!</string>
+</item>
+<item type="0">
+<value>84</value>
+<string lang_id="0" lang="中文">画面截图保存成功！</string>
+<string lang_id="1" lang="俄文">Скриншоте Выходные успех!</string>
+<string lang_id="2" lang="韩文">스크린 샷 내보내기 성공!</string>
+<string lang_id="3" lang="英文">ScreenShot Save Successful!</string>
+<string lang_id="4" lang="阿拉伯文">نجح حفاظ لقطات!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Capturas Guarde éxito!</string>
+<string lang_id="7" lang="土耳其语">ScreenShot Çıkış Başarılı!</string>
+<string lang_id="8" lang="波斯文">موفقیت ذخیره نماگرفت!</string>
+<string lang_id="9" lang="葡萄牙语">ScreenShot Successfull saída!</string>
+<string lang_id="10" lang="越南文">Chụp ảnh màn hình lưu thành công!</string>
+</item>
+<item type="0">
+<value>85</value>
+<string lang_id="0" lang="中文">画面截图保存失败！</string>
+<string lang_id="1" lang="俄文">Скриншоте Выходные не удалось!</string>
+<string lang_id="2" lang="韩文">스크린 샷 내보내기 실패!</string>
+<string lang_id="3" lang="英文">ScreenShot Save Fail!</string>
+<string lang_id="4" lang="阿拉伯文">فشل حفاظ لقطات!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Capturas Guarde Fallo!</string>
+<string lang_id="7" lang="土耳其语">ScreenShot Çıkış Fail!</string>
+<string lang_id="8" lang="波斯文">ناموفقیت ذخیره نماگرفت!</string>
+<string lang_id="9" lang="葡萄牙语">Saída ScreenShot falhar!</string>
+<string lang_id="10" lang="越南文">Chụp ảnh màn hình lưu thất bại!</string>
+</item>
+<item type="0">
+<value>86</value>
+<string lang_id="0" lang="中文">机器型号名称过长！</string>
+<string lang_id="1" lang="俄文">Название модели машины слишком длинное!</string>
+<string lang_id="2" lang="韩文">기계의 모델 이름이 너무 깁니다!</string>
+<string lang_id="3" lang="英文">The name of the machine is too long!</string>
+<string lang_id="4" lang="阿拉伯文">اسم الموديل للآلة طويل جدًا!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡El nombre del modelo de la máquina es demasiado largo!</string>
+<string lang_id="7" lang="土耳其语">Makinenin model adı çok uzun!</string>
+<string lang_id="8" lang="波斯文">نام مدل ماشین بسیار طولانی است!</string>
+<string lang_id="9" lang="葡萄牙语">O nome do modelo da máquina é muito longo!</string>
+<string lang_id="10" lang="越南文">Tên model của máy quá dài!</string>
+</item>
+<item type="0">
+<value>87</value>
+<string lang_id="0" lang="中文">请关闭电热！</string>
+<string lang_id="1" lang="俄文">закройте нагреватель</string>
+<string lang_id="2" lang="韩文">전기 히터를 끄십시오.</string>
+<string lang_id="3" lang="英文">Please Close Heater!</string>
+<string lang_id="4" lang="阿拉伯文">Please Close Heater</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Por favor cierre el calentador</string>
+<string lang_id="7" lang="土耳其语">Lütfen Isıtıcıyı Kapat</string>
+<string lang_id="8" lang="波斯文">Please Close Heater</string>
+<string lang_id="9" lang="葡萄牙语">Feche o aquecedor</string>
+<string lang_id="10" lang="越南文">Vui lòng tắt động Heater</string>
+</item>
+<item type="0">
+<value>88</value>
+<string lang_id="0" lang="中文">料桶温度过高！</string>
+<string lang_id="1" lang="俄文">Темп бочки слишком высокая</string>
+<string lang_id="2" lang="韩文">배럴의 온도가 너무 높습니다</string>
+<string lang_id="3" lang="英文">Barrel Temp Too High!</string>
+<string lang_id="4" lang="阿拉伯文">Barrel Temp Too High</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temperatura husillo demasiado alta</string>
+<string lang_id="7" lang="土耳其语">Namlu sıcaklığı çok yüksek, lütfen soğuyun</string>
+<string lang_id="8" lang="波斯文">Barrel Temp Too High</string>
+<string lang_id="9" lang="葡萄牙语">Barril temperatura está muito alta, por favor, esfrie</string>
+<string lang_id="10" lang="越南文">Hộp mực Nhiệt độ Cao</string>
+</item>
+<item type="0">
+<value>89</value>
+<string lang_id="0" lang="中文">正在温度优化，是否退出？</string>
+<string lang_id="1" lang="俄文">Темп оптимизирует, выход?</string>
+<string lang_id="2" lang="韩文">온도 최적화에서 출구를 결정하십시오?</string>
+<string lang_id="3" lang="英文">Temp is Optimizing,Exit?</string>
+<string lang_id="4" lang="阿拉伯文">Temp is Optimizing,Exit?</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">La temperatura es la optimización, salir?</string>
+<string lang_id="7" lang="土耳其语">Sıcaklık Optimiza Çıkışı Belirleyin</string>
+<string lang_id="8" lang="波斯文">Temp is Optimizing,Exit?</string>
+<string lang_id="9" lang="葡萄牙语">Otimização de temperatura, confirme para sair</string>
+<string lang_id="10" lang="越南文">Tối ưu hóa nhiệt độ,Thoát?</string>
+</item>
+<item type="0">
+<value>90</value>
+<string lang_id="0" lang="中文">电眼检出需使用！</string>
+<string lang_id="1" lang="俄文">Используйте для обнаружения электро-глаз</string>
+<string lang_id="2" lang="韩文">전동식 눈 감지기 사용 필요</string>
+<string lang_id="3" lang="英文">Electric Eye Check Need to Use!</string>
+<string lang_id="4" lang="阿拉伯文">Electric Eye Check Need to Use</string>
+<string lang_id="5" lang="法语">1</string>
+<string lang_id="6" lang="西班牙语">Necesidad de uso de control de ojo eléctrico</string>
+<string lang_id="7" lang="土耳其语">Sensör Tespiti Kullanılmalı</string>
+<string lang_id="8" lang="波斯文">Electric Eye Check Need to Use</string>
+<string lang_id="9" lang="葡萄牙语">Verificação Sensor Precisa usar</string>
+<string lang_id="10" lang="越南文">Toàn điện bộ cảm ứng kiểmTra Cần sử dụng</string>
+</item>
+<item type="0">
+<value>91</value>
+<string lang_id="0" lang="中文">请更改吹气方式到非电眼后模式！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, измените режим инсуффляции на неэлектрический режим глаза</string>
+<string lang_id="2" lang="韩文">송풍 모드를 비 전봇 모드로 변경하십시오.</string>
+<string lang_id="3" lang="英文">Please Change Blow Mode to expect AftSensor Mode!</string>
+<string lang_id="4" lang="阿拉伯文">Please Change Blow Mode to expect AftSensor Mode</string>
+<string lang_id="5" lang="法语">2</string>
+<string lang_id="6" lang="西班牙语">Por favor, cambie el modo de golpe para esperar el modo AftSensor</string>
+<string lang_id="7" lang="土耳其语">Lütfen Hava modunu ile SensörSon mod değiştirin.</string>
+<string lang_id="8" lang="波斯文">Please Change Blow Mode to expect AftSensor Mode</string>
+<string lang_id="9" lang="葡萄牙语">Altere o método de Golpe para o modo de olho não elétrico</string>
+<string lang_id="10" lang="越南文">ThổiKhí Cần phải thay đổi Bộ cảm ứng Bên ngoài</string>
+</item>
+<item type="0">
+<value>92</value>
+<string lang_id="0" lang="中文">面板导入驱动器数据成功!</string>
+<string lang_id="1" lang="俄文">Панель Импорт приводо Данные успешно! </string>
+<string lang_id="2" lang="韩文">판넬 입력 드라이버 데이터 성공!</string>
+<string lang_id="3" lang="英文">Panel Import Drive Data Successful!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡El panel importó los datos de la unidad con éxito!</string>
+<string lang_id="7" lang="土耳其语">PANELI İthalat Servo Veri başarılı!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O painel importou os dados do drive com sucesso!</string>
+<string lang_id="10" lang="越南文">Bảng đã nhập dữ liệu ổ đĩa thành công!</string>
+</item>
+<item type="0">
+<value>93</value>
+<string lang_id="0" lang="中文">面板导出驱动器数据成功!</string>
+<string lang_id="1" lang="俄文">Панель Экспорт приводо Данные успешно!</string>
+<string lang_id="2" lang="韩文">판넬 수출 드라이버 데이터 성공!</string>
+<string lang_id="3" lang="英文">Panel Outport Drive Data Successful!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡El panel ha exportado correctamente los datos de la unidad!</string>
+<string lang_id="7" lang="土耳其语">PANELI Ihracat Servo Veri başarılı!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O painel exportou com sucesso os dados do drive!</string>
+<string lang_id="10" lang="越南文">Bảng đã xuất thành công dữ liệu ổ đĩa!</string>
+</item>
+<item type="0">
+<value>94</value>
+<string lang_id="0" lang="中文">面板导入驱动器数据失败!</string>
+<string lang_id="1" lang="俄文">Панель Импорт приводо Данные ограничителя! </string>
+<string lang_id="2" lang="韩文">판넬 입력 드라이버 데이터 실패!</string>
+<string lang_id="3" lang="英文">Panel Import Drive Data Fail!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡El panel no pudo importar los datos de la unidad!</string>
+<string lang_id="7" lang="土耳其语">PANELI İthalat Servo Veri başarısız!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O painel falhou ao importar os dados da unidade!</string>
+<string lang_id="10" lang="越南文">Bảng điều khiển không thể nhập dữ liệu ổ đĩa!</string>
+</item>
+<item type="0">
+<value>95</value>
+<string lang_id="0" lang="中文">面板导出驱动器数据失败!</string>
+<string lang_id="1" lang="俄文">Панель Экспорт приводо Данные ограничителя! </string>
+<string lang_id="2" lang="韩文">판넬 수출 드라이버 데이터 실패!</string>
+<string lang_id="3" lang="英文">Panel Outport Drive Data Fail!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡El panel no pudo exportar los datos de la unidad!</string>
+<string lang_id="7" lang="土耳其语">PANELI Ihracat Servo Veri başarısız!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O painel falhou ao exportar os dados da unidade!</string>
+<string lang_id="10" lang="越南文">Bảng không thể xuất dữ liệu ổ đĩa!</string>
+</item>
+<item type="0">
+<value>96</value>
+<string lang_id="0" lang="中文">马达开启时不可操作!</string>
+<string lang_id="1" lang="俄文">Закройте Motor</string>
+<string lang_id="2" lang="韩文">모터 정지해 주세요</string>
+<string lang_id="3" lang="英文">Do Not Operate When Motor Open, Please Close Motor!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡No lo opere con el motor encendido!</string>
+<string lang_id="7" lang="土耳其语">Kapat Motor lütfen</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Não opere com o motor ligado!</string>
+<string lang_id="10" lang="越南文">Không hoạt động khi động cơ đang bật!</string>
+</item>
+<item type="0">
+<value>97</value>
+<string lang_id="0" lang="中文">当前操作未完成! </string>
+<string lang_id="1" lang="俄文">Текущая операция не завершена!Mevcut İşlem Bitmedi!</string>
+<string lang_id="2" lang="韩文">현재 작업이 완료되지 않았습니다!</string>
+<string lang_id="3" lang="英文">Current Operate Not Finish!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡La operación actual no está completa!</string>
+<string lang_id="7" lang="土耳其语">Mevcut Çalışma Bitmedi!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A operação atual não foi concluída!</string>
+<string lang_id="10" lang="越南文">Hoạt động hiện tại chưa hoàn thành!</string>
+</item>
+<item type="0">
+<value>98</value>
+<string lang_id="0" lang="中文">请选择驱动器!</string>
+<string lang_id="1" lang="俄文">Пожалуйста выберите приводо!</string>
+<string lang_id="2" lang="韩文">선택 해주세요 드라이버!</string>
+<string lang_id="3" lang="英文">Please Select Drive!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Seleccione una unidad</string>
+<string lang_id="7" lang="土耳其语">Lütfen seçin Servo!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Selecione uma unidade</string>
+<string lang_id="10" lang="越南文">Vui lòng chọn một ổ đĩa</string>
+</item>
+<item type="0">
+<value>99</value>
+<string lang_id="0" lang="中文">储料开模功能使用时不能选择此功能!</string>
+<string lang_id="1" lang="俄文">Функция Открыто не мож Испо!</string>
+<string lang_id="2" lang="韩文">저장 재료 금형 개방 기능을 사용하는 경우이 기능을 선택할 수 없습니다!</string>
+<string lang_id="3" lang="英文">Can't Achieve With Charge Open Link!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">No Se Puede Lograr Con Carga 
+Abrir Enlace!</string>
+<string lang_id="7" lang="土耳其语">Mal Alm Açma Fonksi Kapanmamış!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Não Consigo Alcançar Com Carregar Abrir Artic</string>
+<string lang_id="10" lang="越南文">Không thể chọn chức năng này khi sử dụng chức năng khuôn bảo quản!</string>
+</item>
+<item type="0">
+<value>100</value>
+<string lang_id="0" lang="中文">注意,已进入调机模式!</string>
+<string lang_id="1" lang="俄文">Внимание,Регулир Режим!</string>
+<string lang_id="2" lang="韩文">디버그 모드로 들어갔습니다!</string>
+<string lang_id="3" lang="英文">Attention,Adjust mode!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Atención, modo de ajuste!</string>
+<string lang_id="7" lang="土耳其语">Dikkat, ayarlama moduna girdi!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Observe que o modo de sintonia foi inserido!</string>
+<string lang_id="10" lang="越南文">Lưu ý rằng chế độ điều chỉnh đã được nhập!</string>
+</item>
+<item type="0">
+<value>101</value>
+<string lang_id="0" lang="中文">请在马达关状态下进行该操作!</string>
+<string lang_id="1" lang="俄文">Закройте Motor</string>
+<string lang_id="2" lang="韩文">모터 정지해 주세요</string>
+<string lang_id="3" lang="英文">Please do this when the motor is off!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Haga esto cuando el motor esté apagado</string>
+<string lang_id="7" lang="土耳其语">Kapat Motor lütfen</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Faça isso quando o motor estiver desligado</string>
+<string lang_id="10" lang="越南文">Vui lòng làm điều này khi động cơ tắt</string>
+</item>
+<item type="0">
+<value>102</value>
+<string lang_id="0" lang="中文">温度部件异常！</string>
+<string lang_id="1" lang="俄文">Темп. Компоненты ненорма</string>
+<string lang_id="2" lang="韩文">비정상적인 온도 성분</string>
+<string lang_id="3" lang="英文">Temp Components Abnormity!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Componentes Anormalidad </string>
+<string lang_id="7" lang="土耳其语">Isılar Bileşenler Anormalliği</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Partes com temperatura anormal</string>
+<string lang_id="10" lang="越南文">Các thành phần nhiệt độ bất thường</string>
+</item>
+<item type="0">
+<value>103</value>
+<string lang_id="0" lang="中文">泵浦部件异常！</string>
+<string lang_id="1" lang="俄文">НасосКомпоненты ненорма</string>
+<string lang_id="2" lang="韩文">비정상 펌프 구성 요소</string>
+<string lang_id="3" lang="英文">Pump Components Abnormity!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Bomba Componentes Anormalidad </string>
+<string lang_id="7" lang="土耳其语">Pompa Bileşenler Anormalliği</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Peças anormais da bomba</string>
+<string lang_id="10" lang="越南文">Bộ phận bơm bất thường</string>
+</item>
+<item type="0">
+<value>104</value>
+<string lang_id="0" lang="中文">温度&amp;泵浦部件异常！</string>
+<string lang_id="1" lang="俄文">Темп.&amp;НасосКомпоненты ненорма</string>
+<string lang_id="2" lang="韩文">비정상적인 온도 및 펌프 구성 요소</string>
+<string lang_id="3" lang="英文">Temp &amp; Pump Components Abnormity!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp &amp; Bomba Componentes Anormalidad </string>
+<string lang_id="7" lang="土耳其语">Isılar&amp;Pompa Bileşenler Anormalliği</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Temperatura anormal e componentes da bomba</string>
+<string lang_id="10" lang="越南文">nhiệt độ &amp; Bộ phận bơm bất thường</string>
+</item>
+<item type="0">
+<value>105</value>
+<string lang_id="0" lang="中文">文件名不能包含下列任何字符: &lt; &gt; / \ | : " * ?</string>
+<string lang_id="1" lang="俄文">Имя файла не может содержать следующие символы: &lt; &gt; / \ | : " * ?</string>
+<string lang_id="2" lang="韩文">파일 이름은 다음 문자를 포함 할 수 없습니다: &lt; &gt; / \ | : " * ?</string>
+<string lang_id="3" lang="英文">File name cannot contain any of the following characters: &lt; &gt; / \ | : " * ?</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El nombre del archivo no puede contener los siguientes caracteres</string>
+<string lang_id="7" lang="土耳其语">Dosya adı aşağıdaki karakterlerden hiçbirini içeremez: &lt; &gt; / \ | : " * ?</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O nome do arquivo não pode conter os seguintes caracteres</string>
+<string lang_id="10" lang="越南文">Tên tệp không được chứa các ký tự sau</string>
+</item>
+<item type="0">
+<value>106</value>
+<string lang_id="0" lang="中文">权限等级过低，无法设置!</string>
+<string lang_id="1" lang="俄文">Уровень полномочий слишком низок, чтобы быть установленным!</string>
+<string lang_id="2" lang="韩文">비허가</string>
+<string lang_id="3" lang="英文">Permission Level Is Too Low,Can Not Set!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El nivel de permiso es demasiado bajo!</string>
+<string lang_id="7" lang="土耳其语">İzin Düzeyi Çok Düşük, Ayarlanamıyor!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O nível de potência está muito baixo para ser definido!</string>
+<string lang_id="10" lang="越南文">Mức năng lượng quá thấp để được đặt!</string>
+</item>
+<item type="0">
+<value>107</value>
+<string lang_id="0" lang="中文">数据已保护!</string>
+<string lang_id="1" lang="俄文">Данные были защищены!</string>
+<string lang_id="2" lang="韩文">데이터가 보호됩니다!</string>
+<string lang_id="3" lang="英文">Data Has Been Protected!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Los datos han sido protegidos!</string>
+<string lang_id="7" lang="土耳其语">Veriler Korundu!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Os dados estão protegidos!</string>
+<string lang_id="10" lang="越南文">Dữ liệu được bảo vệ!</string>
+</item>
+<item type="0">
+<value>108</value>
+<string lang_id="0" lang="中文">请输入文件名称！</string>
+<string lang_id="1" lang="俄文">Имя файла пустое, пожалуйста, введите заново!</string>
+<string lang_id="2" lang="韩文">파일 이름이 비어 있습니다. 다시 입력하십시오!</string>
+<string lang_id="3" lang="英文">File Name Is Empty, Please Re-Enter!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El nombre del archivo está vacío, vuelva a introducirlo.</string>
+<string lang_id="7" lang="土耳其语">Dosya Adı Boş, Lütfen Tekrar Girin!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O nome do arquivo está vazio, por favor digite novamente!</string>
+<string lang_id="10" lang="越南文">Tên tệp trống, vui lòng nhập lại!</string>
+</item>
+<item type="0">
+<value>109</value>
+<string lang_id="0" lang="中文">请先关闭测试!</string>
+<string lang_id="1" lang="俄文">Пожалуйста, закройте тест сначала!</string>
+<string lang_id="2" lang="韩文">먼저 테스트를 종료하십시오!</string>
+<string lang_id="3" lang="英文">Please Close The Test First!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Primero cierre la prueba!</string>
+<string lang_id="7" lang="土耳其语">Lütfen Önce Testi Kapatın!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Por favor, feche o teste primeiro!</string>
+<string lang_id="10" lang="越南文">Vui lòng đóng thử nghiệm trước!</string>
+</item>
+<item type="0">
+<value>110</value>
+<string lang_id="0" lang="中文">数据中存在空数据，请检查！</string>
+<string lang_id="1" lang="俄文">Данные формы неполные, пожалуйста, проверьте данные!</string>
+<string lang_id="2" lang="韩文">양식 데이터가 불완전합니다. 데이터를 확인하십시오!</string>
+<string lang_id="3" lang="英文">One Item Of Data Is Empty,Please Cheak!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Los datos de la tabla están incompletos, verifique los datos.</string>
+<string lang_id="7" lang="土耳其语">Bir Veri Öğesi Boş, Lütfen Kontrol Edin!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Os dados da tabela estão incompletos, verifique os dados!</string>
+<string lang_id="10" lang="越南文">Một mục dữ liệu trống, vui lòng kiểm tra!</string>
+</item>
+<item type="0">
+<value>111</value>
+<string lang_id="0" lang="中文">最大转速未读取!</string>
+<string lang_id="1" lang="俄文">Скор.непрочи.</string>
+<string lang_id="2" lang="韩文">읽지 않은 최대속도</string>
+<string lang_id="3" lang="英文">Max RPM Unread!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡No se ha leído la velocidad máxima!</string>
+<string lang_id="7" lang="土耳其语">Okunmamış Maksimum Hız</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A velocidade máxima não foi lida!</string>
+<string lang_id="10" lang="越南文">Tốc độ tối đa chưa được đọc!</string>
+</item>
+<item type="0">
+<value>112</value>
+<string lang_id="0" lang="中文">已有温度段用作电机温度，请先关闭后再选择！</string>
+<string lang_id="1" lang="俄文">Существующий диапазон температур используется как температура двигателя, пожалуйста, выключите, а затем выбрать!</string>
+<string lang_id="2" lang="韩文">기존 온도 범위가 모터 온도로 사용되므로 전원을 끈 다음 선택하십시오!</string>
+<string lang_id="3" lang="英文">Existing temp range is used as motor temp, please close before selecting!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El rango de temp existente se utiliza como temp del motor, ¡cierre antes de seleccionar!</string>
+<string lang_id="7" lang="土耳其语">Mevcut sıcaklık aralığı motor sıcaklığı olarak kullanılır, lütfen seçmeden önce kapatın!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A seção de temperatura existente é usada como temperatura do motor, desligue-a antes de selecionar!</string>
+<string lang_id="10" lang="越南文">Phạm vi nhiệt độ hiện tại được sử dụng làm nhiệt độ động cơ, vui lòng đóng trước khi chọn!</string>
+</item>
+<item type="0">
+<value>113</value>
+<string lang_id="0" lang="中文">已有温度段用作落料口，请先关闭后再选择！</string>
+<string lang_id="1" lang="俄文">Существующая секция температуры используется в качестве температуры порта гашения. Пожалуйста, закройте ее перед выбором!</string>
+<string lang_id="2" lang="韩文">기존 온도 섹션은 블랭킹 포트의 온도로 사용됩니다. 선택하기 전에 닫으십시오!</string>
+<string lang_id="3" lang="英文">Existing temp range is used as blanking mouth temp, please close before selecting!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El rango de temp existente se utiliza como temp de la boca de supresión, cierre antes de seleccionar.</string>
+<string lang_id="7" lang="土耳其语">Mevcut sıcaklık aralığı ağız boşluğu sıcaklığı olarak kullanılır, lütfen seçmeden önce kapatın!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A seção de temperatura existente é usada como a temperatura da porta de apagamento, feche-a antes de selecionar!</string>
+<string lang_id="10" lang="越南文">Phạm vi nhiệt độ hiện tại được sử dụng làm nhiệt độ miệng trống, vui lòng đóng trước khi chọn!</string>
+</item>
+<item type="0">
+<value>114</value>
+<string lang_id="0" lang="中文">已有温度段用作油温温度，请先关闭后再选择！</string>
+<string lang_id="1" lang="俄文">Существующий диапазон температур используется как температура масла. Пожалуйста, выключите, а затем выбрать!</string>
+<string lang_id="2" lang="韩文">기존 온도 범위는 오일 온도로 사용됩니다. 전원을 끄고 선택하십시오!</string>
+<string lang_id="3" lang="英文">Existing temp range is used as oil temp, please close before selecting!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El rango de temp existente se usa como temp del aceite, ¡cierre antes de seleccionar!</string>
+<string lang_id="7" lang="土耳其语">Mevcut sıcaklık aralığı yağ sıcaklığı olarak kullanılır, lütfen seçmeden önce kapatın!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A seção de temperatura existente é usada como temperatura do óleo, desligue-a antes de selecionar!</string>
+<string lang_id="10" lang="越南文">Phạm vi nhiệt độ hiện tại được sử dụng làm nhiệt độ dầu, vui lòng đóng trước khi chọn!</string>
+</item>
+<item type="0">
+<value>115</value>
+<string lang_id="0" lang="中文">优先使用部件一，部件二暂时还未开放此功能！</string>
+<string lang_id="1" lang="俄文">Отдайте приоритет первому блоку, второй блок не планируется</string>
+<string lang_id="2" lang="韩文">첫 번째 블록에 우선 순위를 부여하십시오. 두 번째 블록은 계획되지 않았습니다.</string>
+<string lang_id="3" lang="英文">The first block is used first, the second block is not planned for the time being!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El primer bloque se usa primero, el segundo bloque no está planeado por el momento</string>
+<string lang_id="7" lang="土耳其语">İlk blok ilk olarak kullanılır, ikinci blok şu an için planlanmamıştır</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O primeiro bloco é usado primeiro, o segundo bloco é temporariamente não planejado</string>
+<string lang_id="10" lang="越南文">Khối đầu tiên được sử dụng đầu tiên, khối thứ hai không được lên kế hoạch trong thời gian này</string>
+</item>
+<item type="0">
+<value>116</value>
+<string lang_id="0" lang="中文">请切换到调模状态！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, переключитесь в режим настройки</string>
+<string lang_id="2" lang="韩文">로 전환하십시오금형조정</string>
+<string lang_id="3" lang="英文">Please Change to AdjMold State!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cambie a AdjMold State</string>
+<string lang_id="7" lang="土耳其语">Lütfen Ayar Durumuna Değiştirin</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Por favor, mude para o estado de ajuste de modo</string>
+<string lang_id="10" lang="越南文">Vui lòng chuyển sang trạng thái Diều chỉnh k.</string>
+</item>
+<item type="0">
+<value>117</value>
+<string lang_id="0" lang="中文">电子尺通道已被使用,请检查!</string>
+<string lang_id="1" lang="俄文">Электронный канал правителя был использован</string>
+<string lang_id="2" lang="韩文">전자 통치자 채널이 사용되었습니다</string>
+<string lang_id="3" lang="英文">The Meter Channel Is Used,Please Check It!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Se utiliza el canal del medidor, compruébelo</string>
+<string lang_id="7" lang="土耳其语">Elektronik cetvel kanalı kullanılmıştır</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O canal da régua eletrônica foi usado, verifique</string>
+<string lang_id="10" lang="越南文">Kênh đồng hồ đã được sử dụng, vui lòng kiểm tra</string>
+</item>
+<item type="0">
+<value>118</value>
+<string lang_id="0" lang="中文">主机重启成功！</string>
+<string lang_id="1" lang="俄文">Перезагрузка успех</string>
+<string lang_id="2" lang="韩文">호스트 재부팅 성공</string>
+<string lang_id="3" lang="英文">Host Reboot success!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Anfitrión éxito Reboot</string>
+<string lang_id="7" lang="土耳其语">Yeniden başarıyı ev sahipliği</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Hospedar sucesso Reiniciar</string>
+<string lang_id="10" lang="越南文">M.chủ khởi.đ lại t.công</string>
+</item>
+<item type="0">
+<value>119</value>
+<string lang_id="0" lang="中文">请先勾选模温！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, сначала проверьте температуру формы</string>
+<string lang_id="2" lang="韩文">먼저 확인하십시오</string>
+<string lang_id="3" lang="英文">Please Tick MoldTemp!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Marque MoldTemp</string>
+<string lang_id="7" lang="土耳其语">Lütfen tik atın Kalıp</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Verifique a temperatura do molde primeiro</string>
+<string lang_id="10" lang="越南文">Vui lòng đánh dấu Nhi.độKhu</string>
+</item>
+<item type="0">
+<value>120</value>
+<string lang_id="0" lang="中文">U盘格式为NTFS,请更换FAT32格式的U盘！</string>
+<string lang_id="1" lang="俄文">Форм. U-диска - NTFS, заме. диск U в фор. Fat32</string>
+<string lang_id="2" lang="韩文">U 디스크 형식이 NTFS 인 경우 U 디스크를 FAT32 형식으로 바꾸십시오.</string>
+<string lang_id="3" lang="英文">U Disk Is NTFS,Please Change to Fat32!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El Formato De Disco U Es NTFS, Reemplace El Disco U En Formato Fat32</string>
+<string lang_id="7" lang="土耳其语">U disk formatı NTFS'dir, lütfen U diskini Fat32 formatında değiştirin</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O formato da unidade flash USB é NTFS, substitua a unidade flash USB pelo formato FAT32</string>
+<string lang_id="10" lang="越南文">Định dạng đĩa U là NTFS, vui lòng thay thế đĩa U ở định dạng Fat32</string>
+</item>
+<item type="0">
+<value>121</value>
+<string lang_id="0" lang="中文">U盘存在多个分区,可能无法识别到更新文件,建议更换U盘!</string>
+<string lang_id="1" lang="俄文">Суще более чем один раздел U диска, не может распо файл обновл, предл замену U диск!</string>
+<string lang_id="2" lang="韩文">하나 개 이상의 파티션 U 디스크가, 업데이트 파일, U 디스크의 제안 교체를 인식하지 못할 수 있습니다!</string>
+<string lang_id="3" lang="英文">U Disk exist multiple subarea,May not recognize update file,suggest replacing U Disk!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">U Disco Hay Múltiples Particiones, Se Recomienda Reemplazar El Disco U!</string>
+<string lang_id="7" lang="土耳其语">U diskinde Çoklu bölüm tabloları var, lütfen U diskini değiştirin</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O disco U tem várias partições e o arquivo de atualização pode não ser reconhecido. Recomenda-se substituir o disco U!</string>
+<string lang_id="10" lang="越南文">U Disk exist multiple subarea,May not recognize update file,suggest replacing U Disk!</string>
+</item>
+<item type="0">
+<value>122</value>
+<string lang_id="0" lang="中文">请关闭备用二按键！</string>
+<string lang_id="1" lang="俄文">Пожалуйста, выключите запасную кнопку 2</string>
+<string lang_id="2" lang="韩文">스페어 2 키를 끄십시오</string>
+<string lang_id="3" lang="英文">Please Close Spare 2!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar repuesto 2</string>
+<string lang_id="7" lang="土耳其语">Lütfen kapat Yedek 2</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Por favor, desligue o botão sobressalente 2</string>
+<string lang_id="10" lang="越南文">Vui lòng đóng phụ tùng 2</string>
+</item>
+<item type="0">
+<value>123</value>
+<string lang_id="0" lang="中文">按键锁已锁定!</string>
+<string lang_id="1" lang="俄文">Блокировка клавиш заблокирована!</string>
+<string lang_id="2" lang="韩文">열쇠가 잠겨 있습니다!</string>
+<string lang_id="3" lang="英文">Panel Key Is Locked!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡La tecla del panel está bloqueada!</string>
+<string lang_id="7" lang="土耳其语">Panel Anahtarı Kilitli!</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O bloqueio da chave está bloqueado!</string>
+<string lang_id="10" lang="越南文">Chìa khóa đã bị khóa!</string>
+</item>
+<item type="0">
+<value>124</value>
+<string lang_id="0" lang="中文">确认修改是否保存?</string>
+<string lang_id="1" lang="俄文">Подтвердить, сохранить ли изменения?</string>
+<string lang_id="2" lang="韩文">변경 사항을 저장할지 확인 하시겠습니까?</string>
+<string lang_id="3" lang="英文">Whether to save the modified?</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ya sea para guardar el modificado?</string>
+<string lang_id="7" lang="土耳其语">Değişiklikleri kaydedip kaydetmeyeceğinizi onaylayın?</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Quer salvar o modificado?</string>
+<string lang_id="10" lang="越南文">Có lưu sửa đổi không?</string>
+</item>
+<item type="0">
+<value>125</value>
+<string lang_id="0" lang="中文">确认是否清空数据?</string>
+<string lang_id="1" lang="俄文">Подтвердите ли очистить данные?</string>
+<string lang_id="2" lang="韩文">데이터 삭제 여부를 확인 하시겠습니까?</string>
+<string lang_id="3" lang="英文">Whether to clear the data?</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¿Si borrar los datos?</string>
+<string lang_id="7" lang="土耳其语">Verilerin silinip silinmeyeceğini doğrulayın?</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Quer limpar os dados?</string>
+<string lang_id="10" lang="越南文">Có xóa dữ liệu không?</string>
+</item>
+<item type="0">
+<value>126</value>
+<string lang_id="0" lang="中文">请按中子切换键!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Please Press Key CORESELECT!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>127</value>
+<string lang_id="0" lang="中文">请按吹气切换键!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Please Press Key AIRSELECT!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>128</value>
+<string lang_id="0" lang="中文">至少一组中子功能选择使用!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">At least use one group core func!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>129</value>
+<string lang_id="0" lang="中文">至少开启一组吹气动作!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">At Least Open One Group Air Act!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>130</value>
+<string lang_id="0" lang="中文">文件格式不正确！</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Incorrect file format!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>131</value>
+<string lang_id="0" lang="中文">确认是否读入模具?</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Whether to read the mold?</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>132</value>
+<string lang_id="0" lang="中文">触摸屏检测中...</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Touch Screen Is Checking...</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>133</value>
+<string lang_id="0" lang="中文">触摸屏检测正常!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Touch Screen Check Ok!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>134</value>
+<string lang_id="0" lang="中文">触摸屏检测异常,请与厂家联系!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Touch Screen Check Error,Please Contact The Manufacturer!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>150</value>
+<string lang_id="0" lang="中文">补登创建成功！</string>
+<string lang_id="1" lang="俄文">Успешно построить приложение！</string>
+<string lang_id="2" lang="韩文">보충 성공 빌드!</string>
+<string lang_id="3" lang="英文">Build supplement success！</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Se logró crear un registro posfechado.</string>
+<string lang_id="7" lang="土耳其语">Ek başarı oluşturun！</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Foi possível criar um registro pós-datado</string>
+<string lang_id="10" lang="越南文">Đã thành công trong việc tạo đăng ký sau ngày</string>
+</item>
+<item type="0">
+<value>151</value>
+<string lang_id="0" lang="中文">补登创建失败，请检查是否开启派单功能或者处于手动状态下！</string>
+<string lang_id="1" lang="俄文">Ошибка построения дополнения！</string>
+<string lang_id="2" lang="韩文">보충 오류 작성!</string>
+<string lang_id="3" lang="英文">Build supplement err！</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">No se pudo crear el backlog, ¡verifique si la función de envío está habilitada o en modo manual!</string>
+<string lang_id="7" lang="土耳其语">Derleme ek hatası！</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Falha ao criar o backlog, verifique se a função de despacho está habilitada ou no estado manual!</string>
+<string lang_id="10" lang="越南文">Không tạo được tồn đọng, vui lòng kiểm tra xem chức năng điều phối có được bật hay ở chế độ thủ công!</string>
+</item>
+<item type="0">
+<value>152</value>
+<string lang_id="0" lang="中文">已请求！</string>
+<string lang_id="1" lang="俄文">Уже запрос！</string>
+<string lang_id="2" lang="韩文">이미 요청!</string>
+<string lang_id="3" lang="英文">Already req！</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡Pedido!</string>
+<string lang_id="7" lang="土耳其语">Zaten istek！</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Requeridos!</string>
+<string lang_id="10" lang="越南文">Yêu cầu!</string>
+</item>
+<item type="0">
+<value>153</value>
+<string lang_id="0" lang="中文">数据准备中......</string>
+<string lang_id="1" lang="俄文">Подготовка данных......</string>
+<string lang_id="2" lang="韩文">데이터 준비......</string>
+<string lang_id="3" lang="英文">Data preparation......</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Preparación de datos...</string>
+<string lang_id="7" lang="土耳其语">Veri Hazırlama......</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Preparação de dados...</string>
+<string lang_id="10" lang="越南文">Chuẩn bị dữ liệu ...</string>
+</item>
+<item type="0">
+<value>154</value>
+<string lang_id="0" lang="中文">U盘更新超时！</string>
+<string lang_id="1" lang="俄文">U время обновления диска</string>
+<string lang_id="2" lang="韩文">U 디스크 업데이트 시간 초과</string>
+<string lang_id="3" lang="英文">U disk update timeout!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Se agotó el tiempo de actualización del disco U!</string>
+<string lang_id="7" lang="土耳其语">U disk güncelleme zaman aşımı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">A atualização do disco U expirou!</string>
+<string lang_id="10" lang="越南文">Đã hết thời gian cập nhật đĩa U!</string>
+</item>
+<item type="0">
+<value>155</value>
+<string lang_id="0" lang="中文">在5s后自动关闭弹框！</string>
+<string lang_id="1" lang="俄文">Автоматически закрывать всплывающее окно через 5 секунд</string>
+<string lang_id="2" lang="韩文">5 초 후 자동으로 팝업 창 닫기</string>
+<string lang_id="3" lang="英文">5s Later,Dialog Auto Closes!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar automáticamente la caja después de 5 segundos</string>
+<string lang_id="7" lang="土耳其语">Açılır pencereyi 5 saniye sonra otomatik olarak kapat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Fechar automaticamente a caixa após 5s</string>
+<string lang_id="10" lang="越南文">Tự động đóng hộp sau 5s</string>
+</item>
+<item type="0">
+<value>156</value>
+<string lang_id="0" lang="中文">在6s内连续按3次运行键触发特殊程序更新！</string>
+<string lang_id="1" lang="俄文">Нажмите кнопку запуска 3 раза в течение 6 секунд, чтобы запустить специальное обновление программы.</string>
+<string lang_id="2" lang="韩文">특별 프로그램 업데이트를 트리거하려면 6 초 이내에 실행 키를 3 번 ​​누르십시오.</string>
+<string lang_id="3" lang="英文">If Need Update Special Program,Please Press Run Key 3 Times Within 6s!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Si necesita actualizar el programa especial, presione la tecla Ejecutar 3 veces en 6 segundos.</string>
+<string lang_id="7" lang="土耳其语">Özel bir program güncellemesini tetiklemek için 6 saniye içinde çalıştır tuşuna 3 kez basın</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Se precisar de atualização do programa especial, pressione a tecla Executar 3 vezes em 6s!</string>
+<string lang_id="10" lang="越南文">Nếu cần cập nhật chương trình đặc biệt, vui lòng nhấn phím chạy 3 lần trong vòng 6s!</string>
+</item>
+<item type="0">
+<value>157</value>
+<string lang_id="0" lang="中文">15s后自动更新程序，如果无需更新，请立即拔出U盘！</string>
+<string lang_id="1" lang="俄文">Автоматически обновить программу через 15 секунд, если вам не нужно обновлять, вытащите U-диск</string>
+<string lang_id="2" lang="韩文">15 초 후에 자동으로 프로그램을 업데이트합니다. 업데이트 할 필요가 없으면 즉시 U 디스크를 꺼내십시오.</string>
+<string lang_id="3" lang="英文">15s Later Auto Update,If You Do Not Need Update,Please Pull Out Udisk Immediately!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El programa se actualizará automáticamente después de 15 segundos. Si no es necesario actualizar, extraiga el disco U inmediatamente.</string>
+<string lang_id="7" lang="土耳其语">Programı 15 saniye sonra otomatik olarak güncelleyin, güncellemeniz gerekmiyorsa lütfen U diskini çıkarın</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">O programa será atualizado automaticamente após 15. Se não houver necessidade de atualização, retire o disco U imediatamente!</string>
+<string lang_id="10" lang="越南文">Chương trình sẽ tự động cập nhật sau 15s, nếu không có nhu cầu cập nhật, hãy rút đĩa U ra ngay lập tức!</string>
+</item>
+<item type="0">
+<value>158</value>
+<string lang_id="0" lang="中文">扩展板更新失败！</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">IAP Update Fail!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>159</value>
+<string lang_id="0" lang="中文">扩展板更新成功！</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">IAP Update Successful!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>160</value>
+<string lang_id="0" lang="中文">配置数据发生改变，请重新启动主机</string>
+<string lang_id="1" lang="俄文">Config has changed, please restart the host!</string>
+<string lang_id="2" lang="韩文">Config has changed, please restart the host!</string>
+<string lang_id="3" lang="英文">Config has changed, please restart the host!</string>
+<string lang_id="4" lang="阿拉伯文">Config has changed, please restart the host!</string>
+<string lang_id="5" lang="法语">Config has changed, please restart the host!</string>
+<string lang_id="6" lang="西班牙语">Config has changed, please restart the host!</string>
+<string lang_id="7" lang="土耳其语">Config has changed, please restart the host!</string>
+<string lang_id="8" lang="波斯文">Config has changed, please restart the host!</string>
+<string lang_id="9" lang="葡萄牙语">Config has changed, please restart the host!</string>
+<string lang_id="10" lang="越南文">Config has changed, please restart the host!</string>
+</item>
+<item type="0">
+<value>161</value>
+<string lang_id="0" lang="中文">更新包校验失败,请检查更新包!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Update verification fail,Please Check!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>162</value>
+<string lang_id="0" lang="中文">请关闭电热和马达!</string>
+<string lang_id="1" lang="俄文">Пожалуйста, выключите электроэнергию и мотор! </string>
+<string lang_id="2" lang="韩文">전열과 모터를 꺼주세요!</string>
+<string lang_id="3" lang="英文">Please Close Heater And Motor!</string>
+<string lang_id="4" lang="阿拉伯文">Please Close Heater And Motor!</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">¡¡ por favor, apague la calefacción eléctrica y el motor!</string>
+<string lang_id="7" lang="土耳其语">Lütfen elektrik ısınmayı ve motoru kapatın!</string>
+<string lang_id="8" lang="波斯文">Please Close Heater And Motor!</string>
+<string lang_id="9" lang="葡萄牙语">Por favor, desligue o aquecimento elétrico e motor!</string>
+<string lang_id="10" lang="越南文">Làm ơn tắt điện và động cơ đi!</string>
+</item>
+<item type="0">
+<value>163</value>
+<string lang_id="0" lang="中文">即将恢复为默认值!</string>
+<string lang_id="1" lang="俄文">RestoreToDefault</string>
+<string lang_id="2" lang="韩文">RestoreToDefault</string>
+<string lang_id="3" lang="英文">RestoreToDefault</string>
+<string lang_id="4" lang="阿拉伯文">RestoreToDefault</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">RestoreToDefault</string>
+<string lang_id="7" lang="土耳其语">RestoreToDefault</string>
+<string lang_id="8" lang="波斯文">RestoreToDefault</string>
+<string lang_id="9" lang="葡萄牙语">RestoreToDefault</string>
+<string lang_id="10" lang="越南文">RestoreToDefault</string>
+</item>
+<item type="0">
+<value>164</value>
+<string lang_id="0" lang="中文">请重置电能表!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Restore ElecMeter To Default!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>165</value>
+<string lang_id="0" lang="中文">开关OPCUA功能,请重启面板!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Use OPCUA Func,Please Restart!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>166</value>
+<string lang_id="0" lang="中文">数据超限,请核对!</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Data is overload,please check!</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

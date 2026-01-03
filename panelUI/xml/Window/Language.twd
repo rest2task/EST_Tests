@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Language" 可见="-1" 标题="0:语言选择|||1:Выбор Языка|||2:언어 선택|||3:Language Select|||4:تعديل مقياس الالكترونية|||5:Language Select|||6:Idioma Selección|||7:Dil Seç|||8:انتخاب زبان|||9:Selecionar idioma|||10:Lựa chọn ngôn ngữ|||default:Language Select" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup1" 索引="0" 可见="-1" 可用="-1" 左="50" 顶="60" 宽度="500" 高度="485" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check1" 索引="0" 可见="-1" 可用="-1" 左="67" 顶="95" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL0" 关联变量位="-1" 标题="0:英语|||1:англ|||2:영어|||3:English|||4:الإنجليزية|||5:English|||6:Inglés|||7:İngilizce|||8:انگلیسی|||9:Inglês|||10:Tiếng anh|||default:英文" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image1" 索引="0" 可见="-1" 可用="-1" 左="195" 顶="95" 宽度="90" 高度="40" 透明度="255" 背景图="enx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check2" 索引="0" 可见="-1" 可用="-1" 左="67" 顶="158" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL2" 关联变量位="-1" 标题="0:波斯语|||1:перс|||2:페르시아어|||3:Persian|||4:الفارسية|||5:Persian|||6:Persa|||7:İran|||8:فارسی|||9:persa|||10:Tiếng Ba Tư|||default:Persian" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image2" 索引="0" 可见="-1" 可用="-1" 左="195" 顶="158" 宽度="90" 高度="40" 透明度="255" 背景图="psx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check3" 索引="0" 可见="-1" 可用="-1" 左="67" 顶="221" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL4" 关联变量位="-1" 标题="0:西班牙语|||1:испа|||2:스페인어|||3:Spanish|||4:الأسبانية|||5:Spanish|||6:El Español|||7:İspanyolca|||8:اسپانیایی|||9:espanhol|||10:Tây Ban Nha|||default:Spanish" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image3" 索引="0" 可见="-1" 可用="-1" 左="195" 顶="221" 宽度="90" 高度="40" 透明度="255" 背景图="spnx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check4" 索引="0" 可见="-1" 可用="-1" 左="67" 顶="284" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL6" 关联变量位="-1" 标题="0:葡萄牙语|||1:Порту|||2:포르투갈어|||3:Portugal|||4:البرتغالية|||5:Portugal|||6:El Portugués|||7:Portekiz|||8:پرتغالی|||9:Portugal|||10:Bồ Đào Nha|||default:Portugal" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image4" 索引="0" 可见="-1" 可用="-1" 左="195" 顶="284" 宽度="90" 高度="40" 透明度="255" 背景图="portx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check5" 索引="0" 可见="-1" 可用="0" 左="679" 顶="422" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL8" 关联变量位="-1" 标题="0:法语|||1:францу|||2:프랑스어|||3:French|||4:الفرنسية|||5:French|||6:Francés|||7:Fransız|||8:فرانسوی|||9:francês|||10:Tiếng Pháp|||default:French" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL8"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image5" 索引="0" 可见="-1" 可用="-1" 左="807" 顶="422" 宽度="90" 高度="40" 透明度="255" 背景图="frx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check6" 索引="0" 可见="-1" 可用="-1" 左="317" 顶="95" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL1" 关联变量位="-1" 标题="0:中文|||1:китайский|||2:중국어|||3:Chinese|||4:الصينية|||5:Chinese|||6:Chino|||7:Çin|||8:چینی|||9:chinês|||10:Tiếng TQ|||default:Chinese" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image6" 索引="0" 可见="-1" 可用="-1" 左="445" 顶="95" 宽度="90" 高度="40" 透明度="255" 背景图="chx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check7" 索引="0" 可见="-1" 可用="-1" 左="317" 顶="158" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL3" 关联变量位="-1" 标题="0:俄语|||1:русский|||2:러시아어|||3:Russian|||4:الروسية|||5:Russian|||6:Ruso|||7:Rus|||8:روسی|||9:russo|||10:Nga|||default:Russian" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image7" 索引="0" 可见="-1" 可用="-1" 左="445" 顶="158" 宽度="90" 高度="40" 透明度="255" 背景图="rusx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check8" 索引="0" 可见="-1" 可用="-1" 左="317" 顶="221" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL5" 关联变量位="-1" 标题="0:土耳其语|||1:Турция|||2:터키어|||3:Turkey|||4:اللغة التركية|||5:Turkish|||6:Turquía|||7:Türkiye|||8:ترکی|||9:Turquia|||10:Gà tây|||default:Turkey" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image8" 索引="0" 可见="-1" 可用="-1" 左="445" 顶="221" 宽度="90" 高度="40" 透明度="255" 背景图="tkx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check9" 索引="0" 可见="-1" 可用="-1" 左="317" 顶="284" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL7" 关联变量位="-1" 标题="0:阿拉伯语|||1:арабский|||2:아라비아어|||3:Arabic|||4:العربية|||5:Arabic|||6:árabe|||7:Arapça|||8:عربی|||9:árabe|||10:Ả Rập|||default:阿拉伯语" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL7"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image9" 索引="0" 可见="-1" 可用="-1" 左="445" 顶="284" 宽度="90" 高度="40" 透明度="255" 背景图="arx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check10" 索引="0" 可见="-1" 可用="-1" 左="67" 顶="347" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL9" 关联变量位="-1" 标题="0:韩语|||1:корейский|||2:한국어|||3:Korean|||4:الكورية|||5:Korean|||6:Coreano|||7:Kore|||8:کره ای|||9:coreano|||10:Tiếg Hàn|||default:Korean" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL9"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image10" 索引="0" 可见="-1" 可用="-1" 左="195" 顶="347" 宽度="90" 高度="40" 透明度="255" 背景图="korx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox1" 索引="0" 可见="-1" 可用="-1" 左="317" 顶="347" 宽度="126" 高度="40" 选择="0" 关联变量="p.PP.TMP.TMPVAL10" 关联变量位="-1" 标题="0:越南语|||1:вьетнамский|||2:베트남어|||3:Vietnam|||4:اختيار اللغة|||5:Vietnam|||6:Los Vietnamitas|||7:Vietnam|||8:ویتنامی|||9:Vietnã|||10:Việt Nam|||default:Vietnam" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image13" 索引="0" 可见="-1" 可用="-1" 左="445" 顶="347" 宽度="90" 高度="40" 透明度="255" 背景图="vnx.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<horz order="0" ele_index="2" ele_name="check1"/>
+<horz order="1" ele_index="12" ele_name="check6"/>
+<horz order="2" ele_index="4" ele_name="check2"/>
+<horz order="3" ele_index="14" ele_name="check7"/>
+<horz order="4" ele_index="6" ele_name="check3"/>
+<horz order="5" ele_index="16" ele_name="check8"/>
+<horz order="6" ele_index="8" ele_name="check4"/>
+<horz order="7" ele_index="18" ele_name="check9"/>
+<horz order="8" ele_index="20" ele_name="check10"/>
+<horz order="9" ele_index="22" ele_name="checkbox1"/>
+<horz order="10" ele_index="10" ele_name="check5"/>
+<vert order="0" ele_index="2" ele_name="check1"/>
+<vert order="1" ele_index="4" ele_name="check2"/>
+<vert order="2" ele_index="6" ele_name="check3"/>
+<vert order="3" ele_index="8" ele_name="check4"/>
+<vert order="4" ele_index="20" ele_name="check10"/>
+<vert order="5" ele_index="12" ele_name="check6"/>
+<vert order="6" ele_index="14" ele_name="check7"/>
+<vert order="7" ele_index="16" ele_name="check8"/>
+<vert order="8" ele_index="18" ele_name="check9"/>
+<vert order="9" ele_index="22" ele_name="checkbox1"/>
+<vert order="10" ele_index="10" ele_name="check5"/>
+<tab order="0" ele_index="2" ele_name="check1"/>
+<tab order="1" ele_index="4" ele_name="check2"/>
+<tab order="2" ele_index="6" ele_name="check3"/>
+<tab order="3" ele_index="8" ele_name="check4"/>
+<tab order="4" ele_index="20" ele_name="check10"/>
+<tab order="5" ele_index="12" ele_name="check6"/>
+<tab order="6" ele_index="14" ele_name="check7"/>
+<tab order="7" ele_index="16" ele_name="check8"/>
+<tab order="8" ele_index="18" ele_name="check9"/>
+<tab order="9" ele_index="22" ele_name="checkbox1"/>
+<tab order="10" ele_index="10" ele_name="check5"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="lblgroup1"/>
+<id order="2" ele_index="2" ele_name="check1"/>
+<id order="3" ele_index="3" ele_name="image1"/>
+<id order="4" ele_index="4" ele_name="check2"/>
+<id order="5" ele_index="5" ele_name="image2"/>
+<id order="6" ele_index="6" ele_name="check3"/>
+<id order="7" ele_index="7" ele_name="image3"/>
+<id order="8" ele_index="8" ele_name="check4"/>
+<id order="9" ele_index="9" ele_name="image4"/>
+<id order="10" ele_index="10" ele_name="check5"/>
+<id order="11" ele_index="11" ele_name="image5"/>
+<id order="12" ele_index="12" ele_name="check6"/>
+<id order="13" ele_index="13" ele_name="image6"/>
+<id order="14" ele_index="14" ele_name="check7"/>
+<id order="15" ele_index="15" ele_name="image7"/>
+<id order="16" ele_index="16" ele_name="check8"/>
+<id order="17" ele_index="17" ele_name="image8"/>
+<id order="18" ele_index="18" ele_name="check9"/>
+<id order="19" ele_index="19" ele_name="image9"/>
+<id order="20" ele_index="20" ele_name="check10"/>
+<id order="21" ele_index="21" ele_name="image10"/>
+<id order="22" ele_index="22" ele_name="checkbox1"/>
+<id order="23" ele_index="23" ele_name="image13"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Язык|||2:언어|||3:LANG|||4:|||5:|||6:Idioma|||0:语言|||7:DİL|||8:|||9:IDIOMA|||10:Ng.ngữ|||default:LANG" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLANG.png" 按下图片="btnLANGx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;系统&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;厂商&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;版本&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;重置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;润滑&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

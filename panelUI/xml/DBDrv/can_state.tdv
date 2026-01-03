@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="can_state">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.svo通讯状态1">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">脱机</string>
+<string lang_id="1" lang="俄文">Aвтономно</string>
+<string lang_id="2" lang="韩文">오프라인</string>
+<string lang_id="3" lang="英文">Offline</string>
+<string lang_id="4" lang="阿拉伯文">غير متصل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Off Linea</string>
+<string lang_id="7" lang="土耳其语">Çevrimdışı</string>
+<string lang_id="8" lang="波斯文">آفلاین</string>
+<string lang_id="9" lang="葡萄牙语">Off-line</string>
+<string lang_id="10" lang="越南文">Ngoại tuyến</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">联机</string>
+<string lang_id="1" lang="俄文">Интернет</string>
+<string lang_id="2" lang="韩文">온라인</string>
+<string lang_id="3" lang="英文">Online</string>
+<string lang_id="4" lang="阿拉伯文">على الانترنت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">En Linea</string>
+<string lang_id="7" lang="土耳其语">Online</string>
+<string lang_id="8" lang="波斯文">آنلاین</string>
+<string lang_id="9" lang="葡萄牙语">On-line</string>
+<string lang_id="10" lang="越南文">NốiLiền</string>
+</item>
+</group>
+</MapDrv>

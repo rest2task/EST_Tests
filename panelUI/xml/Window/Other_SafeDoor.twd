@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Other_SafeDoor" 可见="-1" 标题="0:安全门|||1:Зап.дв.|||2:안전문|||3:SafeDoor|||4:آخر|||5:Other|||6:SegPt|||7:Güv Kapı|||8:دیگر|||9:PortaSegura|||10:Cửa an toà|||default:SafeDoor" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="315" 宽度="590" 高度="50" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="305" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="pixDoor" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="5" 宽度="40" 高度="40" 透明度="255" 背景图="vdoor.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="tabpage" type_id="36">
+<prop 名称="tabpage1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="328" 宽度="590" 高度="285" 字体="宋体" 字号="16" 透明度="255" 对齐="0" 文本色="0" 背景色="15723752" 禁用时风格="1" 按钮宽度="80" 按钮高度="25" 常态图片="tabbar-unselected.png" 选中图片="tabbar-selected.png" 选中文本色="16744448" 选中背景色="16777215" 焦点文本色="0"/>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb1" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="260" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:调试|||1:отлад|||2:디버그|||3:Debug|||6:Ajuste|||7:Ayarlama|||9:Depurar|||10:Gỡ lỗi|||default:Debug"/>
+<element type_name="label" type_id="18">
+<prop 名称="label45" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:安全门慢速调试压力|||1:Установка Давл.Защ.Двери|||2:안전문저속압력|||3:SafeDr Slow Debug Prs|||4:ضغط بطيء التصحيح|||5:SafeDr Slow Debug Prs|||6:AutoPuerta Lent AjustePrs|||7:GüvKapı Ayarla Basın|||8:فشار تنظیم کند درب ایمنی|||9:PortSeg Lent Depur Prs|||10:AS ĐCT TĐ chậm Cửa|||default:SafeDr Slow Debug Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label46" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:安全门慢速调试速度|||1:Установка Скор.Защ.Двери|||2:안전문저속유량|||3:SafeDr Slow Debug Spd|||4:سرعة البطئء لباب الأمن |||5:SafeDr Slow Debug Spd|||6:AutoPuerta Lent AjusteVeloc|||7:GüvKapı Ayarla Hız|||8:سرعت تنظیم کند درب ایمنی|||9:PortSeg Lent Depur Fluxo|||10:TĐ ĐCT TĐ chậm Cửa|||default:SafeDr Slow Debug Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit101" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="5" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.safedoor1.MACHSET.DAPRES_SAFETYDOOR_SETUP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAPRES_SAFETYDOOR_SETUP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAPRES_SAFETYDOOR_SETUP"/>
+<var prop="最大值" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_LIMIT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit102" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="33" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.safedoor1.MACHSET.DAFLOW_SAFETYDOOR_SETUP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAFLOW_SAFETYDOOR_SETUP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAFLOW_SAFETYDOOR_SETUP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label171" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="5" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label172" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="33" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb2" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="260" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:斜率|||1:Ramp|||2:RAMP|||3:Ramp|||6:Ramp|||7:Ramp|||9:Rampa|||10:HSG|||default:Ramp"/>
+<element type_name="label" type_id="18">
+<prop 名称="label41" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="100" 高度="24" 语言表索引="0" 文本="0:安全门启动|||1:Защ.ДвериПуск|||2:안전문 열기|||3:SafeDr Start|||4:بدء منحدر الضغط|||5:SafeDr Start Prs Ramp|||6:Puerta Ini|||7:Güv Kapı Başlat|||8:شیب فشار استارت درب ایمنی|||9:SafeDr Comece|||10:Cửa khởi động|||default:SafeDr Start" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit97" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="33" 宽度="75" 高度="24" 文本="0.02" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.02" 关联变量="d.safedoor1.MACHSET.DAPRES_SAFEDRZRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAPRES_SAFEDRZRAMP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAPRES_SAFEDRZRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit98" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="33" 宽度="75" 高度="24" 文本="0.20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.20" 关联变量="d.safedoor1.MACHSET.DAFLOW_SAFEDRZRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAFLOW_SAFEDRZRAMP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAFLOW_SAFEDRZRAMP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label43" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="100" 高度="24" 语言表索引="0" 文本="0:安全门关闭|||1:Защ.ДвериЗак|||2:안전문 닫기|||3:SafeDr Off|||4:انهيار انحدار الضغط|||5:SafeDr Off Prs Ramp|||6:Puerta Fin|||7:Güv Kapı Kapat|||8:شیب فشار خاموش کردن درب ایمنی|||9:SafeDr Desligar|||10:Cửa tắt|||default:SafeDr Off" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit99" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="61" 宽度="75" 高度="24" 文本="0.02" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.02" 关联变量="d.safedoor1.MACHSET.DAPRES_SAFEDROFFRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAPRES_SAFEDROFFRAMP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAPRES_SAFEDROFFRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit100" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="61" 宽度="75" 高度="24" 文本="0.02" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.02" 关联变量="d.safedoor1.MACHSET.DAFLOW_SAFEDROFFRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.DAFLOW_SAFEDROFFRAMP"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.DAFLOW_SAFEDROFFRAMP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label177" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="5" 宽度="75" 高度="24" 语言表索引="0" 文本="0:压力斜率|||1:РампаДавления|||2:압력 RAMP|||3:PrsRamp|||6:Prs Ramp|||7:BasRamp|||9:PrsRamp|||10:HSG AS|||default:PrsRamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label178" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="5" 宽度="75" 高度="24" 语言表索引="0" 文本="0:速度斜率|||1:СкорRamp|||2:속도 RAMP|||3:SpdRamp|||6:VelRamp|||7:HızRamp|||9:FluRamp|||10:HSG TĐ|||default:SpdRamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label166" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="33" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label179" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="61" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+</element>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="155" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门开计时|||1:ВремяОткрДверцы|||2:안전문 오픈시간|||3:SafeDr Open Time|||4:باب الأمن مفتوحة توقيت|||5:SafeDr Open Time|||6:AutoPuerta Abrir TM|||7:Güv Kapı Açık Zaman|||8:زمان بازکردن |||9:PortSeg Aberta Tm|||10:Bấm giờ mở cửa an toàn|||default:SafeDr Open Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="101" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门开模式|||1:Режим откр.двери|||2:안전문 오픈모드|||3:SafeDr Open Mode|||4:باب الأمن وضع فتح|||5:SafeDr Open Mode|||6:AutoPuerta Modo Abrir|||7:GüçKapı Açık Modu|||8:مد بازکردن |||9:PortSeg Aberta Modo|||10:Chế độ mở cửa|||default:SafeDr Open Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label31" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="47" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门压力|||1:безопасДверьДавл|||2:안전문 압력|||3:SafeDr Press|||4:باب الأمن ضغط|||5:SafeDr Prs|||6:SegPt Prs|||7:GüçKapı Basın|||8:درب ایمنی فشار|||9:Cofre Porta Pressão|||10:Cửa ap suất|||default:SafeDr Press" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="74" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门速度|||1:безопасДверьCкор.|||2:안전문 유량|||3:SafeDr Speed|||4:باب الأمن سرعة|||5:SafeDr Speed|||6:SegPt Vel|||7:GüçKapı Hız|||8: سرعت|||9:PortSeg Fluxo|||10:Cửa tốc độ |||default:SafeDr Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label33" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="101" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门慢速压力|||1:ДверьМедлеДавл|||2:안전문 설정 압력|||3:SafeDr Slow Press|||4:باب الأمن البطيء الضغط|||5:SafeDr Slow Prs|||6:SegPt LentPrs|||7:GüçKapı Yavaş Bas|||8:فشار درب ایمنی کند|||9:Porta Slow Pressão|||10:Cửa ap suất chậm|||default:SafeDr Slow Press" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit5" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="155" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.safedoor1.ACTPARA.TM_PWRDOOROPEN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.ACTPARA.TM_PWRDOOROPEN"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.TM_PWRDOOROPEN"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit9" 索引="0" 可见="-1" 可用="-1" 左="478" 顶="101" 宽度="75" 高度="24" 文本="20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:20" 关联变量="d.safedoor1.ACTPARA.DAPRES_SAFETYDOORSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="70" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.ACTPARA.DAPRES_SAFETYDOORSLOW"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.DAPRES_SAFETYDOORSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb41" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="101" 宽度="105" 高度="24" 数据="0:开模前;开模完;再循环时;储料后;射出后;开模途中|||1:ПереОтк;ПослеОтк.;ReCycle;AftChg;AftInj;OpenWay|||2:형개전;형개후;ReCycle;AftChg;AftInj;OpenWay|||3:BefOpen;AftOpen;ReCycle;AftChg;AftInj;OpenWay|||4:قبل فتح القالب;بعد فتح القالب;ReCycle;AftChg;AftInj;OpenWay|||5:BefOpen;AftOpen;ReCycle;AftChg;AftInj;OpenWay|||6:Ante Abrir;Tras Abrir Molde;ReCycle;AftChg;AftInj;OpenWay|||7:AçmaÖnce;AçmaSon;ReCycle;AftChg;AftInj;OpenWay|||8:پیش از بازکردن قالب;پس از باز کردن قالب;ReCycle;AftChg;AftInj;OpenWay|||9:AbrirAntes;Abrir Fim;ReCycle;AftChg;AftInj;OpenWay|||10:Tr.k mở khuôn;Sau mở k.;ReCycle;AftChg;AftInj;OpenWay|||default:开模前" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.safedoor1.MOLDSET.FL_PWRDOOROPEN" 当前值="0" cur_text="开模前" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.safedoor1.MOLDSET.FL_PWRDOOROPEN"/>
+<var prop="值" orient="out" tag="d.safedoor1.MOLDSET.FL_PWRDOOROPEN"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label37" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="128" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门慢速速度|||1:ДверьМедлеCкор.|||2:안전문 설정 유량|||3:SafeDr Slow Speed|||4:باب الأمن السرعة البطيئة|||5:SafeDr Slow Speed|||6:SegPt Lent Vel|||7:GüçKapı Yavaş Hız|||8:سرعت در حالت کند|||9:PortSeg Lenta Fluxo|||10:Cửa tốc độ chậm|||default:SafeDr Slow Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit11" 索引="0" 可见="-1" 可用="-1" 左="478" 顶="47" 宽度="75" 高度="24" 文本="20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:20" 关联变量="d.safedoor1.ACTPARA.DAPRES_SAFETYDOOR" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="70" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.ACTPARA.DAPRES_SAFETYDOOR"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.DAPRES_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit12" 索引="0" 可见="-1" 可用="-1" 左="478" 顶="128" 宽度="75" 高度="24" 文本="20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:20" 关联变量="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOORSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="40" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOORSLOW"/>
+<var prop="文本" orient="in" tag="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOORSLOW"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit13" 索引="0" 可见="-1" 可用="-1" 左="478" 顶="74" 宽度="75" 高度="24" 文本="20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:20" 关联变量="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOOR" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="40" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOOR"/>
+<var prop="文本" orient="in" tag="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOOR"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label47" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="182" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门慢速阀动作时间|||1:ВремяКлапанаМедл.двериСейфа|||2:안전문 저밸브 가동시간|||3:SafeDr SlowVlv ActTm|||4:وقت تشغيل الصمام البطيء|||5:SafeDr SlowVlv ActTm|||6:SegPt LentVálv AcnTm|||7:Yavaş Vana Eylem Zman|||8:شیر کند زمان عمل|||9:PortSeg LentVál Ação|||10:TG ĐT van TĐ chậm Cửa|||default:SafeDr SlowVlv ActTm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit103" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="182" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.safedoor1.MACHSET.TM_SAFEDOORSLOWVLV" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.TM_SAFEDOORSLOWVLV"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.TM_SAFEDOORSLOWVLV"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label117" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="47" 宽度="170" 高度="24" 语言表索引="0" 文本="0:类型选择|||1:Тип Выбрать|||2:모드 선택|||3:Type Select|||4:اختيار نوع|||5:Type Select|||6:Sel. Tipo|||7:Mod Seç|||8:انتخاب نوع|||9:Seleção Tipo|||10:Chọn loại hình|||default:Type Select" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb21" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="47" 宽度="105" 高度="24" 数据="0:电动安全门;液压安全门|||1:электри;гидравл|||2:전기적;유압|||3:Elect SfDr;Hydr SfDr|||4:الباب الكهربائي;باب الأمن الهيدروليكي|||5:Elect SafeDr;Hydr SafeDr|||6:SegPt Eléctrica;SegPt Hidr|||7:Elektrik;Hidro|||8:درب الکتریکی;هیدرولیک|||9:Elétrico;Hidráulico|||10:Cửa điện;CAT t.lực|||default:电动安全门" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="9:d.machine1.MACHSET.FL_MACHINECTRL3" 当前值="0" cur_text="电动安全门" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="9:d.machine1.MACHSET.FL_MACHINECTRL3"/>
+<var prop="值" orient="out" tag="9:d.machine1.MACHSET.FL_MACHINECTRL3"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+<event name="选择改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label118" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="74" 宽度="170" 高度="24" 语言表索引="0" 文本="0:油路选择|||1:Выбор масла|||2:오일 선택|||3:Hydr Circuit|||4:طريق النفط|||5:Hydr Circuit|||6:Sel. Circuito Hidrau|||7:Yağ Seçin|||8:مدار روغن|||9:Circuito óleo|||10:Đường dầu|||default:Hydr Circuit" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb31" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="74" 宽度="105" 高度="24" 数据="0:系统油路;独立油路|||1:Главн;независ|||2:주화면;독립 오일|||3:Main;Auxiliary|||4:نظام دوائر النفط;دوائر النفط المستقلة|||5:Sys Oil;Indepd Oil|||6:MAIN;Indep|||7:ANA;Yardımcı|||8:سیستم;مستقل|||9:MAIN;Auxiliar|||10:Giao diện chính;Phụ trợ|||default:系统油路" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="12:d.machine1.MACHSET.FL_MACHINTERNAL5" 当前值="0" cur_text="系统油路" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="12:d.machine1.MACHSET.FL_MACHINTERNAL5"/>
+<var prop="值" orient="out" tag="12:d.machine1.MACHSET.FL_MACHINTERNAL5"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+<event name="选择改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label172" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="182" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label173" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="155" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label174" 索引="0" 可见="-1" 可用="-1" 左="555" 顶="128" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label175" 索引="0" 可见="-1" 可用="-1" 左="555" 顶="101" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label176" 索引="0" 可见="-1" 可用="-1" 左="555" 顶="74" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label177" 索引="0" 可见="-1" 可用="-1" 左="555" 顶="47" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label168" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="236" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门开检测时间|||1:Защита Сопла|||2:안전문 오픈 체크시간|||3:SafeDr Open ChkTm|||4:وقت الكشف|||5:SafeDr Open ChkTm|||6:SegPt Abre EnsayoTm|||7:GüvKapı Açık ChkZman|||8:زمان بازرسی بازکردن درب ایمنی|||9:Porta Abrir T Chk|||10:Cửa Mở KiểmTra TG|||default:SafeDr Open ChkTm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit108" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="236" 宽度="75" 高度="24" 文本="0.4" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.4" 关联变量="d.safedoor1.MACHSET.SFDRCLS_TMCHECK" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="3" 最大值="20" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MACHSET.SFDRCLS_TMCHECK"/>
+<var prop="文本" orient="out" tag="d.safedoor1.MACHSET.SFDRCLS_TMCHECK"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label170" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="236" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label178" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="209" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自动安全门调试|||1:Aвтом.двериотлад|||2:자동 안전문 디버깅|||3:Auto SafeDr Test|||4: التلقائي باب الأمن |||5:Auto SafeDoor|||6:AutoPuerta Prueba|||7:Oto GüçKapı Ayar|||8:خودکار درب ایمنی |||9:Auto PortaSeg Dep|||10:Tự động Cửa kiểm tra|||default:Auto SafeDr Test" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbt11" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="20" 宽度="105" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL0" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbt71" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="209" 宽度="105" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.safedoor1.MOLDSET.FL_MANULTEST" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.safedoor1.MOLDSET.FL_MANULTEST"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stTips" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="316" 宽度="151" 高度="16" 语言表索引="0" 文本="0:切换:请按F2|||1:Переключатель: F2|||2:스위치 : F2을 누름|||3:Switch:Press&quot;F2&quot;|||6:Interruptor: pres &quot;F2&quot;|||7:Değiştir: Basın &quot;F2&quot;|||9:Mudar: Pressione F2|||10:Công tắc:Nhấn&quot;F2&quot;|||default:Switch:Press&quot;F2&quot;" 横向对齐="2" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labeldropenpos" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="128" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门开位置|||1:SafeDr OpenPos|||2:SafeDr OpenPos|||3:SafeDr OpenPos|||4:SafeDr OpenPos|||5:SafeDr OpenPos|||6:SafeDr OpenPos|||7:SafeDr OpenPos|||8:SafeDr OpenPos|||9:SafeDr OpenPos|||10:SafeDr OpenPos|||default:SafeDr OpenPos" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editdropenpos" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="128" 宽度="75" 高度="24" 文本="20" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:20" 关联变量="d.safedoor1.MOLDSET.POS_SDROPEN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="40" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.safedoor1.ACTPARA.DAFLOW_SAFETYDOORSLOW"/>
+<var prop="文本" orient="in" tag="d.safedoor1.MOLDSET.POS_SDROPEN"/>
+<var prop="最大值" orient="in" tag="d.clamp1.ACTPARA.ADPOSI_OPENENDEND"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labeldropenpos_unit" 索引="0" 可见="-1" 可用="-1" 左="269" 顶="128" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdownkeymode" 索引="0" 可见="-1" 可用="-1" 左="191" 顶="263" 宽度="105" 高度="24" 数据="0:点动;保持|||1:|||2:|||3:Jogging;keep|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:点动" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL1" 当前值="0" cur_text="点动" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label179" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="263" 宽度="170" 高度="24" 语言表索引="0" 文本="0:安全门按键模式|||1:|||2:|||3:SafeDr Key Mode|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:SafeDr Key Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.AUTO_SAFE_DOOR_ENABLE"/>
+</element>
+<horz order="0" ele_index="34" ele_name="stbt11"/>
+<horz order="1" ele_index="19" ele_name="cb21"/>
+<horz order="2" ele_index="13" ele_name="edit11"/>
+<horz order="3" ele_index="21" ele_name="cb31"/>
+<horz order="4" ele_index="15" ele_name="edit13"/>
+<horz order="5" ele_index="11" ele_name="cb41"/>
+<horz order="6" ele_index="10" ele_name="edit9"/>
+<horz order="7" ele_index="38" ele_name="editdropenpos"/>
+<horz order="8" ele_index="14" ele_name="edit12"/>
+<horz order="9" ele_index="9" ele_name="edit5"/>
+<horz order="10" ele_index="17" ele_name="edit103"/>
+<horz order="11" ele_index="35" ele_name="stbt71"/>
+<horz order="12" ele_index="29" ele_name="edit108"/>
+<horz order="13" ele_index="40" ele_name="dropdownkeymode"/>
+<horz order="14" ele_index="3" ele_name="tabpage1"/>
+<vert order="0" ele_index="34" ele_name="stbt11"/>
+<vert order="1" ele_index="19" ele_name="cb21"/>
+<vert order="2" ele_index="21" ele_name="cb31"/>
+<vert order="3" ele_index="11" ele_name="cb41"/>
+<vert order="4" ele_index="38" ele_name="editdropenpos"/>
+<vert order="5" ele_index="9" ele_name="edit5"/>
+<vert order="6" ele_index="17" ele_name="edit103"/>
+<vert order="7" ele_index="35" ele_name="stbt71"/>
+<vert order="8" ele_index="29" ele_name="edit108"/>
+<vert order="9" ele_index="40" ele_name="dropdownkeymode"/>
+<vert order="10" ele_index="3" ele_name="tabpage1"/>
+<vert order="11" ele_index="13" ele_name="edit11"/>
+<vert order="12" ele_index="15" ele_name="edit13"/>
+<vert order="13" ele_index="10" ele_name="edit9"/>
+<vert order="14" ele_index="14" ele_name="edit12"/>
+<tab order="0" ele_index="34" ele_name="stbt11"/>
+<tab order="1" ele_index="19" ele_name="cb21"/>
+<tab order="2" ele_index="13" ele_name="edit11"/>
+<tab order="3" ele_index="21" ele_name="cb31"/>
+<tab order="4" ele_index="15" ele_name="edit13"/>
+<tab order="5" ele_index="11" ele_name="cb41"/>
+<tab order="6" ele_index="10" ele_name="edit9"/>
+<tab order="7" ele_index="38" ele_name="editdropenpos"/>
+<tab order="8" ele_index="14" ele_name="edit12"/>
+<tab order="9" ele_index="9" ele_name="edit5"/>
+<tab order="10" ele_index="17" ele_name="edit103"/>
+<tab order="11" ele_index="35" ele_name="stbt71"/>
+<tab order="12" ele_index="29" ele_name="edit108"/>
+<tab order="13" ele_index="40" ele_name="dropdownkeymode"/>
+<tab order="14" ele_index="3" ele_name="tabpage1"/>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="label1"/>
+<id order="2" ele_index="2" ele_name="pixDoor"/>
+<id order="3" ele_index="3" ele_name="tabpage1"/>
+<id order="4" ele_index="4" ele_name="label29"/>
+<id order="5" ele_index="5" ele_name="label30"/>
+<id order="6" ele_index="6" ele_name="label31"/>
+<id order="7" ele_index="7" ele_name="label32"/>
+<id order="8" ele_index="8" ele_name="label33"/>
+<id order="9" ele_index="9" ele_name="edit5"/>
+<id order="10" ele_index="10" ele_name="edit9"/>
+<id order="11" ele_index="11" ele_name="cb41"/>
+<id order="12" ele_index="12" ele_name="label37"/>
+<id order="13" ele_index="13" ele_name="edit11"/>
+<id order="14" ele_index="14" ele_name="edit12"/>
+<id order="15" ele_index="15" ele_name="edit13"/>
+<id order="16" ele_index="16" ele_name="label47"/>
+<id order="17" ele_index="17" ele_name="edit103"/>
+<id order="18" ele_index="18" ele_name="label117"/>
+<id order="19" ele_index="19" ele_name="cb21"/>
+<id order="20" ele_index="20" ele_name="label118"/>
+<id order="21" ele_index="21" ele_name="cb31"/>
+<id order="22" ele_index="22" ele_name="label172"/>
+<id order="23" ele_index="23" ele_name="label173"/>
+<id order="24" ele_index="24" ele_name="label174"/>
+<id order="25" ele_index="25" ele_name="label175"/>
+<id order="26" ele_index="26" ele_name="label176"/>
+<id order="27" ele_index="27" ele_name="label177"/>
+<id order="28" ele_index="28" ele_name="label168"/>
+<id order="29" ele_index="29" ele_name="edit108"/>
+<id order="30" ele_index="30" ele_name="label170"/>
+<id order="31" ele_index="31" ele_name="label178"/>
+<id order="32" ele_index="32" ele_name="_input_range_labellabel"/>
+<id order="33" ele_index="33" ele_name="_input_range_label"/>
+<id order="34" ele_index="34" ele_name="stbt11"/>
+<id order="35" ele_index="35" ele_name="stbt71"/>
+<id order="36" ele_index="36" ele_name="stTips"/>
+<id order="37" ele_index="37" ele_name="labeldropenpos"/>
+<id order="38" ele_index="38" ele_name="editdropenpos"/>
+<id order="39" ele_index="39" ele_name="labeldropenpos_unit"/>
+<id order="40" ele_index="40" ele_name="dropdownkeymode"/>
+<id order="41" ele_index="41" ele_name="label179"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Регулировка|||2:금형조정|||3:ADJMOLD|||4:|||5:|||6:Ajuste|||0:调模|||7:AyarKalıp|||8:|||9:HT molde ajustar|||10:Diều chỉnh k.|||default:ADJMOLD" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnADJUST.png" 按下图片="btnADJUSTx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Зап.дв.|||2:안전문|||3:SAFEDR|||4:|||5:|||6:SegPuerta|||0:安全门|||7:Güv Kapı|||8:|||9:SafeDr|||10:Cửa an toà|||default:SAFEDR" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDOOR.png" 按下图片="btnDOORx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;其他功能&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Робот|||2:로보트|||3:ROBOT|||4:|||5:|||6:Robot|||0:机械手|||7:Robot|||8:|||9:Robot|||10:Tay cơ|||default:ROBOT" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnROBOT.png" 按下图片="btnROBOTx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;其他参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="点击" act="画面.显示窗口(&quot;其他参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="51200" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出h&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="51200" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;储料h&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;主窗口&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

@@ -1,0 +1,3185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="input">
+<config name="转换器类型" value="十六进制"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.IO_I0">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10000</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>110000</value>
+<string lang_id="0" lang="中文">特殊输入1</string>
+<string lang_id="1" lang="俄文">SpcIn1</string>
+<string lang_id="2" lang="韩文">특별 입력1</string>
+<string lang_id="3" lang="英文">Spc In 1</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 1</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 1</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 1</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.1</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 1</string>
+</item>
+<item type="0">
+<value>110001</value>
+<string lang_id="0" lang="中文">特殊输入2</string>
+<string lang_id="1" lang="俄文">SpcIn2</string>
+<string lang_id="2" lang="韩文">특별 입력2</string>
+<string lang_id="3" lang="英文">Spc In 2</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 2</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 2</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 2</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.2</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 2</string>
+</item>
+<item type="0">
+<value>110002</value>
+<string lang_id="0" lang="中文">特殊输入3</string>
+<string lang_id="1" lang="俄文">SpcIn3</string>
+<string lang_id="2" lang="韩文">특별 입력3</string>
+<string lang_id="3" lang="英文">Spc In 3</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  3</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 3</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 3</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 3</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.3</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 3</string>
+</item>
+<item type="0">
+<value>110003</value>
+<string lang_id="0" lang="中文">特殊输入4</string>
+<string lang_id="1" lang="俄文">SpcIn4</string>
+<string lang_id="2" lang="韩文">특별 입력4</string>
+<string lang_id="3" lang="英文">Spc In 4</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  4</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 4</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 4</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 4</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.4</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 4</string>
+</item>
+<item type="0">
+<value>110004</value>
+<string lang_id="0" lang="中文">特殊输入5</string>
+<string lang_id="1" lang="俄文">SpcIn5</string>
+<string lang_id="2" lang="韩文">특별 입력5</string>
+<string lang_id="3" lang="英文">Spc In 5</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  5</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 5</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 5</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 5</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.5</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 5</string>
+</item>
+<item type="0">
+<value>110005</value>
+<string lang_id="0" lang="中文">特殊输入6</string>
+<string lang_id="1" lang="俄文">SpcIn6</string>
+<string lang_id="2" lang="韩文">특별 입력6</string>
+<string lang_id="3" lang="英文">Spc In 6</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  6</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 6</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 6</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 6</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.6</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 6</string>
+</item>
+<item type="0">
+<value>110006</value>
+<string lang_id="0" lang="中文">特殊输入7</string>
+<string lang_id="1" lang="俄文">SpcIn7</string>
+<string lang_id="2" lang="韩文">특별 입력7</string>
+<string lang_id="3" lang="英文">Spc In 7</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  7</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 7</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 7</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 7</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.7</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 7</string>
+</item>
+<item type="0">
+<value>110007</value>
+<string lang_id="0" lang="中文">特殊输入8</string>
+<string lang_id="1" lang="俄文">SpcIn8</string>
+<string lang_id="2" lang="韩文">특별 입력8</string>
+<string lang_id="3" lang="英文">Spc In 8</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  8</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 8</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 8</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 8</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.8</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 8</string>
+</item>
+<item type="0">
+<value>110008</value>
+<string lang_id="0" lang="中文">特殊输入9</string>
+<string lang_id="1" lang="俄文">SpcIn8</string>
+<string lang_id="2" lang="韩文">특별 입력9</string>
+<string lang_id="3" lang="英文">Spc In 9</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  9</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 9</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 9</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 9</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.9</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 9</string>
+</item>
+<item type="0">
+<value>110009</value>
+<string lang_id="0" lang="中文">特殊输入10</string>
+<string lang_id="1" lang="俄文">SpcIn10</string>
+<string lang_id="2" lang="韩文">특별 입력10</string>
+<string lang_id="3" lang="英文">Spc In 10</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  10</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 10</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 10</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 10</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.10</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 10</string>
+</item>
+<item type="0">
+<value>11000a</value>
+<string lang_id="0" lang="中文">特殊输入11</string>
+<string lang_id="1" lang="俄文">SpcIn11</string>
+<string lang_id="2" lang="韩文">특별 입력11</string>
+<string lang_id="3" lang="英文">Spc In 11</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  11</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 11</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 11</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 11</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.11</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 11</string>
+</item>
+<item type="0">
+<value>11000b</value>
+<string lang_id="0" lang="中文">特殊输入12</string>
+<string lang_id="1" lang="俄文">SpcIn12</string>
+<string lang_id="2" lang="韩文">특별 입력12</string>
+<string lang_id="3" lang="英文">Spc In 12</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  12</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 12</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 12</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 12</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.12</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 12</string>
+</item>
+<item type="0">
+<value>11000c</value>
+<string lang_id="0" lang="中文">特殊输入13</string>
+<string lang_id="1" lang="俄文">SpcIn13</string>
+<string lang_id="2" lang="韩文">특별 입력13</string>
+<string lang_id="3" lang="英文">Spc In 13</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  13</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 13</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 13</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 13</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.13</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 13</string>
+</item>
+<item type="0">
+<value>11000d</value>
+<string lang_id="0" lang="中文">特殊输入14</string>
+<string lang_id="1" lang="俄文">SpcIn14</string>
+<string lang_id="2" lang="韩文">특별 입력14</string>
+<string lang_id="3" lang="英文">Spc In 14</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  14</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 14</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 14</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 14</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.14</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 14</string>
+</item>
+<item type="0">
+<value>11000e</value>
+<string lang_id="0" lang="中文">特殊输入15</string>
+<string lang_id="1" lang="俄文">SpcIn15</string>
+<string lang_id="2" lang="韩文">특별 입력15</string>
+<string lang_id="3" lang="英文">Spc In 15</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  15</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 15</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 15</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 15</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.15</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 15</string>
+</item>
+<item type="0">
+<value>11000f</value>
+<string lang_id="0" lang="中文">特殊输入16</string>
+<string lang_id="1" lang="俄文">SpcIn16</string>
+<string lang_id="2" lang="韩文">특별 입력16</string>
+<string lang_id="3" lang="英文">Spc In 16</string>
+<string lang_id="4" lang="阿拉伯文">إدخال خاص  16</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">EspcEntrada 16</string>
+<string lang_id="7" lang="土耳其语">Özel Giriş 16</string>
+<string lang_id="8" lang="波斯文">ورود ویژه 16</string>
+<string lang_id="9" lang="葡萄牙语">Espc.Ent.16</string>
+<string lang_id="10" lang="越南文">Đầu vào đặc thù 16</string>
+</item>
+<item type="0">
+<value>4110000</value>
+<string lang_id="0" lang="中文">马达过载</string>
+<string lang_id="1" lang="俄文">ПерегрДвиг</string>
+<string lang_id="2" lang="韩文">모터 과부하</string>
+<string lang_id="3" lang="英文">MtrOvrLoad</string>
+<string lang_id="4" lang="阿拉伯文">محرك زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Motor Taşmış</string>
+<string lang_id="8" lang="波斯文">اضافه بار موتور</string>
+<string lang_id="9" lang="葡萄牙语">MtrSobrecarga</string>
+<string lang_id="10" lang="越南文">Mô tơ quá tải</string>
+</item>
+<item type="0">
+<value>4110001</value>
+<string lang_id="0" lang="中文">马达启动完成</string>
+<string lang_id="1" lang="俄文">Двигате</string>
+<string lang_id="2" lang="韩文">모터기동</string>
+<string lang_id="3" lang="英文">MtrStRun</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot</string>
+<string lang_id="7" lang="土耳其语">Başlatma tamam</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun</string>
+<string lang_id="10" lang="越南文">Mô tơ KĐ HT</string>
+</item>
+<item type="0">
+<value>4110002</value>
+<string lang_id="0" lang="中文">马达2启动完成</string>
+<string lang_id="1" lang="俄文">ателя 2</string>
+<string lang_id="2" lang="韩文">모터 START 기동 2</string>
+<string lang_id="3" lang="英文">MtrStRun2</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot2</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam2</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور2</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun2</string>
+<string lang_id="10" lang="越南文">Mô tơ 2 KĐ HT</string>
+</item>
+<item type="0">
+<value>4110003</value>
+<string lang_id="0" lang="中文">马达3启动完成</string>
+<string lang_id="1" lang="俄文">ателя 3</string>
+<string lang_id="2" lang="韩文">모터 START 기동 3</string>
+<string lang_id="3" lang="英文">MtrStRun3</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot3</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam3</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور3</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun3</string>
+<string lang_id="10" lang="越南文">Mô tơ 3 KĐ HT</string>
+</item>
+<item type="0">
+<value>4110004</value>
+<string lang_id="0" lang="中文">马达4启动完成</string>
+<string lang_id="1" lang="俄文">теля 4</string>
+<string lang_id="2" lang="韩文">모터 START 기동 4</string>
+<string lang_id="3" lang="英文">MtrStRun4</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot4</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam4</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور4</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun4</string>
+<string lang_id="10" lang="越南文">Mô tơ 4 KĐ HT</string>
+</item>
+<item type="0">
+<value>4110005</value>
+<string lang_id="0" lang="中文">马达异常</string>
+<string lang_id="1" lang="俄文">Мотор Ошибка</string>
+<string lang_id="2" lang="韩文">모터 이상</string>
+<string lang_id="3" lang="英文">Motor Abnor</string>
+<string lang_id="4" lang="阿拉伯文">تشوهات المحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Anormal</string>
+<string lang_id="7" lang="土耳其语">Motor Hatası</string>
+<string lang_id="8" lang="波斯文">موتور غیرعادی</string>
+<string lang_id="9" lang="葡萄牙语">Motor Anormal</string>
+<string lang_id="10" lang="越南文">Mô tơ bất.t</string>
+</item>
+<item type="0">
+<value>4110006</value>
+<string lang_id="0" lang="中文">马达启动</string>
+<string lang_id="1" lang="俄文">Мотор начало</string>
+<string lang_id="2" lang="韩文">모터 시작</string>
+<string lang_id="3" lang="英文">MtrStart</string>
+<string lang_id="4" lang="阿拉伯文">بدء تشغيل المحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Arrancar</string>
+<string lang_id="7" lang="土耳其语">Motor Başlat</string>
+<string lang_id="8" lang="波斯文">استارت موتور</string>
+<string lang_id="9" lang="葡萄牙语">Motor começar</string>
+<string lang_id="10" lang="越南文">Mô tơ khởi.đ</string>
+</item>
+<item type="0">
+<value>5110000</value>
+<string lang_id="0" lang="中文">温度偏差</string>
+<string lang_id="1" lang="俄文">ДатчикТемпМасла</string>
+<string lang_id="2" lang="韩文">온도편차</string>
+<string lang_id="3" lang="英文">Temp Deviation</string>
+<string lang_id="4" lang="阿拉伯文">انحراف درجة الحرارة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Temp Desviación</string>
+<string lang_id="7" lang="土耳其语">Isılar Eğriliği</string>
+<string lang_id="8" lang="波斯文">انحراف حرارت</string>
+<string lang_id="9" lang="葡萄牙语">OotTempCnt</string>
+<string lang_id="10" lang="越南文">C.lệch n.độ</string>
+</item>
+<item type="0">
+<value>5110001</value>
+<string lang_id="0" lang="中文">油温偏差</string>
+<string lang_id="1" lang="俄文">ПровркТемпМасла</string>
+<string lang_id="2" lang="韩文">유온편차</string>
+<string lang_id="3" lang="英文">OilTemp Deviation</string>
+<string lang_id="4" lang="阿拉伯文">درجة حرارة الزيت الانحراف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteTemp Desviación</string>
+<string lang_id="7" lang="土耳其语">YağSıcak.Eğrilik.</string>
+<string lang_id="8" lang="波斯文">انحراف حرارت روغن</string>
+<string lang_id="9" lang="葡萄牙语">OilTempChk</string>
+<string lang_id="10" lang="越南文">Chênh lệch nhiệt độ dầu</string>
+</item>
+<item type="0">
+<value>5110002</value>
+<string lang_id="0" lang="中文">冷却水压力</string>
+<string lang_id="1" lang="俄文">Охлажд</string>
+<string lang_id="2" lang="韩文">냉각수 압력</string>
+<string lang_id="3" lang="英文">CoolWater</string>
+<string lang_id="4" lang="阿拉伯文">مياه التبريد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Agua Refrig Prs</string>
+<string lang_id="7" lang="土耳其语">Soğuk Su</string>
+<string lang_id="8" lang="波斯文">آب سردکن</string>
+<string lang_id="9" lang="葡萄牙语">CoolWater</string>
+<string lang_id="10" lang="越南文">Nước làm mát</string>
+</item>
+<item type="0">
+<value>5110003</value>
+<string lang_id="0" lang="中文">加热接触器</string>
+<string lang_id="1" lang="俄文">нагрев.</string>
+<string lang_id="2" lang="韩文">히터 콘텍터 에러</string>
+<string lang_id="3" lang="英文">Heat Contactor</string>
+<string lang_id="4" lang="阿拉伯文">قواطع التدفئة </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Contactor Calentamiento</string>
+<string lang_id="7" lang="土耳其语">Isı Kontaktör</string>
+<string lang_id="8" lang="波斯文">کنتاکتور گرما</string>
+<string lang_id="9" lang="葡萄牙语">Aquecimento</string>
+<string lang_id="10" lang="越南文">Bộ tiếp xúc gia nhiệt</string>
+</item>
+<item type="0">
+<value>a110000</value>
+<string lang_id="0" lang="中文">伺服故障</string>
+<string lang_id="1" lang="俄文">серводв.</string>
+<string lang_id="2" lang="韩文">서보모터 에러</string>
+<string lang_id="3" lang="英文">Servo Error</string>
+<string lang_id="4" lang="阿拉伯文">مؤازرة تحذير</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo Alarma</string>
+<string lang_id="7" lang="土耳其语">Servo Hatası</string>
+<string lang_id="8" lang="波斯文">سروو اشتباه</string>
+<string lang_id="9" lang="葡萄牙语">Falha Servo</string>
+<string lang_id="10" lang="越南文">Servo sai lỗi</string>
+</item>
+<item type="0">
+<value>a110001</value>
+<string lang_id="0" lang="中文">相序检知</string>
+<string lang_id="1" lang="俄文">Проверка чередо фаз</string>
+<string lang_id="2" lang="韩文">위상 시퀀스 검출</string>
+<string lang_id="3" lang="英文">PhaseSequence Chk</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن تسلسل المرحلة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">FaseSecu Detector</string>
+<string lang_id="7" lang="土耳其语">Faz Sırası Tespit</string>
+<string lang_id="8" lang="波斯文">بازرسی توالی فاز</string>
+<string lang_id="9" lang="葡萄牙语">Seqüência fase verificação</string>
+<string lang_id="10" lang="越南文">Lần lượt kiểm tra</string>
+</item>
+<item type="0">
+<value>a110002</value>
+<string lang_id="0" lang="中文">外控压力不足</string>
+<string lang_id="1" lang="俄文">Вне.конт.дав. не хват.</string>
+<string lang_id="2" lang="韩文">외부 제어 압력의 부족</string>
+<string lang_id="3" lang="英文">LackOfExtCtrlPrs</string>
+<string lang_id="4" lang="阿拉伯文">السيطرة على ضغط خارجي غير كافية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">FaltaCtrlExtePrs</string>
+<string lang_id="7" lang="土耳其语">Harici Kumanda Basıncı Yetersiz</string>
+<string lang_id="8" lang="波斯文">فشار کنترل خارجی ناکافی</string>
+<string lang_id="9" lang="葡萄牙语">LackOfExtCtrlPrs</string>
+<string lang_id="10" lang="越南文">AS ĐK ngoài ko đủ</string>
+</item>
+<item type="0">
+<value>a110003</value>
+<string lang_id="0" lang="中文">储料伺服故障</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Charge Servo Bug</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>b110000</value>
+<string lang_id="0" lang="中文">外部急停键</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>b110001</value>
+<string lang_id="0" lang="中文">外部运行键</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>b110002</value>
+<string lang_id="0" lang="中文">外部手动键1</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>b110003</value>
+<string lang_id="0" lang="中文">外部手动键2</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">External Run Key2</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>b110004</value>
+<string lang_id="0" lang="中文">外部手动键3</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">External Run Key3</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>b110005</value>
+<string lang_id="0" lang="中文">外部手动键4</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">External Run Key4</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>c110000</value>
+<string lang_id="0" lang="中文">滤油网检知</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>c110001</value>
+<string lang_id="0" lang="中文">液压油位检知</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>c110002</value>
+<string lang_id="0" lang="中文">油温备用</string>
+<string lang_id="1" lang="俄文">резерв</string>
+<string lang_id="2" lang="韩文">예비</string>
+<string lang_id="3" lang="英文">OilTemp Res</string>
+<string lang_id="4" lang="阿拉伯文">درجة حرارة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteTemp Res</string>
+<string lang_id="7" lang="土耳其语">Yağ Isılar Rezerv</string>
+<string lang_id="8" lang="波斯文">رزرو حرارت روغن</string>
+<string lang_id="9" lang="葡萄牙语">Temp óleo Poupar</string>
+<string lang_id="10" lang="越南文">N.độ Res</string>
+</item>
+<item type="0">
+<value>e110000</value>
+<string lang_id="0" lang="中文">TC加热接触器</string>
+<string lang_id="1" lang="俄文">TC нагрев.</string>
+<string lang_id="2" lang="韩文">TC히터접촉기 </string>
+<string lang_id="3" lang="英文">TC Heat Contactor</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">TC Calor Contactor</string>
+<string lang_id="7" lang="土耳其语">TC Isı Kontaktör</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">TC Aquecimento Contator</string>
+<string lang_id="10" lang="越南文">TCBộ tiếp xúc gia nhiệt</string>
+</item>
+<item type="0">
+<value>e210000</value>
+<string lang_id="0" lang="中文">TC2加热接触器</string>
+<string lang_id="1" lang="俄文">TC2 нагрев.</string>
+<string lang_id="2" lang="韩文">TC2히터접촉기</string>
+<string lang_id="3" lang="英文">TC2 Heat Contactor</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">TC2 Calor Contactor</string>
+<string lang_id="7" lang="土耳其语">TC2 Isı Kontaktör</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">TC2 Aquecimento Contator</string>
+<string lang_id="10" lang="越南文">TC2Bộ tiếp xúc gia nhiệt</string>
+</item>
+<item type="0">
+<value>10110000</value>
+<string lang_id="0" lang="中文">射出防护</string>
+<string lang_id="1" lang="俄文">Защита</string>
+<string lang_id="2" lang="韩文">퍼지카바</string>
+<string lang_id="3" lang="英文">Inject Protect</string>
+<string lang_id="4" lang="阿拉伯文">حماية الحقن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inyect Protect</string>
+<string lang_id="7" lang="土耳其语">Enj Koruma</string>
+<string lang_id="8" lang="波斯文">حفاظت تزریق</string>
+<string lang_id="9" lang="葡萄牙语">Inject Proteção</string>
+<string lang_id="10" lang="越南文">Phòng hộ bắn ra</string>
+</item>
+<item type="0">
+<value>10110001</value>
+<string lang_id="0" lang="中文">射出保压</string>
+<string lang_id="1" lang="俄文">ВпрскВыдПодДавл</string>
+<string lang_id="2" lang="韩文">사출보압</string>
+<string lang_id="3" lang="英文">Inj HoldPrs</string>
+<string lang_id="4" lang="阿拉伯文">ضغط الحقن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Manten Prs</string>
+<string lang_id="7" lang="土耳其语">Enj Tutma</string>
+<string lang_id="8" lang="波斯文">حفظ فشار تزریق</string>
+<string lang_id="9" lang="葡萄牙语">CarregarHold</string>
+<string lang_id="10" lang="越南文">Bắn ra giữ áp</string>
+</item>
+<item type="0">
+<value>10110002</value>
+<string lang_id="0" lang="中文">射出二段</string>
+<string lang_id="1" lang="俄文">Впрыск2</string>
+<string lang_id="2" lang="韩文">사출#2</string>
+<string lang_id="3" lang="英文">Inject #2</string>
+<string lang_id="4" lang="阿拉伯文">حقن #2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inyect #2</string>
+<string lang_id="7" lang="土耳其语">Enjekte #2</string>
+<string lang_id="8" lang="波斯文">تزریق #2</string>
+<string lang_id="9" lang="葡萄牙语">Injectar#2</string>
+<string lang_id="10" lang="越南文">Bắn ra #2</string>
+</item>
+<item type="0">
+<value>10110003</value>
+<string lang_id="0" lang="中文">射出三段</string>
+<string lang_id="1" lang="俄文">Впрыск3</string>
+<string lang_id="2" lang="韩文">사출#3</string>
+<string lang_id="3" lang="英文">Inject #3</string>
+<string lang_id="4" lang="阿拉伯文">حقن #3</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inyect #3</string>
+<string lang_id="7" lang="土耳其语">Enjekte #3</string>
+<string lang_id="8" lang="波斯文">تزریق #3</string>
+<string lang_id="9" lang="葡萄牙语">Injectar#3</string>
+<string lang_id="10" lang="越南文">Bắn ra #3</string>
+</item>
+<item type="0">
+<value>10110004</value>
+<string lang_id="0" lang="中文">储料终</string>
+<string lang_id="1" lang="俄文">Кон.загрузка</string>
+<string lang_id="2" lang="韩文">계량</string>
+<string lang_id="3" lang="英文">Charge End</string>
+<string lang_id="4" lang="阿拉伯文">نهاية التخزين</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Carga Fin</string>
+<string lang_id="7" lang="土耳其语">Mal Alm Son</string>
+<string lang_id="8" lang="波斯文">پایان شارژ</string>
+<string lang_id="9" lang="葡萄牙语">Carregar Fim</string>
+<string lang_id="10" lang="越南文">Trữ L.xong</string>
+</item>
+<item type="0">
+<value>10110005</value>
+<string lang_id="0" lang="中文">射退终</string>
+<string lang_id="1" lang="俄文">КонецДекомп.</string>
+<string lang_id="2" lang="韩文">끝 다시 촬영</string>
+<string lang_id="3" lang="英文">SuckBack End</string>
+<string lang_id="4" lang="阿拉伯文">اطلاق نهاية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Succión Fin</string>
+<string lang_id="7" lang="土耳其语">GeriEm Son</string>
+<string lang_id="8" lang="波斯文">مکیدن پایان</string>
+<string lang_id="9" lang="葡萄牙语">Suck Voltar Fim</string>
+<string lang_id="10" lang="越南文">Bắn thoát kết thúc</string>
+</item>
+<item type="0">
+<value>10110006</value>
+<string lang_id="0" lang="中文">储压检知</string>
+<string lang_id="1" lang="俄文">ЗагрузДавлПровер</string>
+<string lang_id="2" lang="韩文">계량 압력 체크</string>
+<string lang_id="3" lang="英文">ChargePrs Check</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن تراكم</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Carga Detect</string>
+<string lang_id="7" lang="土耳其语">MalAlmBas.Kontrolü</string>
+<string lang_id="8" lang="波斯文">بازرسی فشار شارژ</string>
+<string lang_id="9" lang="葡萄牙语">CarregarPrsVerificar</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm áp trữ</string>
+</item>
+<item type="0">
+<value>10110007</value>
+<string lang_id="0" lang="中文">料斗检知</string>
+<string lang_id="1" lang="俄文">ХопперПроверят</string>
+<string lang_id="2" lang="韩文">호퍼 재료 검출</string>
+<string lang_id="3" lang="英文">Hopper Detect</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن قادوس غير </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Tolva Chequeo</string>
+<string lang_id="7" lang="土耳其语">Sarpn.Mater.Kntrl</string>
+<string lang_id="8" lang="波斯文">بازرسی قیف غیرعادی</string>
+<string lang_id="9" lang="葡萄牙语">HopperMaterialVerificar</string>
+<string lang_id="10" lang="越南文">KT phễu liệu bất thường</string>
+</item>
+<item type="0">
+<value>10110008</value>
+<string lang_id="0" lang="中文">螺杆转速检知</string>
+<string lang_id="1" lang="俄文">Обнаруж</string>
+<string lang_id="2" lang="韩文">스크류RPM</string>
+<string lang_id="3" lang="英文">Screw RPM Chk</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن سرعة المسمار</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Husillo Veloc Detect</string>
+<string lang_id="7" lang="土耳其语">Vidala Hız Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سرعت گردش پیچ</string>
+<string lang_id="9" lang="葡萄牙语">Injectar#4</string>
+<string lang_id="10" lang="越南文">KT TĐ quay thanh vít</string>
+</item>
+<item type="0">
+<value>11110000</value>
+<string lang_id="0" lang="中文">座进终</string>
+<string lang_id="1" lang="俄文">СинхрПодчСопл</string>
+<string lang_id="2" lang="韩文">노즐전진완료</string>
+<string lang_id="3" lang="英文">NozAdv End</string>
+<string lang_id="4" lang="阿拉伯文">نهاية مقعد </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">BoquilAvan Fin</string>
+<string lang_id="7" lang="土耳其语">Grup İler Son</string>
+<string lang_id="8" lang="波斯文">پایان پیشرفت بینی</string>
+<string lang_id="9" lang="葡萄牙语">BicoEntrarProteção</string>
+<string lang_id="10" lang="越南文">Bệ vào kết thúc</string>
+</item>
+<item type="0">
+<value>11110001</value>
+<string lang_id="0" lang="中文">座进慢速</string>
+<string lang_id="1" lang="俄文">СоплоМедл</string>
+<string lang_id="2" lang="韩文">노즐 저속</string>
+<string lang_id="3" lang="英文">NozAdv Slow</string>
+<string lang_id="4" lang="阿拉伯文">بطء في المقعد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">BoquilAvan Lent</string>
+<string lang_id="7" lang="土耳其语">Grup İleri Yavaş</string>
+<string lang_id="8" lang="波斯文">پیشرفت کند بینی</string>
+<string lang_id="9" lang="葡萄牙语">Bico Entrar Lento</string>
+<string lang_id="10" lang="越南文">Bệ vào tốc độ chậm</string>
+</item>
+<item type="0">
+<value>11110002</value>
+<string lang_id="0" lang="中文">座退终</string>
+<string lang_id="1" lang="俄文">СинхОтводСопл</string>
+<string lang_id="2" lang="韩文">노즐후진완료</string>
+<string lang_id="3" lang="英文">NozRet End</string>
+<string lang_id="4" lang="阿拉伯文">خروج من المقعد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">BoquilRet Fin</string>
+<string lang_id="7" lang="土耳其语">Grup Geri Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت بینی</string>
+<string lang_id="9" lang="葡萄牙语">BicoRetiroProteção</string>
+<string lang_id="10" lang="越南文">Bệ rút kết thúc</string>
+</item>
+<item type="0">
+<value>11110003</value>
+<string lang_id="0" lang="中文">座退慢速</string>
+<string lang_id="1" lang="俄文">Медл. от</string>
+<string lang_id="2" lang="韩文">노즐 후진 저속</string>
+<string lang_id="3" lang="英文">NozRet Slow</string>
+<string lang_id="4" lang="阿拉伯文">المقعد الخلفي بطيئة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">BoquilRet Lent</string>
+<string lang_id="7" lang="土耳其语">Grup Geri Yavaş</string>
+<string lang_id="8" lang="波斯文">برگشت کند بینی</string>
+<string lang_id="9" lang="葡萄牙语">BicoRetiroLento</string>
+<string lang_id="10" lang="越南文">Bệ rút chậm</string>
+</item>
+<item type="0">
+<value>12110000</value>
+<string lang_id="0" lang="中文">蓄能检知</string>
+<string lang_id="1" lang="俄文">АккумулятДатчик</string>
+<string lang_id="2" lang="韩文">사출에너지 저장</string>
+<string lang_id="3" lang="英文">Accum Check</string>
+<string lang_id="4" lang="阿拉伯文">حقن اللاسلكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Acumu Chequeo</string>
+<string lang_id="7" lang="土耳其语">Akümülatör Teftiş</string>
+<string lang_id="8" lang="波斯文">انبارش انرژی تزریق</string>
+<string lang_id="9" lang="葡萄牙语">Armazena Detectar</string>
+<string lang_id="10" lang="越南文">BTN Phát hiện</string>
+</item>
+<item type="0">
+<value>12110001</value>
+<string lang_id="0" lang="中文">蓄能备用</string>
+<string lang_id="1" lang="俄文">АккумуЗарезерв.</string>
+<string lang_id="2" lang="韩文">예비</string>
+<string lang_id="3" lang="英文">Accum Res</string>
+<string lang_id="4" lang="阿拉伯文"> تراكم احتياطي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Acumul Res</string>
+<string lang_id="7" lang="土耳其语">Akümü Rez</string>
+<string lang_id="8" lang="波斯文">آکومولاتور رزرو</string>
+<string lang_id="9" lang="葡萄牙语">Armazena Poupar</string>
+<string lang_id="10" lang="越南文">Tích năng dự phòng</string>
+</item>
+<item type="0">
+<value>13110000</value>
+<string lang_id="0" lang="中文">下压缸进终</string>
+<string lang_id="1" lang="俄文">ВнизВпередКонец</string>
+<string lang_id="2" lang="韩文">압력실린더 전진완료</string>
+<string lang_id="3" lang="英文">PrsCylind AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">اسطوانة الضغط في المباراة النهائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PrsCilind AvanFin</string>
+<string lang_id="7" lang="土耳其语">MalAlm Aşağı İleri Son</string>
+<string lang_id="8" lang="波斯文">پایان پیشرفت سیلندر لشاری</string>
+<string lang_id="9" lang="葡萄牙语">ChargeDownFwdFim</string>
+<string lang_id="10" lang="越南文">Xi lanh dưới vào xong</string>
+</item>
+<item type="0">
+<value>13110001</value>
+<string lang_id="0" lang="中文">下压缸退终</string>
+<string lang_id="1" lang="俄文">ВнизНазадКонец</string>
+<string lang_id="2" lang="韩文">압력실린더 후진완료</string>
+<string lang_id="3" lang="英文">PrsCylind RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">اسطوانة الضغط في المباراة البدائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PrsCilind RetFin</string>
+<string lang_id="7" lang="土耳其语">MalAlm Aşağı Çekil Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت سیلندر فشاری</string>
+<string lang_id="9" lang="葡萄牙语">ChargeDownBwdFim</string>
+<string lang_id="10" lang="越南文">Xi lanh dưới thoát xong</string>
+</item>
+<item type="0">
+<value>13110002</value>
+<string lang_id="0" lang="中文">下压缸料位低</string>
+<string lang_id="1" lang="俄文">ЗарядаВнизМасла</string>
+<string lang_id="2" lang="韩文">압력실린더 저위치</string>
+<string lang_id="3" lang="英文">PrsCylind LevelLow</string>
+<string lang_id="4" lang="阿拉伯文">انخفاض مستوى</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PrsCilind Level Baja</string>
+<string lang_id="7" lang="土耳其语">MalAlm Aşağı Düşük</string>
+<string lang_id="8" lang="波斯文">سطح تغذیه پایین</string>
+<string lang_id="9" lang="葡萄牙语">ChargeDown Baixo</string>
+<string lang_id="10" lang="越南文">Mức liệu quá thấp</string>
+</item>
+<item type="0">
+<value>13110003</value>
+<string lang_id="0" lang="中文">下压缸备用</string>
+<string lang_id="1" lang="俄文">загрузке</string>
+<string lang_id="2" lang="韩文">계량 저압 백업</string>
+<string lang_id="3" lang="英文">PrsCylind Res</string>
+<string lang_id="4" lang="阿拉伯文">اسطوانة ضغط الغيار</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PrsCilind Res</string>
+<string lang_id="7" lang="土耳其语">MalAlm Aşağı Rez</string>
+<string lang_id="8" lang="波斯文">رزرو سیلندر فشاری</string>
+<string lang_id="9" lang="葡萄牙语">ChargeDownPoupar</string>
+<string lang_id="10" lang="越南文">Xi lanh dưới dự phòng</string>
+</item>
+<item type="0">
+<value>20110000</value>
+<string lang_id="0" lang="中文">关模低速</string>
+<string lang_id="1" lang="俄文">МедлЗкртФрмы</string>
+<string lang_id="2" lang="韩文">형폐 저속</string>
+<string lang_id="3" lang="英文">Cls LowSpd</string>
+<string lang_id="4" lang="阿拉伯文">إغلاق القالب بالسرعة المنخفضة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar BajaVeloc</string>
+<string lang_id="7" lang="土耳其语">Kap Düş Hızı</string>
+<string lang_id="8" lang="波斯文">سرعت پایین بستن</string>
+<string lang_id="9" lang="葡萄牙语">VelocLentaFechar</string>
+<string lang_id="10" lang="越南文">Đóng k.tốc độ thấp</string>
+</item>
+<item type="0">
+<value>20110001</value>
+<string lang_id="0" lang="中文">关模低压</string>
+<string lang_id="1" lang="俄文">ЗащитаФормы</string>
+<string lang_id="2" lang="韩文">형폐 저압</string>
+<string lang_id="3" lang="英文">Cls LowPrs</string>
+<string lang_id="4" lang="阿拉伯文">إغلاق بالضغط</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar BajaPrs</string>
+<string lang_id="7" lang="土耳其语">Kapat Düşük Bas</string>
+<string lang_id="8" lang="波斯文">فشار پایین بستن</string>
+<string lang_id="9" lang="葡萄牙语">Fechar LowPressão</string>
+<string lang_id="10" lang="越南文">Đóng k.thấp áp</string>
+</item>
+<item type="0">
+<value>20110002</value>
+<string lang_id="0" lang="中文">关模高压</string>
+<string lang_id="1" lang="俄文">ДавлВысЗак.</string>
+<string lang_id="2" lang="韩文">형폐 고압</string>
+<string lang_id="3" lang="英文">Cls HiPrs</string>
+<string lang_id="4" lang="阿拉伯文">ضغط القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar AltaPrs</string>
+<string lang_id="7" lang="土耳其语">Kapat Yüksek Bas</string>
+<string lang_id="8" lang="波斯文">فشار بالای بستن</string>
+<string lang_id="9" lang="葡萄牙语">Fechar Hi Pressão</string>
+<string lang_id="10" lang="越南文">Đóng k.cao áp </string>
+</item>
+<item type="0">
+<value>20110003</value>
+<string lang_id="0" lang="中文">关模终</string>
+<string lang_id="1" lang="俄文">Зажим конец</string>
+<string lang_id="2" lang="韩文">형폐 완료</string>
+<string lang_id="3" lang="英文">Cls End</string>
+<string lang_id="4" lang="阿拉伯文">نهاية قفل القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cierre Fin Pos</string>
+<string lang_id="7" lang="土耳其语">Kapat Son</string>
+<string lang_id="8" lang="波斯文">پایان بستن</string>
+<string lang_id="9" lang="葡萄牙语">Fim fechar</string>
+<string lang_id="10" lang="越南文">Đóng k.xong</string>
+</item>
+<item type="0">
+<value>20110004</value>
+<string lang_id="0" lang="中文">关模限位</string>
+<string lang_id="1" lang="俄文">ПредПолЗакрытие</string>
+<string lang_id="2" lang="韩文">형폐 한계</string>
+<string lang_id="3" lang="英文">Cls Limit</string>
+<string lang_id="4" lang="阿拉伯文">إغلاق قالب قيود</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar Límite</string>
+<string lang_id="7" lang="土耳其语">Kapat SiniriPoz</string>
+<string lang_id="8" lang="波斯文">بستن  محدودیت</string>
+<string lang_id="9" lang="葡萄牙语">Fechar Limite</string>
+<string lang_id="10" lang="越南文">Đóng k.hạn chế</string>
+</item>
+<item type="0">
+<value>20110005</value>
+<string lang_id="0" lang="中文">关模快速</string>
+<string lang_id="1" lang="俄文">БыстроеЗакрытие</string>
+<string lang_id="2" lang="韩文">형폐 고속</string>
+<string lang_id="3" lang="英文">Cls Fast</string>
+<string lang_id="4" lang="阿拉伯文">القالب بسرعة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar Rápid</string>
+<string lang_id="7" lang="土耳其语">Kapat Yüksek Hızı</string>
+<string lang_id="8" lang="波斯文">سرعت بالای بستن</string>
+<string lang_id="9" lang="葡萄牙语">Fechar Hi Speed</string>
+<string lang_id="10" lang="越南文">Đóng k.nhanh</string>
+</item>
+<item type="0">
+<value>20110006</value>
+<string lang_id="0" lang="中文">关模备用</string>
+<string lang_id="1" lang="俄文">Задн</string>
+<string lang_id="2" lang="韩文">형폐 백업</string>
+<string lang_id="3" lang="英文">Close Res</string>
+<string lang_id="4" lang="阿拉伯文">تشغيل وضع الاستعداد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cerrar Res</string>
+<string lang_id="7" lang="土耳其语">Kapat Rezerv</string>
+<string lang_id="8" lang="波斯文">رزرو بستن</string>
+<string lang_id="9" lang="葡萄牙语">FecharPoupar</string>
+<string lang_id="10" lang="越南文">Đóng k.Res</string>
+</item>
+<item type="0">
+<value>20110007</value>
+<string lang_id="0" lang="中文">液压安全检知</string>
+<string lang_id="1" lang="俄文">ВодБезопПровер</string>
+<string lang_id="2" lang="韩文">압력안전 체크</string>
+<string lang_id="3" lang="英文">Hydr Safety Chk</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن أمن هيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verif Seg Hidraul</string>
+<string lang_id="7" lang="土耳其语">BasınGüvenlikKntrl</string>
+<string lang_id="8" lang="波斯文">بازرسی امنیت هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HidráulicaSegurançaVerificar</string>
+<string lang_id="10" lang="越南文">KT AT t.lực</string>
+</item>
+<item type="0">
+<value>20110008</value>
+<string lang_id="0" lang="中文">机械安全检知</string>
+<string lang_id="1" lang="俄文">ДатчБезопасн</string>
+<string lang_id="2" lang="韩文">기계안전 체크</string>
+<string lang_id="3" lang="英文">Mach Safety Chk</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن الأمن الميكانيكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verif Seg Maquina</string>
+<string lang_id="7" lang="土耳其语">Emniyet testi</string>
+<string lang_id="8" lang="波斯文">بازرسی امنیت ماشین</string>
+<string lang_id="9" lang="葡萄牙语">MachineSafetySenr</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt an toàn cơ giới</string>
+</item>
+<item type="0">
+<value>20110009</value>
+<string lang_id="0" lang="中文">开模一慢</string>
+<string lang_id="1" lang="俄文">Медл1</string>
+<string lang_id="2" lang="韩文">형개 저속</string>
+<string lang_id="3" lang="英文">Open #1 Slow</string>
+<string lang_id="4" lang="阿拉伯文">فتح قالب #1 بطيء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir Lent1</string>
+<string lang_id="7" lang="土耳其语">Yavaş1</string>
+<string lang_id="8" lang="波斯文">بازکردن #1 کند</string>
+<string lang_id="9" lang="葡萄牙语">Abrir Lento1</string>
+<string lang_id="10" lang="越南文">Mở k.#1 chậm</string>
+</item>
+<item type="0">
+<value>2011000a</value>
+<string lang_id="0" lang="中文">开模二慢</string>
+<string lang_id="1" lang="俄文">Медл2</string>
+<string lang_id="2" lang="韩文">형개 고속</string>
+<string lang_id="3" lang="英文">Open #2 Slow</string>
+<string lang_id="4" lang="阿拉伯文">فتح قالب #2 بطيء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir Lent2</string>
+<string lang_id="7" lang="土耳其语">Yavaş2</string>
+<string lang_id="8" lang="波斯文">بازکردن #2 کند</string>
+<string lang_id="9" lang="葡萄牙语">Abrir Lento2</string>
+<string lang_id="10" lang="越南文">Mở k.#2 chậm</string>
+</item>
+<item type="0">
+<value>2011000b</value>
+<string lang_id="0" lang="中文">开模终</string>
+<string lang_id="1" lang="俄文">КнцОткрт</string>
+<string lang_id="2" lang="韩文">형개 완료</string>
+<string lang_id="3" lang="英文">Open End</string>
+<string lang_id="4" lang="阿拉伯文">إنهاء العفن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir Fin</string>
+<string lang_id="7" lang="土耳其语">Açma Son</string>
+<string lang_id="8" lang="波斯文">پایان بازکردن</string>
+<string lang_id="9" lang="葡萄牙语">Abrir Fim</string>
+<string lang_id="10" lang="越南文">Mở khuôn xong</string>
+</item>
+<item type="0">
+<value>2011000c</value>
+<string lang_id="0" lang="中文">开模限位</string>
+<string lang_id="1" lang="俄文">ПределОткрытие</string>
+<string lang_id="2" lang="韩文">형개 한계</string>
+<string lang_id="3" lang="英文">Open Limit</string>
+<string lang_id="4" lang="阿拉伯文">فتح قالب قيود</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir Md Límite</string>
+<string lang_id="7" lang="土耳其语">Açma Siniri</string>
+<string lang_id="8" lang="波斯文">بازکردن محدودیت</string>
+<string lang_id="9" lang="葡萄牙语">Limite Abra</string>
+<string lang_id="10" lang="越南文">Mở k.hạn chế</string>
+</item>
+<item type="0">
+<value>2011000d</value>
+<string lang_id="0" lang="中文">气压检知</string>
+<string lang_id="1" lang="俄文">Пров</string>
+<string lang_id="2" lang="韩文">에어 체크</string>
+<string lang_id="3" lang="英文">Air Check</string>
+<string lang_id="4" lang="阿拉伯文">كشف الضغط</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AireDetect</string>
+<string lang_id="7" lang="土耳其语">HavaBasın Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی فشار باد</string>
+<string lang_id="9" lang="葡萄牙语">Ar Detectar</string>
+<string lang_id="10" lang="越南文">KT khí áp</string>
+</item>
+<item type="0">
+<value>2011000e</value>
+<string lang_id="0" lang="中文">模温警报</string>
+<string lang_id="1" lang="俄文">ФормаНагрев</string>
+<string lang_id="2" lang="韩文">금형온도 알람</string>
+<string lang_id="3" lang="英文">MoldTemp Alarm</string>
+<string lang_id="4" lang="阿拉伯文">إنذار درجة الحرارة للقالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">MoldeTemp Alarma</string>
+<string lang_id="7" lang="土耳其语">Kalıp Isılar</string>
+<string lang_id="8" lang="波斯文">هشدار دمای قالب</string>
+<string lang_id="9" lang="葡萄牙语">MoldHeat</string>
+<string lang_id="10" lang="越南文">CB Nhi.độkhu.</string>
+</item>
+<item type="0">
+<value>2011000f</value>
+<string lang_id="0" lang="中文">紧急回升</string>
+<string lang_id="1" lang="俄文">EmergeВверх</string>
+<string lang_id="2" lang="韩文">비상 복귀</string>
+<string lang_id="3" lang="英文">EmergeUp</string>
+<string lang_id="4" lang="阿拉伯文">انتعاش في حالات الطوارئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Emerg Resuelta</string>
+<string lang_id="7" lang="土耳其语">Acil Yükselmek</string>
+<string lang_id="8" lang="波斯文">بالارفتن اضطراری</string>
+<string lang_id="9" lang="葡萄牙语">EmergeUp</string>
+<string lang_id="10" lang="越南文">Hồi kh.cấp</string>
+</item>
+<item type="0">
+<value>20110010</value>
+<string lang_id="0" lang="中文">左合模</string>
+<string lang_id="1" lang="俄文">Левый</string>
+<string lang_id="2" lang="韩文">왼쪽 클램핑</string>
+<string lang_id="3" lang="英文">Left Cls</string>
+<string lang_id="4" lang="阿拉伯文">القالب اليسار</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cierre Izquierda</string>
+<string lang_id="7" lang="土耳其语">Sol Kapat</string>
+<string lang_id="8" lang="波斯文">بستن در چپ</string>
+<string lang_id="9" lang="葡萄牙语">PartiuFechar</string>
+<string lang_id="10" lang="越南文">Khép k trái</string>
+</item>
+<item type="0">
+<value>20110011</value>
+<string lang_id="0" lang="中文">右合模</string>
+<string lang_id="1" lang="俄文">Правый</string>
+<string lang_id="2" lang="韩文">오른쪽 클램핑</string>
+<string lang_id="3" lang="英文">Right Cls</string>
+<string lang_id="4" lang="阿拉伯文">القالب اليمين</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cierre Derecha</string>
+<string lang_id="7" lang="土耳其语">Sağ Kapat</string>
+<string lang_id="8" lang="波斯文">بستن در راست</string>
+<string lang_id="9" lang="葡萄牙语">CertoFechar</string>
+<string lang_id="10" lang="越南文">Khép khuôn phải</string>
+</item>
+<item type="0">
+<value>20110012</value>
+<string lang_id="0" lang="中文">上顶盖</string>
+<string lang_id="1" lang="俄文">Наверх Обложка</string>
+<string lang_id="2" lang="韩文">은폐</string>
+<string lang_id="3" lang="英文">Up Cover</string>
+<string lang_id="4" lang="阿拉伯文">الغطاء الخارجي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Arriba Cover</string>
+<string lang_id="7" lang="土耳其语">örtmek</string>
+<string lang_id="8" lang="波斯文">پوشش بالا</string>
+<string lang_id="9" lang="葡萄牙语">UpperCover</string>
+<string lang_id="10" lang="越南文">Nắp trên</string>
+</item>
+<item type="0">
+<value>20110013</value>
+<string lang_id="0" lang="中文">模板检知</string>
+<string lang_id="1" lang="俄文">ПровЗакрытия</string>
+<string lang_id="2" lang="韩文">클램프체크</string>
+<string lang_id="3" lang="英文">MoldBd Check</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verificar Cierre</string>
+<string lang_id="7" lang="土耳其语">Mengene Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی قالب</string>
+<string lang_id="9" lang="葡萄牙语">ClampCheck</string>
+<string lang_id="10" lang="越南文">KT tấm k</string>
+</item>
+<item type="0">
+<value>20110014</value>
+<string lang_id="0" lang="中文">不良产品检知</string>
+<string lang_id="1" lang="俄文">Дефе.мод.</string>
+<string lang_id="2" lang="韩文">불량 제품 검사</string>
+<string lang_id="3" lang="英文">BadProd Check</string>
+<string lang_id="4" lang="阿拉伯文">تفتيش المنتج سيئة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">MalProd Cierre</string>
+<string lang_id="7" lang="土耳其语">Kötü ürün Denet.</string>
+<string lang_id="8" lang="波斯文">بازرسی محصول بد</string>
+<string lang_id="9" lang="葡萄牙语">ProdDef Insp</string>
+<string lang_id="10" lang="越南文">Kiểm tra sản k</string>
+</item>
+<item type="0">
+<value>20110015</value>
+<string lang_id="0" lang="中文">液压保险检知</string>
+<string lang_id="1" lang="俄文">ВодБезопПровер</string>
+<string lang_id="2" lang="韩文">유압 보험 검사</string>
+<string lang_id="3" lang="英文">Hyd Safty Check</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verif Seg Hidraul</string>
+<string lang_id="7" lang="土耳其语">BasınGüvenlikKntrl</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Hidráulico Seguro Inspeção</string>
+<string lang_id="10" lang="越南文">KT an toàn TL</string>
+</item>
+<item type="0">
+<value>20110016</value>
+<string lang_id="0" lang="中文">液压夹具安全</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Hyd Fixture Safety</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20110017</value>
+<string lang_id="0" lang="中文">机械保护</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Machine Protect</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20110018</value>
+<string lang_id="0" lang="中文">脚踏开关</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Foot switch</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20110019</value>
+<string lang_id="0" lang="中文">光幕安全检知</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Light curtain safety check</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>21110000</value>
+<string lang_id="0" lang="中文">托进终</string>
+<string lang_id="1" lang="俄文">СинхрВыталкВпере</string>
+<string lang_id="2" lang="韩文">에젝터 전진</string>
+<string lang_id="3" lang="英文">Eject AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية القاذف الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul AvanFin</string>
+<string lang_id="7" lang="土耳其语">İtici İleri Son</string>
+<string lang_id="8" lang="波斯文">پایان پیشرفت EJ</string>
+<string lang_id="9" lang="葡萄牙语">EjectEntrar Fim</string>
+<string lang_id="10" lang="越南文">Đỡ vào xong</string>
+</item>
+<item type="0">
+<value>21110001</value>
+<string lang_id="0" lang="中文">托退终</string>
+<string lang_id="1" lang="俄文">СинхрВыталкивНаз</string>
+<string lang_id="2" lang="韩文">에젝터 후진완료</string>
+<string lang_id="3" lang="英文">Eject RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">طرد تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul RetFin</string>
+<string lang_id="7" lang="土耳其语">Ejekt Çekl Son</string>
+<string lang_id="8" lang="波斯文">EJ پایان برگشت</string>
+<string lang_id="9" lang="葡萄牙语">EjectRetiro Fim</string>
+<string lang_id="10" lang="越南文">ĐỡK.thoát xong</string>
+</item>
+<item type="0">
+<value>21110002</value>
+<string lang_id="0" lang="中文">托模启动</string>
+<string lang_id="1" lang="俄文">нач.Выталк</string>
+<string lang_id="2" lang="韩文">에젝터 시작</string>
+<string lang_id="3" lang="英文">Eject Start</string>
+<string lang_id="4" lang="阿拉伯文">طرد تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul Iniciar</string>
+<string lang_id="7" lang="土耳其语">İtici Başla</string>
+<string lang_id="8" lang="波斯文">EJ استارت</string>
+<string lang_id="9" lang="葡萄牙语">EjectComece</string>
+<string lang_id="10" lang="越南文">ĐỡK.khởi động</string>
+</item>
+<item type="0">
+<value>21110003</value>
+<string lang_id="0" lang="中文">托进慢速</string>
+<string lang_id="1" lang="俄文">Медл.</string>
+<string lang_id="2" lang="韩文">에적터 전진 저속</string>
+<string lang_id="3" lang="英文">Eject AdvSlow</string>
+<string lang_id="4" lang="阿拉伯文">بطيئة القاذف الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul1 AvanLent</string>
+<string lang_id="7" lang="土耳其语">İtici İleri Yavaş</string>
+<string lang_id="8" lang="波斯文">پیشرفت کند EJ</string>
+<string lang_id="9" lang="葡萄牙语">EjectLento</string>
+<string lang_id="10" lang="越南文">Đỡ vào tốc độ chậm</string>
+</item>
+<item type="0">
+<value>21110004</value>
+<string lang_id="0" lang="中文">托模保护</string>
+<string lang_id="1" lang="俄文">ЗащитаВыталк</string>
+<string lang_id="2" lang="韩文">에젝터 보호</string>
+<string lang_id="3" lang="英文">Eject Protect</string>
+<string lang_id="4" lang="阿拉伯文">حماية كشتبان</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul1 Prot</string>
+<string lang_id="7" lang="土耳其语">İtici Koruma</string>
+<string lang_id="8" lang="波斯文">حفاظت انگشتانه</string>
+<string lang_id="9" lang="葡萄牙语">EjectProtect</string>
+<string lang_id="10" lang="越南文">Bảo vệ đỡ k.</string>
+</item>
+<item type="0">
+<value>21110005</value>
+<string lang_id="0" lang="中文">模具退终</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">MoldRet End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>21210000</value>
+<string lang_id="0" lang="中文">托2进终</string>
+<string lang_id="1" lang="俄文">Выт вх. 2</string>
+<string lang_id="2" lang="韩文">에젝터 전진2</string>
+<string lang_id="3" lang="英文">Eject2 AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">طرد 2 نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eyect2Avan Fin</string>
+<string lang_id="7" lang="土耳其语">İtici2 İleri Son</string>
+<string lang_id="8" lang="波斯文">EJ 2 پایان پیشرفت</string>
+<string lang_id="9" lang="葡萄牙语">Eject2FimAvanço</string>
+<string lang_id="10" lang="越南文">ĐỡKhuôn2 VàoXong</string>
+</item>
+<item type="0">
+<value>21210001</value>
+<string lang_id="0" lang="中文">托2退终</string>
+<string lang_id="1" lang="俄文">Выт назад 2</string>
+<string lang_id="2" lang="韩文">에젝터 후진완료2</string>
+<string lang_id="3" lang="英文">Eject2 RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">الدرج 2 متقاعد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eyect2Ret Fin　</string>
+<string lang_id="7" lang="土耳其语">İtici3 Ceki Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت EJ 2</string>
+<string lang_id="9" lang="葡萄牙语">Eject2FimCostas</string>
+<string lang_id="10" lang="越南文">Đỡ k.2 rút xong</string>
+</item>
+<item type="0">
+<value>21210002</value>
+<string lang_id="0" lang="中文">托模2启动</string>
+<string lang_id="1" lang="俄文">Начать 2</string>
+<string lang_id="2" lang="韩文">시작 이젝터 (2)</string>
+<string lang_id="3" lang="英文">Eject2 Start</string>
+<string lang_id="4" lang="阿拉伯文">بدء الدرج 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eyect2Abre</string>
+<string lang_id="7" lang="土耳其语">İtici 2 Başlat</string>
+<string lang_id="8" lang="波斯文">استارت EJ 2</string>
+<string lang_id="9" lang="葡萄牙语">Eject2Comece</string>
+<string lang_id="10" lang="越南文">Đỡ k.2 khởi động</string>
+</item>
+<item type="0">
+<value>21210003</value>
+<string lang_id="0" lang="中文">托2进慢速</string>
+<string lang_id="1" lang="俄文">Медл 2</string>
+<string lang_id="2" lang="韩文">에적터2 전진 저속</string>
+<string lang_id="3" lang="英文">Eject2 AdvSlow</string>
+<string lang_id="4" lang="阿拉伯文">يموت 2 في البطء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eyect2AvanLent</string>
+<string lang_id="7" lang="土耳其语">İtici2 İleri Yavaş</string>
+<string lang_id="8" lang="波斯文">پیشرفت کند EJ 2</string>
+<string lang_id="9" lang="葡萄牙语">Eject2Lento</string>
+<string lang_id="10" lang="越南文">Đỡ k.2 vào chậm TĐ</string>
+</item>
+<item type="0">
+<value>21210004</value>
+<string lang_id="0" lang="中文">托模2保护</string>
+<string lang_id="1" lang="俄文">ЗащитаВыталк2</string>
+<string lang_id="2" lang="韩文">에젝터보호2</string>
+<string lang_id="3" lang="英文">Eject2 Protect</string>
+<string lang_id="4" lang="阿拉伯文">حماية كشتبان 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Eyect2Prot</string>
+<string lang_id="7" lang="土耳其语">İtici2 Koruma</string>
+<string lang_id="8" lang="波斯文">حفاظت انگشتانه 2</string>
+<string lang_id="9" lang="葡萄牙语">Eject2Proteção</string>
+<string lang_id="10" lang="越南文">Đỡ k.2 bảo vệ</string>
+</item>
+<item type="0">
+<value>21210005</value>
+<string lang_id="0" lang="中文">模具2退终</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">MoldRet2 End</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22110000</value>
+<string lang_id="0" lang="中文">中子A启动</string>
+<string lang_id="1" lang="俄文">ЗнакA Пуск</string>
+<string lang_id="2" lang="韩文">코아1 시작</string>
+<string lang_id="3" lang="英文">CoreA Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر A تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo A Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaA Başlat</string>
+<string lang_id="8" lang="波斯文">روز A استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreA Come</string>
+<string lang_id="10" lang="越南文">NơtronA KĐ</string>
+</item>
+<item type="0">
+<value>22110001</value>
+<string lang_id="0" lang="中文">中子A进终</string>
+<string lang_id="1" lang="俄文">СинхрПодчЗнакаA</string>
+<string lang_id="2" lang="韩文">코어1 전진완료</string>
+<string lang_id="3" lang="英文">CoreA InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر A نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo A En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaAGirişiSon</string>
+<string lang_id="8" lang="波斯文">روز A پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreA EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronA vàoxong</string>
+</item>
+<item type="0">
+<value>22110002</value>
+<string lang_id="0" lang="中文">中子A退终</string>
+<string lang_id="1" lang="俄文">СинхрПодчЗнакаA</string>
+<string lang_id="2" lang="韩文">코어1 후진완료</string>
+<string lang_id="3" lang="英文">CoreA OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر A تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo A RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaAÇıkışıSon</string>
+<string lang_id="8" lang="波斯文">روز A پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreA RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronA rútxong</string>
+</item>
+<item type="0">
+<value>22110003</value>
+<string lang_id="0" lang="中文">中子A</string>
+<string lang_id="1" lang="俄文">ЗнакA</string>
+<string lang_id="2" lang="韩文">코어1</string>
+<string lang_id="3" lang="英文">Core A</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  A</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo A</string>
+<string lang_id="7" lang="土耳其语">Maça A</string>
+<string lang_id="8" lang="波斯文">مغز A</string>
+<string lang_id="9" lang="葡萄牙语">Core A</string>
+<string lang_id="10" lang="越南文">Nơtron A</string>
+</item>
+<item type="0">
+<value>22110004</value>
+<string lang_id="0" lang="中文">绞牙A电眼</string>
+<string lang_id="1" lang="俄文">Винт А наст</string>
+<string lang_id="2" lang="韩文">스크류 A 매직아이</string>
+<string lang_id="3" lang="英文">ScrewA Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانA العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar A Sensor</string>
+<string lang_id="7" lang="土耳其语">A duyacı vidala</string>
+<string lang_id="8" lang="波斯文">Aپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwAChk</string>
+<string lang_id="10" lang="越南文">Ren A bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22110005</value>
+<string lang_id="0" lang="中文">中子A进终2</string>
+<string lang_id="1" lang="俄文">ЗнакA Вперед2</string>
+<string lang_id="2" lang="韩文">코어1 전진2</string>
+<string lang_id="3" lang="英文">CoreA InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر A النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo A En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaAGirişiSon2</string>
+<string lang_id="8" lang="波斯文">روز A پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreA EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronA vàoxong 2</string>
+</item>
+<item type="0">
+<value>22110006</value>
+<string lang_id="0" lang="中文">中子A泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreA Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22210000</value>
+<string lang_id="0" lang="中文">中子B启动</string>
+<string lang_id="1" lang="俄文">ЗнакB Пуск</string>
+<string lang_id="2" lang="韩文">코아2 시작</string>
+<string lang_id="3" lang="英文">CoreB Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر B تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo B Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaB Başlat</string>
+<string lang_id="8" lang="波斯文">روز B استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreB Come</string>
+<string lang_id="10" lang="越南文">NơtronB KĐ</string>
+</item>
+<item type="0">
+<value>22210001</value>
+<string lang_id="0" lang="中文">中子B进终</string>
+<string lang_id="1" lang="俄文">ЗнакBВпрдКонец</string>
+<string lang_id="2" lang="韩文">코어2 전진완료</string>
+<string lang_id="3" lang="英文">CoreB InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر B نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo B En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaBGirişiSon</string>
+<string lang_id="8" lang="波斯文">روز B پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreB EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronB vàocong</string>
+</item>
+<item type="0">
+<value>22210002</value>
+<string lang_id="0" lang="中文">中子B退终</string>
+<string lang_id="1" lang="俄文">ЗнакBНазадКонец</string>
+<string lang_id="2" lang="韩文">코어2 후진완료</string>
+<string lang_id="3" lang="英文">CoreB OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر B تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo B RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaBÇıkışıSon</string>
+<string lang_id="8" lang="波斯文">روز B پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreB RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronB rútxong</string>
+</item>
+<item type="0">
+<value>22210003</value>
+<string lang_id="0" lang="中文">中子B</string>
+<string lang_id="1" lang="俄文">ЗнакB</string>
+<string lang_id="2" lang="韩文">코어2</string>
+<string lang_id="3" lang="英文">Core B</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  B</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo B</string>
+<string lang_id="7" lang="土耳其语">Maça B</string>
+<string lang_id="8" lang="波斯文">مغز B</string>
+<string lang_id="9" lang="葡萄牙语">Core B</string>
+<string lang_id="10" lang="越南文">Nơtron B</string>
+</item>
+<item type="0">
+<value>22210004</value>
+<string lang_id="0" lang="中文">绞牙B电眼</string>
+<string lang_id="1" lang="俄文">Винт B наст</string>
+<string lang_id="2" lang="韩文">스크류 B 매직아이</string>
+<string lang_id="3" lang="英文">ScrewB Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانB العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar B Sensor</string>
+<string lang_id="7" lang="土耳其语">B duyacı vidala</string>
+<string lang_id="8" lang="波斯文">Bپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwBChk</string>
+<string lang_id="10" lang="越南文">Ren B Bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22210005</value>
+<string lang_id="0" lang="中文">中子B进终2</string>
+<string lang_id="1" lang="俄文">ЗнакB Вперед2</string>
+<string lang_id="2" lang="韩文">코어2 전진2</string>
+<string lang_id="3" lang="英文">CoreB InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر B النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo B En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaAÇıkışıSon2</string>
+<string lang_id="8" lang="波斯文">روز B پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreB EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronB vàoxong 2</string>
+</item>
+<item type="0">
+<value>22210006</value>
+<string lang_id="0" lang="中文">中子B泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreB Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22310000</value>
+<string lang_id="0" lang="中文">中子C启动</string>
+<string lang_id="1" lang="俄文">ЗнакC Пуск</string>
+<string lang_id="2" lang="韩文">코아3 시작</string>
+<string lang_id="3" lang="英文">CoreC Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر C تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo C Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaC Başlat</string>
+<string lang_id="8" lang="波斯文">روز C استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreC Come</string>
+<string lang_id="10" lang="越南文">NơtronC KĐ</string>
+</item>
+<item type="0">
+<value>22310001</value>
+<string lang_id="0" lang="中文">中子C进终</string>
+<string lang_id="1" lang="俄文">ЗнакCВпрдКонец</string>
+<string lang_id="2" lang="韩文">코어3 전진완료</string>
+<string lang_id="3" lang="英文">CoreC InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر C نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo C En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaC GirişiSon</string>
+<string lang_id="8" lang="波斯文">روز C پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreC EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronC vàoxong</string>
+</item>
+<item type="0">
+<value>22310002</value>
+<string lang_id="0" lang="中文">中子C退终</string>
+<string lang_id="1" lang="俄文">ЗнакCНазадКонец</string>
+<string lang_id="2" lang="韩文">코어3 후진완료</string>
+<string lang_id="3" lang="英文">CoreC OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر C تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo C RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaC ÇıkışıSon</string>
+<string lang_id="8" lang="波斯文">روز C پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreC RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronC rútxong</string>
+</item>
+<item type="0">
+<value>22310003</value>
+<string lang_id="0" lang="中文">中子C</string>
+<string lang_id="1" lang="俄文">ЗнакC</string>
+<string lang_id="2" lang="韩文">코어3</string>
+<string lang_id="3" lang="英文">Core C</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  C</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo C</string>
+<string lang_id="7" lang="土耳其语">Maça C</string>
+<string lang_id="8" lang="波斯文">مغز C</string>
+<string lang_id="9" lang="葡萄牙语">Core C</string>
+<string lang_id="10" lang="越南文">Nơtron C</string>
+</item>
+<item type="0">
+<value>22310004</value>
+<string lang_id="0" lang="中文">绞牙C电眼</string>
+<string lang_id="1" lang="俄文">Винт C наст</string>
+<string lang_id="2" lang="韩文">스크류 C 매직아이</string>
+<string lang_id="3" lang="英文">ScrewC Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانC العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar C Sensor</string>
+<string lang_id="7" lang="土耳其语">C duyacı vidala</string>
+<string lang_id="8" lang="波斯文">Cپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwCChk</string>
+<string lang_id="10" lang="越南文">Ren C Bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22310005</value>
+<string lang_id="0" lang="中文">中子C进终2</string>
+<string lang_id="1" lang="俄文">Пуансон С 2</string>
+<string lang_id="2" lang="韩文">코아3 전진 완료2</string>
+<string lang_id="3" lang="英文">CoreC InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر C النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo C En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaC Giriş Son2</string>
+<string lang_id="8" lang="波斯文">روز C پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreC EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronC vàoxong 2</string>
+</item>
+<item type="0">
+<value>22310006</value>
+<string lang_id="0" lang="中文">中子C泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreC Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22410000</value>
+<string lang_id="0" lang="中文">中子D启动</string>
+<string lang_id="1" lang="俄文">ЗнакD Пуск</string>
+<string lang_id="2" lang="韩文">코아4 시작</string>
+<string lang_id="3" lang="英文">CoreD Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر D تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo D Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaD Başlat</string>
+<string lang_id="8" lang="波斯文">روز D استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreD Come</string>
+<string lang_id="10" lang="越南文">NơtronD KĐ</string>
+</item>
+<item type="0">
+<value>22410001</value>
+<string lang_id="0" lang="中文">中子D进终</string>
+<string lang_id="1" lang="俄文">ЗнакDВпрдКонец</string>
+<string lang_id="2" lang="韩文">코어4 전진완료</string>
+<string lang_id="3" lang="英文">CoreD InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر D نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo D En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaDGirişiSon</string>
+<string lang_id="8" lang="波斯文">روز D پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreD EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronD vàoxong</string>
+</item>
+<item type="0">
+<value>22410002</value>
+<string lang_id="0" lang="中文">中子D退终</string>
+<string lang_id="1" lang="俄文">ЗнакDНазадКонец</string>
+<string lang_id="2" lang="韩文">코어4 후진완료</string>
+<string lang_id="3" lang="英文">CoreD OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر D تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo D RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaDÇıkışıSon</string>
+<string lang_id="8" lang="波斯文">روز D پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreD RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronD rútxong</string>
+</item>
+<item type="0">
+<value>22410003</value>
+<string lang_id="0" lang="中文">中子D</string>
+<string lang_id="1" lang="俄文">ЗнакD</string>
+<string lang_id="2" lang="韩文">코어4</string>
+<string lang_id="3" lang="英文">Core D</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  D</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo D</string>
+<string lang_id="7" lang="土耳其语">Maça D</string>
+<string lang_id="8" lang="波斯文">مغز D</string>
+<string lang_id="9" lang="葡萄牙语">Core D</string>
+<string lang_id="10" lang="越南文">Nơtron D</string>
+</item>
+<item type="0">
+<value>22410004</value>
+<string lang_id="0" lang="中文">绞牙D电眼</string>
+<string lang_id="1" lang="俄文">Винт D наст</string>
+<string lang_id="2" lang="韩文">스크류 D 매직아이</string>
+<string lang_id="3" lang="英文">ScrewD Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانD العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar D Sensor</string>
+<string lang_id="7" lang="土耳其语">VidaD Sensörü</string>
+<string lang_id="8" lang="波斯文">Dپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwDChk</string>
+<string lang_id="10" lang="越南文">Ren D Bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22410005</value>
+<string lang_id="0" lang="中文">中子D进终2</string>
+<string lang_id="1" lang="俄文">D  Конец 2</string>
+<string lang_id="2" lang="韩文">코아4 전진 완료2</string>
+<string lang_id="3" lang="英文">CoreD InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر D النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo D En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaD Giriş Son2</string>
+<string lang_id="8" lang="波斯文">روز D پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreD EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronD vàoxong 2</string>
+</item>
+<item type="0">
+<value>22410006</value>
+<string lang_id="0" lang="中文">中子D泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreD Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22510000</value>
+<string lang_id="0" lang="中文">中子E启动</string>
+<string lang_id="1" lang="俄文">ЗнакЕ пуск</string>
+<string lang_id="2" lang="韩文">코아5 시작</string>
+<string lang_id="3" lang="英文">CoreE Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر E تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo E Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaE Başlat</string>
+<string lang_id="8" lang="波斯文">روز E استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreE Come</string>
+<string lang_id="10" lang="越南文">NơtronE KĐ</string>
+</item>
+<item type="0">
+<value>22510001</value>
+<string lang_id="0" lang="中文">中子E进终</string>
+<string lang_id="1" lang="俄文">Евперед</string>
+<string lang_id="2" lang="韩文">코어5 전진완료</string>
+<string lang_id="3" lang="英文">CoreE InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر E نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo E En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaE Giriş Son</string>
+<string lang_id="8" lang="波斯文">روز E پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreE EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronE vàoxong</string>
+</item>
+<item type="0">
+<value>22510002</value>
+<string lang_id="0" lang="中文">中子E退终</string>
+<string lang_id="1" lang="俄文">Е кон</string>
+<string lang_id="2" lang="韩文">코어5 후진완료</string>
+<string lang_id="3" lang="英文">CoreE OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر E تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">NoyoE RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaE Çıkışı Son</string>
+<string lang_id="8" lang="波斯文">روز E پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreE RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronE rútxong</string>
+</item>
+<item type="0">
+<value>22510003</value>
+<string lang_id="0" lang="中文">中子E</string>
+<string lang_id="1" lang="俄文">Пу E </string>
+<string lang_id="2" lang="韩文">코어5</string>
+<string lang_id="3" lang="英文">Core E</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  E</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo E</string>
+<string lang_id="7" lang="土耳其语">Maça E</string>
+<string lang_id="8" lang="波斯文">مغز E</string>
+<string lang_id="9" lang="葡萄牙语">Core E</string>
+<string lang_id="10" lang="越南文">Nơtron E</string>
+</item>
+<item type="0">
+<value>22510004</value>
+<string lang_id="0" lang="中文">绞牙E电眼</string>
+<string lang_id="1" lang="俄文">Винт E наст</string>
+<string lang_id="2" lang="韩文">스크류 E 매직아이</string>
+<string lang_id="3" lang="英文">ScrewE Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانE العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar E Sensor</string>
+<string lang_id="7" lang="土耳其语">VidaE Sensörü</string>
+<string lang_id="8" lang="波斯文">Eپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwEChk</string>
+<string lang_id="10" lang="越南文">Ren E Bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22510005</value>
+<string lang_id="0" lang="中文">中子E进终2</string>
+<string lang_id="1" lang="俄文">Пуансон Е 2</string>
+<string lang_id="2" lang="韩文">코아5 전진 완료2</string>
+<string lang_id="3" lang="英文">CoreE InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر E النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo E En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaE Giriş Son2</string>
+<string lang_id="8" lang="波斯文">روز E پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreE EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronE vàoxong 2</string>
+</item>
+<item type="0">
+<value>22510006</value>
+<string lang_id="0" lang="中文">中子E泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreE Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22610000</value>
+<string lang_id="0" lang="中文">中子F启动</string>
+<string lang_id="1" lang="俄文">ЗнакF пуск</string>
+<string lang_id="2" lang="韩文">코아6 시작</string>
+<string lang_id="3" lang="英文">CoreF Start</string>
+<string lang_id="4" lang="阿拉伯文">جوهر F تشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo F Iniciar</string>
+<string lang_id="7" lang="土耳其语">MaçaF Başlat</string>
+<string lang_id="8" lang="波斯文">روز F استارت</string>
+<string lang_id="9" lang="葡萄牙语">CoreF Come</string>
+<string lang_id="10" lang="越南文">NơtronF KĐ</string>
+</item>
+<item type="0">
+<value>22610001</value>
+<string lang_id="0" lang="中文">中子F进终</string>
+<string lang_id="1" lang="俄文">кон. продв. вперед</string>
+<string lang_id="2" lang="韩文">코어6 전진완료</string>
+<string lang_id="3" lang="英文">CoreF InEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر F نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo F En Fin</string>
+<string lang_id="7" lang="土耳其语">MaçaF Giriş Son</string>
+<string lang_id="8" lang="波斯文">روز F پایان ورود</string>
+<string lang_id="9" lang="葡萄牙语">CoreF EntrarLimite</string>
+<string lang_id="10" lang="越南文">NơtronF vàoxong</string>
+</item>
+<item type="0">
+<value>22610002</value>
+<string lang_id="0" lang="中文">中子F退终</string>
+<string lang_id="1" lang="俄文">отвед. назад</string>
+<string lang_id="2" lang="韩文">코어6 후진완료</string>
+<string lang_id="3" lang="英文">CoreF OutEnd</string>
+<string lang_id="4" lang="阿拉伯文">جوهر F تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo F RetFin</string>
+<string lang_id="7" lang="土耳其语">MaçaF Çıkışı Son</string>
+<string lang_id="8" lang="波斯文">روز F پایان خروج1</string>
+<string lang_id="9" lang="葡萄牙语">CoreF RetiroLimite</string>
+<string lang_id="10" lang="越南文">NơtronF rútxong</string>
+</item>
+<item type="0">
+<value>22610003</value>
+<string lang_id="0" lang="中文">中子F</string>
+<string lang_id="1" lang="俄文">Пуа F </string>
+<string lang_id="2" lang="韩文">코어6</string>
+<string lang_id="3" lang="英文">Core F</string>
+<string lang_id="4" lang="阿拉伯文">جوهر  F</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo F</string>
+<string lang_id="7" lang="土耳其语">Maça F</string>
+<string lang_id="8" lang="波斯文">مغز F</string>
+<string lang_id="9" lang="葡萄牙语">Core F</string>
+<string lang_id="10" lang="越南文">Nơtron F</string>
+</item>
+<item type="0">
+<value>22610004</value>
+<string lang_id="0" lang="中文">绞牙F电眼</string>
+<string lang_id="1" lang="俄文">Винт F наст</string>
+<string lang_id="2" lang="韩文">스크류 F 매직아이</string>
+<string lang_id="3" lang="英文">ScrewF Eye</string>
+<string lang_id="4" lang="阿拉伯文">الأسنانF العين الكهربائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desenroscar F Sensor</string>
+<string lang_id="7" lang="土耳其语">VidaF Sensörü</string>
+<string lang_id="8" lang="波斯文">Fپیچ سنسور</string>
+<string lang_id="9" lang="葡萄牙语">MdScwFChk</string>
+<string lang_id="10" lang="越南文">Ren F Bộ cảm ứng </string>
+</item>
+<item type="0">
+<value>22610005</value>
+<string lang_id="0" lang="中文">中子F进终2</string>
+<string lang_id="1" lang="俄文">перем. вп 2</string>
+<string lang_id="2" lang="韩文">코아6 전진 완료2</string>
+<string lang_id="3" lang="英文">CoreF InEnd2</string>
+<string lang_id="4" lang="阿拉伯文">جوهر F النهاية الأمامية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Noyo F En Fin2</string>
+<string lang_id="7" lang="土耳其语">MaçaF Giriş Son2</string>
+<string lang_id="8" lang="波斯文">روز F پایان ورود 2</string>
+<string lang_id="9" lang="葡萄牙语">CoreF EntrarLimite2</string>
+<string lang_id="10" lang="越南文">NơtronF vàoxong 2</string>
+</item>
+<item type="0">
+<value>22610006</value>
+<string lang_id="0" lang="中文">中子F泄压</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">CoreF Relief Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>24110000</value>
+<string lang_id="0" lang="中文">调模进终</string>
+<string lang_id="1" lang="俄文">КоррВпрдКонец</string>
+<string lang_id="2" lang="韩文">형체조정 전진완료</string>
+<string lang_id="3" lang="英文">Adj AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية تعديل القالب الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste AvanFin</string>
+<string lang_id="7" lang="土耳其语">Ayar İleri Son</string>
+<string lang_id="8" lang="波斯文">پایان تنظیم</string>
+<string lang_id="9" lang="葡萄牙语">Ajuste EntrarLimite</string>
+<string lang_id="10" lang="越南文">Chỉnh k.vào xong</string>
+</item>
+<item type="0">
+<value>24110001</value>
+<string lang_id="0" lang="中文">调模退终</string>
+<string lang_id="1" lang="俄文">КоррНазКонец</string>
+<string lang_id="2" lang="韩文">형체조정 후진완료</string>
+<string lang_id="3" lang="英文">Adj RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية تعديل القالب الي الوراء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste RetFin</string>
+<string lang_id="7" lang="土耳其语">Ayar Çekil Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت تنظیم</string>
+<string lang_id="9" lang="葡萄牙语">Ajuste RetiroLimite</string>
+<string lang_id="10" lang="越南文">Chỉnh k.thoát xong</string>
+</item>
+<item type="0">
+<value>24110002</value>
+<string lang_id="0" lang="中文">调模电眼</string>
+<string lang_id="1" lang="俄文">КоррДатчика</string>
+<string lang_id="2" lang="韩文">형체RPM</string>
+<string lang_id="3" lang="英文">Adj Sensor</string>
+<string lang_id="4" lang="阿拉伯文">العين الكهربائية لتعديل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Sensor</string>
+<string lang_id="7" lang="土耳其语">Ayar Kalıp Duyacı</string>
+<string lang_id="8" lang="波斯文">چشم الکترونیکی  تنظیم</string>
+<string lang_id="9" lang="葡萄牙语">AdjMdChk</string>
+<string lang_id="10" lang="越南文">BCB diều chỉnh k.</string>
+</item>
+<item type="0">
+<value>24110003</value>
+<string lang_id="0" lang="中文">调模锁定</string>
+<string lang_id="1" lang="俄文">КоррЗапирФормы</string>
+<string lang_id="2" lang="韩文">형체조정 잠금</string>
+<string lang_id="3" lang="英文">Adj Lock</string>
+<string lang_id="4" lang="阿拉伯文">قفل لتعديل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Fijar</string>
+<string lang_id="7" lang="土耳其语">Ayar Kilitli</string>
+<string lang_id="8" lang="波斯文">قفل تنظیم</string>
+<string lang_id="9" lang="葡萄牙语">AdjLocked</string>
+<string lang_id="10" lang="越南文">Điều chỉnh k.chốt</string>
+</item>
+<item type="0">
+<value>25110000</value>
+<string lang_id="0" lang="中文">系统蓄压检知</string>
+<string lang_id="1" lang="俄文">Аккум.сист.</string>
+<string lang_id="2" lang="韩文">어큐뮬레이 체크</string>
+<string lang_id="3" lang="英文">Sys Accum Chk</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن تراكم النظام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sis Acum Chequeo</string>
+<string lang_id="7" lang="土耳其语">Sis Akümü Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی آکومولاتور سیستم</string>
+<string lang_id="9" lang="葡萄牙语">SysAcumuladorSensor</string>
+<string lang_id="10" lang="越南文">Kiểm tra Tích AS HT</string>
+</item>
+<item type="0">
+<value>25110001</value>
+<string lang_id="0" lang="中文">浮动缸检知</string>
+<string lang_id="1" lang="俄文">Всплыв.цилиндр</string>
+<string lang_id="2" lang="韩文">부동실린더 체크</string>
+<string lang_id="3" lang="英文">FloatCylinder Chk</string>
+<string lang_id="4" lang="阿拉伯文">التحقق من اسطوانة العائمة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">FlotantCilind Chequeo</string>
+<string lang_id="7" lang="土耳其语">Yüzer Silindir Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سیلندر شناور</string>
+<string lang_id="9" lang="葡萄牙语">Cilindro flutuante</string>
+<string lang_id="10" lang="越南文">Kiểm tra Xi lanh nổi</string>
+</item>
+<item type="0">
+<value>26110000</value>
+<string lang_id="0" lang="中文">挡板进终</string>
+<string lang_id="1" lang="俄文">ВыключитьВпередКонец</string>
+<string lang_id="2" lang="韩文">셧오프 전진 종료</string>
+<string lang_id="3" lang="英文">BaffleAdv End</string>
+<string lang_id="4" lang="阿拉伯文">نهاية الرفرف الأمامي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Baffle Avan Fin</string>
+<string lang_id="7" lang="土耳其语">Bölme İlerl Son</string>
+<string lang_id="8" lang="波斯文">پایان پیشرفت سپر</string>
+<string lang_id="9" lang="葡萄牙语">CorteFwdFim</string>
+<string lang_id="10" lang="越南文">Tấm ngăn vào xong</string>
+</item>
+<item type="0">
+<value>26110001</value>
+<string lang_id="0" lang="中文">挡板退终</string>
+<string lang_id="1" lang="俄文">ВыключитьНазадКонец</string>
+<string lang_id="2" lang="韩文">냉각수 OUT 종료</string>
+<string lang_id="3" lang="英文">BaffleRet End</string>
+<string lang_id="4" lang="阿拉伯文">نهاية الرفرف الخلفي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Baffle Ret Fin</string>
+<string lang_id="7" lang="土耳其语">Bölme Çekl Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت سپر</string>
+<string lang_id="9" lang="葡萄牙语">CorteBwdFim</string>
+<string lang_id="10" lang="越南文">Tấm ngăn rút xong</string>
+</item>
+<item type="0">
+<value>27110000</value>
+<string lang_id="0" lang="中文">滑模进终</string>
+<string lang_id="1" lang="俄文">вперед</string>
+<string lang_id="2" lang="韩文">마지막으로 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية انزلاق القالب  الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider AvanFin</string>
+<string lang_id="7" lang="土耳其语">Slayt İleri Son</string>
+<string lang_id="8" lang="波斯文">پایان پیشرفت قالب لغزنده</string>
+<string lang_id="9" lang="葡萄牙语">DeslizaEntrar Fim</string>
+<string lang_id="10" lang="越南文">Trượt k.vào xong</string>
+</item>
+<item type="0">
+<value>27110001</value>
+<string lang_id="0" lang="中文">滑模退终</string>
+<string lang_id="1" lang="俄文">ния назад</string>
+<string lang_id="2" lang="韩文">끝을 다시 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية انزلاق القالب  الي الوراء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider RetFin</string>
+<string lang_id="7" lang="土耳其语">Slayt Çeki Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت قالب لغزنده</string>
+<string lang_id="9" lang="葡萄牙语">DeslizaRetiro Fim</string>
+<string lang_id="10" lang="越南文">Trượt k.rút xong</string>
+</item>
+<item type="0">
+<value>27110002</value>
+<string lang_id="0" lang="中文">滑模进慢速</string>
+<string lang_id="1" lang="俄文">вперед</string>
+<string lang_id="2" lang="韩文">느린로 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide AdvSlow</string>
+<string lang_id="4" lang="阿拉伯文">بطيء انزلاق القالب  الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider AvanLent</string>
+<string lang_id="7" lang="土耳其语">Slayt İleri Yavaş</string>
+<string lang_id="8" lang="波斯文">پیشرفت کند قالب لغزنده</string>
+<string lang_id="9" lang="葡萄牙语">DeslizaEntrar Lento</string>
+<string lang_id="10" lang="越南文">Trượt k.vào TĐ chậm</string>
+</item>
+<item type="0">
+<value>27110003</value>
+<string lang_id="0" lang="中文">滑模退慢速</string>
+<string lang_id="1" lang="俄文">назад</string>
+<string lang_id="2" lang="韩文">느린 트래픽은 다시 왼쪽으로 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide RetSlow</string>
+<string lang_id="4" lang="阿拉伯文">بطيء انزلاق القالب  الي الوراء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider RetLent</string>
+<string lang_id="7" lang="土耳其语">Slayt Çeki Yavaş</string>
+<string lang_id="8" lang="波斯文">برگشت کند قالب لغزنده</string>
+<string lang_id="9" lang="葡萄牙语">DeslizaRetiro Lento</string>
+<string lang_id="10" lang="越南文">Trượt k.rút chậm</string>
+</item>
+<item type="0">
+<value>27110004</value>
+<string lang_id="0" lang="中文">滑模备用</string>
+<string lang_id="1" lang="俄文">вращ.</string>
+<string lang_id="2" lang="韩文">회전백업</string>
+<string lang_id="3" lang="英文">Slide Res</string>
+<string lang_id="4" lang="阿拉伯文">احتياطي التشحيم </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider Res</string>
+<string lang_id="7" lang="土耳其语">Slayt Rezerv</string>
+<string lang_id="8" lang="波斯文">رزرو قالب لغزنده</string>
+<string lang_id="9" lang="葡萄牙语">DeslizaPoupar</string>
+<string lang_id="10" lang="越南文">Trượt k.DP</string>
+</item>
+<item type="0">
+<value>27210000</value>
+<string lang_id="0" lang="中文">滑模2进终</string>
+<string lang_id="1" lang="俄文">скольж. 2</string>
+<string lang_id="2" lang="韩文">마지막 두에 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide2 AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">انزلاق 2 نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider2 AvanFin</string>
+<string lang_id="7" lang="土耳其语">Slayt 2 İleri Son</string>
+<string lang_id="8" lang="波斯文">قالب لغزنده2 پایان پیشرفت</string>
+<string lang_id="9" lang="葡萄牙语">Desliza2Entrar Fim</string>
+<string lang_id="10" lang="越南文">Trượt k.2 vào xong</string>
+</item>
+<item type="0">
+<value>27210001</value>
+<string lang_id="0" lang="中文">滑模2退终</string>
+<string lang_id="1" lang="俄文">Кон. обрат3</string>
+<string lang_id="2" lang="韩文">마지막이 다시 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide2 RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">انزلاق 2 تراجع النهائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider2 RetFin</string>
+<string lang_id="7" lang="土耳其语">Slayt 2 Çeki Son</string>
+<string lang_id="8" lang="波斯文">قالب لغزنده2 پایان برگشت</string>
+<string lang_id="9" lang="葡萄牙语">Desliza2Retiro Fim</string>
+<string lang_id="10" lang="越南文">Trượt k.2 thoát xong</string>
+</item>
+<item type="0">
+<value>27210002</value>
+<string lang_id="0" lang="中文">滑模2进慢速</string>
+<string lang_id="1" lang="俄文">Медл. вх2</string>
+<string lang_id="2" lang="韩文">느린 2로 슬라이딩</string>
+<string lang_id="3" lang="英文">Slide2 AdvSlow</string>
+<string lang_id="4" lang="阿拉伯文">بطيء انزلاق القالب 2 الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider2 AvanLent</string>
+<string lang_id="7" lang="土耳其语">Slayt 2 İleri Yavaş</string>
+<string lang_id="8" lang="波斯文">پیشرفت کند قالب لغزنده2</string>
+<string lang_id="9" lang="葡萄牙语">Desliza2Entrar Lento</string>
+<string lang_id="10" lang="越南文">Trượt k.2 vào rút chậm</string>
+</item>
+<item type="0">
+<value>27210003</value>
+<string lang_id="0" lang="中文">滑模2退慢速</string>
+<string lang_id="1" lang="俄文">Медл. обрат2</string>
+<string lang_id="2" lang="韩文">다시 슬라이딩 느린 2</string>
+<string lang_id="3" lang="英文">Slide2 RetSlow</string>
+<string lang_id="4" lang="阿拉伯文">انزلاق 2 تبطئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider2 RetLent</string>
+<string lang_id="7" lang="土耳其语">Slayt 2 Çeki Yavaş</string>
+<string lang_id="8" lang="波斯文">قالب لغزنده برگشت کند 2</string>
+<string lang_id="9" lang="葡萄牙语">Desliza2Retiro Lento</string>
+<string lang_id="10" lang="越南文">Trượt k.2 thoát tốc độ chậm</string>
+</item>
+<item type="0">
+<value>27210004</value>
+<string lang_id="0" lang="中文">滑模2备用</string>
+<string lang_id="1" lang="俄文">вращ. 2</string>
+<string lang_id="2" lang="韩文">회전 백업2</string>
+<string lang_id="3" lang="英文">Slide2 Res</string>
+<string lang_id="4" lang="阿拉伯文">انزلاق 2 احتياطي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Slider2 Res</string>
+<string lang_id="7" lang="土耳其语">Slayt 2 Rezerv</string>
+<string lang_id="8" lang="波斯文">قالب لغزنده2 رزرو</string>
+<string lang_id="9" lang="葡萄牙语">Desliza2Poupar</string>
+<string lang_id="10" lang="越南文">Trượt k.2 dự phòng</string>
+</item>
+<item type="0">
+<value>28110000</value>
+<string lang_id="0" lang="中文">定位进终</string>
+<string lang_id="1" lang="俄文">СоплоВпередДатчик</string>
+<string lang_id="2" lang="韩文">노즐전진센서</string>
+<string lang_id="3" lang="英文">Locate AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية تغذية المواقع</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local Avan Fin</string>
+<string lang_id="7" lang="土耳其语">Bulun İleri Son</string>
+<string lang_id="8" lang="波斯文">موقعیت یابی پایان پیشرفت</string>
+<string lang_id="9" lang="葡萄牙语">BicoFwdSensor</string>
+<string lang_id="10" lang="越南文">Định vị vào xong</string>
+</item>
+<item type="0">
+<value>28110001</value>
+<string lang_id="0" lang="中文">定位退终</string>
+<string lang_id="1" lang="俄文">СоплоНазадДатчик</string>
+<string lang_id="2" lang="韩文">노즐후진센서</string>
+<string lang_id="3" lang="英文">Locate RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية خلفية الموقع</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local RetFin</string>
+<string lang_id="7" lang="土耳其语">Bulun Geri Son</string>
+<string lang_id="8" lang="波斯文">پایان برگشت موقعیت یابی</string>
+<string lang_id="9" lang="葡萄牙语">BicoBwdSensor</string>
+<string lang_id="10" lang="越南文">Định vị rút xong</string>
+</item>
+<item type="0">
+<value>28110002</value>
+<string lang_id="0" lang="中文">定位备用</string>
+<string lang_id="1" lang="俄文">локатора</string>
+<string lang_id="2" lang="韩文">로케이터 백업</string>
+<string lang_id="3" lang="英文">Locate Res</string>
+<string lang_id="4" lang="阿拉伯文">المواقع البديل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local Res</string>
+<string lang_id="7" lang="土耳其语">Bulun Çeki Son Rez</string>
+<string lang_id="8" lang="波斯文">رزور موقعیت یابی</string>
+<string lang_id="9" lang="葡萄牙语">Locate2 Poupar</string>
+<string lang_id="10" lang="越南文">VT c.định Res</string>
+</item>
+<item type="0">
+<value>28210000</value>
+<string lang_id="0" lang="中文">定位2进终</string>
+<string lang_id="1" lang="俄文">последних</string>
+<string lang_id="2" lang="韩文">노즐전진센서2</string>
+<string lang_id="3" lang="英文">Locate2 AdvEnd</string>
+<string lang_id="4" lang="阿拉伯文">تحديد 2 نهاية الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local2 Avan Fin</string>
+<string lang_id="7" lang="土耳其语">Bulun İleri Son2</string>
+<string lang_id="8" lang="波斯文">موقعیت یابی پایان پیشرفت 2</string>
+<string lang_id="9" lang="葡萄牙语">Bico2FwdSensor</string>
+<string lang_id="10" lang="越南文">Định vị2 vào xong</string>
+</item>
+<item type="0">
+<value>28210001</value>
+<string lang_id="0" lang="中文">定位2退终</string>
+<string lang_id="1" lang="俄文">адним концом 2</string>
+<string lang_id="2" lang="韩文">노즐후진센서2</string>
+<string lang_id="3" lang="英文">Locate2 RetEnd</string>
+<string lang_id="4" lang="阿拉伯文">نهاية تحديد المواقع 2 الي الوراء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local2 RetFin</string>
+<string lang_id="7" lang="土耳其语">Bulun Çeki Son2</string>
+<string lang_id="8" lang="波斯文">پایان برگشت موقعیت یابی 2</string>
+<string lang_id="9" lang="葡萄牙语">Bico2BwdSensor</string>
+<string lang_id="10" lang="越南文">Định vị2 rút xong</string>
+</item>
+<item type="0">
+<value>28210002</value>
+<string lang_id="0" lang="中文">定位2备用</string>
+<string lang_id="1" lang="俄文">запчасти 2</string>
+<string lang_id="2" lang="韩文">위치 예비 2</string>
+<string lang_id="3" lang="英文">Locate2 Res</string>
+<string lang_id="4" lang="阿拉伯文">احتياطي تحديد المواقع 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Local2 Res</string>
+<string lang_id="7" lang="土耳其语">Bulun Çeki Son Rez2</string>
+<string lang_id="8" lang="波斯文">رزرو موقعیت یابی 2</string>
+<string lang_id="9" lang="葡萄牙语">Locate2Poupar</string>
+<string lang_id="10" lang="越南文">Định vị2 Res</string>
+</item>
+<item type="0">
+<value>29110000</value>
+<string lang_id="0" lang="中文">安全门关</string>
+<string lang_id="1" lang="俄文">ЗакрытиеДверцы</string>
+<string lang_id="2" lang="韩文">안전문 닫힘</string>
+<string lang_id="3" lang="英文">SafeDr Cls</string>
+<string lang_id="4" lang="阿拉伯文">يغلق باب الأمن </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Puerta Cerrar</string>
+<string lang_id="7" lang="土耳其语">Güv Kapı Kapalı</string>
+<string lang_id="8" lang="波斯文">درب ایمنی بسته</string>
+<string lang_id="9" lang="葡萄牙语">Segurança Dr.Clse</string>
+<string lang_id="10" lang="越南文">Cửa đóng </string>
+</item>
+<item type="0">
+<value>29110001</value>
+<string lang_id="0" lang="中文">安全门关2</string>
+<string lang_id="1" lang="俄文">ЗакрытиеДверцы2</string>
+<string lang_id="2" lang="韩文">안전문 닫힘#2</string>
+<string lang_id="3" lang="英文">SafeDr Cls 2</string>
+<string lang_id="4" lang="阿拉伯文">يغلق باب الأمن  2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoPuerta Cerrar2</string>
+<string lang_id="7" lang="土耳其语">GüvKapı Kapalı 2</string>
+<string lang_id="8" lang="波斯文">درب ایمنی بسته 2</string>
+<string lang_id="9" lang="葡萄牙语">Segurança Dr.2Clse</string>
+<string lang_id="10" lang="越南文">Cửa đóng 2</string>
+</item>
+<item type="0">
+<value>29110002</value>
+<string lang_id="0" lang="中文">安全门开终</string>
+<string lang_id="1" lang="俄文">БезопасДвереOpn2</string>
+<string lang_id="2" lang="韩文">안전문 열기</string>
+<string lang_id="3" lang="英文">SafeDr OpenEnd</string>
+<string lang_id="4" lang="阿拉伯文">الباب مفتوح الأمن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegPt AbreFin</string>
+<string lang_id="7" lang="土耳其语">GüvKapı Açık Son</string>
+<string lang_id="8" lang="波斯文">درب ایمنی باز</string>
+<string lang_id="9" lang="葡萄牙语">SafeDr.OpenFim</string>
+<string lang_id="10" lang="越南文">Cửa an toàn mở Điểm cuối</string>
+</item>
+<item type="0">
+<value>29110003</value>
+<string lang_id="0" lang="中文">安全门关慢</string>
+<string lang_id="1" lang="俄文">НизкСкорДверцы</string>
+<string lang_id="2" lang="韩文">안전문 저속 닫기</string>
+<string lang_id="3" lang="英文">SafeDr ClsSlow</string>
+<string lang_id="4" lang="阿拉伯文">أغلقت باب الأمن بطيئة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoPuerta CerrarLent</string>
+<string lang_id="7" lang="土耳其语">Güv Kapı Yavaş</string>
+<string lang_id="8" lang="波斯文">بستن کند درب ایمنی</string>
+<string lang_id="9" lang="葡萄牙语">Dr.LentoSnr</string>
+<string lang_id="10" lang="越南文">Cửa đóng chậm</string>
+</item>
+<item type="0">
+<value>29110004</value>
+<string lang_id="0" lang="中文">安全门开慢</string>
+<string lang_id="1" lang="俄文">МедлОткрДверцы</string>
+<string lang_id="2" lang="韩文">안전문 저속 열기</string>
+<string lang_id="3" lang="英文">SafeDr OpenSlow</string>
+<string lang_id="4" lang="阿拉伯文">فتح باب الأمن بطيئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoPuerta AbrirLent</string>
+<string lang_id="7" lang="土耳其语">Güv Kapı Aç. Yavaş</string>
+<string lang_id="8" lang="波斯文">بازکردن کند درب ایمنی</string>
+<string lang_id="9" lang="葡萄牙语">Dr.AbrirLento</string>
+<string lang_id="10" lang="越南文">Cửa mở chậm</string>
+</item>
+<item type="0">
+<value>29110005</value>
+<string lang_id="0" lang="中文">安全门防碰</string>
+<string lang_id="1" lang="俄文">СинхрЗакрДверцы</string>
+<string lang_id="2" lang="韩文">안전문 확인</string>
+<string lang_id="3" lang="英文">SafeDr TouchChk</string>
+<string lang_id="4" lang="阿拉伯文">تصادم باب الأمن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoPuerta Deteccion</string>
+<string lang_id="7" lang="土耳其语">Güv Kapı testi</string>
+<string lang_id="8" lang="波斯文">همگام سازی تماس درب</string>
+<string lang_id="9" lang="葡萄牙语">Dr.TouchSnr</string>
+<string lang_id="10" lang="越南文">Cửa tránh va</string>
+</item>
+<item type="0">
+<value>29110006</value>
+<string lang_id="0" lang="中文">后安全门关</string>
+<string lang_id="1" lang="俄文">Закр. ЗаднейДвери</string>
+<string lang_id="2" lang="韩文">뒤쪽 안전문 확인</string>
+<string lang_id="3" lang="英文">RearDoor Cls</string>
+<string lang_id="4" lang="阿拉伯文">يغلق باب الأمن الخلفي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Puerta Trasera Cerrar</string>
+<string lang_id="7" lang="土耳其语">Arka Güv Kapı Kapalı</string>
+<string lang_id="8" lang="波斯文">درب ایمنی عقب بسته</string>
+<string lang_id="9" lang="葡萄牙语">RearDr.ChkSw</string>
+<string lang_id="10" lang="越南文">Sau Cửa đóng</string>
+</item>
+<item type="0">
+<value>29110007</value>
+<string lang_id="0" lang="中文">脚踏开关</string>
+<string lang_id="1" lang="俄文">Педал</string>
+<string lang_id="2" lang="韩文">풋스위치</string>
+<string lang_id="3" lang="英文">FootSwitch</string>
+<string lang_id="4" lang="阿拉伯文">مفتاح الدواس</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Pedal</string>
+<string lang_id="7" lang="土耳其语">Ayak Anahtarı</string>
+<string lang_id="8" lang="波斯文">فوت سوئیچ</string>
+<string lang_id="9" lang="葡萄牙语">FootSwitch</string>
+<string lang_id="10" lang="越南文">Công tắc dẫm</string>
+</item>
+<item type="0">
+<value>29110008</value>
+<string lang_id="0" lang="中文">可用脚踏开关</string>
+<string lang_id="1" lang="俄文">НачатьПедальн</string>
+<string lang_id="2" lang="韩文">발판스위치 사용</string>
+<string lang_id="3" lang="英文">EnableFootSwitch</string>
+<string lang_id="4" lang="阿拉伯文">مفتاح الدواس للتطبيق</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Pedal Activo</string>
+<string lang_id="7" lang="土耳其语">Ayak Anahtarını Etkinleştir</string>
+<string lang_id="8" lang="波斯文">فعال سازی فوت سوئیچ</string>
+<string lang_id="9" lang="葡萄牙语">HabilitarFootswitch</string>
+<string lang_id="10" lang="越南文">Có thể sử dụng chân dẫm công tắc</string>
+</item>
+<item type="0">
+<value>29110009</value>
+<string lang_id="0" lang="中文">底板安全</string>
+<string lang_id="1" lang="俄文">НижнПлита</string>
+<string lang_id="2" lang="韩文">풋스위치</string>
+<string lang_id="3" lang="英文">BaseBoard Safe</string>
+<string lang_id="4" lang="阿拉伯文">الطابق السفلي آمن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Seguridad Inferior</string>
+<string lang_id="7" lang="土耳其语">Alt panel emin</string>
+<string lang_id="8" lang="波斯文">امنیت قرنیز</string>
+<string lang_id="9" lang="葡萄牙语">BtmSaftPlt</string>
+<string lang_id="10" lang="越南文">Tấm đáy an toàn</string>
+</item>
+<item type="0">
+<value>2911000a</value>
+<string lang_id="0" lang="中文">安全门备用</string>
+<string lang_id="1" lang="俄文">Обратный</string>
+<string lang_id="2" lang="韩文">안전문 백업</string>
+<string lang_id="3" lang="英文">SafeDr Res</string>
+<string lang_id="4" lang="阿拉伯文">باب الأمن الاحتياطي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoPuerta Res</string>
+<string lang_id="7" lang="土耳其语">GüvKapı Rezerv</string>
+<string lang_id="8" lang="波斯文">رزرو درب ایمنی</string>
+<string lang_id="9" lang="葡萄牙语">SafeDrPoupar</string>
+<string lang_id="10" lang="越南文">Cửa Res</string>
+</item>
+<item type="0">
+<value>2911000b</value>
+<string lang_id="0" lang="中文">安全阀控制开关</string>
+<string lang_id="1" lang="俄文">Контроль</string>
+<string lang_id="2" lang="韩文">안전밸브 사용선택 에러</string>
+<string lang_id="3" lang="英文">SafeVlv Ctrl Switch</string>
+<string lang_id="4" lang="阿拉伯文">مفتاح تحكم صمام الأمان</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegVálv CtrlSwitch</string>
+<string lang_id="7" lang="土耳其语">Emniyet Vana Kontrol</string>
+<string lang_id="8" lang="波斯文">شیر ایمنی کنترل تعویض</string>
+<string lang_id="9" lang="葡萄牙语">SegurançaVálv Ctrl</string>
+<string lang_id="10" lang="越南文">Van an toàn diều khiển Switch </string>
+</item>
+<item type="0">
+<value>2911000c</value>
+<string lang_id="0" lang="中文">安全阀检测</string>
+<string lang_id="1" lang="俄文">Тест пре</string>
+<string lang_id="2" lang="韩文">안전밸브테스트</string>
+<string lang_id="3" lang="英文">SafeVlv Test</string>
+<string lang_id="4" lang="阿拉伯文">كشف الحالات الشاذة صمام الأمان</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegVálv Detect</string>
+<string lang_id="7" lang="土耳其语">Emniyet Vana Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی شیر ایمنی </string>
+<string lang_id="9" lang="葡萄牙语">SafeVálDetectar</string>
+<string lang_id="10" lang="越南文">Van an to.kiểm tra </string>
+</item>
+<item type="0">
+<value>2911000d</value>
+<string lang_id="0" lang="中文">安全阀先导检测</string>
+<string lang_id="1" lang="俄文">Обнаруж. п</string>
+<string lang_id="2" lang="韩文">안전 밸브 파일럿 검출</string>
+<string lang_id="3" lang="英文">SafeVlv Piolt Test</string>
+<string lang_id="4" lang="阿拉伯文">كشف سلامة صمامات الطيار</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegVálv PioltDetect</string>
+<string lang_id="7" lang="土耳其语">Emniyet Piolt Vana Teftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی خلبانی شیر ایمنی</string>
+<string lang_id="9" lang="葡萄牙语">SafeVálPioltDetectar</string>
+<string lang_id="10" lang="越南文">Van an to.dẫn trước kiểm tra </string>
+</item>
+<item type="0">
+<value>2911000e</value>
+<string lang_id="0" lang="中文">门机故障</string>
+<string lang_id="1" lang="俄文">Ошибка</string>
+<string lang_id="2" lang="韩文">문 고장</string>
+<string lang_id="3" lang="英文">SafeDr Error</string>
+<string lang_id="4" lang="阿拉伯文">باب الأمن تحذير</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegPt Alarma</string>
+<string lang_id="7" lang="土耳其语">GüvKapı Hatası</string>
+<string lang_id="8" lang="波斯文">درب ایمنی اشتباه</string>
+<string lang_id="9" lang="葡萄牙语">Falha Máquina Porta</string>
+<string lang_id="10" lang="越南文">Cửa an toàn sai lỗi</string>
+</item>
+<item type="0">
+<value>2911000f</value>
+<string lang_id="0" lang="中文">安全门检知</string>
+<string lang_id="1" lang="俄文">Сейф двери Проверить</string>
+<string lang_id="2" lang="韩文">안전 도어 체크</string>
+<string lang_id="3" lang="英文">SafeDr Check</string>
+<string lang_id="4" lang="阿拉伯文">باب الأمن كشف عن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegPt Detect</string>
+<string lang_id="7" lang="土耳其语">Güvenli Kapı Teftiş</string>
+<string lang_id="8" lang="波斯文">درب ایمنی بازرسی</string>
+<string lang_id="9" lang="葡萄牙语">SafeDrDetectar</string>
+<string lang_id="10" lang="越南文">Cửa an toàn kiểmTra</string>
+</item>
+<item type="0">
+<value>29110010</value>
+<string lang_id="0" lang="中文">后安全门关2</string>
+<string lang_id="1" lang="俄文">Закр. ЗаднейДвери2</string>
+<string lang_id="2" lang="韩文">뒷쪽 안전문 닫기2</string>
+<string lang_id="3" lang="英文">RearDoor Cls 2</string>
+<string lang_id="4" lang="阿拉伯文">يغلق باب الأمن الخلفي 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PuertaTrasera Cerrada</string>
+<string lang_id="7" lang="土耳其语">Atrka Kapı Kapalı 2</string>
+<string lang_id="8" lang="波斯文">درب ایمنی عقب بسته 2</string>
+<string lang_id="9" lang="葡萄牙语">Segurança AtrásDr.Clse 2</string>
+<string lang_id="10" lang="越南文">Sau Cửa đóng 2</string>
+</item>
+<item type="0">
+<value>29110011</value>
+<string lang_id="0" lang="中文">安全杆</string>
+<string lang_id="1" lang="俄文">Пред.шест</string>
+<string lang_id="2" lang="韩文">안전 손잡이</string>
+<string lang_id="3" lang="英文">SafeHandle</string>
+<string lang_id="4" lang="阿拉伯文">شريط السلامة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Banda Seguridad</string>
+<string lang_id="7" lang="土耳其语">Emniyet Kolu</string>
+<string lang_id="8" lang="波斯文">میله ایمنی</string>
+<string lang_id="9" lang="葡萄牙语">Segurança Barra </string>
+<string lang_id="10" lang="越南文">Thanh an toàn</string>
+</item>
+<item type="0">
+<value>29110012</value>
+<string lang_id="0" lang="中文">安全边沿开关</string>
+<string lang_id="1" lang="俄文">Предел безопасности</string>
+<string lang_id="2" lang="韩文">보안 문 가장자리 스위치</string>
+<string lang_id="3" lang="英文">Safe Edge Switch</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Seg Borde Switch</string>
+<string lang_id="7" lang="土耳其语">Emniyet Kenarı Anahtarı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Chave Segurança</string>
+<string lang_id="10" lang="越南文">An toàn Cạnh c.tắc</string>
+</item>
+<item type="0">
+<value>29110013</value>
+<string lang_id="0" lang="中文">安全门急停</string>
+<string lang_id="1" lang="俄文">Зап.дв.Срочно остановки</string>
+<string lang_id="2" lang="韩文">안전문 비상 정지</string>
+<string lang_id="3" lang="英文">SafeDr Emergency</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">SegPt Emergencia</string>
+<string lang_id="7" lang="土耳其语">Güv Kapı AcilDur</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">SafeDoor Emergência</string>
+<string lang_id="10" lang="越南文">Chặn cửa</string>
+</item>
+<item type="0">
+<value>29110014</value>
+<string lang_id="0" lang="中文">安全继电器检知</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Safe Relay Check</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29110015</value>
+<string lang_id="0" lang="中文">安全模块检知</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Safe Module Check</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29110016</value>
+<string lang_id="0" lang="中文">安全踏板</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Safety Pedal</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>2f110000</value>
+<string lang_id="0" lang="中文">加热接触器</string>
+<string lang_id="1" lang="俄文">нагрев.</string>
+<string lang_id="2" lang="韩文">히터 콘텍터 에러</string>
+<string lang_id="3" lang="英文">Heating Contactor</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Contactor Calentamiento</string>
+<string lang_id="7" lang="土耳其语">Isı Kontaktör</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Aquecimento Anormal</string>
+<string lang_id="10" lang="越南文">Bộ tiếp xúc gia nhiệt</string>
+</item>
+<item type="0">
+<value>30110000</value>
+<string lang_id="0" lang="中文">润滑油位检知</string>
+<string lang_id="1" lang="俄文">Уровень Масла</string>
+<string lang_id="2" lang="韩文">윤활유 저하</string>
+<string lang_id="3" lang="英文">Lub LvlCheck</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن مستوى زيت التشحيم</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub Nivel Chk</string>
+<string lang_id="7" lang="土耳其语">YağlayıcıYer.Testi</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن</string>
+<string lang_id="9" lang="葡萄牙语">LubFloatSW</string>
+<string lang_id="10" lang="越南文">Kiểm tra mức dầu b.trơn</string>
+</item>
+<item type="0">
+<value>30110001</value>
+<string lang_id="0" lang="中文">润滑检知</string>
+<string lang_id="1" lang="俄文">ДавлГидрМасла</string>
+<string lang_id="2" lang="韩文">윤활유체크</string>
+<string lang_id="3" lang="英文">Lub Check</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن التشحيم</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub Detect</string>
+<string lang_id="7" lang="土耳其语">Yağlama Testi</string>
+<string lang_id="8" lang="波斯文">بازرسی روغنکاری</string>
+<string lang_id="9" lang="葡萄牙语">LubOilPres</string>
+<string lang_id="10" lang="越南文">Kiểm tra b.trơn</string>
+</item>
+<item type="0">
+<value>30110002</value>
+<string lang_id="0" lang="中文">润滑备用</string>
+<string lang_id="1" lang="俄文">Задний#1 </string>
+<string lang_id="2" lang="韩文">윤활기#1 백업</string>
+<string lang_id="3" lang="英文">Lub Res</string>
+<string lang_id="4" lang="阿拉伯文">احتياطي التشحيم</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub Reserve</string>
+<string lang_id="7" lang="土耳其语">Yağlama Rezerv</string>
+<string lang_id="8" lang="波斯文">رزرو روغنکاری</string>
+<string lang_id="9" lang="葡萄牙语">LubPoupar</string>
+<string lang_id="10" lang="越南文">Bôi trơn Res</string>
+</item>
+<item type="0">
+<value>30210000</value>
+<string lang_id="0" lang="中文">润滑2油位检知</string>
+<string lang_id="1" lang="俄文">Обнаруж 2</string>
+<string lang_id="2" lang="韩文">윤활 오일 레벨 검출기 (2)</string>
+<string lang_id="3" lang="英文">Lub2 LvlCheck</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم2 كشف مستوى الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 2 Nivel Chk</string>
+<string lang_id="7" lang="土耳其语">Yağ2 Yer.Teftiş</string>
+<string lang_id="8" lang="波斯文">روغنکاری2 بازرسی سطح روغن</string>
+<string lang_id="9" lang="葡萄牙语">Lub2FloatSW</string>
+<string lang_id="10" lang="越南文">Bôi trơn2 KT mức dầu</string>
+</item>
+<item type="0">
+<value>30210001</value>
+<string lang_id="0" lang="中文">润滑2检知</string>
+<string lang_id="1" lang="俄文">Смазка 2</string>
+<string lang_id="2" lang="韩文">윤활유체크2</string>
+<string lang_id="3" lang="英文">Lub2 Check</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم2 كشف عن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 2 Detect</string>
+<string lang_id="7" lang="土耳其语">Yağlama2 Teftiş</string>
+<string lang_id="8" lang="波斯文">روغنکاری2 بازرسی</string>
+<string lang_id="9" lang="葡萄牙语">Lub2OilPres</string>
+<string lang_id="10" lang="越南文">Bôi trơn2 KiểmTra</string>
+</item>
+<item type="0">
+<value>30210002</value>
+<string lang_id="0" lang="中文">润滑2备用</string>
+<string lang_id="1" lang="俄文">Задний#2</string>
+<string lang_id="2" lang="韩文">윤활기#2 백업</string>
+<string lang_id="3" lang="英文">Lub2 Res</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم2 احتياطي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 2 Res</string>
+<string lang_id="7" lang="土耳其语">Yağlama2 Rezerv</string>
+<string lang_id="8" lang="波斯文">روغنکاری2 رزرو</string>
+<string lang_id="9" lang="葡萄牙语">Lub2Poupar</string>
+<string lang_id="10" lang="越南文">Bôi trơn2 Dự phòng</string>
+</item>
+<item type="0">
+<value>30310000</value>
+<string lang_id="0" lang="中文">润滑3油位检知</string>
+<string lang_id="1" lang="俄文">Обнаруж3</string>
+<string lang_id="2" lang="韩文">윤활 오일 레벨 검출 세</string>
+<string lang_id="3" lang="英文">Lub3 LvlCheck</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم3 كشف مستوى الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 3 Nivel Chk</string>
+<string lang_id="7" lang="土耳其语">Yağ3 Yer.Teftiş</string>
+<string lang_id="8" lang="波斯文">روغنکاری3 بازرسی سطح روغن</string>
+<string lang_id="9" lang="葡萄牙语">Lub3FloatSW</string>
+<string lang_id="10" lang="越南文">Bôi trơn3 KT mức dầu</string>
+</item>
+<item type="0">
+<value>30310001</value>
+<string lang_id="0" lang="中文">润滑3检知</string>
+<string lang_id="1" lang="俄文">Смазка 3</string>
+<string lang_id="2" lang="韩文">윤활유체크3</string>
+<string lang_id="3" lang="英文">Lub3 Check</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم3 كشف عن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 3 Detect</string>
+<string lang_id="7" lang="土耳其语">Yağlama3 Teftiş</string>
+<string lang_id="8" lang="波斯文">روغنکاری3 بازرسی</string>
+<string lang_id="9" lang="葡萄牙语">Lub3OilPres</string>
+<string lang_id="10" lang="越南文">Bôi trơn3 KiểmTra</string>
+</item>
+<item type="0">
+<value>30310002</value>
+<string lang_id="0" lang="中文">润滑3备用</string>
+<string lang_id="1" lang="俄文">Смазчик#3 Назад</string>
+<string lang_id="2" lang="韩文">윤활기#3 백업</string>
+<string lang_id="3" lang="英文">Lub3 Res</string>
+<string lang_id="4" lang="阿拉伯文">التشحيم3 احتياطي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Lub 3 Res</string>
+<string lang_id="7" lang="土耳其语">Yağlama3 Rezerv</string>
+<string lang_id="8" lang="波斯文">روغنکاری3 رزرو</string>
+<string lang_id="9" lang="葡萄牙语">Lub3Poupar</string>
+<string lang_id="10" lang="越南文">Bôi trơn3 dự phòng</string>
+</item>
+<item type="0">
+<value>31110000</value>
+<string lang_id="0" lang="中文">ROB机械手</string>
+<string lang_id="1" lang="俄文">1ПозГотРобота</string>
+<string lang_id="2" lang="韩文">로보트(Robot)</string>
+<string lang_id="3" lang="英文">ROB Robot</string>
+<string lang_id="4" lang="阿拉伯文"> مناور</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Robot</string>
+<string lang_id="7" lang="土耳其语">Robot</string>
+<string lang_id="8" lang="波斯文">روبات</string>
+<string lang_id="9" lang="葡萄牙语">Robot</string>
+<string lang_id="10" lang="越南文">Tay cơ giới</string>
+</item>
+<item type="0">
+<value>31110001</value>
+<string lang_id="0" lang="中文">ROB空气模致能</string>
+<string lang_id="1" lang="俄文">Пневмосброс1</string>
+<string lang_id="2" lang="韩文">ROB 에어금형 형개 사용</string>
+<string lang_id="3" lang="英文">ROB EnAirMold</string>
+<string lang_id="4" lang="阿拉伯文"> وضع الهواء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Robot Permiso Aire</string>
+<string lang_id="7" lang="土耳其语">Kalıbı Etkinleştir</string>
+<string lang_id="8" lang="波斯文">فعال سازی قالب هوا</string>
+<string lang_id="9" lang="葡萄牙语">MoldeAr</string>
+<string lang_id="10" lang="越南文">M.hình ko.khí t.minh</string>
+</item>
+<item type="0">
+<value>31110002</value>
+<string lang_id="0" lang="中文">ROB空气模致能2</string>
+<string lang_id="1" lang="俄文">Пневмосброс2</string>
+<string lang_id="2" lang="韩文">ROB 에어금형 형개 사용 2</string>
+<string lang_id="3" lang="英文">ROB EnAirMold 2</string>
+<string lang_id="4" lang="阿拉伯文">وضع الهواء 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Robot Permiso Aire2</string>
+<string lang_id="7" lang="土耳其语">Kalıbı Etkinleştir 2</string>
+<string lang_id="8" lang="波斯文">فعال سازی قالب هوا 2</string>
+<string lang_id="9" lang="葡萄牙语">ROB EnAirMold 2</string>
+<string lang_id="10" lang="越南文">M.hình ko.khí t.minh 2</string>
+</item>
+<item type="0">
+<value>31110003</value>
+<string lang_id="0" lang="中文">ROB顶进安全</string>
+<string lang_id="1" lang="俄文">Съем роботом</string>
+<string lang_id="2" lang="韩文">에젝터 전진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB EjtAdv Safe</string>
+<string lang_id="4" lang="阿拉伯文">طرد الي الأمام سلامة </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul AvanSeg</string>
+<string lang_id="7" lang="土耳其语">İtici İleri Güv</string>
+<string lang_id="8" lang="波斯文">پیشرفت EJ امنیت</string>
+<string lang_id="9" lang="葡萄牙语">Ejeção Em Seg</string>
+<string lang_id="10" lang="越南文">Dỡ vào an toàn</string>
+</item>
+<item type="0">
+<value>31110004</value>
+<string lang_id="0" lang="中文">ROB允许关模</string>
+<string lang_id="1" lang="俄文">БезопасЗакрытие</string>
+<string lang_id="2" lang="韩文">형폐 안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow Close</string>
+<string lang_id="4" lang="阿拉伯文">سماح إغلاق قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Perm Cierre</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Kapat</string>
+<string lang_id="8" lang="波斯文">مجاز بستن </string>
+<string lang_id="9" lang="葡萄牙语">Perm Desl</string>
+<string lang_id="10" lang="越南文">C.phép dóng k.</string>
+</item>
+<item type="0">
+<value>31110005</value>
+<string lang_id="0" lang="中文">ROB允许开模</string>
+<string lang_id="1" lang="俄文">БезопасОткрытие</string>
+<string lang_id="2" lang="韩文">형개 안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow Open</string>
+<string lang_id="4" lang="阿拉伯文">سماح فتح قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Perm AbriMd</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Açmak</string>
+<string lang_id="8" lang="波斯文">مجاز بازکردن</string>
+<string lang_id="9" lang="葡萄牙语">Perm Abrir</string>
+<string lang_id="10" lang="越南文">C.phép mở k.</string>
+</item>
+<item type="0">
+<value>31110006</value>
+<string lang_id="0" lang="中文">ROB顶退安全</string>
+<string lang_id="1" lang="俄文">РаботаВЦиклРжме</string>
+<string lang_id="2" lang="韩文">에젝터 후진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB EjtRet Safe</string>
+<string lang_id="4" lang="阿拉伯文">طرد الي الوراء سلامة </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul RetSeg</string>
+<string lang_id="7" lang="土耳其语">İtici Çeki Güv</string>
+<string lang_id="8" lang="波斯文">برگشت EJ امنیت</string>
+<string lang_id="9" lang="葡萄牙语">Ejeção Ret Seg</string>
+<string lang_id="10" lang="越南文">Dỡ rút an toàn</string>
+</item>
+<item type="0">
+<value>31110007</value>
+<string lang_id="0" lang="中文">ROB循环启动</string>
+<string lang_id="1" lang="俄文">РаботаВЦиклРжме</string>
+<string lang_id="2" lang="韩文">싸이클 시작(Robot)</string>
+<string lang_id="3" lang="英文">ROB ReCycleStart</string>
+<string lang_id="4" lang="阿拉伯文">بدء دورة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ciclo Iniciar</string>
+<string lang_id="7" lang="土耳其语">Döngü Basla</string>
+<string lang_id="8" lang="波斯文">استارت بازیافت</string>
+<string lang_id="9" lang="葡萄牙语">Início do ciclo</string>
+<string lang_id="10" lang="越南文">Tuần hoàn khởi động</string>
+</item>
+<item type="0">
+<value>31110008</value>
+<string lang_id="0" lang="中文">ROB模区安全</string>
+<string lang_id="1" lang="俄文">ИздСнято</string>
+<string lang_id="2" lang="韩文">금형 안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB MoldArea Safe</string>
+<string lang_id="4" lang="阿拉伯文"> أمن منطقة القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AreaMolde Seg</string>
+<string lang_id="7" lang="土耳其语">Kalıp Alanı Güvenliği</string>
+<string lang_id="8" lang="波斯文">امنیت منطقه قالب</string>
+<string lang_id="9" lang="葡萄牙语">Segu Área mold</string>
+<string lang_id="10" lang="越南文">Khu khuôn an toàn</string>
+</item>
+<item type="0">
+<value>31110009</value>
+<string lang_id="0" lang="中文">ROB机械手急停</string>
+<string lang_id="1" lang="俄文">ЭкстрОстРобота</string>
+<string lang_id="2" lang="韩文">비상정지(Robot)</string>
+<string lang_id="3" lang="英文">ROB RobotEmgStp</string>
+<string lang_id="4" lang="阿拉伯文"> توقف الروبوت في حالات الطوارئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">RobotEmergPara</string>
+<string lang_id="7" lang="土耳其语">Robot Acil Dur</string>
+<string lang_id="8" lang="波斯文">توقف اضطراری روبات</string>
+<string lang_id="9" lang="葡萄牙语">PararRobot</string>
+<string lang_id="10" lang="越南文">Tay CG dừng k.cấp</string>
+</item>
+<item type="0">
+<value>3111000a</value>
+<string lang_id="0" lang="中文">ROB允许中子进</string>
+<string lang_id="1" lang="俄文">ЗнакВпрдБезоп</string>
+<string lang_id="2" lang="韩文">코어 전진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow CoreIn</string>
+<string lang_id="4" lang="阿拉伯文">سماح جوهر دخول</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PermNoyo En</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Maça Gir</string>
+<string lang_id="8" lang="波斯文">مجاز روز ورود</string>
+<string lang_id="9" lang="葡萄牙语">Permi HasteEm</string>
+<string lang_id="10" lang="越南文">C.phép nơtron vào</string>
+</item>
+<item type="0">
+<value>3111000b</value>
+<string lang_id="0" lang="中文">ROB允许中子退</string>
+<string lang_id="1" lang="俄文">ЗнакНазадБезоп</string>
+<string lang_id="2" lang="韩文">코어 후진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow CoreOut</string>
+<string lang_id="4" lang="阿拉伯文">سماح جوهر  الخلف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PermNoyo Ret</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Maça Çıkışı</string>
+<string lang_id="8" lang="波斯文">مجاز روز خروج</string>
+<string lang_id="9" lang="葡萄牙语">Permi HasteRet</string>
+<string lang_id="10" lang="越南文">C.phép nơtron rút</string>
+</item>
+<item type="0">
+<value>3111000c</value>
+<string lang_id="0" lang="中文">ROB机械手联锁</string>
+<string lang_id="1" lang="俄文">РоботРучное</string>
+<string lang_id="2" lang="韩文">ROB 로보트 인터록</string>
+<string lang_id="3" lang="英文">ROB Interlock</string>
+<string lang_id="4" lang="阿拉伯文"> إنترلوك الروبوت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Enclavamiento</string>
+<string lang_id="7" lang="土耳其语">Interlock</string>
+<string lang_id="8" lang="波斯文">قفل لینک روبات</string>
+<string lang_id="9" lang="葡萄牙语">ROB Manipulador Bloqueio</string>
+<string lang_id="10" lang="越南文">Tay. CG khóa.lđ</string>
+</item>
+<item type="0">
+<value>3111000d</value>
+<string lang_id="0" lang="中文">ROB允许中子2进</string>
+<string lang_id="1" lang="俄文">ЗнакВпрдБезоп2</string>
+<string lang_id="2" lang="韩文">코어2 전진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow Core2In</string>
+<string lang_id="4" lang="阿拉伯文">سماح جوهر 2دخول</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PermNoyo 2En</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Maça2 Gir</string>
+<string lang_id="8" lang="波斯文">مجاز روز 2ورود</string>
+<string lang_id="9" lang="葡萄牙语">Permi Haste2Em</string>
+<string lang_id="10" lang="越南文">C.phép nơtron2 vào</string>
+</item>
+<item type="0">
+<value>3111000e</value>
+<string lang_id="0" lang="中文">ROB允许中子2退</string>
+<string lang_id="1" lang="俄文">ЗнакНазадБезоп2</string>
+<string lang_id="2" lang="韩文">코어2 후진안전(Robot)</string>
+<string lang_id="3" lang="英文">ROB Allow Core2Out</string>
+<string lang_id="4" lang="阿拉伯文">النيوترون 2 المسموح بالعودة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PermNoyo 2Ret</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Maça2Çıkışı</string>
+<string lang_id="8" lang="波斯文">خروج مغز2 مجاز</string>
+<string lang_id="9" lang="葡萄牙语">Permi Haste2Ret</string>
+<string lang_id="10" lang="越南文">nơtron 2 rút cho phép</string>
+</item>
+<item type="0">
+<value>3111000f</value>
+<string lang_id="0" lang="中文">ROB机械手急停2</string>
+<string lang_id="1" lang="俄文">ЭкстрОстРобота2</string>
+<string lang_id="2" lang="韩文">비상정지2(Robot)</string>
+<string lang_id="3" lang="英文">ROB RobotEmgStp 2</string>
+<string lang_id="4" lang="阿拉伯文">توقف الروبوت في حالات الطوارئ 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">RobotEmergPara2</string>
+<string lang_id="7" lang="土耳其语">Robot Acil Dur 2</string>
+<string lang_id="8" lang="波斯文">توقف اضطراری روبات 2</string>
+<string lang_id="9" lang="葡萄牙语">ROB RobotEmgStp 2</string>
+<string lang_id="10" lang="越南文">Tay CG dừng k.cấp 2</string>
+</item>
+<item type="0">
+<value>31110010</value>
+<string lang_id="0" lang="中文">ROB允许完全开模</string>
+<string lang_id="1" lang="俄文">допускать полный Отк.</string>
+<string lang_id="2" lang="韩文">허용 형개(Robot)</string>
+<string lang_id="3" lang="英文">ROB AllowEntrOpen</string>
+<string lang_id="4" lang="阿拉伯文"> سماحفتح قالب أقصى</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Perm AbrirFull</string>
+<string lang_id="7" lang="土耳其语">İzin Vermek Tam Açmak</string>
+<string lang_id="8" lang="波斯文">باز کردن قالب کام مجاز</string>
+<string lang_id="9" lang="葡萄牙语">ROB Perm Abrir Completo</string>
+<string lang_id="10" lang="越南文">C.phép hoàn toàn mở khuôn</string>
+</item>
+<item type="0">
+<value>31110011</value>
+<string lang_id="0" lang="中文">模压警报</string>
+<string lang_id="1" lang="俄文">Форма Давл Тревоги</string>
+<string lang_id="2" lang="韩文">금형 압력 알람</string>
+<string lang_id="3" lang="英文">Mold Prs Alarm</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Alarma Prs Molde</string>
+<string lang_id="7" lang="土耳其语">Kalıp Basınç Alarm</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldPress Alarme</string>
+<string lang_id="10" lang="越南文">Nhóm k.cảnh báo</string>
+</item>
+<item type="0">
+<value>31110012</value>
+<string lang_id="0" lang="中文">模具关模安全</string>
+<string lang_id="1" lang="俄文">Форма Безопас Закрытие</string>
+<string lang_id="2" lang="韩文">금형 형폐 안전</string>
+<string lang_id="3" lang="英文">Mold Close Safe</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cierre de molde seguro</string>
+<string lang_id="7" lang="土耳其语">Kalıp Kapat Güv</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldFecharSafety</string>
+<string lang_id="10" lang="越南文">Nhóm k.Đóng k.an toàn</string>
+</item>
+<item type="0">
+<value>31110013</value>
+<string lang_id="0" lang="中文">模具顶进安全</string>
+<string lang_id="1" lang="俄文">Форма Про.Вытал Безопас</string>
+<string lang_id="2" lang="韩文">금형 에젝터전진 안전</string>
+<string lang_id="3" lang="英文">Mold EjtAdv Safe</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde EjtAdv Safe</string>
+<string lang_id="7" lang="土耳其语">Kalıp İtici İleri Güv</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldEjectEntrarSafety</string>
+<string lang_id="10" lang="越南文">Nhóm k.Đỡ vào An toàn</string>
+</item>
+<item type="0">
+<value>31110014</value>
+<string lang_id="0" lang="中文">模具顶退安全</string>
+<string lang_id="1" lang="俄文">Форма Отв.Вытал Безопас</string>
+<string lang_id="2" lang="韩文">금형 에젝터후진 안전</string>
+<string lang_id="3" lang="英文">Mold EjtRet Safe</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde EjtRet Safe</string>
+<string lang_id="7" lang="土耳其语">Kalıp İtici Çeki Güv</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldEjectRetiroSafety</string>
+<string lang_id="10" lang="越南文">Nhóm k.Đỡ rút An toàn</string>
+</item>
+<item type="0">
+<value>31110015</value>
+<string lang_id="0" lang="中文">模具允许机械手</string>
+<string lang_id="1" lang="俄文">Форма допускать Робот</string>
+<string lang_id="2" lang="韩文">금형 허용 로보트 </string>
+<string lang_id="3" lang="英文">Mold Allow Robot</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Permitir Robot</string>
+<string lang_id="7" lang="土耳其语">Kalıp İzin Vermek Robot</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldPermitir robô</string>
+<string lang_id="10" lang="越南文">Nhóm k.Tay cơ</string>
+</item>
+<item type="0">
+<value>31110016</value>
+<string lang_id="0" lang="中文">模具保护警报</string>
+<string lang_id="1" lang="俄文">Форма плесень Защита Тревоги</string>
+<string lang_id="2" lang="韩文">금형 보호 알람</string>
+<string lang_id="3" lang="英文">Mold Protect Alarm</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">molde Protección Alarm</string>
+<string lang_id="7" lang="土耳其语">Kalıp Koruma Alarm</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">MoldAlertaProteção</string>
+<string lang_id="10" lang="越南文">Nhóm k.Cảnh báo bảo vệ</string>
+</item>
+<item type="0">
+<value>32110000</value>
+<string lang_id="0" lang="中文">检出电眼1</string>
+<string lang_id="1" lang="俄文">Пров Полж Датчика1</string>
+<string lang_id="2" lang="韩文">낙하센서</string>
+<string lang_id="3" lang="英文">Chk ElecEye 1</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن العين الكهربائية 1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verificar Sensor1</string>
+<string lang_id="7" lang="土耳其语">Duyaç Denetimi 1</string>
+<string lang_id="8" lang="波斯文">چشم الکترونیکی بازرسی 1</string>
+<string lang_id="9" lang="葡萄牙语">Teste Sensor1</string>
+<string lang_id="10" lang="越南文">Kiểm BCB 1</string>
+</item>
+<item type="0">
+<value>32110001</value>
+<string lang_id="0" lang="中文">检出电眼2</string>
+<string lang_id="1" lang="俄文">Пров Полж Датчика2</string>
+<string lang_id="2" lang="韩文">낙하센서2</string>
+<string lang_id="3" lang="英文">Chk ElecEye 2</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن العين الكهربائية 2</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verificar Sensor2</string>
+<string lang_id="7" lang="土耳其语">Duyaç Denetimi 2</string>
+<string lang_id="8" lang="波斯文">چشم الکترونیکی بازرسی 2</string>
+<string lang_id="9" lang="葡萄牙语">Teste Sensor2</string>
+<string lang_id="10" lang="越南文">Kiểm BCB 2</string>
+</item>
+<item type="0">
+<value>32110002</value>
+<string lang_id="0" lang="中文">检出电眼3</string>
+<string lang_id="1" lang="俄文">Пров Полж Датчика3</string>
+<string lang_id="2" lang="韩文">낙하센서3</string>
+<string lang_id="3" lang="英文">Chk ElecEye 3</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن العين الكهربائية 3</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verificar Sensor3</string>
+<string lang_id="7" lang="土耳其语">Duyaç Denetimi 3</string>
+<string lang_id="8" lang="波斯文">چشم الکترونیکی بازرسی 3</string>
+<string lang_id="9" lang="葡萄牙语">Teste Sensor3</string>
+<string lang_id="10" lang="越南文">Kiểm BCB 3</string>
+</item>
+<item type="0">
+<value>32110003</value>
+<string lang_id="0" lang="中文">检出电眼4</string>
+<string lang_id="1" lang="俄文">Пров Полж Датчика4</string>
+<string lang_id="2" lang="韩文">낙하센서4</string>
+<string lang_id="3" lang="英文">Chk ElecEye 4</string>
+<string lang_id="4" lang="阿拉伯文">كشف عن العين الكهربائية 4</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Verificar Sensor4</string>
+<string lang_id="7" lang="土耳其语">Duyaç Denetimi 4</string>
+<string lang_id="8" lang="波斯文">چشم الکترونیکی بازرسی 4</string>
+<string lang_id="9" lang="葡萄牙语">Teste Sensor4</string>
+<string lang_id="10" lang="越南文">Kiểm BCB 4</string>
+</item>
+</group>
+</MapDrv>

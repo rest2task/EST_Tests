@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Key_Define" 可见="-1" 标题="0:按键定义|||1:Определение кнопки|||2:버튼 정의|||3:Key Define|||6:Definición de botón|||7:Düğme tanımı|||9:Definição de botão|||10:Định nghĩa nút|||default:Key Define" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="8421504" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<var prop="层显示" orient="in" tag="数据库.EstCODE.TempLevel"/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="显示" act=""/>
+<event name="定时器" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="85" 宽度="570" 高度="440" 文本="0:按键定义|||1:Определение кнопки|||2:버튼 정의|||3:Key Define|||6:Definición de botón|||7:Düğme tanımı|||9:Definição de botão|||10:Định nghĩa nút|||default:AD Meter Adjust" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="45" 顶="145" 宽度="100" 高度="24" 语言表索引="0" 文本="0:备用一|||1:щадить1|||2:예비 1|||3:Spare 1|||4:|||5:|||6:Ahorrar 1|||7:Yedek 1|||8:|||9:Poupar 1|||10:Dự phòng 1|||default:Spare 1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label27" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="115" 宽度="100" 高度="24" 语言表索引="0" 文本="0:按键选择|||1:Выбор ключа|||2:키 선택|||3:Key Sel|||4:|||5:|||6:Selección|||7:Seçimi|||8:|||9:Seleção|||10:Lựa chọn|||default:Key Sel" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="115" 宽度="100" 高度="24" 语言表索引="0" 文本="0:发送键值|||1:ЗаслатьЗначе|||2:송신 값|||3:Send Value|||4:|||5:|||6:Enviar Valor|||7:Etmek Değer|||8:|||9:Enviar Valor|||10:Chuyển Trị số|||default:Send Value" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropexcel" type_id="39">
+<prop 名称="dropexcel1" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="145" 宽度="100" 高度="24" 数据="0:默认;开模;关模;射出;射退;托模退;托模进;加料;清料;中子出;中子入;中子切换;润滑;吹气1-3-5;吹气2-4-6;吹气切换;调模使用;座进;座退;调模退;调模进;马达;电热;自定义|||3:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 1-3-5;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||1:умолчанию;Откртие;Закр.;Впрыск;Cосать назад;ОтведениеСбрасыв.;Продв.впередвытал.;Загруз;Чистка;ЗнакИз;ЗнакВ;Знака Выбор;Смазка;Струя1-3-5;Струя2-4-6;Взрыввыберите;Регулир;Подвод Сопла;Отвод Сопла;MODПос;MoldАго;двигатель;Нагрев;обычай|||2:디폴트 값;형개;형폐;사출;강제후퇴;에젝터 후진;에젝터 전진;계량;퍼지;코어 후진;코어 전진;코어 선택;윤활유;에어1-3-5;에어2-4-6;에어선택;금형조정;노즐 전진;노즐 후진;금형 두께;금형;모터;히터;자기정의|||4:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||5:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||6:Defecto;Abrir;Cierre;Inyección;Succión;Expul Ret;Expul Avan;Carga;Purga;Noyo Ret;Noyo En;Noyo Sel;Engrase;Aire1-3-5;Aire2-4-6;Aire Selec;Ajuste Molde;Boquil Avan;Boquil Ret;Molde Altura;AjusteAvan;Motor;Calent;AutoDefinir|||7:Varsayılanı;Açma;Kapat;Enjekte;Geri Emme;İtici Çekis;İtici İleri;MAL ALM;Temizle;MaçaÇıkışı;Maça In;Maça Seç;Yağlama;Hava1-3-5;Hava2-4-6;Hava Seç;AyarlaKalıp;Grup İleri;Grup Geri;Ayar İleri;Ayar Çekil;MOTOR;ISITICI;SelfDefine|||8:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||9:Padrão;Abrir;Fechar;Injectar;Suck Voltar;Eject Retiro;Eject Entrar;Carregar;Purge;CoreRet;CoreEnt;Core Select;Lubri.;Golpe1-3-5;Golpe2-4-6;Golpe Sel;Mold Adj.;Bico Entrar;Bico Retiro;Mold Thick;Mold Thin;Motor;Heater;Costume|||10:Mặc định;Mở k.;Đóng k.;Bắn ra;Bắn thoát;Đỡ khuôn rút;Đỡ khuôn vào;Trữ liệu;Xả liệu;nơtr.rút;nơtr.vào;Chọn nơtron;Bôi trơn;ThổiKhí1-3-5;ThổiKhí2-4-6;ThổiK.đổi;Diều chỉnh k.sử dụng;Bệ vào;Bệ rút;Độ dày khuôn;Diều chỉnh k.vào;Mô tơ;Nhiệt;Tự đĩnh nghĩa|||default:默认" 字体="宋体" 字号="14" 透明度="255" 背景色="16777215" 文本色="0" 聚焦颜色="65535" 焦点文本色="16777215" 是否变灰="0" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.SPARE1_KEY" 当前值="0" cur_text="默认" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.SPARE1_KEY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit35" 索引="1" 可见="-1" 可用="-1" 左="260" 顶="145" 宽度="100" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="文本" orient="out" tag="d.clamp1.ACTPARA.DAPRES_CLS1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="45" 顶="180" 宽度="100" 高度="24" 语言表索引="0" 文本="0:备用二|||1:щадить2|||2:예비 2|||3:Spare 2|||4:|||5:|||6:Ahorrar 2|||7:Yedek 2|||8:|||9:Poupar 2|||10:Dự phòng 2|||default:Spare 2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropexcel" type_id="39">
+<prop 名称="dropexcel2" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="180" 宽度="100" 高度="24" 数据="0:默认;开模;关模;射出;射退;托模退;托模进;加料;清料;中子出;中子入;中子切换;润滑;吹气1-3-5;吹气2-4-6;吹气切换;调模使用;座进;座退;调模退;调模进;马达;电热;自定义|||3:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 1-3-5;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||1:умолчанию;Откртие;Закр.;Впрыск;Cосать назад;ОтведениеСбрасыв.;Продв.впередвытал.;Загруз;Чистка;ЗнакИз;ЗнакВ;Знака Выбор;Смазка;Струя1-3-5;Струя2-4-6;Взрыввыберите;Регулир;Подвод Сопла;Отвод Сопла;MODПос;MoldАго;двигатель;Нагрев;обычай|||2:디폴트 값;형개;형폐;사출;강제후퇴;에젝터 후진;에젝터 전진;계량;퍼지;코어 후진;코어 전진;코어 선택;윤활유;에어1-3-5;에어2-4-6;에어선택;금형조정;노즐 전진;노즐 후진;금형 두께;금형;모터;히터;자기정의|||4:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||5:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||6:Defecto;Abrir;Cierre;Inyección;Succión;Expul Ret;Expul Avan;Carga;Purga;Noyo Ret;Noyo En;Noyo Sel;Engrase;Aire1-3-5;Aire2-4-6;Aire Selec;Ajuste Molde;Boquil Avan;Boquil Ret;Molde Altura;AjusteAvan;Motor;Calent;AutoDefinir|||7:Varsayılanı;Açma;Kapat;Enjekte;Geri Emme;İtici Çekis;İtici İleri;MAL ALM;Temizle;MaçaÇıkışı;Maça In;Maça Seç;Yağlama;Hava1-3-5;Hava2-4-6;Hava Seç;AyarlaKalıp;Grup İleri;Grup Geri;Ayar İleri;Ayar Çekil;MOTOR;ISITICI;SelfDefine|||8:Default;Open;Close;Inject;SuckBack;Eject Ret;Eject Adv;Charge;AutoPurge;Core Out;Core In;Core Select;Lubricate;AirBlow 2-4-6;AirBlow 2-4-6;Air Select;Mold Adj;Nozzle Adv;Nozzle Ret;Mold Thick;Mold Thin;Motor;Heater;Self-Define|||9:Padrão;Abrir;Fechar;Injectar;Suck Voltar;Eject Retiro;Eject Entrar;Carregar;Purge;CoreRet;CoreEnt;Core Select;Lubri.;Golpe1-3-5;Golpe2-4-6;Golpe Sel;Mold Adj.;Bico Entrar;Bico Retiro;Mold Thick;Mold Thin;Motor;Heater;Costume|||10:Mặc định;Mở k.;Đóng k.;Bắn ra;Bắn thoát;Đỡ khuôn rút;Đỡ khuôn vào;Trữ liệu;Xả liệu;nơtr.rút;nơtr.vào;Chọn nơtron;Bôi trơn;ThổiKhí1-3-5;ThổiKhí2-4-6;ThổiK.đổi;Diều chỉnh k.sử dụng;Bệ vào;Bệ rút;Độ dày khuôn;Diều chỉnh k.vào;Mô tơ;Nhiệt;Tự đĩnh nghĩa|||default:默认" 字体="宋体" 字号="14" 透明度="255" 背景色="16777215" 文本色="0" 聚焦颜色="65535" 焦点文本色="16777215" 是否变灰="0" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.SPARE2_KEY" 当前值="0" cur_text="默认" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.SPARE2_KEY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit36" 索引="2" 可见="-1" 可用="-1" 左="260" 顶="180" 宽度="100" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="文本" orient="out" tag="d.clamp1.ACTPARA.DAPRES_CLS1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelinfo1" 索引="0" 可见="-1" 可用="-1" 左="370" 顶="145" 宽度="210" 高度="24" 语言表索引="0" 文本="0:备用一已做润滑2|||1:Spare1 Use As Lubr2|||2:Spare1 Use As Lubr2|||3:Spare1 Use As Lubr2|||4:Spare1 Use As Lubr2|||5:Spare1 Use As Lubr2|||6:Spare1 Use As Lubr2|||7:Spare1 Use As Lubr2|||8:Spare1 Use As Lubr2|||9:Spare1 Use As Lubr2|||10:Spare1 Use As Lubr2|||default:Spare1 Use As Lubr2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelinfo2" 索引="0" 可见="-1" 可用="-1" 左="370" 顶="180" 宽度="210" 高度="24" 语言表索引="0" 文本="0:备用二已做模温按键|||1:Spare2 Use As MoldTmp|||2:Spare2 Use As MoldTmp|||3:Spare2 Use As MoldTmp|||4:Spare2 Use As MoldTmp|||5:Spare2 Use As MoldTmp|||6:Spare2 Use As MoldTmp|||7:Spare2 Use As MoldTmp|||8:Spare2 Use As MoldTmp|||9:Spare2 Use As MoldTmp|||10:Spare2 Use As MoldTmp|||default:Spare2 Use As MoldTmp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="5" ele_name="dropexcel1"/>
+<horz order="1" ele_index="6" ele_name="edit35"/>
+<horz order="2" ele_index="8" ele_name="dropexcel2"/>
+<horz order="3" ele_index="9" ele_name="edit36"/>
+<vert order="0" ele_index="5" ele_name="dropexcel1"/>
+<vert order="1" ele_index="8" ele_name="dropexcel2"/>
+<vert order="2" ele_index="6" ele_name="edit35"/>
+<vert order="3" ele_index="9" ele_name="edit36"/>
+<tab order="0" ele_index="5" ele_name="dropexcel1"/>
+<tab order="1" ele_index="8" ele_name="dropexcel2"/>
+<tab order="2" ele_index="6" ele_name="edit35"/>
+<tab order="3" ele_index="9" ele_name="edit36"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label26"/>
+<id order="3" ele_index="3" ele_name="label27"/>
+<id order="4" ele_index="4" ele_name="label28"/>
+<id order="5" ele_index="5" ele_name="dropexcel1"/>
+<id order="6" ele_index="6" ele_name="edit35"/>
+<id order="7" ele_index="7" ele_name="label29"/>
+<id order="8" ele_index="8" ele_name="dropexcel2"/>
+<id order="9" ele_index="9" ele_name="edit36"/>
+<id order="10" ele_index="10" ele_name="_input_range_labellabel"/>
+<id order="11" ele_index="11" ele_name="_input_range_label"/>
+<id order="12" ele_index="12" ele_name="labelinfo1"/>
+<id order="13" ele_index="13" ele_name="labelinfo2"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:кнопки|||2:버튼 정의|||3:KEYDEF|||4:KEYDEF|||5:KEYDEF|||6:Definición|||0:按键定义|||7:Düğme|||8:KEYDEF|||9:Definição|||10:Nút|||default:KEYDEF" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnKEYDEFINE.png" 按下图片="btnKEYDEFINEx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

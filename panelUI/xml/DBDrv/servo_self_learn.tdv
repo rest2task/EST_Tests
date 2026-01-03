@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="servo_self_learn">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.svo数据18">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">电机自学习中...</string>
+<string lang_id="1" lang="俄文">Мотор самообучением</string>
+<string lang_id="2" lang="韩文">모터 자기 학습</string>
+<string lang_id="3" lang="英文">Motor Self-learning</string>
+<string lang_id="4" lang="阿拉伯文">محرك في التعلم الذاتي ...</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ser AutoAprendizaje</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme olmak</string>
+<string lang_id="8" lang="波斯文">موتور در خودآموزی</string>
+<string lang_id="9" lang="葡萄牙语">Ser auto-aprendizagem</string>
+<string lang_id="10" lang="越南文">Mô tơ điện đang tự học tập...</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">电机自学习被中断</string>
+<string lang_id="1" lang="俄文">Мотор самообучением Прерванная</string>
+<string lang_id="2" lang="韩文">모터 자기 학습 중단됨</string>
+<string lang_id="3" lang="英文">Motor Self-learning Interrupted</string>
+<string lang_id="4" lang="阿拉伯文">توقف الذاتي التعلم للمحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">El AutoAprendizaje Es Interrumpido</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme kesilir</string>
+<string lang_id="8" lang="波斯文">خودآموزی موتور قطع شد</string>
+<string lang_id="9" lang="葡萄牙语">Auto-aprendizagem é interrompido</string>
+<string lang_id="10" lang="越南文">Mô tơ điện tự học tập bị gián đoạn</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">电机自学习成功</string>
+<string lang_id="1" lang="俄文">Мотор Самообучение успеху</string>
+<string lang_id="2" lang="韩文">모터 자기 학습 성공</string>
+<string lang_id="3" lang="英文">Motor Self-learn Success</string>
+<string lang_id="4" lang="阿拉伯文">نجح التعلم الذاتي للمحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoAprendizaje éxito</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme başarısı</string>
+<string lang_id="8" lang="波斯文">موفقیت خودآموزی موتور</string>
+<string lang_id="9" lang="葡萄牙语">Sucesso de auto-aprendizagem</string>
+<string lang_id="10" lang="越南文">Mô tơ điện tự học tập thành công</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">电机自学习失败</string>
+<string lang_id="1" lang="俄文">Мотор самообучением отказов</string>
+<string lang_id="2" lang="韩文">모터 자기 학습 실패</string>
+<string lang_id="3" lang="英文">Motor Self-learn Failure</string>
+<string lang_id="4" lang="阿拉伯文">فشل التعلم الذاتي للمحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoAprendizaje Fallo</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme başarısız</string>
+<string lang_id="8" lang="波斯文">ناموفقیت خودآموزی موتور</string>
+<string lang_id="9" lang="葡萄牙语">Auto-aprendizagem não</string>
+<string lang_id="10" lang="越南文">Mô tơ điện tự học tập thất bại</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">自学习被紧急停止</string>
+<string lang_id="1" lang="俄文">Самообучение Срочно остановки</string>
+<string lang_id="2" lang="韩文">자기 학습 비상 정지됨</string>
+<string lang_id="3" lang="英文">Self-learn Emergency Stop</string>
+<string lang_id="4" lang="阿拉伯文">التوقف عن التعلم الذاتي في حالات الطوارئ</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Autoaprendizaje Emergencia Parar</string>
+<string lang_id="7" lang="土耳其语">Kendi kendine öğrenme acil durdurma</string>
+<string lang_id="8" lang="波斯文">توقف اضطراری خودآموزی</string>
+<string lang_id="9" lang="葡萄牙语">Parada de emergência de auto-aprendizagem</string>
+<string lang_id="10" lang="越南文">Tự học bị dừng gấp</string>
+</item>
+</group>
+</MapDrv>

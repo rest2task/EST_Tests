@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="servo_state">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<config name="生成头文件" value="0"/>
+<group data_src="数据库.设备参数.svo数据19">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">正常</string>
+<string lang_id="1" lang="俄文">Hормальный</string>
+<string lang_id="2" lang="韩文">정상</string>
+<string lang_id="3" lang="英文">Normal</string>
+<string lang_id="4" lang="阿拉伯文">تقليدي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Normal</string>
+<string lang_id="7" lang="土耳其语">Normal</string>
+<string lang_id="8" lang="波斯文">عادی</string>
+<string lang_id="9" lang="葡萄牙语">Normal</string>
+<string lang_id="10" lang="越南文">Bình.t</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">逆变单元保护</string>
+<string lang_id="1" lang="俄文">КонтравариантнЗащита</string>
+<string lang_id="2" lang="韩文">인버터 유닛보호</string>
+<string lang_id="3" lang="英文">ContraVariant Unit Protect</string>
+<string lang_id="4" lang="阿拉伯文">وحدة حماية العاكس</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Contra Variante Unidad Prot</string>
+<string lang_id="7" lang="土耳其语">ContraVariant Korumak</string>
+<string lang_id="8" lang="波斯文">حفاظت واحد اینورتر</string>
+<string lang_id="9" lang="葡萄牙语">ContraVariant Protect</string>
+<string lang_id="10" lang="越南文">Bảo vệ đơn nguyên chuyển đổi</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">加速电流过载</string>
+<string lang_id="1" lang="俄文">УскорениеТекущПерекры</string>
+<string lang_id="2" lang="韩文">가속전류 과부하</string>
+<string lang_id="3" lang="英文">Accelerate Current Override</string>
+<string lang_id="4" lang="阿拉伯文">تسريع التيار زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Acelerar Corriente Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Hızlandırmak Geçerli Override</string>
+<string lang_id="8" lang="波斯文">تسریع اضافه جریان</string>
+<string lang_id="9" lang="葡萄牙语">Acelerar a Override</string>
+<string lang_id="10" lang="越南文">Dòng điện gia tốc quá tải</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">减速电流过载</string>
+<string lang_id="1" lang="俄文">УменьшТекущПерекры</string>
+<string lang_id="2" lang="韩文">감속전류 과부하</string>
+<string lang_id="3" lang="英文">Reduce Curent Override</string>
+<string lang_id="4" lang="阿拉伯文">تباطؤ التيار زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reduc Corriente Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Azaltmak Geçerli Override</string>
+<string lang_id="8" lang="波斯文">جریان الکتریکی بازدارنده بیش از حد</string>
+<string lang_id="9" lang="葡萄牙语">Reduzir a Override</string>
+<string lang_id="10" lang="越南文">Dòng điện giảm tốc độ quá tải</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">恒速电流过载</string>
+<string lang_id="1" lang="俄文">КонстантаТекущПерекры</string>
+<string lang_id="2" lang="韩文">정전류 과부하</string>
+<string lang_id="3" lang="英文">Constant Current Override</string>
+<string lang_id="4" lang="阿拉伯文">تثبيت التيار زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Const Corriente Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Konstant Geçerli Override</string>
+<string lang_id="8" lang="波斯文">اضافه بار جریان ثابت</string>
+<string lang_id="9" lang="葡萄牙语">Substituir a constante</string>
+<string lang_id="10" lang="越南文">Qúa tải dòng điện không thay đổi tốc độ</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">加速电压过载</string>
+<string lang_id="1" lang="俄文">УскорениеВольтажПерекры</string>
+<string lang_id="2" lang="韩文">가속전압 과부하</string>
+<string lang_id="3" lang="英文">Accelerate Voltage Override</string>
+<string lang_id="4" lang="阿拉伯文">تسريع الجهد زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Acelerar Prs Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Hızlandırmak Voltaj Override</string>
+<string lang_id="8" lang="波斯文">تسریع اضافه ولتاژ</string>
+<string lang_id="9" lang="葡萄牙语">Accelerate Voltage Override</string>
+<string lang_id="10" lang="越南文">Điện áp gia tốc quá tải</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">减速电压过载</string>
+<string lang_id="1" lang="俄文">КонстантаВольтажПерекры</string>
+<string lang_id="2" lang="韩文">감속전압 과부하</string>
+<string lang_id="3" lang="英文">Reduce Voltage Override</string>
+<string lang_id="4" lang="阿拉伯文">تباطؤ الجهد زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Reduc Prs Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Azaltmak Voltaj Override</string>
+<string lang_id="8" lang="波斯文">ولتاژ بازدارنده بیش از حد</string>
+<string lang_id="9" lang="葡萄牙语">Reduzir a tensão Override</string>
+<string lang_id="10" lang="越南文">Điện áp giảm tốc độ quá tải</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">恒速电压过载</string>
+<string lang_id="1" lang="俄文">КонстантаВольтажПерекры</string>
+<string lang_id="2" lang="韩文">정전압 과부하</string>
+<string lang_id="3" lang="英文">Constant Voltage Override</string>
+<string lang_id="4" lang="阿拉伯文">تثبيت الجهد زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Const Prs Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Konstant Voltaj Override</string>
+<string lang_id="8" lang="波斯文">اضافه بار ولتاژ ثابت</string>
+<string lang_id="9" lang="葡萄牙语">Constant Voltage Override</string>
+<string lang_id="10" lang="越南文">Qúa tải điện áp không thay đổi tốc độ</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">控制电源故障</string>
+<string lang_id="1" lang="俄文">КонтрольПорохНеудача</string>
+<string lang_id="2" lang="韩文">전원고장</string>
+<string lang_id="3" lang="英文">Control Powder Failure</string>
+<string lang_id="4" lang="阿拉伯文">خطأت طاقة السيطرة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Control Corte Energia</string>
+<string lang_id="7" lang="土耳其语">Kontrol Toz Kusur</string>
+<string lang_id="8" lang="波斯文">ایراد منبع تغذیه برق کنترل</string>
+<string lang_id="9" lang="葡萄牙语">Controle de Avarias Pó</string>
+<string lang_id="10" lang="越南文">Trục trặc nguồn điện điều khiển</string>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">欠压故障</string>
+<string lang_id="1" lang="俄文">НизкоВольтажНеудача</string>
+<string lang_id="2" lang="韩文">저전압 고장</string>
+<string lang_id="3" lang="英文">Under Voltage Fault</string>
+<string lang_id="4" lang="阿拉伯文">خطأ انخفاض الجهد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Baja Tension</string>
+<string lang_id="7" lang="土耳其语">Alçak Voltaj Kusur</string>
+<string lang_id="8" lang="波斯文">ایراد افت ولتاژ</string>
+<string lang_id="9" lang="葡萄牙语">Low Voltage Failure</string>
+<string lang_id="10" lang="越南文">Trục trặc thiếu áp suất</string>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">驱动器过载</string>
+<string lang_id="1" lang="俄文">Override сервоприводов</string>
+<string lang_id="2" lang="韩文">서보 드라이브 오버라이드</string>
+<string lang_id="3" lang="英文">Servo Drive Override</string>
+<string lang_id="4" lang="阿拉伯文">محرك زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Servo Drive Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Servo Sürücü Geçersiz Kılma</string>
+<string lang_id="8" lang="波斯文">اضافه بار درایو سروو</string>
+<string lang_id="9" lang="葡萄牙语">Servo Unidade Override</string>
+<string lang_id="10" lang="越南文">Driver quá tải</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">电机过载</string>
+<string lang_id="1" lang="俄文">МоторПерекры</string>
+<string lang_id="2" lang="韩文">모터 과부하</string>
+<string lang_id="3" lang="英文">Motor Override</string>
+<string lang_id="4" lang="阿拉伯文">محرك زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Sobrecarga</string>
+<string lang_id="7" lang="土耳其语">Motor Override</string>
+<string lang_id="8" lang="波斯文">اضافه بار موتور</string>
+<string lang_id="9" lang="葡萄牙语">Motor Substituir</string>
+<string lang_id="10" lang="越南文">Mô tơ điện quá tải</string>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">输入侧缺相</string>
+<string lang_id="1" lang="俄文">Потеря фазы на входе</string>
+<string lang_id="2" lang="韩文">입력측 결상</string>
+<string lang_id="3" lang="英文">Phase Loss at Input Side</string>
+<string lang_id="4" lang="阿拉伯文">مرحلة الإدخال</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Pérdida Fase Lado Entrada</string>
+<string lang_id="7" lang="土耳其语">Giriş Side Faz Kaybı</string>
+<string lang_id="8" lang="波斯文">از دست دادن فاز در طرف ورودی</string>
+<string lang_id="9" lang="葡萄牙语">Perda de Fase em Side entrada</string>
+<string lang_id="10" lang="越南文">Phía đầu vào thiếu pha</string>
+</item>
+<item type="0">
+<value>13</value>
+<string lang_id="0" lang="中文">输出侧缺相</string>
+<string lang_id="1" lang="俄文">Потеря фазы на выходе</string>
+<string lang_id="2" lang="韩文">출력측 결상</string>
+<string lang_id="3" lang="英文">Phase Loss at Output Side</string>
+<string lang_id="4" lang="阿拉伯文">مرحلة الإخراج</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Pérdida Fase Lado Salida</string>
+<string lang_id="7" lang="土耳其语">Çıkış Side Faz Kaybı</string>
+<string lang_id="8" lang="波斯文">از دست دادن فاز در طرف خروجی</string>
+<string lang_id="9" lang="葡萄牙语">Perda de Fase no lado de saída</string>
+<string lang_id="10" lang="越南文">Phía đầu ra thiếu pha</string>
+</item>
+<item type="0">
+<value>14</value>
+<string lang_id="0" lang="中文">模块过热</string>
+<string lang_id="1" lang="俄文">Модуль перегрева</string>
+<string lang_id="2" lang="韩文">모듈 과열</string>
+<string lang_id="3" lang="英文">Module Overheat</string>
+<string lang_id="4" lang="阿拉伯文">درجة حرارة الوحدة مرتفعة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Módulo SobreCalentamiento</string>
+<string lang_id="7" lang="土耳其语">Modül aşırı ısınma</string>
+<string lang_id="8" lang="波斯文">ماژول بیش از حد گرم</string>
+<string lang_id="9" lang="葡萄牙语">módulo de superaquecimento</string>
+<string lang_id="10" lang="越南文">Môđun quá nhiệt</string>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">外部设备故障</string>
+<string lang_id="1" lang="俄文">Внешняя неиспр.машины</string>
+<string lang_id="2" lang="韩文">외부 기기 고장</string>
+<string lang_id="3" lang="英文">External Machine Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل المعدات الخارجية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">La Falla Equipo Externo</string>
+<string lang_id="7" lang="土耳其语">Dış Makine Hata</string>
+<string lang_id="8" lang="波斯文">خطای ماشین خارجی</string>
+<string lang_id="9" lang="葡萄牙语">External Fault Máquina</string>
+<string lang_id="10" lang="越南文">Thiết bị bên ngoài trục trặc</string>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">通讯故障</string>
+<string lang_id="1" lang="俄文">Неисправность связи</string>
+<string lang_id="2" lang="韩文">통신 오류</string>
+<string lang_id="3" lang="英文">Communication Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل الاتصالات</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Comunicación Fallo</string>
+<string lang_id="7" lang="土耳其语">Iletişim Arıza</string>
+<string lang_id="8" lang="波斯文">ایراد ارتباطات</string>
+<string lang_id="9" lang="葡萄牙语">Falha de comunicação</string>
+<string lang_id="10" lang="越南文">Trục trặc thông tin</string>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">接触器故障</string>
+<string lang_id="1" lang="俄文">Контактор неисправностей</string>
+<string lang_id="2" lang="韩文">접촉기 오류</string>
+<string lang_id="3" lang="英文">Contactor Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل المقاولين</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Fallo Contactor</string>
+<string lang_id="7" lang="土耳其语">kontaktör Hata</string>
+<string lang_id="8" lang="波斯文">ایراد کنتاکتور</string>
+<string lang_id="9" lang="葡萄牙语">Falha contator</string>
+<string lang_id="10" lang="越南文">Trục trặc bộ tiếp xúc</string>
+</item>
+<item type="0">
+<value>18</value>
+<string lang_id="0" lang="中文">电流检测故障</string>
+<string lang_id="1" lang="俄文">Ошибка тек. теста</string>
+<string lang_id="2" lang="韩文">전류 검출 오류</string>
+<string lang_id="3" lang="英文">Current Detection Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل كشف التيار</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Detección Fallo Corriente</string>
+<string lang_id="7" lang="土耳其语">Güncel Algılama Hata</string>
+<string lang_id="8" lang="波斯文">خطای تست جاری</string>
+<string lang_id="9" lang="葡萄牙语">Detecção de Falhas atual</string>
+<string lang_id="10" lang="越南文">Kiểm tra dòng điện bị trục trặc</string>
+</item>
+<item type="0">
+<value>19</value>
+<string lang_id="0" lang="中文">电机调谐故障</string>
+<string lang_id="1" lang="俄文">Настройка двигателя неиспр.</string>
+<string lang_id="2" lang="韩文">모터 튜닝 오류</string>
+<string lang_id="3" lang="英文">Motor Tuning Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل ضبط المحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Fallo Ajuste</string>
+<string lang_id="7" lang="土耳其语">Motor Ayarı Arıza</string>
+<string lang_id="8" lang="波斯文">ایراد میزان کردن موتور</string>
+<string lang_id="9" lang="葡萄牙语">Motor Sintonia Fault</string>
+<string lang_id="10" lang="越南文">Mô tơ ĐC sóng hài tr.trặc</string>
+</item>
+<item type="0">
+<value>20</value>
+<string lang_id="0" lang="中文">码盘故障</string>
+<string lang_id="1" lang="俄文">Ошибка датчика</string>
+<string lang_id="2" lang="韩文">엔코더 오류</string>
+<string lang_id="3" lang="英文">Encoder Fault</string>
+<string lang_id="4" lang="阿拉伯文">فشل كود القرص</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Fallo Encoder</string>
+<string lang_id="7" lang="土耳其语">Encoder Hata</string>
+<string lang_id="8" lang="波斯文">خطای رمزگذار</string>
+<string lang_id="9" lang="葡萄牙语">Falha encoder</string>
+<string lang_id="10" lang="越南文">Đĩa mã trục trặc</string>
+</item>
+<item type="0">
+<value>21</value>
+<string lang_id="0" lang="中文">数据溢出故障</string>
+<string lang_id="1" lang="俄文">переполнения данных</string>
+<string lang_id="2" lang="韩文">데이터 오버플로 오류</string>
+<string lang_id="3" lang="英文">Data Overflow</string>
+<string lang_id="4" lang="阿拉伯文">فشل تجاوز البيانات</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Desbordamiento De Datos</string>
+<string lang_id="7" lang="土耳其语">Veri Taşma</string>
+<string lang_id="8" lang="波斯文">سرریزی داده</string>
+<string lang_id="9" lang="葡萄牙语">estouro de dados</string>
+<string lang_id="10" lang="越南文">Trục trặc số liệu tràn ra</string>
+</item>
+<item type="0">
+<value>22</value>
+<string lang_id="0" lang="中文">变频器硬件故障</string>
+<string lang_id="1" lang="俄文">ТрансформерНеудача</string>
+<string lang_id="2" lang="韩文">변압기 고장</string>
+<string lang_id="3" lang="英文">Transformer Hardware Failure</string>
+<string lang_id="4" lang="阿拉伯文">خطأ أجهزة العاكس</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Conversor</string>
+<string lang_id="7" lang="土耳其语">Transformer Kusur</string>
+<string lang_id="8" lang="波斯文">ناموفقیت سخت افزار ترانسفورماتور</string>
+<string lang_id="9" lang="葡萄牙语">Falha do transformador</string>
+<string lang_id="10" lang="越南文">Trục trặc phần cứng bộ biến tần</string>
+</item>
+<item type="0">
+<value>23</value>
+<string lang_id="0" lang="中文">对地短路故障</string>
+<string lang_id="1" lang="俄文">Короткого замыкания землю</string>
+<string lang_id="2" lang="韩文">접지 단락</string>
+<string lang_id="3" lang="英文">Short Circuit to Ground</string>
+<string lang_id="4" lang="阿拉伯文">فشل قصر الدائرة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Cortocircuito A Tierra</string>
+<string lang_id="7" lang="土耳其语">Toprak Kısa Devre</string>
+<string lang_id="8" lang="波斯文">مدار کوتاه به زمین</string>
+<string lang_id="9" lang="葡萄牙语">Curto-circuito para terra</string>
+<string lang_id="10" lang="越南文">Trục trặc ngắn mạch đất</string>
+</item>
+<item type="0">
+<value>24</value>
+<string lang_id="0" lang="中文">Err24</string>
+<string lang_id="1" lang="俄文">ошиб24</string>
+<string lang_id="2" lang="韩文">에러24</string>
+<string lang_id="3" lang="英文">Err24</string>
+<string lang_id="4" lang="阿拉伯文">Err24</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err24</string>
+<string lang_id="7" lang="土耳其语">Hata 24</string>
+<string lang_id="8" lang="波斯文">Err24</string>
+<string lang_id="9" lang="葡萄牙语">erro24</string>
+<string lang_id="10" lang="越南文">Err24</string>
+</item>
+<item type="0">
+<value>25</value>
+<string lang_id="0" lang="中文">Err25</string>
+<string lang_id="1" lang="俄文">ошиб25</string>
+<string lang_id="2" lang="韩文">에러25</string>
+<string lang_id="3" lang="英文">Err25</string>
+<string lang_id="4" lang="阿拉伯文">Err25</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err25</string>
+<string lang_id="7" lang="土耳其语">Hata 25</string>
+<string lang_id="8" lang="波斯文">Err25</string>
+<string lang_id="9" lang="葡萄牙语">erro25</string>
+<string lang_id="10" lang="越南文">Err25</string>
+</item>
+<item type="0">
+<value>26</value>
+<string lang_id="0" lang="中文">运行时间到达</string>
+<string lang_id="1" lang="俄文">ЗапускВремяПрибытия</string>
+<string lang_id="2" lang="韩文">런타임 도달</string>
+<string lang_id="3" lang="英文">Run Time Arrive</string>
+<string lang_id="4" lang="阿拉伯文">وصل وقت التشغيل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Llegada Tiem Ejec</string>
+<string lang_id="7" lang="土耳其语">Koşu Zaman Arrive</string>
+<string lang_id="8" lang="波斯文">رسیدن به زمان اجرا</string>
+<string lang_id="9" lang="葡萄牙语">Run Tempo Chegar</string>
+<string lang_id="10" lang="越南文">Đến giờ vận hành</string>
+</item>
+<item type="0">
+<value>27</value>
+<string lang_id="0" lang="中文">Err27</string>
+<string lang_id="1" lang="俄文">ошиб27</string>
+<string lang_id="2" lang="韩文">에러27</string>
+<string lang_id="3" lang="英文">Err27</string>
+<string lang_id="4" lang="阿拉伯文">Err27</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err27</string>
+<string lang_id="7" lang="土耳其语">Hata 27</string>
+<string lang_id="8" lang="波斯文">Err27</string>
+<string lang_id="9" lang="葡萄牙语">erro27</string>
+<string lang_id="10" lang="越南文">Err27</string>
+</item>
+<item type="0">
+<value>28</value>
+<string lang_id="0" lang="中文">Err28</string>
+<string lang_id="1" lang="俄文">ошиб28</string>
+<string lang_id="2" lang="韩文">에러28</string>
+<string lang_id="3" lang="英文">Err28</string>
+<string lang_id="4" lang="阿拉伯文">Err28</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err28</string>
+<string lang_id="7" lang="土耳其语">Hata 28</string>
+<string lang_id="8" lang="波斯文">Err28</string>
+<string lang_id="9" lang="葡萄牙语">erro28</string>
+<string lang_id="10" lang="越南文">Err28</string>
+</item>
+<item type="0">
+<value>29</value>
+<string lang_id="0" lang="中文">Err29</string>
+<string lang_id="1" lang="俄文">ошиб29</string>
+<string lang_id="2" lang="韩文">에러29</string>
+<string lang_id="3" lang="英文">Err29</string>
+<string lang_id="4" lang="阿拉伯文">Err29</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err29</string>
+<string lang_id="7" lang="土耳其语">Hata 29</string>
+<string lang_id="8" lang="波斯文">Err29</string>
+<string lang_id="9" lang="葡萄牙语">erro29</string>
+<string lang_id="10" lang="越南文">Err29</string>
+</item>
+<item type="0">
+<value>30</value>
+<string lang_id="0" lang="中文">Err30</string>
+<string lang_id="1" lang="俄文">ошиб30</string>
+<string lang_id="2" lang="韩文">에러30</string>
+<string lang_id="3" lang="英文">Err30</string>
+<string lang_id="4" lang="阿拉伯文">Err30</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err30</string>
+<string lang_id="7" lang="土耳其语">Hata 30</string>
+<string lang_id="8" lang="波斯文">Err30</string>
+<string lang_id="9" lang="葡萄牙语">erro30</string>
+<string lang_id="10" lang="越南文">Err30</string>
+</item>
+<item type="0">
+<value>31</value>
+<string lang_id="0" lang="中文">软件过流故障</string>
+<string lang_id="1" lang="俄文">ПО ТекущНеудача</string>
+<string lang_id="2" lang="韩文">소프트웨어 전류이상</string>
+<string lang_id="3" lang="英文">Software OverCurrent Fault</string>
+<string lang_id="4" lang="阿拉伯文">خطأ التيار الزائد للبرمجيات</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Soft Por Corriente</string>
+<string lang_id="7" lang="土耳其语">Yazılım Geçerli Kusur</string>
+<string lang_id="8" lang="波斯文">ایراد جریان اضافی برنامه</string>
+<string lang_id="9" lang="葡萄牙语">Falha de software atual</string>
+<string lang_id="10" lang="越南文">Trục trặc quá dòng của phần mềm</string>
+</item>
+<item type="0">
+<value>32</value>
+<string lang_id="0" lang="中文">Err32</string>
+<string lang_id="1" lang="俄文">ошиб32</string>
+<string lang_id="2" lang="韩文">에러32</string>
+<string lang_id="3" lang="英文">Err32</string>
+<string lang_id="4" lang="阿拉伯文">Err32</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err32</string>
+<string lang_id="7" lang="土耳其语">Hata 32</string>
+<string lang_id="8" lang="波斯文">Err32</string>
+<string lang_id="9" lang="葡萄牙语">erro32</string>
+<string lang_id="10" lang="越南文">Err32</string>
+</item>
+<item type="0">
+<value>33</value>
+<string lang_id="0" lang="中文">Err33</string>
+<string lang_id="1" lang="俄文">ошиб33</string>
+<string lang_id="2" lang="韩文">에러33</string>
+<string lang_id="3" lang="英文">Err33</string>
+<string lang_id="4" lang="阿拉伯文">Err33</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err33</string>
+<string lang_id="7" lang="土耳其语">Hata 33</string>
+<string lang_id="8" lang="波斯文">Err33</string>
+<string lang_id="9" lang="葡萄牙语">erro33</string>
+<string lang_id="10" lang="越南文">Err33</string>
+</item>
+<item type="0">
+<value>34</value>
+<string lang_id="0" lang="中文">Err34</string>
+<string lang_id="1" lang="俄文">ошиб34</string>
+<string lang_id="2" lang="韩文">에러34</string>
+<string lang_id="3" lang="英文">Err34</string>
+<string lang_id="4" lang="阿拉伯文">Err34</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err34</string>
+<string lang_id="7" lang="土耳其语">Hata 34</string>
+<string lang_id="8" lang="波斯文">Err34</string>
+<string lang_id="9" lang="葡萄牙语">erro34</string>
+<string lang_id="10" lang="越南文">Err34</string>
+</item>
+<item type="0">
+<value>35</value>
+<string lang_id="0" lang="中文">Err35</string>
+<string lang_id="1" lang="俄文">ошиб35</string>
+<string lang_id="2" lang="韩文">에러35</string>
+<string lang_id="3" lang="英文">Err35</string>
+<string lang_id="4" lang="阿拉伯文">Err35</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err35</string>
+<string lang_id="7" lang="土耳其语">Hata 35</string>
+<string lang_id="8" lang="波斯文">Err35</string>
+<string lang_id="9" lang="葡萄牙语">erro35</string>
+<string lang_id="10" lang="越南文">Err35</string>
+</item>
+<item type="0">
+<value>36</value>
+<string lang_id="0" lang="中文">Err36</string>
+<string lang_id="1" lang="俄文">ошиб36</string>
+<string lang_id="2" lang="韩文">에러36</string>
+<string lang_id="3" lang="英文">Err36</string>
+<string lang_id="4" lang="阿拉伯文">Err36</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err36</string>
+<string lang_id="7" lang="土耳其语">Hata 36</string>
+<string lang_id="8" lang="波斯文">Err36</string>
+<string lang_id="9" lang="葡萄牙语">erro36</string>
+<string lang_id="10" lang="越南文">Err36</string>
+</item>
+<item type="0">
+<value>37</value>
+<string lang_id="0" lang="中文">Err37</string>
+<string lang_id="1" lang="俄文">ошиб37</string>
+<string lang_id="2" lang="韩文">에러37</string>
+<string lang_id="3" lang="英文">Err37</string>
+<string lang_id="4" lang="阿拉伯文">Err37</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err37</string>
+<string lang_id="7" lang="土耳其语">Hata 37</string>
+<string lang_id="8" lang="波斯文">Err37</string>
+<string lang_id="9" lang="葡萄牙语">erro37</string>
+<string lang_id="10" lang="越南文">Err37</string>
+</item>
+<item type="0">
+<value>38</value>
+<string lang_id="0" lang="中文">Err38</string>
+<string lang_id="1" lang="俄文">ошиб38</string>
+<string lang_id="2" lang="韩文">에러38</string>
+<string lang_id="3" lang="英文">Err38</string>
+<string lang_id="4" lang="阿拉伯文">Err38</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err38</string>
+<string lang_id="7" lang="土耳其语">Hata 38</string>
+<string lang_id="8" lang="波斯文">Err38</string>
+<string lang_id="9" lang="葡萄牙语">erro38</string>
+<string lang_id="10" lang="越南文">Err38</string>
+</item>
+<item type="0">
+<value>39</value>
+<string lang_id="0" lang="中文">Err39</string>
+<string lang_id="1" lang="俄文">ошиб39</string>
+<string lang_id="2" lang="韩文">에러39</string>
+<string lang_id="3" lang="英文">Err39</string>
+<string lang_id="4" lang="阿拉伯文">Err39</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err39</string>
+<string lang_id="7" lang="土耳其语">Hata 39</string>
+<string lang_id="8" lang="波斯文">Err39</string>
+<string lang_id="9" lang="葡萄牙语">erro39</string>
+<string lang_id="10" lang="越南文">Err39</string>
+</item>
+<item type="0">
+<value>40</value>
+<string lang_id="0" lang="中文">快速限流超时</string>
+<string lang_id="1" lang="俄文">БыстрПредельВремяДолгий</string>
+<string lang_id="2" lang="韩文">고속 전류 제한 시간 초과</string>
+<string lang_id="3" lang="英文">Fast Limit Timeout</string>
+<string lang_id="4" lang="阿拉伯文">مهلة التيار المعين السريع </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Límite Rápid TiemOut</string>
+<string lang_id="7" lang="土耳其语">Hızlı Sınır Zaman Uzun</string>
+<string lang_id="8" lang="波斯文">انقضای زمان محدودیت سریع</string>
+<string lang_id="9" lang="葡萄牙语">Fast Limite Long Tempo</string>
+<string lang_id="10" lang="越南文">H.chế dòng chảy TĐ nhanh quá giờ</string>
+</item>
+<item type="0">
+<value>41</value>
+<string lang_id="0" lang="中文">切换电机故障</string>
+<string lang_id="1" lang="俄文">ПрутМоторНеудача</string>
+<string lang_id="2" lang="韩文">모터스위치 이상 </string>
+<string lang_id="3" lang="英文">Switch Motor Fault</string>
+<string lang_id="4" lang="阿拉伯文">تحول فشل المحرك</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Interrup Motor</string>
+<string lang_id="7" lang="土耳其语">Düğme Motor Kusur</string>
+<string lang_id="8" lang="波斯文">خطای موتور سوئیچ</string>
+<string lang_id="9" lang="葡萄牙语">Switch falha do motor</string>
+<string lang_id="10" lang="越南文">Chuyển mô-tơ tr.trặc</string>
+</item>
+<item type="0">
+<value>42</value>
+<string lang_id="0" lang="中文">CAN通讯中断故障</string>
+<string lang_id="1" lang="俄文">COM CAN прерывания</string>
+<string lang_id="2" lang="韩文">CAN COM 통신 인터럽트 오류</string>
+<string lang_id="3" lang="英文">CAN Comm Interruption</string>
+<string lang_id="4" lang="阿拉伯文">فشل الاتصالات CAN </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">CAN Comunicación Interrumpir</string>
+<string lang_id="7" lang="土耳其语">COM Kesinti CAN</string>
+<string lang_id="8" lang="波斯文">قطع ارتباط CAN</string>
+<string lang_id="9" lang="葡萄牙语">CAN COM Interrupção</string>
+<string lang_id="10" lang="越南文">Gián đoạn thông tin CAN</string>
+</item>
+<item type="0">
+<value>43</value>
+<string lang_id="0" lang="中文">电机识别编码器故障</string>
+<string lang_id="1" lang="俄文">Ошиб.датчика во наст.двиг.</string>
+<string lang_id="2" lang="韩文">모터튜닝시 엔코더 오류</string>
+<string lang_id="3" lang="英文">Encoder Fault during Motor Tuning</string>
+<string lang_id="4" lang="阿拉伯文">فشل رمز تعريف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor Sintonización Codificador Fallo</string>
+<string lang_id="7" lang="土耳其语">Motor Ayarı sırasında Encoder Hata</string>
+<string lang_id="8" lang="波斯文">خطای رمزگذار در میزان کردن موتور</string>
+<string lang_id="9" lang="葡萄牙语">Falha Encoder durante Motor Sintonia</string>
+<string lang_id="10" lang="越南文">Mô-tơ phân biệt bộ mã hóa trục trặc</string>
+</item>
+<item type="0">
+<value>44</value>
+<string lang_id="0" lang="中文">速度偏差过大故障</string>
+<string lang_id="1" lang="俄文">большой отклонение скорости</string>
+<string lang_id="2" lang="韩文">너무 큰 속도 편차</string>
+<string lang_id="3" lang="英文">Oversize Spd Deviation</string>
+<string lang_id="4" lang="阿拉伯文">فشل انحراف السرعة زائد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Vel Deviation Exceder</string>
+<string lang_id="7" lang="土耳其语">Çok Büyük Hız Sapma</string>
+<string lang_id="8" lang="波斯文">انجراف بیش از حد سرعت </string>
+<string lang_id="9" lang="葡萄牙语">Too Big Fluxo Desvio</string>
+<string lang_id="10" lang="越南文">Chênh lệch tốc độ quá lớn trục trặc</string>
+</item>
+<item type="0">
+<value>45</value>
+<string lang_id="0" lang="中文">电机过热</string>
+<string lang_id="1" lang="俄文">Перегрев двигателя</string>
+<string lang_id="2" lang="韩文">모터 과열</string>
+<string lang_id="3" lang="英文">Motor Overheat</string>
+<string lang_id="4" lang="阿拉伯文">درجة حرارة المحرك مرتفعة جدا</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Motor SobreCalentamiento</string>
+<string lang_id="7" lang="土耳其语">Motor aşırı ısınma</string>
+<string lang_id="8" lang="波斯文">بیش از حد گرم بودن موتور</string>
+<string lang_id="9" lang="葡萄牙语">Motor de superaquecimento</string>
+<string lang_id="10" lang="越南文">Mô tơ điện quá nhiệt </string>
+</item>
+<item type="0">
+<value>46</value>
+<string lang_id="0" lang="中文">传感器故障</string>
+<string lang_id="1" lang="俄文">Отказ датчиков</string>
+<string lang_id="2" lang="韩文">센서고장</string>
+<string lang_id="3" lang="英文">Sensor Failure</string>
+<string lang_id="4" lang="阿拉伯文">العين الكهربائية حدث فشل</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sensor Error</string>
+<string lang_id="7" lang="土耳其语">Duyaç Kusur</string>
+<string lang_id="8" lang="波斯文">سنسور خرابی</string>
+<string lang_id="9" lang="葡萄牙语">Falha no sensor</string>
+<string lang_id="10" lang="越南文">Bộ cảm ứng  Thất bại</string>
+</item>
+<item type="0">
+<value>47</value>
+<string lang_id="0" lang="中文">Err47</string>
+<string lang_id="1" lang="俄文">ошиб47</string>
+<string lang_id="2" lang="韩文">에러47</string>
+<string lang_id="3" lang="英文">Err47</string>
+<string lang_id="4" lang="阿拉伯文">Err47</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err47</string>
+<string lang_id="7" lang="土耳其语">Hata 47</string>
+<string lang_id="8" lang="波斯文">Err47</string>
+<string lang_id="9" lang="葡萄牙语">erro47</string>
+<string lang_id="10" lang="越南文">Err47</string>
+</item>
+<item type="0">
+<value>48</value>
+<string lang_id="0" lang="中文">CAN地址冲突</string>
+<string lang_id="1" lang="俄文">CAN Адрес конфликты</string>
+<string lang_id="2" lang="韩文">CAN주소 충돌</string>
+<string lang_id="3" lang="英文">CAN Address conflicts</string>
+<string lang_id="4" lang="阿拉伯文">صراع العنوان CAN</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Dirección CAN Conflicto</string>
+<string lang_id="7" lang="土耳其语">CAN Adres çatışmalar</string>
+<string lang_id="8" lang="波斯文">تناقص نشانی CAN</string>
+<string lang_id="9" lang="葡萄牙语">PODE resolver o conflito</string>
+<string lang_id="10" lang="越南文">Xung đột địa chỉ CAN</string>
+</item>
+<item type="0">
+<value>49</value>
+<string lang_id="0" lang="中文">旋变PG断线故障</string>
+<string lang_id="1" lang="俄文">Резольвер П. упал вину</string>
+<string lang_id="2" lang="韩文">확인자 PG는 오류를 감소</string>
+<string lang_id="3" lang="英文">Rotate PG Disconnect</string>
+<string lang_id="4" lang="阿拉伯文">خطأ محلل انقطاع PG </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">PG Fallo Resolución Desconexión</string>
+<string lang_id="7" lang="土耳其语">Çözümleyici PG hatası düştü</string>
+<string lang_id="8" lang="波斯文">قطع اتصال PG گردش</string>
+<string lang_id="9" lang="葡萄牙语">Falha de desconexão do Resolver PG</string>
+<string lang_id="10" lang="越南文">Trục trặc dứt dây PG xoắn</string>
+</item>
+<item type="0">
+<value>50</value>
+<string lang_id="0" lang="中文">Err50</string>
+<string lang_id="1" lang="俄文">ошиб50</string>
+<string lang_id="2" lang="韩文">에러50</string>
+<string lang_id="3" lang="英文">Err50</string>
+<string lang_id="4" lang="阿拉伯文">Err50</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err50</string>
+<string lang_id="7" lang="土耳其语">Hata 50</string>
+<string lang_id="8" lang="波斯文">Err50</string>
+<string lang_id="9" lang="葡萄牙语">erro50</string>
+<string lang_id="10" lang="越南文">Err50</string>
+</item>
+<item type="0">
+<value>51</value>
+<string lang_id="0" lang="中文">Err51</string>
+<string lang_id="1" lang="俄文">ошиб51</string>
+<string lang_id="2" lang="韩文">에러51</string>
+<string lang_id="3" lang="英文">Err51</string>
+<string lang_id="4" lang="阿拉伯文">Err51</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err51</string>
+<string lang_id="7" lang="土耳其语">Hata 51</string>
+<string lang_id="8" lang="波斯文">Err51</string>
+<string lang_id="9" lang="葡萄牙语">erro51</string>
+<string lang_id="10" lang="越南文">Err51</string>
+</item>
+<item type="0">
+<value>52</value>
+<string lang_id="0" lang="中文">多泵合流多主故障</string>
+<string lang_id="1" lang="俄文">Мульти-насос провал слияния</string>
+<string lang_id="2" lang="韩文">멀티 펌프 합류 다중 마스터 오류</string>
+<string lang_id="3" lang="英文">Multi-pump confluence failure</string>
+<string lang_id="4" lang="阿拉伯文">فشل متعددة رئيسية متعددة مضخة التقاء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Multi-bomba Confluencia Fracaso</string>
+<string lang_id="7" lang="土耳其语">Çok pompa izdiham hatası</string>
+<string lang_id="8" lang="波斯文">ناموفقیت همریزی چند پمپ</string>
+<string lang_id="9" lang="葡萄牙语">Várias bombas combinadas e várias falhas principais</string>
+<string lang_id="10" lang="越南文">Nhiều máy bơm hợp đòng bị trục trặc</string>
+</item>
+<item type="0">
+<value>53</value>
+<string lang_id="0" lang="中文">Err53</string>
+<string lang_id="1" lang="俄文">ошиб53</string>
+<string lang_id="2" lang="韩文">에러53</string>
+<string lang_id="3" lang="英文">Err53</string>
+<string lang_id="4" lang="阿拉伯文">Err53</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err53</string>
+<string lang_id="7" lang="土耳其语">Hata 53</string>
+<string lang_id="8" lang="波斯文">Err53</string>
+<string lang_id="9" lang="葡萄牙语">erro53</string>
+<string lang_id="10" lang="越南文">Err53</string>
+</item>
+<item type="0">
+<value>54</value>
+<string lang_id="0" lang="中文">Err54</string>
+<string lang_id="1" lang="俄文">ошиб54</string>
+<string lang_id="2" lang="韩文">에러54</string>
+<string lang_id="3" lang="英文">Err54</string>
+<string lang_id="4" lang="阿拉伯文">Err54</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err54</string>
+<string lang_id="7" lang="土耳其语">Hata 54</string>
+<string lang_id="8" lang="波斯文">Err54</string>
+<string lang_id="9" lang="葡萄牙语">erro54</string>
+<string lang_id="10" lang="越南文">Err54</string>
+</item>
+<item type="0">
+<value>55</value>
+<string lang_id="0" lang="中文">Err55</string>
+<string lang_id="1" lang="俄文">ошиб55</string>
+<string lang_id="2" lang="韩文">에러55</string>
+<string lang_id="3" lang="英文">Err55</string>
+<string lang_id="4" lang="阿拉伯文">Err55</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err55</string>
+<string lang_id="7" lang="土耳其语">Hata 55</string>
+<string lang_id="8" lang="波斯文">Err55</string>
+<string lang_id="9" lang="葡萄牙语">erro55</string>
+<string lang_id="10" lang="越南文">Err55</string>
+</item>
+<item type="0">
+<value>56</value>
+<string lang_id="0" lang="中文">Err56</string>
+<string lang_id="1" lang="俄文">ошиб56</string>
+<string lang_id="2" lang="韩文">에러56</string>
+<string lang_id="3" lang="英文">Err56</string>
+<string lang_id="4" lang="阿拉伯文">Err56</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err56</string>
+<string lang_id="7" lang="土耳其语">Hata 56</string>
+<string lang_id="8" lang="波斯文">Err56</string>
+<string lang_id="9" lang="葡萄牙语">erro56</string>
+<string lang_id="10" lang="越南文">Err56</string>
+</item>
+<item type="0">
+<value>57</value>
+<string lang_id="0" lang="中文">Err57</string>
+<string lang_id="1" lang="俄文">ошиб57</string>
+<string lang_id="2" lang="韩文">에러57</string>
+<string lang_id="3" lang="英文">Err57</string>
+<string lang_id="4" lang="阿拉伯文">Err57</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err57</string>
+<string lang_id="7" lang="土耳其语">Hata 57</string>
+<string lang_id="8" lang="波斯文">Err57</string>
+<string lang_id="9" lang="葡萄牙语">erro57</string>
+<string lang_id="10" lang="越南文">Err57</string>
+</item>
+<item type="0">
+<value>58</value>
+<string lang_id="0" lang="中文">参数恢复错误故障</string>
+<string lang_id="1" lang="俄文">Параметр Ошибки отзыва</string>
+<string lang_id="2" lang="韩文">매개 변수 리콜 오류</string>
+<string lang_id="3" lang="英文">Parameter Recall Errors</string>
+<string lang_id="4" lang="阿拉伯文">فشل الخطأ انتعاش المعلمة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Parámetros Recuperación Error</string>
+<string lang_id="7" lang="土耳其语">Parameter Recall Hataları</string>
+<string lang_id="8" lang="波斯文">خطای بازیافت پارامتر</string>
+<string lang_id="9" lang="葡萄牙语">Falha Erro Recuperação Parâmetro</string>
+<string lang_id="10" lang="越南文">Trục trặc bị lỗi khôi phục thông số</string>
+</item>
+<item type="0">
+<value>59</value>
+<string lang_id="0" lang="中文">反电动势调谐故障</string>
+<string lang_id="1" lang="俄文">Тюнинг неисправности счетчика EMF</string>
+<string lang_id="2" lang="韩文">조정 오류 역기전력</string>
+<string lang_id="3" lang="英文">Tuning Fault Counter EMF</string>
+<string lang_id="4" lang="阿拉伯文">ضبط خطأ مكافحة حركي كهربائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Contador Elect Sintonización Fallo</string>
+<string lang_id="7" lang="土耳其语">Tuning fay karşı elektromotor kuvveti</string>
+<string lang_id="8" lang="波斯文">ایراد تنظیم نیروی محرکه خود القایی</string>
+<string lang_id="9" lang="葡萄牙语">Falha Ajuste EMF Traseiro</string>
+<string lang_id="10" lang="越南文">Trục trặc điều chỉnh sóng hài điện ngược</string>
+</item>
+<item type="0">
+<value>60</value>
+<string lang_id="0" lang="中文">Err60</string>
+<string lang_id="1" lang="俄文">ошиб60</string>
+<string lang_id="2" lang="韩文">에러60</string>
+<string lang_id="3" lang="英文">Err60</string>
+<string lang_id="4" lang="阿拉伯文">Err60</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err60</string>
+<string lang_id="7" lang="土耳其语">Hata 60</string>
+<string lang_id="8" lang="波斯文">Err60</string>
+<string lang_id="9" lang="葡萄牙语">erro60</string>
+<string lang_id="10" lang="越南文">Err60</string>
+</item>
+<item type="0">
+<value>61</value>
+<string lang_id="0" lang="中文">制动管长时间制动保护故障</string>
+<string lang_id="1" lang="俄文">Длинные Отказ защиты Тормозная</string>
+<string lang_id="2" lang="韩文">브레이크 파이프 긴 브레이크 오류 방지</string>
+<string lang_id="3" lang="英文">Long Time Brake Protection Failure</string>
+<string lang_id="4" lang="阿拉伯文">الفشل في الفرامل أنابيب الفرامل لفترة طويلة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">FrenoTubo MuchoTiempo Prot Fallo</string>
+<string lang_id="7" lang="土耳其语">Uzun Fren Arıza Koruma</string>
+<string lang_id="8" lang="波斯文">ناموفقیت حفاظت ترمز طولانی</string>
+<string lang_id="9" lang="葡萄牙语">Falha de proteção do freio de longo prazo do tubo de freio</string>
+<string lang_id="10" lang="越南文">BV phanh lâu của ống phanh tr.trặc</string>
+</item>
+<item type="0">
+<value>62</value>
+<string lang_id="0" lang="中文">Err62</string>
+<string lang_id="1" lang="俄文">ошиб62</string>
+<string lang_id="2" lang="韩文">에러62</string>
+<string lang_id="3" lang="英文">Err62</string>
+<string lang_id="4" lang="阿拉伯文">Err62</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err62</string>
+<string lang_id="7" lang="土耳其语">Hata 62</string>
+<string lang_id="8" lang="波斯文">Err62</string>
+<string lang_id="9" lang="葡萄牙语">erro62</string>
+<string lang_id="10" lang="越南文">Err62</string>
+</item>
+<item type="0">
+<value>63</value>
+<string lang_id="0" lang="中文">反转运行时间到达</string>
+<string lang_id="1" lang="俄文">Вращение назад Время прибытия</string>
+<string lang_id="2" lang="韩文">시간의 도착을 실행 반전</string>
+<string lang_id="3" lang="英文">Reverse Running Time Arrival</string>
+<string lang_id="4" lang="阿拉伯文">وقت التشغيل العكسي وصول</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inverso Rot Tiempo Llegada</string>
+<string lang_id="7" lang="土耳其语">Zaman varış çalışan Ters</string>
+<string lang_id="8" lang="波斯文">رسیدن به زمان حرکت معکوس</string>
+<string lang_id="9" lang="葡萄牙语">Tempo Reversão Atingido</string>
+<string lang_id="10" lang="越南文">Đến thời gian vận hành ngược </string>
+</item>
+<item type="0">
+<value>64</value>
+<string lang_id="0" lang="中文">Err64</string>
+<string lang_id="1" lang="俄文">ошиб64</string>
+<string lang_id="2" lang="韩文">에러64</string>
+<string lang_id="3" lang="英文">Err64</string>
+<string lang_id="4" lang="阿拉伯文">Err64</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err64</string>
+<string lang_id="7" lang="土耳其语">Hata 64</string>
+<string lang_id="8" lang="波斯文">Err64</string>
+<string lang_id="9" lang="葡萄牙语">erro64</string>
+<string lang_id="10" lang="越南文">Err64</string>
+</item>
+<item type="0">
+<value>65</value>
+<string lang_id="0" lang="中文">Err65</string>
+<string lang_id="1" lang="俄文">ошиб65</string>
+<string lang_id="2" lang="韩文">에러65</string>
+<string lang_id="3" lang="英文">Err65</string>
+<string lang_id="4" lang="阿拉伯文">Err65</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err65</string>
+<string lang_id="7" lang="土耳其语">Hata 65</string>
+<string lang_id="8" lang="波斯文">Err65</string>
+<string lang_id="9" lang="葡萄牙语">erro65</string>
+<string lang_id="10" lang="越南文">Err65</string>
+</item>
+<item type="0">
+<value>66</value>
+<string lang_id="0" lang="中文">Err66</string>
+<string lang_id="1" lang="俄文">ошиб66</string>
+<string lang_id="2" lang="韩文">에러66</string>
+<string lang_id="3" lang="英文">Err66</string>
+<string lang_id="4" lang="阿拉伯文">Err66</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err66</string>
+<string lang_id="7" lang="土耳其语">Hata 66</string>
+<string lang_id="8" lang="波斯文">Err66</string>
+<string lang_id="9" lang="葡萄牙语">erro66</string>
+<string lang_id="10" lang="越南文">Err66</string>
+</item>
+<item type="0">
+<value>67</value>
+<string lang_id="0" lang="中文">Err67</string>
+<string lang_id="1" lang="俄文">ошиб67</string>
+<string lang_id="2" lang="韩文">에러67</string>
+<string lang_id="3" lang="英文">Err67</string>
+<string lang_id="4" lang="阿拉伯文">Err67</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err67</string>
+<string lang_id="7" lang="土耳其语">Hata 67</string>
+<string lang_id="8" lang="波斯文">Err67</string>
+<string lang_id="9" lang="葡萄牙语">erro67</string>
+<string lang_id="10" lang="越南文">Err67</string>
+</item>
+<item type="0">
+<value>68</value>
+<string lang_id="0" lang="中文">Err68</string>
+<string lang_id="1" lang="俄文">ошиб68</string>
+<string lang_id="2" lang="韩文">에러68</string>
+<string lang_id="3" lang="英文">Err68</string>
+<string lang_id="4" lang="阿拉伯文">Err68</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err68</string>
+<string lang_id="7" lang="土耳其语">Hata 68</string>
+<string lang_id="8" lang="波斯文">Err68</string>
+<string lang_id="9" lang="葡萄牙语">erro68</string>
+<string lang_id="10" lang="越南文">Err68</string>
+</item>
+<item type="0">
+<value>69</value>
+<string lang_id="0" lang="中文">Err69</string>
+<string lang_id="1" lang="俄文">ошиб69</string>
+<string lang_id="2" lang="韩文">에러69</string>
+<string lang_id="3" lang="英文">Err69</string>
+<string lang_id="4" lang="阿拉伯文">Err69</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err69</string>
+<string lang_id="7" lang="土耳其语">Hata 69</string>
+<string lang_id="8" lang="波斯文">Err69</string>
+<string lang_id="9" lang="葡萄牙语">erro69</string>
+<string lang_id="10" lang="越南文">Err69</string>
+</item>
+<item type="0">
+<value>70</value>
+<string lang_id="0" lang="中文">Err70</string>
+<string lang_id="1" lang="俄文">ошиб70</string>
+<string lang_id="2" lang="韩文">에러70</string>
+<string lang_id="3" lang="英文">Err70</string>
+<string lang_id="4" lang="阿拉伯文">Err70</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err70</string>
+<string lang_id="7" lang="土耳其语">Hata 70</string>
+<string lang_id="8" lang="波斯文">Err70</string>
+<string lang_id="9" lang="葡萄牙语">erro70</string>
+<string lang_id="10" lang="越南文">Err70</string>
+</item>
+<item type="0">
+<value>71</value>
+<string lang_id="0" lang="中文">Err71</string>
+<string lang_id="1" lang="俄文">ошиб71</string>
+<string lang_id="2" lang="韩文">에러71</string>
+<string lang_id="3" lang="英文">Err71</string>
+<string lang_id="4" lang="阿拉伯文">Err71</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err71</string>
+<string lang_id="7" lang="土耳其语">Hata 71</string>
+<string lang_id="8" lang="波斯文">Err71</string>
+<string lang_id="9" lang="葡萄牙语">erro71</string>
+<string lang_id="10" lang="越南文">Err71</string>
+</item>
+<item type="0">
+<value>72</value>
+<string lang_id="0" lang="中文">Err72</string>
+<string lang_id="1" lang="俄文">ошиб72</string>
+<string lang_id="2" lang="韩文">에러72</string>
+<string lang_id="3" lang="英文">Err72</string>
+<string lang_id="4" lang="阿拉伯文">Err72</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err72</string>
+<string lang_id="7" lang="土耳其语">Hata 72</string>
+<string lang_id="8" lang="波斯文">Err72</string>
+<string lang_id="9" lang="葡萄牙语">erro72</string>
+<string lang_id="10" lang="越南文">Err72</string>
+</item>
+<item type="0">
+<value>73</value>
+<string lang_id="0" lang="中文">Err73</string>
+<string lang_id="1" lang="俄文">ошиб73</string>
+<string lang_id="2" lang="韩文">에러73</string>
+<string lang_id="3" lang="英文">Err73</string>
+<string lang_id="4" lang="阿拉伯文">Err73</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err73</string>
+<string lang_id="7" lang="土耳其语">Hata 73</string>
+<string lang_id="8" lang="波斯文">Err73</string>
+<string lang_id="9" lang="葡萄牙语">erro73</string>
+<string lang_id="10" lang="越南文">Err73</string>
+</item>
+<item type="0">
+<value>74</value>
+<string lang_id="0" lang="中文">Err74</string>
+<string lang_id="1" lang="俄文">ошиб74</string>
+<string lang_id="2" lang="韩文">에러74</string>
+<string lang_id="3" lang="英文">Err74</string>
+<string lang_id="4" lang="阿拉伯文">Err74</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err74</string>
+<string lang_id="7" lang="土耳其语">Hata 74</string>
+<string lang_id="8" lang="波斯文">Err74</string>
+<string lang_id="9" lang="葡萄牙语">erro74</string>
+<string lang_id="10" lang="越南文">Err74</string>
+</item>
+<item type="0">
+<value>75</value>
+<string lang_id="0" lang="中文">Err75</string>
+<string lang_id="1" lang="俄文">ошиб75</string>
+<string lang_id="2" lang="韩文">에러75</string>
+<string lang_id="3" lang="英文">Err75</string>
+<string lang_id="4" lang="阿拉伯文">Err75</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err75</string>
+<string lang_id="7" lang="土耳其语">Hata 75</string>
+<string lang_id="8" lang="波斯文">Err75</string>
+<string lang_id="9" lang="葡萄牙语">erro75</string>
+<string lang_id="10" lang="越南文">Err75</string>
+</item>
+<item type="0">
+<value>76</value>
+<string lang_id="0" lang="中文">Err76</string>
+<string lang_id="1" lang="俄文">ошиб76</string>
+<string lang_id="2" lang="韩文">에러76</string>
+<string lang_id="3" lang="英文">Err76</string>
+<string lang_id="4" lang="阿拉伯文">Err76</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err76</string>
+<string lang_id="7" lang="土耳其语">Hata 76</string>
+<string lang_id="8" lang="波斯文">Err76</string>
+<string lang_id="9" lang="葡萄牙语">erro76</string>
+<string lang_id="10" lang="越南文">Err76</string>
+</item>
+<item type="0">
+<value>77</value>
+<string lang_id="0" lang="中文">Err77</string>
+<string lang_id="1" lang="俄文">ошиб77</string>
+<string lang_id="2" lang="韩文">에러77</string>
+<string lang_id="3" lang="英文">Err77</string>
+<string lang_id="4" lang="阿拉伯文">Err77</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err77</string>
+<string lang_id="7" lang="土耳其语">Hata 77</string>
+<string lang_id="8" lang="波斯文">Err77</string>
+<string lang_id="9" lang="葡萄牙语">erro77</string>
+<string lang_id="10" lang="越南文">Err77</string>
+</item>
+<item type="0">
+<value>78</value>
+<string lang_id="0" lang="中文">Err78</string>
+<string lang_id="1" lang="俄文">ошиб78</string>
+<string lang_id="2" lang="韩文">에러78</string>
+<string lang_id="3" lang="英文">Err78</string>
+<string lang_id="4" lang="阿拉伯文">Err78</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err78</string>
+<string lang_id="7" lang="土耳其语">Hata 78</string>
+<string lang_id="8" lang="波斯文">Err78</string>
+<string lang_id="9" lang="葡萄牙语">erro78</string>
+<string lang_id="10" lang="越南文">Err78</string>
+</item>
+<item type="0">
+<value>79</value>
+<string lang_id="0" lang="中文">Err79</string>
+<string lang_id="1" lang="俄文">ошиб79</string>
+<string lang_id="2" lang="韩文">에러79</string>
+<string lang_id="3" lang="英文">Err79</string>
+<string lang_id="4" lang="阿拉伯文">Err79</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err79</string>
+<string lang_id="7" lang="土耳其语">Hata 79</string>
+<string lang_id="8" lang="波斯文">Err79</string>
+<string lang_id="9" lang="葡萄牙语">erro79</string>
+<string lang_id="10" lang="越南文">Err79</string>
+</item>
+<item type="0">
+<value>80</value>
+<string lang_id="0" lang="中文">Err80</string>
+<string lang_id="1" lang="俄文">ошиб80</string>
+<string lang_id="2" lang="韩文">에러80</string>
+<string lang_id="3" lang="英文">Err80</string>
+<string lang_id="4" lang="阿拉伯文">Err80</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err80</string>
+<string lang_id="7" lang="土耳其语">Hata 80</string>
+<string lang_id="8" lang="波斯文">Err80</string>
+<string lang_id="9" lang="葡萄牙语">erro80</string>
+<string lang_id="10" lang="越南文">Err80</string>
+</item>
+<item type="0">
+<value>81</value>
+<string lang_id="0" lang="中文">Err81</string>
+<string lang_id="1" lang="俄文">ошиб81</string>
+<string lang_id="2" lang="韩文">에러81</string>
+<string lang_id="3" lang="英文">Err81</string>
+<string lang_id="4" lang="阿拉伯文">Err81</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err81</string>
+<string lang_id="7" lang="土耳其语">Hata 81</string>
+<string lang_id="8" lang="波斯文">Err81</string>
+<string lang_id="9" lang="葡萄牙语">erro81</string>
+<string lang_id="10" lang="越南文">Err81</string>
+</item>
+<item type="0">
+<value>82</value>
+<string lang_id="0" lang="中文">Err82</string>
+<string lang_id="1" lang="俄文">ошиб82</string>
+<string lang_id="2" lang="韩文">에러82</string>
+<string lang_id="3" lang="英文">Err82</string>
+<string lang_id="4" lang="阿拉伯文">Err82</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err82</string>
+<string lang_id="7" lang="土耳其语">Hata 82</string>
+<string lang_id="8" lang="波斯文">Err82</string>
+<string lang_id="9" lang="葡萄牙语">erro82</string>
+<string lang_id="10" lang="越南文">Err82</string>
+</item>
+<item type="0">
+<value>83</value>
+<string lang_id="0" lang="中文">Err83</string>
+<string lang_id="1" lang="俄文">ошиб83</string>
+<string lang_id="2" lang="韩文">에러83</string>
+<string lang_id="3" lang="英文">Err83</string>
+<string lang_id="4" lang="阿拉伯文">Err83</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err83</string>
+<string lang_id="7" lang="土耳其语">Hata 83</string>
+<string lang_id="8" lang="波斯文">Err83</string>
+<string lang_id="9" lang="葡萄牙语">erro83</string>
+<string lang_id="10" lang="越南文">Err83</string>
+</item>
+<item type="0">
+<value>84</value>
+<string lang_id="0" lang="中文">Err84</string>
+<string lang_id="1" lang="俄文">ошиб84</string>
+<string lang_id="2" lang="韩文">에러84</string>
+<string lang_id="3" lang="英文">Err84</string>
+<string lang_id="4" lang="阿拉伯文">Err84</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err84</string>
+<string lang_id="7" lang="土耳其语">Hata 84</string>
+<string lang_id="8" lang="波斯文">Err84</string>
+<string lang_id="9" lang="葡萄牙语">erro84</string>
+<string lang_id="10" lang="越南文">Err84</string>
+</item>
+<item type="0">
+<value>85</value>
+<string lang_id="0" lang="中文">Err85</string>
+<string lang_id="1" lang="俄文">ошиб85</string>
+<string lang_id="2" lang="韩文">에러85</string>
+<string lang_id="3" lang="英文">Err85</string>
+<string lang_id="4" lang="阿拉伯文">Err85</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err85</string>
+<string lang_id="7" lang="土耳其语">Hata 85</string>
+<string lang_id="8" lang="波斯文">Err85</string>
+<string lang_id="9" lang="葡萄牙语">erro85</string>
+<string lang_id="10" lang="越南文">Err85</string>
+</item>
+<item type="0">
+<value>86</value>
+<string lang_id="0" lang="中文">Err86</string>
+<string lang_id="1" lang="俄文">ошиб86</string>
+<string lang_id="2" lang="韩文">에러86</string>
+<string lang_id="3" lang="英文">Err86</string>
+<string lang_id="4" lang="阿拉伯文">Err86</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err86</string>
+<string lang_id="7" lang="土耳其语">Hata 86</string>
+<string lang_id="8" lang="波斯文">Err86</string>
+<string lang_id="9" lang="葡萄牙语">erro86</string>
+<string lang_id="10" lang="越南文">Err86</string>
+</item>
+<item type="0">
+<value>87</value>
+<string lang_id="0" lang="中文">Err87</string>
+<string lang_id="1" lang="俄文">ошиб87</string>
+<string lang_id="2" lang="韩文">에러87</string>
+<string lang_id="3" lang="英文">Err87</string>
+<string lang_id="4" lang="阿拉伯文">Err87</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err87</string>
+<string lang_id="7" lang="土耳其语">Hata 87</string>
+<string lang_id="8" lang="波斯文">Err87</string>
+<string lang_id="9" lang="葡萄牙语">erro87</string>
+<string lang_id="10" lang="越南文">Err87</string>
+</item>
+<item type="0">
+<value>88</value>
+<string lang_id="0" lang="中文">Err88</string>
+<string lang_id="1" lang="俄文">ошиб88</string>
+<string lang_id="2" lang="韩文">에러88</string>
+<string lang_id="3" lang="英文">Err88</string>
+<string lang_id="4" lang="阿拉伯文">Err88</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err88</string>
+<string lang_id="7" lang="土耳其语">Hata 88</string>
+<string lang_id="8" lang="波斯文">Err88</string>
+<string lang_id="9" lang="葡萄牙语">erro88</string>
+<string lang_id="10" lang="越南文">Err88</string>
+</item>
+<item type="0">
+<value>89</value>
+<string lang_id="0" lang="中文">Err89</string>
+<string lang_id="1" lang="俄文">ошиб89</string>
+<string lang_id="2" lang="韩文">에러89</string>
+<string lang_id="3" lang="英文">Err89</string>
+<string lang_id="4" lang="阿拉伯文">Err89</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err89</string>
+<string lang_id="7" lang="土耳其语">Hata 89</string>
+<string lang_id="8" lang="波斯文">Err89</string>
+<string lang_id="9" lang="葡萄牙语">erro89</string>
+<string lang_id="10" lang="越南文">Err89</string>
+</item>
+<item type="0">
+<value>90</value>
+<string lang_id="0" lang="中文">Err90</string>
+<string lang_id="1" lang="俄文">ошиб90</string>
+<string lang_id="2" lang="韩文">에러90</string>
+<string lang_id="3" lang="英文">Err90</string>
+<string lang_id="4" lang="阿拉伯文">Err90</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err90</string>
+<string lang_id="7" lang="土耳其语">Hata 90</string>
+<string lang_id="8" lang="波斯文">Err90</string>
+<string lang_id="9" lang="葡萄牙语">erro90</string>
+<string lang_id="10" lang="越南文">Err90</string>
+</item>
+<item type="0">
+<value>91</value>
+<string lang_id="0" lang="中文">Err91</string>
+<string lang_id="1" lang="俄文">ошиб91</string>
+<string lang_id="2" lang="韩文">에러91</string>
+<string lang_id="3" lang="英文">Err91</string>
+<string lang_id="4" lang="阿拉伯文">Err91</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err91</string>
+<string lang_id="7" lang="土耳其语">Hata 91</string>
+<string lang_id="8" lang="波斯文">Err91</string>
+<string lang_id="9" lang="葡萄牙语">erro91</string>
+<string lang_id="10" lang="越南文">Err91</string>
+</item>
+<item type="0">
+<value>92</value>
+<string lang_id="0" lang="中文">Err92</string>
+<string lang_id="1" lang="俄文">ошиб92</string>
+<string lang_id="2" lang="韩文">에러92</string>
+<string lang_id="3" lang="英文">Err92</string>
+<string lang_id="4" lang="阿拉伯文">Err92</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err92</string>
+<string lang_id="7" lang="土耳其语">Hata 92</string>
+<string lang_id="8" lang="波斯文">Err92</string>
+<string lang_id="9" lang="葡萄牙语">erro92</string>
+<string lang_id="10" lang="越南文">Err92</string>
+</item>
+<item type="0">
+<value>93</value>
+<string lang_id="0" lang="中文">Err93</string>
+<string lang_id="1" lang="俄文">ошиб93</string>
+<string lang_id="2" lang="韩文">에러93</string>
+<string lang_id="3" lang="英文">Err93</string>
+<string lang_id="4" lang="阿拉伯文">Err93</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err93</string>
+<string lang_id="7" lang="土耳其语">Hata 93</string>
+<string lang_id="8" lang="波斯文">Err93</string>
+<string lang_id="9" lang="葡萄牙语">erro93</string>
+<string lang_id="10" lang="越南文">Err93</string>
+</item>
+<item type="0">
+<value>94</value>
+<string lang_id="0" lang="中文">Err94</string>
+<string lang_id="1" lang="俄文">ошиб94</string>
+<string lang_id="2" lang="韩文">에러94</string>
+<string lang_id="3" lang="英文">Err94</string>
+<string lang_id="4" lang="阿拉伯文">Err94</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err94</string>
+<string lang_id="7" lang="土耳其语">Hata 94</string>
+<string lang_id="8" lang="波斯文">Err94</string>
+<string lang_id="9" lang="葡萄牙语">erro94</string>
+<string lang_id="10" lang="越南文">Err94</string>
+</item>
+<item type="0">
+<value>95</value>
+<string lang_id="0" lang="中文">Err95</string>
+<string lang_id="1" lang="俄文">ошиб95</string>
+<string lang_id="2" lang="韩文">에러95</string>
+<string lang_id="3" lang="英文">Err95</string>
+<string lang_id="4" lang="阿拉伯文">Err95</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Err95</string>
+<string lang_id="7" lang="土耳其语">Hata 95</string>
+<string lang_id="8" lang="波斯文">Err95</string>
+<string lang_id="9" lang="葡萄牙语">erro95</string>
+<string lang_id="10" lang="越南文">Err95</string>
+</item>
+</group>
+</MapDrv>

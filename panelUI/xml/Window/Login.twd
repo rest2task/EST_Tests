@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Login" 可见="-1" 标题="3:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<event name="隐藏" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="260" 宽度="380" 高度="280" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="359" 宽度="128" 高度="24" 语言表索引="0" 文本="0:密码|||1:Пароль|||2:비밀번호|||3:Password|||4:كلمة المرور|||5:Password|||6:Contraseña|||7:Şifre|||8:رمز|||9:Senha|||10:Mật khẩu|||default:Password" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="password" 索引="0" 可见="-1" 可用="-1" 左="309" 顶="359" 宽度="110" 高度="24" 文本="编辑框" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="12632256" 边框宽度="1" 对齐="0" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:编辑框" 关联变量="p.PP.MACHSET.LOGIN_PWD" 延迟更新="0" 只读="0" 密码模式="-1" 输入模式="0" 显示模式="0" 最大字符数="8" 使用数据库="-1" 最小值="0" 最大值="99999999" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="-842150451" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.LOGIN_PWD"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="ok" 索引="0" 可见="-1" 可用="-1" 左="335" 顶="482" 宽度="90" 高度="30" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="cancel" 索引="0" 可见="-1" 可用="-1" 左="185" 顶="482" 宽度="90" 高度="30" 标题="0:取消|||1:Отмен|||2:취소|||3:Cancel|||4:إلغاء|||5:Cancel|||6:Cancel|||7:İptal|||8:لغو|||9:Cancelar|||10:Hủy|||default:Cancel" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="262" 宽度="380" 高度="27" 语言表索引="0" 文本="0:提示|||1:Инфо|||2:정보|||3:Information|||4:تنبيه|||5:Information|||6:Information|||7:Bilgi|||8:تذکرات|||9:Informação|||10:Nhắc nhở|||default:Information" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="160" Y1="465" X2="440" Y2="465" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblinfo" 索引="0" 可见="-1" 可用="-1" 左="169" 顶="427" 宽度="265" 高度="29" 语言表索引="0" 文本="0:用户权级等级过低|||1:Уровень слишком низкий|||2:사용자 권한 수준이 너무 낮습니다|||3:Permission Level Is Too Low|||6:El nivel de permiso es demasiado bajo!|||7:Kullanıcı hakları seviyesi çok düşük|||9:O nível do usuário é muito baixo|||10:Mức độ cho phép quá thấp|||default:Permission Level Is Too Low" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="2" ele_name="password"/>
+<horz order="1" ele_index="4" ele_name="cancel"/>
+<horz order="2" ele_index="3" ele_name="ok"/>
+<vert order="0" ele_index="2" ele_name="password"/>
+<vert order="1" ele_index="4" ele_name="cancel"/>
+<vert order="2" ele_index="3" ele_name="ok"/>
+<tab order="0" ele_index="2" ele_name="password"/>
+<tab order="1" ele_index="4" ele_name="cancel"/>
+<tab order="2" ele_index="3" ele_name="ok"/>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="label12"/>
+<id order="2" ele_index="2" ele_name="password"/>
+<id order="3" ele_index="3" ele_name="ok"/>
+<id order="4" ele_index="4" ele_name="cancel"/>
+<id order="5" ele_index="5" ele_name="label1"/>
+<id order="6" ele_index="6" ele_name="line1"/>
+<id order="7" ele_index="7" ele_name="lblinfo"/>
+<jmp_list desc=""/>
+</element>

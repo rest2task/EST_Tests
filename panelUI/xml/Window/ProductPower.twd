@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="ProductPower" 可见="-1" 标题="0:能耗|||1:Мощность прод|||2:생산관리 동력|||3:ProductPower|||6:ProducciónPoder|||7:Ürün Güç|||9:ProduzirPoder|||10:Quyền lực|||default:ProductPower" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label35" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="90" 宽度="155" 高度="24" 语言表索引="0" 文本="0:A相电压|||1:Напряж фазы А|||2:위상 A 전압|||3:Phase A Voltage|||6:Voltaje fase A|||7:Faz A Gerilimi|||9:Tensão Fase A|||10:A Điện áp pha |||default:Phase A Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit67" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="90" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_A" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_A"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="60" 宽度="285" 高度="480" 文本="0:电能表|||1:Электр счетчик|||2:미터|||3:ElecPower|||6:Medidor Elec|||7:Metre|||9:Medidor elétrico|||10:Đồng hồ điện|||default:ElecPower" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="60" 宽度="285" 高度="325" 文本="0:生产能耗|||1:Мощность продукта|||2:생산관리 동력|||3:Product Power|||6:ProducciónPoder|||7:Ürün Güç|||9:Produto Poder|||10:Quyền lực|||default:Product Power" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox3" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="400" 宽度="285" 高度="140" 文本="0:生产能耗总计|||1:Общая мощность прод|||2:생산관리 동력 합계|||3:Total Product Power|||6:Total Product Poder|||7:Toplam Ürün Güç|||9:Total Produto Poder|||10:Tổng tiêu năng sản |||default:Total Product Power" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label36" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="90" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label37" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="124" 宽度="155" 高度="24" 语言表索引="0" 文本="0:B相电压|||1:Напряж фазы B|||2:위상 B 전압|||3:Phase B Voltage|||6:Voltaje fase B|||7:Faz B Gerilimi|||9:Tensão Fase B|||10:B Điện áp pha |||default:Phase B Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit68" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="124" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_B" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_B"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label38" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="124" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label39" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="158" 宽度="155" 高度="24" 语言表索引="0" 文本="0:C相电压|||1:Напряж фазы C|||2:위상 C 전압|||3:Phase C Voltage|||6:Voltaje fase C|||7:Faz C Gerilimi|||9:Tensão Fase C|||10:C Điện áp pha |||default:Phase C Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit69" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="158" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_C" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_C"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label40" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="158" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label41" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="192" 宽度="155" 高度="24" 语言表索引="0" 文本="0:AB线电压|||1:Напряж фазы АB|||2:위상 AB 전압|||3:Phase AB Voltage|||6:Voltaje fase AB|||7:Faz AB Gerilimi|||9:Tensão Fase AB|||10:AB Điện áp pha |||default:Phase AB Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit70" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="192" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_AB" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_AB"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label42" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="192" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label43" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="226" 宽度="155" 高度="24" 语言表索引="0" 文本="0:BC线电压|||1:Напряж фазы BC|||2:위상 BC 전압|||3:Phase BC Voltage|||6:Voltaje fase BC|||7:Faz BC Gerilimi|||9:Tensão Fase BC|||10:BC Điện áp pha |||default:Phase BC Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit71" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="226" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_BC" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_BC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label44" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="226" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label45" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="260" 宽度="155" 高度="24" 语言表索引="0" 文本="0:AC线电压|||1:Напряж фазы АC|||2:위상 AC 전압|||3:Phase AC Voltage|||6:Voltaje fase AC|||7:Faz AC Gerilimi|||9:Tensão Fase AC|||10:AC Điện áp pha |||default:Phase AC Voltage" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit72" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="260" 宽度="80" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.machine1.STATE.VOL_AC" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_AC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label46" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="260" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label47" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="294" 宽度="155" 高度="24" 语言表索引="0" 文本="0:A相电流|||1:Фазный ток A|||2:위상 A 전류|||3:Phase A Current|||6:Corriente fase A|||7:Faz A Akımı|||9:Corrente Fase A|||10:A Pha hiện tại|||default:Phase A Current" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit73" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="294" 宽度="80" 高度="24" 文本="0.000" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.000" 关联变量="d.machine1.STATE.CURRENT_A" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.CURRENT_A"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label48" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="294" 宽度="35" 高度="24" 语言表索引="0" 文本="0:A|||1:A|||3:A|||6:A|||7:A|||9:A|||10:A|||default:A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label49" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="328" 宽度="155" 高度="24" 语言表索引="0" 文本="0:B相电流|||1:Фазный ток B|||2:위상 B 전류|||3:Phase B Current|||6:Corriente fase B|||7:Faz B Akımı|||9:Corrente Fase B|||10:B Pha hiện tại|||default:Phase B Current" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit74" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="328" 宽度="80" 高度="24" 文本="0.000" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.000" 关联变量="d.machine1.STATE.CURRENT_B" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.CURRENT_B"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label50" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="328" 宽度="35" 高度="24" 语言表索引="0" 文本="0:A|||1:A|||3:A|||6:A|||7:A|||9:A|||10:A|||default:A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label51" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="362" 宽度="155" 高度="24" 语言表索引="0" 文本="0:C相电流|||1:Фазный ток C|||2:위상 C 전류|||3:Phase C Current|||6:Corriente fase C|||7:Faz C Akımı|||9:Corrente Fase C|||10:C Pha hiện tại|||default:Phase C Current" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit75" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="362" 宽度="80" 高度="24" 文本="0.000" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.000" 关联变量="d.machine1.STATE.CURRENT_C" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.CURRENT_C"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label52" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="362" 宽度="35" 高度="24" 语言表索引="0" 文本="0:A|||1:A|||3:A|||6:A|||7:A|||9:A|||10:A|||default:A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="396" 宽度="155" 高度="24" 语言表索引="0" 文本="0:相线-零线总电压|||1:Фазный провод-Общее напряж нейтрали|||2:위상-중립국 총 전압|||3:Phase-to-neutral total|||6:Voltaje total de fase a neutro|||7:Faz-tarafsız toplam|||9:Tensão total fase-neutro|||10:Tổng điện áp pha-trung tính|||default:Phase-to-neutral total" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit76" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="396" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.machine1.STATE.VOL_LN" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_LN"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label54" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="396" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label55" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="430" 宽度="155" 高度="24" 语言表索引="0" 文本="0:相线-相线总电压|||1:Фазный провод-Общее фазное провода|||2:위상-위상 총 전압|||3:Phase-to-phase total|||6:Voltaje total fase a fase|||7:Faz-Faz toplam|||9:Tensão total fase-fase|||10:Tổng điện áp pha-pha|||default:Phase-to-phase total" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit77" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="430" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.machine1.STATE.VOL_LL" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.VOL_LL"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label56" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="430" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OPENLOOP_OVERADJ_SHOW"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label59" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="464" 宽度="155" 高度="24" 语言表索引="0" 文本="0:总计|||1:Всего|||2:합계|||3:Total |||6:Total |||7:Toplam|||9:Total|||10:Toàn bộ|||default:Total " 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit79" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="464" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.machine1.STATE.ENERGY_TOTAL_L" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.ENERGY_TOTAL_L"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label60" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="464" 宽度="35" 高度="24" 语言表索引="0" 文本="0:kWh|||3:kWh|||10:kWh|||default:kWh" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label61" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="90" 宽度="155" 高度="24" 语言表索引="0" 文本="0:生产能耗|||1:Мощность продукта|||2:생산관리 동력|||3:Product Power|||6:ProducciónPoder|||7:Ürün Güç|||9:Produto Poder|||10:Quyền lực|||default:Product Power" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit80" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="90" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL10" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label62" 索引="0" 可见="-1" 可用="-1" 左="550" 顶="90" 宽度="35" 高度="24" 语言表索引="0" 文本="0:kWh|||3:kWh|||10:kWh|||default:kWh" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label63" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="124" 宽度="115" 高度="24" 语言表索引="0" 文本="0:开模数/产品数|||1:Отк / прод Кол |||2:형개/제품 수|||3:Open/Prod Cnt|||6:Núm Moldes/Prod|||7:Açma/Ürün Sayı|||9:Mold/Prod Núm|||10:Số mở k./Số sản|||default:Open/Prod Cnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit81" 索引="0" 可见="-1" 可用="-1" 左="425" 顶="124" 宽度="80" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.machine1.STATE.MODOPENNUM1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.MODOPENNUM1"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit82" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="124" 宽度="80" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL11" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label64" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="158" 宽度="115" 高度="24" 语言表索引="0" 文本="0:单位产品能耗|||1:Каждый Потер|||2:동력|||3:Power|||6:Poder|||7:Güç|||9:Poder|||10:Đơn vị Số năng|||default:Power" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit83" 索引="0" 可见="-1" 可用="-1" 左="425" 顶="158" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL12" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit84" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="158" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL13" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL13"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label65" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="192" 宽度="155" 高度="24" 语言表索引="0" 文本="0:每模产品重量|||1:Вес прод на форму|||2:무게/금형|||3:ProdWeight /Mold|||6:ProdPeso/Molde|||7:Ağırlık / Kalıp|||9:Peso Prod/Mofo|||10:Sản phẩm/Khu mẫu|||default:ProdWeight /Mold" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit85" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="192" 宽度="65" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.MACHSET.PERPRODWEIGHT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACHSET.PERPRODWEIGHT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label66" 索引="0" 可见="-1" 可用="-1" 左="535" 顶="192" 宽度="55" 高度="24" 语言表索引="0" 文本="0:g|||1:g|||2:g|||3:g|||default:g" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label67" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="226" 宽度="155" 高度="24" 语言表索引="0" 文本="0:单位重量能耗|||1:Расход энер един веса|||2:단위 무게 동력|||3:Unit Weight Power|||6:Peso unit Potencia|||7:Ağırlık birimi Güç|||9:Peso Unitário Poder|||10:Đơn vị Trọng lượng|||default:Unit Weight Power" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit86" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="226" 宽度="65" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL14" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label68" 索引="0" 可见="-1" 可用="-1" 左="535" 顶="226" 宽度="55" 高度="24" 语言表索引="0" 文本="0:kWh/kg|||3:kWh/kg|||default:kWh/kg" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label69" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="260" 宽度="155" 高度="24" 语言表索引="0" 文本="0:重置|||1:Сброс|||2:리셋|||3:Reset|||6:Restablecer|||7:Yeni.Kur|||9:Reset|||10:Cài lại|||default:Reset" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btok" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="260" 宽度="65" 高度="24" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label70" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="328" 宽度="155" 高度="24" 语言表索引="0" 文本="0:电流变比|||1:Текущий%|||2:전류 %|||3:Current %|||6:Actual %|||7:Akımı %|||9:Corrente %|||10:Tỉ lệ hiện tại|||default:Current %" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit87" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="328" 宽度="65" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.machine1.MOLDSET.SRV2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.MOLDSET.SRV2"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="294" 宽度="115" 高度="24" 语言表索引="0" 文本="0:重置日期|||1:Cброси Свидание|||2:날짜 재설정|||3:Reset Date|||6:Restable Fecha|||7:Tarihi Yeni|||9:Reinici Data|||10:Đặt lại ngày|||default:Reset Date" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit88" 索引="0" 可见="-1" 可用="-1" 左="425" 顶="294" 宽度="160" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="430" 宽度="155" 高度="24" 语言表索引="0" 文本="0:生产能耗|||1:Мощность продукта|||2:생산관리 동력|||3:Product Power|||6:ProducciónPoder|||7:Ürün Güç|||9:Produto Poder|||10:Quyền lực|||default:Product Power" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit89" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="430" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL10" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label73" 索引="0" 可见="-1" 可用="-1" 左="550" 顶="430" 宽度="35" 高度="24" 语言表索引="0" 文本="0:kWh|||3:kWh|||10:kWh|||default:kWh" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label74" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="464" 宽度="155" 高度="24" 语言表索引="0" 文本="0:其他能耗|||1:Другая сила|||2:다른 동력|||3:Other Power|||6:Otro Poder|||7:Diğer Güç|||9:Outro Poder|||10:Tiêu năng khác|||default:Other Power" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit90" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="464" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="p.PP.TMP.TMPVAL15" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label75" 索引="0" 可见="-1" 可用="-1" 左="550" 顶="464" 宽度="35" 高度="24" 语言表索引="0" 文本="0:kWh|||3:kWh|||10:kWh|||default:kWh" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label76" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="498" 宽度="155" 高度="24" 语言表索引="0" 文本="0:总耗电|||1:полная|||2:합계|||3:Total|||6:Total|||7:Toplam|||9:Total|||10:Toàn bộ|||default:Total" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit91" 索引="0" 可见="-1" 可用="-1" 左="465" 顶="498" 宽度="80" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.machine1.STATE.ENERGY_TOTAL_L" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.machine1.STATE.ENERGY_TOTAL_L"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label77" 索引="0" 可见="-1" 可用="-1" 左="550" 顶="498" 宽度="35" 高度="24" 语言表索引="0" 文本="0:kWh|||3:kWh|||10:kWh|||default:kWh" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbldataerr" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="555" 宽度="285" 高度="24" 语言表索引="0" 文本="0:当前电表数据异常,请重置|||1:Текущая ошибка данных, пожалуйста, сбросьте|||2:현재 데이터 오류, 재설정하십시오|||3:Current Data Err,Please Reset|||6:Error de datos actual, reinicie|||7:Mevcut Veri Hatası, Lütfen Sıfırlayın|||9:Erro de dados atuais,reinicie|||10:Lỗi dữ liệu hiện tại, vui lòng đặt lại|||default:Current Data Err,Please Reset" 横向对齐="1" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbldisconnect" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="555" 宽度="285" 高度="24" 语言表索引="0" 文本="0:电表通讯失败|||1:Сбой связи со счетчиком|||2:현재 연결 해제|||3:Current Disconnected|||6:Error de comunicación con el medidor|||7:Akım Bağlantısı Kesildi|||9:Falha na comunicação do medidor|||10:Giao tiếp không thành công|||default:Current Disconnected" 横向对齐="1" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator1" 锁住="0" 左="260" 顶="396" 列数="1" 行数="3" 横向间距="0" 纵向间距="10" 横向偏移="0" 对齐方式="1"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator2" 锁住="0" 左="15" 顶="396" 列数="2" 行数="3" 横向间距="5" 纵向间距="10" 横向偏移="0" 对齐方式="1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label217" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="25" 宽度="155" 高度="24" 语言表索引="0" 文本="0:电表型号|||1:Elec-Meter Model|||2:Elec-Meter Model|||3:Elec-Meter Model|||6:Elec-Meter Model|||7:Elec-Meter Model|||9:Elec-Meter Model|||10:Elec-Meter Model|||4:Elec-Meter Model|||5:Elec-Meter Model|||8:Elec-Meter Model|||default:Elec-Meter Model" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.machine1.MOLDSET.SRV1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown10" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="25" 宽度="80" 高度="24" 数据="0:默认;天正|||1:Default;TianZheng|||2:Default;TianZheng|||3:Default;TianZheng|||4:Default;TianZheng|||5:Default;TianZheng|||6:Default;TianZheng|||7:Default;TianZheng|||8:Default;TianZheng|||9:Default;TianZheng|||10:Default;TianZheng|||default:默认" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.machine1.MOLDSET.FL_POWER_TYPE" 当前值="0" cur_text="默认" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.machine1.MOLDSET.FL_POWER_TYPE"/>
+<var prop="可用" orient="in" tag="d.machine1.MOLDSET.SRV1"/>
+</element>
+<horz order="0" ele_index="77" ele_name="dropdown10"/>
+<horz order="1" ele_index="4" ele_name="edit67"/>
+<horz order="2" ele_index="43" ele_name="edit80"/>
+<horz order="3" ele_index="10" ele_name="edit68"/>
+<horz order="4" ele_index="46" ele_name="edit81"/>
+<horz order="5" ele_index="47" ele_name="edit82"/>
+<horz order="6" ele_index="13" ele_name="edit69"/>
+<horz order="7" ele_index="49" ele_name="edit83"/>
+<horz order="8" ele_index="50" ele_name="edit84"/>
+<horz order="9" ele_index="16" ele_name="edit70"/>
+<horz order="10" ele_index="52" ele_name="edit85"/>
+<horz order="11" ele_index="19" ele_name="edit71"/>
+<horz order="12" ele_index="55" ele_name="edit86"/>
+<horz order="13" ele_index="22" ele_name="edit72"/>
+<horz order="14" ele_index="58" ele_name="btok"/>
+<horz order="15" ele_index="25" ele_name="edit73"/>
+<horz order="16" ele_index="62" ele_name="edit88"/>
+<horz order="17" ele_index="28" ele_name="edit74"/>
+<horz order="18" ele_index="60" ele_name="edit87"/>
+<horz order="19" ele_index="31" ele_name="edit75"/>
+<horz order="20" ele_index="34" ele_name="edit76"/>
+<horz order="21" ele_index="37" ele_name="edit77"/>
+<horz order="22" ele_index="64" ele_name="edit89"/>
+<horz order="23" ele_index="40" ele_name="edit79"/>
+<horz order="24" ele_index="67" ele_name="edit90"/>
+<horz order="25" ele_index="70" ele_name="edit91"/>
+<vert order="0" ele_index="77" ele_name="dropdown10"/>
+<vert order="1" ele_index="4" ele_name="edit67"/>
+<vert order="2" ele_index="10" ele_name="edit68"/>
+<vert order="3" ele_index="13" ele_name="edit69"/>
+<vert order="4" ele_index="16" ele_name="edit70"/>
+<vert order="5" ele_index="19" ele_name="edit71"/>
+<vert order="6" ele_index="22" ele_name="edit72"/>
+<vert order="7" ele_index="25" ele_name="edit73"/>
+<vert order="8" ele_index="28" ele_name="edit74"/>
+<vert order="9" ele_index="31" ele_name="edit75"/>
+<vert order="10" ele_index="34" ele_name="edit76"/>
+<vert order="11" ele_index="37" ele_name="edit77"/>
+<vert order="12" ele_index="40" ele_name="edit79"/>
+<vert order="13" ele_index="46" ele_name="edit81"/>
+<vert order="14" ele_index="49" ele_name="edit83"/>
+<vert order="15" ele_index="43" ele_name="edit80"/>
+<vert order="16" ele_index="47" ele_name="edit82"/>
+<vert order="17" ele_index="50" ele_name="edit84"/>
+<vert order="18" ele_index="52" ele_name="edit85"/>
+<vert order="19" ele_index="55" ele_name="edit86"/>
+<vert order="20" ele_index="58" ele_name="btok"/>
+<vert order="21" ele_index="62" ele_name="edit88"/>
+<vert order="22" ele_index="60" ele_name="edit87"/>
+<vert order="23" ele_index="64" ele_name="edit89"/>
+<vert order="24" ele_index="67" ele_name="edit90"/>
+<vert order="25" ele_index="70" ele_name="edit91"/>
+<tab order="0" ele_index="77" ele_name="dropdown10"/>
+<tab order="1" ele_index="4" ele_name="edit67"/>
+<tab order="2" ele_index="10" ele_name="edit68"/>
+<tab order="3" ele_index="13" ele_name="edit69"/>
+<tab order="4" ele_index="16" ele_name="edit70"/>
+<tab order="5" ele_index="19" ele_name="edit71"/>
+<tab order="6" ele_index="22" ele_name="edit72"/>
+<tab order="7" ele_index="25" ele_name="edit73"/>
+<tab order="8" ele_index="28" ele_name="edit74"/>
+<tab order="9" ele_index="31" ele_name="edit75"/>
+<tab order="10" ele_index="34" ele_name="edit76"/>
+<tab order="11" ele_index="37" ele_name="edit77"/>
+<tab order="12" ele_index="40" ele_name="edit79"/>
+<tab order="13" ele_index="46" ele_name="edit81"/>
+<tab order="14" ele_index="49" ele_name="edit83"/>
+<tab order="15" ele_index="43" ele_name="edit80"/>
+<tab order="16" ele_index="47" ele_name="edit82"/>
+<tab order="17" ele_index="50" ele_name="edit84"/>
+<tab order="18" ele_index="52" ele_name="edit85"/>
+<tab order="19" ele_index="55" ele_name="edit86"/>
+<tab order="20" ele_index="58" ele_name="btok"/>
+<tab order="21" ele_index="62" ele_name="edit88"/>
+<tab order="22" ele_index="60" ele_name="edit87"/>
+<tab order="23" ele_index="64" ele_name="edit89"/>
+<tab order="24" ele_index="67" ele_name="edit90"/>
+<tab order="25" ele_index="70" ele_name="edit91"/>
+<id order="0" ele_index="0" ele_name="label34"/>
+<id order="1" ele_index="1" ele_name="_input_range_labellabel"/>
+<id order="2" ele_index="2" ele_name="_input_range_label"/>
+<id order="3" ele_index="3" ele_name="label35"/>
+<id order="4" ele_index="4" ele_name="edit67"/>
+<id order="5" ele_index="5" ele_name="groupbox1"/>
+<id order="6" ele_index="6" ele_name="groupbox2"/>
+<id order="7" ele_index="7" ele_name="groupbox3"/>
+<id order="8" ele_index="8" ele_name="label36"/>
+<id order="9" ele_index="9" ele_name="label37"/>
+<id order="10" ele_index="10" ele_name="edit68"/>
+<id order="11" ele_index="11" ele_name="label38"/>
+<id order="12" ele_index="12" ele_name="label39"/>
+<id order="13" ele_index="13" ele_name="edit69"/>
+<id order="14" ele_index="14" ele_name="label40"/>
+<id order="15" ele_index="15" ele_name="label41"/>
+<id order="16" ele_index="16" ele_name="edit70"/>
+<id order="17" ele_index="17" ele_name="label42"/>
+<id order="18" ele_index="18" ele_name="label43"/>
+<id order="19" ele_index="19" ele_name="edit71"/>
+<id order="20" ele_index="20" ele_name="label44"/>
+<id order="21" ele_index="21" ele_name="label45"/>
+<id order="22" ele_index="22" ele_name="edit72"/>
+<id order="23" ele_index="23" ele_name="label46"/>
+<id order="24" ele_index="24" ele_name="label47"/>
+<id order="25" ele_index="25" ele_name="edit73"/>
+<id order="26" ele_index="26" ele_name="label48"/>
+<id order="27" ele_index="27" ele_name="label49"/>
+<id order="28" ele_index="28" ele_name="edit74"/>
+<id order="29" ele_index="29" ele_name="label50"/>
+<id order="30" ele_index="30" ele_name="label51"/>
+<id order="31" ele_index="31" ele_name="edit75"/>
+<id order="32" ele_index="32" ele_name="label52"/>
+<id order="33" ele_index="33" ele_name="label53"/>
+<id order="34" ele_index="34" ele_name="edit76"/>
+<id order="35" ele_index="35" ele_name="label54"/>
+<id order="36" ele_index="36" ele_name="label55"/>
+<id order="37" ele_index="37" ele_name="edit77"/>
+<id order="38" ele_index="38" ele_name="label56"/>
+<id order="39" ele_index="39" ele_name="label59"/>
+<id order="40" ele_index="40" ele_name="edit79"/>
+<id order="41" ele_index="41" ele_name="label60"/>
+<id order="42" ele_index="42" ele_name="label61"/>
+<id order="43" ele_index="43" ele_name="edit80"/>
+<id order="44" ele_index="44" ele_name="label62"/>
+<id order="45" ele_index="45" ele_name="label63"/>
+<id order="46" ele_index="46" ele_name="edit81"/>
+<id order="47" ele_index="47" ele_name="edit82"/>
+<id order="48" ele_index="48" ele_name="label64"/>
+<id order="49" ele_index="49" ele_name="edit83"/>
+<id order="50" ele_index="50" ele_name="edit84"/>
+<id order="51" ele_index="51" ele_name="label65"/>
+<id order="52" ele_index="52" ele_name="edit85"/>
+<id order="53" ele_index="53" ele_name="label66"/>
+<id order="54" ele_index="54" ele_name="label67"/>
+<id order="55" ele_index="55" ele_name="edit86"/>
+<id order="56" ele_index="56" ele_name="label68"/>
+<id order="57" ele_index="57" ele_name="label69"/>
+<id order="58" ele_index="58" ele_name="btok"/>
+<id order="59" ele_index="59" ele_name="label70"/>
+<id order="60" ele_index="60" ele_name="edit87"/>
+<id order="61" ele_index="61" ele_name="label71"/>
+<id order="62" ele_index="62" ele_name="edit88"/>
+<id order="63" ele_index="63" ele_name="label72"/>
+<id order="64" ele_index="64" ele_name="edit89"/>
+<id order="65" ele_index="65" ele_name="label73"/>
+<id order="66" ele_index="66" ele_name="label74"/>
+<id order="67" ele_index="67" ele_name="edit90"/>
+<id order="68" ele_index="68" ele_name="label75"/>
+<id order="69" ele_index="69" ele_name="label76"/>
+<id order="70" ele_index="70" ele_name="edit91"/>
+<id order="71" ele_index="71" ele_name="label77"/>
+<id order="72" ele_index="72" ele_name="lbldataerr"/>
+<id order="73" ele_index="73" ele_name="lbldisconnect"/>
+<id order="74" ele_index="74" ele_name="locator1"/>
+<id order="75" ele_index="75" ele_name="locator2"/>
+<id order="76" ele_index="76" ele_name="label217"/>
+<id order="77" ele_index="77" ele_name="dropdown10"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Произв|||2:생산관리|||3:PROD|||4:|||5:|||6:Productos|||0:生产|||7:Ürün|||8:|||9:Prod|||10:sản xuất|||default:PROD" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPROD.png" 按下图片="btnPRODx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:деньвыход|||2:일일 출력|||3:DAY|||4:|||5:|||6:Dia|||0:日产量|||7:Gün|||8:|||9:Diá|||10:Hàng|||default:DAY" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDAY.png" 按下图片="btnDAYx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;班别记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:месяцвыход|||2:월간 생산|||3:MONTH|||4:|||5:|||6:Mes|||0:月产量|||7:Ay|||8:|||9:Mês|||10:Tháng|||default:MONTH" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMONTH.png" 按下图片="btnMONTHx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:ДЕНЬМОЩ|||2:일일 동력|||3:DAYP|||4:|||5:|||6:DíaP|||0:日功耗|||7:GünGüç|||8:|||9:Diário|||10:Ngày|||default:DAYP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDAYP.png" 按下图片="btnDAYPx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;操作记录&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:МЕСЯМОЩ|||2:월간 동력|||3:MONP|||4:|||5:|||6:MesP|||0:月功耗|||7:AyGüç|||8:|||9:Por mês|||10:Tháng|||default:MONP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMONP.png" 按下图片="btnMONPx.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:ГОДМОЩ|||2:연간 동력|||3:YEARP|||4:|||5:|||6:AñoP|||0:年功耗|||7:YılGüç|||8:|||9:Anual|||10:Năm|||default:YEARP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnYEARP.png" 按下图片="btnYEARPx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="3:POWER|||0:能耗|||1:МОЩНОСТЬ|||2:동력|||4:|||5:|||6:Poder|||7:Güç|||8:|||9:Energia|||10:Năng|||default:POWER" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPOWER.png" 按下图片="btnPOWERx.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

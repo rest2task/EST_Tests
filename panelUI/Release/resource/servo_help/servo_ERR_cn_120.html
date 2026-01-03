@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+.STYLE2 {font-size: 18px}
+.警报名字体大小 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.警报号字体颜色 {
+	color: #900;
+	font-size: 18px;
+}
+.产生机理字体大小 {
+	font-size: 18px;
+	color: #603;
+}
+.backcolor {
+	color:rgb(0,111,55);
+	word-spacing: normal;
+}
+</style>
+</head>
+
+<body>
+<p><span class="STYLE2">警报名：</span><span class="警报号字体颜色">ER.120</span><span class="警报名字体大小"> 产品匹配故障</span><br />
+ <br />
+<span class="产生机理字体大小">产生机理：</span><br />
+<span class="backcolor">电机、驱动器不匹配或参数设置错误；<br /></span></p>
+
+<table width="620" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <th width="100" bgcolor="#999999" scope="col">原因</th>
+    <th width="210" bgcolor="#999999" scope="col">处理措施</th>
+  </tr>
+  <tr>
+    <td rowspan="2">&nbsp;1.产品编号（电机或驱动器）不存在</td>
+    <td>&nbsp;重新设置 200D-01h（电机编号） 和驱动器型号 (2001-03h)。</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td>&nbsp;2. 电机与驱动器不匹配</td>
+    <td>&nbsp;电机额定电流大于驱动器额定电流。
+      对策 1. 更换不匹配产品，如无法更换，采用对策 2；对策 2. 改小电机额定电流，更改方式请联系厂家。</td>
+  </tr>
+</table>
+</body>
+</html>

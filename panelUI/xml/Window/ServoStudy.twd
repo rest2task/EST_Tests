@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="ServoStudy" 可见="-1" 标题="0:动作调试|||1:Действие отладка|||2:동작 디버그|||3:Action Debug|||6:Depuración acciones|||7:Eylem Ayıklama|||9:Ação Debug|||10:ĐC thử đ.tác|||default:Action Debug" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="0" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="tabpage" type_id="36">
+<prop 名称="tabpage1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="20" 宽度="590" 高度="565" 字体="宋体" 字号="16" 透明度="255" 对齐="0" 文本色="0" 背景色="15723752" 禁用时风格="1" 按钮宽度="80" 按钮高度="25" 常态图片="tabbar-unselected.png" 选中图片="tabbar-selected.png" 选中文本色="16744448" 选中背景色="16777215" 焦点文本色="0"/>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb1" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="540" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:PI|||1:PI|||2:PI|||3:PI|||7:PI|||9:PI|||default:PI"/>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="69" 顶="20" 宽度="441" 高度="71" 文本="3:|||0:|||default:" 字体="宋体" 字号="16" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="37" 宽度="103" 高度="24" 语言表索引="0" 文本="0:缺省 P|||1:Заменить P|||2:디폴트 P|||3:Default P|||4:افتراضي P|||5:Default P|||6:Defecto P|||7:Varsayılanı P|||8:پیش فرض p|||9:Padrão P|||10:Thiếu P|||default:Default P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit30" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="37" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.servo1.MACHSET.KP_DEFAULT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.KP_DEFAULT"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KP_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label54" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="37" 宽度="103" 高度="24" 语言表索引="0" 文本="0:缺省 I|||1:Заменить I|||2:디폴트 I|||3:Default I|||4:افتراضي I|||5:Default I|||6:Defecto I|||7:Varsayılanı I|||8:پیش فرض I|||9:Padrão I|||10:Thiếu I|||default:Default I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit31" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="37" 宽度="70" 高度="24" 文本="10" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:10" 关联变量="d.servo1.MACHSET.KI_DEFAULT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.KI_DEFAULT"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KI_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label55" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="94" 宽度="103" 高度="24" 语言表索引="0" 文本="0:射出 P|||1:Впрыск P|||2:사출P|||3:Inject P|||4:حقن P|||5:Inject P|||6:Inyect P|||7:Enjekte P|||8:تزریق P|||9:Injectar P|||10:Bắn ra P|||default:Inject P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit32" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="94" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.inject1.HYDR.SERVO_KP_INJCT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KP_INJCT"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label56" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="94" 宽度="103" 高度="24" 语言表索引="0" 文本="0:射出 I|||1:Впрыск I|||2:사출I|||3:Inject I|||4:حقن I|||5:Inject I|||6:Inyect I|||7:Enjekte I|||8:تزریق I|||9:Injectar I|||10:Bắn ra I|||default:Inject I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit33" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="94" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.HYDR.SERVO_KI_INJCT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KI_INJCT"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KI_INJCT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label57" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="146" 宽度="103" 高度="24" 语言表索引="0" 文本="0:保压 P|||1:Выдер P|||2:보압P|||3:Hold P|||4:عقد الضغط P|||5:Hold P|||6:Manten P|||7:Tutma P|||8:حفظ فشار P|||9:Segure P|||10:Giữ áp P|||default:Hold P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit34" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="146" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.inject1.HYDR.SERVO_KP_HOLD" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KP_HOLD"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label58" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="146" 宽度="103" 高度="24" 语言表索引="0" 文本="0:保压 I|||1:Выдер I|||2:보압I|||3:Hold I|||4:عقد الضغط I|||5:Hold I|||6:Manten I|||7:Tutma I|||8:حفظ فشار I|||9:Segure I|||10:Giữ áp I|||default:Hold I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit35" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="146" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.HYDR.SERVO_KI_HOLD" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KI_HOLD"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KI_HOLD"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label59" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="172" 宽度="103" 高度="24" 语言表索引="0" 文本="0:托模 P|||1:Отвод P|||2:에젝트P|||3:Eject P|||4:طرد P|||5:Eject P|||6:Expul P|||7:İtici P|||8:EJ P|||9:Eject P|||10:ĐỡKhuôn P|||default:Eject P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit36" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="172" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.eject1.HYDR.SERVO_KP_EJECT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.eject1.HYDR.SERVO_KP_EJECT"/>
+<var prop="文本" orient="out" tag="d.eject1.HYDR.SERVO_KP_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label60" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="172" 宽度="103" 高度="24" 语言表索引="0" 文本="0:托模 I|||1:Отвод I|||2:에젝트I|||3:Eject I|||4:طرد I|||5:Eject I|||6:Expul I|||7:İtici I|||8:EJ I|||9:Eject I|||10:ĐỡKhuôn I|||default:Eject I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit37" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="172" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.eject1.HYDR.SERVO_KI_EJECT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.eject1.HYDR.SERVO_KI_EJECT"/>
+<var prop="文本" orient="out" tag="d.eject1.HYDR.SERVO_KI_EJECT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label61" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="198" 宽度="103" 高度="24" 语言表索引="0" 文本="0:开模 P|||1:Откр. P|||2:형개 P|||3:Open P|||4:فتح قالب P|||5:Open P|||6:Abrir P|||7:Açma P|||8:بازکردن P|||9:Abrir P|||10:Mở k. P|||default:开模 P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit38" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="198" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.clamp1.HYDR.SERVO_KP_OPN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KP_OPN"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KP_OPN"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label62" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="198" 宽度="103" 高度="24" 语言表索引="0" 文本="0:开模 I|||1:Откр. I|||2:형개 I|||3:Open I|||4:فتح قالب I|||5:Open I|||6:Abrir I|||7:Açma I|||8:بازکردن I|||9:Abrir I|||10:Mở k. I|||default:开模 I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit39" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="198" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.clamp1.HYDR.SERVO_KI_OPN" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KI_OPN"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KI_OPN"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label63" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="250" 宽度="103" 高度="24" 语言表索引="0" 文本="0:储料 P|||1:Загрузка P|||2:계량P|||3:Charge P|||4:تخزين المواد P|||5:Charge P|||6:Carga P|||7:Mal Alm P|||8:شارژتغذیه P|||9:Carregar P|||10:Trữ liệu P|||default:Charge P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit40" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="250" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.inject1.HYDR.SERVO_KP_CHARGE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KP_CHARGE"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label64" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="250" 宽度="103" 高度="24" 语言表索引="0" 文本="0:储料 I|||1:Загрузка I|||2:계량I|||3:Charge I|||4:تخزين المواد I|||5:Charge I|||6:Carga I|||7:Mal Alm I|||8:شارژتغذیه I|||9:Carregar I|||10:Trữ liệu I|||default:Charge I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit41" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="250" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.HYDR.SERVO_KI_CHARGE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KI_CHARGE"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KI_CHARGE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label65" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="276" 宽度="103" 高度="24" 语言表索引="0" 文本="0:调模 P|||1:Регулир.P|||2:금형조정P|||3:Adjust P|||4:تعديل القالب P|||5:Adjust P|||6:Ajuste P|||7:Ayar P|||8:تنظیم P|||9:Ajuste P|||10:Diều chỉnh k. P|||default:Adjust P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit42" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="276" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.adjust1.HYDR.SERVO_KP_ADJUST" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.adjust1.HYDR.SERVO_KP_ADJUST"/>
+<var prop="文本" orient="out" tag="d.adjust1.HYDR.SERVO_KP_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label66" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="276" 宽度="103" 高度="24" 语言表索引="0" 文本="0:调模 I|||1:Регулир.I|||2:금형조정I|||3:Adjust I|||4:تعديل القالب I|||5:Adjust I|||6:Ajuste I|||7:Ayar I|||8:تنظیم I|||9:Ajuste I|||10:Diều chỉnh k. I|||default:Adjust I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit43" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="276" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.adjust1.HYDR.SERVO_KI_ADJUST" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.adjust1.HYDR.SERVO_KI_ADJUST"/>
+<var prop="文本" orient="out" tag="d.adjust1.HYDR.SERVO_KI_ADJUST"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label67" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="302" 宽度="103" 高度="24" 语言表索引="0" 文本="0:压模 P|||1:Защита P|||2:보호 P|||3:ComprsMd P|||4:تعبئة القالب P|||5:ComprsMold P|||6:AltaPrs P|||7:Koruma P|||8:فشردن قالب P|||9:Proteger P|||10:Ép khuôn P|||default:ComprsMd P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit44" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="302" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.clamp1.HYDR.SERVO_KP_HIPRS" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KP_HIPRS"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KP_HIPRS"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label68" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="302" 宽度="103" 高度="24" 语言表索引="0" 文本="0:压模 I|||1:Защита I|||2:보호 I|||3:ComprsMd I|||4:تعبئة القالب I|||5:ComprsMold I|||6:AltaPrs I|||7:Koruma I|||8:فشردن قالب I|||9:Proteja I|||10:Ép khuôn I|||default:ComprsMd I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit45" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="302" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.clamp1.HYDR.SERVO_KI_HIPRS" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KI_HIPRS"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KI_HIPRS"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label69" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="510" 宽度="103" 高度="24" 语言表索引="0" 文本="0:伺服 P|||1:Серво P|||2:서보 P|||3:Servo P|||4:مؤازرة P|||5:Servo P|||6:Servo P|||7:Servo P|||8:سروو P|||9:Servo P|||10:Servo P|||default:Servo P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit46" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="510" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.servo1.MACHSET.WSERVO_K" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.WSERVO_K"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KP_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label70" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="510" 宽度="103" 高度="24" 语言表索引="0" 文本="0:伺服 I|||1:Серво I|||2:서보 I|||3:Servo I|||4:مؤازرة I|||5:Servo I|||6:Servo I|||7:Servo I|||8:سروو I|||9:Servo I|||10:Servo I|||default:Servo I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit47" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="510" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.servo1.MACHSET.WSERVO_T" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.WSERVO_T"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KI_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="328" 宽度="103" 高度="24" 语言表索引="0" 文本="0:座台 P|||1:Сопло P|||2:노즐 P|||3:Nozzle P|||4:قاعدة P|||5:Nozzle P|||6:Boquilla P|||7:Grup P|||8:بینی P|||9:Bico P|||10:Bệ P|||default:Nozzle P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit97" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="328" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.nozzle1.HYDR.SERVO_KP_NOZZLE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.nozzle1.HYDR.SERVO_KP_NOZZLE"/>
+<var prop="文本" orient="out" tag="d.nozzle1.HYDR.SERVO_KP_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="328" 宽度="103" 高度="24" 语言表索引="0" 文本="0:座台 I|||1:Сопло I|||2:노즐 I|||3:Nozzle I|||4:قاعدة I|||5:Nozzle I|||6:Boquilla I|||7:Grup I|||8:بینی I|||9:Bico I|||10:Bệ I|||default:Nozzle I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit98" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="328" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.nozzle1.HYDR.SERVO_KI_NOZZLE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.nozzle1.HYDR.SERVO_KI_NOZZLE"/>
+<var prop="文本" orient="out" tag="d.nozzle1.HYDR.SERVO_KI_NOZZLE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label75" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="354" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子A P|||1:Знака A P|||2:코아 1 P|||3:Core A P|||4:جوهر  A P|||5:Core A P|||6:Noyo A P|||7:Maça A P|||8:مغز A P|||9:Core A P|||10:Nơtron A P|||default:Core A P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit101" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="354" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreA.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreA.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreA.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label76" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="354" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子A I|||1:Знака A I|||2:코아 1 I|||3:Core A I|||4:جوهر  A I|||5:Core A I|||6:Noyo A I|||7:Maça A I|||8:مغز A I|||9:Core A I|||10:Nơtron A I|||default:Core A I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit102" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="354" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreA.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreA.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreA.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label77" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="380" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子B P|||1:Знака B P|||2:코아 2 P|||3:Core B P|||4:جوهر  B P|||5:Core B P|||6:Noyo B P|||7:Maça B P|||8:مغز B P|||9:Core B P|||10:Nơtron B P|||default:Core B P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit103" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="380" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreB.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreB.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreB.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label78" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="380" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子B I|||1:Знака B I|||2:코아 2 I|||3:Core B I|||4:جوهر  B I|||5:Core B I|||6:Noyo B I|||7:Maça B I|||8:مغز B I|||9:Core B I|||10:Nơtron B I|||default:Core B I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit104" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="380" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreB.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreB.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreB.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label79" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="406" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子C P|||1:Знака C P|||2:코아 3 P|||3:Core C P|||4:جوهر  C P|||5:Core C P|||6:Noyo C P|||7:Maça C P|||8:مغز C P|||9:Core C P|||10:Nơtron C P|||default:Core C P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit105" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="406" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreC.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreC.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreC.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label80" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="406" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子C I|||1:Знака C I|||2:코아 3 I|||3:Core C I|||4:جوهر  C I|||5:Core C I|||6:Noyo C I|||7:Maça C I|||8:مغز C I|||9:Core C I|||10:Nơtron C I|||default:Core C I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit106" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="406" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreC.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreC.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreC.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label81" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="432" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子D P|||1:Знака D P|||2:코아 4 P|||3:Core D P|||4:جوهر  D P|||5:Core D P|||6:Noyo D P|||7:Maça D P|||8:مغز D P|||9:Core D P|||10:Nơtron D P|||default:Core D P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit107" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="432" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreD.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreD.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreD.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label82" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="432" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子D I|||1:Знака D I|||2:코아 4 I|||3:Core D I|||4:جوهر  D I|||5:Core D I|||6:Noyo D I|||7:Maça D I|||8:مغز D I|||9:Core D I|||10:Nơtron D I|||default:Core D I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit108" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="432" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreD.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreD.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreD.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label83" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="224" 宽度="103" 高度="24" 语言表索引="0" 文本="0:关模 P|||1:Закрытие P|||2:형폐 P|||3:Close P|||4:إغلاق قالب P|||5:Close P|||6:Cierre P|||7:Kapat P|||8:بستن  P|||9:Fechar P|||10:Đóng k. P|||default:Close P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit109" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="224" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.clamp1.HYDR.SERVO_KP_CLS" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KP_CLS"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KP_CLS"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label84" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="224" 宽度="103" 高度="24" 语言表索引="0" 文本="0:关模 I|||1:Закрытие I|||2:형폐 I|||3:Close I|||4:إغلاق قالب I|||5:Close I|||6:Cierre I|||7:Kapat I|||8:بستن  I|||9:Fechar I|||10:Đóng k. I|||default:Close I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit110" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="224" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.clamp1.HYDR.SERVO_KI_CLS" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.HYDR.SERVO_KI_CLS"/>
+<var prop="文本" orient="out" tag="d.clamp1.HYDR.SERVO_KI_CLS"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label86" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="120" 宽度="103" 高度="24" 语言表索引="0" 文本="0:射退 P|||1:Декомпрессия P|||2:강제후퇴 P|||3:SuckBack P|||4:اطلاق P|||5:SuckBack P|||6:Descomp P|||7:Geri Em P|||8:مکیدن P|||9:Recuo P|||10:Bắn thoát P|||default:SuckBack P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="120" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.inject1.HYDR.SERVO_KP_SUCKBACK" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KP_SUCKBACK"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label87" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="120" 宽度="103" 高度="24" 语言表索引="0" 文本="0:射退 I|||1:Декомпрессия I|||2:강제후퇴 I|||3:SuckBack I|||4:اطلاق I|||5:SuckBack I|||6:Descomp I|||7:Geri Em I|||8:مکیدن I|||9:Recuo I|||10:Bắn thoát I|||default:SuckBack I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit112" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="120" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.HYDR.SERVO_KI_SUCKBACK" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.HYDR.SERVO_KI_SUCKBACK"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KI_SUCKBACK"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label88" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="458" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子E P|||1:Знака E P|||2:코어5 P|||3:Core E P|||4:جوهر  E P|||5:Core E P|||6:Noyo E P|||7:Maça E P|||8:مغز E P|||9:Core E P|||10:Nơtron E P|||default:Core E P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit113" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="458" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreE.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreE.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreE.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label89" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="458" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子E I|||1:Знака E I|||2:코어5 I|||3:Core E I|||4:جوهر  E I|||5:Core E I|||6:Noyo E I|||7:Maça E I|||8:مغز E I|||9:Core E I|||10:Nơtron E I|||default:Core E I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit114" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="458" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreE.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreE.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreE.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label90" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="484" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子F P|||1:Знака F P|||2:코어6 P|||3:Core F P|||4:جوهر  F P|||5:Core F P|||6:Noyo F P|||7:Maça F P|||8:مغز F P|||9:Core F P|||10:Nơtron F P|||default:Core F P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit115" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="484" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="d.coreF.HYDR.SERVO_KP_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreF.HYDR.SERVO_KP_CORE"/>
+<var prop="文本" orient="out" tag="d.coreF.HYDR.SERVO_KP_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label91" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="484" 宽度="103" 高度="24" 语言表索引="0" 文本="0:中子F I|||1:Знака F I|||2:코어6 I|||3:Core F I|||4:جوهر  F I|||5:Core F I|||6:Noyo F I|||7:Maça F I|||8:مغز F I|||9:Core F I|||10:Nơtron F I|||default:Core F I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit116" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="484" 宽度="70" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.coreF.HYDR.SERVO_KI_CORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.coreF.HYDR.SERVO_KI_CORE"/>
+<var prop="文本" orient="out" tag="d.coreF.HYDR.SERVO_KI_CORE"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label92" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="63" 宽度="103" 高度="24" 语言表索引="0" 文本="0:PID转折P值|||1:PID Транс P|||2:PID변환P|||3:PID Turn P|||6:PID Trans P|||7:PID Cevirin P|||9:PID Virar P|||10:PID ngoặt P|||default:PID Turn P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit117" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="63" 宽度="70" 高度="24" 文本="210" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:210" 关联变量="d.servo1.MACHSET.KP_TRANSITION" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.KP_TRANSITION"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KP_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label93" 索引="0" 可见="-1" 可用="-1" 左="303" 顶="63" 宽度="103" 高度="24" 语言表索引="0" 文本="0:PID转折I值|||1:PID Транс I|||2:PID변환I|||3:PID Turn I|||6:PID Trans I|||7:PID Cevirin I|||9:PID Virar I|||10:PID ngoặt I|||default:PID Turn I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit118" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="63" 宽度="70" 高度="24" 文本="10" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:10" 关联变量="d.servo1.MACHSET.KI_TRANSITION" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.KI_TRANSITION"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KI_DEFAULT"/>
+<var prop="可用" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelpsw" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="3" 宽度="103" 高度="24" 语言表索引="0" 文本="0:密码|||1:Password|||2:Password|||3:Password|||4:Password|||5:Password|||6:Password|||7:Password|||8:Password|||9:Password|||10:Password|||default:Password" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="editpsw" 索引="0" 可见="-1" 可用="-1" 左="210" 顶="3" 宽度="70" 高度="24" 文本="800" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:800" 关联变量="p.PP.TMP.TMPVAL95" 延迟更新="0" 只读="0" 密码模式="-1" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL95"/>
+<var prop="文本" orient="out" tag="d.servo1.MACHSET.KP_DEFAULT"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb2" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="540" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:自学习|||1:Самообучение|||2:자기학습|||3:SelfStudy|||6:Autoestu|||7:SelfÖğre|||9:Auto Est|||10:Tự học|||default:SelfStudy"/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="80" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自学习通道|||1:Самообучающийся канал|||2:자기학습|||3:Self-study Channel|||6:Canal Autoaprend|||7:SelfÖğrenme Kanal|||9:Auto Estudo Corredor|||10:Kênh tự học|||default:Self-study Channel" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P1|||1:P1|||2:P1|||3:P1|||6:P1|||7:P1|||9:P1|||10:P1|||default:P1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check1" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="0:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="0:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox1" 索引="0" 可见="-1" 可用="-1" 左="258" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="1:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="1:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="258" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P2|||1:P2|||2:P2|||3:P2|||6:P2|||7:P2|||9:P2|||10:P2|||default:P2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox2" 索引="0" 可见="-1" 可用="-1" 左="298" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="2:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="2:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="298" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P3|||1:P3|||2:P3|||3:P3|||6:P3|||7:P3|||9:P3|||10:P3|||default:P3" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox3" 索引="0" 可见="0" 可用="-1" 左="338" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="3:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="3:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="338" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P4|||1:P4|||2:P4|||3:P4|||6:P4|||7:P4|||9:P4|||10:P4|||default:P4" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox4" 索引="0" 可见="0" 可用="-1" 左="378" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="4:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="4:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P5|||1:P5|||2:P5|||3:P5|||6:P5|||7:P5|||9:P5|||10:P5|||default:P5" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox5" 索引="0" 可见="0" 可用="-1" 左="418" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="5:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="5:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="418" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P6|||1:P6|||2:P6|||3:P6|||6:P6|||7:P6|||9:P6|||10:P6|||default:P6" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox6" 索引="0" 可见="0" 可用="-1" 左="458" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="6:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="6:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label8" 索引="0" 可见="-1" 可用="-1" 左="458" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P7|||1:P7|||2:P7|||3:P7|||6:P7|||7:P7|||9:P7|||10:P7|||default:P7" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox7" 索引="0" 可见="0" 可用="-1" 左="498" 顶="82" 宽度="30" 高度="20" 选择="0" 关联变量="7:d.hydr1.MACHSET.PRESSELF_PORT" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="7:d.hydr1.MACHSET.PRESSELF_PORT"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label9" 索引="0" 可见="-1" 可用="-1" 左="498" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:P8|||1:P8|||2:P8|||3:P8|||6:P8|||7:P8|||9:P8|||10:P8|||default:P8" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="110" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自学习Pump表|||1:Самообучающийся Pump|||2:펌프 표 선택|||3:Pump Table Select|||6:Bomba Table Selec|||7:Pompa Tablo|||9:Auto Estudo pump|||10:Chọn bàn Pump|||default:Pump Table Select" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox8" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="0:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="0:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox9" 索引="0" 可见="-1" 可用="-1" 左="258" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="1:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="1:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox10" 索引="0" 可见="-1" 可用="-1" 左="298" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="2:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="2:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox11" 索引="0" 可见="-1" 可用="-1" 左="338" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="3:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="3:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox12" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="4:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="4:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox13" 索引="0" 可见="-1" 可用="-1" 左="418" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="5:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="5:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox14" 索引="0" 可见="-1" 可用="-1" 左="458" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="6:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="6:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="checkbox15" 索引="0" 可见="-1" 可用="-1" 左="498" 顶="112" 宽度="30" 高度="20" 选择="0" 关联变量="7:d.hydr1.MACHSET.PRESSELF_PUMP" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".模具第一组导出选择"/>
+<var prop="选择" orient="in" tag="7:d.hydr1.MACHSET.PRESSELF_PUMP"/>
+<event name="点击" act="moldset select 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="140" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自学习压力|||1:Самообучающееся давление|||2:자기학습압력|||3:Self-study Prs|||6:Autoaprend Prs|||7:SelfÖğrenme Basın|||9:Auto Estudo Prs|||10:Tự học AS|||default:Self-study Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="170" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自学习速度|||1:Скорость самообучения|||2:자기학습속도|||3:Self-study Spd|||6:Autoaprend Vel|||7:SelfÖğrenme Hız|||9:Auto Estudo Fluxo|||10:Tự học TĐ|||default:Self-study Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label13" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="200" 宽度="170" 高度="24" 语言表索引="0" 文本="0:自学习结果|||1:Результаты самообучения|||2:자기학습결과|||3:Self-study Result|||6:Autoaprend Result|||7:SelfÖğrenme Sonuv|||9:Auto Estudo Resultar|||10:Tự học kết quả|||default:Self-study Result" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label14" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="230" 宽度="170" 高度="24" 语言表索引="0" 文本="0:P|||1:P|||2:P|||3:P|||7:P|||default:P" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label15" 索引="0" 可见="-1" 可用="-1" 左="35" 顶="260" 宽度="170" 高度="24" 语言表索引="0" 文本="0:I|||1:I|||2:I|||3:I|||7:I|||default:I" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit32" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="140" 宽度="70" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.hydr1.MACHSET.PRESSELF_PRES" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.PRESSELF_PRES"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_INJCT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="170" 宽度="70" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.hydr1.MACHSET.PRESSELF_FLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.PRESSELF_FLOW"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_SUCKBACK"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit112" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="230" 宽度="70" 高度="24" 文本="100" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:100" 关联变量="d.hydr1.MACHSET.PRESSELF_P" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.PRESSELF_P"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_INJCT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit113" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="260" 宽度="70" 高度="24" 文本="5" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:5" 关联变量="d.hydr1.MACHSET.PRESSELF_I" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="2500" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.PRESSELF_I"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_SUCKBACK"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="218" 顶="315" 宽度="140" 高度="24" 标题="0:压力校准|||1:Калибровка давления|||2:압력 교정|||3:Press Adjust|||6:Prs Ajuste|||7:Basın Kalibre|||9:Calibração Prs|||10:AS Điều chỉnh|||default:Press Adjust" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb3" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="540" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:超压抑制|||3:Overpres|||1:Overpres|||2:Overpres|||4:Overpres|||5:Overpres|||6:Overpres|||7:Overpres|||8:Overpres|||9:Overpres|||10:Overpres|||default:Overpres"/>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="37" 顶="22" 宽度="170" 高度="24" 语言表索引="0" 文本="0:注射动作超压抑制系数|||1:Inject Act OverPrs Coef|||2:Inject Act OverPrs Coef|||3:Inject Act OverPrs Coef|||6:Inject Act OverPrs Coef|||7:Inject Act OverPrs Coef|||9:Inject Act OverPrs Coef|||10:Inject Act OverPrs Coef|||4:Inject Act OverPrs Coef|||5:Inject Act OverPrs Coef|||8:Inject Act OverPrs Coef|||default:Inject Act OverPrs Coef" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="37" 顶="52" 宽度="170" 高度="24" 语言表索引="0" 文本="0:其它动作超压抑制系数|||1:Other Act OverPrs Coef|||2:Other Act OverPrs Coef|||3:Other Act OverPrs Coef|||6:Other Act OverPrs Coef|||7:Other Act OverPrs Coef|||9:Other Act OverPrs Coef|||10:Other Act OverPrs Coef|||4:Other Act OverPrs Coef|||5:Other Act OverPrs Coef|||8:Other Act OverPrs Coef|||default:Other Act OverPrs Coef" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit32" 索引="0" 可见="-1" 可用="-1" 左="240" 顶="22" 宽度="70" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.servo1.MACHSET.PRES_ALPHA_INJECT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.PRES_ALPHA_INJECT"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_INJCT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit111" 索引="0" 可见="-1" 可用="-1" 左="240" 顶="52" 宽度="70" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.servo1.MACHSET.PRES_ALPHA_OTHER" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.MACHSET.PRES_ALPHA_OTHER"/>
+<var prop="文本" orient="out" tag="d.inject1.HYDR.SERVO_KP_SUCKBACK"/>
+</element>
+</element>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label_F5" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="6" 宽度="151" 高度="16" 语言表索引="0" 文本="0:切换:请按F5|||1:Переключатель: F5|||2:스위치 : F5을 누름|||3:Switch:Press&quot;F5&quot;|||6:Interruptor: presione &quot;F5&quot;|||7:Değiştir: Basın &quot;F5&quot;|||9:Mudar: Pressione F5|||10:Công tắc:Nhấn&quot;F5&quot;|||default:Switch:Press&quot;F5&quot;" 横向对齐="2" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label_F7" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="6" 宽度="151" 高度="16" 语言表索引="0" 文本="0:切换:请按F7|||1:Переключатель: F7|||2:스위치 : F7을 누름|||3:Switch:Press&quot;F7&quot;|||6:Interruptor: pres &quot;F7&quot;|||7:Değiştir: Basın &quot;F7&quot;|||9:Mudar: Pressione F7|||10:Công tắc:Nhấn&quot;F7&quot;|||default:Switch:Press&quot;F7&quot;" 横向对齐="2" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="tabpage1"/>
+<id order="2" ele_index="2" ele_name="_input_range_labellabel"/>
+<id order="3" ele_index="3" ele_name="_input_range_label"/>
+<id order="4" ele_index="4" ele_name="label_F5"/>
+<id order="5" ele_index="5" ele_name="label_F7"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Сост.|||2:상태|||3:STAT|||4:STAT|||5:STAT|||6:Estado|||0:状态|||7:Durum|||8:STAT|||9:Stat|||10:Tr.thái|||default:STAT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTAT.png" 按下图片="btnSTATx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:МашКфг1|||2:구성 1|||3:CFG1|||4:CFG1|||5:CFG1|||6:Config1|||0:配置1|||7:Yapı1|||8:CFG1|||9:Cfg1|||10:CFG1|||default:CFG1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG1.png" 按下图片="btnCFG1x.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模功能&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:МашКфг2|||2:구성 2|||3:CFG2|||4:CFG2|||5:CFG2|||6:Config2|||0:配置2|||7:Yapı2|||8:CFG2|||9:Cfg2|||10:CFG2|||default:CFG2" 文本色="16777215" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG2.png" 按下图片="btnCFG2x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;开关模曲线&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:работы|||2:운영 중|||3:OPT|||4:OPT|||5:OPT|||6:Operan|||0:操作|||7:Işlemi|||8:OPT|||9:Opt|||10:OPT|||default:OPT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOPT.png" 按下图片="btnOPTx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:Насос1|||2:펌프1|||3:PUMP1|||4:PUMP1|||5:PUMP1|||6:Bomba1|||0:油泵1|||7:Pompa1|||8:PUMP1|||9:Bomba1|||10:PUMP1|||default:PUMP1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP1.png" 按下图片="btnPUMP1x.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;开关模参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="0:油泵2|||1:Насос2|||2:펌프2|||3:PUMP2|||4:PUMP2|||5:PUMP2|||6:Bomba2|||7:Pompa2|||8:PUMP2|||9:Bomba2|||10:PUMP2|||default:PUMP2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnPUMP2.png" 按下图片="btnPUMP2x.png" 聚焦图片="" 快捷键="6" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="0:动作|||1:Действие|||2:동작|||3:ACT|||4:ACT|||5:ACT|||6:Actuar|||7:Aksiyon|||8:ACT|||9:Açao|||10:ACT|||default:ACT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnACT.png" 按下图片="btnACTx.png" 聚焦图片="" 快捷键="7" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

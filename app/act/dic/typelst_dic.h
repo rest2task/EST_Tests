@@ -1,0 +1,140 @@
+#ifndef _TYPELST_DIC_H_
+#define _TYPELST_DIC_H_
+
+#ifdef __cplusplus
+    extern "C" {  /* define c style exports for c plus plus*/
+#endif
+
+typedef enum enPART_TYPE_ID
+{
+	/*系统及 基本控制部件*/
+
+	MACHINE_ID= 0x00,		/*0x00 system ID*/
+	PLC_ID,					/*0x01 PLC*/
+	MOTOR_ID = 0x04, 		/*0x04*/
+	TEMPCTRL_ID,			/*0x05*/
+	IO_ID,					/*0x06*/
+	ADMETER_ID,				/*0x07*/
+	DA_ID,					/*0x08*/
+	HYDR_ID,				/*0x09*/
+	SERVO_ID,				/*0x0A*/
+	ALARM_ID,				/*0x0B*/
+	OIL_ID,					/*0x0C*/
+	ECAT_ID,				/*0x0D*/
+	TEMPCTRLCOMM_ID,		/*0x0E*/
+	PUMP_ID = 0x0F,			/*0x0F*/
+
+	//螺杆部件
+	INJECT_ID = 0x10,		/*0x10*/
+	NOZZLE_ID,				/*0x11*/
+	INJSTOR_ID,				/*0x12*/
+	CHGPRS_ID,				/*0x13 储料下压缸*/
+	
+	//监控部件
+	QC_ID = 0x1B,			/*0x1B*/
+
+	//模座部件
+	CLAMP_ID = 0x20,		/*0x20*/
+	EJECT_ID,				/*0x21*/
+	CORE_ID,				/*0x22*/
+	AIRBLOW_ID,				/*0x23*/
+	ADJUST_ID,				/*0x24*/
+	SYSACC_ID,				/*0x25*/
+	SHUT_ID,				/*0x26*/
+	ROTATE_ID,				/*0x27*/
+	LOCK_ID,				/*0x28*/
+	SAFEDOOR_ID,			/*0x29*/
+	MODESPC_ID,				/*0x2A*/
+
+	//外部及辅助部件 
+	
+	TEMP_MW = 0x2F,			/*0x2F 模温*/
+	LUB_ID = 0x30,			/*0x30*/
+	ROBOT_ID,				/*0x31*/
+	AUTOCTRL_ID,			/*0x32*/
+	MMI_USED_ID,			/*0x33，保留给面板内部数据*/
+	PART_TYPE_END	= 0x40		
+}PART_TYPE_ID;
+
+typedef enum enACT_TYPE
+{
+	ACT_CLAMP_OPEN = 0x01,
+	ACT_CLAMP_CLOSE,
+	ACT_CLAMP_HOLD,
+	ACT_CLAMP_CLS_ADJ,
+	ACT_CLAMP_OPN_ADJ,
+	ACT_CLAMP_EXHAUST,
+	
+	/*特殊射出动作需添加*/
+	ACT_INJECT,
+	ACT_INJECT_HOLD,
+	ACT_INJECT_ADJ,
+	ACT_SUCKBACK,
+	ACT_SUCKBACK_ADJ,
+	ACT_INJECT_STORAGE,
+	
+	ACT_CHARGE,
+	ACT_CHARGE_AUTOPURGE,
+	ACT_CHARGE_ADJ,
+	ACT_CHARGE_MANUAL_PRS_FWD,
+	ACT_CHARGE_MANUAL_PRS_BWD,
+
+	ACT_NOZZLE_FWD,
+	ACT_NOZZLE_BWD,
+	ACT_NOZZLE_FWD_ADJ,
+	ACT_NOZZLE_BWD_ADJ,
+	ACT_COOL,
+
+	ACT_EJECT,
+	ACT_EJECT_FWD,
+	ACT_EJECT_BWD,
+	ACT_EJECT_FWD_VIBRATE,
+	ACT_EJECT_BWD_VIBRATE,
+	ACT_EJECT_FWD_ADJ,
+	ACT_EJECT_BWD_ADJ,
+
+	ACT_CORE_FWD,
+	ACT_CORE_BWD,
+	ACT_CORE_FWD_ADJ,
+	ACT_CORE_BWD_ADJ,
+
+	ACT_ROTATE_FWD,
+	ACT_ROTATE_BWD,
+	ACT_ROTATE_LOCK_FWD,
+	ACT_ROTATE_LOCK_BWD,
+
+	ACT_SAFEDOOR_OPEN,
+	ACT_SAFEDOOR_CLOSE,
+
+	ACT_AIRBLOW,
+
+	ACT_SLUICE_FWD,
+	ACT_SLUICE_BWD,
+
+	ACT_CHGPRS_FWD,
+	ACT_CHGPRS_BWD,
+	
+	ACT_SHUT_BWD,
+
+	ACT_SYS_ACC,
+
+	ACT_LUB,
+
+	ACT_MOTOR_ON,
+	ACT_MOTOR_OFF,
+
+	ACT_RECYLE,
+	ACT_PRERECYLE,
+
+	ACT_ADJUST_FWD,
+	ACT_ADJUST_BWD,
+	ACT_ADJUST
+}ACT_TYPE;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
+
+

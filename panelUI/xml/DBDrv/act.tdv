@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="act">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.z操作模式索引">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">手动</string>
+<string lang_id="1" lang="俄文">Ручной.</string>
+<string lang_id="2" lang="韩文">수동</string>
+<string lang_id="3" lang="英文">Manual</string>
+<string lang_id="4" lang="阿拉伯文">يدويا</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Manual</string>
+<string lang_id="7" lang="土耳其语">El ile</string>
+<string lang_id="8" lang="波斯文">دستی</string>
+<string lang_id="9" lang="葡萄牙语">MANUAL</string>
+<string lang_id="10" lang="越南文">Bằng tay</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">半自动</string>
+<string lang_id="1" lang="俄文">Semi</string>
+<string lang_id="2" lang="韩文">반자동</string>
+<string lang_id="3" lang="英文">SemiAuto</string>
+<string lang_id="4" lang="阿拉伯文">نصف التلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Semiatutomático</string>
+<string lang_id="7" lang="土耳其语">Yarı.Oto</string>
+<string lang_id="8" lang="波斯文">نیمه خودکار</string>
+<string lang_id="9" lang="葡萄牙语">SEMIAUTO</string>
+<string lang_id="10" lang="越南文">Bán tự động</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">电眼自动</string>
+<string lang_id="1" lang="俄文">Датчик автом.</string>
+<string lang_id="2" lang="韩文">센서 자동</string>
+<string lang_id="3" lang="英文">SensorAuto</string>
+<string lang_id="4" lang="阿拉伯文">العين الكهربائية التلقائية</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Automatico con fotocélula</string>
+<string lang_id="7" lang="土耳其语">Sen.Oto</string>
+<string lang_id="8" lang="波斯文">سنسور خودکار</string>
+<string lang_id="9" lang="葡萄牙语">Sensor Auto</string>
+<string lang_id="10" lang="越南文">BộCảm t.động</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">时间自动</string>
+<string lang_id="1" lang="俄文">Время автом.</string>
+<string lang_id="2" lang="韩文">시간 자동</string>
+<string lang_id="3" lang="英文">TimeAuto</string>
+<string lang_id="4" lang="阿拉伯文">تلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Automático</string>
+<string lang_id="7" lang="土耳其语">ZamanOto</string>
+<string lang_id="8" lang="波斯文">خودکار</string>
+<string lang_id="9" lang="葡萄牙语">Tempo Auto</string>
+<string lang_id="10" lang="越南文">Toàn t.động</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">粗调模</string>
+<string lang_id="1" lang="俄文">РегрвкаВысотыФормы</string>
+<string lang_id="2" lang="韩文">금형조정</string>
+<string lang_id="3" lang="英文">RoughAdjMold</string>
+<string lang_id="4" lang="阿拉伯文">قالب الخشنة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste molde</string>
+<string lang_id="7" lang="土耳其语">Sık AyarlaKalıp</string>
+<string lang_id="8" lang="波斯文">تنظیم زمخت</string>
+<string lang_id="9" lang="葡萄牙语">HT molde ajustar</string>
+<string lang_id="10" lang="越南文">Điều chỉnh thô</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">位置设定</string>
+<string lang_id="1" lang="俄文">РегрвкаПоложения</string>
+<string lang_id="2" lang="韩文">위치설정</string>
+<string lang_id="3" lang="英文">Pos Set</string>
+<string lang_id="4" lang="阿拉伯文">إعدادات الموقع</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Configuración</string>
+<string lang_id="7" lang="土耳其语">Poz Ayarla</string>
+<string lang_id="8" lang="波斯文">تنظیم موقعیت</string>
+<string lang_id="9" lang="葡萄牙语">Definir posição</string>
+<string lang_id="10" lang="越南文">Thiết lập VT</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">自动清料</string>
+<string lang_id="1" lang="俄文">Автом.Очистка</string>
+<string lang_id="2" lang="韩文">원료교환</string>
+<string lang_id="3" lang="英文">Auto Purge</string>
+<string lang_id="4" lang="阿拉伯文">المواد النظيفة التلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Auto purga</string>
+<string lang_id="7" lang="土耳其语">Oto Temizleme</string>
+<string lang_id="8" lang="波斯文">تمیز کردن خودکارانه</string>
+<string lang_id="9" lang="葡萄牙语">Auto Purge</string>
+<string lang_id="10" lang="越南文">Tự động xả L.</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">自动调模</string>
+<string lang_id="1" lang="俄文">АвтРегрвкаФормы</string>
+<string lang_id="2" lang="韩文">자동금형조정</string>
+<string lang_id="3" lang="英文">Auto AdjMold</string>
+<string lang_id="4" lang="阿拉伯文">تعديل قالب تلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Auto ajuste molde</string>
+<string lang_id="7" lang="土耳其语">Oto AyarlaKalıp</string>
+<string lang_id="8" lang="波斯文">تنظیم خودکار</string>
+<string lang_id="9" lang="葡萄牙语">Auto AdjMold</string>
+<string lang_id="10" lang="越南文">TĐ diều chỉnh k.</string>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">齿距学习</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Tooth Pitch Self-learn</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">斜率调整</string>
+<string lang_id="1" lang="俄文">РегулРампНаклона</string>
+<string lang_id="2" lang="韩文">경사 조정</string>
+<string lang_id="3" lang="英文">Ramp Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Rampa Ajuste</string>
+<string lang_id="7" lang="土耳其语">Ramp Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Ajuste inclinação</string>
+<string lang_id="10" lang="越南文">độ dốc Điều chỉnh</string>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">压力校准</string>
+<string lang_id="1" lang="俄文">Давл Калибровка</string>
+<string lang_id="2" lang="韩文">압력 교정</string>
+<string lang_id="3" lang="英文">Prs Adj</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Prs Ajuste</string>
+<string lang_id="7" lang="土耳其语">Basın Kalibre</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Calibração Prs</string>
+<string lang_id="10" lang="越南文">AS Điều chỉnh</string>
+</item>
+</group>
+</MapDrv>

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+.STYLE2 {font-size: 18px}
+.警报名字体大小 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.警报号字体颜色 {
+	color: #900;
+	font-size: 18px;
+}
+.产生机理字体大小 {
+	font-size: 18px;
+	color: #603;
+}
+.backcolor {
+	color:rgb(0,111,55);
+	word-spacing: normal;
+}
+</style>
+</head>
+
+<body>
+<p><span class="STYLE2">警报名：</span><span class="警报号字体颜色">ER.201</span><span class="警报名字体大小"> 过流2</span><br />
+ <br />
+<span class="产生机理字体大小">产生机理：</span><br />
+<span class="backcolor">硬件检测到过流。<br />
+</span></p>
+
+<table width="620" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <th width="100" bgcolor="#999999" scope="col">原因</th>
+    <th width="210" bgcolor="#999999" scope="col">处理措施</th>
+  </tr>
+  <tr>
+    <td>&nbsp;1. 输入指令与接通伺服同步或输入指令过快</td>
+    <td>&nbsp;先打开伺服使能信号，再输入指令。
+      允许情况下，加入指令滤波时间常数或加大加减速时间。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;2.制动电阻过小或短路</td>
+    <td>&nbsp;更换阻值合适的制动电阻，并 正确设置 2002-1Bh(外接制动电阻功率)2002-1Ch( 外接制动电阻阻值)。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;3.电机线缆问题</td>
+    <td>&nbsp;检查电机线缆或更换电机。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;4.电机烧坏</td>
+    <td>&nbsp;不平衡则更换电机。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;5.增益设置问题</td>
+    <td>&nbsp;进行增益调整。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;6.编码器接线问题</td>
+    <td>&nbsp;改变电机轴位置，查看 200B-0Bh 是否变化，检查是否为编码器接线问题。</td>
+  </tr>
+  <tr>
+    <td>&nbsp;7.驱动器故障</td>
+    <td>&nbsp;更换伺服驱动器。</td>
+  </tr>
+</table>
+</body>
+</html>

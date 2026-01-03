@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Supplement" 可见="-1" 标题="0:补登|||1:Макияж|||2:보충|||3:Supplement|||4:المكياج|||5:Supplement|||6:Para La Junta|||7:SUPPLEMENT|||8:مکمل|||9:Bordo|||10:Luôn luôn|||default:Supplement" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="51" 宽度="570" 高度="149" 文本="0:当前信息|||1:Currt Info|||2:Currt Info|||3:Currt Info|||4:Para Record|||5:Para Record|||6:CorrienteInfo|||7:Currt Info|||8:اطلاعات کنونی|||9:Currt Info|||10:GroupBox|||default:Currt Info" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label204" 索引="0" 可见="-1" 可用="-1" 左="30" 顶="85" 宽度="100" 高度="24" 语言表索引="0" 文本="0:分单号|||1:Номер части|||2:하위 주문|||3:PartNum|||4:رقم الجزء|||5:PartNum|||6:PartNum|||7:ParçaNum|||8:شماره بخش|||9:PontosNúm|||10:Số Phần|||default:PartNum" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label205" 索引="0" 可见="-1" 可用="-1" 左="30" 顶="119" 宽度="100" 高度="24" 语言表索引="0" 文本="0:当前产量|||1:Токо.вых.|||2:현재 수율|||3:CurProdCnt|||4:رقم المنتج الحالي|||5:CurProdCnt|||6:Actual Producción|||7:HazırÜrünSayısı|||8:خروجی فعلی|||9:Prod Atual|||10:Hiện tại|||default:Currt ProdCnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="bt_verity" 索引="0" 可见="-1" 可用="-1" 左="463" 顶="85" 宽度="90" 高度="30" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit124" 索引="0" 可见="-1" 可用="-1" 左="130" 顶="153" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL31"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="211" 宽度="570" 高度="279" 文本="0:错误列表|||1:Спис.ошиб.|||2:오류 목록|||3:Err List|||4:قائمة الأخطاء|||5:Err List|||6:Erroreslista|||7:Hata Listesi|||8:لیست اشتباه|||9:Erros Lista|||10:Danh sách lỗi|||default:ErrList" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="463" 顶="241" 宽度="100" 高度="30" 标题="0:更新|||1:Обновит|||2:업데이트|||3:Update|||4:تحديث|||5:Update|||6:Actualiz|||7:Güncelleme|||8:بروزرسانی|||9:Atua|||10:Cập nhiệt|||default:Update" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label206" 索引="0" 可见="-1" 可用="-1" 左="30" 顶="153" 宽度="100" 高度="24" 语言表索引="0" 文本="0:错误数|||1:Колич.ошиб.|||2:오류 수|||3:Error Cnt|||4:عدد الاخطاء|||5:Error Cnt|||6:ErroresNúm|||7:Hatası Sayı |||8:تعداد اشتباهات|||9:Error Conta|||10:Số lỗi|||default:Error Cnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit46" 索引="0" 可见="-1" 可用="-1" 左="130" 顶="85" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="255" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit125" 索引="0" 可见="-1" 可用="-1" 左="130" 顶="119" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="255" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label207" 索引="0" 可见="-1" 可用="-1" 左="225" 顶="85" 宽度="100" 高度="24" 语言表索引="0" 文本="0:总单号|||1:Общее число|||2:총 주문|||3:TotalNum|||4:العدد الإجمالي|||5:TotalNum|||6:TotalNúm|||7:ToplamNum|||8:تعداد کل|||9:TotalNúm|||10:Tổng số|||default:TotalNum" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label208" 索引="0" 可见="-1" 可用="-1" 左="225" 顶="119" 宽度="100" 高度="24" 语言表索引="0" 文本="0:历史补登数|||1:Ном.истор.патча|||2:이력 횟수|||3:Hist LogCnt|||4:رقم التصحيح التاريخي|||5:Hist LogCnt|||6:Hist Para La Junta|||7:TarihYamaNum|||8:شماره پچ تاریخی|||9:HistNúm|||10:Lỗi lịch sử|||default:Hist LogCnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit127" 索引="0" 可见="-1" 可用="-1" 左="325" 顶="85" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="255" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit128" 索引="0" 可见="-1" 可用="-1" 左="325" 顶="119" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="255" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label209" 索引="0" 可见="-1" 可用="-1" 左="225" 顶="153" 宽度="100" 高度="24" 语言表索引="0" 文本="0:计划产量|||1:план|||2:계획 수율|||3:Plan ProdCnt|||4:الإخراج المخطط|||5:Plan ProdCnt|||6:Plan Prod|||7:Plan ÜrünSay|||8:خروجی برنامه ریزی شده|||9:Plano Safra|||10:Kế hoạch|||default:Plan ProdCnt" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit129" 索引="0" 可见="-1" 可用="-1" 左="325" 顶="153" 宽度="90" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL22" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="1" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="255" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL22"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Variavalinser:|||10:Phạm vi:|||default:输入值范围：" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="5" ele_name="edit124"/>
+<horz order="1" ele_index="4" ele_name="bt_verity"/>
+<horz order="2" ele_index="7" ele_name="button1"/>
+<vert order="0" ele_index="5" ele_name="edit124"/>
+<vert order="1" ele_index="4" ele_name="bt_verity"/>
+<vert order="2" ele_index="7" ele_name="button1"/>
+<tab order="0" ele_index="5" ele_name="edit124"/>
+<tab order="1" ele_index="4" ele_name="bt_verity"/>
+<tab order="2" ele_index="7" ele_name="button1"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label204"/>
+<id order="3" ele_index="3" ele_name="label205"/>
+<id order="4" ele_index="4" ele_name="bt_verity"/>
+<id order="5" ele_index="5" ele_name="edit124"/>
+<id order="6" ele_index="6" ele_name="groupbox2"/>
+<id order="7" ele_index="7" ele_name="button1"/>
+<id order="8" ele_index="8" ele_name="label206"/>
+<id order="9" ele_index="9" ele_name="edit46"/>
+<id order="10" ele_index="10" ele_name="edit125"/>
+<id order="11" ele_index="11" ele_name="label207"/>
+<id order="12" ele_index="12" ele_name="label208"/>
+<id order="13" ele_index="13" ele_name="edit127"/>
+<id order="14" ele_index="14" ele_name="edit128"/>
+<id order="15" ele_index="15" ele_name="label209"/>
+<id order="16" ele_index="16" ele_name="edit129"/>
+<id order="17" ele_index="17" ele_name="_input_range_labellabel"/>
+<id order="18" ele_index="18" ele_name="_input_range_label"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:набор|||2:세트|||3:SET|||4:|||5:|||6:Conjunto|||0:设置|||7:AYAR|||8:|||9:Ajustar|||10:Cài đặt|||default:SET" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSET.png" 按下图片="btnSETx.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:про.под|||2:공인|||3:AUTH|||4:|||5:|||6:Certificación|||0:认证|||7:AUTH|||8:|||9:Cert|||10:Chứng nhận|||default:AUTH" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnAUTH.png" 按下图片="btnAUTHx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR2"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR2"/>
+<event name="点击" act="jump key 2"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:план|||2:주문 분배|||3:PLAN|||4:|||5:|||6:Plan|||0:派单|||7:PLAN|||8:|||9:Desp|||10:PLAN|||default:PLAN" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPLAN.png" 按下图片="btnPLANx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR3"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR3"/>
+<event name="点击" act="jump key 3"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Макияж|||2:보충|||3:SUPP|||4:|||5:|||6:Para La Junta|||0:补登|||7:SUPP|||8:|||9:Maqu|||10:Luôn luôn|||default:SUPP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSUPP.png" 按下图片="btnSUPP.png" 聚焦图片="btPress.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR4"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR4"/>
+<event name="点击" act="jump key 4"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="IO_Input" 可见="-1" 标题="0:输入点|||1:Вход|||2:입력위치|||3:IO In|||4:نقطة الإدخال|||5:IO In|||6:Entrada|||7:IO Gırış|||8:نقطه ورودی|||9:IO In|||10:Điểm nhập|||default:IO In" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="初始化" act="input pageIn 0 32"/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb1" 索引="1" 可见="-1" 可用="-1" 左="20" 顶="60" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL51" 关联变量位="-1" 标题="3:1|||0:1|||default:1" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL51"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL300"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR51"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb3" 索引="3" 可见="-1" 可用="-1" 左="20" 顶="116" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL53" 关联变量位="-1" 标题="3:3|||0:3|||default:3" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL53"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL302"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR53"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb2" 索引="2" 可见="-1" 可用="-1" 左="20" 顶="88" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL52" 关联变量位="-1" 标题="3:2|||0:2|||default:2" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL52"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL301"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR52"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb4" 索引="4" 可见="-1" 可用="-1" 左="20" 顶="144" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL54" 关联变量位="-1" 标题="3:4|||0:4|||default:4" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL54"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL303"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR54"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb6" 索引="6" 可见="-1" 可用="-1" 左="20" 顶="200" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL56" 关联变量位="-1" 标题="3:6|||0:6|||default:6" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL56"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL305"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR56"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb5" 索引="5" 可见="-1" 可用="-1" 左="20" 顶="172" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL55" 关联变量位="-1" 标题="3:5|||0:5|||default:5" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL55"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL304"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR55"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb7" 索引="7" 可见="-1" 可用="-1" 左="20" 顶="228" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL57" 关联变量位="-1" 标题="3:7|||0:7|||default:7" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL57"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL306"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR57"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb9" 索引="9" 可见="-1" 可用="-1" 左="20" 顶="284" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL59" 关联变量位="-1" 标题="3:9|||0:9|||default:9" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL59"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL308"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR59"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb8" 索引="8" 可见="-1" 可用="-1" 左="20" 顶="256" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL58" 关联变量位="-1" 标题="3:8|||0:8|||default:8" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL58"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL307"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR58"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb11" 索引="11" 可见="-1" 可用="-1" 左="20" 顶="340" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL61" 关联变量位="-1" 标题="3:11|||0:11|||default:11" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL61"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL310"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR61"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb15" 索引="15" 可见="-1" 可用="-1" 左="20" 顶="452" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL65" 关联变量位="-1" 标题="3:15|||0:15|||default:15" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL65"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL314"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR65"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb13" 索引="13" 可见="-1" 可用="-1" 左="20" 顶="396" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL63" 关联变量位="-1" 标题="3:13|||0:13|||default:13" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL63"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL312"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR63"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb10" 索引="10" 可见="-1" 可用="-1" 左="20" 顶="312" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL60" 关联变量位="-1" 标题="3:10|||0:10|||default:10" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL60"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL309"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR60"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb12" 索引="12" 可见="-1" 可用="-1" 左="20" 顶="368" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL62" 关联变量位="-1" 标题="3:12|||0:12|||default:12" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL62"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL311"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR62"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb16" 索引="16" 可见="-1" 可用="-1" 左="20" 顶="480" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL66" 关联变量位="-1" 标题="3:16|||0:16|||default:16" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL66"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL315"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR66"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb14" 索引="14" 可见="-1" 可用="-1" 左="20" 顶="424" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL64" 关联变量位="-1" 标题="3:14|||0:14|||default:14" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL64"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL313"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR64"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb17" 索引="17" 可见="-1" 可用="-1" 左="208" 顶="60" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL67" 关联变量位="-1" 标题="3:17|||0:17|||default:17" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL67"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL316"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR67"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb19" 索引="19" 可见="-1" 可用="-1" 左="208" 顶="116" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL69" 关联变量位="-1" 标题="3:19|||0:19|||default:19" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL69"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL318"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR69"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb18" 索引="18" 可见="-1" 可用="-1" 左="208" 顶="88" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL68" 关联变量位="-1" 标题="3:18|||0:18|||default:18" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL68"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL317"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR68"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb20" 索引="20" 可见="-1" 可用="-1" 左="208" 顶="144" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL70" 关联变量位="-1" 标题="3:20|||0:20|||default:20" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL70"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL319"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR70"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb22" 索引="22" 可见="-1" 可用="-1" 左="208" 顶="200" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL72" 关联变量位="-1" 标题="3:22|||0:22|||default:22" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL72"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL321"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR72"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb21" 索引="21" 可见="-1" 可用="-1" 左="208" 顶="172" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL71" 关联变量位="-1" 标题="3:21|||0:21|||default:21" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL71"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL320"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR71"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb23" 索引="23" 可见="-1" 可用="-1" 左="208" 顶="228" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL73" 关联变量位="-1" 标题="3:23|||0:23|||default:23" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL73"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL322"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR73"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb25" 索引="25" 可见="-1" 可用="-1" 左="208" 顶="284" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL75" 关联变量位="-1" 标题="3:25|||0:25|||default:25" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL75"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL324"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR75"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb24" 索引="24" 可见="-1" 可用="-1" 左="208" 顶="256" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL74" 关联变量位="-1" 标题="3:24|||0:24|||default:24" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL74"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL323"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR74"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb27" 索引="27" 可见="-1" 可用="-1" 左="208" 顶="340" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL77" 关联变量位="-1" 标题="3:27|||0:27|||default:27" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL77"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL326"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR77"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb31" 索引="31" 可见="-1" 可用="-1" 左="208" 顶="452" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL81" 关联变量位="-1" 标题="3:31|||0:31|||default:31" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL81"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL330"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR81"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb29" 索引="29" 可见="-1" 可用="-1" 左="208" 顶="396" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL79" 关联变量位="-1" 标题="3:29|||0:29|||default:29" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL79"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL328"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR79"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb26" 索引="26" 可见="-1" 可用="-1" 左="208" 顶="312" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL76" 关联变量位="-1" 标题="3:26|||0:26|||default:26" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL76"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL325"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR76"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb28" 索引="28" 可见="-1" 可用="-1" 左="208" 顶="368" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL78" 关联变量位="-1" 标题="3:28|||0:28|||default:28" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL78"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL327"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR78"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb32" 索引="32" 可见="-1" 可用="-1" 左="208" 顶="480" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL82" 关联变量位="-1" 标题="3:32|||0:32|||default:32" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL82"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL331"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR82"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb30" 索引="30" 可见="-1" 可用="-1" 左="208" 顶="424" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL80" 关联变量位="-1" 标题="3:30|||0:30|||default:30" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL80"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL329"/>
+<var prop="宽度" orient="in" tag="p.PP.TMP.TMPVAL0"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR80"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="545" 宽度="266" 高度="28" 标题="0:一键清除IO强制|||1:Очистить IO обязательное|||2:명확한 IO 필수|||3:One Key Clear IO Force|||6:One Key Clear IO Force|||7:Bir anahtar Temizle IO Zorunlu|||9:Uma chave para limpar IO obrigatório|||10:Một phím xóa IO Lực lượng|||default:One Key Clear IO Force" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb33" 索引="33" 可见="-1" 可用="-1" 左="396" 顶="60" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL83" 关联变量位="-1" 标题="3:33|||0:33|||default:33" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL83"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL332"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR83"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb35" 索引="35" 可见="-1" 可用="-1" 左="396" 顶="116" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL85" 关联变量位="-1" 标题="3:35|||0:35|||default:35" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL85"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL334"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR85"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb34" 索引="34" 可见="-1" 可用="-1" 左="396" 顶="88" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL84" 关联变量位="-1" 标题="3:34|||0:34|||default:34" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL84"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL333"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR84"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb36" 索引="36" 可见="-1" 可用="-1" 左="396" 顶="144" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL86" 关联变量位="-1" 标题="3:36|||0:36|||default:36" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL86"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL335"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR86"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb38" 索引="38" 可见="-1" 可用="-1" 左="396" 顶="200" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL88" 关联变量位="-1" 标题="3:38|||0:38|||default:38" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL88"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL337"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR88"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb37" 索引="37" 可见="-1" 可用="-1" 左="396" 顶="172" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL87" 关联变量位="-1" 标题="3:37|||0:37|||default:37" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL87"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL336"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR87"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb39" 索引="39" 可见="-1" 可用="-1" 左="396" 顶="228" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL89" 关联变量位="-1" 标题="3:39|||0:39|||default:39" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL89"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL338"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR89"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb41" 索引="41" 可见="-1" 可用="-1" 左="396" 顶="284" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL91" 关联变量位="-1" 标题="3:41|||0:41|||default:41" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL91"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL340"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR91"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb40" 索引="40" 可见="-1" 可用="-1" 左="396" 顶="256" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL90" 关联变量位="-1" 标题="3:40|||0:40|||default:40" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL90"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL339"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR90"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb43" 索引="43" 可见="-1" 可用="-1" 左="396" 顶="340" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL93" 关联变量位="-1" 标题="3:43|||0:43|||default:43" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL93"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL342"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR93"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb47" 索引="47" 可见="-1" 可用="-1" 左="396" 顶="452" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL97" 关联变量位="-1" 标题="3:47|||0:47|||default:47" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL97"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL346"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR97"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb45" 索引="45" 可见="-1" 可用="-1" 左="396" 顶="396" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL95" 关联变量位="-1" 标题="3:45|||0:45|||default:45" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL95"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL344"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR95"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb42" 索引="42" 可见="-1" 可用="-1" 左="396" 顶="312" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL92" 关联变量位="-1" 标题="3:42|||0:42|||default:42" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL92"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL341"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR92"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb44" 索引="44" 可见="-1" 可用="-1" 左="396" 顶="368" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL94" 关联变量位="-1" 标题="3:44|||0:44|||default:44" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL94"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL343"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR94"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb48" 索引="48" 可见="-1" 可用="-1" 左="396" 顶="480" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL98" 关联变量位="-1" 标题="3:48|||0:48|||default:48" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL98"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL347"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR98"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cb46" 索引="46" 可见="-1" 可用="-1" 左="396" 顶="424" 宽度="185" 高度="24" 选择="0" 关联变量="p.PP.TMP.TMPVAL96" 关联变量位="-1" 标题="3:46|||0:46|||default:46" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL96"/>
+<var prop="文本色" orient="in" tag="p.PP.TMP.TMPVAL345"/>
+<var prop="标题" orient="in" tag="p.PP.TMP.TMPSTR96"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblinfo" 索引="0" 可见="-1" 可用="-1" 左="121" 顶="578" 宽度="450" 高度="24" 语言表索引="0" 文本="0:输入点强制功能需在用户等级4下操作!|||1:Недостаточно прав пользователя|||2:사용자 수준 4에서 작동해야 함|||3:The input point is forced to operate at level 4!|||6:¡El punto de entrada está obligado a operar en el nivel 4!|||7:IO Gırış Zorunlu Fonk Gerek kullanıcı seviyesi4 işletmek|||9:Precisa operar no nível de usuário 4!|||10:Điểm đầu vào buộc phải hoạt động ở mức 4!|||default:The input point is forced to operate at level 4!" 横向对齐="2" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="1" ele_name="cb1"/>
+<horz order="1" ele_index="17" ele_name="cb17"/>
+<horz order="2" ele_index="34" ele_name="cb33"/>
+<horz order="3" ele_index="3" ele_name="cb2"/>
+<horz order="4" ele_index="19" ele_name="cb18"/>
+<horz order="5" ele_index="36" ele_name="cb34"/>
+<horz order="6" ele_index="2" ele_name="cb3"/>
+<horz order="7" ele_index="18" ele_name="cb19"/>
+<horz order="8" ele_index="35" ele_name="cb35"/>
+<horz order="9" ele_index="4" ele_name="cb4"/>
+<horz order="10" ele_index="20" ele_name="cb20"/>
+<horz order="11" ele_index="37" ele_name="cb36"/>
+<horz order="12" ele_index="6" ele_name="cb5"/>
+<horz order="13" ele_index="22" ele_name="cb21"/>
+<horz order="14" ele_index="39" ele_name="cb37"/>
+<horz order="15" ele_index="5" ele_name="cb6"/>
+<horz order="16" ele_index="21" ele_name="cb22"/>
+<horz order="17" ele_index="38" ele_name="cb38"/>
+<horz order="18" ele_index="7" ele_name="cb7"/>
+<horz order="19" ele_index="23" ele_name="cb23"/>
+<horz order="20" ele_index="40" ele_name="cb39"/>
+<horz order="21" ele_index="9" ele_name="cb8"/>
+<horz order="22" ele_index="25" ele_name="cb24"/>
+<horz order="23" ele_index="42" ele_name="cb40"/>
+<horz order="24" ele_index="8" ele_name="cb9"/>
+<horz order="25" ele_index="24" ele_name="cb25"/>
+<horz order="26" ele_index="41" ele_name="cb41"/>
+<horz order="27" ele_index="13" ele_name="cb10"/>
+<horz order="28" ele_index="29" ele_name="cb26"/>
+<horz order="29" ele_index="46" ele_name="cb42"/>
+<horz order="30" ele_index="10" ele_name="cb11"/>
+<horz order="31" ele_index="26" ele_name="cb27"/>
+<horz order="32" ele_index="43" ele_name="cb43"/>
+<horz order="33" ele_index="14" ele_name="cb12"/>
+<horz order="34" ele_index="30" ele_name="cb28"/>
+<horz order="35" ele_index="47" ele_name="cb44"/>
+<horz order="36" ele_index="12" ele_name="cb13"/>
+<horz order="37" ele_index="28" ele_name="cb29"/>
+<horz order="38" ele_index="45" ele_name="cb45"/>
+<horz order="39" ele_index="16" ele_name="cb14"/>
+<horz order="40" ele_index="32" ele_name="cb30"/>
+<horz order="41" ele_index="49" ele_name="cb46"/>
+<horz order="42" ele_index="11" ele_name="cb15"/>
+<horz order="43" ele_index="27" ele_name="cb31"/>
+<horz order="44" ele_index="44" ele_name="cb47"/>
+<horz order="45" ele_index="15" ele_name="cb16"/>
+<horz order="46" ele_index="31" ele_name="cb32"/>
+<horz order="47" ele_index="48" ele_name="cb48"/>
+<horz order="48" ele_index="33" ele_name="button1"/>
+<vert order="0" ele_index="1" ele_name="cb1"/>
+<vert order="1" ele_index="3" ele_name="cb2"/>
+<vert order="2" ele_index="2" ele_name="cb3"/>
+<vert order="3" ele_index="4" ele_name="cb4"/>
+<vert order="4" ele_index="6" ele_name="cb5"/>
+<vert order="5" ele_index="5" ele_name="cb6"/>
+<vert order="6" ele_index="7" ele_name="cb7"/>
+<vert order="7" ele_index="9" ele_name="cb8"/>
+<vert order="8" ele_index="8" ele_name="cb9"/>
+<vert order="9" ele_index="13" ele_name="cb10"/>
+<vert order="10" ele_index="10" ele_name="cb11"/>
+<vert order="11" ele_index="14" ele_name="cb12"/>
+<vert order="12" ele_index="12" ele_name="cb13"/>
+<vert order="13" ele_index="16" ele_name="cb14"/>
+<vert order="14" ele_index="11" ele_name="cb15"/>
+<vert order="15" ele_index="15" ele_name="cb16"/>
+<vert order="16" ele_index="17" ele_name="cb17"/>
+<vert order="17" ele_index="19" ele_name="cb18"/>
+<vert order="18" ele_index="18" ele_name="cb19"/>
+<vert order="19" ele_index="20" ele_name="cb20"/>
+<vert order="20" ele_index="22" ele_name="cb21"/>
+<vert order="21" ele_index="21" ele_name="cb22"/>
+<vert order="22" ele_index="23" ele_name="cb23"/>
+<vert order="23" ele_index="25" ele_name="cb24"/>
+<vert order="24" ele_index="24" ele_name="cb25"/>
+<vert order="25" ele_index="29" ele_name="cb26"/>
+<vert order="26" ele_index="26" ele_name="cb27"/>
+<vert order="27" ele_index="30" ele_name="cb28"/>
+<vert order="28" ele_index="28" ele_name="cb29"/>
+<vert order="29" ele_index="32" ele_name="cb30"/>
+<vert order="30" ele_index="27" ele_name="cb31"/>
+<vert order="31" ele_index="31" ele_name="cb32"/>
+<vert order="32" ele_index="33" ele_name="button1"/>
+<vert order="33" ele_index="34" ele_name="cb33"/>
+<vert order="34" ele_index="36" ele_name="cb34"/>
+<vert order="35" ele_index="35" ele_name="cb35"/>
+<vert order="36" ele_index="37" ele_name="cb36"/>
+<vert order="37" ele_index="39" ele_name="cb37"/>
+<vert order="38" ele_index="38" ele_name="cb38"/>
+<vert order="39" ele_index="40" ele_name="cb39"/>
+<vert order="40" ele_index="42" ele_name="cb40"/>
+<vert order="41" ele_index="41" ele_name="cb41"/>
+<vert order="42" ele_index="46" ele_name="cb42"/>
+<vert order="43" ele_index="43" ele_name="cb43"/>
+<vert order="44" ele_index="47" ele_name="cb44"/>
+<vert order="45" ele_index="45" ele_name="cb45"/>
+<vert order="46" ele_index="49" ele_name="cb46"/>
+<vert order="47" ele_index="44" ele_name="cb47"/>
+<vert order="48" ele_index="48" ele_name="cb48"/>
+<tab order="0" ele_index="1" ele_name="cb1"/>
+<tab order="1" ele_index="3" ele_name="cb2"/>
+<tab order="2" ele_index="2" ele_name="cb3"/>
+<tab order="3" ele_index="4" ele_name="cb4"/>
+<tab order="4" ele_index="6" ele_name="cb5"/>
+<tab order="5" ele_index="5" ele_name="cb6"/>
+<tab order="6" ele_index="7" ele_name="cb7"/>
+<tab order="7" ele_index="9" ele_name="cb8"/>
+<tab order="8" ele_index="8" ele_name="cb9"/>
+<tab order="9" ele_index="13" ele_name="cb10"/>
+<tab order="10" ele_index="10" ele_name="cb11"/>
+<tab order="11" ele_index="14" ele_name="cb12"/>
+<tab order="12" ele_index="12" ele_name="cb13"/>
+<tab order="13" ele_index="16" ele_name="cb14"/>
+<tab order="14" ele_index="11" ele_name="cb15"/>
+<tab order="15" ele_index="15" ele_name="cb16"/>
+<tab order="16" ele_index="17" ele_name="cb17"/>
+<tab order="17" ele_index="19" ele_name="cb18"/>
+<tab order="18" ele_index="18" ele_name="cb19"/>
+<tab order="19" ele_index="20" ele_name="cb20"/>
+<tab order="20" ele_index="22" ele_name="cb21"/>
+<tab order="21" ele_index="21" ele_name="cb22"/>
+<tab order="22" ele_index="23" ele_name="cb23"/>
+<tab order="23" ele_index="25" ele_name="cb24"/>
+<tab order="24" ele_index="24" ele_name="cb25"/>
+<tab order="25" ele_index="29" ele_name="cb26"/>
+<tab order="26" ele_index="26" ele_name="cb27"/>
+<tab order="27" ele_index="30" ele_name="cb28"/>
+<tab order="28" ele_index="28" ele_name="cb29"/>
+<tab order="29" ele_index="32" ele_name="cb30"/>
+<tab order="30" ele_index="27" ele_name="cb31"/>
+<tab order="31" ele_index="31" ele_name="cb32"/>
+<tab order="32" ele_index="34" ele_name="cb33"/>
+<tab order="33" ele_index="36" ele_name="cb34"/>
+<tab order="34" ele_index="35" ele_name="cb35"/>
+<tab order="35" ele_index="37" ele_name="cb36"/>
+<tab order="36" ele_index="39" ele_name="cb37"/>
+<tab order="37" ele_index="38" ele_name="cb38"/>
+<tab order="38" ele_index="40" ele_name="cb39"/>
+<tab order="39" ele_index="42" ele_name="cb40"/>
+<tab order="40" ele_index="41" ele_name="cb41"/>
+<tab order="41" ele_index="46" ele_name="cb42"/>
+<tab order="42" ele_index="43" ele_name="cb43"/>
+<tab order="43" ele_index="47" ele_name="cb44"/>
+<tab order="44" ele_index="45" ele_name="cb45"/>
+<tab order="45" ele_index="49" ele_name="cb46"/>
+<tab order="46" ele_index="44" ele_name="cb47"/>
+<tab order="47" ele_index="48" ele_name="cb48"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="cb1"/>
+<id order="2" ele_index="2" ele_name="cb3"/>
+<id order="3" ele_index="3" ele_name="cb2"/>
+<id order="4" ele_index="4" ele_name="cb4"/>
+<id order="5" ele_index="5" ele_name="cb6"/>
+<id order="6" ele_index="6" ele_name="cb5"/>
+<id order="7" ele_index="7" ele_name="cb7"/>
+<id order="8" ele_index="8" ele_name="cb9"/>
+<id order="9" ele_index="9" ele_name="cb8"/>
+<id order="10" ele_index="10" ele_name="cb11"/>
+<id order="11" ele_index="11" ele_name="cb15"/>
+<id order="12" ele_index="12" ele_name="cb13"/>
+<id order="13" ele_index="13" ele_name="cb10"/>
+<id order="14" ele_index="14" ele_name="cb12"/>
+<id order="15" ele_index="15" ele_name="cb16"/>
+<id order="16" ele_index="16" ele_name="cb14"/>
+<id order="17" ele_index="17" ele_name="cb17"/>
+<id order="18" ele_index="18" ele_name="cb19"/>
+<id order="19" ele_index="19" ele_name="cb18"/>
+<id order="20" ele_index="20" ele_name="cb20"/>
+<id order="21" ele_index="21" ele_name="cb22"/>
+<id order="22" ele_index="22" ele_name="cb21"/>
+<id order="23" ele_index="23" ele_name="cb23"/>
+<id order="24" ele_index="24" ele_name="cb25"/>
+<id order="25" ele_index="25" ele_name="cb24"/>
+<id order="26" ele_index="26" ele_name="cb27"/>
+<id order="27" ele_index="27" ele_name="cb31"/>
+<id order="28" ele_index="28" ele_name="cb29"/>
+<id order="29" ele_index="29" ele_name="cb26"/>
+<id order="30" ele_index="30" ele_name="cb28"/>
+<id order="31" ele_index="31" ele_name="cb32"/>
+<id order="32" ele_index="32" ele_name="cb30"/>
+<id order="33" ele_index="33" ele_name="button1"/>
+<id order="34" ele_index="34" ele_name="cb33"/>
+<id order="35" ele_index="35" ele_name="cb35"/>
+<id order="36" ele_index="36" ele_name="cb34"/>
+<id order="37" ele_index="37" ele_name="cb36"/>
+<id order="38" ele_index="38" ele_name="cb38"/>
+<id order="39" ele_index="39" ele_name="cb37"/>
+<id order="40" ele_index="40" ele_name="cb39"/>
+<id order="41" ele_index="41" ele_name="cb41"/>
+<id order="42" ele_index="42" ele_name="cb40"/>
+<id order="43" ele_index="43" ele_name="cb43"/>
+<id order="44" ele_index="44" ele_name="cb47"/>
+<id order="45" ele_index="45" ele_name="cb45"/>
+<id order="46" ele_index="46" ele_name="cb42"/>
+<id order="47" ele_index="47" ele_name="cb44"/>
+<id order="48" ele_index="48" ele_name="cb48"/>
+<id order="49" ele_index="49" ele_name="cb46"/>
+<id order="50" ele_index="50" ele_name="lblinfo"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Вход1|||2:입력1|||3:IN1|||4:|||5:|||6:En1|||0:输入1|||7:Giriş 1|||8:|||9:Entrar1|||10:Vào1|||default:IN1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIN1.png" 按下图片="btnIN1x.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Вход2|||2:입력2|||3:IN2|||4:|||5:|||6:En2|||0:输入2|||7:Giriş 2|||8:|||9:Entrar2|||10:Vào2|||default:IN2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIN2.png" 按下图片="btnIN2x.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;IO输入二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Выход1|||2:출력1|||3:OUT1|||4:|||5:|||6:Afuera1|||0:输出1|||7:Çıkışı 1|||8:|||9:Saída1|||10:Ngoài1|||default:OUT1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOUT1.png" 按下图片="btnOUT1x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;IO输出一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Выход2|||2:출력2|||3:OUT2|||4:|||5:|||6:Afuera2|||0:输出2|||7:Çıkışı 2|||8:|||9:Saída2|||10:Ngoài2|||default:OUT2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOUT2.png" 按下图片="btnOUT2x.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;IO输出二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;主窗口2&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:IN1|||0:输入1|||1:Вход1|||2:입력1|||4:|||5:|||6:En1|||7:Giriş 1|||8:|||9:Entrar1|||10:Vào1|||default:IN1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIN1.png" 按下图片="btnIN1x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="311465368" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="311465368"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:IN2|||0:输入2|||1:Вход2|||2:입력2|||4:|||5:|||6:En2|||7:Giriş 2|||8:|||9:Entrar2|||10:Vào2|||default:IN2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIN2.png" 按下图片="btnIN2x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:OUT1|||0:输出1|||1:Выход1|||2:출력1|||4:|||5:|||6:Afuera1|||7:Çıkışı 1|||8:|||9:Saída1|||10:Ngoài1|||default:OUT1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOUT1.png" 按下图片="btnOUT1x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:OUT2|||0:输出2|||1:Выход2|||2:출력2|||4:|||5:|||6:Afuera2|||7:Çıkışı 2|||8:|||9:Saída2|||10:Ngoài2|||default:OUT2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOUT2.png" 按下图片="btnOUT2x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:OUT3|||0:输出3|||1:Выход3|||2:출력3|||4:|||5:|||6:Afuera3|||7:Çıkışı 3|||8:|||9:Saída3|||10:Ngoài3|||default:OUT3" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOUT3.png" 按下图片="btnOUT3x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:|||0:|||1:|||2:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="2203937" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="2203937"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

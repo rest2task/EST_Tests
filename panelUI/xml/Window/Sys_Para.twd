@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Sys_Para" 可见="-1" 标题="0:机器系统参数一|||1:СистеПараметр1|||2:기계시스템1|||3:System Para1|||6:Parametros de sistema|||7:Sistem Param 1|||9:Sistema Parâm1|||10:Thông số máy 1|||default:System Para1" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="291" 高度="380" 文本="0:马达|||1:двигатель|||2:모터|||3:Motor|||4:محرك|||5:Motor|||6:Motor|||7:MOTOR|||8:موتور|||9:Motor|||10:Mô tơ|||default:Motor" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="96" 宽度="183" 高度="24" 语言表索引="0" 文本="0:Δ 启动保持时间|||1:Мотор Задержка|||2:Δ 시작 유지 시간|||3:Δ Start Keep Time|||4:Δ وقت حفظ البدء|||5:Δ Start Keep Time|||6:Δ Inicio Mant Tm|||7:Mtr Başl Tut Zaman|||8:زمان حفظ استارتΔ|||9:ΔInicia MantTemp|||10:Thời gi.khởi độ. |||default:Δ 启动保持时间" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="40" 宽度="183" 高度="24" 语言表索引="0" 文本="0:马达启动保持时间|||1:МоторЗапускатьПоддерживать|||2:모터Y 유지하다 기동|||3:Motor Str Keep Tm|||4:بدء تشغيل المحرك حفظ الوقت|||5:Motor Str Keep Tm|||6:Motor Inicio Mant Tm|||7:Motor Başlat Tut Zman|||8:زمان حفظ استارت موتور|||9:Motro Inicia MantTm|||10:TG giữ KĐ mo tơ|||default:Motor Str Keep Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label31" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="68" 宽度="183" 高度="24" 语言表索引="0" 文本="0:Y-&gt;Δ 转换时间|||1:МоторДельтаВремени|||2:Y-&gt;DELTA 변경|||3:Y -&gt; Δ  Transfer Time|||4:Y -&gt; Δ وقت التحويل|||5:Y -&gt; Δ  Transfer Time|||6:Y -&gt; Δ Trans Tm|||7:Y -&gt; Δ Çevirm Zaman|||8:زمان انتقال Y -&gt; Δ|||9:Y -&gt; Δ Temo Conversão|||10:Y -&gt; Δ TG chuyển đổi|||default:Y -&gt; Δ  Transfer Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="124" 宽度="183" 高度="24" 语言表索引="0" 文本="0:马达数量|||1:№ двигателя|||2:모터 형태|||3:Motor Number|||4:نوع المحرك|||5:Motor Number|||6:Motor Número|||7:Motor Model|||8:شماره موتور|||9:Número Motor|||10:Mô tơ Num.|||default:Motor Number" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label33" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="152" 宽度="183" 高度="24" 语言表索引="0" 文本="0:多马达启动超时检测|||1:МногиеМоторНачалотайм-аут|||2:다중모터 타임아웃감지|||3:Multi-Mt Overtm Chk|||4:محركات الكشف عن بداية|||5:Multi-Mt Overtm Chk|||6:Detect MúltiMotor Inicio Límite TM de Espera|||7:Mtr Uyarı Zman Teftiş|||8:بازرسی اضافه کار چند موتور|||9:Mul-Mt Inicia TmOutDete|||10:KT trử nhiều mo tơ KĐ quá giờ|||default:Multi-Mt Overtm Chk" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit7" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="96" 宽度="70" 高度="24" 文本="3.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:3.0" 关联变量="d.motor1.MACHSET.TM_HOLDMOTORON" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="20" 最大值="1800" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.motor1.MACHSET.TM_HOLDMOTORON"/>
+<var prop="文本" orient="out" tag="d.motor1.MACHSET.TM_HOLDMOTORON"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit8" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="40" 宽度="70" 高度="24" 文本="3.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:3.0" 关联变量="d.motor1.MACHSET.TM_MOTORYSTART" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="20" 最大值="100" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.motor1.MACHSET.TM_MOTORYSTART"/>
+<var prop="文本" orient="out" tag="d.motor1.MACHSET.TM_MOTORYSTART"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit9" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="68" 宽度="70" 高度="24" 文本="0.2" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.2" 关联变量="d.motor1.MACHSET.TM_MOTORDELTA" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="6" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.motor1.MACHSET.TM_MOTORDELTA"/>
+<var prop="文本" orient="out" tag="d.motor1.MACHSET.TM_MOTORDELTA"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit11" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="124" 宽度="70" 高度="24" 文本="1" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:1" 关联变量="d.motor1.MACHSET.FL_MOTORCNT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="1" 最大值="4" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.motor1.MACHSET.FL_MOTORCNT"/>
+<var prop="文本" orient="in" tag="d.motor1.MACHSET.FL_MOTORCNT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit12" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="152" 宽度="70" 高度="24" 文本="10.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:10.0" 关联变量="d.motor1.MACHSET.TM_WARNMOTORON" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="50" 最大值="500" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.motor1.MACHSET.TM_WARNMOTORON"/>
+<var prop="文本" orient="out" tag="d.motor1.MACHSET.TM_WARNMOTORON"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label86" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="40" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label87" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="68" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label88" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="96" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label89" 索引="0" 可见="-1" 可用="-1" 左="272" 顶="152" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox6" 索引="0" 可见="-1" 可用="-1" 左="310" 顶="10" 宽度="281" 高度="380" 文本="0:其它|||1:Другое|||2:기타|||3:Other|||4:Other|||5:Other|||6:Otros|||7:Diğer|||8:Other|||9:Outro|||10:Khác|||default:Other" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label91" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="40" 宽度="190" 高度="24" 语言表索引="0" 文本="0:开关模控制方式|||1:Закр.Режим|||2:형체제어 방법|||3:Clamp Control Mode|||6:Cierre Control Modo|||7:Menge Kontrol Modu|||9:Clamp Controle Modo|||10:Đ.mở khu.điều khiển|||default:Clamp Control Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="40" 宽度="80" 高度="24" 数据="0:普通;平顺;PID;智能;智能PID|||1:Hормальный;Гладкая;PID;умный;умныйPID|||2:정상;평탄한;PID;똑똑한;똑똑한PID|||3:Normal;Smooth;PID;Smart;SmartPID|||4:Normal;Smooth;PID;Smart;SmartPID|||5:Normal;Smooth;PID;Smart;SmartPID|||6:Normal;Suave;PID;Intelige;IntelPID|||7:Normal;Pürüzsüz;PID;Akıllı;AkıllıPID|||8:Normal;Smooth;PID;Smart;SmartPID|||9:Normal;Suave;PID;Inteligente;InteligePID|||10:Bình.t;Trơn tru;PID;TàiGiỏi;TàiGiỏi PID|||default:普通" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.clamp1.MOLDSET.FL_CLSOPEN_MODE" 当前值="0" cur_text="普通" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.clamp1.MOLDSET.FL_CLSOPEN_MODE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label205" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="292" 宽度="190" 高度="24" 语言表索引="0" 文本="0:操作模式切换使用密码|||1:Операция пароль|||2:작동 모드 암호|||3:Operate Password|||4:Operate Password|||5:Operate Password|||6:Operar Contraseña|||7:Şifre İşlet|||8:Operate Password|||9:Operate Password|||10:Mật khẩu vận hành|||default:Operate Password" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.QDCFUNC_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label208" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="320" 宽度="190" 高度="24" 语言表索引="0" 文本="0:射出监控异常停机方式|||1:InjMoni StopMd|||2:사출 생산기록 정지방식|||3:InjMoni StopMode|||4:InjMoni StopMd|||5:InjMoni StopMd|||6:InjMoni StopMode|||7:Enj Moni Dur Modu|||8:InjMoni StopMd|||9:InjMoni StopMode|||10:Bắn Chế độ tắt bất thườ|||default:InjMoni StopMode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.QDCFUNC_VISIBLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown6" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="320" 宽度="80" 高度="24" 数据="0:顶针完;开模完|||1:Вытлк Кон;КнцОткрт|||2:에젝트;형개완료|||3:EjtEnd;OpnEnd|||4:EjtEnd;OpnEnd|||5:EjtEnd;OpnEnd|||6:TrasExpul;Tras Abrir Molde|||7:İticiSon;AçmaSon|||8:EjtEnd;OpnEnd|||9:EjectFim;AbrirFim|||10:Đỡ k.tắt;Sau mở k.|||default:顶针完" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="0" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="0:d.machine1.MACHSET.FL_MACHINECTRL1" 当前值="0" cur_text="顶针完" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="0:d.machine1.MACHSET.FL_MACHINECTRL1"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL181"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.QDCFUNC_VISIBLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton1" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="292" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.FLOPMODE_USEPSW" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.FLOPMODE_USEPSW"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.QDCFUNC_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label211" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="96" 宽度="190" 高度="24" 语言表索引="0" 文本="0:计算十字头功能|||1:Расчет траверсы функции|||2:계산하다 형체력|||3:Cal. Pushtable Func|||6:Cálculo Cruceta Func|||7:Hesaplamak İtme|||9:Calcular Cruzeta|||10:Tiêu đề tính toán|||default:Cal. Pushtable Func" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton2" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="96" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.USE_PUSHPARA" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.USE_PUSHPARA"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label212" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="124" 宽度="190" 高度="24" 语言表索引="0" 文本="0:射出压力模式|||1:Впрыск Давл Режим|||2:사출 압력 방법|||3:Inject Prs Mode|||6:Inyect Prs Modo|||7:Enjekte Basın Modu|||9:Injectar Prs Modo|||10:Áp suất bắn ra|||default:Inject Prs Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown7" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="124" 宽度="80" 高度="24" 数据="0:多段;单段|||1:Много;один|||2:많은;1회|||3:Many;Single|||4:Many;Single|||5:Many;Single|||6:Muchos;Single|||7:Birçok;Tek|||8:Many;Single|||9:Muitos;Solteiro|||10:Nhiều;Một|||default:多段" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.INJPRES_SETMODE" 当前值="0" cur_text="多段" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.INJPRES_SETMODE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label213" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="152" 宽度="190" 高度="24" 语言表索引="0" 文本="0:保压速度模式|||1:СкрстВыдДвл Режим|||2:보압속도 방법|||3:Hold Spd Mode|||6:Manten Vel Modo|||7:Tutma Hızı Modu|||9:Hold Fluxo Modo|||10:Giữ áp Tốc độ|||default:Hold Spd Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown8" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="152" 宽度="80" 高度="24" 数据="0:多段;单段|||1:Много;один|||2:많은;1회|||3:Many;Single|||4:Many;Single|||5:Many;Single|||6:Muchos;Single|||7:Birçok;Tek|||8:Many;Single|||9:Muitos;Solteiro|||10:Nhiều;Một|||default:多段" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.HOLDSPD_SETMODE" 当前值="0" cur_text="多段" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.HOLDSPD_SETMODE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label214" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="180" 宽度="190" 高度="24" 语言表索引="0" 文本="0:温度曲线显示|||1:Крив.темп.Шоу|||2:온도 그래프 보이다|||3:Temp Curve Show|||6:Temp Curva Mostrar|||7:Isılar Eğri Ekran|||9:Temp Curva Show|||10:Nhiệt độ Đường cong|||default:Temp Curve Show" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton3" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="180" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.TEMP_CURVE" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.TEMP_CURVE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label215" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="208" 宽度="190" 高度="24" 语言表索引="0" 文本="0:电表功能|||1:Амперметр Функция|||2:미터 기능|||3:Elec-Meter Func|||6:Función amperímetro|||7:Metre Fonk|||9:EléMedidor Funç|||10:Chức năng công tơ|||default:Elec-Meter Func" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton4" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="208" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.machine1.MOLDSET.SRV1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.machine1.MOLDSET.SRV1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label216" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="236" 宽度="190" 高度="24" 语言表索引="0" 文本="0:28组吹气|||1:28 AirBlow|||2:28 AirBlow|||3:28 AirBlow|||6:28 AirBlow|||7:28 AirBlow|||9:28 AirBlow|||10:28 AirBlow|||4:28 AirBlow|||5:28 AirBlow|||8:28 AirBlow|||default:28 AirBlow" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown9" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="236" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.machine1.MOLDSET.FL_AIR_EXTEND28" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.machine1.MOLDSET.FL_AIR_EXTEND28"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelClpStd" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="68" 宽度="190" 高度="24" 语言表索引="0" 文本="0:开关模智能辅助功能|||1:Clamp Smart AUX Func|||2:Clamp Smart AUX Func|||3:Clamp Smart AUX Func|||6:Clamp Smart AUX Func|||7:Clamp Smart AUX Func|||9:Clamp Smart AUX Func|||10:Clamp Smart AUX Func|||4:Clamp Smart AUX Func|||5:Clamp Smart AUX Func|||8:Clamp Smart AUX Func|||default:Clamp Smart AUX Func" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dpClampSteady" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="68" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.SWITICHING_MODE_SMOOTH" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.SWITICHING_MODE_SMOOTH"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label218" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="264" 宽度="190" 高度="24" 语言表索引="0" 文本="0:OPCUA功能|||1:OPCUAFunc|||2:OPCUAFunc|||3:OPCUAFunc|||6:OPCUAFunc|||7:OPCUAFunc|||9:OPCUAFunc|||10:OPCUAFunc|||4:OPCUAFunc|||5:OPCUAFunc|||8:OPCUAFunc|||default:OPCUAFunc" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdownOPCUA" 索引="0" 可见="-1" 可用="-1" 左="505" 顶="264" 宽度="80" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.FL_USEOPCUA" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.FL_USEOPCUA"/>
+</element>
+<horz order="0" ele_index="8" ele_name="edit8"/>
+<horz order="1" ele_index="20" ele_name="dropdown2"/>
+<horz order="2" ele_index="9" ele_name="edit9"/>
+<horz order="3" ele_index="38" ele_name="dpClampSteady"/>
+<horz order="4" ele_index="7" ele_name="edit7"/>
+<horz order="5" ele_index="26" ele_name="stbutton2"/>
+<horz order="6" ele_index="10" ele_name="edit11"/>
+<horz order="7" ele_index="28" ele_name="dropdown7"/>
+<horz order="8" ele_index="11" ele_name="edit12"/>
+<horz order="9" ele_index="30" ele_name="dropdown8"/>
+<horz order="10" ele_index="32" ele_name="stbutton3"/>
+<horz order="11" ele_index="34" ele_name="stbutton4"/>
+<horz order="12" ele_index="36" ele_name="dropdown9"/>
+<horz order="13" ele_index="40" ele_name="dropdownOPCUA"/>
+<horz order="14" ele_index="24" ele_name="stbutton1"/>
+<horz order="15" ele_index="23" ele_name="dropdown6"/>
+<vert order="0" ele_index="8" ele_name="edit8"/>
+<vert order="1" ele_index="9" ele_name="edit9"/>
+<vert order="2" ele_index="7" ele_name="edit7"/>
+<vert order="3" ele_index="10" ele_name="edit11"/>
+<vert order="4" ele_index="11" ele_name="edit12"/>
+<vert order="5" ele_index="20" ele_name="dropdown2"/>
+<vert order="6" ele_index="38" ele_name="dpClampSteady"/>
+<vert order="7" ele_index="26" ele_name="stbutton2"/>
+<vert order="8" ele_index="28" ele_name="dropdown7"/>
+<vert order="9" ele_index="30" ele_name="dropdown8"/>
+<vert order="10" ele_index="32" ele_name="stbutton3"/>
+<vert order="11" ele_index="34" ele_name="stbutton4"/>
+<vert order="12" ele_index="36" ele_name="dropdown9"/>
+<vert order="13" ele_index="40" ele_name="dropdownOPCUA"/>
+<vert order="14" ele_index="24" ele_name="stbutton1"/>
+<vert order="15" ele_index="23" ele_name="dropdown6"/>
+<tab order="0" ele_index="8" ele_name="edit8"/>
+<tab order="1" ele_index="20" ele_name="dropdown2"/>
+<tab order="2" ele_index="9" ele_name="edit9"/>
+<tab order="3" ele_index="38" ele_name="dpClampSteady"/>
+<tab order="4" ele_index="7" ele_name="edit7"/>
+<tab order="5" ele_index="26" ele_name="stbutton2"/>
+<tab order="6" ele_index="10" ele_name="edit11"/>
+<tab order="7" ele_index="28" ele_name="dropdown7"/>
+<tab order="8" ele_index="11" ele_name="edit12"/>
+<tab order="9" ele_index="30" ele_name="dropdown8"/>
+<tab order="10" ele_index="32" ele_name="stbutton3"/>
+<tab order="11" ele_index="34" ele_name="stbutton4"/>
+<tab order="12" ele_index="36" ele_name="dropdown9"/>
+<tab order="13" ele_index="40" ele_name="dropdownOPCUA"/>
+<tab order="14" ele_index="24" ele_name="stbutton1"/>
+<tab order="15" ele_index="23" ele_name="dropdown6"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label28"/>
+<id order="3" ele_index="3" ele_name="label29"/>
+<id order="4" ele_index="4" ele_name="label31"/>
+<id order="5" ele_index="5" ele_name="label32"/>
+<id order="6" ele_index="6" ele_name="label33"/>
+<id order="7" ele_index="7" ele_name="edit7"/>
+<id order="8" ele_index="8" ele_name="edit8"/>
+<id order="9" ele_index="9" ele_name="edit9"/>
+<id order="10" ele_index="10" ele_name="edit11"/>
+<id order="11" ele_index="11" ele_name="edit12"/>
+<id order="12" ele_index="12" ele_name="label86"/>
+<id order="13" ele_index="13" ele_name="label87"/>
+<id order="14" ele_index="14" ele_name="label88"/>
+<id order="15" ele_index="15" ele_name="label89"/>
+<id order="16" ele_index="16" ele_name="_input_range_labellabel"/>
+<id order="17" ele_index="17" ele_name="_input_range_label"/>
+<id order="18" ele_index="18" ele_name="groupbox6"/>
+<id order="19" ele_index="19" ele_name="label91"/>
+<id order="20" ele_index="20" ele_name="dropdown2"/>
+<id order="21" ele_index="21" ele_name="label205"/>
+<id order="22" ele_index="22" ele_name="label208"/>
+<id order="23" ele_index="23" ele_name="dropdown6"/>
+<id order="24" ele_index="24" ele_name="stbutton1"/>
+<id order="25" ele_index="25" ele_name="label211"/>
+<id order="26" ele_index="26" ele_name="stbutton2"/>
+<id order="27" ele_index="27" ele_name="label212"/>
+<id order="28" ele_index="28" ele_name="dropdown7"/>
+<id order="29" ele_index="29" ele_name="label213"/>
+<id order="30" ele_index="30" ele_name="dropdown8"/>
+<id order="31" ele_index="31" ele_name="label214"/>
+<id order="32" ele_index="32" ele_name="stbutton3"/>
+<id order="33" ele_index="33" ele_name="label215"/>
+<id order="34" ele_index="34" ele_name="stbutton4"/>
+<id order="35" ele_index="35" ele_name="label216"/>
+<id order="36" ele_index="36" ele_name="dropdown9"/>
+<id order="37" ele_index="37" ele_name="labelClpStd"/>
+<id order="38" ele_index="38" ele_name="dpClampSteady"/>
+<id order="39" ele_index="39" ele_name="label218"/>
+<id order="40" ele_index="40" ele_name="dropdownOPCUA"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Парам1|||2:변수1|||3:PARA1|||4:PARA1|||5:PARA1|||6:Param1|||0:参数一|||7:Param1|||8:PARA1|||9:Parâm1|||10:tham số1|||default:PARA1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA1.png" 按下图片="btnPARA1x.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Парам2|||2:변수2|||3:PARA2|||4:PARA2|||5:PARA2|||6:Param2|||0:参数二|||7:Param2|||8:PARA2|||9:Parâm2|||10:tham số2|||default:PARA2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA2.png" 按下图片="btnPARA2x.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Парам3|||2:변수3|||3:PARA3|||4:PARA3|||5:PARA3|||6:Param3|||0:参数三|||7:Param3|||8:PARA3|||9:Parâm3|||10:tham số3|||default:PARA3" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA3.png" 按下图片="btnPARA3x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;Sys_Para3&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Парам4|||2:변수4|||3:PARA4|||4:PARA4|||5:PARA4|||6:Param4|||0:参数四|||7:Param4|||8:PARA4|||9:Parâm4|||10:tham số4|||default:PARA4" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA4.png" 按下图片="btnPARA4x.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;Sys_Para4&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:состав|||2:구조|||3:STRUCT|||4:STRUCT|||5:STRUCT|||6:Estruct|||0:结构|||7:Yapısı|||8:STRUCT|||9:Estrutura|||10:kết cấu|||default:STRUCT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTRUCT.png" 按下图片="btnSTRUCTx.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:LIMIT|||2:LIMIT|||3:LIMIT|||4:LIMIT|||5:LIMIT|||6:LIMIT|||0:上限|||7:LIMIT|||8:LIMIT|||9:LIMIT|||10:LIMIT|||default:LIMIT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLIMIT.png" 按下图片="btnLIMITx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;系统&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:PARA1|||0:参数一|||1:Парам1|||2:변수1|||4:PARA1|||5:PARA1|||6:Param1|||7:Param1|||8:PARA1|||9:Parâm1|||10:tham số1|||default:PARA1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA1.png" 按下图片="btnPARA1x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="6750318" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="6750318"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:PARA2|||0:参数二|||1:Парам2|||2:변수2|||4:PARA2|||5:PARA2|||6:Param2|||7:Param2|||8:PARA2|||9:Parâm2|||10:tham số2|||default:PARA2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA2.png" 按下图片="btnPARA2x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="515833961" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="515833961"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:PARA3|||0:参数三|||1:Парам3|||2:변수3|||4:PARA3|||5:PARA3|||6:Param3|||7:Param3|||8:PARA3|||9:Parâm3|||10:tham số3|||default:PARA3" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA3.png" 按下图片="btnPARA3x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="517538065" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="517538065"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:PARA4|||0:参数四|||1:Парам4|||2:변수4|||4:PARA4|||5:PARA4|||6:Param4|||7:Param4|||8:PARA4|||9:Parâm4|||10:tham số4|||default:PARA4" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA4.png" 按下图片="btnPARA4x.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="3014763" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="3014763"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:STRUCT|||0:结构|||1:состав|||2:구조|||4:STRUCT|||5:STRUCT|||6:Estruct|||7:Yapısı|||8:STRUCT|||9:Estrutura|||10:kết cấu|||default:STRUCT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTRUCT.png" 按下图片="btnSTRUCTx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="6750318" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="6750318"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:LIMIT|||0:上限|||1:LIMIT|||2:LIMIT|||4:LIMIT|||5:LIMIT|||6:LIMIT|||7:LIMIT|||8:LIMIT|||9:LIMIT|||10:LIMIT|||default:LIMIT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLIMIT.png" 按下图片="btnLIMITx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:SPLIMIT|||0:特殊限|||1:SPLIMIT|||2:SPLIMIT|||4:SPLIMIT|||5:SPLIMIT|||6:SPLIMIT|||7:SPLIMIT|||8:SPLIMIT|||9:SPLIMIT|||10:SPLIMIT|||default:SPLIMIT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSPLIMIT.png" 按下图片="btnSPLIMITx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

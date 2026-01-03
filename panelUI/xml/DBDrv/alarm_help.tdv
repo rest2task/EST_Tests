@@ -1,0 +1,1911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="alarm_help">
+<config name="转换器类型" value="十六进制"/>
+<group data_src="">
+<item type="0">
+<value>100103</value>
+<string lang_id="0" lang="中文">警报名：全程未定时完成
+
+
+警报说明：
+1.自动运行选择时间自动，全程计时超过警报计时上限。
+
+
+排除方法：
+1.查看“生产自动警报”中的数据，查看造成延时的动作；将该警报上限值适当延长；
+
+2.排除造成动作延时的机械故障。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Cycle Time Exceeded
+
+
+Description：
+1.Time automatic operation is enabled. The whole process takes longer than the alarm time.
+
+
+Troubleshooting：
+1.Check parameters in Auto Alarm and movement that causes the delay; Increase the upper limit of the alarm;
+
+
+2.Solve the mechanical failure that causes the delay.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1010010d</value>
+<string lang_id="0" lang="中文">警报名：料位过低
+
+
+警报说明:
+1.BMC机，储料过程中检测到“下压缸料位低”或“下压缸进终”。
+
+
+排除方法:
+1.查看下压缸是否进终，料位是否低于下限；
+
+
+2.查看面板IO界面“下压缸料位低”、“下压缸进终”输入点是否正常，相应检测开关是否损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Charge Low
+
+
+Description:
+1.It happens on a BMC IMM. Low ChargeDown Material Level or ChargeDown FWD End is detected.
+
+
+Troubleshooting:
+1.Check if the charge down cylinder reaches the forward end and the material level reaches the bottom limit;
+
+
+2.Enter I/O enter to check input Low ChargeDown Material Level and ChargeDown FWD End, and if the detection switch is damaged. 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>2010010c</value>
+<string lang_id="0" lang="中文">警报名：机械安全异常
+
+
+警报说明：
+1. 关模和半自动再循环时，“机械安全检知”输入点被触发。
+
+
+排除方法：
+1.查看面板IO界面“机械安全检知”输入是否正常，机械安全检知开关是否损坏；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+2.查看机械保护装置是否有异物卡住。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Machine Safe Error
+
+
+Description：
+1. When another clamp closing and semi-auto cycle begins, the input Mechanical Safety Detect is triggered.
+
+
+Troubleshooting：
+1.Check input Mechanical Safety Detect on the IO interface and if the mechanical safety detection switch is damaged. 
+Note: See page 3 for the checking method.
+
+2.Check if the mechanical protection device is jammed by a foreign object.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>2010010e</value>
+<string lang_id="0" lang="中文">警报名：模温偏差
+
+
+警报说明：
+1.模温偏差警报。
+
+
+排除方法：
+1.查看面板IO界面“模温警报”输入点是否正常；
+
+
+2.查看外部模温工作情况。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Mold Temp. Error
+
+
+Description：
+1.The system gives the mold temperature error alarm.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Mold Temperature Alarm;
+
+
+2.Check the external mold temperature.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>2910010a</value>
+<string lang_id="0" lang="中文">警报名：自动门安全异常
+
+
+警报说明：
+1.自动安全门关闭过程中，“安全门防碰”输入点被触发。
+
+
+排除方法：
+1.进入面板IO界面查看“安全门防碰”输入点，查看安全门防碰感应开关(红外线门帘)是否损坏；
+
+
+2.查看主机“安全门防碰”输入点或输入信号是否异常。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">AutoDoor Check Error
+
+
+Description：
+1.Two front power door stroke detection switches remain in different status for more than 2 seconds
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Power Door Close and Power Door Close #2, and if switches of Power Door Close and Power Door Close #2 are damaged.
+
+
+2.Find out the mechanical failure that causes asynchronization of the power door closing limit switches.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>4100101</value>
+<string lang_id="0" lang="中文">警报名：马达启动失败
+
+
+警报说明：
+1.马达未启动成功。
+
+
+排除方法：
+1.查看面板IO界面“马达启动完成”输入是否正常；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+2.查看外部马达启动接触器及线路。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Motor Fail
+
+
+Description：
+1.The motor fails to be started.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Motor Start; 
+Note: See page 3 for the checking method;
+
+2.Check the external motor starting contactor and circuit.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>4100102</value>
+<string lang_id="0" lang="中文">警报名：马达过载
+
+
+警报说明：
+1.马达过载。
+
+
+排除方法:
+1.请确认外部马达热继电器是否正常；电机三相是否有过流；
+
+
+2.查看I/O界面，“马达过载”输入信号或者输入点是否异常。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Motor Overload
+
+
+Description：
+1.The motor is overloaded.
+
+
+Troubleshooting:
+1.Check the external thermal relay of the motor; Check if over-current occurs on the motor's three-phase winding;
+
+
+2.Enter I/O interface to check input signal or input of Motor Overload. 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>4100103</value>
+<string lang_id="0" lang="中文">警报名：马达未启动
+
+
+警报说明：
+1.马达未启动，不能进行自整定；或整定过程中马达被关掉。
+
+
+排除方法：
+1.启动马达后重新进行比例阀自整定。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Motor Not Start
+
+
+Description：
+1.The motor cannot be self-tuned before being started; or the motor is switched off during the self-tuning process.
+
+
+Troubleshooting：
+1.Self-tune the proportional valve again after switching on the motor.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>4100104</value>
+<string lang_id="0" lang="中文">警报名：电机温度过高
+
+
+警报说明：
+1.检测到电机温度超过“电机温度上限”。
+
+
+排除方法：
+1.查看电机风扇是否正常工作；
+
+
+2.查看电机温度检测热电偶是否正常。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Motor Temperature High
+
+
+Description：
+1.The motor's temperature exceeds the Upper Motor Temperature Limit.
+
+
+Troubleshooting：
+1.Check if the motor's fan works properly;
+
+
+2.Check the thermocouple for motor temperature detection.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>5100101</value>
+<string lang_id="0" lang="中文">警报名：预温计时未到
+
+
+警报说明：
+1. 料筒温度到达设定温度后，做注射、储料、射退动作，但“预温计时”未完成。
+
+
+排除方法：
+1.等待时间到达；
+
+
+2.若不需要“预温计时”功能，进入“温度设定”——“预温计时”时间设为“0”关闭。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Heater Warm Up Time
+
+
+Description：
+1. When the tube reaches the set temperature and is ready for injection, charging and suck-back, Heater Warm Time is not reached.
+
+
+Troubleshooting：
+1.Wait until the time is reached.；
+
+
+2.If Heater Warm Time is unnecessary, enter Temperature Setting to set Heater Warm Time to 0.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>5100102</value>
+<string lang_id="0" lang="中文">警报名：温度没有上升
+
+
+警报说明：
+1.使用电热连续加温检查功能，首次加热过程，200秒内某一段温度没有上升。
+
+
+排除方法;
+1.查看面板IO界面“电热(1-6)”输出是否正常，外围接线是否可靠；
+?提示：查看方法请参考page2。
+
+
+2.查看料管加热线圈供电是否正常；
+
+
+3.查看加热圈、加热线是否断线。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Temperature not up
+
+
+Description：
+1.When electric continuous heating detection is enabled, the temperature of a section has not risen in 200 seconds during the first heating process.
+
+
+Troubleshooting;
+1.Enter I/O interface to check output Heating (1-6) and if the external wiring is reliable; 
+?Note: See page 2 for the checking method.
+
+
+2.Check if the heating coil of the charging tube is powered properly;
+
+
+3.Check if the heating ring or cable is broken.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>5100103</value>
+<string lang_id="0" lang="中文">警报名：取消保温模式
+
+
+警报说明：
+1. 请进入“温度设定”—“保温功能”选择不使用。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">TemperatureHold
+
+
+Description：
+1. Enter Temperature Setting to disable Warming.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>9100101</value>
+<string lang_id="0" lang="中文">警报名：压力传感器无效
+
+
+警报说明：
+1.压力传感器无效警报(压力传感器为1-5V)。
+
+
+排除方法：
+1.确认压力传感器输出电压1-5V；
+
+
+2.机器没有工作的状态下，查看压力传感器反馈电压应&gt;5/7≈0. 71V；
+提示：如下图量测压力传感器信号对地电压，应在1V左右。
+
+3.查看传感器插头，连接线，更换压力传感器。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Pressure Sensor Invalid
+
+
+Description：
+1.The system gives a pressure sensor failure alarm (the pressure sensor is 1-5V).
+
+
+Troubleshooting：
+1.Ensure that the output voltage of the pressure sensor ranges between 1 and 5V;
+
+
+2.When the machine is idle, the feedback voltage of the pressure sensor should be larger than 5/7, approximately 0. 71V; 
+Note: Check the pressure sensor signal's voltage to ground as shown in the following figure, which should be about 1V.
+
+3.Check the plug and cable of the sensor. Replace the pressure sensor.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>9100102</value>
+<string lang_id="0" lang="中文">警报名：压力传感器未归零
+
+
+警报说明：
+1.马达启动时检测到压力传感器反馈压力值小于-2Bar，或大于5Bar的范围。
+
+
+排除方法：
+1.系统存在残压，不要开马达，按座退动作，开启动作阀，将系统残压泄掉；
+
+
+2.在确认实际压力为零时，进入电子尺调整页面将传感器归零。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Pressure Sensor Not Zero
+
+
+Description：
+1.When the motor is started, the feedback pressure of the pressure sensor is lower than -2Bar or larger than 5Bar.
+
+
+Troubleshooting：
+1.Do not switch on the motor when there is residual pressure. Press Nozzle RET. to open the operation valve and release residual pressure.
+
+
+2.After the actual pressure falls to 0, enter the electric scale adjustment page to reset the sensor.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>9100107</value>
+<string lang_id="0" lang="中文">警报名：转速波动过大，请检查
+
+
+警报说明:
+1.伺服比例泄压阀整定时，实际电机转速波动超过“转速波动最大值”。
+
+
+排除方法:
+1.查看设置的波动范围是否过小；
+
+
+2.查看转矩上限是否设置过小。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Spd Wave Too Max，Please Check
+
+
+Description:
+1.When the servo's proportional pressure relief valve is tuned, the actual rotate fluctuation of the motor exceeds Max Rotate Fluctuation.
+
+
+Troubleshooting:
+1.Check if the fluctuation range is set too small;
+
+
+2.Check if the maximum torque is set too low.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>9100109</value>
+<string lang_id="0" lang="中文">警报名：未到设定压力，检查油路
+
+
+警报说明：
+1.伺服比例阀自整定过程，压力在5S内未达到设定值。
+
+
+排除方法：
+1.若DA值出现多个4000，需要检查油路是否有泄漏；
+
+
+2.查看比例阀是否调整合适；
+调整方法：机器组装完毕，使用内六角扳手顺时针旋转比例阀尾部锁紧螺丝，强制关闭比例阀；然后对机器进行试压操作，至压力正常后，再逆时针旋转比例阀尾部螺丝，使与尾盖平齐。
+
+
+3.查看系统溢流阀是否拧紧。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Press Have Not Set
+
+
+Description：
+1.During the self-tuning process of the servo's proportional valve, the set pressure is not reached in 5 seconds.
+
+
+Troubleshooting：
+1.If multiple DA values become 4000, check any leakage in the oil circuit;
+
+
+2.Check if the proportional valve is adjusted properly; 
+Adjustment method: After the machine is assembled, use an internal hexagonal wrench to tighten the screw clockwise at the end of the valve; Test the pressure of the machine. After the pressure becomes normal, loosen the same screw and parallel it with the tail cover.
+
+
+3.Check if the overflow valve is well tightened.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10100101</value>
+<string lang_id="0" lang="中文">警报名：射出监控失败
+
+
+警报说明：
+1.射出终止位置超出“射出监控”允许偏差范围。
+
+
+排除方法：
+1.查看是否有缺料、溢料；
+
+
+2.查看射嘴是否阻塞；
+
+
+3.查看生产自动警报“射出监控”位置是否过小；
+
+
+4.若监测射出三段，查看面板IO界面“射出三段”输入是否正常，射出三段监测开关是否损坏。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Inject Cushion Error
+
+
+Description：
+1.The injection end position is beyond the maximum error allowed by Injection Monitor.
+
+
+Troubleshooting：
+1.Check if there is material shortage or spilth;
+
+
+2.Check if the nozzle is blocked;
+
+
+3.Check if auto alarm Injection Monitor is set too small;
+
+
+4.If inject #3 is monitored, enter I/O interface to check Inject #3 and if the monitor switch of inject #3 is damaged.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10100103</value>
+<string lang_id="0" lang="中文">警报名：储料未定时完成
+
+
+警报说明：
+1.储料动作时间超过储料警报计时上限。
+
+
+排除方法：
+1.查看料斗是否有料；
+
+
+2.如果执行手动储料，进入“警报”-“F3参数”修改“储料计时警报上限”；
+说明：“自动警报启动模数”选择“0”，不使用“生产自动警报”中的参数。
+
+
+3.如果自动运行时警报，进入“警报”-“F2警报”修改“储料计时上限”。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Hopper Empty
+
+
+Description：
+1.The entire charging process exceeds the maximum charging alarm time.
+
+
+Troubleshooting：
+1.Check if there is material in the hopper;
+
+
+2.If manual charging is performed, select Alarm -&gt; F3 PAR to modify Charging Alarm Time; 
+Note: Set Auto Alarm On Cycle Number to 0 and disable Auto Alarm.
+
+
+3. If the alarm is given during automatic operation, select Alarm -&gt; F2 Alarm to modify Charging Alarm Time.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10100107</value>
+<string lang_id="0" lang="中文">警报名：射退终未到定位
+
+
+警报说明：
+1. 射退动作未达到射退终止位置，超出警报计时上限。
+
+
+排除方法：
+1.调整射退终止位置；
+提示：查看当前电子尺位置，应大于等于射退终止位置设定值；
+
+
+2.查看料嘴是否堵塞、料筒塑料是否正常。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">SuckBack End Error
+
+
+Description：
+1. The suck-back movement does not reach the required end position and takes longer than the suck-back alarm time.
+
+
+Troubleshooting：
+1.Adjust the suck-back end position; 
+Note: Check the reading of the electric scale, which should be equal to or larger than the set suck-back end position；
+
+
+2.Check if the nozzle is blocked and the material in the barrel is normal.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1010010c</value>
+<string lang_id="0" lang="中文">警报名：料管温度偏差
+
+
+警报说明：
+1.做储料、射出、清料、储料加压、射退动作时，检测到料管某一段或多段实际温度超出警报偏差范围。
+
+
+排除方法：
+1.请开启马达，首先确认保险丝正常；
+
+2.等待料管加热至设定温度；
+
+3.如果长时间温度未上升，查看面板IO界面“电热(1-6)”输出点是否正常；
+
+提示：进入电热输出界面，光标移到相应输出点，按输入键强制输出，观察万用表电压档有无输出（DC24V或AC220V) ；
+
+4.查看加热圈、加热线是否断线。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Temperature Error
+
+
+Description：
+1.One or more sections of the tube exceed the set temperature limit during the charge, injection, purge, pressurization or suck-back.
+
+
+Troubleshooting：
+1.Switch on the motor and check the fuse;
+
+2.Heat the tube to the set temperature;
+
+3.If the temperature fails to rise in a long period of time, check "Heating (1-6)" outputs on the IO interface
+
+Note: Enter the heating output interface. Move the cursor to relevant outputs. Press ENTER to start compulsory output. Switch the multi-meter to voltage and check the output (DC24V or AC22V);
+
+Check if the heating ring or cable is broken.</string>
+<string lang_id="4" lang="阿拉伯文">1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100101</value>
+<string lang_id="0" lang="中文">警报名：关模未到定位
+
+
+警报说明：
+1.关模过程，关模时间超过关模计时警报上限；
+
+
+2.使用美规标准，座进前判断关模是否到底。
+
+
+排除方法：
+1.查看面板IO界面“关模终”输入是否正常，关模终行程开关是否损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">The mold is not fully closed.
+
+
+Description：
+1.The clamp closing time exceeds the maximum alarming clamp closing time during the closing process；
+
+
+2.When UL is used, complete clamp closing is judged before nozzle advance.
+
+
+Troubleshooting：
+1.Check input Clamp Close End on the IO interface and if the stroke switch of Clamp Close End is damaged; 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100103</value>
+<string lang_id="0" lang="中文">警报名：关模保护失败
+
+
+警报说明：
+1.关模低压动作的时间超过关模低压计时警报上限，或者高压锁模动作时间超过关模高压计时警报上限。
+
+
+排除方法：
+1.查看模腔内是否有异物；
+
+
+2.调整关模低压的压力、流量参数。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Mold Protection Error
+
+
+Description：
+1.The clamp closing low-pressure action takes longer than the Closing Low Pressure Alarm Time, or the high-pressure closing action takes longer than the Closing High Pressure Alarm Time.
+
+
+Troubleshooting：
+1.Check if there is any foreign materials in cavities;
+
+
+2.Adjust the pressure and flow parameters of the low-pressure closing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100104</value>
+<string lang_id="0" lang="中文">警报名：开模未到定位
+
+
+警报说明：
+1.开模过程，开模时间超过开模计时警报上限；
+
+
+2.震雄自动调模，开模终止位置超出有效区范围；
+
+
+3.托模前检测到开模未到定位。
+
+
+排除方法：
+1.排除造成开模动作延时的机械故障，重新设置“开模计时警报上限”；
+
+
+2.查看面板IO界面“开模终”输入是否有效，“开模终”行程开关是否损坏；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+3.合理设置开模位置有效区；
+提示：|当前实际位置-开模终止位置| &lt; 开模位置有效区；
+
+
+4.调整开模压力流量参数。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Mold Open Time Out
+
+
+Description：
+1.The clamp opening time exceeds the maximum alarming clamp opening time during the opening process;
+
+
+2.It happens in automatic Chenhsong mold adjustment. The clamp opening end position exceeds the effective area;
+
+
+3.The mold is not fully open before ejection.
+
+
+Troubleshooting：
+1.Solve the mechanical failure that causes the clamp opening delay. Reset Max Alarming Clamp Opening Time;
+
+2.Check input Clamp Open End on the IO interface and if the stroke switch of Clamp Open End is damaged；
+Note: See page 3 for the checking method;
+
+3.Set the effective clamp opening area properly; 
+Note: |Current actual position - end opening position| &lt; the effective opening area;
+
+4.Adjust clamp opening pressure and flow parameters.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100106</value>
+<string lang_id="0" lang="中文">警报名：开模数已到
+
+
+警报说明：
+1.总开模数已到达设定开模总数。
+
+
+排除方法：
+1.在生产管理页面将开模总数清零。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Set Shot Cnt Complete
+
+
+Description：
+1.The set number of clamp opening cycles has been reached.
+
+
+Troubleshooting：
+1.Null the number of clamp opening cycles in Production MGT.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100107</value>
+<string lang_id="0" lang="中文">警报名：开模装数己到
+
+
+警报说明：
+1.开模数已经达到单一包装开模数设定值。
+
+
+排除方法：
+1.进入生产管理页面，将本包开模数清零。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Set Shot Cnt Complete
+
+
+Description：
+1.The number of clamp opening cycles set for single packaging is reached.
+
+
+Troubleshooting：
+1.Enter Production MGT to reset the number of clamp opening cycles.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>20100108</value>
+<string lang_id="0" lang="中文">警报名：开模一慢未定位
+
+
+警报说明:
+1.自动调模首次压模时，关模时间超过“自调模低压计时”。
+
+
+排除方法:
+1.查看关模到底曲臂伸直时，模座电子尺是否处于零位，如果不是请归零；
+提示：确认开关模电子尺实际值+10 &lt; 开模一段终止位置。
+
+
+2.延长自调模低压计时。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Opn 1-Slow Posn Error
+
+
+Description:
+1.In the first clamp closing cycle under automatic mold adjustment, the closing time exceeds Auto ADJ Low Pressure Time.
+
+
+Troubleshooting:
+1.Check if the electric scale of the clamp is null when the clamp is fully closed and crank arm stretches straight. If not, null the scale; 
+Note: Make sure that the actual reading of the electric scale of clamp opening and closing +10 &lt; end position of Open #1.
+
+
+2.Increase the Auto ADJ Low Pressure Time.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>21100101</value>
+<string lang_id="0" lang="中文">警报名：托模未到定位
+
+
+警报说明：
+1.托模未退到有效位置。
+
+
+排除方法：
+1.进入托模参数页面，合理设置“托模退位置有效区”和“托模终止位置”；
+
+
+2.查看面板IO界面“托退终”输入是否正常，托退终接近开关是否损坏；
+
+
+3.若使用顶针保护功能，请查看面板IO界面“顶针保护”输入是否正常，顶针保护开关是否损坏。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Eject Position Error
+
+
+Description：
+1.The ejector does not return to the effective position.
+
+
+Troubleshooting：
+1.Enter the ejector parameter page and set Effective Eject Return Area and Eject End Position properly;
+
+
+2.Enter I/O interface to ensure input Ejector Ret End and if the ejector return end proximity switch is damaged;
+
+
+3.If ejector protection is enabled, enter I/O interface to check input Ejector Protection and if the ejector protection switch is damaged. </string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>21100103</value>
+<string lang_id="0" lang="中文">警报名：托模方式错误
+
+
+警报说明：
+1.“托模方式”选择“停留”，工作模式选择时间(或电眼)自动时产生该警报。
+
+
+排除方法：
+1.更改托模方式。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Eject Mode Error
+
+
+Description：
+1.When you set ejection mode to Stay and work mode to Time (or Electric Eye) Auto, the alarm is given.
+
+
+Troubleshooting：
+1.Change the ejection mode.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22100101</value>
+<string lang_id="0" lang="中文">警报名：中子未到定位
+
+
+警报说明：
+1.关模过程：
+1）使用“中子保护”：中子进终或退终触发开关无效；
+2）不使用“中子保护”：中子进终触发开关无效。
+
+2.注射前：
+1）使用“中子保护”： 中子进终触发开关无效；
+
+3.托模前：
+1）中子退终触发开关无效或中子动作允许托模退标记无效；
+
+4.开模联动托模：
+1）中子退终触发开关无效或中子动作允许托模退标记无效；
+
+排除方法：
+1.查看中子进终或退终输入点是否有效；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Core Pull End Error
+
+
+Description：
+1.Clamp closing process:：
+1）Core Protection is enabled: The core adv end or return end trigger switch in faulty; 
+2）Disable Core Protection is disabled: The core adv end trigger switch is faulty.
+
+
+2.Before injection: 
+1）Core Protection is enabled: The core adv end trigger switch is faulty;
+
+
+3.Before ejection: 
+1）The core return end trigger switch is faulty or the ejector return mark is faulty;
+
+
+4.Eject during the clamp opening process:
+1）The core return end trigger switch is faulty or the ejector return mark is faulty;
+
+
+Troubleshooting：
+1.Check if the input of core adv end or return end works;
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>22100102</value>
+<string lang_id="0" lang="中文">警报名：中子动作位置偏移
+
+
+警报说明：
+1.中子保护选择“1”时，开模前做中子动作，开关模电子尺位置超出警报偏差范围。
+
+排除方法：
+1.查看面板IO界面“关模终”输入是否正常，关模终行程开关是否损坏；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+2.查看中子动作位置参数和开模位置有效区位置设置是否正确。
+提示：0&lt;中子动作位置-开模位置有效区 &lt; 当前开关模电子尺位置 &lt; 中子动作位置+开模位置有效区。
+
+3.请适当调整开关模速度。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">C.P. Active Pos Error
+
+
+Description：
+1.When core protection is set to 1, the core moves before the clamp opens. The reading of the clamp opening/closing scale exceeds the alarming range.
+
+
+Troubleshooting：
+1.Check input Clamp Close End on the I/O interface and if the stroke switch of Clamp Close End is damaged; 
+Note: See page 3 for the checking method.
+
+2.Check parameters relating to the core movement position and effective clamp opening area. 
+Note: 0&lt; core movement position - effective clamp opening area &lt; current reading of the clamp opening/closing scale &lt; core movement position + effective clamp opening area
+
+3.Adjust the clamp opening/closing flow properly.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23100101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23200101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23300101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23400101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23500101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>23600101</value>
+<string lang_id="0" lang="中文">警报名：等待吹气完成
+
+
+警报说明：
+1.关模前吹气动作未完成。
+
+
+排除方法：
+1.查看吹气延时时间设置是否过长；
+
+
+2.等待吹气动作完成。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Air Mold
+
+
+Description：
+1. The air blowing process does not complete before the clamp is closed.
+
+
+Troubleshooting：
+1.Check if the air blow delay is too long;
+
+
+2.Wait for completion of the air blowing process.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>24100103</value>
+<string lang_id="0" lang="中文">警报名：调模电眼失败
+
+
+警报说明：
+1.自动调模过程中，首次调模进之后，检测到“调模电眼”在4s内无信号变化。
+
+
+排除方法：
+1.进入面板IO界面查看“调模电眼”输入是否正常，调模电眼传感器安装位置是否偏离感应齿轮或电眼损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">M.H.Adj.Sensor Fail.
+
+
+Description：
+1. During the process of automatic mold adjustment, no signal change is detected in the mold adjustment electric eye in 4 seconds after the mold is adjusted forward for the first time.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Mold ADJ Electric Eye, if the electric eye sensor is not installed near the sensor gear, and if the electric eye is damaged. 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29100101</value>
+<string lang_id="0" lang="中文">警报名：安全门未关
+
+
+警报说明：
+1.安全门处于打开的状态。
+
+排除方法：
+1. 关上安全门，在面板上按主画面→换页→F6→进入IO输入界面，查看“安全门关”和“安全门关#2”输入是有效；
+
+2. 若输入无效请按以下方法排查：
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+3. 如果没有指示，说明输入点已经损坏，需对输入点进行重新定义；如果指示正常，则外围电路故障，请查看线路及开关。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Please Close Door
+
+
+Description：
+1.The power door is open. 
+
+Troubleshooting：
+1. Close the power door. Press MAIN -&gt; NEXT PAGE -&gt; F6 to enter the IO input page. Check the input of "Power Door Close" and "Power Door Close #2";
+
+2. If the input does not work, use the following method to troubleshoot: 
+Note: Disconnect the existing wiring shown in the following figure. Use a conductor to connect the input to HCOM and then disconnect it. Check if the corresponding indicator changes in the process.
+
+3. If not, the input is broken. The input needs to be redefined; If the indicator is normal, the outer circuit fails. Check the circuit and switch.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29100103</value>
+<string lang_id="0" lang="中文">警报名：背面安全门未关
+
+
+排除方法：
+1.请关好后安全门；
+
+
+2.查看I/O界面“后安全门关终”输入是否正常，后安全门关终行程开关是否损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Pls Close Rear Door
+
+
+Troubleshooting：
+1.Close the power door;
+
+
+2.Enter I/O interface to check input "Rear Power Door Close End" and if the close end stroke switch is damaged.
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29100104</value>
+<string lang_id="0" lang="中文">警报名：安全门失败
+
+
+警报说明：
+1.两个前安全门行程检测开关状态不一致时间超过2S。
+
+
+排除方法：
+1.查看I/O界面“安全门关”和“安全门关#2”输入是否正常，安全门关和安全门关2#开关是否损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+2.查看造成安全门关限位开关不同步的机械故障。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Safty Switch Fail
+
+
+Description：
+1.Two front power door stroke detection switches remain in different status for more than 2 seconds.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Power Door Close and Power Door Close #2, and if switches of Power Door Close and Power Door Close #2 are damaged. 
+Note: See page 3 for the checking method.
+
+2.Find out the mechanical failure that causes asynchronization of the power door closing limit switches.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>29100108</value>
+<string lang_id="0" lang="中文">警报名：安全门检测异常
+
+
+警报说明：
+1.关模过程中，“液压安全检知”、“液压安全检知2”或“保护电眼”输入点被触发。
+
+
+排除方法：
+1.进入面板IO界面查看“液压安全检知”、“液压安全检知2”和“保护电眼”输入点，查看相应开关是否损坏；
+
+
+2.查看主机“液压安全检知”、“液压安全检知2”和“保护电眼”输入点或输入信号是否异常。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Door Check Error
+
+
+Description：
+1.Input Hydraulic Safety Check, Hydraulic Safety Check 2 or Protective Electric Eye is triggered in the clamp closing process.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Hydraulic Safety Check, Hydraulic Safety Check 2 and Protective Electric Eye, and if the related switches are damaged;
+
+2.Check input Hydraulic Safety Check, Hydraulic Safety Check 2 and Protective Electric Eye or input signals.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>30100101</value>
+<string lang_id="0" lang="中文">警报名：润滑油位偏差
+
+
+警报说明：
+1.润滑油油量不足或润滑油油位检知开关故障。
+
+
+排除方法：
+1.请添加润滑油；
+
+
+2.查看面板IO界面“润滑油位检知”输入是否正常，润滑油位检知开关是否损坏。
+提示：查看方法请参考page3。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Lub.Oil Level Too Low
+
+
+Description：
+1.The lubricant is insufficient or the oil level sensor switch is faulty.
+
+
+Troubleshooting：
+1.Add lubricant.
+
+2.Check input Lubricant Level Sensor on the IO interface and if the oil level sensor switch is damaged. 
+See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>30100102</value>
+<string lang_id="0" lang="中文">警报名：润滑检出失败
+
+
+警报说明：
+1.润滑模式选择1或2时，在设定时间内压力开关无效。
+
+
+排除方法：
+1.进入面板I/O界面，查看“润滑”输出和“润滑检知”输入工作情况，压力检知开关是否损坏；
+提示：查看方法请参考page3。
+
+2.查看润滑油位，润滑电机，管路是否异常。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Lubrication Fail
+
+
+Description：
+1.It is detected that the oil is less than the lower limit before the motor is started and before the clamp is closed.
+
+
+Troubleshooting：
+1.Check the oil level in the oil tank；
+
+2.Enter the I/O interface to check input Oil Pressure and Level Detect and if the oil detection switch is damaged. 
+See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>31100101</value>
+<string lang_id="0" lang="中文">警报名：机械手失败
+
+
+警报说明：
+1.常规机械手：
+
+关模过程检查“机械手”输入点；
+
+
+2.欧规机械手：
+
+关模过程检查“关模安全”或“模区安全”输入点；
+开模前检查“开模安全”输入点；
+
+
+排除方法：
+1.查看“机械手”、 “关模安全”、“模区安全” 、“开模安全”输入点是否有效；</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Robot Malfunction
+
+
+Description：
+1.General robot: ：
+
+Check input “Robot” during the clamp closing process;
+
+
+2.VDE robot:：
+
+Check input “Close Safety” or “Mold Area Safety” during the clamp closing process;
+Check input “Open Safety” before opening the clamp;
+
+
+Troubleshooting：
+1.Check input “Robot”, “Close Safety”, “Mold Area Safety” and “Open Safety”;</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>31100102</value>
+<string lang_id="0" lang="中文">警报名：机械手急停
+
+
+警报说明：
+1.机械手选择欧规时，机械手急停按钮接常闭，“机械手急停”输入点被触发。
+
+
+排除方法：
+1.查看面板IO界面机械手急停是否输入正常，机械手急停按键是否被按下。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Sudden stop of the robot
+
+
+Description：
+1.When VDE is chosen, the sudden stop button of the robot is solid off. Input Robot Sudden Stop is triggered.
+
+
+Troubleshooting：
+1.Enter I/O interface to check input Robot Sudden Stop and if button Robot Sudden Stop is pressed. 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>31100103</value>
+<string lang_id="0" lang="中文">警报名：等待机械手
+
+
+警报说明：
+1.机械手选择常规：
+a).关模前，“机械手”输入点未被触发。
+
+
+2.机械手选择欧规：
+a).关模前，“关模安全”输入点未被触发。
+
+
+3.机械手选择欧规且“机械手手动”输入点未被触发：
+a).中子进前，“中子进安全”输入点未被触发；
+b).中子退前，“中子退安全”输入点未被触发；
+c).托模进前，“顶进安全”输入点未被触发；
+d).托模退前，“顶退指令”输入点未被触发；
+e).半自动、时间(或电眼)自动再循环开始前，“循环启动”输入点未被触发。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Waiting Robot
+
+
+Description：
+1.The robot is set to General: 
+a).Input Robot is not triggered before the clamp is closed.
+
+
+2.The robot is set to VDE: 
+a).Input Close Safety is not triggered before the clamp is closed.
+
+
+3.Robot is set to VDE and input Manual Robot is not triggered: 
+a).Core is pushed forward and input Core ADV Safety is not triggered; 
+b).Core returns and input Core RET Safety is not triggered; 
+c).Ejector is pushed forward and input Ejector ADV Safety is not triggered; 
+d).Ejector returns and input Ejector RET Safety is not triggered; 
+e).Input Cycle Start is not triggered before the next semi-auto, time (or electric eye) cycle starts.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>32100101</value>
+<string lang_id="0" lang="中文">警报名：检出电眼未到位
+
+
+警报说明：
+1.检出电眼未感应到成品脱落。
+
+
+排除方法：
+1.查看产品是否正常经过电眼区域，并被电眼检测到；
+
+
+2.查看面板IO界面检出电眼输入是否有效，检出电眼是否损坏。
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">ChkMdAuto Pos Error
+
+
+Description：
+1.No falling finished product is detected by the electric eye. (The detection is only performed when auto electric eye is enabled)
+
+
+Troubleshooting：
+1.Check if products fall across the detection area and if they can be detected by the electric eye;
+
+2.Check the electric eye input on the IO interface and if the electric eye is damaged. 
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>c100101</value>
+<string lang_id="0" lang="中文">警报名：滤网检出失败
+
+
+警报说明：
+1.关模前，“滤油网检知”输入点被触发。
+
+
+排除方法：
+1.查看面板IO界面“滤油网检知”输入是否正常，滤油网检测电眼是否损坏；
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。
+
+2.清除滤网积垢。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Oil Filter Blocked
+
+
+Description：
+1.The input Oil Filter Detect is triggered before the clamp is closed.
+
+
+Troubleshooting：
+1.Enter the I/O interface to check input Oil Filter Detect and if the electric oil filter detection eye is damaged;
+Note: See page 3 for the checking method.
+
+2.Clean the filter.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>c100102</value>
+<string lang_id="0" lang="中文">警报名：油量检出失败
+
+
+警报说明：
+1. 马达启动前、关模前检测到液压油量低于下限。
+
+
+排除方法：
+1.查看油箱液位；
+
+2.进入面板IO界面查看“油压油位检知”输入是否正常，油量检测开关是否损坏。
+
+查看方法提示：如下图将原接线路脱开，用一根导线将对应的输入点端口与HCOM相连，再断开，查看对应编号指示是否变化。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Hyd.Oil Level Too Low
+
+
+Description：
+1. When the lubrication mode is set to 1 or 2, the pressure switch remains faulty in the set time.
+
+
+Troubleshooting：
+1.Check the lubricant level. Lubricate the motor and check the pipeline.
+
+2.Enter the I/O interface and check output Lub and input Lub Detect and if the pressure detection switch is damaged;
+
+Note: See page 3 for the checking method.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>c100103</value>
+<string lang_id="0" lang="中文">警报名：油温偏差
+
+
+警报说明：
+1.当前油温超出油温警报上下限设定值。</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文">Oil Temp.Over
+
+
+Description：
+1.The current oil temperature is higher or lower than the upper or lower limit set for oil temperature alarm.</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>33000000</value>
+<string lang_id="0" lang="中文"> 
+
+ 
+
+ 
+
+                                                                              
+                                        此警报暂无帮助</string>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"> 
+
+ 
+
+ 
+
+                                                                              
+                                             No Help!</string>
+<string lang_id="4" lang="阿拉伯文">1</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

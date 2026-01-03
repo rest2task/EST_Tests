@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Inject_h" 可见="-1" 标题="0:射出设定|||1:УстановкаВпрыска|||2:사출설정|||3:Inject Set|||6:Inyect Config|||7:Enjek Kurma|||9:Inject Set|||10:Bắn ra Bộ|||default:Inject Set" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="355" 宽度="590" 高度="50" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="345" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj1" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:一段|||1:#1|||2:#1|||3:#1|||4:#1|||5:#1|||6:#1|||7:#1|||8:#1|||9:#1|||10:#1|||default:#1" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj2" 索引="0" 可见="-1" 可用="-1" 左="409" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:二段|||1:#2|||2:#2|||3:#2|||4:#2|||5:#2|||6:#2|||7:#2|||8:#2|||9:#2|||10:#2|||default:#2" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj2"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj3" 索引="0" 可见="-1" 可用="-1" 左="333" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:三段|||1:#3|||2:#3|||3:#3|||4:#3|||5:#3|||6:#3|||7:#3|||8:#3|||9:#3|||10:#3|||default:#3" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj3"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj4" 索引="0" 可见="-1" 可用="-1" 左="257" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:四段|||1:#4|||2:#4|||3:#4|||4:#4|||5:#4|||6:#4|||7:#4|||8:#4|||9:#4|||10:#4|||default:#4" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold1" 索引="0" 可见="-1" 可用="-1" 左="484" 顶="242" 宽度="75" 高度="24" 语言表索引="0" 文本="0:一段|||1:#1|||2:#1|||3:#1|||4:#1|||5:#1|||6:#1|||7:#1|||8:#1|||9:#1|||10:#1|||default:#1" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Hold1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold2" 索引="0" 可见="-1" 可用="-1" 左="408" 顶="242" 宽度="75" 高度="24" 语言表索引="0" 文本="0:二段|||1:#2|||2:#2|||3:#2|||4:#2|||5:#2|||6:#2|||7:#2|||8:#2|||9:#2|||10:#2|||default:#2" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Hold2"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold3" 索引="0" 可见="-1" 可用="-1" 左="332" 顶="242" 宽度="75" 高度="24" 语言表索引="0" 文本="0:三段|||1:#3|||2:#3|||3:#3|||4:#3|||5:#3|||6:#3|||7:#3|||8:#3|||9:#3|||10:#3|||default:#3" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Hold3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed16" 索引="6" 可见="-1" 可用="-1" 左="485" 顶="39" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAPRES_INJ1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ1"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ1"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed15" 索引="5" 可见="-1" 可用="-1" 左="409" 顶="39" 宽度="75" 高度="24" 文本="65" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:65" 关联变量="d.inject1.ACTPARA.DAPRES_INJ2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ2"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ2"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_2_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_2TO6_SHOW"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed14" 索引="4" 可见="-1" 可用="-1" 左="333" 顶="39" 宽度="75" 高度="24" 文本="70" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:70" 关联变量="d.inject1.ACTPARA.DAPRES_INJ3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ3"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ3"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_3_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_2TO6_SHOW"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed13" 索引="3" 可见="-1" 可用="-1" 左="257" 顶="39" 宽度="75" 高度="24" 文本="80" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:80" 关联变量="d.inject1.ACTPARA.DAPRES_INJ4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ4"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ4"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_4_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_2TO6_SHOW"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed85" 索引="32" 可见="-1" 可用="-1" 左="484" 顶="267" 宽度="75" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.ACTPARA.DAPRES_INJHOLD1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="1000" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJHOLD1"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJHOLD1"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HLD_PRS_MAX"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed84" 索引="31" 可见="-1" 可用="-1" 左="408" 顶="267" 宽度="75" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.ACTPARA.DAPRES_INJHOLD2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="1000" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJHOLD2"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJHOLD2"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HLD_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_2_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed83" 索引="30" 可见="-1" 可用="-1" 左="332" 顶="267" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.ACTPARA.DAPRES_INJHOLD3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="1000" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJHOLD3"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJHOLD3"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HLD_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_3_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed22" 索引="12" 可见="-1" 可用="-1" 左="485" 顶="66" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ1"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ1"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed21" 索引="11" 可见="-1" 可用="-1" 左="409" 顶="66" 宽度="75" 高度="24" 文本="60" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:60" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ2"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ2"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_2_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed20" 索引="10" 可见="-1" 可用="-1" 左="333" 顶="66" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ3"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ3"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_3_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed19" 索引="9" 可见="-1" 可用="-1" 左="257" 顶="66" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ4"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ4"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_4_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed90" 索引="37" 可见="-1" 可用="-1" 左="484" 顶="294" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJHOLD1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD1"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD1"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HOLD_SPD_MAX"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed89" 索引="36" 可见="-1" 可用="-1" 左="408" 顶="294" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.ACTPARA.DAFLOW_INJHOLD2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD2"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD2"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HOLD_SPD_MAX"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_2_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_SPD_2TO5_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed88" 索引="35" 可见="-1" 可用="-1" 左="332" 顶="294" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.ACTPARA.DAFLOW_INJHOLD3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD3"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD3"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HOLD_SPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_3_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_SPD_2TO5_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed25" 索引="15" 可见="-1" 可用="-1" 左="257" 顶="93" 宽度="75" 高度="24" 文本="50.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ4END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ4END"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ4END"/>
+<var prop="最大值" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ3END"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_4_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.OBJ.INJ_POS_4_MIN"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed26" 索引="16" 可见="-1" 可用="-1" 左="333" 顶="93" 宽度="75" 高度="24" 文本="50.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ3END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ3END"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ3END"/>
+<var prop="最大值" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ2END"/>
+<var prop="最小值" orient="in" tag="p.PP.OBJ.INJ_POS_3_MIN"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_3_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed27" 索引="17" 可见="-1" 可用="-1" 左="409" 顶="93" 宽度="75" 高度="24" 文本="50.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ2END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ2END"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ2END"/>
+<var prop="最大值" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ1END"/>
+<var prop="最小值" orient="in" tag="p.PP.OBJ.INJ_POS_2_MIN"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_2_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed28" 索引="18" 可见="-1" 可用="-1" 左="485" 顶="93" 宽度="75" 高度="24" 文本="50.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ1END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ1END"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ1END"/>
+<var prop="最大值" orient="in" tag="d.admeter1.STATE.ADPOSI_METERMAX_1"/>
+<var prop="最小值" orient="in" tag="p.PP.OBJ.INJ_POS_1_MIN"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_1_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="39" 宽度="95" 高度="24" 语言表索引="0" 文本="0:压力|||1:Давл|||2:압력|||3:Press|||4:ضغط|||5:Press|||6:Prs|||7:Basın|||8:فشار|||9:Pressão|||10:Áp suất|||default:压力" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label8" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="66" 宽度="95" 高度="24" 语言表索引="0" 文本="0:速度|||1:Скор|||2:속도|||3:Speed|||4:سرعة|||5:Speed|||6:Vel|||7:Hız|||8:سرعت|||9:Fluxo|||10:Tốc độ |||default:Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInjTime" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="93" 宽度="95" 高度="24" 语言表索引="0" 文本="0:终止位置|||1:Кон|||2:위치|||3:EndPos|||4:نهاية الموقف|||5:EndPos|||6:Pos Fin|||7:Son Poz|||8:موقعیت پایان|||9:Pos Final|||10:Vị trí cuối|||default:EndPos" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj5" 索引="0" 可见="-1" 可用="-1" 左="181" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:五段|||1:#5|||2:#5|||3:#5|||4:#5|||5:#5|||6:#5|||7:#5|||8:#5|||9:#5|||10:#5|||default:#5" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed12" 索引="2" 可见="-1" 可用="-1" 左="181" 顶="39" 宽度="75" 高度="24" 文本="85" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:85" 关联变量="d.inject1.ACTPARA.DAPRES_INJ5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ5"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ5"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_5_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_2TO6_SHOW"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed18" 索引="8" 可见="-1" 可用="-1" 左="181" 顶="66" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ5"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ5"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_5_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed24" 索引="14" 可见="-1" 可用="-1" 左="181" 顶="93" 宽度="75" 高度="24" 文本="50.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ5END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ5END"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ5END"/>
+<var prop="最大值" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ4END"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_5_ENABLE"/>
+<var prop="最小值" orient="in" tag="p.PP.OBJ.INJ_POS_5_MIN"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed95" 索引="10004" 可见="-1" 可用="-1" 左="484" 顶="321" 宽度="75" 高度="24" 文本="2.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:2.0" 关联变量="d.inject1.ACTPARA.TM_INJHOLD1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJHOLD1"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJHOLD1"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed94" 索引="10003" 可见="-1" 可用="-1" 左="408" 顶="321" 宽度="75" 高度="24" 文本="2.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:2.0" 关联变量="d.inject1.ACTPARA.TM_INJHOLD2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJHOLD2"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJHOLD2"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_2_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed93" 索引="10002" 可见="-1" 可用="-1" 左="332" 顶="321" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJHOLD3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJHOLD3"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJHOLD3"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_3_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label48" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="267" 宽度="95" 高度="24" 语言表索引="0" 文本="0:压力|||1:Давл|||2:압력|||3:Press|||4:ضغط|||5:Press|||6:Prs|||7:Basın|||8:فشار|||9:Pressão|||10:Áp suất|||default:压力" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label50" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="294" 宽度="95" 高度="24" 语言表索引="0" 文本="0:速度|||1:Скор|||2:속도|||3:Speed|||4:سرعة|||5:Speed|||6:Vel|||7:Hız|||8:سرعت|||9:Fluxo|||10:Tốc độ |||default:Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label54" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="321" 宽度="95" 高度="24" 语言表索引="0" 文本="0:时间|||1:Время|||2:시간|||3:Time|||4:وقت|||5:Time|||6:Tiempo|||7:Zaman|||8:زمان|||9:Tempo|||10:Thời gian|||default:时间" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInj6" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="14" 宽度="75" 高度="24" 语言表索引="0" 文本="0:六段|||1:#6|||2:#6|||3:#6|||4:#6|||5:#6|||6:#6|||7:#6|||8:#6|||9:#6|||10:#6|||default:#6" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Inj6"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed11" 索引="1" 可见="-1" 可用="-1" 左="105" 顶="39" 宽度="75" 高度="24" 文本="90" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:90" 关联变量="d.inject1.ACTPARA.DAPRES_INJ6" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJ6"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJ6"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_6_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_2TO6_SHOW"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed17" 索引="7" 可见="-1" 可用="-1" 左="105" 顶="66" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJ6" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJ6"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJ6"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_6_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_SPD_MAX"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed23" 索引="13" 可见="-1" 可用="-1" 左="105" 顶="93" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJ6END" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ6END"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.ADPOSI_INJ6END"/>
+<var prop="最大值" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJ5END"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_POS_6_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold4" 索引="0" 可见="-1" 可用="-1" 左="256" 顶="242" 宽度="75" 高度="24" 语言表索引="0" 文本="0:四段|||1:#4|||2:#4|||3:#4|||4:#4|||5:#4|||6:#4|||7:#4|||8:#4|||9:#4|||10:#4|||default:#4" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Hold4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold5" 索引="0" 可见="-1" 可用="-1" 左="180" 顶="242" 宽度="75" 高度="24" 语言表索引="0" 文本="0:五段|||1:#5|||2:#5|||3:#5|||4:#5|||5:#5|||6:#5|||7:#5|||8:#5|||9:#5|||10:#5|||default:#5" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="背景色" orient="in" tag="p.PP.OBJ.Hold5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed82" 索引="29" 可见="-1" 可用="-1" 左="256" 顶="267" 宽度="75" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.ACTPARA.DAPRES_INJHOLD4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="1000" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJHOLD4"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJHOLD4"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HLD_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_4_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed81" 索引="28" 可见="-1" 可用="-1" 左="180" 顶="267" 宽度="75" 高度="24" 文本="40" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:40" 关联变量="d.inject1.ACTPARA.DAPRES_INJHOLD5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="1000" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAPRES_INJHOLD5"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJHOLD5"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HLD_PRS_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_5_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed87" 索引="34" 可见="-1" 可用="-1" 左="256" 顶="294" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.ACTPARA.DAFLOW_INJHOLD4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD4"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD4"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HOLD_SPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_4_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_SPD_2TO5_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed86" 索引="33" 可见="-1" 可用="-1" 左="180" 顶="294" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.ACTPARA.DAFLOW_INJHOLD5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD5"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.DAFLOW_INJHOLD5"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.HOLD_SPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_5_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_SPD_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_SPD_2TO5_SHOW"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed92" 索引="10001" 可见="-1" 可用="-1" 左="256" 顶="321" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJHOLD4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJHOLD4"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJHOLD4"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_4_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed91" 索引="10000" 可见="-1" 可用="-1" 左="180" 顶="321" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJHOLD5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJHOLD5"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJHOLD5"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_5_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="563" 顶="39" 宽度="35" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="563" 顶="66" 宽度="35" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInjTime_2" 索引="0" 可见="-1" 可用="-1" 左="563" 顶="93" 宽度="35" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label149" 索引="0" 可见="-1" 可用="-1" 左="562" 顶="267" 宽度="35" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label150" 索引="0" 可见="-1" 可用="-1" 左="562" 顶="294" 宽度="35" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label151" 索引="0" 可见="-1" 可用="-1" 左="562" 顶="321" 宽度="35" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="pixInject" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="5" 宽度="40" 高度="40" 透明度="255" 背景图="vinje.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="pixHold" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="228" 宽度="40" 高度="40" 透明度="255" 背景图="vhold.png" 自动缩放="0" 图片数="0" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="tabpage" type_id="36">
+<prop 名称="tabpage1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="368" 宽度="590" 高度="245" 字体="宋体" 字号="16" 透明度="255" 对齐="0" 文本色="0" 背景色="15723752" 禁用时风格="1" 按钮宽度="80" 按钮高度="25" 常态图片="tabbar-unselected.png" 选中图片="tabbar-selected.png" 选中文本色="16744448" 选中背景色="16777215" 焦点文本色="0"/>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb1" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="220" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:功能|||1:Функция|||2:기능|||3:Func|||6:Func|||7:Fonk|||9:Função|||10:Cơ năng|||default:Func"/>
+<element type_name="label" type_id="18">
+<prop 名称="label58" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:保压段数|||1:КолЗонУдерДавл|||2:보압 시그먼트 2/3|||3:Hold Segment|||4:عدد قسم بول الضغط|||5:Hold Segment|||6:Fases de mantenimiento|||7:TutBas Kademe|||8:قطعات حفظ|||9:Segure Segment |||10:Số đoạn g.áp|||default:Hold Segment" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed71" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="33" 宽度="75" 高度="24" 文本="2" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:2" 关联变量="d.inject1.MOLDSET.SEC_HOLD" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="2" 最大值="5" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MOLDSET.SEC_HOLD"/>
+<var prop="文本" orient="out" tag="d.inject1.MOLDSET.SEC_HOLD"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label59" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出段数|||1:КолЗонВпрыск|||2:사출 세그먼트|||3:Inject Segment|||4:عدد حقن شرائح|||5:Inject Segment|||6:Fases de inyección|||7:Enjekt Kademe|||8:قطعات تزریق|||9:Injetar Segment |||10:Số đoạn bắn ra|||default:Inject Segment" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed81" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="5" 宽度="75" 高度="24" 文本="4" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:4" 关联变量="d.inject1.MOLDSET.SEC_INJ" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="1" 最大值="6" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MOLDSET.SEC_INJ"/>
+<var prop="文本" orient="out" tag="d.inject1.MOLDSET.SEC_INJ"/>
+<var prop="可用" orient="in" tag=".功能参数是否允许修改"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label31" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出快速阀|||1:БыстрДекомп|||2:사출고속|||3:Inject Fast Vlv|||4:حقن صمام سريع|||5:Inject Fast Vlv|||6:Valvula inyección rápida|||7:Enjek Hız Vana|||8:شیر تزریق سریع|||9:Injetar RápVál |||10:Van bắn nhanh|||default:Inject Fast Vlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label39" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="89" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出旁路阀|||1:ОбводнойКлапан|||2:바이패스 밸브|||3:Inject Bypass Vlv|||4:صمام حقن الالتفافية|||5:Inject Bypass Vlv|||6:Inyec Valv de Paso|||7:Enjekte Bypass Vana|||8:شیر کنارگذر تزریق|||9:Injetar Desvio Vál|||10:Van rẽ bắn ra|||default:Inject Bypass Vlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb61" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="89" 宽度="85" 高度="24" 数据="0:不使用;射出开;保压开;射保开|||1:НеИспо;Впрыск;Выд;Впры.Держ|||2:비사용;사출;보압;사출보압|||3:Not Use;Inject ;Hold;InjHold|||4:لا استعمال;حقن ;عقد الضغط;ضغط الحقن|||5:Not Use;Inject ;Hold;InjHold|||6:No Usar;Inyect;Manten;Inyec Manten|||7:Kullanma;Enjekte;Tutma;EnjTutmak|||8:عدم استفاده;تزریق ;حفظ فشار;روشن حفظ شدن تزریق|||9:Não utilize;Injectar;Hold;InjHold|||10:Ko SD;Bắn ra;Giữ áp;B.ra g.áp|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_PASSVALUE" 当前值="0" cur_text="不使用" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_PASSVALUE"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_PASSVALUE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stinjcurve" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="117" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出曲线模式|||1:Режим График|||2:사출 곡선 모드|||3:Inject Curve Mode|||4:نماذج منحنى الخروج|||5:Inject Curve Mode|||6:Iny Curva Modo|||7:Enjekte Eğri Modu|||8:مد منحنی تزریق|||9:Inj.Curve Modo|||10:C.độ đg cong b.ra|||default:Inject Curve Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb91" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="117" 宽度="85" 高度="24" 数据="0:位置;时间|||1:позиции;Врем.|||2:위치;시간|||3:Pos;Time|||4:موقع;وقت|||5:Pos;Time|||6:Posicion;Tiempo|||7:Poz;Zaman|||8:موقعیت;زمان|||9:Pos;Tempo|||10:Vị trí;Thời gian|||default:位置" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.MACHSET.INJECT_CUREMODE" 当前值="0" cur_text="位置" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.MACHSET.INJECT_CUREMODE"/>
+<var prop="值" orient="out" tag="p.PP.MACHSET.INJECT_CUREMODE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton1" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="61" 宽度="85" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_INJFAST" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_INJFAST"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown1" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="5" 宽度="85" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_INJPRESS" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label60" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出压力独立检测|||1:InjPrs Indep. Test|||2:InjPrs Indep. Test|||3:InjPrs Indep. Test|||4:InjPrs Indep. Test|||5:InjPrs Indep. Test|||6:InjPrs Indep. Test|||7:InjPrs Indep. Test|||8:InjPrs Indep. Test|||9:InjPrs Indep. Test|||10:InjPrs Indep. Test|||default:InjPrs Indep. Test" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label61" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出压力传感器通道|||1:InjPrs Sensor Channel|||2:InjPrs Sensor Channel|||3:InjPrs Sensor Channel|||4:InjPrs Sensor Channel|||5:InjPrs Sensor Channel|||6:InjPrs Sensor Channel|||7:InjPrs Sensor Channel|||8:InjPrs Sensor Channel|||9:InjPrs Sensor Channel|||10:InjPrs Sensor Channel|||default:InjPrs Sensor Channel" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="33" 宽度="75" 高度="24" 文本="2" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:2" 关联变量="d.inject1.MACHSET.INJECT_PRESSCH" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="2" 最大值="5" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.INJECT_PRESSCH"/>
+<var prop="文本" orient="out" tag="d.inject1.MOLDSET.SEC_HOLD"/>
+<var prop="可见" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit72" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="61" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.INJ_HLD_PRES" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.INJ_HLD_PRES"/>
+<var prop="可见" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label62" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出压力传感器压力|||1:InjPrs Sensor RealPrs|||2:InjPrs Sensor RealPrs|||3:InjPrs Sensor RealPrs|||4:InjPrs Sensor RealPrs|||5:InjPrs Sensor RealPrs|||6:InjPrs Sensor RealPrs|||7:InjPrs Sensor RealPrs|||8:InjPrs Sensor RealPrs|||9:InjPrs Sensor RealPrs|||10:InjPrs Sensor RealPrs|||default:InjPrs Sensor RealPrs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="61" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="d.inject1.MACHSET.FL_INJPRESS"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb2" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="220" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:调试|||1:отлад|||2:디버그|||3:Debug|||6:Ajuste|||7:Ayarlama|||9:Depurar|||10:Gỡ lỗi|||default:Debug"/>
+<element type_name="label" type_id="18">
+<prop 名称="label40" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出慢速调试压力|||1:Устан.давл.Впрыска|||2:사출 설정 압력|||3:Inj Slow Debug Prs|||4:ضغط بطيء التصحيح|||5:Inj Slow Debug Prs|||6:Presión ajuste inyección|||7:Enj Yavaş Ayarla Basın|||8:فشار تنظیم کند تزریق|||9:Inj Lent Depura Prs |||10:ĐCT áp suất TĐ chậm|||default:Inj Slow Debug Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label41" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出慢速调试速度|||1:Устан.потокВпрыска|||2:사출 설정 유량|||3:Inj Slow Debug Spd|||4:حقن بطيئة سرعة التصحيح|||5:Inj Slow Debug Spd|||6:Velocidad ajuste de inyección|||7:Enj Yavaş Ayarla Hızı|||8:سرعت تنظیم کند تزریق|||9:Inj Lent Depura Fluxo |||10:ĐCT tốc độ TĐ chậm|||default:Inj Slow Debug Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit10" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="5" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.MACHSET.DAPRES_INJSETUP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="100" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJSETUP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAPRES_INJSETUP"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJ_PRS_MAX"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_PRS_DOT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit11" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="33" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.inject1.MACHSET.DAFLOW_INJSETUP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label67" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="5" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label68" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="33" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label69" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:最小系统压力|||1:MинимОбрат.Давл|||2:최소 시스템 압력|||3:System Prs Min|||6:Min SisPrs|||7:Min SistBas|||9:Mín Prs Sist|||10:AS HT Min|||default:System Prs Min" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label70" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:系统压力检测时间|||1:Обрат.ДавлТестВремя|||2:피드백 압력 시간체크|||3:System Prs Check Tm|||6:Sistema Prs Detect Tm|||7:SistBas Teftiş Zman|||9:Prs Sist Deteção Tm|||10:AS HT Phát hiện|||default:System Prs Check Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit12" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="33" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.oil1.MACHSET.MIN_PRESS" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="100" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJSETUP"/>
+<var prop="文本" orient="in" tag="d.oil1.MACHSET.MIN_PRESS"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit13" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="61" 宽度="75" 高度="24" 文本="30" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:30" 关联变量="d.oil1.MACHSET.TM_PROTECT" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.oil1.MACHSET.TM_PROTECT"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="33" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="61" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton5" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="5" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.oil1.MACHSET.FL_CHKOIL" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.oil1.MACHSET.FL_CHKOIL"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label73" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:漏油检测功能|||1:Разлив нефтиТестФункция|||2:오일 누설 감지 기능|||3:Oil Leak Detect|||6:Fuga Aceite Detec Func|||7:Yağ kaçağı Tespit Fonk|||9:Detecç Vazamento óleo|||10:Phát hiện rò rỉ dầu|||default:Oil Leak Detect" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.OIL_LEAK_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label39" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:原料流动性模式|||1:Режим текуч матер|||2:재료 유동성 모드|||3:Material Fluidity Mode|||6:Material Fluidez Modo|||7:Malzeme Akış Modu|||9:Modo Fluidez Material|||10:vật chất lưu động|||default:Material Fluidity Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cbinjfluidity" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="61" 宽度="85" 高度="24" 数据="0:高;中;低|||1:ВысДв;Ближний;Низкая|||2:높음;중간;낮음|||3:High;Middle;Low|||4:High;Middle;Low|||5:High;Middle;Low|||6:Alta;Medio;Baja|||7:Yüksk;Orta;Düşük|||8:High;Middle;Low|||9:Alto;Médio;Baixa|||10:Cao;Middle;Thấp|||default:高" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.autoctrl1.MOLDSET.SYS_SERVO_KP_INJCT_MODE" 当前值="0" cur_text="高" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.autoctrl1.MOLDSET.SYS_SERVO_KP_INJCT_MODE"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_PASSVALUE"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb3" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="220" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:控制|||1:контроль|||2:사용선택|||3:Control|||6:Control|||7:Kontrol|||9:Controle|||10:Khiển|||default:Control"/>
+<element type_name="label" type_id="18">
+<prop 名称="label50" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出阀延迟开计时|||1:ЗадержкВпрыска|||2:사출 밸브 지연|||3:Inj Vlv Dly On Tm|||4:حقن فتح صمام تأخير|||5:Inj Vlv Dly On Tm|||6:InyVálv Abrir Retd|||7:Enjek Vana GecikAçık|||8: زمان روشن کردن تاخیر شیر|||9:InjVál Adia Aberta|||10:Van mở trì hoãn |||default:Inj Vlv Dly On Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit16" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="5" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TMDLY_INJVALVEON" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TMDLY_INJVALVEON"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.TMDLY_INJVALVEON"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label51" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出阀延迟关计时|||1:ЗадржкКонКлапнВпрск|||2:사출 밸브 OFF 지연|||3:Inj Vlv Dly Off Tm|||4:حقن صمام تأخير|||5:Inj Vlv Dly Off Tm|||6:InyVálv Cerrar Retd|||7:Enjek Vana GecikKapalı|||8: زمان خاموش کردن تاخیر شیر|||9:InjVál Adia Fech Tempo|||10:Van tắt trì hoãn|||default:Inj Vlv Dly Off Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit17" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="33" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TMDLY_VLV_OFFINJEND" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TMDLY_VLV_OFFINJEND"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.TMDLY_VLV_OFFINJEND"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label52" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出动作结束延时|||1:Дей.Задерж Выхода|||2:사출 후 지연시간|||3:Inj Act End Dly|||4:عمل حقن على تأخير|||5:Inj Act End Dly|||6:Retardo finalización inyección|||7:Enjekt Eylem SonGecik|||8:تاخیر پایان عمل |||9:Inj Fech Adia Tempo|||10:ĐT b.ra KT trì.h|||default:Inj Act End Dly" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit18" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="61" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TMDLY_INJEND" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TMDLY_INJEND"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.TMDLY_INJEND"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label53" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="89" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出任务前延时|||1:Зад.впрыскПередЗадержк|||2:사출 공정전 지연|||3:Dly Bef Inj Task|||4:تأخير قبل مهمة الحقن|||5:Dly Bef Inj Task|||6:Retardo Ante Inyección|||7:Enjek Görev Önce Gecik|||8:تاخیر پیش از وظیفه |||9:Adia Antes Injtar|||10:Trì.h tr.k bắn ra nhiệm vụ|||default:Dly Bef Inj Task" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit19" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="89" 宽度="75" 高度="24" 文本="0.02" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.02" 关联变量="d.inject1.MACHSET.TMDLY_INJBEFORE" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TMDLY_INJBEFORE"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.TMDLY_INJBEFORE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label56" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="117" 宽度="177" 高度="24" 语言表索引="0" 文本="0:手动使用调试压力速度|||1:ИспНастрДавлСкор|||2:전송 모드를 수동|||3:Manl Use Debug PrsSpd|||4:استخدام سرعة تصحيح الضغط|||5:Manl Use Debug PrsSpd|||6:Uso Manual Ajuste PrsVel|||7:El ile Kullan BasınHız|||8:سرعت فشار تنظیم استفاده دستی|||9:Manl Use Dep PrsFlu|||10:SD AS TĐ ĐCT bằng tay|||default:Manl Use Debug PrsSpd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label63" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="5" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label64" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="33" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label65" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="61" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label66" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="89" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label69" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="145" 宽度="177" 高度="24" 语言表索引="0" 文本="0:电热关闭时螺杆动作|||1:Дейс.вин.при выкл.элнаг.|||2:히터OFF시 사출보호|||3:HeaterOff ScrewAct|||4:عملية إغلاق الكهربائية المسمار|||5:HeaterOff ScrewAct|||6:Acción Husillo al Apagar Calent|||7:VidaEylem Isıtıcı Kapalı|||8:عمل پیچیدن در خاموش کردن هیتر|||9:EléAqueci ParafusoAç|||10:ĐT thanh vítkhi tắt điện|||default:HeaterOff ScrewAct" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="145" 宽度="95" 高度="24" 数据="0:允许;不允许|||1:Доп.;Не доп.|||2:허용;비허용|||3:Allow;Not Allow|||4:سماح;لا سماح|||5:Allow;Not Allow|||6:Permitir;No Perm|||7:İzin;İzin Yok|||8:مجاز;نامجاز|||9:Permit;Não Permit|||10:C.phép;Ko Phép|||default:允许" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_InjectWarmOn" 当前值="0" cur_text="允许" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_InjectWarmOn"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_InjectWarmOn"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton1" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="117" 宽度="95" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_MANUALINJECTUSEPRES_FLOW" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_MANUALINJECTUSEPRES_FLOW"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb4" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="220" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:斜率|||1:Ramp|||2:RAMP|||3:Ramp|||6:Ramp|||7:Ramp|||9:Rampa|||10:HSG|||default:Ramp"/>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="100" 高度="24" 语言表索引="0" 文本="0:射出启动|||1:ВпрыскНача|||2:사출 시작|||3:Inject Start|||4:انحدار الضغط لبدء الحقن|||5:Inj Start Prs Ramp|||6:Inyect |||7:Enj Başlat|||8:شیب فشار استارت|||9:Inj Início|||10:Bắn ra KĐ|||default:Inject Start" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="100" 高度="24" 语言表索引="0" 文本="0:射出转换|||1:ВпрыскТранс|||2:사출 변환|||3:Inject Trans|||4:انحدار الضغط لتحويل الحقن|||5:Inj Trans Prs Ramp|||6:Inyect Trans|||7:Enj Çevirin|||8:شیب فشار انتقال تزریق|||9:Inj Trans|||10:Bắn ra c.đổi|||default:Inject Trans" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="89" 宽度="100" 高度="24" 语言表索引="0" 文本="0:保压转换|||1:ВыдерТранс|||2:보압전환|||3:Hold Trans|||4:انحدار الضغط لتحويل الضغط|||5:Hold Trans Prs Ramp|||6:Manten Trans|||7:Tutma Çevirin|||8:شیب فشار انتقال حفظ|||9:Hold Trans|||10:Giữ áp c.đổi|||default:Hold Trans" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="33" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAPRES_INJRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJRAMP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAPRES_INJRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit2" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="33" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAFLOW_INJRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJRAMP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAFLOW_INJRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit3" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="61" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAPRES_INJRAMP2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAPRES_INJRAMP2"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJRAMP2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit4" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="61" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAFLOW_INJRAMP2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAFLOW_INJRAMP2"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJRAMP2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit5" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="89" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAPRES_INJHOLDRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJHOLDRAMP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAPRES_INJHOLDRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit6" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="89" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.MACHSET.DAFLOW_INJHOLDRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAFLOW_INJHOLDRAMP"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJHOLDRAMP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label34" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="117" 宽度="100" 高度="24" 语言表索引="0" 文本="0:射出关闭|||1:ВпрыскЗак|||2:사출 종료|||3:Inject Off|||4:انحدار الضغط لقفل الحقن|||5:Inj Off Prs Ramp|||6:Inyect Fin|||7:Enj Kapalı|||8:شیب فشار خاموش کردن|||9:Inj Fech|||10:Bắn ra tắt|||default:Inject Off" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit7" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="117" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.DAPRES_INJOFFRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJOFFRAMP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAPRES_INJOFFRAMP"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit8" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="117" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.DAFLOW_INJOFFRAMP" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJOFFRAMP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.DAFLOW_INJOFFRAMP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label177" 索引="0" 可见="-1" 可用="-1" 左="112" 顶="5" 宽度="75" 高度="24" 语言表索引="0" 文本="0:压力斜率|||1:РампаДавления|||2:압력 RAMP|||3:PrsRamp|||6:Prs Ramp|||7:BasRamp|||9:PrsRamp|||10:HSG AS|||default:PrsRamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label178" 索引="0" 可见="-1" 可用="-1" 左="192" 顶="5" 宽度="75" 高度="24" 语言表索引="0" 文本="0:速度斜率|||1:СкорRamp|||2:속도 RAMP|||3:SpdRamp|||6:VelRamp|||7:HızRamp|||9:FluRamp|||10:HSG TĐ|||default:SpdRamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label166" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="33" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label167" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="61" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label168" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="89" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label169" 索引="0" 可见="-1" 可用="-1" 左="270" 顶="117" 宽度="15" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tb5" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="220" 透明度="255" 文本色="0" 背景色="15723752" 边框色="9868950" 边框宽度="1" 背景图="" 文本="0:针阀|||3:NeedleVlv|||1:Игол.клап.клей.|||2:니들 밸브|||4:ثقب الابرة|||5:NeedleVlv|||6:NeedleVlv|||7:NeedleVlv|||8:NeedleVlv|||9:NeedleVlv|||10:NeedleVlv|||default:NeedleVlv"/>
+<element type_name="label" type_id="18">
+<prop 名称="label210" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="145" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀同步吹气点1|||1:NdlVlv Airblow Sync Out1|||2:NdlVlv Airblow Sync Out1|||3:NdlVlv Airblow Sync Out1|||4:NdlVlv Airblow Sync Out1|||5:NdlVlv Airblow Sync Out1|||6:NdlVlv Airblow Sync Out1|||7:NdlVlv Airblow Sync Out1|||8:NdlVlv Airblow Sync Out1|||9:NdlVlv Airblow Sync Out1|||10:NdlVlv Airblow Sync Out1|||default:NdlVlv Airblow Sync Out1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label212" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="173" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀同步吹气点2|||1:NdlVlv Airblow Sync Out2|||2:NdlVlv Airblow Sync Out2|||3:NdlVlv Airblow Sync Out2|||4:NdlVlv Airblow Sync Out2|||5:NdlVlv Airblow Sync Out2|||6:NdlVlv Airblow Sync Out2|||7:NdlVlv Airblow Sync Out2|||8:NdlVlv Airblow Sync Out2|||9:NdlVlv Airblow Sync Out2|||10:NdlVlv Airblow Sync Out2|||default:NdlVlv Airblow Sync Out2" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label631" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="177" 高度="24" 语言表索引="0" 文本="0:射出胶口针阀|||1:ВпрскИгол.клап.клей.|||2:니들 밸브|||3:Inj.Gate NeedleVlv|||4:إبرة بلاستيكية ميناء الخروج|||5:Inj Gate NeedleVlv|||6:AgujaVálv Bebedero Iny|||7:Enjek Sürgülü Vana|||8:شیر سوزن گیت تزریق|||9:Inj.Bico fechado|||10:Van kim cửa rót bắn r.|||default:Inj.Gate NeedleVlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀控制方式|||1:Игол.клап.клей.Режим|||2:니들 밸브사용선택모드|||3:NeedleVlv Ctrl Mode|||6:AgujaVálv Control Modo|||7:Sürgülü V Kontrol Modu|||9:Método Controle Bico Fechado|||10:Van kim điều khiển|||default:NeedleVlv Ctrl Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label207" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="33" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀关闭方式|||1:Игол.клап.Метод зак.|||2:니들 밸브 폐쇄 방식|||3:NeedleVlv Cls Mode|||6:AgujaVálv Cerca Modo|||7:Sürgülü V Kapalı Modu|||9:Bico fechado Fech Modo|||10:Van kim tắt cách|||default:NeedleVlv Cls Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlOnTm" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="89" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀提前开时间|||1:GateVlv On Time|||2:밸브 조기 ON 시간|||3:NeedleVlv EarlyOn Tm|||4:دفع إبرة صمام الوقت مفتوح|||5:NeedleVlv EarlyOn Tm|||6:AgujaVálv Abrir Adelanto|||7:Sürgülü V Erken Açık|||8:زمان روشن کردن تاخیر|||9:AgulhaVál Abra Frente|||10:Thời gian van dạng kim mở trước|||default:NeedleVlv EarlyOn Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlOffTm" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀提前关时间|||1:GateVlv Off Time|||2:밸브 조기 OFF 시간|||3:NeedleVlv EarlyOff Tm|||4:NeedleVlv EarlyOff Tm|||5:NeedleVlv EarlyOff Tm|||6:NeedleVlv EarlyOff Tm|||7:NeedleVlv EarlyOff Tm|||8:NeedleVlv EarlyOff Tm|||9:NeedleVlv EarlyOff Tm|||10:NeedleVlv EarlyOff Tm|||default:NeedleVlv EarlyOff Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="89" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀延迟关时间|||1:Игол.ЗадржкКонКлапн|||2:밸브 지연 OFF 시간|||3:NeedleVlv DelayOff Tm|||4:وقت قفل الإبرة تأخيرا|||5:NeedleVlv DelayOff Tm|||6:AgujaVálv Cerrar Retardo|||7:Sürgülü V GecikKapalı|||8:زمان خاموش کردن تاخیر|||9:AgulhaVál Adia Fech|||10:Thời gian van dạng kim tắt trì hoãn|||default:NeedleVlv DelayOff Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="61" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀开阀位置|||1:Игол.клап.клей.Откр.позиции|||2:니들 밸브위치|||3:NeedleVlv On Pos|||6:AgujaVálv On Pos|||7:Sürgülü V Açın Poz|||9:Posição Abertura Bico Fechado|||10:Van kim bật Chức vụ|||default:NeedleVlv On Pos" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="0:p.PP.OBJ.NEEDLEVLV_ONPOS_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton5" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="5" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_INj_SPC" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb11" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="33" 宽度="90" 高度="24" 数据="0:关模位置;射出同步|||1:ВремяПоз;ВпрыскСинхр|||2:형폐 위치;사출동기|||3:ClsPos;InjSync|||4:ClsPos;InjSync|||5:ClsPos;InjSync|||6:Cierre Pos;InySync|||7:KapatPoz;EnjSenk|||8:ClsPos;InjSync|||9:FecharPosi;InjSinc.|||10:Đóng k.Vị trí;Đồng bộ tiêm|||default:关模位置" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_INJ_SPC_FUNC" 当前值="0" cur_text="关模位置" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_INJ_SPC_FUNC"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_INCACC"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown1" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="33" 宽度="90" 高度="24" 数据="0:射出结束;储料前|||1:ВпрыКон;ПерЗаг|||2:사출 종료;계량전|||3:InjEnd;BefChg|||4:InjEnd;BefChg|||5:InjEnd;BefChg|||6:Inyect Fin;AnteCarga|||7:Enj Son;Önce|||8:InjEnd;BefChg|||9:InjFim;Carregar|||10:Bắn ra KếtThúc;Tr.khi trữ|||default:射出结束" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="-1" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.INJ_SPC_FUNC_CLS" 当前值="0" cur_text="射出结束" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.INJ_SPC_FUNC_CLS"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_INCACC"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edNdlOnTm" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="89" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TM_INJSPC_OPNELR" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJSETUP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TM_INJSPC_OPNELR"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edNdlOffTm" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="61" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TM_INJSPC_CLSBEF" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAPRES_INJSETUP"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TM_INJSPC_CLSBEF"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit21" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="89" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TM_INJSPC_CLSDLY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TM_INJSPC_CLSDLY"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit22" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="61" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.POS_INJ_SPC" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.POS_INJ_SPC"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+<var prop="可用" orient="in" tag="0:p.PP.OBJ.NEEDLEVLV_ONPOS_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown4" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="145" 宽度="90" 高度="24" 数据="0:不使用;吹气1;吹气2;吹气3;吹气4;吹气5;吹气6;吹气7;吹气8;吹气9;吹气10;吹气11;吹气12;吹气13;吹气14|||3:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||4:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||1:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||2:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||5:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||6:|||7:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||8:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||9:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||10:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_INJSPC_AIR" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_INJSPC_AIR"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown5" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="173" 宽度="90" 高度="24" 数据="0:不使用;吹气1;吹气2;吹气3;吹气4;吹气5;吹气6;吹气7;吹气8;吹气9;吹气10;吹气11;吹气12;吹气13;吹气14|||3:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||4:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||1:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||2:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||5:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||6:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||7:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||8:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||9:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||10:Not Use;Air1;Air2;Air3;Air4;Air5;Air6;Air7;Air8;Air9;Air10;Air11;Air12;Air13;Air14|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MACHSET.FL_INJSPC_AIR1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MACHSET.FL_INJSPC_AIR1"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlOnTm_unit" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="90" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlOffTm_unit" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="61" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label206" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="89" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label204" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="61" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="0:p.PP.OBJ.NEEDLEVLV_ONPOS_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label213" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="117" 宽度="177" 高度="24" 语言表索引="0" 文本="0:手动射出输出针阀|||1:Man.Inj OutPut NdVlv|||2:Man.Inj OutPut NdVlv|||3:Man.Inj OutPut NdVlv|||4:Man.Inj OutPut NdVlv|||5:Man.Inj OutPut NdVlv|||6:Man.Inj OutPut NdVlv|||7:Man.Inj OutPut NdVlv|||8:Man.Inj OutPut NdVlv|||9:Man.Inj OutPut NdVlv|||10:Man.Inj OutPut NdVlv|||default:Man.Inj OutPut NdVlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label214" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="145" 宽度="177" 高度="24" 语言表索引="0" 文本="0:调模射出输出针阀|||1:Adj.Inj OutPut NdVlv|||2:Adj.Inj OutPut NdVlv|||3:Adj.Inj OutPut NdVlv|||4:Adj.Inj OutPut NdVlv|||5:Adj.Inj OutPut NdVlv|||6:Adj.Inj OutPut NdVlv|||7:Adj.Inj OutPut NdVlv|||8:Adj.Inj OutPut NdVlv|||9:Adj.Inj OutPut NdVlv|||10:Adj.Inj OutPut NdVlv|||default:Adj.Inj OutPut NdVlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label215" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="173" 宽度="177" 高度="24" 语言表索引="0" 文本="0:清料射出输出针阀|||1:Purge Inj OutPut NdVlv|||2:Purge Inj OutPut NdVlv|||3:Purge Inj OutPut NdVlv|||4:Purge Inj OutPut NdVlv|||5:Purge Inj OutPut NdVlv|||6:Purge Inj OutPut NdVlv|||7:Purge Inj OutPut NdVlv|||8:Purge Inj OutPut NdVlv|||9:Purge Inj OutPut NdVlv|||10:Purge Inj OutPut NdVlv|||default:Purge Inj OutPut NdVlv" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown24" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="117" 宽度="90" 高度="24" 数据="0:使用;不使用|||1:испол;Не испол|||2:사용;비사용|||3:Use;Not Use|||4:استعماللا; استعمال|||5:Use;Not Use|||6:Uso;No Usar|||7:Kullan;Kullanma|||8:عدم استفاده;استفاده|||9:Uso;Não Usa|||10:Sử dụng;Ko SD|||default:使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_INJSPCMAUAL" 当前值="0" cur_text="使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_INJSPCMAUAL"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown25" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="145" 宽度="90" 高度="24" 数据="0:使用;不使用|||1:испол;Не испол|||2:사용;비사용|||3:Use;Not Use|||4:استعماللا; استعمال|||5:Use;Not Use|||6:Uso;No Usar|||7:Kullan;Kullanma|||8:عدم استفاده;استفاده|||9:Uso;Não Usa|||10:Sử dụng;Ko SD|||default:使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_INJSPCADJUST" 当前值="0" cur_text="使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_INJSPCADJUST"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown26" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="173" 宽度="90" 高度="24" 数据="0:使用;不使用|||1:испол;Не испол|||2:사용;비사용|||3:Use;Not Use|||4:استعماللا; استعمال|||5:Use;Not Use|||6:Uso;No Usar|||7:Kullan;Kullanma|||8:عدم استفاده;استفاده|||9:Uso;Não Usa|||10:Sử dụng;Ko SD|||default:使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_INJSPCPURG" 当前值="0" cur_text="使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_INJSPCPURG"/>
+<var prop="可用" orient="in" tag="d.inject1.MACHSET.FL_INj_SPC"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlDltOnTm" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="117" 宽度="177" 高度="24" 语言表索引="0" 文本="0:针阀延迟开时间|||1:Игол.ЗадржкКонКлапн|||2:밸브 지연 OFF 시간|||3:NeedleVlv DelayOn Tm|||4:وقت قفل الإبرة تأخيرا|||5:NeedleVlv DelayOff Tm|||6:AgujaVálv Cerrar Retardo|||7:Sürgülü V GecikKapalı|||8:زمان خاموش کردن تاخیر|||9:AgulhaVál Adia Fech|||10:Thời gian van dạng kim tắt trì hoãn|||default:NeedleVlv DelayOn Tm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edNdlDltOnTm" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="117" 宽度="75" 高度="24" 文本="0.00" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.00" 关联变量="d.inject1.MACHSET.TM_INJSPC_OPNDLY" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="500" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MACHSET.TM_INJSPC_OPNDLY"/>
+<var prop="文本" orient="out" tag="d.inject1.MACHSET.DAFLOW_INJSETUP"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="labelNdlDltOnTm_unit" 索引="0" 可见="-1" 可用="-1" 左="260" 顶="117" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+</element>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxCURV" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="205" 宽度="75" 高度="24" 标题="3:Curve|||0:曲线|||1:изгиб|||2:곡선|||4:منحنى|||5:Curve|||6:Curva|||7:eğri|||8:منحنی|||9:Curva|||10:đường cong|||default:Curve" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stTips" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="356" 宽度="151" 高度="16" 语言表索引="0" 文本="0:切换:请按F3|||1:Переключатель: F3|||2:스위치 : F3을 누름|||3:Switch:Press&quot;F3&quot;|||6:Interruptor: pres &quot;F3&quot;|||7:Değiştir: Basın &quot;F3&quot;|||9:Mudar: Pressione F3|||10:Công tắc:Nhấn&quot;F3&quot;|||default:Switch:Press&quot;F3&quot;" 横向对齐="2" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label186" 索引="0" 可见="-1" 可用="-1" 左="561" 顶="120" 宽度="17" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit71" 索引="0" 可见="-1" 可用="-1" 左="409" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ2" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ2"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJECT_REALTM_2_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit70" 索引="0" 可见="-1" 可用="-1" 左="333" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ3" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ3"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJECT_REALTM_3_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit69" 索引="0" 可见="-1" 可用="-1" 左="257" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ4" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ4"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJECT_REALTM_4_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit68" 索引="0" 可见="-1" 可用="-1" 左="181" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ5" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ5"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJECT_REALTM_5_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit67" 索引="0" 可见="-1" 可用="-1" 左="105" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ6" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ6"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJECT_REALTM_6_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label185" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="120" 宽度="100" 高度="24" 语言表索引="0" 文本="0:实际时间|||1:Впры|||2:사출시간|||3:Real Time|||4:وقت الحقن|||5:InjectTime|||6:Inyect Tm|||7:Enj Zman|||8:زمان تزریق|||9:InjTempo|||10:TG bắn ra|||default:Real Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stSec" 索引="0" 可见="-1" 可用="-1" 左="561" 顶="147" 宽度="17" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stTime" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="147" 宽度="100" 高度="24" 语言表索引="0" 文本="0:射出时间|||1:Впры|||2:사출시간|||3:InjectTime|||4:وقت الحقن|||5:InjectTime|||6:Inyect Tm|||7:Enj Zman|||8:زمان تزریق|||9:InjTempo|||10:TG bắn ra|||default:InjectTime" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stholdposUnit" 索引="0" 可见="-1" 可用="-1" 左="258" 顶="203" 宽度="35" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_PARAM_VISABLE"/>
+<var prop="文本" orient="in" tag="p.PP.OBJ.HOLD_PorS_UNIT"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed66" 索引="27" 可见="-1" 可用="-1" 左="180" 顶="203" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.MOLDSET.ADPOSI_TURNTOHOLD" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="10000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.MOLDSET.ADPOSI_TURNTOHOLD"/>
+<var prop="文本" orient="out" tag="d.inject1.MOLDSET.ADPOSI_TURNTOHOLD"/>
+<var prop="最大值" orient="in" tag="d.admeter1.STATE.ADPOSI_METERMAX_1"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_PARAM_VISABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stholdpos" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="203" 宽度="170" 高度="24" 语言表索引="0" 文本="0:保压位置|||1:Вводить позиции|||2:보압위치|||3:Hold Position|||4:عقد الضغط موقع|||5:Hold Position|||6:Manten Pos|||7:Tutma Poz|||8:حفظ فشار موقعیت|||9:Hold Pos|||10:Giữ áp Vị trí|||default:Hold Position" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_POS_ENABLE"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="cb52" 索引="0" 可见="-1" 可用="-1" 左="181" 顶="176" 宽度="100" 高度="24" 数据="0:时间/位置;压力;速度;时间;位置;时间分段|||1:Поз/Врем;Дав.;Скор.;Врем.;Позиция;блокВрем|||2:시간/위치;압력;속도;시간;위치;시간사출선택|||3:Time/Pos;Press;Speed;Time;Position;Tm Seg.|||4:وقت/موقع;ضغط;سرعة;وقت;موقع;الوقت حقن|||5:Time/Posn;Press;Speed;Time;Position;Tm Seg.|||6:Tm/Pos;Prs;Spd;Tiempo;Posicion;Tm Seg.|||7:Zaman/Poz;Basın;Hız;Zaman;SonPoz;ZmanKa|||8:زمان/موقعیت;فشار;سرعت;زمان;موقعیت;زمانبندی|||9:Pos/Tempo;Prs;Vel;Tempo;Posição;TmSegm.|||10:TG/VT;Áp suất;Tốc độ;Thời gian;Vị trí;TG phân.đ|||default:时间/位置" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="d.inject1.MOLDSET.FL_TURNTOHOLD" 当前值="0" cur_text="时间/位置" cbox_line_color2="2" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="d.inject1.MOLDSET.FL_TURNTOHOLD"/>
+<var prop="值" orient="out" tag="d.inject1.MOLDSET.FL_TURNTOHOLD"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label184" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="176" 宽度="170" 高度="24" 语言表索引="0" 文本="0:转保压方式|||1:ВключитеВыдавл|||2:보압 전환방식|||3:Turn Hold Mode|||4:تحويل طريقة التعبئة|||5:Turn Hold Mode|||6:Modo cambio a presión de mantenimiento|||7:Tut Çevirin Modu|||8:مد حفظ گردش|||9:Conv MantPrs Modo|||10:Chuyển PT giữ áp|||default:Turn Hold Mode" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInjectUnit" 索引="0" 可见="-1" 可用="-1" 左="563" 顶="176" 宽度="35" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+<var prop="文本" orient="in" tag="p.PP.OBJ.INJ_PorS_UNIT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="dtInject" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="176" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.admeter1.STATE.ADPOSI_RELATIVE_4" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="177148696" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.admeter1.STATE.ADPOSI_RELATIVE_4"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+<event name="数据改变" act=""/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInject" 索引="0" 可见="-1" 可用="-1" 左="355" 顶="176" 宽度="120" 高度="24" 语言表索引="0" 文本="0:射出压力|||1:ДавлВпрыска|||2:사출압력|||3:Inject Press|||4:ضغط الحقن|||5:Inject Press|||6:Inyec Prs|||7:Enjek Basın|||8:فشار تزریق|||9:Injectar Pressão|||10:Áp suất bắn ra|||default:Inject Press" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_PRS_VISABLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stInjectSpd" 索引="0" 可见="-1" 可用="-1" 左="355" 顶="176" 宽度="120" 高度="24" 语言表索引="0" 文本="0:射出速度|||1:СкоростьВрск|||2:사출 속도|||3:Inject Speed|||4:سرعة الحقن|||5:Inject Spd|||6:Inyect Veloc|||7:Enjek Hız|||8:سرعت تزریق|||9:Inj Fluxo|||10:Bắn ra Tốc độ|||default:Inject Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SPD_VISABLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_PorS_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHold" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="203" 宽度="170" 高度="24" 语言表索引="0" 文本="0:保压压力|||1:ВыдПодДавл|||2:보압|||3:Hold Press|||4:عقد الضغط ضغط|||5:Hold Press|||6:Manten Prs|||7:Tutma Basın|||8:حفظ فشار فشار|||9:Hold Pressão|||10:Giữ áp ap suất|||default:Hold Press" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_PRS_VISABLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_PorS_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="stHoldspd" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="203" 宽度="170" 高度="24" 语言表索引="0" 文本="0:保压速度|||1:СкрстВыдДвл|||2:보압 속도|||3:Hold Speed|||4:عقد الضغط سرعة|||5:HoldPrs Spd|||6:Manten Veloc|||7:Tutma Hız|||8:حفظ فشار سرعت|||9:Hold Fluxo|||10:Giữ áp Tốc độ|||default:Hold Speed" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.HOLD_SPD_VISABLE"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.HOLD_PorS_ENABLE"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line2" 可见="-1" 可用="-1" X1="121" Y1="161" X2="552" Y2="161" 颜色="0" 线型="0" 粗细="1" cur_text="直线1"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJECT_LINE2_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed29" 索引="19" 可见="-1" 可用="-1" 左="105" 顶="147" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJ6" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ6"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ6"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_TM_6_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SEG_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed30" 索引="20" 可见="-1" 可用="-1" 左="181" 顶="147" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJ5" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ5"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ5"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_TM_5_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SEG_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed31" 索引="21" 可见="-1" 可用="-1" 左="257" 顶="147" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJ4" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ4"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ4"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_TM_4_ENABLE"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SEG_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed32" 索引="22" 可见="-1" 可用="-1" 左="333" 顶="147" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJ3" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ3"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ3"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_TM_3_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SEG_TM_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed33" 索引="23" 可见="-1" 可用="-1" 左="409" 顶="147" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.ACTPARA.TM_INJ2" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ2"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ2"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ_TM_2_ENABLE"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_SEG_TM_VISIBLE"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator1" 锁住="0" 左="105" 顶="120" 列数="7" 行数="2" 横向间距="1" 纵向间距="3" 横向偏移="0" 对齐方式="1"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator2" 锁住="0" 左="10" 顶="120" 列数="1" 行数="2" 横向间距="0" 纵向间距="3" 横向偏移="0" 对齐方式="1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="121" Y1="135" X2="552" Y2="135" 颜色="0" 线型="0" 粗细="1" cur_text="直线1"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJECT_LINE1_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="ed34" 索引="24" 可见="-1" 可用="-1" 左="485" 顶="147" 宽度="75" 高度="24" 文本="6.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:6.0" 关联变量="d.inject1.ACTPARA.TM_INJ1" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="60000" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="out" tag="d.inject1.ACTPARA.TM_INJ1"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJ1"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJ_AND_HOLD_TM_DOT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJ1TIME_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit72" 索引="0" 可见="-1" 可用="-1" 左="485" 顶="120" 宽度="75" 高度="24" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="0" 禁用文本色="0" 描述="3:|||default:0.0" 关联变量="d.inject1.STATE.TIME_INJ1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.STATE.TIME_INJ1"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.INJ_STATE_TM_VISIBLE"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator3" 锁住="-1" 左="485" 顶="176" 列数="1" 行数="2" 横向间距="0" 纵向间距="5" 横向偏移="0" 对齐方式="1"/>
+</element>
+<horz order="0" ele_index="41" ele_name="ed11"/>
+<horz order="1" ele_index="31" ele_name="ed12"/>
+<horz order="2" ele_index="12" ele_name="ed13"/>
+<horz order="3" ele_index="11" ele_name="ed14"/>
+<horz order="4" ele_index="10" ele_name="ed15"/>
+<horz order="5" ele_index="9" ele_name="ed16"/>
+<horz order="6" ele_index="42" ele_name="ed17"/>
+<horz order="7" ele_index="32" ele_name="ed18"/>
+<horz order="8" ele_index="19" ele_name="ed19"/>
+<horz order="9" ele_index="18" ele_name="ed20"/>
+<horz order="10" ele_index="17" ele_name="ed21"/>
+<horz order="11" ele_index="16" ele_name="ed22"/>
+<horz order="12" ele_index="43" ele_name="ed23"/>
+<horz order="13" ele_index="33" ele_name="ed24"/>
+<horz order="14" ele_index="23" ele_name="ed25"/>
+<horz order="15" ele_index="24" ele_name="ed26"/>
+<horz order="16" ele_index="25" ele_name="ed27"/>
+<horz order="17" ele_index="26" ele_name="ed28"/>
+<horz order="18" ele_index="86" ele_name="ed29"/>
+<horz order="19" ele_index="87" ele_name="ed30"/>
+<horz order="20" ele_index="88" ele_name="ed31"/>
+<horz order="21" ele_index="89" ele_name="ed32"/>
+<horz order="22" ele_index="90" ele_name="ed33"/>
+<horz order="23" ele_index="94" ele_name="ed34"/>
+<horz order="24" ele_index="77" ele_name="cb52"/>
+<horz order="25" ele_index="80" ele_name="dtInject"/>
+<horz order="26" ele_index="75" ele_name="ed66"/>
+<horz order="27" ele_index="63" ele_name="btxCURV"/>
+<horz order="28" ele_index="47" ele_name="ed81"/>
+<horz order="29" ele_index="46" ele_name="ed82"/>
+<horz order="30" ele_index="15" ele_name="ed83"/>
+<horz order="31" ele_index="14" ele_name="ed84"/>
+<horz order="32" ele_index="13" ele_name="ed85"/>
+<horz order="33" ele_index="49" ele_name="ed86"/>
+<horz order="34" ele_index="48" ele_name="ed87"/>
+<horz order="35" ele_index="22" ele_name="ed88"/>
+<horz order="36" ele_index="21" ele_name="ed89"/>
+<horz order="37" ele_index="20" ele_name="ed90"/>
+<horz order="38" ele_index="51" ele_name="ed91"/>
+<horz order="39" ele_index="50" ele_name="ed92"/>
+<horz order="40" ele_index="36" ele_name="ed93"/>
+<horz order="41" ele_index="35" ele_name="ed94"/>
+<horz order="42" ele_index="34" ele_name="ed95"/>
+<horz order="43" ele_index="60" ele_name="tabpage1"/>
+<vert order="0" ele_index="41" ele_name="ed11"/>
+<vert order="1" ele_index="42" ele_name="ed17"/>
+<vert order="2" ele_index="43" ele_name="ed23"/>
+<vert order="3" ele_index="86" ele_name="ed29"/>
+<vert order="4" ele_index="60" ele_name="tabpage1"/>
+<vert order="5" ele_index="31" ele_name="ed12"/>
+<vert order="6" ele_index="32" ele_name="ed18"/>
+<vert order="7" ele_index="33" ele_name="ed24"/>
+<vert order="8" ele_index="87" ele_name="ed30"/>
+<vert order="9" ele_index="77" ele_name="cb52"/>
+<vert order="10" ele_index="75" ele_name="ed66"/>
+<vert order="11" ele_index="47" ele_name="ed81"/>
+<vert order="12" ele_index="49" ele_name="ed86"/>
+<vert order="13" ele_index="51" ele_name="ed91"/>
+<vert order="14" ele_index="12" ele_name="ed13"/>
+<vert order="15" ele_index="19" ele_name="ed19"/>
+<vert order="16" ele_index="23" ele_name="ed25"/>
+<vert order="17" ele_index="88" ele_name="ed31"/>
+<vert order="18" ele_index="46" ele_name="ed82"/>
+<vert order="19" ele_index="48" ele_name="ed87"/>
+<vert order="20" ele_index="50" ele_name="ed92"/>
+<vert order="21" ele_index="11" ele_name="ed14"/>
+<vert order="22" ele_index="18" ele_name="ed20"/>
+<vert order="23" ele_index="24" ele_name="ed26"/>
+<vert order="24" ele_index="89" ele_name="ed32"/>
+<vert order="25" ele_index="15" ele_name="ed83"/>
+<vert order="26" ele_index="22" ele_name="ed88"/>
+<vert order="27" ele_index="36" ele_name="ed93"/>
+<vert order="28" ele_index="10" ele_name="ed15"/>
+<vert order="29" ele_index="17" ele_name="ed21"/>
+<vert order="30" ele_index="25" ele_name="ed27"/>
+<vert order="31" ele_index="90" ele_name="ed33"/>
+<vert order="32" ele_index="14" ele_name="ed84"/>
+<vert order="33" ele_index="21" ele_name="ed89"/>
+<vert order="34" ele_index="35" ele_name="ed94"/>
+<vert order="35" ele_index="9" ele_name="ed16"/>
+<vert order="36" ele_index="16" ele_name="ed22"/>
+<vert order="37" ele_index="26" ele_name="ed28"/>
+<vert order="38" ele_index="94" ele_name="ed34"/>
+<vert order="39" ele_index="63" ele_name="btxCURV"/>
+<vert order="40" ele_index="13" ele_name="ed85"/>
+<vert order="41" ele_index="20" ele_name="ed90"/>
+<vert order="42" ele_index="34" ele_name="ed95"/>
+<tab order="0" ele_index="41" ele_name="ed11"/>
+<tab order="1" ele_index="31" ele_name="ed12"/>
+<tab order="2" ele_index="12" ele_name="ed13"/>
+<tab order="3" ele_index="11" ele_name="ed14"/>
+<tab order="4" ele_index="10" ele_name="ed15"/>
+<tab order="5" ele_index="9" ele_name="ed16"/>
+<tab order="6" ele_index="42" ele_name="ed17"/>
+<tab order="7" ele_index="32" ele_name="ed18"/>
+<tab order="8" ele_index="19" ele_name="ed19"/>
+<tab order="9" ele_index="18" ele_name="ed20"/>
+<tab order="10" ele_index="17" ele_name="ed21"/>
+<tab order="11" ele_index="16" ele_name="ed22"/>
+<tab order="12" ele_index="43" ele_name="ed23"/>
+<tab order="13" ele_index="33" ele_name="ed24"/>
+<tab order="14" ele_index="23" ele_name="ed25"/>
+<tab order="15" ele_index="24" ele_name="ed26"/>
+<tab order="16" ele_index="25" ele_name="ed27"/>
+<tab order="17" ele_index="26" ele_name="ed28"/>
+<tab order="18" ele_index="86" ele_name="ed29"/>
+<tab order="19" ele_index="87" ele_name="ed30"/>
+<tab order="20" ele_index="88" ele_name="ed31"/>
+<tab order="21" ele_index="89" ele_name="ed32"/>
+<tab order="22" ele_index="90" ele_name="ed33"/>
+<tab order="23" ele_index="94" ele_name="ed34"/>
+<tab order="24" ele_index="77" ele_name="cb52"/>
+<tab order="25" ele_index="75" ele_name="ed66"/>
+<tab order="26" ele_index="63" ele_name="btxCURV"/>
+<tab order="27" ele_index="47" ele_name="ed81"/>
+<tab order="28" ele_index="46" ele_name="ed82"/>
+<tab order="29" ele_index="15" ele_name="ed83"/>
+<tab order="30" ele_index="14" ele_name="ed84"/>
+<tab order="31" ele_index="13" ele_name="ed85"/>
+<tab order="32" ele_index="49" ele_name="ed86"/>
+<tab order="33" ele_index="48" ele_name="ed87"/>
+<tab order="34" ele_index="22" ele_name="ed88"/>
+<tab order="35" ele_index="21" ele_name="ed89"/>
+<tab order="36" ele_index="20" ele_name="ed90"/>
+<tab order="37" ele_index="51" ele_name="ed91"/>
+<tab order="38" ele_index="50" ele_name="ed92"/>
+<tab order="39" ele_index="36" ele_name="ed93"/>
+<tab order="40" ele_index="35" ele_name="ed94"/>
+<tab order="41" ele_index="34" ele_name="ed95"/>
+<tab order="42" ele_index="60" ele_name="tabpage1"/>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="label1"/>
+<id order="2" ele_index="2" ele_name="stInj1"/>
+<id order="3" ele_index="3" ele_name="stInj2"/>
+<id order="4" ele_index="4" ele_name="stInj3"/>
+<id order="5" ele_index="5" ele_name="stInj4"/>
+<id order="6" ele_index="6" ele_name="stHold1"/>
+<id order="7" ele_index="7" ele_name="stHold2"/>
+<id order="8" ele_index="8" ele_name="stHold3"/>
+<id order="9" ele_index="9" ele_name="ed16"/>
+<id order="10" ele_index="10" ele_name="ed15"/>
+<id order="11" ele_index="11" ele_name="ed14"/>
+<id order="12" ele_index="12" ele_name="ed13"/>
+<id order="13" ele_index="13" ele_name="ed85"/>
+<id order="14" ele_index="14" ele_name="ed84"/>
+<id order="15" ele_index="15" ele_name="ed83"/>
+<id order="16" ele_index="16" ele_name="ed22"/>
+<id order="17" ele_index="17" ele_name="ed21"/>
+<id order="18" ele_index="18" ele_name="ed20"/>
+<id order="19" ele_index="19" ele_name="ed19"/>
+<id order="20" ele_index="20" ele_name="ed90"/>
+<id order="21" ele_index="21" ele_name="ed89"/>
+<id order="22" ele_index="22" ele_name="ed88"/>
+<id order="23" ele_index="23" ele_name="ed25"/>
+<id order="24" ele_index="24" ele_name="ed26"/>
+<id order="25" ele_index="25" ele_name="ed27"/>
+<id order="26" ele_index="26" ele_name="ed28"/>
+<id order="27" ele_index="27" ele_name="label7"/>
+<id order="28" ele_index="28" ele_name="label8"/>
+<id order="29" ele_index="29" ele_name="stInjTime"/>
+<id order="30" ele_index="30" ele_name="stInj5"/>
+<id order="31" ele_index="31" ele_name="ed12"/>
+<id order="32" ele_index="32" ele_name="ed18"/>
+<id order="33" ele_index="33" ele_name="ed24"/>
+<id order="34" ele_index="34" ele_name="ed95"/>
+<id order="35" ele_index="35" ele_name="ed94"/>
+<id order="36" ele_index="36" ele_name="ed93"/>
+<id order="37" ele_index="37" ele_name="label48"/>
+<id order="38" ele_index="38" ele_name="label50"/>
+<id order="39" ele_index="39" ele_name="label54"/>
+<id order="40" ele_index="40" ele_name="stInj6"/>
+<id order="41" ele_index="41" ele_name="ed11"/>
+<id order="42" ele_index="42" ele_name="ed17"/>
+<id order="43" ele_index="43" ele_name="ed23"/>
+<id order="44" ele_index="44" ele_name="stHold4"/>
+<id order="45" ele_index="45" ele_name="stHold5"/>
+<id order="46" ele_index="46" ele_name="ed82"/>
+<id order="47" ele_index="47" ele_name="ed81"/>
+<id order="48" ele_index="48" ele_name="ed87"/>
+<id order="49" ele_index="49" ele_name="ed86"/>
+<id order="50" ele_index="50" ele_name="ed92"/>
+<id order="51" ele_index="51" ele_name="ed91"/>
+<id order="52" ele_index="52" ele_name="label10"/>
+<id order="53" ele_index="53" ele_name="label11"/>
+<id order="54" ele_index="54" ele_name="stInjTime_2"/>
+<id order="55" ele_index="55" ele_name="label149"/>
+<id order="56" ele_index="56" ele_name="label150"/>
+<id order="57" ele_index="57" ele_name="label151"/>
+<id order="58" ele_index="58" ele_name="pixInject"/>
+<id order="59" ele_index="59" ele_name="pixHold"/>
+<id order="60" ele_index="60" ele_name="tabpage1"/>
+<id order="61" ele_index="61" ele_name="_input_range_labellabel"/>
+<id order="62" ele_index="62" ele_name="_input_range_label"/>
+<id order="63" ele_index="63" ele_name="btxCURV"/>
+<id order="64" ele_index="64" ele_name="stTips"/>
+<id order="65" ele_index="65" ele_name="label186"/>
+<id order="66" ele_index="66" ele_name="edit71"/>
+<id order="67" ele_index="67" ele_name="edit70"/>
+<id order="68" ele_index="68" ele_name="edit69"/>
+<id order="69" ele_index="69" ele_name="edit68"/>
+<id order="70" ele_index="70" ele_name="edit67"/>
+<id order="71" ele_index="71" ele_name="label185"/>
+<id order="72" ele_index="72" ele_name="stSec"/>
+<id order="73" ele_index="73" ele_name="stTime"/>
+<id order="74" ele_index="74" ele_name="stholdposUnit"/>
+<id order="75" ele_index="75" ele_name="ed66"/>
+<id order="76" ele_index="76" ele_name="stholdpos"/>
+<id order="77" ele_index="77" ele_name="cb52"/>
+<id order="78" ele_index="78" ele_name="label184"/>
+<id order="79" ele_index="79" ele_name="stInjectUnit"/>
+<id order="80" ele_index="80" ele_name="dtInject"/>
+<id order="81" ele_index="81" ele_name="stInject"/>
+<id order="82" ele_index="82" ele_name="stInjectSpd"/>
+<id order="83" ele_index="83" ele_name="stHold"/>
+<id order="84" ele_index="84" ele_name="stHoldspd"/>
+<id order="85" ele_index="85" ele_name="line2"/>
+<id order="86" ele_index="86" ele_name="ed29"/>
+<id order="87" ele_index="87" ele_name="ed30"/>
+<id order="88" ele_index="88" ele_name="ed31"/>
+<id order="89" ele_index="89" ele_name="ed32"/>
+<id order="90" ele_index="90" ele_name="ed33"/>
+<id order="91" ele_index="91" ele_name="locator1"/>
+<id order="92" ele_index="92" ele_name="locator2"/>
+<id order="93" ele_index="93" ele_name="line1"/>
+<id order="94" ele_index="94" ele_name="ed34"/>
+<id order="95" ele_index="95" ele_name="edit72"/>
+<id order="96" ele_index="96" ele_name="locator3"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:ОткЗакрФормы|||2:형체|||3:CLMP|||4:|||5:|||6:Cierre|||0:开关模|||7:Mengene|||8:|||9:Clamp|||10:Đ.mở khu.|||default:CLMP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCLMP.png" 按下图片="btnCLMPx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Выталкиватель|||2:에젝터|||3:EJET|||4:|||5:|||6:Expul|||0:托模|||7:İtici|||8:|||9:Eject|||10:Đỡ khuôn|||default:EJET" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnEJET.png" 按下图片="btnEJETx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出功能&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Впрыск|||2:사출|||3:INJT|||4:|||5:|||6:Inyección|||0:射出|||7:Enjekte|||8:|||9:Injectar|||10:Bắn ra|||default:INJT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnINJT.png" 按下图片="btnINJTx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出功能二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Загруз|||2:계량|||3:CHRG|||4:|||5:|||6:Carga|||0:储料|||7:Mal Alm|||8:|||9:Carregar|||10:Trữ liệu|||default:CHRG" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCHRG.png" 按下图片="btnCHRGx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出曲线&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:Знак|||2:코어|||3:CORE|||4:|||5:|||6:Noyo|||0:中子|||7:Maça|||8:|||9:Core|||10:Nơtron|||default:CORE" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCORE.png" 按下图片="btnCOREx.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;射出参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:Темп|||2:온도|||3:TEMP|||4:|||5:|||6:Temp|||0:温度|||7:Isılar|||8:|||9:Temp|||10:Nhiệt độ|||default:TEMP" 文本色="51200" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnTEMP.png" 按下图片="btnTEMPx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;储料h&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:Сопло|||2:노즐|||3:NOZL|||4:|||5:|||6:Boquilla|||0:座台|||7:Grup|||8:|||9:Bico|||10:Bệ|||default:NOZL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNOZL.png" 按下图片="btnNOZLx.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;主窗口&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

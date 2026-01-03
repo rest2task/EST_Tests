@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Key" 可见="-1" 标题="0:画面切换|||1:переключатель|||2:페이지 전환|||3:View Switch|||4:الشاشة الرئيسية|||5:Overview|||6:Ver interrupt|||7:Ekran değiştirme|||8:تصویر اصلی|||9:Troca de tela|||10:Xem công tắc|||default:View Switch" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="8421504" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<var prop="层显示" orient="in" tag="数据库.EstCODE.TempLevel"/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="显示" act=""/>
+<event name="定时器" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup1" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="25" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxclamp" 索引="1" 可见="-1" 可用="-1" 左="28" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyCLMP.png" 按下图片="keyCLMPx.png" 聚焦图片="keyCLMPx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblclamp" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:开关模|||1:ОткЗакрФормы|||2:형체|||3:Clamp|||6:Cierre|||7:Mengene|||9:Clamp|||10:Đ.mở khu.|||default:Clamp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxeject" 索引="2" 可见="-1" 可用="-1" 左="98" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyEJET.png" 按下图片="keyEJETx.png" 聚焦图片="keyEJETx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbleject" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:托模|||1:Толкатель|||2:에젝터|||3:Eject|||6:Expul|||7:İtici|||9:Eject|||10:Đỡ khuôn|||default:Eject" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxinject" 索引="3" 可见="-1" 可用="-1" 左="168" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyINJT.png" 按下图片="keyINJTx.png" 聚焦图片="keyINJTx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblinject" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:射出|||1:Впрыск|||2:사출|||3:Inject|||6:Inyección|||7:Enjekte|||9:Injectar|||10:Bắn ra|||default:Inject" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup2" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="25" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup4" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="219" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup3" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="219" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup5" 索引="0" 可见="-1" 可用="-1" 左="15" 顶="413" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxcharge" 索引="4" 可见="-1" 可用="-1" 左="238" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyCHRG.png" 按下图片="keyCHRGx.png" 聚焦图片="keyCHRGx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblcharge" 索引="0" 可见="-1" 可用="-1" 左="228" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:储料|||1:Загруз|||2:계량|||3:Charge|||6:Carga|||7:Mal Alm|||9:Carregar|||10:Trữ liệu|||default:Charge" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxcore" 索引="5" 可见="-1" 可用="-1" 左="28" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyCORE.png" 按下图片="keyCOREx.png" 聚焦图片="keyCOREx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblcore" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:中子|||1:Знак|||2:코어|||3:Core|||6:Noyo|||7:Maça|||9:Core|||10:Nơtron|||default:Core" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbltemp" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:温度|||1:Темп|||2:온도|||3:Temp|||6:Temp|||7:Isılar|||9:Temp|||10:Nhiệt độ|||default:Temp" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxtemp" 索引="6" 可见="-1" 可用="-1" 左="98" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyTEMP.png" 按下图片="keyTEMPx.png" 聚焦图片="keyTEMPx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxnozzle" 索引="7" 可见="-1" 可用="-1" 左="168" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyNOZL.png" 按下图片="keyNOZLx.png" 聚焦图片="keyNOZLx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblnozzle" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:座台|||1:Сопло|||2:노즐|||3:Nozzle|||6:Boquilla|||7:Grup|||9:Bico|||10:Bệ|||default:Nozzle" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxother" 索引="8" 可见="-1" 可用="-1" 左="238" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyOTHER.png" 按下图片="keyOTHERx.png" 聚焦图片="keyOTHERx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblother" 索引="0" 可见="-1" 可用="-1" 左="228" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:其它|||1:Другое|||2:기타|||3:Other|||6:Otros|||7:Diğer|||9:Outro|||10:Khác|||default:Other" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxproduct" 索引="11" 可见="-1" 可用="-1" 左="318" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyPROD.png" 按下图片="keyPRODx.png" 聚焦图片="keyPRODx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblproduct" 索引="0" 可见="-1" 可用="-1" 左="308" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:生产|||1:выход|||2:생산관리|||3:Product|||6:Productos|||7:Ürün|||9:Produção|||10:Năng suất|||default:Product" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxmonitor" 索引="12" 可见="-1" 可用="-1" 左="388" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyMONI.png" 按下图片="keyMONIx.png" 聚焦图片="keyMONIx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblmonitor" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:监测|||1:монитор|||2:생산기록|||3:Monitor|||6:Moni|||7:Izleme|||9:Monitor|||10:giám sát|||default:Monitor" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxalarm" 索引="13" 可见="-1" 可用="-1" 左="458" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyALARM.png" 按下图片="keyALARMx.png" 聚焦图片="keyALARMx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblalarm" 索引="0" 可见="-1" 可用="-1" 左="448" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:警报|||1:Ошибки|||2:알람|||3:Alarm|||6:Alarma|||7:Alarm|||9:Alarme|||10:Cảnh báo|||default:Alarm" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxIO" 索引="14" 可见="-1" 可用="-1" 左="528" 顶="35" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyIO.png" 按下图片="keyIOx.png" 聚焦图片="keyIOx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblIO" 索引="0" 可见="-1" 可用="-1" 左="518" 顶="84" 宽度="65" 高度="28" 语言表索引="0" 文本="0:IO|||1:IO|||2:IO|||3:IO|||6:IO|||7:IO|||9:IO|||10:IO|||default:IO" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxrecord" 索引="15" 可见="-1" 可用="-1" 左="318" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyRECORD.png" 按下图片="keyRECORDx.png" 聚焦图片="keyRECORDx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblrecord" 索引="0" 可见="-1" 可用="-1" 左="308" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:记录|||1:Запись|||2:경보기록|||3:Record|||6:Grabar|||7:Kayit|||9:Rec|||10:ghi âm|||default:Record" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblmold" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:模具|||1:Пресс-форма|||2:모듈|||3:Mold|||6:Molde|||7:Kalıp|||9:Molde|||10:Khuôn|||default:Mold" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxmold" 索引="16" 可见="-1" 可用="-1" 左="388" 顶="114" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyMOLD.png" 按下图片="keyMOLDx.png" 聚焦图片="keyMOLDx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxversion" 索引="21" 可见="-1" 可用="-1" 左="28" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyVERS.png" 按下图片="keyVERSx.png" 聚焦图片="keyVERSx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblversion" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:版本|||1:Версия|||2:버전|||3:Version|||6:Edición|||7:Sürüm|||9:Versão|||10:P.bản|||default:Version" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxlang" 索引="22" 可见="-1" 可用="-1" 左="98" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyLAN.png" 按下图片="keyLANx.png" 聚焦图片="keyLANx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbllang" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:语言|||1:Язык|||2:언어|||3:Lang|||6:Idioma|||7:DİL|||9:IDIOMA|||10:Ng.ngữ|||default:Lang" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxuser" 索引="23" 可见="-1" 可用="-1" 左="168" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyUSR.png" 按下图片="keyUSRx.png" 聚焦图片="keyUSRx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbluser" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:用户|||1:Польз:|||2:사용자|||3:User|||6:Usuario|||7:Kullanıcı|||9:Usuário|||10:Ng.sử.d|||default:User" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxsystem" 索引="24" 可见="-1" 可用="-1" 左="238" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keySYST.png" 按下图片="keySYSTx.png" 聚焦图片="keySYSTx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblsystem" 索引="0" 可见="-1" 可用="-1" 左="228" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:设置|||1:Настраи|||2:환경|||3:Set|||6:Ajuste|||7:Ayar|||9:Contexto|||10:Cài đặt|||8:تنظیمات|||default:Set" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxAD" 索引="31" 可见="-1" 可用="-1" 左="318" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyAD.png" 按下图片="keyADx.png" 聚焦图片="keyADx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblAD" 索引="0" 可见="-1" 可用="-1" 左="308" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:电子尺|||1:КоррекAD|||2:AD|||3:AD|||6:AD|||7:AD|||9:AD|||10:cái thước|||default:AD" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxIOdefine" 索引="34" 可见="-1" 可用="-1" 左="528" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyIOA.png" 按下图片="keyIOAx.png" 聚焦图片="keyIOAx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblIOdefine" 索引="0" 可见="-1" 可用="-1" 左="518" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:IO重定义|||1:IO переопре|||2:IO A|||3:IOdefine|||6:IOA|||7:Redefine|||9:Redefine|||10:Địnhlại IO|||default:IOdefine" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxservo" 索引="38" 可见="-1" 可用="-1" 左="238" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keySERV.png" 按下图片="keySERVx.png" 聚焦图片="keySERVx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblservo" 索引="0" 可见="-1" 可用="-1" 左="228" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:伺服|||1:серво|||2:서보|||3:Servo|||6:Servo|||7:Servo|||9:Servo|||10:Servo|||default:Servo" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxinstall" 索引="43" 可见="-1" 可用="-1" 左="168" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyINST.png" 按下图片="keyINSTx.png" 聚焦图片="keyINSTx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblinstall" 索引="0" 可见="-1" 可用="-1" 左="153" 顶="472" 宽度="75" 高度="28" 语言表索引="0" 文本="0:分期付款|||1:взнос|||2:설치|||3:Install|||6:Install|||7:Yüklemek|||9:Instalar|||10:Tải về|||default:Install" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxupdate" 索引="41" 可见="-1" 可用="-1" 左="28" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyUPDATE.png" 按下图片="keyUPDATEx.png" 聚焦图片="keyUPDATEx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblupdate" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="472" 宽度="65" 高度="28" 语言表索引="0" 文本="0:更新|||1:Обновит|||2:업데이트|||3:Update|||6:Actualiz|||7:Güncell|||9:Atualizar|||10:Cập nhiệt|||default:Update" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbldetect" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:检测|||1:Диагнос|||2:테스트|||3:Detect|||6:Detect|||7:Teftiş|||9:Detectar|||10:Phát hiện|||default:Detect" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxdetect" 索引="25" 可见="-1" 可用="-1" 左="28" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyDIAG.png" 按下图片="keyDIAGx.png" 聚焦图片="keyDIAGx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxdata" 索引="42" 可见="-1" 可用="-1" 左="98" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyDATA.png" 按下图片="keyDATAx.png" 聚焦图片="keyDATAx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbldata" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="472" 宽度="65" 高度="28" 语言表索引="0" 文本="0:数据|||1:Данные |||2:데이터|||3:Data|||6:Datos|||7:Veri|||9:Dados|||10:dữ liệu|||default:Data" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxkeytest" 索引="26" 可见="-1" 可用="-1" 左="98" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyPANL.png" 按下图片="keyPANLx.png" 聚焦图片="keyPANLx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblkeytest" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:测键|||1:кнопка|||2:판넬|||3:KeyTest|||6:Llave|||7:Anahtar|||9:Chave|||10:KEY|||default:KeyTest" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxDA" 索引="32" 可见="-1" 可用="-1" 左="388" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyDA.png" 按下图片="keyDAx.png" 聚焦图片="keyDAx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblDA" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:DA|||1:DA|||2:DA|||3:DA|||6:DA|||7:DA|||9:DA|||10:HC DA|||default:DA" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxconfig" 索引="33" 可见="-1" 可用="-1" 左="458" 顶="229" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyCONF.png" 按下图片="keyCONFx.png" 聚焦图片="keyCONFx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblconfig" 索引="0" 可见="-1" 可用="-1" 左="448" 顶="278" 宽度="65" 高度="28" 语言表索引="0" 文本="0:配置|||1:КонфигУстройств|||2:기계|||3:Config|||6:Config|||7:Yapıland|||9:Config|||10:Cấu hình|||default:Config" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxpump" 索引="35" 可见="-1" 可用="-1" 左="318" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyPUMP.png" 按下图片="keyPUMPx.png" 聚焦图片="keyPUMPx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblpump" 索引="0" 可见="-1" 可用="-1" 左="308" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:泵浦|||1:Насос|||2:펌프|||3:Pump|||6:Bomba|||7:Pompa|||9:Bomba|||10:Máy bơm|||default:Pump" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxlub" 索引="36" 可见="-1" 可用="-1" 左="388" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyLUB.png" 按下图片="keyLUBx.png" 聚焦图片="keyLUBx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbllub" 索引="0" 可见="-1" 可用="-1" 左="378" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:润滑|||1:Смазка|||2:윤활유|||3:Lub|||6:Engrase|||7:Yağlama|||9:Lubri.|||10:Bôi trơn|||default:Lub" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxparam" 索引="37" 可见="-1" 可用="-1" 左="458" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyPARAM.png" 按下图片="keyPARAMx.png" 聚焦图片="keyPARAMx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblparam" 索引="0" 可见="-1" 可用="-1" 左="448" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:参数|||1:Парам|||2:변수|||3:Param|||6:Param|||7:Param|||9:Parâm|||10:tham số|||default:Param" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbltest" 索引="0" 可见="-1" 可用="-1" 左="88" 顶="551" 宽度="65" 高度="28" 语言表索引="0" 文本="0:测试|||1:Тест|||2:테스트|||3:Test|||6:Prueba|||7:Teftiş|||9:Teste|||10:Kiểm tra|||default:Test" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxtest" 索引="46" 可见="-1" 可用="-1" 左="98" 顶="502" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyTEST.png" 按下图片="keyTESTx.png" 聚焦图片="keyTESTx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblgroup6" 索引="0" 可见="0" 可用="-1" 左="305" 顶="413" 宽度="280" 高度="174" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="1" 边框颜色="7895160" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxilink" 索引="51" 可见="0" 可用="-1" 左="318" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyNET.png" 按下图片="keyNETx.png" 聚焦图片="keyNETx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblilink" 索引="0" 可见="0" 可用="-1" 左="308" 顶="472" 宽度="65" 高度="28" 语言表索引="0" 文本="0:物联网|||1:Интернет вещей|||2:IOT|||3:iLink|||6:IOT|||7:IOT|||9:iLink|||10:iLink|||default:iLink" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btximach" 索引="52" 可见="0" 可用="-1" 左="388" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyPLAN.png" 按下图片="keyPLANx.png" 聚焦图片="keyPLANx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblimach" 索引="0" 可见="0" 可用="-1" 左="378" 顶="472" 宽度="65" 高度="28" 语言表索引="0" 文本="0:生产联网|||1:Сеть|||2:네트워크|||3:iMachine|||6:Red|||7:NET|||9:iMachine|||10:Mạng Inet|||default:iMachine" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxMT" 索引="17" 可见="-1" 可用="-1" 左="458" 顶="115" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyMOLDTEMP.png" 按下图片="keyMOLDTEMPx.png" 聚焦图片="keyMOLDTEMPx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblMT" 索引="0" 可见="-1" 可用="-1" 左="448" 顶="163" 宽度="65" 高度="28" 语言表索引="0" 文本="0:模温|||1:Tемпформ|||2:금형온도|||3:M.T.|||6:M.T.|||7:KalıpIsı|||9:M.T.|||10:NhđộKh.|||default:M.T." 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxadjmach" 索引="44" 可见="-1" 可用="-1" 左="238" 顶="423" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyADJMACH.png" 按下图片="keyADJMACHx.png" 聚焦图片="keyADJMACHx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbladjmach" 索引="0" 可见="-1" 可用="-1" 左="228" 顶="472" 宽度="65" 高度="28" 语言表索引="0" 文本="0:调机|||1:настройк|||2:동조|||3:AdjMach|||6:Ajustar|||7:AyarMak|||9:AdjMach|||10:ĐiềuCh.|||default:AdjMach" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxspcfunc" 索引="27" 可见="-1" 可用="-1" 左="168" 顶="308" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keySPCFUNC.png" 按下图片="keySPCFUNCx.png" 聚焦图片="keySPCFUNCx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblspcfunc" 索引="0" 可见="-1" 可用="-1" 左="158" 顶="357" 宽度="65" 高度="28" 语言表索引="0" 文本="0:特殊功能|||1:специ функц|||2:특수 기능|||3:SpcFunc|||6:EspFunc|||7:ÖzelFonk|||9:EspFunç|||10:đặc biệt|||default:SpcFunc" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btxkeydefine" 索引="45" 可见="-1" 可用="-1" 左="28" 顶="502" 宽度="45" 高度="45" 标题="3:|||0:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="keyKEYDEFINE.png" 按下图片="keyKEYDEFINEx.png" 聚焦图片="keyKEYDEFINEx.png" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblkeydefine" 索引="0" 可见="-1" 可用="-1" 左="18" 顶="551" 宽度="65" 高度="28" 语言表索引="0" 文本="0:按键定义|||1:кнопки|||2:버튼 정의|||3:KeyDef|||6:Definición|||7:Düğme|||9:Definição|||10:Nút|||default:KeyDef" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<horz order="0" ele_index="2" ele_name="btxclamp"/>
+<horz order="1" ele_index="4" ele_name="btxeject"/>
+<horz order="2" ele_index="6" ele_name="btxinject"/>
+<horz order="3" ele_index="12" ele_name="btxcharge"/>
+<horz order="4" ele_index="22" ele_name="btxproduct"/>
+<horz order="5" ele_index="24" ele_name="btxmonitor"/>
+<horz order="6" ele_index="26" ele_name="btxalarm"/>
+<horz order="7" ele_index="28" ele_name="btxIO"/>
+<horz order="8" ele_index="14" ele_name="btxcore"/>
+<horz order="9" ele_index="17" ele_name="btxtemp"/>
+<horz order="10" ele_index="18" ele_name="btxnozzle"/>
+<horz order="11" ele_index="20" ele_name="btxother"/>
+<horz order="12" ele_index="30" ele_name="btxrecord"/>
+<horz order="13" ele_index="33" ele_name="btxmold"/>
+<horz order="14" ele_index="75" ele_name="btxMT"/>
+<horz order="15" ele_index="34" ele_name="btxversion"/>
+<horz order="16" ele_index="36" ele_name="btxlang"/>
+<horz order="17" ele_index="38" ele_name="btxuser"/>
+<horz order="18" ele_index="40" ele_name="btxsystem"/>
+<horz order="19" ele_index="42" ele_name="btxAD"/>
+<horz order="20" ele_index="58" ele_name="btxDA"/>
+<horz order="21" ele_index="60" ele_name="btxconfig"/>
+<horz order="22" ele_index="44" ele_name="btxIOdefine"/>
+<horz order="23" ele_index="53" ele_name="btxdetect"/>
+<horz order="24" ele_index="56" ele_name="btxkeytest"/>
+<horz order="25" ele_index="79" ele_name="btxspcfunc"/>
+<horz order="26" ele_index="46" ele_name="btxservo"/>
+<horz order="27" ele_index="62" ele_name="btxpump"/>
+<horz order="28" ele_index="64" ele_name="btxlub"/>
+<horz order="29" ele_index="66" ele_name="btxparam"/>
+<horz order="30" ele_index="50" ele_name="btxupdate"/>
+<horz order="31" ele_index="54" ele_name="btxdata"/>
+<horz order="32" ele_index="48" ele_name="btxinstall"/>
+<horz order="33" ele_index="77" ele_name="btxadjmach"/>
+<horz order="34" ele_index="71" ele_name="btxilink"/>
+<horz order="35" ele_index="73" ele_name="btximach"/>
+<horz order="36" ele_index="81" ele_name="btxkeydefine"/>
+<horz order="37" ele_index="69" ele_name="btxtest"/>
+<vert order="0" ele_index="2" ele_name="btxclamp"/>
+<vert order="1" ele_index="14" ele_name="btxcore"/>
+<vert order="2" ele_index="34" ele_name="btxversion"/>
+<vert order="3" ele_index="53" ele_name="btxdetect"/>
+<vert order="4" ele_index="50" ele_name="btxupdate"/>
+<vert order="5" ele_index="81" ele_name="btxkeydefine"/>
+<vert order="6" ele_index="4" ele_name="btxeject"/>
+<vert order="7" ele_index="17" ele_name="btxtemp"/>
+<vert order="8" ele_index="36" ele_name="btxlang"/>
+<vert order="9" ele_index="56" ele_name="btxkeytest"/>
+<vert order="10" ele_index="54" ele_name="btxdata"/>
+<vert order="11" ele_index="69" ele_name="btxtest"/>
+<vert order="12" ele_index="6" ele_name="btxinject"/>
+<vert order="13" ele_index="18" ele_name="btxnozzle"/>
+<vert order="14" ele_index="38" ele_name="btxuser"/>
+<vert order="15" ele_index="79" ele_name="btxspcfunc"/>
+<vert order="16" ele_index="48" ele_name="btxinstall"/>
+<vert order="17" ele_index="12" ele_name="btxcharge"/>
+<vert order="18" ele_index="20" ele_name="btxother"/>
+<vert order="19" ele_index="40" ele_name="btxsystem"/>
+<vert order="20" ele_index="46" ele_name="btxservo"/>
+<vert order="21" ele_index="77" ele_name="btxadjmach"/>
+<vert order="22" ele_index="22" ele_name="btxproduct"/>
+<vert order="23" ele_index="30" ele_name="btxrecord"/>
+<vert order="24" ele_index="42" ele_name="btxAD"/>
+<vert order="25" ele_index="62" ele_name="btxpump"/>
+<vert order="26" ele_index="71" ele_name="btxilink"/>
+<vert order="27" ele_index="24" ele_name="btxmonitor"/>
+<vert order="28" ele_index="33" ele_name="btxmold"/>
+<vert order="29" ele_index="58" ele_name="btxDA"/>
+<vert order="30" ele_index="64" ele_name="btxlub"/>
+<vert order="31" ele_index="73" ele_name="btximach"/>
+<vert order="32" ele_index="26" ele_name="btxalarm"/>
+<vert order="33" ele_index="75" ele_name="btxMT"/>
+<vert order="34" ele_index="60" ele_name="btxconfig"/>
+<vert order="35" ele_index="66" ele_name="btxparam"/>
+<vert order="36" ele_index="28" ele_name="btxIO"/>
+<vert order="37" ele_index="44" ele_name="btxIOdefine"/>
+<tab order="0" ele_index="2" ele_name="btxclamp"/>
+<tab order="1" ele_index="14" ele_name="btxcore"/>
+<tab order="2" ele_index="34" ele_name="btxversion"/>
+<tab order="3" ele_index="53" ele_name="btxdetect"/>
+<tab order="4" ele_index="50" ele_name="btxupdate"/>
+<tab order="5" ele_index="81" ele_name="btxkeydefine"/>
+<tab order="6" ele_index="4" ele_name="btxeject"/>
+<tab order="7" ele_index="17" ele_name="btxtemp"/>
+<tab order="8" ele_index="36" ele_name="btxlang"/>
+<tab order="9" ele_index="56" ele_name="btxkeytest"/>
+<tab order="10" ele_index="54" ele_name="btxdata"/>
+<tab order="11" ele_index="69" ele_name="btxtest"/>
+<tab order="12" ele_index="6" ele_name="btxinject"/>
+<tab order="13" ele_index="18" ele_name="btxnozzle"/>
+<tab order="14" ele_index="38" ele_name="btxuser"/>
+<tab order="15" ele_index="79" ele_name="btxspcfunc"/>
+<tab order="16" ele_index="48" ele_name="btxinstall"/>
+<tab order="17" ele_index="12" ele_name="btxcharge"/>
+<tab order="18" ele_index="20" ele_name="btxother"/>
+<tab order="19" ele_index="40" ele_name="btxsystem"/>
+<tab order="20" ele_index="46" ele_name="btxservo"/>
+<tab order="21" ele_index="77" ele_name="btxadjmach"/>
+<tab order="22" ele_index="22" ele_name="btxproduct"/>
+<tab order="23" ele_index="30" ele_name="btxrecord"/>
+<tab order="24" ele_index="42" ele_name="btxAD"/>
+<tab order="25" ele_index="62" ele_name="btxpump"/>
+<tab order="26" ele_index="71" ele_name="btxilink"/>
+<tab order="27" ele_index="24" ele_name="btxmonitor"/>
+<tab order="28" ele_index="33" ele_name="btxmold"/>
+<tab order="29" ele_index="58" ele_name="btxDA"/>
+<tab order="30" ele_index="64" ele_name="btxlub"/>
+<tab order="31" ele_index="73" ele_name="btximach"/>
+<tab order="32" ele_index="26" ele_name="btxalarm"/>
+<tab order="33" ele_index="75" ele_name="btxMT"/>
+<tab order="34" ele_index="60" ele_name="btxconfig"/>
+<tab order="35" ele_index="66" ele_name="btxparam"/>
+<tab order="36" ele_index="28" ele_name="btxIO"/>
+<tab order="37" ele_index="44" ele_name="btxIOdefine"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="lblgroup1"/>
+<id order="2" ele_index="2" ele_name="btxclamp"/>
+<id order="3" ele_index="3" ele_name="lblclamp"/>
+<id order="4" ele_index="4" ele_name="btxeject"/>
+<id order="5" ele_index="5" ele_name="lbleject"/>
+<id order="6" ele_index="6" ele_name="btxinject"/>
+<id order="7" ele_index="7" ele_name="lblinject"/>
+<id order="8" ele_index="8" ele_name="lblgroup2"/>
+<id order="9" ele_index="9" ele_name="lblgroup4"/>
+<id order="10" ele_index="10" ele_name="lblgroup3"/>
+<id order="11" ele_index="11" ele_name="lblgroup5"/>
+<id order="12" ele_index="12" ele_name="btxcharge"/>
+<id order="13" ele_index="13" ele_name="lblcharge"/>
+<id order="14" ele_index="14" ele_name="btxcore"/>
+<id order="15" ele_index="15" ele_name="lblcore"/>
+<id order="16" ele_index="16" ele_name="lbltemp"/>
+<id order="17" ele_index="17" ele_name="btxtemp"/>
+<id order="18" ele_index="18" ele_name="btxnozzle"/>
+<id order="19" ele_index="19" ele_name="lblnozzle"/>
+<id order="20" ele_index="20" ele_name="btxother"/>
+<id order="21" ele_index="21" ele_name="lblother"/>
+<id order="22" ele_index="22" ele_name="btxproduct"/>
+<id order="23" ele_index="23" ele_name="lblproduct"/>
+<id order="24" ele_index="24" ele_name="btxmonitor"/>
+<id order="25" ele_index="25" ele_name="lblmonitor"/>
+<id order="26" ele_index="26" ele_name="btxalarm"/>
+<id order="27" ele_index="27" ele_name="lblalarm"/>
+<id order="28" ele_index="28" ele_name="btxIO"/>
+<id order="29" ele_index="29" ele_name="lblIO"/>
+<id order="30" ele_index="30" ele_name="btxrecord"/>
+<id order="31" ele_index="31" ele_name="lblrecord"/>
+<id order="32" ele_index="32" ele_name="lblmold"/>
+<id order="33" ele_index="33" ele_name="btxmold"/>
+<id order="34" ele_index="34" ele_name="btxversion"/>
+<id order="35" ele_index="35" ele_name="lblversion"/>
+<id order="36" ele_index="36" ele_name="btxlang"/>
+<id order="37" ele_index="37" ele_name="lbllang"/>
+<id order="38" ele_index="38" ele_name="btxuser"/>
+<id order="39" ele_index="39" ele_name="lbluser"/>
+<id order="40" ele_index="40" ele_name="btxsystem"/>
+<id order="41" ele_index="41" ele_name="lblsystem"/>
+<id order="42" ele_index="42" ele_name="btxAD"/>
+<id order="43" ele_index="43" ele_name="lblAD"/>
+<id order="44" ele_index="44" ele_name="btxIOdefine"/>
+<id order="45" ele_index="45" ele_name="lblIOdefine"/>
+<id order="46" ele_index="46" ele_name="btxservo"/>
+<id order="47" ele_index="47" ele_name="lblservo"/>
+<id order="48" ele_index="48" ele_name="btxinstall"/>
+<id order="49" ele_index="49" ele_name="lblinstall"/>
+<id order="50" ele_index="50" ele_name="btxupdate"/>
+<id order="51" ele_index="51" ele_name="lblupdate"/>
+<id order="52" ele_index="52" ele_name="lbldetect"/>
+<id order="53" ele_index="53" ele_name="btxdetect"/>
+<id order="54" ele_index="54" ele_name="btxdata"/>
+<id order="55" ele_index="55" ele_name="lbldata"/>
+<id order="56" ele_index="56" ele_name="btxkeytest"/>
+<id order="57" ele_index="57" ele_name="lblkeytest"/>
+<id order="58" ele_index="58" ele_name="btxDA"/>
+<id order="59" ele_index="59" ele_name="lblDA"/>
+<id order="60" ele_index="60" ele_name="btxconfig"/>
+<id order="61" ele_index="61" ele_name="lblconfig"/>
+<id order="62" ele_index="62" ele_name="btxpump"/>
+<id order="63" ele_index="63" ele_name="lblpump"/>
+<id order="64" ele_index="64" ele_name="btxlub"/>
+<id order="65" ele_index="65" ele_name="lbllub"/>
+<id order="66" ele_index="66" ele_name="btxparam"/>
+<id order="67" ele_index="67" ele_name="lblparam"/>
+<id order="68" ele_index="68" ele_name="lbltest"/>
+<id order="69" ele_index="69" ele_name="btxtest"/>
+<id order="70" ele_index="70" ele_name="lblgroup6"/>
+<id order="71" ele_index="71" ele_name="btxilink"/>
+<id order="72" ele_index="72" ele_name="lblilink"/>
+<id order="73" ele_index="73" ele_name="btximach"/>
+<id order="74" ele_index="74" ele_name="lblimach"/>
+<id order="75" ele_index="75" ele_name="btxMT"/>
+<id order="76" ele_index="76" ele_name="lblMT"/>
+<id order="77" ele_index="77" ele_name="btxadjmach"/>
+<id order="78" ele_index="78" ele_name="lbladjmach"/>
+<id order="79" ele_index="79" ele_name="btxspcfunc"/>
+<id order="80" ele_index="80" ele_name="lblspcfunc"/>
+<id order="81" ele_index="81" ele_name="btxkeydefine"/>
+<id order="82" ele_index="82" ele_name="lblkeydefine"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Другое|||2:기타|||3:OTHER|||4:OTHER|||5:OTHER|||6:Otros|||0:其它|||7:Diğer|||8:OTHER|||9:Outro|||10:Khác|||default:OTHER" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOTHER.png" 按下图片="btnOTHERx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Произв|||2:생산관리|||3:PROD|||4:PROD|||5:PROD|||6:Productos|||0:生产|||7:Ürün|||8:PROD|||9:Prod|||10:sản xuất|||default:PROD" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPROD.png" 按下图片="btnPRODx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Запись|||2:기록|||3:REC|||4:REC|||5:REC|||6:Grabar|||0:记录|||7:Kayit|||8:REC|||9:Rec|||10:ghi âm|||default:REC" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnP.REC.png" 按下图片="btnP.RECx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Зуммер|||2:경보기록|||3:ALRM|||4:ALRM|||5:ALRM|||6:Alarma|||0:警报|||7:Alarm|||8:ALRM|||9:Alarme|||10:Cảnh báo|||default:ALRM" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnALRM.png" 按下图片="btnALRMx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:монитор|||2:생산기록|||3:MONI|||4:MONI|||5:MONI|||6:Moni|||0:监测|||7:Izleme|||8:MONI|||9:Moni|||10:giám sát|||default:MONI" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMONI.png" 按下图片="btnMONIx.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:Пресс-форма|||2:모듈|||3:MOLD|||4:MOLD|||5:MOLD|||6:Molde|||0:模具|||7:Kalıp|||8:MOLD|||9:Molde|||10:khuôn|||default:MOLD" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMOLD.png" 按下图片="btnMOLDx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:IO|||2:IO|||3:IO|||4:IO|||5:IO|||6:IO|||0:IO|||7:IO|||8:IO|||9:IO|||10:IO|||default:IO" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIO.png" 按下图片="btnIOx.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+</jmp_list>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:OTHER|||0:其它|||1:Другое|||2:기타|||4:OTHER|||5:OTHER|||6:Otros|||7:Diğer|||8:OTHER|||9:Outro|||10:Khác|||default:OTHER" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOTHER.png" 按下图片="btnOTHERx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:PROD|||0:生产|||1:Произв|||2:생산관리|||4:PROD|||5:PROD|||6:Productos|||7:Ürün|||8:PROD|||9:Prod|||10:sản xuất|||default:PROD" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPROD.png" 按下图片="btnPRODx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:REC|||0:记录|||1:Запись|||2:기록|||4:REC|||5:REC|||6:Grabar|||7:Kayit|||8:REC|||9:Rec|||10:ghi âm|||default:REC" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnP.REC.png" 按下图片="btnP.RECx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:ALRM|||0:警报|||1:Зуммер|||2:경보기록|||4:ALRM|||5:ALRM|||6:Alarma|||7:Alarm|||8:ALRM|||9:Alarme|||10:Cảnh báo|||default:ALRM" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnALRM.png" 按下图片="btnALRMx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:MONI|||0:监测|||1:монитор|||2:생산기록|||4:MONI|||5:MONI|||6:Moni|||7:Izleme|||8:MONI|||9:Moni|||10:giám sát|||default:MONI" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMONI.png" 按下图片="btnMONIx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:MOLD|||0:模具|||1:Пресс-форма|||2:모듈|||4:MOLD|||5:MOLD|||6:Molde|||7:Kalıp|||8:MOLD|||9:Molde|||10:khuôn|||default:MOLD" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnMOLD.png" 按下图片="btnMOLDx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="0" 宽度="0" 高度="0" 标题="3:IO|||0:IO|||1:IO|||2:IO|||4:IO|||5:IO|||6:IO|||7:IO|||8:IO|||9:IO|||10:IO|||default:IO" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnIO.png" 按下图片="btnIOx.png" 聚焦图片="" 快捷键="0" 焦点底色="13107200" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="13107200" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

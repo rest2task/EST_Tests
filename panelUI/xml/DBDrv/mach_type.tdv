@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="mach_type">
+<config name="转换器类型" value="按值"/>
+<group data_src="">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">卧式</string>
+<string lang_id="1" lang="俄文">горизонтал</string>
+<string lang_id="2" lang="韩文">수평</string>
+<string lang_id="3" lang="英文">Horizont</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">H</string>
+<string lang_id="7" lang="土耳其语">H</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Horizont</string>
+<string lang_id="10" lang="越南文">H</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">立式</string>
+<string lang_id="1" lang="俄文">вертикаль</string>
+<string lang_id="2" lang="韩文">수직</string>
+<string lang_id="3" lang="英文">Vertical</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">v</string>
+<string lang_id="7" lang="土耳其语">Dikey</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Vertical</string>
+<string lang_id="10" lang="越南文">Vertical</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">油压</string>
+<string lang_id="1" lang="俄文">маслоДавл</string>
+<string lang_id="2" lang="韩文">기계 </string>
+<string lang_id="3" lang="英文">Oil Prs</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceitePrs</string>
+<string lang_id="7" lang="土耳其语">Yağ basıncı</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Pres óleo</string>
+<string lang_id="10" lang="越南文">Dầu AS</string>
+</item>
+</group>
+</MapDrv>

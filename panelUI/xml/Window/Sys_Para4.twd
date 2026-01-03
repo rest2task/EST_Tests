@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Sys_Para4" 可见="-1" 标题="0:机器系统参数三|||1:СистеПараметр3|||2:기계시스템3|||3:System Para3|||6:Parametros de sistema 3|||7:Sistem Param 3|||9:Sistema Parâm3|||10:Thông số máy 3|||default:System Para3" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="10" 宽度="580" 高度="500" 文本="0:国标设定|||1:GBУст.|||2:GB|||3:GB Setting|||4:وضع المعايير الوطنية|||5:GB Setting|||6:GB Config|||7:GB Ayar|||8:GB تنظیمات|||9:GB Setting|||10:GB Cài đặt|||default:GB Setting" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="90" 宽度="240" 高度="24" 语言表索引="0" 文本="0:座进检测安全门|||1:Вход.сид.Пров.Зап.дв.|||2:노즐전진테스팅안전문|||3:NozAdv Chk SafeDoor|||4:قاعدة الي الأمام كشف عن باب الأمن|||5:NozAdv Chk SafeDoor|||6:BoquilAvan Detect SegPt|||7:Grup İleri Teftiş GüvKapı|||8:پیشرفت بینی بازرسی درب ایمنی|||9:BicoEntr.Detectar SafeDr|||10:Bệ vào kiểmTra Cửa an toàn|||default:NozAdv Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label122" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="124" 宽度="240" 高度="24" 语言表索引="0" 文本="0:托进检测安全门|||1:Держись.Пров.Зап.дв.|||2:이젝트 어드 테스팅안전문|||3:EjtAdv Chk SafeDoor|||4:إخراج التحقق المسبق من الباب الآمن|||5:EjtAdv Chk SafeDoor|||6:Expul Avan Detect SegPt|||7:İlerlemeyi Çıkari Teftiş GüvKapı|||8:وارد درب ایمنی بازرسی شوید|||9:Ejetar Avan Detectar SafeDr|||10:Đẩy trước kiểmTra Cửa an toàn|||default:EjtAdv Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label124" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="192" 宽度="240" 高度="24" 语言表索引="0" 文本="0:开模检测安全门|||1:Отк.Пров.Зап.дв.|||2:형개테스팅안전문|||3:Open Chk SafeDoor|||4:فتح قالب كشف عن باب الأمن|||5:Open Chk SafeDoor|||6:Abrir Detect SegPt|||7:Açmak Teftiş GüvKapı|||8:بازکردن بازرسی درب ایمنی|||9:Abrir Detectar SafeDr|||10:Mở k. kiểmTra Cửa an toàn|||default:Open Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label126" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="226" 宽度="240" 高度="24" 语言表索引="0" 文本="0:中子退检测安全门|||1:Запас.Вне двер.пров.нейт.|||2:코어 후진  테스팅안전문|||3:Core Out Chk SafeDoor|||4:باب الأمن لكشف النيوترون|||5:Core Chk SafeDoor|||6:Noyo Ret Detect SegPt|||7:Maça Çıkışı Teftiş Güv Kapısı|||8:درب ایمنی بازرسی مغز|||9:CoreRetiro Detectar SafeDr|||10:nơtron rút kiểmTra Cửa an toàn|||default:Core Out Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label128" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="260" 宽度="240" 高度="24" 语言表索引="0" 文本="0:储料检测安全门|||1:Хран.Пров.Зап.дв.|||2:계량테스팅안전문|||3:Charge Chk SafeDoor|||4:تخزين المواد كشف عن باب الأمن|||5:Charge Chk SafeDoor|||6:Carga Detect SegPt|||7:Mal Al Teftiş GüvKapı|||8:شارژتغذیه بازرسی درب ایمنی|||9:Carregar Detectar SafeDr|||10:Trữ liệu kiểmTra Cửa an toàn|||default:Charge Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label130" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="294" 宽度="240" 高度="24" 语言表索引="0" 文本="0:射出检测安全门|||1:Изл.Пров.Зап.дв.|||2:사출테스팅안전문|||3:Inject Chk SafeDoor|||4:حقن كشف عن باب الأمن|||5:Inject Chk SafeDoor|||6:Inyect Detect SegPt|||7:Enjek Teftiş GüvKapı|||8:تزریق بازرسی درب ایمنی|||9:Inj.Detectar SafeDr|||10:Bắn ra kiểmTra Cửa an toàn|||default:Inject Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label132" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="328" 宽度="240" 高度="24" 语言表索引="0" 文本="0:储料检测射出防护罩|||1:Защ.кож.исп.пров.хран.|||2:계량 체크 사출퍼지카바|||3:Charge Chk Inj Shield|||4:درع الحماية لكشف التخزين|||5:Charge Chk Inj Shield|||6:Carga Detect InyectProt|||7:Mal Al Teftiş Enj Kukuleta|||8:محافظ تزریق بازرسی شارژ|||9:Carregar Detectar Inj.Escudo|||10:Chụp p.hộ bắn ra KT TN trữ L.|||default:Charge Chk Inj Shield" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label134" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="362" 宽度="240" 高度="24" 语言表索引="0" 文本="0:座进检测射出防护罩|||1:Вход.сид.Защ.кры.пров.|||2:노즐 전진 체크 사출 퍼지카바|||3:NozAdv Chk Inj Shield|||4:قاعدة كشف عن حقن الغطاء|||5:NozAdv Chk Inj Shield|||6:BoquilAvan Detect Protector Boquilla|||7:Grup Teftiş Enj Kukuleta|||8:بینی بازرسی سپر تزریق|||9:BicoEntr.Detectar Inj.Escudo|||10:Bệ kiểmTra Chụp phòng hộ bắn|||default:NozAdv Chk Inj Shield" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label136" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="396" 宽度="240" 高度="24" 语言表索引="0" 文本="0:调模进检测安全门|||1:Рег.мод.Вх.Пров.Зап.дв.|||2:테스팅안전문|||3:AdjAdv Chk SafeDoor|||4:تعديل القالب الأمام كشف عن باب الأمن|||5:AdjAdv Chk SafeDoor|||6:Ajuste Avan Detect SegPt|||7:Ayar İleri Teftiş GüvKapı|||8:تنظیم پیشرفت بازرسی درب ایمنی|||9:AjusteEntr.Detectar SafeDr|||10:Diều chỉnh k.vào kiểmTra cửa|||default:AdjAdv Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label138" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="50" 宽度="560" 高度="26" 语言表索引="0" 文本="0:关闭以下功能时，可能具有挤压/喷射危险！|||1:Когда след.фун.вык., может быс.сле.рис.сжа./изве.!|||2:다음 기능을 사용하지 않을 때 압출 / 삽입 위험|||3:Extrusion/inject danger when don&apos;t use the following func|||4:إغلاق الوظائف التالية، قد يكون خطير المقذوف / الحقن !|||5:Extrusion/inject danger when don&apos;t use the following func|||6:Si desactive las siguientes funciones, Puede tener peligro de herir su operador|||7:Ekstrüzyon / Aşağıdaki fonks kullanmadığınızda tehlike enjekte eder|||8:خطر بیرواندازی/تزریق در استفاده از کاربردهای زیر|||9:Perigo de extrusão/injeção quando não usar a seguinte função|||10:Khi tắt chức năng dưới đây, có thể có rủi ra ép đùn/phun bắn!|||default:Extrusion/inject danger when don&apos;t use the following func" 横向对齐="1" 纵向对齐="1" 文本色="16711680" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="数据库.EstCODE.nothmd"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label139" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="430" 宽度="240" 高度="24" 语言表索引="0" 文本="0:调模退检测安全门|||1:Рег.мод.Вы.Пров.Зап.дв.|||2:조정 후진테스팅안전문|||3:AdjRet Chk SafeDoor|||4:تعديل القالب تراجع كشف عن باب الأمن|||5:AdjRet Chk SafeDoor|||6:Ajuste Ret Detect SegPt|||7:Ayar Çekis Teftiş GüvKapı|||8:تنظیم برگشت بازرسی درب ایمنی|||9:AjusteRet.Detectar SafeDr|||10:Diều chỉnh k.rút kiểmTra cửa|||default:AdjRet Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton1" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="90" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="0:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="0:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton2" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="124" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="1:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="1:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton3" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="192" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="2:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="2:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton4" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="226" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="3:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="3:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton5" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="260" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="4:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="4:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton6" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="294" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="5:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="5:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton7" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="328" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="6:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="6:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton8" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="362" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="7:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="7:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton9" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="396" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton10" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="430" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="9:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="9:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="stbutton11" 索引="0" 可见="-1" 可用="-1" 左="403" 顶="158" 宽度="90" 高度="24" 数据="0:不使用;使用|||1:Не испол;испол|||2:사용 않음;사용|||3:Not Use;Use|||4:ليس للاستخدام;يستخدم|||5:Ne utiliser;Utiliser|||6:No utilice;Usar|||7:Kullanılmaz;Kullanmak|||8:استفاده نمی;استفاده کنید|||9:Não usar;Usar|||10:Không dùng;Sử dụng|||default:不使用" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="10:d.machine1.MACHSET.FL_reserve_1" 当前值="0" cur_text="不使用" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="10:d.machine1.MACHSET.FL_reserve_1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label140" 索引="0" 可见="-1" 可用="-1" 左="140" 顶="158" 宽度="240" 高度="24" 语言表索引="0" 文本="1:Отступл.Пров.Зап.дв.|||2:이젝트 후퇴 테스팅안전문|||4:إخراج التراجع تحقق من الباب الآمن|||6:Expul Ret Detect SegPt|||7:çekilmeyi çıkar Teftiş GüvKapı|||8:درب ایمنی را بررسی کنید|||9:Ejetar Ret Detectar SafeDr|||10:Rút lui từ chối kiểmTra Cửa an toàn|||0:托退检测安全门|||3:EjtRet Chk SafeDoor|||default:EjtRet Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="15" ele_name="stbutton1"/>
+<horz order="1" ele_index="16" ele_name="stbutton2"/>
+<horz order="2" ele_index="25" ele_name="stbutton11"/>
+<horz order="3" ele_index="17" ele_name="stbutton3"/>
+<horz order="4" ele_index="18" ele_name="stbutton4"/>
+<horz order="5" ele_index="19" ele_name="stbutton5"/>
+<horz order="6" ele_index="20" ele_name="stbutton6"/>
+<horz order="7" ele_index="21" ele_name="stbutton7"/>
+<horz order="8" ele_index="22" ele_name="stbutton8"/>
+<horz order="9" ele_index="23" ele_name="stbutton9"/>
+<horz order="10" ele_index="24" ele_name="stbutton10"/>
+<vert order="0" ele_index="15" ele_name="stbutton1"/>
+<vert order="1" ele_index="16" ele_name="stbutton2"/>
+<vert order="2" ele_index="25" ele_name="stbutton11"/>
+<vert order="3" ele_index="17" ele_name="stbutton3"/>
+<vert order="4" ele_index="18" ele_name="stbutton4"/>
+<vert order="5" ele_index="19" ele_name="stbutton5"/>
+<vert order="6" ele_index="20" ele_name="stbutton6"/>
+<vert order="7" ele_index="21" ele_name="stbutton7"/>
+<vert order="8" ele_index="22" ele_name="stbutton8"/>
+<vert order="9" ele_index="23" ele_name="stbutton9"/>
+<vert order="10" ele_index="24" ele_name="stbutton10"/>
+<tab order="0" ele_index="15" ele_name="stbutton1"/>
+<tab order="1" ele_index="16" ele_name="stbutton2"/>
+<tab order="2" ele_index="25" ele_name="stbutton11"/>
+<tab order="3" ele_index="17" ele_name="stbutton3"/>
+<tab order="4" ele_index="18" ele_name="stbutton4"/>
+<tab order="5" ele_index="19" ele_name="stbutton5"/>
+<tab order="6" ele_index="20" ele_name="stbutton6"/>
+<tab order="7" ele_index="21" ele_name="stbutton7"/>
+<tab order="8" ele_index="22" ele_name="stbutton8"/>
+<tab order="9" ele_index="23" ele_name="stbutton9"/>
+<tab order="10" ele_index="24" ele_name="stbutton10"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label29"/>
+<id order="3" ele_index="3" ele_name="label122"/>
+<id order="4" ele_index="4" ele_name="label124"/>
+<id order="5" ele_index="5" ele_name="label126"/>
+<id order="6" ele_index="6" ele_name="label128"/>
+<id order="7" ele_index="7" ele_name="label130"/>
+<id order="8" ele_index="8" ele_name="label132"/>
+<id order="9" ele_index="9" ele_name="label134"/>
+<id order="10" ele_index="10" ele_name="label136"/>
+<id order="11" ele_index="11" ele_name="label138"/>
+<id order="12" ele_index="12" ele_name="label139"/>
+<id order="13" ele_index="13" ele_name="_input_range_labellabel"/>
+<id order="14" ele_index="14" ele_name="_input_range_label"/>
+<id order="15" ele_index="15" ele_name="stbutton1"/>
+<id order="16" ele_index="16" ele_name="stbutton2"/>
+<id order="17" ele_index="17" ele_name="stbutton3"/>
+<id order="18" ele_index="18" ele_name="stbutton4"/>
+<id order="19" ele_index="19" ele_name="stbutton5"/>
+<id order="20" ele_index="20" ele_name="stbutton6"/>
+<id order="21" ele_index="21" ele_name="stbutton7"/>
+<id order="22" ele_index="22" ele_name="stbutton8"/>
+<id order="23" ele_index="23" ele_name="stbutton9"/>
+<id order="24" ele_index="24" ele_name="stbutton10"/>
+<id order="25" ele_index="25" ele_name="stbutton11"/>
+<id order="26" ele_index="26" ele_name="label140"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Парам1|||2:변수1|||3:PARA1|||4:|||5:|||6:Param1|||0:参数一|||7:Param1|||8:|||9:Parâm1|||10:tham số1|||default:PARA1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA1.png" 按下图片="btnPARA1x.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Парам2|||2:변수2|||3:PARA2|||4:|||5:|||6:Param2|||0:参数二|||7:Param2|||8:|||9:Parâm2|||10:tham số2|||default:PARA2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA2.png" 按下图片="btnPARA2x.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Парам3|||2:변수3|||3:PARA3|||4:|||5:|||6:Param3|||0:参数三|||7:Param3|||8:|||9:Parâm3|||10:tham số3|||default:PARA3" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA3.png" 按下图片="btnPARA3x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;Sys_Para3&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Парам4|||2:변수4|||3:PARA4|||4:|||5:|||6:Param4|||0:参数四|||7:Param4|||8:|||9:Parâm4|||10:tham số4|||default:PARA4" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA4.png" 按下图片="btnPARA4x.png" 聚焦图片="btPress.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:Парам5|||2:변수5|||3:PARA5|||4:|||5:|||6:Param5|||0:参数五|||7:Param5|||8:|||9:Parâm5|||10:tham số5|||default:PARA5" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA5.png" 按下图片="btnPARA5x.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:состав|||2:구조|||3:STRUCT|||4:|||5:|||6:Estruct|||0:结构|||7:Yapısı|||8:|||9:Estrutura|||10:kết cấu|||default:STRUCT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTRUCT.png" 按下图片="btnSTRUCTx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;系统&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

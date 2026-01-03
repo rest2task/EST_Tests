@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Sys_Para5" 可见="-1" 标题="0:机器系统参数四|||1:СистеПараметр4|||2:시스템 기계 매개 변수 4|||3:Mach Sys Param 4|||4:نظام آلة معلمات  4|||5:Mach Sys Param 4|||6:Parametros de sistema 4|||7:Sistem Param 4|||8:پارامتر سیستم ماشین 4|||9:Parâm sistema máquina 4|||10:Thông số máy 4|||default:Mach Sys Param 4" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox1" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="15" 宽度="285" 高度="280" 文本="0:射出慢速|||1:Впрс Медл|||2:사출 저속|||3:Inject Slow|||4:حقن بطيء|||5:Inject Slow|||6:Inyect Lent|||7:Enj Yavaş|||8:تزریق کند|||9:Inject Lento|||10:B.ra chậm|||default:Inject Slow" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="50" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力斜率|||1:Пуск Давл RAMP|||2:시작 압력RAMP|||3:Start Prs Ramp|||4:حقن الضغط المنحدر بداية بطيئة|||5:Inj Slow Str Prs Ramp|||6:Ini Prs Ramp|||7:Başlat BasRamp|||8:شیب فشار استارت کند تزریق|||9:Inicia Prs Ramp|||10:KĐ HSG AS|||default:Start Prs Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label122" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="84" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度斜率|||1:Пуск Скор RAMP|||2:시작 유량RAMP|||3:Start Spd Ramp|||4:حقن سرعة بطيئة بداية المنحدر|||5:Inj Slow Str Spd Ramp|||6:Ini Vel Ramp|||7:Başlat HızRamp|||8:شیب سرعت استارت کند تزریق|||9:Inicia Flu Ramp|||10:KĐ HSG TĐ|||default:Start Spd Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label124" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="118" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力|||1:Пуск Давл|||2:시작 압력|||3:Start Prs|||4:حقن ضغط بداية بطيئة|||5:Inj Slow Str Prs|||6:Inico Prs|||7:Başlat Bas|||8:فشار استارت کند تزریق|||9:Inicia Prs|||10:KĐ AS|||default:Start Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label126" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="152" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度|||1:Пуск Скор|||2:시작 유량|||3:Start Spd|||4:حقن سرعة بداية بطيئة|||5:Inj Slow Str Spd|||6:Inico Vel|||7:Başlat Hız|||8:سرعت استارت کند تزرق|||9:Inicia Fluxo|||10:KĐ TĐ|||default:Start Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label128" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="186" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动距离|||1:Пуск Расст.|||2:시작위치|||3:Start Dist|||4:بداية بطيئة المسافة لقطة|||5:Inj Slow Str Dist|||6:Abre Dist|||7:Başla Mesafe|||8:فاصله استارت کند تزریق|||9:Inicia Dist|||10:KĐ VT|||default:Start Dist" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label130" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="220" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动时间|||1:Время пуска|||2:시작시간|||3:Start Time|||4:حقن بطء زمن البدء|||5:Inj Slow Str Time|||6:Inicio Tm|||7:Başlat Zaman|||8:زمان استارت کند تزریق|||9:StartTimer|||10:KĐ Thời gian|||default:Start Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit13" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="50" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.ACTPARA.DAPRES_INJRAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJRAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit14" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="84" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJRAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJRAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit15" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="118" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAPRES_INJSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_INJSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="最大值" orient="in" tag="d.machine1.MACHSET.DAPRES_SYSLMT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit16" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="152" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_INJSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_INJSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="小数位" orient="in" tag="p.PP.OBJ.INJSLOW_STARTSPD_DOT"/>
+<var prop="最大值" orient="in" tag="p.PP.OBJ.INJSLOW_STARTSPD_MAX"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit17" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="186" 宽度="75" 高度="24" 文本="2.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:2.0" 关联变量="d.inject1.ACTPARA.ADPOSI_INJSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_INJSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit18" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="220" 宽度="75" 高度="24" 文本="0.200" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.200" 关联变量="d.inject1.ACTPARA.TM_INJSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="3" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_INJSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox2" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="15" 宽度="285" 高度="280" 文本="0:射退慢速|||1:Деко Медл |||2:강제후퇴 저속|||3:SuckBack Slow|||4:إغلاق قالب بطيء|||5:SuckBack Slow|||6:Descomp Lent|||7:GeriEm Yavaş|||8:مکیدن کند|||9:SuckVoltar Lento|||10:Bắn thoát chậm|||default:SuckBack Slow" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label172" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="50" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力斜率|||1:Пуск Давл RAMP|||2:시작 압력RAMP|||3:Start Prs Ramp|||4:حقن الضغط المنحدر بداية بطيئة|||5:Inj Slow Str Prs Ramp|||6:Ini Prs Ramp|||7:Başlat BasRamp|||8:شیب فشار استارت کند تزریق|||9:Inicia Prs Ramp|||10:KĐ HSG AS|||default:Start Prs Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label173" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="84" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度斜率|||1:Пуск Скор RAMP|||2:시작 유량RAMP|||3:Start Spd Ramp|||4:حقن سرعة بطيئة بداية المنحدر|||5:Inj Slow Str Spd Ramp|||6:Ini Vel Ramp|||7:Başlat HızRamp|||8:شیب سرعت استارت کند تزریق|||9:Inicia Flu Ramp|||10:KĐ HSG TĐ|||default:Start Spd Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label174" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="118" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力|||1:Пуск Давл|||2:시작 압력|||3:Start Prs|||4:حقن ضغط بداية بطيئة|||5:Inj Slow Str Prs|||6:Inico Prs|||7:Başlat Bas|||8:فشار استارت کند تزریق|||9:Inicia Prs|||10:KĐ AS|||default:Start Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label175" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="152" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度|||1:Пуск Скор|||2:시작 유량|||3:Start Spd|||4:حقن سرعة بداية بطيئة|||5:Inj Slow Str Spd|||6:Inico Vel|||7:Başlat Hız|||8:سرعت استارت کند تزرق|||9:Inicia Fluxo|||10:KĐ TĐ|||default:Start Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label176" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="186" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动距离|||1:Пуск Расст.|||2:시작위치|||3:Start Dist|||4:بداية بطيئة المسافة لقطة|||5:Inj Slow Str Dist|||6:Abre Dist|||7:Başla Mesafe|||8:فاصله استارت کند تزریق|||9:Inicia Dist|||10:KĐ VT|||default:Start Dist" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label177" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="220" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动时间|||1:Время пуска|||2:시작시간|||3:Start Time|||4:حقن بطء زمن البدء|||5:Inj Slow Str Time|||6:Inicio Tm|||7:Başlat Zaman|||8:زمان استارت کند تزریق|||9:StartTimer|||10:KĐ Thời gian|||default:Start Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit19" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="50" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.ACTPARA.DAPRES_SUCKRAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_SUCKRAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit20" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="84" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.inject1.ACTPARA.DAFLOW_SUCKRAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_SUCKRAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit21" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="118" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAPRES_SUCKSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAPRES_SUCKSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="最大值" orient="in" tag="d.autoctrl1.MOLDSET.DAPRES_LIMIT"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit22" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="152" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.inject1.ACTPARA.DAFLOW_SUCKSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.DAFLOW_SUCKSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit23" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="186" 宽度="75" 高度="24" 文本="2.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:2.0" 关联变量="d.inject1.ACTPARA.ADPOSI_SUCKSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.ADPOSI_SUCKSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit24" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="220" 宽度="75" 高度="24" 文本="0.200" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.200" 关联变量="d.inject1.ACTPARA.TM_SUCKSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="3" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.inject1.ACTPARA.TM_SUCKSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="118" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="152" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="186" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="unit31" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label178" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="84" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label179" 索引="0" 可见="-1" 可用="-1" 左="265" 顶="220" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label180" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="50" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label181" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="84" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label182" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="118" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label183" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="152" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label184" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="186" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label185" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="220" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox3" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="305" 宽度="285" 高度="280" 文本="0:射出开环|||1:Впрыска обратной связи|||2:사출오픈루프|||3:Inject Open Loop|||4:حقن بطيء|||5:Inject Slow|||6:Iny LazoAbierto|||7:Enjek Açık Döngü|||8:تزریق کند|||9:Inj.LoopAber|||10:Bắn ra mở vòng|||default:Inject Open Loop" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label186" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="340" 宽度="165" 高度="24" 语言表索引="0" 文本="0:高速校正系数|||1:Высоко скор.Поправ.коэфф.|||2:고유량 올바른 요소|||3:HiSpd CrrtFactor|||4:حقن الضغط المنحدر بداية بطيئة|||5:Inj Slow Str Prs Ramp|||6:CrrtFactor Alta Veloc|||7:Yüksek Hızlı Enjek Faktörü|||8:شیب فشار استارت کند تزریق|||9:HiSpd CrrtFactor|||10:Hệ số chỉnh tốc độ cao|||default:HiSpd CrrtFactor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.SPECIAL_DATA_SETUP_VISIBLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label187" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="374" 宽度="165" 高度="24" 语言表索引="0" 文本="0:低速校正系数|||1:Низкая скор.Поправ.коэфф.|||2:저유량 올바른 요소|||3:LowSpd CrrtFactor|||4:حقن سرعة بطيئة بداية المنحدر|||5:Inj Slow Str Spd Ramp|||6:CrrtFactor Baja Veloc|||7:DüşHız Enjek Faktörü|||8:شیب سرعت استارت کند تزریق|||9:LowSpd CrrtFactor|||10:Hệ số chỉnh tốc độ thấp|||default:LowSpd CrrtFactor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.SPECIAL_DATA_SETUP_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit25" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="374" 宽度="75" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.hydr1.MACHSET.LOWFLOW_ADJPARA" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.SPECIAL_DATA_SETUP_VISIBLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit26" 索引="0" 可见="-1" 可用="-1" 左="187" 顶="340" 宽度="75" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="d.hydr1.MACHSET.HIFLOW_ADJPARA" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.SPECIAL_DATA_SETUP_VISIBLE"/>
+</element>
+<element type_name="groupbox" type_id="20">
+<prop 名称="groupbox4" 索引="0" 可见="-1" 可用="-1" 左="305" 顶="305" 宽度="285" 高度="280" 文本="0:关模慢速|||1:МедлЗакр.|||2:형폐저속|||3:Close Slow|||4:إطلاق بطيء|||5:Close Slow|||6:Cierre Lent|||7:Kapat Yavaş|||8:بستن  کند|||9:Lento Fechar|||10:Đóng k.chậm|||default:Close Slow" 字体="宋体" 字号="18" 透明度="255" 文本色="0" 文本背景色="4294967295" 边框色="7895160" 边框宽度="1" 圆角矩形="0" 文字左偏移="10" bk_fill_mode="0" bk_fill_color="0" gbox_line_color2="-1"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label188" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="340" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力斜率|||1:Пуск Давл RAMP|||2:시작 압력RAMP|||3:Start Prs Ramp|||4:حقن الضغط المنحدر بداية بطيئة|||5:Inj Slow Str Prs Ramp|||6:Ini Prs Ramp|||7:Başlat BasRamp|||8:شیب فشار استارت کند تزریق|||9:Inicia Prs Ramp|||10:KĐ HSG AS|||default:Start Prs Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label189" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="374" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度斜率|||1:Пуск Скор RAMP|||2:시작 유량RAMP|||3:Start Spd Ramp|||4:حقن سرعة بطيئة بداية المنحدر|||5:Inj Slow Str Spd Ramp|||6:Ini Vel Ramp|||7:Başlat HızRamp|||8:شیب سرعت استارت کند تزریق|||9:Inicia Flu Ramp|||10:KĐ HSG TĐ|||default:Start Spd Ramp" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label190" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="408" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动压力|||1:Пуск Давл|||2:시작 압력|||3:Start Prs|||4:حقن ضغط بداية بطيئة|||5:Inj Slow Str Prs|||6:Inico Prs|||7:Başlat Bas|||8:فشار استارت کند تزریق|||9:Inicia Prs|||10:KĐ AS|||default:Start Prs" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label191" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="442" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动速度|||1:Пуск Скор|||2:시작 유량|||3:Start Spd|||4:حقن سرعة بداية بطيئة|||5:Inj Slow Str Spd|||6:Inico Vel|||7:Başlat Hız|||8:سرعت استارت کند تزرق|||9:Inicia Fluxo|||10:KĐ TĐ|||default:Start Spd" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label192" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="476" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动距离|||1:Пуск Расст.|||2:시작위치|||3:Start Dist|||4:بداية بطيئة المسافة لقطة|||5:Inj Slow Str Dist|||6:Abre Dist|||7:Başla Mesafe|||8:فاصله استارت کند تزریق|||9:Inicia Dist|||10:KĐ VT|||default:Start Dist" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label193" 索引="0" 可见="-1" 可用="-1" 左="315" 顶="510" 宽度="165" 高度="24" 语言表索引="0" 文本="0:启动时间|||1:Время пуска|||2:시작시간|||3:Start Time|||4:حقن بطء زمن البدء|||5:Inj Slow Str Time|||6:Inicio Tm|||7:Başlat Zaman|||8:زمان استارت کند تزریق|||9:StartTimer|||10:KĐ Thời gian|||default:Start Time" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit27" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="340" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.clamp1.ACTPARA.DAPRES_CLS_RAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.DAPRES_CLS_RAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit28" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="374" 宽度="75" 高度="24" 文本="0.50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.50" 关联变量="d.clamp1.ACTPARA.DAFLOW_CLS_RAMPSLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="199" 默认单位="-1" 小数位="2" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.DAFLOW_CLS_RAMPSLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit29" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="408" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.clamp1.ACTPARA.DAPRES_CLS_SLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="140" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.DAPRES_CLS_SLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit30" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="442" 宽度="75" 高度="24" 文本="50" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:50" 关联变量="d.clamp1.ACTPARA.DAFLOW_CLS_SLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="99" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.DAFLOW_CLS_SLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit31" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="476" 宽度="75" 高度="24" 文本="2.0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:2.0" 关联变量="d.clamp1.ACTPARA.ADPOSI_CLS_SLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="999" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.ADPOSI_CLS_SLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.HIFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit32" 索引="0" 可见="-1" 可用="-1" 左="482" 顶="510" 宽度="75" 高度="24" 文本="0.200" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0.200" 关联变量="d.clamp1.ACTPARA.TM_CLS_SLOW" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="200" 默认单位="-1" 小数位="3" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.clamp1.ACTPARA.TM_CLS_SLOW"/>
+<var prop="文本" orient="out" tag="d.hydr1.MACHSET.LOWFLOW_ADJPARA"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label194" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="340" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label195" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="374" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label196" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="408" 宽度="30" 高度="24" 语言表索引="0" 文本="0:bar|||1:bar|||2:bar|||3:bar|||4:bar|||5:bar|||6:bar|||7:bar|||8:bar|||9:bar|||10:bar|||default:bar" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label197" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="442" 宽度="30" 高度="24" 语言表索引="0" 文本="0:%|||1:%|||2:%|||3:%|||4:%|||5:%|||6:%|||7:%|||8:%|||9:%|||10:%|||default:%" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label198" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="476" 宽度="30" 高度="24" 语言表索引="0" 文本="0:mm|||1:mm|||2:mm|||3:mm|||4:mm|||5:mm|||6:mm|||7:mm|||8:mm|||9:mm|||10:mm|||default:mm" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label199" 索引="0" 可见="-1" 可用="-1" 左="560" 顶="510" 宽度="30" 高度="24" 语言表索引="0" 文本="0:s|||1:s|||2:s|||3:s|||4:s|||5:s|||6:s|||7:s|||8:s|||9:s|||10:s|||default:s" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可用" orient="in" tag="p.PP.OBJ.INJSLOW_START_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label140" 索引="0" 可见="-1" 可用="-1" 左="650" 顶="184" 宽度="240" 高度="24" 语言表索引="0" 文本="0:托退检测安全门|||1:Отступл.Пров.Зап.дв.|||2:이젝트 후퇴 테스팅안전문|||3:EjtRet Chk SafeDoor|||4:إخراج التراجع تحقق من الباب الآمن|||5:Eject Chk SafeDoor|||6:Expul Ret Detect SegPt|||7:çekilmeyi çıkar Teftiş GüvKapı|||8:درب ایمنی را بررسی کنید|||9:Ejetar Ret Detectar SafeDr|||10:Rút lui từ chối kiểmTra Cửa an toàn|||default:EjtRet Chk SafeDoor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="8" ele_name="edit13"/>
+<horz order="1" ele_index="21" ele_name="edit19"/>
+<horz order="2" ele_index="9" ele_name="edit14"/>
+<horz order="3" ele_index="22" ele_name="edit20"/>
+<horz order="4" ele_index="10" ele_name="edit15"/>
+<horz order="5" ele_index="23" ele_name="edit21"/>
+<horz order="6" ele_index="11" ele_name="edit16"/>
+<horz order="7" ele_index="24" ele_name="edit22"/>
+<horz order="8" ele_index="12" ele_name="edit17"/>
+<horz order="9" ele_index="25" ele_name="edit23"/>
+<horz order="10" ele_index="13" ele_name="edit18"/>
+<horz order="11" ele_index="26" ele_name="edit24"/>
+<horz order="12" ele_index="45" ele_name="edit26"/>
+<horz order="13" ele_index="53" ele_name="edit27"/>
+<horz order="14" ele_index="44" ele_name="edit25"/>
+<horz order="15" ele_index="54" ele_name="edit28"/>
+<horz order="16" ele_index="55" ele_name="edit29"/>
+<horz order="17" ele_index="56" ele_name="edit30"/>
+<horz order="18" ele_index="57" ele_name="edit31"/>
+<horz order="19" ele_index="58" ele_name="edit32"/>
+<vert order="0" ele_index="8" ele_name="edit13"/>
+<vert order="1" ele_index="9" ele_name="edit14"/>
+<vert order="2" ele_index="10" ele_name="edit15"/>
+<vert order="3" ele_index="11" ele_name="edit16"/>
+<vert order="4" ele_index="12" ele_name="edit17"/>
+<vert order="5" ele_index="13" ele_name="edit18"/>
+<vert order="6" ele_index="45" ele_name="edit26"/>
+<vert order="7" ele_index="44" ele_name="edit25"/>
+<vert order="8" ele_index="21" ele_name="edit19"/>
+<vert order="9" ele_index="22" ele_name="edit20"/>
+<vert order="10" ele_index="23" ele_name="edit21"/>
+<vert order="11" ele_index="24" ele_name="edit22"/>
+<vert order="12" ele_index="25" ele_name="edit23"/>
+<vert order="13" ele_index="26" ele_name="edit24"/>
+<vert order="14" ele_index="53" ele_name="edit27"/>
+<vert order="15" ele_index="54" ele_name="edit28"/>
+<vert order="16" ele_index="55" ele_name="edit29"/>
+<vert order="17" ele_index="56" ele_name="edit30"/>
+<vert order="18" ele_index="57" ele_name="edit31"/>
+<vert order="19" ele_index="58" ele_name="edit32"/>
+<tab order="0" ele_index="8" ele_name="edit13"/>
+<tab order="1" ele_index="21" ele_name="edit19"/>
+<tab order="2" ele_index="9" ele_name="edit14"/>
+<tab order="3" ele_index="22" ele_name="edit20"/>
+<tab order="4" ele_index="10" ele_name="edit15"/>
+<tab order="5" ele_index="23" ele_name="edit21"/>
+<tab order="6" ele_index="11" ele_name="edit16"/>
+<tab order="7" ele_index="24" ele_name="edit22"/>
+<tab order="8" ele_index="12" ele_name="edit17"/>
+<tab order="9" ele_index="25" ele_name="edit23"/>
+<tab order="10" ele_index="13" ele_name="edit18"/>
+<tab order="11" ele_index="26" ele_name="edit24"/>
+<tab order="12" ele_index="45" ele_name="edit26"/>
+<tab order="13" ele_index="53" ele_name="edit27"/>
+<tab order="14" ele_index="44" ele_name="edit25"/>
+<tab order="15" ele_index="54" ele_name="edit28"/>
+<tab order="16" ele_index="55" ele_name="edit29"/>
+<tab order="17" ele_index="56" ele_name="edit30"/>
+<tab order="18" ele_index="57" ele_name="edit31"/>
+<tab order="19" ele_index="58" ele_name="edit32"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="groupbox1"/>
+<id order="2" ele_index="2" ele_name="label29"/>
+<id order="3" ele_index="3" ele_name="label122"/>
+<id order="4" ele_index="4" ele_name="label124"/>
+<id order="5" ele_index="5" ele_name="label126"/>
+<id order="6" ele_index="6" ele_name="label128"/>
+<id order="7" ele_index="7" ele_name="label130"/>
+<id order="8" ele_index="8" ele_name="edit13"/>
+<id order="9" ele_index="9" ele_name="edit14"/>
+<id order="10" ele_index="10" ele_name="edit15"/>
+<id order="11" ele_index="11" ele_name="edit16"/>
+<id order="12" ele_index="12" ele_name="edit17"/>
+<id order="13" ele_index="13" ele_name="edit18"/>
+<id order="14" ele_index="14" ele_name="groupbox2"/>
+<id order="15" ele_index="15" ele_name="label172"/>
+<id order="16" ele_index="16" ele_name="label173"/>
+<id order="17" ele_index="17" ele_name="label174"/>
+<id order="18" ele_index="18" ele_name="label175"/>
+<id order="19" ele_index="19" ele_name="label176"/>
+<id order="20" ele_index="20" ele_name="label177"/>
+<id order="21" ele_index="21" ele_name="edit19"/>
+<id order="22" ele_index="22" ele_name="edit20"/>
+<id order="23" ele_index="23" ele_name="edit21"/>
+<id order="24" ele_index="24" ele_name="edit22"/>
+<id order="25" ele_index="25" ele_name="edit23"/>
+<id order="26" ele_index="26" ele_name="edit24"/>
+<id order="27" ele_index="27" ele_name="_input_range_labellabel"/>
+<id order="28" ele_index="28" ele_name="_input_range_label"/>
+<id order="29" ele_index="29" ele_name="label10"/>
+<id order="30" ele_index="30" ele_name="label11"/>
+<id order="31" ele_index="31" ele_name="label12"/>
+<id order="32" ele_index="32" ele_name="unit31"/>
+<id order="33" ele_index="33" ele_name="label178"/>
+<id order="34" ele_index="34" ele_name="label179"/>
+<id order="35" ele_index="35" ele_name="label180"/>
+<id order="36" ele_index="36" ele_name="label181"/>
+<id order="37" ele_index="37" ele_name="label182"/>
+<id order="38" ele_index="38" ele_name="label183"/>
+<id order="39" ele_index="39" ele_name="label184"/>
+<id order="40" ele_index="40" ele_name="label185"/>
+<id order="41" ele_index="41" ele_name="groupbox3"/>
+<id order="42" ele_index="42" ele_name="label186"/>
+<id order="43" ele_index="43" ele_name="label187"/>
+<id order="44" ele_index="44" ele_name="edit25"/>
+<id order="45" ele_index="45" ele_name="edit26"/>
+<id order="46" ele_index="46" ele_name="groupbox4"/>
+<id order="47" ele_index="47" ele_name="label188"/>
+<id order="48" ele_index="48" ele_name="label189"/>
+<id order="49" ele_index="49" ele_name="label190"/>
+<id order="50" ele_index="50" ele_name="label191"/>
+<id order="51" ele_index="51" ele_name="label192"/>
+<id order="52" ele_index="52" ele_name="label193"/>
+<id order="53" ele_index="53" ele_name="edit27"/>
+<id order="54" ele_index="54" ele_name="edit28"/>
+<id order="55" ele_index="55" ele_name="edit29"/>
+<id order="56" ele_index="56" ele_name="edit30"/>
+<id order="57" ele_index="57" ele_name="edit31"/>
+<id order="58" ele_index="58" ele_name="edit32"/>
+<id order="59" ele_index="59" ele_name="label194"/>
+<id order="60" ele_index="60" ele_name="label195"/>
+<id order="61" ele_index="61" ele_name="label196"/>
+<id order="62" ele_index="62" ele_name="label197"/>
+<id order="63" ele_index="63" ele_name="label198"/>
+<id order="64" ele_index="64" ele_name="label199"/>
+<id order="65" ele_index="65" ele_name="label140"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Парам1|||2:변수1|||3:PARA1|||4:|||5:|||6:Param1|||0:参数一|||7:Param1|||8:|||9:Parâm1|||10:tham số1|||default:PARA1" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA1.png" 按下图片="btnPARA1x.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:Парам2|||2:변수2|||3:PARA2|||4:|||5:|||6:Param2|||0:参数二|||7:Param2|||8:|||9:Parâm2|||10:tham số2|||default:PARA2" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA2.png" 按下图片="btnPARA2x.png" 聚焦图片="btRelease.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;参数二&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:Парам3|||2:변수3|||3:PARA3|||4:|||5:|||6:Param3|||0:参数三|||7:Param3|||8:|||9:Parâm3|||10:tham số3|||default:PARA3" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA3.png" 按下图片="btnPARA3x.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;Sys_Para3&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Парам4|||2:변수4|||3:PARA4|||4:|||5:|||6:Param4|||0:参数四|||7:Param4|||8:|||9:Parâm4|||10:tham số4|||default:PARA4" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA4.png" 按下图片="btnPARA4x.png" 聚焦图片="btPress.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:Парам5|||2:변수5|||3:PARA5|||4:|||5:|||6:Param5|||0:参数五|||7:Param5|||8:|||9:Parâm5|||10:tham số5|||default:PARA5" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPARA5.png" 按下图片="btnPARA5x.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:состав|||2:구조|||3:STRUCT|||4:|||5:|||6:Estruct|||0:结构|||7:Yapısı|||8:|||9:Estrutura|||10:kết cấu|||default:STRUCT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTRUCT.png" 按下图片="btnSTRUCTx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;系统&quot;)"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

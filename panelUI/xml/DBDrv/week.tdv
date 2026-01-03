@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="week">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.系统变量.星期">
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">周一</string>
+<string lang_id="1" lang="俄文">Пон</string>
+<string lang_id="2" lang="韩文">월요일</string>
+<string lang_id="3" lang="英文">Mon.</string>
+<string lang_id="4" lang="阿拉伯文">الإثنين</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Mon.</string>
+<string lang_id="7" lang="土耳其语">Pazrte</string>
+<string lang_id="8" lang="波斯文">دوشنبه</string>
+<string lang_id="9" lang="葡萄牙语">Segunda </string>
+<string lang_id="10" lang="越南文">Mon.</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">周二</string>
+<string lang_id="1" lang="俄文">Вторн</string>
+<string lang_id="2" lang="韩文">화요일</string>
+<string lang_id="3" lang="英文">Tue.</string>
+<string lang_id="4" lang="阿拉伯文">الثلاثاء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Tue.</string>
+<string lang_id="7" lang="土耳其语">Salı</string>
+<string lang_id="8" lang="波斯文">سه شنبه</string>
+<string lang_id="9" lang="葡萄牙语">Terça</string>
+<string lang_id="10" lang="越南文">Tue.</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">周三</string>
+<string lang_id="1" lang="俄文">Среда</string>
+<string lang_id="2" lang="韩文">수요일</string>
+<string lang_id="3" lang="英文">Wed.</string>
+<string lang_id="4" lang="阿拉伯文">الأربعاء</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Wed.</string>
+<string lang_id="7" lang="土耳其语">Çarşam</string>
+<string lang_id="8" lang="波斯文">ماشین دو رنگ</string>
+<string lang_id="9" lang="葡萄牙语">Quarta</string>
+<string lang_id="10" lang="越南文">Wed.</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">周四</string>
+<string lang_id="1" lang="俄文">Четв</string>
+<string lang_id="2" lang="韩文">목요일</string>
+<string lang_id="3" lang="英文">Thur.</string>
+<string lang_id="4" lang="阿拉伯文">الخميس</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Thur.</string>
+<string lang_id="7" lang="土耳其语">Perşem</string>
+<string lang_id="8" lang="波斯文">پنجشنبه</string>
+<string lang_id="9" lang="葡萄牙语">Quinta</string>
+<string lang_id="10" lang="越南文">Thur.</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">周五</string>
+<string lang_id="1" lang="俄文">Пятн</string>
+<string lang_id="2" lang="韩文">금요일</string>
+<string lang_id="3" lang="英文">Fri.</string>
+<string lang_id="4" lang="阿拉伯文">الجمعة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Fri.</string>
+<string lang_id="7" lang="土耳其语">Cuma</string>
+<string lang_id="8" lang="波斯文">Fri.</string>
+<string lang_id="9" lang="葡萄牙语">Sexta</string>
+<string lang_id="10" lang="越南文">Fri.</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">周六</string>
+<string lang_id="1" lang="俄文">Суббота</string>
+<string lang_id="2" lang="韩文">토요일</string>
+<string lang_id="3" lang="英文">Sat.</string>
+<string lang_id="4" lang="阿拉伯文">السبت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sat.</string>
+<string lang_id="7" lang="土耳其语">Cumrte</string>
+<string lang_id="8" lang="波斯文">شنبه</string>
+<string lang_id="9" lang="葡萄牙语">Sábado</string>
+<string lang_id="10" lang="越南文">Sat.</string>
+</item>
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">周日</string>
+<string lang_id="1" lang="俄文">Воскр</string>
+<string lang_id="2" lang="韩文">일요일</string>
+<string lang_id="3" lang="英文">Sun.</string>
+<string lang_id="4" lang="阿拉伯文">الأحد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Sun.</string>
+<string lang_id="7" lang="土耳其语">Pazar</string>
+<string lang_id="8" lang="波斯文">یکشنبه</string>
+<string lang_id="9" lang="葡萄牙语">Domingo</string>
+<string lang_id="10" lang="越南文">Sun.</string>
+</item>
+</group>
+</MapDrv>

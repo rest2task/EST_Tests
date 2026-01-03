@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>安全阀检测异常</title>
+
+<style type="text/css">
+.警报标题 {
+ color: #900;
+ font-size: 18px;
+    font-weight: bold;
+}
+.标题 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.文本 {
+    font-size: 18px;
+}
+.backcolor {
+ color:rgb(0,111,55);
+ word-spacing: normal;
+}
+</style>
+</head>
+<body style="width:650px;">
+    <h2 class="警报标题">警报名称：安全阀检测异常(20100203)</h2>
+<br />
+<p class="标题">警报说明</p>
+<p class="文本">1.安全阀检测异常，并切马达和回手动状态。<br />2.安全阀检测逻辑：<br />2.1.在安全门关后，输出点“安全阀”进行输出，0.5s后，进行输入点“安全阀检测”的判断，即此时需要收到安全阀的反馈信号，如没信号，此时不可进行关模动作；<br />2.2.在安全门打开后，0.7s内输入点“安全阀检测”需要无信号，如果还有信号，则进行警报；</p>
+<br />
+<p class="标题">排除方法</p>
+<p class="文本">1.检查安全阀是否处于正常工作状态，如果是的，则检测外部油路问题。<br />2.不正常工作时，查看I/O界面“安全阀检测”输入是否正常，安全阀检测行程开关是否损坏。</p>
+<br />
+
+</body>
+</html>

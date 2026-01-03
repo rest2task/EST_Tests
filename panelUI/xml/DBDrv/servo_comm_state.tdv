@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="servo_comm_state">
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.svo数据20">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">正常</string>
+<string lang_id="1" lang="俄文">Hормальный</string>
+<string lang_id="2" lang="韩文">정상</string>
+<string lang_id="3" lang="英文">Normal</string>
+<string lang_id="4" lang="阿拉伯文">تقليدي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Normal</string>
+<string lang_id="7" lang="土耳其语">Normal</string>
+<string lang_id="8" lang="波斯文">عادی</string>
+<string lang_id="9" lang="葡萄牙语">Normal</string>
+<string lang_id="10" lang="越南文">Bình.t</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">密码错误</string>
+<string lang_id="1" lang="俄文">ПарольОшибка</string>
+<string lang_id="2" lang="韩文">비밀번호 에러</string>
+<string lang_id="3" lang="英文">Pasword Error</string>
+<string lang_id="4" lang="阿拉伯文">كلمة مرور خاطئة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Error Clave Seg</string>
+<string lang_id="7" lang="土耳其语">Parola Error</string>
+<string lang_id="8" lang="波斯文">رمز نادرست</string>
+<string lang_id="9" lang="葡萄牙语">Senha Erro</string>
+<string lang_id="10" lang="越南文">Mậu khẩu bị sai</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">命令码错误</string>
+<string lang_id="1" lang="俄文">КоманднаяОшибка</string>
+<string lang_id="2" lang="韩文">명령 에러</string>
+<string lang_id="3" lang="英文">Command Error</string>
+<string lang_id="4" lang="阿拉伯文">خطأ رمز الأمر</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Comando Error</string>
+<string lang_id="7" lang="土耳其语">Komutu Error</string>
+<string lang_id="8" lang="波斯文">فرمان نادرست</string>
+<string lang_id="9" lang="葡萄牙语">Comando Erro</string>
+<string lang_id="10" lang="越南文">Mã lệnh bị sai</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">CRC校验错误</string>
+<string lang_id="1" lang="俄文">CRC Ошибка</string>
+<string lang_id="2" lang="韩文">CRC 에러</string>
+<string lang_id="3" lang="英文">CRC Error</string>
+<string lang_id="4" lang="阿拉伯文">CRC تحذير</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">CRC Alarma</string>
+<string lang_id="7" lang="土耳其语">CRC Error</string>
+<string lang_id="8" lang="波斯文">CRC اشتباه</string>
+<string lang_id="9" lang="葡萄牙语">CRC Erro</string>
+<string lang_id="10" lang="越南文">CRC Sai lỗi</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">无效地址</string>
+<string lang_id="1" lang="俄文">НевернаяАдрес</string>
+<string lang_id="2" lang="韩文">어드레스 설정이상</string>
+<string lang_id="3" lang="英文">Invalid Address</string>
+<string lang_id="4" lang="阿拉伯文">عنوان غير صالح</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Direc Invalida</string>
+<string lang_id="7" lang="土耳其语">Geçersiz Adres</string>
+<string lang_id="8" lang="波斯文">نشانی نامعتبر</string>
+<string lang_id="9" lang="葡萄牙语">Endereço inválido</string>
+<string lang_id="10" lang="越南文">Địa chỉ vô hiệu</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">无效参数</string>
+<string lang_id="1" lang="俄文">Неверный параметр</string>
+<string lang_id="2" lang="韩文">잘못된 파라미터</string>
+<string lang_id="3" lang="英文">Invalid Parameter</string>
+<string lang_id="4" lang="阿拉伯文">المعلمة غير صالح</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Parám No Válida</string>
+<string lang_id="7" lang="土耳其语">GeçersizParametre</string>
+<string lang_id="8" lang="波斯文">پارامتر نامعتبر</string>
+<string lang_id="9" lang="葡萄牙语">Parâmetro inválido</string>
+<string lang_id="10" lang="越南文">Thô. số vô hiệu</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">参数修改无效</string>
+<string lang_id="1" lang="俄文">Неверный параметрИзмените</string>
+<string lang_id="2" lang="韩文">잘못된 파라미터 수정</string>
+<string lang_id="3" lang="英文">Invalid Parameter Modify</string>
+<string lang_id="4" lang="阿拉伯文">تعديل المعلمة غير صالح</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Modifica Parám No Válida</string>
+<string lang_id="7" lang="土耳其语">GeçersizParametre Değiştirme</string>
+<string lang_id="8" lang="波斯文">اصلاح پارامتر نامعتبر</string>
+<string lang_id="9" lang="葡萄牙语">Parâmetro inválido Modificar</string>
+<string lang_id="10" lang="越南文">Thô.số sửa chữa vô hiệu</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">系统锁定</string>
+<string lang_id="1" lang="俄文">ЗапертыСистемы</string>
+<string lang_id="2" lang="韩文">시스템 잠금상태</string>
+<string lang_id="3" lang="英文">System Locked</string>
+<string lang_id="4" lang="阿拉伯文">قفل نظام </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Bloqueo Sistema</string>
+<string lang_id="7" lang="土耳其语">Sistem Kilitli</string>
+<string lang_id="8" lang="波斯文">قفل سیستم</string>
+<string lang_id="9" lang="葡萄牙语">Sistema fechado</string>
+<string lang_id="10" lang="越南文">Khóa hệ thống</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">驱动器忙</string>
+<string lang_id="1" lang="俄文">ДрайверЗанят</string>
+<string lang_id="2" lang="韩文">드라이버 실행중</string>
+<string lang_id="3" lang="英文">Driver Busy</string>
+<string lang_id="4" lang="阿拉伯文">حملة مشغولة</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Unidad Ocupada</string>
+<string lang_id="7" lang="土耳其语">ŞoförMeşgul</string>
+<string lang_id="8" lang="波斯文">درایور مشغول</string>
+<string lang_id="9" lang="葡萄牙语">Driver Busy</string>
+<string lang_id="10" lang="越南文">Bộ khởi động bận</string>
+</item>
+</group>
+</MapDrv>

@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="inovance_motor">
+<config name="多语言描述" value="无"/>
+<config name="转换器类型" value="按值"/>
+<config name="转换源" value=""/>
+<group data_src="">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">自定义</string>
+<string lang_id="1" lang="俄文">обычай</string>
+<string lang_id="2" lang="韩文">자기 정의</string>
+<string lang_id="3" lang="英文">Self-Define</string>
+<string lang_id="4" lang="阿拉伯文">عرفي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AutoDefinir</string>
+<string lang_id="7" lang="土耳其语">Gelenek</string>
+<string lang_id="8" lang="波斯文">سفارشی</string>
+<string lang_id="9" lang="葡萄牙语">Custom</string>
+<string lang_id="10" lang="越南文">Tự đĩnh nghĩa</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">89C17CD</string>
+<string lang_id="1" lang="俄文">89C17CD</string>
+<string lang_id="2" lang="韩文">89C17CD</string>
+<string lang_id="3" lang="英文">89C17CD</string>
+<string lang_id="4" lang="阿拉伯文">89C17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">89C17CD</string>
+<string lang_id="7" lang="土耳其语">89C17CD</string>
+<string lang_id="8" lang="波斯文">89C17CD</string>
+<string lang_id="9" lang="葡萄牙语">89C17CD</string>
+<string lang_id="10" lang="越南文">89C17CD</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">11D20CD</string>
+<string lang_id="1" lang="俄文">11D20CD</string>
+<string lang_id="2" lang="韩文">11D20CD</string>
+<string lang_id="3" lang="英文">11D20CD</string>
+<string lang_id="4" lang="阿拉伯文">11D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">11D20CD</string>
+<string lang_id="7" lang="土耳其语">11D20CD</string>
+<string lang_id="8" lang="波斯文">11D20CD</string>
+<string lang_id="9" lang="葡萄牙语">11D20CD</string>
+<string lang_id="10" lang="越南文">11D20CD</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">13D17CD</string>
+<string lang_id="1" lang="俄文">13D17CD</string>
+<string lang_id="2" lang="韩文">13D17CD</string>
+<string lang_id="3" lang="英文">13D17CD</string>
+<string lang_id="4" lang="阿拉伯文">13D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">13D17CD</string>
+<string lang_id="7" lang="土耳其语">13D17CD</string>
+<string lang_id="8" lang="波斯文">13D17CD</string>
+<string lang_id="9" lang="葡萄牙语">13D17CD</string>
+<string lang_id="10" lang="越南文">13D17CD</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">15D20CD</string>
+<string lang_id="1" lang="俄文">15D20CD</string>
+<string lang_id="2" lang="韩文">15D20CD</string>
+<string lang_id="3" lang="英文">15D20CD</string>
+<string lang_id="4" lang="阿拉伯文">15D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">15D20CD</string>
+<string lang_id="7" lang="土耳其语">15D20CD</string>
+<string lang_id="8" lang="波斯文">15D20CD</string>
+<string lang_id="9" lang="葡萄牙语">15D20CD</string>
+<string lang_id="10" lang="越南文">15D20CD</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">17D17CD</string>
+<string lang_id="1" lang="俄文">17D17CD</string>
+<string lang_id="2" lang="韩文">17D17CD</string>
+<string lang_id="3" lang="英文">17D17CD</string>
+<string lang_id="4" lang="阿拉伯文">17D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">17D17CD</string>
+<string lang_id="7" lang="土耳其语">17D17CD</string>
+<string lang_id="8" lang="波斯文">17D17CD</string>
+<string lang_id="9" lang="葡萄牙语">17D17CD</string>
+<string lang_id="10" lang="越南文">17D17CD</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">19D20CD</string>
+<string lang_id="1" lang="俄文">19D20CD</string>
+<string lang_id="2" lang="韩文">19D20CD</string>
+<string lang_id="3" lang="英文">19D20CD</string>
+<string lang_id="4" lang="阿拉伯文">19D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">19D20CD</string>
+<string lang_id="7" lang="土耳其语">19D20CD</string>
+<string lang_id="8" lang="波斯文">19D20CD</string>
+<string lang_id="9" lang="葡萄牙语">19D20CD</string>
+<string lang_id="10" lang="越南文">19D20CD</string>
+</item>
+<item type="0">
+<value>7</value>
+<string lang_id="0" lang="中文">21D17CD</string>
+<string lang_id="1" lang="俄文">21D17CD</string>
+<string lang_id="2" lang="韩文">21D17CD</string>
+<string lang_id="3" lang="英文">21D17CD</string>
+<string lang_id="4" lang="阿拉伯文">21D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">21D17CD</string>
+<string lang_id="7" lang="土耳其语">21D17CD</string>
+<string lang_id="8" lang="波斯文">21D17CD</string>
+<string lang_id="9" lang="葡萄牙语">21D17CD</string>
+<string lang_id="10" lang="越南文">21D17CD</string>
+</item>
+<item type="0">
+<value>8</value>
+<string lang_id="0" lang="中文">25D20CD</string>
+<string lang_id="1" lang="俄文">25D20CD</string>
+<string lang_id="2" lang="韩文">25D20CD</string>
+<string lang_id="3" lang="英文">25D20CD</string>
+<string lang_id="4" lang="阿拉伯文">25D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">25D20CD</string>
+<string lang_id="7" lang="土耳其语">25D20CD</string>
+<string lang_id="8" lang="波斯文">25D20CD</string>
+<string lang_id="9" lang="葡萄牙语">25D20CD</string>
+<string lang_id="10" lang="越南文">25D20CD</string>
+</item>
+<item type="0">
+<value>9</value>
+<string lang_id="0" lang="中文">27D17CD</string>
+<string lang_id="1" lang="俄文">27D17CD</string>
+<string lang_id="2" lang="韩文">27D17CD</string>
+<string lang_id="3" lang="英文">27D17CD</string>
+<string lang_id="4" lang="阿拉伯文">27D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">27D17CD</string>
+<string lang_id="7" lang="土耳其语">27D17CD</string>
+<string lang_id="8" lang="波斯文">27D17CD</string>
+<string lang_id="9" lang="葡萄牙语">27D17CD</string>
+<string lang_id="10" lang="越南文">27D17CD</string>
+</item>
+<item type="0">
+<value>10</value>
+<string lang_id="0" lang="中文">31D17CD</string>
+<string lang_id="1" lang="俄文">31D17CD</string>
+<string lang_id="2" lang="韩文">31D17CD</string>
+<string lang_id="3" lang="英文">31D17CD</string>
+<string lang_id="4" lang="阿拉伯文">31D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">31D17CD</string>
+<string lang_id="7" lang="土耳其语">31D17CD</string>
+<string lang_id="8" lang="波斯文">31D17CD</string>
+<string lang_id="9" lang="葡萄牙语">31D17CD</string>
+<string lang_id="10" lang="越南文">31D17CD</string>
+</item>
+<item type="0">
+<value>11</value>
+<string lang_id="0" lang="中文">30D17CD</string>
+<string lang_id="1" lang="俄文">30D17CD</string>
+<string lang_id="2" lang="韩文">30D17CD</string>
+<string lang_id="3" lang="英文">30D17CD</string>
+<string lang_id="4" lang="阿拉伯文">30D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">30D17CD</string>
+<string lang_id="7" lang="土耳其语">30D17CD</string>
+<string lang_id="8" lang="波斯文">30D17CD</string>
+<string lang_id="9" lang="葡萄牙语">30D17CD</string>
+<string lang_id="10" lang="越南文">30D17CD</string>
+</item>
+<item type="0">
+<value>12</value>
+<string lang_id="0" lang="中文">36D20CD</string>
+<string lang_id="1" lang="俄文">36D20CD</string>
+<string lang_id="2" lang="韩文">36D20CD</string>
+<string lang_id="3" lang="英文">36D20CD</string>
+<string lang_id="4" lang="阿拉伯文">36D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">36D20CD</string>
+<string lang_id="7" lang="土耳其语">36D20CD</string>
+<string lang_id="8" lang="波斯文">36D20CD</string>
+<string lang_id="9" lang="葡萄牙语">36D20CD</string>
+<string lang_id="10" lang="越南文">36D20CD</string>
+</item>
+<item type="0">
+<value>13</value>
+<string lang_id="0" lang="中文">42D17CD</string>
+<string lang_id="1" lang="俄文">42D17CD</string>
+<string lang_id="2" lang="韩文">42D17CD</string>
+<string lang_id="3" lang="英文">42D17CD</string>
+<string lang_id="4" lang="阿拉伯文">42D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">42D17CD</string>
+<string lang_id="7" lang="土耳其语">42D17CD</string>
+<string lang_id="8" lang="波斯文">42D17CD</string>
+<string lang_id="9" lang="葡萄牙语">42D17CD</string>
+<string lang_id="10" lang="越南文">42D17CD</string>
+</item>
+<item type="0">
+<value>14</value>
+<string lang_id="0" lang="中文">48D20CD</string>
+<string lang_id="1" lang="俄文">48D20CD</string>
+<string lang_id="2" lang="韩文">48D20CD</string>
+<string lang_id="3" lang="英文">48D20CD</string>
+<string lang_id="4" lang="阿拉伯文">48D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">48D20CD</string>
+<string lang_id="7" lang="土耳其语">48D20CD</string>
+<string lang_id="8" lang="波斯文">48D20CD</string>
+<string lang_id="9" lang="葡萄牙语">48D20CD</string>
+<string lang_id="10" lang="越南文">48D20CD</string>
+</item>
+<item type="0">
+<value>15</value>
+<string lang_id="0" lang="中文">50D17CD</string>
+<string lang_id="1" lang="俄文">50D17CD</string>
+<string lang_id="2" lang="韩文">50D17CD</string>
+<string lang_id="3" lang="英文">50D17CD</string>
+<string lang_id="4" lang="阿拉伯文">50D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">50D17CD</string>
+<string lang_id="7" lang="土耳其语">50D17CD</string>
+<string lang_id="8" lang="波斯文">50D17CD</string>
+<string lang_id="9" lang="葡萄牙语">50D17CD</string>
+<string lang_id="10" lang="越南文">50D17CD</string>
+</item>
+<item type="0">
+<value>16</value>
+<string lang_id="0" lang="中文">60D20CD</string>
+<string lang_id="1" lang="俄文">60D20CD</string>
+<string lang_id="2" lang="韩文">60D20CD</string>
+<string lang_id="3" lang="英文">60D20CD</string>
+<string lang_id="4" lang="阿拉伯文">60D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">60D20CD</string>
+<string lang_id="7" lang="土耳其语">60D20CD</string>
+<string lang_id="8" lang="波斯文">60D20CD</string>
+<string lang_id="9" lang="葡萄牙语">60D20CD</string>
+<string lang_id="10" lang="越南文">60D20CD</string>
+</item>
+<item type="0">
+<value>17</value>
+<string lang_id="0" lang="中文">62D17CD</string>
+<string lang_id="1" lang="俄文">62D17CD</string>
+<string lang_id="2" lang="韩文">62D17CD</string>
+<string lang_id="3" lang="英文">62D17CD</string>
+<string lang_id="4" lang="阿拉伯文">62D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">62D17CD</string>
+<string lang_id="7" lang="土耳其语">62D17CD</string>
+<string lang_id="8" lang="波斯文">62D17CD</string>
+<string lang_id="9" lang="葡萄牙语">62D17CD</string>
+<string lang_id="10" lang="越南文">62D17CD</string>
+</item>
+<item type="0">
+<value>18</value>
+<string lang_id="0" lang="中文">72D20CD</string>
+<string lang_id="1" lang="俄文">72D20CD</string>
+<string lang_id="2" lang="韩文">72D20CD</string>
+<string lang_id="3" lang="英文">72D20CD</string>
+<string lang_id="4" lang="阿拉伯文">72D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">72D20CD</string>
+<string lang_id="7" lang="土耳其语">72D20CD</string>
+<string lang_id="8" lang="波斯文">72D20CD</string>
+<string lang_id="9" lang="葡萄牙语">72D20CD</string>
+<string lang_id="10" lang="越南文">72D20CD</string>
+</item>
+<item type="0">
+<value>19</value>
+<string lang_id="0" lang="中文">80D17CD</string>
+<string lang_id="1" lang="俄文">80D17CD</string>
+<string lang_id="2" lang="韩文">80D17CD</string>
+<string lang_id="3" lang="英文">80D17CD</string>
+<string lang_id="4" lang="阿拉伯文">80D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">80D17CD</string>
+<string lang_id="7" lang="土耳其语">80D17CD</string>
+<string lang_id="8" lang="波斯文">80D17CD</string>
+<string lang_id="9" lang="葡萄牙语">80D17CD</string>
+<string lang_id="10" lang="越南文">80D17CD</string>
+</item>
+<item type="0">
+<value>20</value>
+<string lang_id="0" lang="中文">92D20CD</string>
+<string lang_id="1" lang="俄文">92D20CD</string>
+<string lang_id="2" lang="韩文">92D20CD</string>
+<string lang_id="3" lang="英文">92D20CD</string>
+<string lang_id="4" lang="阿拉伯文">92D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">92D20CD</string>
+<string lang_id="7" lang="土耳其语">92D20CD</string>
+<string lang_id="8" lang="波斯文">92D20CD</string>
+<string lang_id="9" lang="葡萄牙语">92D20CD</string>
+<string lang_id="10" lang="越南文">92D20CD</string>
+</item>
+<item type="0">
+<value>21</value>
+<string lang_id="0" lang="中文">34D17CD</string>
+<string lang_id="1" lang="俄文">34D17CD</string>
+<string lang_id="2" lang="韩文">34D17CD</string>
+<string lang_id="3" lang="英文">34D17CD</string>
+<string lang_id="4" lang="阿拉伯文">34D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">34D17CD</string>
+<string lang_id="7" lang="土耳其语">34D17CD</string>
+<string lang_id="8" lang="波斯文">34D17CD</string>
+<string lang_id="9" lang="葡萄牙语">34D17CD</string>
+<string lang_id="10" lang="越南文">34D17CD</string>
+</item>
+<item type="0">
+<value>22</value>
+<string lang_id="0" lang="中文">40D17CD</string>
+<string lang_id="1" lang="俄文">40D17CD</string>
+<string lang_id="2" lang="韩文">40D17CD</string>
+<string lang_id="3" lang="英文">40D17CD</string>
+<string lang_id="4" lang="阿拉伯文">40D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">40D17CD</string>
+<string lang_id="7" lang="土耳其语">40D17CD</string>
+<string lang_id="8" lang="波斯文">40D17CD</string>
+<string lang_id="9" lang="葡萄牙语">40D17CD</string>
+<string lang_id="10" lang="越南文">40D17CD</string>
+</item>
+<item type="0">
+<value>23</value>
+<string lang_id="0" lang="中文">51D17CD</string>
+<string lang_id="1" lang="俄文">51D17CD</string>
+<string lang_id="2" lang="韩文">51D17CD</string>
+<string lang_id="3" lang="英文">51D17CD</string>
+<string lang_id="4" lang="阿拉伯文">51D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">51D17CD</string>
+<string lang_id="7" lang="土耳其语">51D17CD</string>
+<string lang_id="8" lang="波斯文">51D17CD</string>
+<string lang_id="9" lang="葡萄牙语">51D17CD</string>
+<string lang_id="10" lang="越南文">51D17CD</string>
+</item>
+<item type="0">
+<value>24</value>
+<string lang_id="0" lang="中文">55C15CD</string>
+<string lang_id="1" lang="俄文">55C15CD</string>
+<string lang_id="2" lang="韩文">55C15CD</string>
+<string lang_id="3" lang="英文">55C15CD</string>
+<string lang_id="4" lang="阿拉伯文">55C15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">55C15CD</string>
+<string lang_id="7" lang="土耳其语">55C15CD</string>
+<string lang_id="8" lang="波斯文">55C15CD</string>
+<string lang_id="9" lang="葡萄牙语">55C15CD</string>
+<string lang_id="10" lang="越南文">55C15CD</string>
+</item>
+<item type="0">
+<value>25</value>
+<string lang_id="0" lang="中文">62C17CD</string>
+<string lang_id="1" lang="俄文">62C17CD</string>
+<string lang_id="2" lang="韩文">62C17CD</string>
+<string lang_id="3" lang="英文">62C17CD</string>
+<string lang_id="4" lang="阿拉伯文">62C17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">62C17CD</string>
+<string lang_id="7" lang="土耳其语">62C17CD</string>
+<string lang_id="8" lang="波斯文">62C17CD</string>
+<string lang_id="9" lang="葡萄牙语">62C17CD</string>
+<string lang_id="10" lang="越南文">62C17CD</string>
+</item>
+<item type="0">
+<value>26</value>
+<string lang_id="0" lang="中文">75C20CD</string>
+<string lang_id="1" lang="俄文">75C20CD</string>
+<string lang_id="2" lang="韩文">75C20CD</string>
+<string lang_id="3" lang="英文">75C20CD</string>
+<string lang_id="4" lang="阿拉伯文">75C20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">75C20CD</string>
+<string lang_id="7" lang="土耳其语">75C20CD</string>
+<string lang_id="8" lang="波斯文">75C20CD</string>
+<string lang_id="9" lang="葡萄牙语">75C20CD</string>
+<string lang_id="10" lang="越南文">75C20CD</string>
+</item>
+<item type="0">
+<value>27</value>
+<string lang_id="0" lang="中文">95C15CD</string>
+<string lang_id="1" lang="俄文">95C15CD</string>
+<string lang_id="2" lang="韩文">95C15CD</string>
+<string lang_id="3" lang="英文">95C15CD</string>
+<string lang_id="4" lang="阿拉伯文">95C15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">95C15CD</string>
+<string lang_id="7" lang="土耳其语">95C15CD</string>
+<string lang_id="8" lang="波斯文">95C15CD</string>
+<string lang_id="9" lang="葡萄牙语">95C15CD</string>
+<string lang_id="10" lang="越南文">95C15CD</string>
+</item>
+<item type="0">
+<value>28</value>
+<string lang_id="0" lang="中文">11D17CD</string>
+<string lang_id="1" lang="俄文">11D17CD</string>
+<string lang_id="2" lang="韩文">11D17CD</string>
+<string lang_id="3" lang="英文">11D17CD</string>
+<string lang_id="4" lang="阿拉伯文">11D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">11D17CD</string>
+<string lang_id="7" lang="土耳其语">11D17CD</string>
+<string lang_id="8" lang="波斯文">11D17CD</string>
+<string lang_id="9" lang="葡萄牙语">11D17CD</string>
+<string lang_id="10" lang="越南文">11D17CD</string>
+</item>
+<item type="0">
+<value>29</value>
+<string lang_id="0" lang="中文">12D20CD</string>
+<string lang_id="1" lang="俄文">12D20CD</string>
+<string lang_id="2" lang="韩文">12D20CD</string>
+<string lang_id="3" lang="英文">12D20CD</string>
+<string lang_id="4" lang="阿拉伯文">12D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">12D20CD</string>
+<string lang_id="7" lang="土耳其语">12D20CD</string>
+<string lang_id="8" lang="波斯文">12D20CD</string>
+<string lang_id="9" lang="葡萄牙语">12D20CD</string>
+<string lang_id="10" lang="越南文">12D20CD</string>
+</item>
+<item type="0">
+<value>30</value>
+<string lang_id="0" lang="中文">14D15CD</string>
+<string lang_id="1" lang="俄文">14D15CD</string>
+<string lang_id="2" lang="韩文">14D15CD</string>
+<string lang_id="3" lang="英文">14D15CD</string>
+<string lang_id="4" lang="阿拉伯文">14D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">14D15CD</string>
+<string lang_id="7" lang="土耳其语">14D15CD</string>
+<string lang_id="8" lang="波斯文">14D15CD</string>
+<string lang_id="9" lang="葡萄牙语">14D15CD</string>
+<string lang_id="10" lang="越南文">14D15CD</string>
+</item>
+<item type="0">
+<value>31</value>
+<string lang_id="0" lang="中文">16D17CD</string>
+<string lang_id="1" lang="俄文">16D17CD</string>
+<string lang_id="2" lang="韩文">16D17CD</string>
+<string lang_id="3" lang="英文">16D17CD</string>
+<string lang_id="4" lang="阿拉伯文">16D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">16D17CD</string>
+<string lang_id="7" lang="土耳其语">16D17CD</string>
+<string lang_id="8" lang="波斯文">16D17CD</string>
+<string lang_id="9" lang="葡萄牙语">16D17CD</string>
+<string lang_id="10" lang="越南文">16D17CD</string>
+</item>
+<item type="0">
+<value>32</value>
+<string lang_id="0" lang="中文">18D20CD</string>
+<string lang_id="1" lang="俄文">18D20CD</string>
+<string lang_id="2" lang="韩文">18D20CD</string>
+<string lang_id="3" lang="英文">18D20CD</string>
+<string lang_id="4" lang="阿拉伯文">18D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">18D20CD</string>
+<string lang_id="7" lang="土耳其语">18D20CD</string>
+<string lang_id="8" lang="波斯文">18D20CD</string>
+<string lang_id="9" lang="葡萄牙语">18D20CD</string>
+<string lang_id="10" lang="越南文">18D20CD</string>
+</item>
+<item type="0">
+<value>33</value>
+<string lang_id="0" lang="中文">17D15CD</string>
+<string lang_id="1" lang="俄文">17D15CD</string>
+<string lang_id="2" lang="韩文">17D15CD</string>
+<string lang_id="3" lang="英文">17D15CD</string>
+<string lang_id="4" lang="阿拉伯文">17D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">17D15CD</string>
+<string lang_id="7" lang="土耳其语">17D15CD</string>
+<string lang_id="8" lang="波斯文">17D15CD</string>
+<string lang_id="9" lang="葡萄牙语">17D15CD</string>
+<string lang_id="10" lang="越南文">17D15CD</string>
+</item>
+<item type="0">
+<value>34</value>
+<string lang_id="0" lang="中文">20D17CD</string>
+<string lang_id="1" lang="俄文">20D17CD</string>
+<string lang_id="2" lang="韩文">20D17CD</string>
+<string lang_id="3" lang="英文">20D17CD</string>
+<string lang_id="4" lang="阿拉伯文">20D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">20D17CD</string>
+<string lang_id="7" lang="土耳其语">20D17CD</string>
+<string lang_id="8" lang="波斯文">20D17CD</string>
+<string lang_id="9" lang="葡萄牙语">20D17CD</string>
+<string lang_id="10" lang="越南文">20D17CD</string>
+</item>
+<item type="0">
+<value>35</value>
+<string lang_id="0" lang="中文">23D20CD</string>
+<string lang_id="1" lang="俄文">23D20CD</string>
+<string lang_id="2" lang="韩文">23D20CD</string>
+<string lang_id="3" lang="英文">23D20CD</string>
+<string lang_id="4" lang="阿拉伯文">23D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">23D20CD</string>
+<string lang_id="7" lang="土耳其语">23D20CD</string>
+<string lang_id="8" lang="波斯文">23D20CD</string>
+<string lang_id="9" lang="葡萄牙语">23D20CD</string>
+<string lang_id="10" lang="越南文">23D20CD</string>
+</item>
+<item type="0">
+<value>36</value>
+<string lang_id="0" lang="中文">22D15CD</string>
+<string lang_id="1" lang="俄文">22D15CD</string>
+<string lang_id="2" lang="韩文">22D15CD</string>
+<string lang_id="3" lang="英文">22D15CD</string>
+<string lang_id="4" lang="阿拉伯文">22D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">22D15CD</string>
+<string lang_id="7" lang="土耳其语">22D15CD</string>
+<string lang_id="8" lang="波斯文">22D15CD</string>
+<string lang_id="9" lang="葡萄牙语">22D15CD</string>
+<string lang_id="10" lang="越南文">22D15CD</string>
+</item>
+<item type="0">
+<value>37</value>
+<string lang_id="0" lang="中文">24D17CD</string>
+<string lang_id="1" lang="俄文">24D17CD</string>
+<string lang_id="2" lang="韩文">24D17CD</string>
+<string lang_id="3" lang="英文">24D17CD</string>
+<string lang_id="4" lang="阿拉伯文">24D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">24D17CD</string>
+<string lang_id="7" lang="土耳其语">24D17CD</string>
+<string lang_id="8" lang="波斯文">24D17CD</string>
+<string lang_id="9" lang="葡萄牙语">24D17CD</string>
+<string lang_id="10" lang="越南文">24D17CD</string>
+</item>
+<item type="0">
+<value>38</value>
+<string lang_id="0" lang="中文">28D20CD</string>
+<string lang_id="1" lang="俄文">28D20CD</string>
+<string lang_id="2" lang="韩文">28D20CD</string>
+<string lang_id="3" lang="英文">28D20CD</string>
+<string lang_id="4" lang="阿拉伯文">28D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">28D20CD</string>
+<string lang_id="7" lang="土耳其语">28D20CD</string>
+<string lang_id="8" lang="波斯文">28D20CD</string>
+<string lang_id="9" lang="葡萄牙语">28D20CD</string>
+<string lang_id="10" lang="越南文">28D20CD</string>
+</item>
+<item type="0">
+<value>39</value>
+<string lang_id="0" lang="中文">30D15CD</string>
+<string lang_id="1" lang="俄文">30D15CD</string>
+<string lang_id="2" lang="韩文">30D15CD</string>
+<string lang_id="3" lang="英文">30D15CD</string>
+<string lang_id="4" lang="阿拉伯文">30D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">30D15CD</string>
+<string lang_id="7" lang="土耳其语">30D15CD</string>
+<string lang_id="8" lang="波斯文">30D15CD</string>
+<string lang_id="9" lang="葡萄牙语">30D15CD</string>
+<string lang_id="10" lang="越南文">30D15CD</string>
+</item>
+<item type="0">
+<value>40</value>
+<string lang_id="0" lang="中文">34D17CD</string>
+<string lang_id="1" lang="俄文">34D17CD</string>
+<string lang_id="2" lang="韩文">34D17CD</string>
+<string lang_id="3" lang="英文">34D17CD</string>
+<string lang_id="4" lang="阿拉伯文">34D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">34D17CD</string>
+<string lang_id="7" lang="土耳其语">34D17CD</string>
+<string lang_id="8" lang="波斯文">34D17CD</string>
+<string lang_id="9" lang="葡萄牙语">34D17CD</string>
+<string lang_id="10" lang="越南文">34D17CD</string>
+</item>
+<item type="0">
+<value>41</value>
+<string lang_id="0" lang="中文">41D20CD</string>
+<string lang_id="1" lang="俄文">41D20CD</string>
+<string lang_id="2" lang="韩文">41D20CD</string>
+<string lang_id="3" lang="英文">41D20CD</string>
+<string lang_id="4" lang="阿拉伯文">41D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">41D20CD</string>
+<string lang_id="7" lang="土耳其语">41D20CD</string>
+<string lang_id="8" lang="波斯文">41D20CD</string>
+<string lang_id="9" lang="葡萄牙语">41D20CD</string>
+<string lang_id="10" lang="越南文">41D20CD</string>
+</item>
+<item type="0">
+<value>42</value>
+<string lang_id="0" lang="中文">31D15CD</string>
+<string lang_id="1" lang="俄文">31D15CD</string>
+<string lang_id="2" lang="韩文">31D15CD</string>
+<string lang_id="3" lang="英文">31D15CD</string>
+<string lang_id="4" lang="阿拉伯文">31D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">31D15CD</string>
+<string lang_id="7" lang="土耳其语">31D15CD</string>
+<string lang_id="8" lang="波斯文">31D15CD</string>
+<string lang_id="9" lang="葡萄牙语">31D15CD</string>
+<string lang_id="10" lang="越南文">31D15CD</string>
+</item>
+<item type="0">
+<value>43</value>
+<string lang_id="0" lang="中文">36D17CD</string>
+<string lang_id="1" lang="俄文">36D17CD</string>
+<string lang_id="2" lang="韩文">36D17CD</string>
+<string lang_id="3" lang="英文">36D17CD</string>
+<string lang_id="4" lang="阿拉伯文">36D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">36D17CD</string>
+<string lang_id="7" lang="土耳其语">36D17CD</string>
+<string lang_id="8" lang="波斯文">36D17CD</string>
+<string lang_id="9" lang="葡萄牙语">36D17CD</string>
+<string lang_id="10" lang="越南文">36D17CD</string>
+</item>
+<item type="0">
+<value>44</value>
+<string lang_id="0" lang="中文">42D20CD</string>
+<string lang_id="1" lang="俄文">42D20CD</string>
+<string lang_id="2" lang="韩文">42D20CD</string>
+<string lang_id="3" lang="英文">42D20CD</string>
+<string lang_id="4" lang="阿拉伯文">42D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">42D20CD</string>
+<string lang_id="7" lang="土耳其语">42D20CD</string>
+<string lang_id="8" lang="波斯文">42D20CD</string>
+<string lang_id="9" lang="葡萄牙语">42D20CD</string>
+<string lang_id="10" lang="越南文">42D20CD</string>
+</item>
+<item type="0">
+<value>45</value>
+<string lang_id="0" lang="中文">42D15CD</string>
+<string lang_id="1" lang="俄文">42D15CD</string>
+<string lang_id="2" lang="韩文">42D15CD</string>
+<string lang_id="3" lang="英文">42D15CD</string>
+<string lang_id="4" lang="阿拉伯文">42D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">42D15CD</string>
+<string lang_id="7" lang="土耳其语">42D15CD</string>
+<string lang_id="8" lang="波斯文">42D15CD</string>
+<string lang_id="9" lang="葡萄牙语">42D15CD</string>
+<string lang_id="10" lang="越南文">42D15CD</string>
+</item>
+<item type="0">
+<value>46</value>
+<string lang_id="0" lang="中文">48D17CD</string>
+<string lang_id="1" lang="俄文">48D17CD</string>
+<string lang_id="2" lang="韩文">48D17CD</string>
+<string lang_id="3" lang="英文">48D17CD</string>
+<string lang_id="4" lang="阿拉伯文">48D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">48D17CD</string>
+<string lang_id="7" lang="土耳其语">48D17CD</string>
+<string lang_id="8" lang="波斯文">48D17CD</string>
+<string lang_id="9" lang="葡萄牙语">48D17CD</string>
+<string lang_id="10" lang="越南文">48D17CD</string>
+</item>
+<item type="0">
+<value>47</value>
+<string lang_id="0" lang="中文">57D20CD</string>
+<string lang_id="1" lang="俄文">57D20CD</string>
+<string lang_id="2" lang="韩文">57D20CD</string>
+<string lang_id="3" lang="英文">57D20CD</string>
+<string lang_id="4" lang="阿拉伯文">57D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">57D20CD</string>
+<string lang_id="7" lang="土耳其语">57D20CD</string>
+<string lang_id="8" lang="波斯文">57D20CD</string>
+<string lang_id="9" lang="葡萄牙语">57D20CD</string>
+<string lang_id="10" lang="越南文">57D20CD</string>
+</item>
+<item type="0">
+<value>48</value>
+<string lang_id="0" lang="中文">60D15CD</string>
+<string lang_id="1" lang="俄文">60D15CD</string>
+<string lang_id="2" lang="韩文">60D15CD</string>
+<string lang_id="3" lang="英文">60D15CD</string>
+<string lang_id="4" lang="阿拉伯文">60D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">60D15CD</string>
+<string lang_id="7" lang="土耳其语">60D15CD</string>
+<string lang_id="8" lang="波斯文">60D15CD</string>
+<string lang_id="9" lang="葡萄牙语">60D15CD</string>
+<string lang_id="10" lang="越南文">60D15CD</string>
+</item>
+<item type="0">
+<value>49</value>
+<string lang_id="0" lang="中文">68D17CD</string>
+<string lang_id="1" lang="俄文">68D17CD</string>
+<string lang_id="2" lang="韩文">68D17CD</string>
+<string lang_id="3" lang="英文">68D17CD</string>
+<string lang_id="4" lang="阿拉伯文">68D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">68D17CD</string>
+<string lang_id="7" lang="土耳其语">68D17CD</string>
+<string lang_id="8" lang="波斯文">68D17CD</string>
+<string lang_id="9" lang="葡萄牙语">68D17CD</string>
+<string lang_id="10" lang="越南文">68D17CD</string>
+</item>
+<item type="0">
+<value>50</value>
+<string lang_id="0" lang="中文">80D20CD</string>
+<string lang_id="1" lang="俄文">80D20CD</string>
+<string lang_id="2" lang="韩文">80D20CD</string>
+<string lang_id="3" lang="英文">80D20CD</string>
+<string lang_id="4" lang="阿拉伯文">80D20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">80D20CD</string>
+<string lang_id="7" lang="土耳其语">80D20CD</string>
+<string lang_id="8" lang="波斯文">80D20CD</string>
+<string lang_id="9" lang="葡萄牙语">80D20CD</string>
+<string lang_id="10" lang="越南文">80D20CD</string>
+</item>
+<item type="0">
+<value>51</value>
+<string lang_id="0" lang="中文">80D15CD</string>
+<string lang_id="1" lang="俄文">80D15CD</string>
+<string lang_id="2" lang="韩文">80D15CD</string>
+<string lang_id="3" lang="英文">80D15CD</string>
+<string lang_id="4" lang="阿拉伯文">80D15CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">80D15CD</string>
+<string lang_id="7" lang="土耳其语">80D15CD</string>
+<string lang_id="8" lang="波斯文">80D15CD</string>
+<string lang_id="9" lang="葡萄牙语">80D15CD</string>
+<string lang_id="10" lang="越南文">80D15CD</string>
+</item>
+<item type="0">
+<value>52</value>
+<string lang_id="0" lang="中文">91D17CD</string>
+<string lang_id="1" lang="俄文">91D17CD</string>
+<string lang_id="2" lang="韩文">91D17CD</string>
+<string lang_id="3" lang="英文">91D17CD</string>
+<string lang_id="4" lang="阿拉伯文">91D17CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">91D17CD</string>
+<string lang_id="7" lang="土耳其语">91D17CD</string>
+<string lang_id="8" lang="波斯文">91D17CD</string>
+<string lang_id="9" lang="葡萄牙语">91D17CD</string>
+<string lang_id="10" lang="越南文">91D17CD</string>
+</item>
+<item type="0">
+<value>53</value>
+<string lang_id="0" lang="中文">11E20CD</string>
+<string lang_id="1" lang="俄文">11E20CD</string>
+<string lang_id="2" lang="韩文">11E20CD</string>
+<string lang_id="3" lang="英文">11E20CD</string>
+<string lang_id="4" lang="阿拉伯文">11E20CD</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">11E20CD</string>
+<string lang_id="7" lang="土耳其语">11E20CD</string>
+<string lang_id="8" lang="波斯文">11E20CD</string>
+<string lang_id="9" lang="葡萄牙语">11E20CD</string>
+<string lang_id="10" lang="越南文">11E20CD</string>
+</item>
+<item type="0">
+<value>54</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>55</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>56</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>57</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>58</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>59</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+</group>
+</MapDrv>

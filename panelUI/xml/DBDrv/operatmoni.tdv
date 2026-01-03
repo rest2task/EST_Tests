@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="operatmoni">
+<config name="转换器类型" value="按值"/>
+<config name="生成头文件" value="0"/>
+<group data_src="">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文">开模数清零</string>
+<string lang_id="1" lang="俄文">модульочищен</string>
+<string lang_id="2" lang="韩文">쇼트 카운트 삭제</string>
+<string lang_id="3" lang="英文">OpenCnt Clear</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir Núm Cero</string>
+<string lang_id="7" lang="土耳其语">AçmaSay Sıfırla</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">tiro limpo</string>
+<string lang_id="10" lang="越南文">Quy 0</string>
+</item>
+<item type="0">
+<value>1</value>
+<string lang_id="0" lang="中文">自动开始</string>
+<string lang_id="1" lang="俄文">Автостарт</string>
+<string lang_id="2" lang="韩文">자동 시작</string>
+<string lang_id="3" lang="英文">Auto Start</string>
+<string lang_id="4" lang="阿拉伯文">بدء التشغيل التلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Auto Puesta Marcha</string>
+<string lang_id="7" lang="土耳其语">Oto Başlat</string>
+<string lang_id="8" lang="波斯文">آغاز خودکار</string>
+<string lang_id="9" lang="葡萄牙语">Auto Start</string>
+<string lang_id="10" lang="越南文">Tự.đ bắt đầu</string>
+</item>
+<item type="0">
+<value>2</value>
+<string lang_id="0" lang="中文">半自动开始</string>
+<string lang_id="1" lang="俄文">Полуавтоматнач.</string>
+<string lang_id="2" lang="韩文">반자동 시작</string>
+<string lang_id="3" lang="英文">SemiAuto Start</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inicio SemiAuto</string>
+<string lang_id="7" lang="土耳其语">Yarı.Oto Başlat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Início semi-autom</string>
+<string lang_id="10" lang="越南文">Rưỡi động Khởi đầu</string>
+</item>
+<item type="0">
+<value>3</value>
+<string lang_id="0" lang="中文">粗调模</string>
+<string lang_id="1" lang="俄文">Регулировка</string>
+<string lang_id="2" lang="韩文">금형조정</string>
+<string lang_id="3" lang="英文">AdjMold</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste</string>
+<string lang_id="7" lang="土耳其语">Ayar</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">AjusteMold</string>
+<string lang_id="10" lang="越南文">Diều chỉnh k.</string>
+</item>
+<item type="0">
+<value>4</value>
+<string lang_id="0" lang="中文">自动调模开始</string>
+<string lang_id="1" lang="俄文">Регулировканач.</string>
+<string lang_id="2" lang="韩文">자동금형조정시작</string>
+<string lang_id="3" lang="英文">Auto AdjMold Start</string>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inicio Ajuste Auto</string>
+<string lang_id="7" lang="土耳其语">Oto AyarKalıp Başlat</string>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Início Auto Ajuste</string>
+<string lang_id="10" lang="越南文">Bán động Khởi đầu</string>
+</item>
+<item type="0">
+<value>5</value>
+<string lang_id="0" lang="中文">手动</string>
+<string lang_id="1" lang="俄文">Ручной.</string>
+<string lang_id="2" lang="韩文">수동</string>
+<string lang_id="3" lang="英文">Manual</string>
+<string lang_id="4" lang="阿拉伯文">يدويا</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Manual</string>
+<string lang_id="7" lang="土耳其语">El ile</string>
+<string lang_id="8" lang="波斯文">دستی</string>
+<string lang_id="9" lang="葡萄牙语">MANUAL</string>
+<string lang_id="10" lang="越南文">Bằng tay</string>
+</item>
+<item type="0">
+<value>6</value>
+<string lang_id="0" lang="中文">自动结束</string>
+<string lang_id="1" lang="俄文">Авто стоп</string>
+<string lang_id="2" lang="韩文">자동 정지</string>
+<string lang_id="3" lang="英文">Auto Stop</string>
+<string lang_id="4" lang="阿拉伯文">التوقف التلقائي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Auto Parada</string>
+<string lang_id="7" lang="土耳其语">Oto Dur</string>
+<string lang_id="8" lang="波斯文">پایان دادن خودکارانه</string>
+<string lang_id="9" lang="葡萄牙语">Auto Stop</string>
+<string lang_id="10" lang="越南文">Tự.đ dừng lại</string>
+</item>
+</group>
+</MapDrv>

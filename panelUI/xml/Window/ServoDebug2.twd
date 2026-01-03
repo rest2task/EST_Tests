@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="ServoDebug2" 可见="-1" 标题="0:伺服配置2|||1:Серво конфигурация2|||2:서보구성2|||3:Servo Config2|||6:Servo Config2|||7:Servo Yapıland2|||9:Servo Config2|||10:Cấu hình Servo2|||default:Servo Config2" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="0" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label32" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="image" type_id="19">
+<prop 名称="image1" 索引="0" 可见="-1" 可用="-1" 左="0" 顶="36" 宽度="600" 高度="535" 透明度="255" 背景图="Back1.png" 自动缩放="0" 图片数="12" 值="0" 角度="0" 是否旋转="0"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMCU" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="132" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR1"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stFPGA" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="132" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR2" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR2"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRatedVoltage" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="132" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR3" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRatedPower" 索引="0" 可见="-1" 可用="-1" 左="363" 顶="132" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR4" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRatedCurrent" 索引="0" 可见="-1" 可用="-1" 左="481" 顶="132" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR5" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMaxTorque" 索引="0" 可见="-1" 可用="-1" 左="481" 顶="235" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR10" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR10"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRatedTorque" 索引="0" 可见="-1" 可用="-1" 左="363" 顶="235" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR9" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR9"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMotorRatedCurrent" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="235" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR8" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR8"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMotorPower" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="235" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR7" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR7"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMotorRatedVoltage" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="235" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR6" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR6"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stEncodeType" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="314" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR13" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR13"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stMaxRPM" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="314" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR12" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR12"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRatedRPM" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="314" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="6858752" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPSTR11" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="65535" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPSTR11"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stRotatedDir" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="429" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL14" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="1" 使用数据库="0" 最小值="0" 最大值="1" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL14"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stHighSpdGain" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="429" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL15" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="5" 使用数据库="0" 最小值="0" 最大值="20000" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL15"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="stLowSpdGain" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="429" 宽度="85" 高度="24" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:0" 关联变量="p.PP.TMP.TMPVAL16" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="5" 使用数据库="0" 最小值="0" 最大值="20000" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL16"/>
+<var prop="文本" orient="out" tag="d.airblow1.MOLDSET.TM_MOVINGPLATENDLY"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label22" 索引="0" 可见="-1" 可用="-1" 左="96" 顶="314" 宽度="35" 高度="24" 语言表索引="0" 文本="0:RPM|||1:RPM|||2:RPM|||3:RPM|||6:RPM|||7:RPM|||9:RPM|||10:RPM|||default:RPM" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label23" 索引="0" 可见="-1" 可用="-1" 左="217" 顶="314" 宽度="35" 高度="24" 语言表索引="0" 文本="0:RPM|||1:RPM|||2:RPM|||3:RPM|||6:RPM|||7:RPM|||9:RPM|||10:RPM|||default:RPM" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label24" 索引="0" 可见="-1" 可用="-1" 左="567" 顶="235" 宽度="25" 高度="24" 语言表索引="0" 文本="0:N.M|||1:N.M|||2:N.M|||3:N.M|||7:N.M|||9:N.M|||default:N.M" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label25" 索引="0" 可见="-1" 可用="-1" 左="449" 顶="235" 宽度="25" 高度="24" 语言表索引="0" 文本="0:N.M|||1:N.M|||2:N.M|||3:N.M|||7:N.M|||9:N.M|||default:N.M" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label26" 索引="0" 可见="-1" 可用="-1" 左="338" 顶="235" 宽度="25" 高度="24" 语言表索引="0" 文本="0:A|||1:A|||2:A|||3:A|||6:A|||7:A|||9:A|||10:A|||default:A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label27" 索引="0" 可见="-1" 可用="-1" 左="217" 顶="235" 宽度="35" 高度="24" 语言表索引="0" 文本="0:KW|||1:KW|||2:KW|||3:KW|||6:KW|||7:KW|||9:KW|||10:KW|||default:KW" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label28" 索引="0" 可见="-1" 可用="-1" 左="96" 顶="235" 宽度="35" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||7:V|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label29" 索引="0" 可见="-1" 可用="-1" 左="338" 顶="132" 宽度="25" 高度="24" 语言表索引="0" 文本="0:V|||1:V|||2:V|||3:V|||6:v|||7:V|||10:v|||default:V" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label30" 索引="0" 可见="-1" 可用="-1" 左="449" 顶="132" 宽度="25" 高度="24" 语言表索引="0" 文本="0:KW|||1:KW|||2:KW|||3:KW|||6:KW|||7:KW|||9:KW|||10:KW|||default:KW" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label31" 索引="0" 可见="-1" 可用="-1" 左="567" 顶="132" 宽度="25" 高度="24" 语言表索引="0" 文本="0:A|||1:A|||2:A|||3:A|||6:A|||7:A|||9:A|||10:A|||default:A" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="tabpage" type_id="36">
+<prop 名称="tabpage1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="20" 宽度="590" 高度="28" 字体="宋体" 字号="16" 透明度="255" 对齐="0" 文本色="0" 背景色="15723752" 禁用时风格="1" 按钮宽度="80" 按钮高度="25" 常态图片="tabbar-unselected.png" 选中图片="tabbar-selected.png" 选中文本色="16744448" 选中背景色="16777215" 焦点文本色="0"/>
+<element type_name="tab" type_id="4098">
+<prop 名称="tab1" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 7|||1:Драйвер7|||2:드라이브7|||3:Driver 7|||6:Driver 7|||7:Servo7|||9:Dirigir7|||10:lái xe 7|||default:Driver 7"/>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="tab2" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 8|||1:Драйвер8|||2:드라이브8|||3:Driver 8|||6:Driver 8|||7:Servo8|||9:Dirigir8|||10:lái xe 8|||default:Driver 8"/>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="tab3" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 9|||1:Драйвер9|||2:드라이브9|||3:Driver 9|||6:Driver 9|||7:Servo9|||9:Dirigir9|||10:lái xe 9|||default:Driver 9"/>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tab4" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 10|||1:Драйвер10|||2:드라이브10|||3:Driver 10|||6:Driver 10|||7:Servo10|||9:Dirigir10|||10:lái xe 10|||default:Driver 10"/>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tab5" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 11|||1:Драйвер11|||2:드라이브11|||3:Driver 11|||6:Driver 11|||7:Servo11|||9:Dirigir11|||10:lái xe 11|||default:Driver 11"/>
+</element>
+<element type_name="tab" type_id="4098">
+<prop 名称="Tab6" 可用="-1" 左="0" 顶="0" 宽度="590" 高度="3" 透明度="255" 文本色="0" 背景色="13158600" 边框色="9868950" 边框宽度="0" 背景图="" 文本="0:驱动 12|||1:Драйвер12|||2:드라이브12|||3:Driver 12|||6:Driver 12|||7:Servo12|||9:Dirigir12|||10:lái xe 12|||default:Driver 12"/>
+</element>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="64" 宽度="100" 高度="24" 语言表索引="0" 文本="0:驱动|||1:серво|||2:서보|||3:Driver|||6:Driver|||7:Servo|||9:Servo|||10:Servo|||default:Driver" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="98" 宽度="85" 高度="24" 语言表索引="0" 文本="0:MCU 版本|||1:Версия MCU|||2:MCU|||3:MCU Vers|||6:MCU Vers|||7:MCU Versi|||9:MCU|||10:MCU Vers|||default:MCU Vers" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="126" 顶="98" 宽度="95" 高度="24" 语言表索引="0" 文本="0:FPGA 版本|||1:Версия FPGA|||2:FPGA|||3:FPGA Vers|||6:FPGA Vers|||7:FPGA Versi|||9:FPGA|||10:FPGA Vers|||default:FPGA Vers" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="98" 宽度="85" 高度="24" 语言表索引="0" 文本="0:额定电压|||1:Факт.Напряжение|||2:정격 전압|||3:Rated Vol|||6:Vol Nomin|||7:Anma Gerilimi|||9:Tensão|||10:Điện áp|||default:Rated Vol" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="481" 顶="98" 宽度="85" 高度="24" 语言表索引="0" 文本="0:额定电流|||1:Факт.Ток|||2:정격 전류|||3:Rated Curr|||6:Corrie Nomin|||7:Anma Hız|||9:Corrente|||10:Dòng điện|||default:Rated Curr" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label8" 索引="0" 可见="-1" 可用="-1" 左="358" 顶="98" 宽度="95" 高度="24" 语言表索引="0" 文本="0:额定功率|||1:Факт.Мощность|||2:정격 출력|||3:Rated Power|||6:Poten Nomin|||7:Anma Gücü|||9:Potência|||10:Công suất|||default:Rated Power" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label9" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="201" 宽度="85" 高度="24" 语言表索引="0" 文本="0:额定电压|||1:Факт.Напряжение|||2:정격 전압|||3:Rated Vol|||6:Vol Nomin|||7:Anma Gerilimi|||9:Tensão|||10:Điện áp|||default:Rated Vol" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="126" 顶="201" 宽度="95" 高度="24" 语言表索引="0" 文本="0:额定功率|||1:Факт.Мощность|||2:정격 출력|||3:Rated Power|||6:Poten Nomin|||7:Anma Gücü|||9:Potência|||10:Công suất|||default:Rated Power" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="252" 顶="201" 宽度="85" 高度="24" 语言表索引="0" 文本="0:额定电流|||1:Факт.Ток|||2:정격 전류|||3:Rated Curr|||6:Corrie Nomin|||7:Anma Hız|||9:Corrente|||10:Dòng điện|||default:Rated Curr" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="481" 顶="201" 宽度="85" 高度="24" 语言表索引="0" 文本="0:转矩上限|||1:ВключитеПредел|||2:토크제한|||3:Max Torque|||6:Torque Máx|||7:Tork Maks|||9:VireForçaMáx|||10:GHT mômen.x|||default:Max Torque" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label13" 索引="0" 可见="-1" 可用="-1" 左="358" 顶="201" 宽度="95" 高度="24" 语言表索引="0" 文本="0:额定转矩|||1:Номин крутя момент|||2:정격 토크|||3:Rated Torque|||6:Par Nomin|||7:Nominal Tork|||9:Rated Torque|||10:Mô-men mức|||default:Rated Torque" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label19" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="167" 宽度="100" 高度="24" 语言表索引="0" 文本="0:电机|||1:двигатель|||2:모터|||3:Motor|||6:Motor|||7:MOTOR|||9:Motor|||10:Mô tơ|||default:Motor" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label14" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="277" 宽度="85" 高度="24" 语言表索引="0" 文本="0:额定转速|||1:Факт.Вращение|||2:정격 회전|||3:Rated RPM|||6:Vel Nomin|||7:Nominal Hız|||9:Rated Rotação|||10:Tốc độ quay|||default:Rated RPM" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label15" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="277" 宽度="85" 高度="24" 语言表索引="0" 文本="0:最大转速|||1:МаксСкор|||2:최대 회전|||3:Max RPM|||6:Máx Velocidad|||7:Maks Hız|||9:Fluxo Máx|||10:RPM lớn nhất|||default:Max RPM" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label16" 索引="0" 可见="-1" 可用="-1" 左="247" 顶="277" 宽度="95" 高度="24" 语言表索引="0" 文本="0:编码器类型|||1:Тип кодировщика|||2:엔코더유형|||3:Encode Type|||6:Encode Tipo|||7:Encoder Türleri|||9:Codifica Tipo|||10:Loại mã hóa|||default:Encode Type" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label21" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="361" 宽度="100" 高度="24" 语言表索引="0" 文本="0:参数调整|||1:Настройка параметров|||2:파라미터 조정|||3:Adjust Param|||6:Adjust Param|||7:Ayar Param|||9:Ajuste parâm|||10:Chỉnh thông số|||default:Adjust Param" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label18" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="395" 宽度="115" 高度="24" 语言表索引="0" 文本="0:旋转方向|||1:повернутом|||2:회전 방향|||3:Rotated Direct|||6:Rotación|||7:Dönme Yönü|||9:RodadoDirect|||10:Hướng xoắn|||default:Rotated Direct" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label17" 索引="0" 可见="-1" 可用="-1" 左="121" 顶="395" 宽度="105" 高度="24" 语言表索引="0" 文本="0:高速增益|||1:ПриростВыс.скор|||2:고속 게인|||3:HighSpd Gain|||6:AltaVel Ganan|||7:YüksHızKazanç|||9:Ganho HiSpd|||10:TĐ cao tăng ích|||default:HighSpd Gain" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label20" 索引="0" 可见="-1" 可用="-1" 左="242" 顶="395" 宽度="105" 高度="24" 语言表索引="0" 文本="0:低速增益|||1:ПриростНизкСкор|||2:저속 게인|||3:LowSpd Gain|||6:BajaVel Ganan|||7:DüşkHızKazanç|||9:Ganho LowSpd|||10:thấp tăng ích|||default:LowSpd Gain" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="150" 顶="536" 宽度="314" 高度="24" 语言表索引="0" 文本="0:伺服数据接收中......|||1:Сервопривод получения данных ...|||2:서보 데이터 수신...|||3:Servo Data Receive......|||6:Recepción de datos servo ...|||7:Servo Veri Kabul......|||9:Recebendo dados servo ...|||10:Nhận dữ liệu Servo ...|||default:Servo Data Receive......" 横向对齐="1" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="440" 顶="6" 宽度="151" 高度="16" 语言表索引="0" 文本="0:切换:请按F3|||1:Переключатель: F3|||2:스위치 : F3을 누름|||3:Switch:Press&quot;F3&quot;|||6:Interruptor: pres &quot;F3&quot;|||7:Değiştir: Basın &quot;F3&quot;|||9:Mudar: Pressione F3|||10:Công tắc:Nhấn&quot;F3&quot;|||default:Switch:Press&quot;F3&quot;" 横向对齐="2" 纵向对齐="1" 文本色="255" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="28" ele_name="tabpage1"/>
+<horz order="1" ele_index="15" ele_name="stRotatedDir"/>
+<horz order="2" ele_index="16" ele_name="stHighSpdGain"/>
+<horz order="3" ele_index="17" ele_name="stLowSpdGain"/>
+<vert order="0" ele_index="28" ele_name="tabpage1"/>
+<vert order="1" ele_index="15" ele_name="stRotatedDir"/>
+<vert order="2" ele_index="16" ele_name="stHighSpdGain"/>
+<vert order="3" ele_index="17" ele_name="stLowSpdGain"/>
+<tab order="0" ele_index="28" ele_name="tabpage1"/>
+<tab order="1" ele_index="15" ele_name="stRotatedDir"/>
+<tab order="2" ele_index="16" ele_name="stHighSpdGain"/>
+<tab order="3" ele_index="17" ele_name="stLowSpdGain"/>
+<id order="0" ele_index="0" ele_name="label32"/>
+<id order="1" ele_index="1" ele_name="image1"/>
+<id order="2" ele_index="2" ele_name="stMCU"/>
+<id order="3" ele_index="3" ele_name="stFPGA"/>
+<id order="4" ele_index="4" ele_name="stRatedVoltage"/>
+<id order="5" ele_index="5" ele_name="stRatedPower"/>
+<id order="6" ele_index="6" ele_name="stRatedCurrent"/>
+<id order="7" ele_index="7" ele_name="stMaxTorque"/>
+<id order="8" ele_index="8" ele_name="stRatedTorque"/>
+<id order="9" ele_index="9" ele_name="stMotorRatedCurrent"/>
+<id order="10" ele_index="10" ele_name="stMotorPower"/>
+<id order="11" ele_index="11" ele_name="stMotorRatedVoltage"/>
+<id order="12" ele_index="12" ele_name="stEncodeType"/>
+<id order="13" ele_index="13" ele_name="stMaxRPM"/>
+<id order="14" ele_index="14" ele_name="stRatedRPM"/>
+<id order="15" ele_index="15" ele_name="stRotatedDir"/>
+<id order="16" ele_index="16" ele_name="stHighSpdGain"/>
+<id order="17" ele_index="17" ele_name="stLowSpdGain"/>
+<id order="18" ele_index="18" ele_name="label22"/>
+<id order="19" ele_index="19" ele_name="label23"/>
+<id order="20" ele_index="20" ele_name="label24"/>
+<id order="21" ele_index="21" ele_name="label25"/>
+<id order="22" ele_index="22" ele_name="label26"/>
+<id order="23" ele_index="23" ele_name="label27"/>
+<id order="24" ele_index="24" ele_name="label28"/>
+<id order="25" ele_index="25" ele_name="label29"/>
+<id order="26" ele_index="26" ele_name="label30"/>
+<id order="27" ele_index="27" ele_name="label31"/>
+<id order="28" ele_index="28" ele_name="tabpage1"/>
+<id order="29" ele_index="29" ele_name="label3"/>
+<id order="30" ele_index="30" ele_name="label4"/>
+<id order="31" ele_index="31" ele_name="label5"/>
+<id order="32" ele_index="32" ele_name="label6"/>
+<id order="33" ele_index="33" ele_name="label7"/>
+<id order="34" ele_index="34" ele_name="label8"/>
+<id order="35" ele_index="35" ele_name="label9"/>
+<id order="36" ele_index="36" ele_name="label10"/>
+<id order="37" ele_index="37" ele_name="label11"/>
+<id order="38" ele_index="38" ele_name="label12"/>
+<id order="39" ele_index="39" ele_name="label13"/>
+<id order="40" ele_index="40" ele_name="label19"/>
+<id order="41" ele_index="41" ele_name="label14"/>
+<id order="42" ele_index="42" ele_name="label15"/>
+<id order="43" ele_index="43" ele_name="label16"/>
+<id order="44" ele_index="44" ele_name="label21"/>
+<id order="45" ele_index="45" ele_name="label18"/>
+<id order="46" ele_index="46" ele_name="label17"/>
+<id order="47" ele_index="47" ele_name="label20"/>
+<id order="48" ele_index="48" ele_name="label2"/>
+<id order="49" ele_index="49" ele_name="_input_range_labellabel"/>
+<id order="50" ele_index="50" ele_name="_input_range_label"/>
+<id order="51" ele_index="51" ele_name="label1"/>
+<jmp_list desc="1">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="3:STAT|||0:状态|||1:Сост.|||2:상태|||4:STAT|||5:STAT|||6:Estado|||7:Durum|||8:STAT|||9:Stat|||10:Tr.thái|||default:STAT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTAT.png" 按下图片="btnSTATx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="3:CFG1|||0:配置1|||1:МашКфг1|||2:구성 1|||4:CFG1|||5:CFG1|||6:Config1|||7:Yapı1|||8:CFG1|||9:Cfg1|||10:CFG1|||default:CFG1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG1.png" 按下图片="btnCFG1x.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="3:CFG2|||0:配置2|||1:МашКфг2|||2:구성 2|||4:CFG2|||5:CFG2|||6:Config2|||7:Yapı2|||8:CFG2|||9:Cfg2|||10:CFG2|||default:CFG2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCFG2.png" 按下图片="btnCFG2x.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="3:OPT|||0:操作|||1:работы|||2:운영 중|||4:OPT|||5:OPT|||6:Operan|||7:Işlemi|||8:OPT|||9:Opt|||10:OPT|||default:OPT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnOPT.png" 按下图片="btnOPTx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="3:PUMP1|||0:油泵1|||1:Насос1|||2:펌프1|||4:PUMP1|||5:PUMP1|||6:Bomba1|||7:Pompa1|||8:PUMP1|||9:Bomba1|||10:PUMP1|||default:PUMP1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP1.png" 按下图片="btnPUMP1x.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="3:PUMP2|||0:油泵2|||1:Насос2|||2:펌프2|||4:PUMP2|||5:PUMP2|||6:Bomba2|||7:Pompa2|||8:PUMP2|||9:Bomba2|||10:PUMP2|||default:PUMP2" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP2.png" 按下图片="btnPUMP2x.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="3:ACT|||0:动作|||1:Действие|||2:동작|||4:ACT|||5:ACT|||6:Actuar|||7:Aksiyon|||8:ACT|||9:Açao|||10:ACT|||default:ACT" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnACT.png" 按下图片="btnACTx.png" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

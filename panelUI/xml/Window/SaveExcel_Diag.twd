@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="SaveExcel_Diag" 可见="-1" 标题="1:Лин.регу.|||2:AD 조정|||3:|||4:متر الكتروني   تعديل القالب|||5:AD Adjust|||6:AD Ajuste|||7:AD Ayarla|||8:سنسور موقعیت تنظیم|||9:Régua Ajuste|||10:Thước điện tử Diều chỉnh k.|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="110" 顶="260" 宽度="380" 高度="280" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btOk" 索引="0" 可见="-1" 可用="-1" 左="335" 顶="484" 宽度="100" 高度="30" 标题="0:确定|||1:OK|||2:완료|||3:OK|||4:تحديد|||5:OK|||6:OK|||7:Tamam|||8:تایید|||9:OK|||10:OK|||default:OK" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="question questionSure"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="200" 顶="262" 宽度="200" 高度="28" 语言表索引="0" 文本="0:保存数据到U盘|||1:СохранФ|||2:USB자료저장|||3:Save File To UDisk|||4:تأكيد المعلومات|||5:Confirmation|||6:Guardar En Disco U|||7:UDisk Dosyayı Kaydet|||8:تایید اطلاعات|||9:Salvar arquivo em disco U|||10:Lưu số liệu vào USB|||default:Save File To UDisk" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btCancel" 索引="0" 可见="-1" 可用="-1" 左="165" 顶="484" 宽度="100" 高度="30" 标题="0:取消|||1:Отмен|||2:취소|||3:Cancel|||4:إلغاء|||5:Cancel|||6:Cancel|||7:İptal|||8:لغو|||9:Cancelar|||10:Hủy|||default:Cancel" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="question questionCancel"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit1" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="378" 宽度="265" 高度="28" 文本="" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="0" 文本色="0" 是否变灰="-1" 禁用文本色="0" 描述="3:|||default:" 关联变量="p.PP.MACH2.SAVE_EXCEL_FILE_NAME" 延迟更新="0" 只读="0" 密码模式="0" 输入模式="2" 显示模式="0" 最大字符数="20" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="0" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="0" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.MACH2.SAVE_EXCEL_FILE_NAME"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="175" 顶="337" 宽度="265" 高度="28" 语言表索引="0" 文本="0:文件名|||1:Имя файла|||2:파일이름|||3:File Name|||6:Nombre Archivo|||7:Dosya Adı|||9:Arquivo Nome|||10:Tên tệp|||default:File Name" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="160" Y1="449" X2="450" Y2="449" 颜色="7829624" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<horz order="0" ele_index="4" ele_name="edit1"/>
+<horz order="1" ele_index="3" ele_name="btCancel"/>
+<horz order="2" ele_index="1" ele_name="btOk"/>
+<vert order="0" ele_index="4" ele_name="edit1"/>
+<vert order="1" ele_index="1" ele_name="btOk"/>
+<vert order="2" ele_index="3" ele_name="btCancel"/>
+<tab order="0" ele_index="4" ele_name="edit1"/>
+<tab order="1" ele_index="3" ele_name="btCancel"/>
+<tab order="2" ele_index="1" ele_name="btOk"/>
+<id order="0" ele_index="0" ele_name="label3"/>
+<id order="1" ele_index="1" ele_name="btOk"/>
+<id order="2" ele_index="2" ele_name="label2"/>
+<id order="3" ele_index="3" ele_name="btCancel"/>
+<id order="4" ele_index="4" ele_name="edit1"/>
+<id order="5" ele_index="5" ele_name="label4"/>
+<id order="6" ele_index="6" ele_name="line1"/>
+</element>

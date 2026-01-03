@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Servo_Ask1" 可见="-1" 标题="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 左="0" 顶="0" 宽度="600" 高度="800" 权限="0" 背景色="10789024" 背景图="back.png" 透明度="74" 边框色="0" 边框宽度="1" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="250" 宽度="400" 高度="300" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="recheck" 索引="0" 可见="-1" 可用="-1" 左="131" 顶="492" 宽度="138" 高度="30" 标题="0:重新检查|||1:перепров.|||2:재확인|||3:Recheck|||4:إعادة تدقيق|||5:Recheck|||6:Cancelar|||7:Tekrar Denetle|||8:بازرسی مجدد|||9:Ver Nov|||10:Kiểm tra lại|||default:重新检查" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="servo cancel;dlg close"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label2" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="250" 宽度="400" 高度="26" 语言表索引="0" 文本="0:请确认|||1:Пожалуйста, подтвердите|||2:请确认|||3:Please Confirm|||4:يرجى التأكد|||5:Please Confirm|||6:Por Favor,confirme|||7:Teyit Edin|||8:لطفا تایید کنید|||9:Por favor Confirme|||10:Vui lòng xác nhận|||default:请确认" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="selflearn" 索引="0" 可见="-1" 可用="-1" 左="314" 顶="492" 宽度="138" 高度="30" 标题="0:自学习|||1:Самообучение|||2:자기학습|||3:Self-Learn|||4:التعلم الذاتي|||5:Self-Learn|||6:Auto Apren|||7:SelfÖğrenme|||8:خودآموزی|||9:Auto-Estudo|||10:Tự học |||default:自学习" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="servo ok;dlg close"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label3" 索引="0" 可见="-1" 可用="-1" 左="107" 顶="303" 宽度="383" 高度="20" 语言表索引="0" 文本="0:请确认以下信息:|||1:подтвердите,следующие вещи:|||2:다음 사항을 확인하십시오 :|||3:Please confirm the following data:|||4:التأكد من المعلومات التالية::|||5:Please confirm the following data:|||6:Por Favor, Confirme Lo Siguiente::|||7:Şunları teyit edin:|||8:لطفا داده های زیر را تایید کنید:|||9:Confirme As InformaçõEs Seguintes:|||10:Vui lòng xác nhận thông tin sau:|||default:请确认以下信息:" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="111" 顶="413" 宽度="383" 高度="20" 语言表索引="0" 文本="0:3.驱动输出电缆UVW相序接线正确.|||1:Подк.каб.питания правильно.|||2:전원 케이블 연결이 올바른지 확인하십시오.|||3:Power cable connection is correct.|||4:مرحلة كابلات الإنتاج UVW  بشكل صحيح|||5:Power cable connection is correct.|||6:Conexión Cablealimentación Correcta.|||7:Güç kablosu bağlantısı doğrudur.|||8:فاز UVW کابل های خروجی درایو درست است|||9:Ligação Correta Sequência Fase Cabo UVW Do Motor |||10:Cáp đầu ra drive UVW lần lượt nối dây chính xác.|||default:3.驱动输出电缆UVW相序接线正确." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label5" 索引="0" 可见="-1" 可用="-1" 左="111" 顶="388" 宽度="383" 高度="20" 语言表索引="0" 文本="0:2.电机参数设置正确.|||1:Параметры двигателя правильно.|||2:모터 파라미터가 올바르게 설정되어 있는지 확인하십시오.|||3:Motor parameters correctly.|||4:تعيين المعلمات المحرك بشكل صحيح|||5:Motor parameters correctly.|||6:Motor Parám Set Correctamente.|||7:Doğru Motor Parametreleri.|||8:تنظیم پارامتر موتور درست|||9:Config CorrParâmotor|||10:Cài đặt thông số mô tơ điện chính xác|||default:2.电机参数设置正确." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="111" 顶="363" 宽度="383" 高度="20" 语言表索引="0" 文本="0:1.系统油路溢流阀已经打开.|||1:Кла.масляной системы открыт.|||2:시스템 오일 밸브가 열려 있습니다.|||3:Sys OilCircuit OverflowVlv is open.|||4:تم فتح صمام تخفيف ضغط الزيت للنظام|||5:Sys OilCircuit OverflowVlv is open.|||6:Sistema AceiteVálvula Abierto.|||7:Sistem Yağ Vanası Açıktır.|||8:شیر سرریز مدار روغن سیستم باز|||9:Válvula Reguladora Do Canal De óleo Do Sistema Já Abriu|||10:Van tràn dầu HT mở|||default:1.系统油路溢流阀已经打开." 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="1" ele_name="recheck"/>
+<horz order="1" ele_index="3" ele_name="selflearn"/>
+<vert order="0" ele_index="1" ele_name="recheck"/>
+<vert order="1" ele_index="3" ele_name="selflearn"/>
+<tab order="0" ele_index="1" ele_name="recheck"/>
+<tab order="1" ele_index="3" ele_name="selflearn"/>
+<id order="0" ele_index="0" ele_name="label7"/>
+<id order="1" ele_index="1" ele_name="recheck"/>
+<id order="2" ele_index="2" ele_name="label2"/>
+<id order="3" ele_index="3" ele_name="selflearn"/>
+<id order="4" ele_index="4" ele_name="label3"/>
+<id order="5" ele_index="5" ele_name="label4"/>
+<id order="6" ele_index="6" ele_name="label5"/>
+<id order="7" ele_index="7" ele_name="label6"/>
+<jmp_list desc=""/>
+</element>

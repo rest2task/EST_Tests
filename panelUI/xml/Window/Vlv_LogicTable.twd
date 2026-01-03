@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Vlv_LogicTable" 可见="-1" 标题="0:阀逻辑表|||1:Таб клап|||2:밸브 표|||3:Vlv Logic Table|||6:Válvula|||7:Valf Tablosu|||9:List Lógica|||10:Bảng logic van|||default:Vlv Logic Table" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="切换控件" act=""/>
+<event name="绘图" act=""/>
+<event name="数据改变" act=""/>
+<event name="初始化" act=""/>
+<event name="定时器" act=""/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Faixa de entrada:|||10:Phạm vi:|||default:Input Range:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btlast" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="40" 宽度="85" 高度="30" 标题="0:上一页|||1:Пред|||2:마지막|||3:Last|||6:Ultimo|||7:Önceki|||9:Último|||10:Lần cuối|||default:Last" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="prodmoni clearAll"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblcurtable" 索引="0" 可见="-1" 可用="-1" 左="430" 顶="40" 宽度="60" 高度="30" 语言表索引="0" 文本="0:1/3|||3:1/3|||default:1/3" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="btnext" 索引="0" 可见="-1" 可用="-1" 左="495" 顶="40" 宽度="85" 高度="30" 标题="0:下一页|||1:След.|||2:다음페이지|||3:Next|||6:Próximo|||7:sonraki|||9:Alimentar|||10:Kế tiếp|||default:Next" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="prodmoni clearAll"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label4" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="40" 宽度="200" 高度="30" 语言表索引="0" 文本="0:阀逻辑表|||1:Таб клап|||2:밸브 표|||3:Vlv Logic Table|||6:Válvula|||7:Valf Tablosu|||9:List Lógica|||10:Bảng logic van|||default:Vlv Logic Table" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label6" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="100" 宽度="260" 高度="28" 语言表索引="0" 文本="0:监控动作|||1:Действ монито|||2:모니터 법|||3:Monitor Act|||6:Supervisión|||7:İzleme Yasası|||9:Monitor Ação|||10:Giám sát hành động|||default:Monitor Act" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label7" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="128" 宽度="260" 高度="28" 语言表索引="0" 文本="0:动作区间|||1:Зона действ|||2:행위 간격|||3:Act Interval|||6:Act Interval|||7:Hareket Aralığı|||9:Ação Zona|||10:Khoảng TG hành động|||default:Act Interval" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label8" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="270" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀1|||1:Клап 1|||2:밸브1|||3:Vlv 1|||6:Válv 1|||7:Vana 1|||9:válv 1|||10:van 1|||default:Vlv 1" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label9" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="298" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀2|||1:Клап 2|||2:밸브2|||3:Vlv 2|||6:Válv 2|||7:Vana 2|||9:válv 2|||10:van 2|||default:Vlv 2" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label10" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="326" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀3|||1:Клап 3|||2:밸브3|||3:Vlv 3|||6:Válv 3|||7:Vana 3|||9:válv 3|||10:van 3|||default:Vlv 3" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label11" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="354" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀4|||1:Клап 4|||2:밸브4|||3:Vlv 4|||6:Válv 4|||7:Vana 4|||9:válv 4|||10:van 4|||default:Vlv 4" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label12" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="382" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀5|||1:Клап 5|||2:밸브5|||3:Vlv 5|||6:Válv 5|||7:Vana 5|||9:válv 5|||10:van 5|||default:Vlv 5" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label13" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="410" 宽度="80" 高度="28" 语言表索引="0" 文本="0:阀6|||1:Клап 6|||2:밸브6|||3:Vlv 6|||6:Válv 6|||7:Vana 6|||9:válv 6|||10:van 6|||default:Vlv 6" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label14" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="156" 宽度="260" 高度="28" 语言表索引="0" 文本="0:操作模式|||1:РежимРаботы|||2:운전|||3:Operate Mode|||6:Operación Modo|||7:Modu İşlet|||9:Método Operação|||10:P.thức thao tác|||default:Operate Mode" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label15" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="184" 宽度="260" 高度="28" 语言表索引="0" 文本="0:比较项个数|||1:Элемент сравнен кол|||2:항목 번호 비교|||3:Compare Item Num|||6:Comparar artículo núm|||7:Ürün Sayısını Karşılaştır|||9:Comparação Item Número|||10:So sánh số mục|||default:Compare Item Num" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label71" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="212" 宽度="260" 高度="28" 语言表索引="0" 文本="0:比较项|||1:Элемент сравнен|||2:항목 비교|||3:Compare Item|||6:Comparar artículo|||7:Ürün Karşılaştır|||9:Comparação Item|||10:So sánh mặt hàng|||default:Compare Item" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblmonitoract" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="100" 宽度="300" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblactinterval" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="128" 宽度="300" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname1" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="270" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lbloperatemode" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="156" 宽度="300" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblcompareitemnum" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="184" 宽度="300" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblcompareitem" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="212" 宽度="300" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv1" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="273" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label72" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="240" 宽度="120" 高度="30" 语言表索引="0" 文本="0:名称|||1:имя|||2:이름|||3:Name|||6:Nombre|||7:İsim|||9:Nome|||10:Tên|||default:Name" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label73" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="240" 宽度="60" 高度="30" 语言表索引="0" 文本="0:编号|||1:Число|||2:번호|||3:Num|||6:Núm|||7:Numara|||9:Num|||10:No.|||default:Num" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label74" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="240" 宽度="80" 高度="30" 语言表索引="0" 文本="0:开延时|||1:На задерж|||2:ON 지연|||3:On Delay|||6:En Retardo|||7:GecAçık|||9:AberAdia|||10:Sự trễ|||default:On Delay" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label75" 索引="0" 可见="-1" 可用="-1" 左="500" 顶="240" 宽度="80" 高度="30" 语言表索引="0" 文本="0:附加条件|||1:Состояние|||2:질환|||3:Condition|||6:Condición|||7:Durum|||9:Doença|||10:Tình trạng|||default:Condition" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label76" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="240" 宽度="80" 高度="30" 语言表索引="0" 文本="0:关延时|||1:Выкл Задерж|||2:OFF 지연|||3:Off Delay|||6:Apag Retardo|||7:GecKapalı|||9:FechAdia|||10:Trễ tắt|||default:Off Delay" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label77" 索引="0" 可见="-1" 可用="-1" 左="20" 顶="240" 宽度="80" 高度="30" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line1" 可见="-1" 可用="-1" X1="20" Y1="100" X2="580" Y2="100" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line2" 可见="-1" 可用="-1" X1="20" Y1="100" X2="20" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line2"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line9" 可见="-1" 可用="-1" X1="20" Y1="128" X2="580" Y2="128" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line10" 可见="-1" 可用="-1" X1="20" Y1="156" X2="580" Y2="156" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line11" 可见="-1" 可用="-1" X1="20" Y1="298" X2="580" Y2="298" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line12" 可见="-1" 可用="-1" X1="20" Y1="326" X2="580" Y2="326" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line13" 可见="-1" 可用="-1" X1="20" Y1="354" X2="580" Y2="354" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line14" 可见="-1" 可用="-1" X1="20" Y1="382" X2="580" Y2="382" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line15" 可见="-1" 可用="-1" X1="20" Y1="410" X2="580" Y2="410" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line16" 可见="-1" 可用="-1" X1="20" Y1="438" X2="580" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line17" 可见="-1" 可用="-1" X1="20" Y1="184" X2="580" Y2="184" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line18" 可见="-1" 可用="-1" X1="20" Y1="212" X2="580" Y2="212" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line19" 可见="-1" 可用="-1" X1="20" Y1="240" X2="580" Y2="240" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line3" 可见="-1" 可用="-1" X1="280" Y1="100" X2="280" Y2="240" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line4" 可见="-1" 可用="-1" X1="580" Y1="100" X2="580" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line4"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line20" 可见="-1" 可用="-1" X1="20" Y1="270" X2="580" Y2="270" 颜色="7895160" 线型="0" 粗细="1" cur_text="line1"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line21" 可见="-1" 可用="-1" X1="100" Y1="240" X2="100" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line22" 可见="-1" 可用="-1" X1="220" Y1="240" X2="220" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line23" 可见="-1" 可用="-1" X1="340" Y1="240" X2="340" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line24" 可见="-1" 可用="-1" X1="420" Y1="240" X2="420" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line25" 可见="-1" 可用="-1" X1="500" Y1="240" X2="500" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line26" 可见="-1" 可用="-1" X1="20" Y1="240" X2="100" Y2="270" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum1" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="270" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay1" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="270" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay1" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="270" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname2" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="298" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum2" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="298" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay2" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="298" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay2" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="298" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv2" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="301" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname3" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="326" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum3" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="326" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay3" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="326" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay3" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="326" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv3" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="329" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname4" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="354" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum4" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="354" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay4" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="354" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay4" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="354" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv4" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="357" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname5" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="382" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum5" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="382" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay5" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="382" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay5" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="382" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv5" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="385" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvname6" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="410" 宽度="120" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvnum6" 索引="0" 可见="-1" 可用="-1" 左="220" 顶="410" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvondelay6" 索引="0" 可见="-1" 可用="-1" 左="340" 顶="410" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvoffdelay6" 索引="0" 可见="-1" 可用="-1" 左="420" 顶="410" 宽度="80" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="cbvlv6" 索引="0" 可见="-1" 可用="-1" 左="529" 顶="413" 宽度="22" 高度="22" 选择="0" 关联变量="" 关联变量位="-1" 标题="3:|||0:|||default:" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="out" tag=".IO输出状态1"/>
+<event name="点击" act="output force 0"/>
+</element>
+<element type_name="line" type_id="256">
+<prop 名称="line27" 可见="-1" 可用="-1" X1="280" Y1="240" X2="280" Y2="438" 颜色="7895160" 线型="0" 粗细="1" cur_text="line3"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label78" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="240" 宽度="60" 高度="30" 语言表索引="0" 文本="0:状态|||1:Сост.|||2:상태|||3:State|||6:Estado|||7:Durum|||9:State|||10:Tr.thái|||default:State" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate1" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="270" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate2" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="298" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate3" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="326" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate4" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="354" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate5" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="382" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="lblvlvstate6" 索引="0" 可见="-1" 可用="-1" 左="280" 顶="410" 宽度="60" 高度="28" 语言表索引="0" 文本="3:|||0:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<horz order="0" ele_index="3" ele_name="btlast"/>
+<horz order="1" ele_index="5" ele_name="btnext"/>
+<vert order="0" ele_index="3" ele_name="btlast"/>
+<vert order="1" ele_index="5" ele_name="btnext"/>
+<tab order="0" ele_index="3" ele_name="btlast"/>
+<tab order="1" ele_index="5" ele_name="btnext"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="_input_range_labellabel"/>
+<id order="2" ele_index="2" ele_name="_input_range_label"/>
+<id order="3" ele_index="3" ele_name="btlast"/>
+<id order="4" ele_index="4" ele_name="lblcurtable"/>
+<id order="5" ele_index="5" ele_name="btnext"/>
+<id order="6" ele_index="6" ele_name="label4"/>
+<id order="7" ele_index="7" ele_name="label6"/>
+<id order="8" ele_index="8" ele_name="label7"/>
+<id order="9" ele_index="9" ele_name="label8"/>
+<id order="10" ele_index="10" ele_name="label9"/>
+<id order="11" ele_index="11" ele_name="label10"/>
+<id order="12" ele_index="12" ele_name="label11"/>
+<id order="13" ele_index="13" ele_name="label12"/>
+<id order="14" ele_index="14" ele_name="label13"/>
+<id order="15" ele_index="15" ele_name="label14"/>
+<id order="16" ele_index="16" ele_name="label15"/>
+<id order="17" ele_index="17" ele_name="label71"/>
+<id order="18" ele_index="18" ele_name="lblmonitoract"/>
+<id order="19" ele_index="19" ele_name="lblactinterval"/>
+<id order="20" ele_index="20" ele_name="lblvlvname1"/>
+<id order="21" ele_index="21" ele_name="lbloperatemode"/>
+<id order="22" ele_index="22" ele_name="lblcompareitemnum"/>
+<id order="23" ele_index="23" ele_name="lblcompareitem"/>
+<id order="24" ele_index="24" ele_name="cbvlv1"/>
+<id order="25" ele_index="25" ele_name="label72"/>
+<id order="26" ele_index="26" ele_name="label73"/>
+<id order="27" ele_index="27" ele_name="label74"/>
+<id order="28" ele_index="28" ele_name="label75"/>
+<id order="29" ele_index="29" ele_name="label76"/>
+<id order="30" ele_index="30" ele_name="label77"/>
+<id order="31" ele_index="31" ele_name="line1"/>
+<id order="32" ele_index="32" ele_name="line2"/>
+<id order="33" ele_index="33" ele_name="line9"/>
+<id order="34" ele_index="34" ele_name="line10"/>
+<id order="35" ele_index="35" ele_name="line11"/>
+<id order="36" ele_index="36" ele_name="line12"/>
+<id order="37" ele_index="37" ele_name="line13"/>
+<id order="38" ele_index="38" ele_name="line14"/>
+<id order="39" ele_index="39" ele_name="line15"/>
+<id order="40" ele_index="40" ele_name="line16"/>
+<id order="41" ele_index="41" ele_name="line17"/>
+<id order="42" ele_index="42" ele_name="line18"/>
+<id order="43" ele_index="43" ele_name="line19"/>
+<id order="44" ele_index="44" ele_name="line3"/>
+<id order="45" ele_index="45" ele_name="line4"/>
+<id order="46" ele_index="46" ele_name="line20"/>
+<id order="47" ele_index="47" ele_name="line21"/>
+<id order="48" ele_index="48" ele_name="line22"/>
+<id order="49" ele_index="49" ele_name="line23"/>
+<id order="50" ele_index="50" ele_name="line24"/>
+<id order="51" ele_index="51" ele_name="line25"/>
+<id order="52" ele_index="52" ele_name="line26"/>
+<id order="53" ele_index="53" ele_name="lblvlvnum1"/>
+<id order="54" ele_index="54" ele_name="lblvlvondelay1"/>
+<id order="55" ele_index="55" ele_name="lblvlvoffdelay1"/>
+<id order="56" ele_index="56" ele_name="lblvlvname2"/>
+<id order="57" ele_index="57" ele_name="lblvlvnum2"/>
+<id order="58" ele_index="58" ele_name="lblvlvondelay2"/>
+<id order="59" ele_index="59" ele_name="lblvlvoffdelay2"/>
+<id order="60" ele_index="60" ele_name="cbvlv2"/>
+<id order="61" ele_index="61" ele_name="lblvlvname3"/>
+<id order="62" ele_index="62" ele_name="lblvlvnum3"/>
+<id order="63" ele_index="63" ele_name="lblvlvondelay3"/>
+<id order="64" ele_index="64" ele_name="lblvlvoffdelay3"/>
+<id order="65" ele_index="65" ele_name="cbvlv3"/>
+<id order="66" ele_index="66" ele_name="lblvlvname4"/>
+<id order="67" ele_index="67" ele_name="lblvlvnum4"/>
+<id order="68" ele_index="68" ele_name="lblvlvondelay4"/>
+<id order="69" ele_index="69" ele_name="lblvlvoffdelay4"/>
+<id order="70" ele_index="70" ele_name="cbvlv4"/>
+<id order="71" ele_index="71" ele_name="lblvlvname5"/>
+<id order="72" ele_index="72" ele_name="lblvlvnum5"/>
+<id order="73" ele_index="73" ele_name="lblvlvondelay5"/>
+<id order="74" ele_index="74" ele_name="lblvlvoffdelay5"/>
+<id order="75" ele_index="75" ele_name="cbvlv5"/>
+<id order="76" ele_index="76" ele_name="lblvlvname6"/>
+<id order="77" ele_index="77" ele_name="lblvlvnum6"/>
+<id order="78" ele_index="78" ele_name="lblvlvondelay6"/>
+<id order="79" ele_index="79" ele_name="lblvlvoffdelay6"/>
+<id order="80" ele_index="80" ele_name="cbvlv6"/>
+<id order="81" ele_index="81" ele_name="line27"/>
+<id order="82" ele_index="82" ele_name="label78"/>
+<id order="83" ele_index="83" ele_name="lblvlvstate1"/>
+<id order="84" ele_index="84" ele_name="lblvlvstate2"/>
+<id order="85" ele_index="85" ele_name="lblvlvstate3"/>
+<id order="86" ele_index="86" ele_name="lblvlvstate4"/>
+<id order="87" ele_index="87" ele_name="lblvlvstate5"/>
+<id order="88" ele_index="88" ele_name="lblvlvstate6"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Данные|||2:데이터|||3:DATA|||4:|||5:|||6:Datos|||0:数据|||7:Veri|||8:|||9:Dados|||10:dữ liệu|||default:DATA" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDATA.png" 按下图片="btnDATAx.png" 聚焦图片="btPress.png" 快捷键="0" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиДета|||2:부품 표|||3:P.TBL|||4:|||5:|||6:Piezas|||0:部件表|||7:P.Tablo|||8:|||9:ListP.|||10:P.bàn|||default:P.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnP.TBL.png" 按下图片="btnP.TBLx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;生产自动警报&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:ТаблиKлап|||2:밸브|||3:V.TBL|||4:|||5:|||6:Válvula|||0:阀逻辑表|||7:V.Tablo|||8:|||9:ListL.|||10:V.bàn|||default:V.TBL" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnV.TBL.png" 按下图片="btnV.TBLx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;警报参数&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="jump key 4"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR5"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR5"/>
+<event name="点击" act="jump key 5"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:|||2:|||3:|||4:|||5:|||6:|||0:|||7:|||8:|||9:|||10:|||default:" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR6"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR6"/>
+<event name="点击" act="jump key 6"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 文本色="0" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="2" 常态图片="btnNull.png" 按下图片="btnNull.png" 聚焦图片="" 快捷键="7" 焦点底色="65535" 焦点文本色="65535" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="65535"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<var prop="按下图片" orient="in" tag="p.PP.MACH2.JKEY_PRESS_IMG7"/>
+<var prop="常态图片" orient="in" tag="p.PP.MACH2.JKEY_RELEASE_IMG7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>

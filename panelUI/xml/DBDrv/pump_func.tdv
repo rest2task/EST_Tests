@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapDrv name="pump_func">
+<config name="转换器类型" value="十六进制"/>
+<config name="转换源" value=""/>
+<group data_src="数据库.设备参数.IO_I0">
+<item type="0">
+<value>0</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10000</value>
+<string lang_id="0" lang="中文"/>
+<string lang_id="1" lang="俄文"/>
+<string lang_id="2" lang="韩文"/>
+<string lang_id="3" lang="英文"/>
+<string lang_id="4" lang="阿拉伯文"/>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语"/>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语"/>
+<string lang_id="10" lang="越南文"/>
+</item>
+<item type="0">
+<value>10101000</value>
+<string lang_id="0" lang="中文">射出</string>
+<string lang_id="1" lang="俄文">Впрыск</string>
+<string lang_id="2" lang="韩文">사출</string>
+<string lang_id="3" lang="英文">Inject</string>
+<string lang_id="4" lang="阿拉伯文">حقن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Inyección</string>
+<string lang_id="7" lang="土耳其语">Enjekte</string>
+<string lang_id="8" lang="波斯文">تزریق</string>
+<string lang_id="9" lang="葡萄牙语">Injectar</string>
+<string lang_id="10" lang="越南文">Bắn ra</string>
+</item>
+<item type="0">
+<value>10101001</value>
+<string lang_id="0" lang="中文">保压</string>
+<string lang_id="1" lang="俄文">Выд</string>
+<string lang_id="2" lang="韩文">보압</string>
+<string lang_id="3" lang="英文">Hold</string>
+<string lang_id="4" lang="阿拉伯文">عقد الضغط</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Manten</string>
+<string lang_id="7" lang="土耳其语">Tutma</string>
+<string lang_id="8" lang="波斯文">حفظ فشار</string>
+<string lang_id="9" lang="葡萄牙语">Hold</string>
+<string lang_id="10" lang="越南文">Giữ áp</string>
+</item>
+<item type="0">
+<value>10102000</value>
+<string lang_id="0" lang="中文">储料</string>
+<string lang_id="1" lang="俄文">Загруз</string>
+<string lang_id="2" lang="韩文">계량</string>
+<string lang_id="3" lang="英文">Charge</string>
+<string lang_id="4" lang="阿拉伯文">تخزين المواد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Carga</string>
+<string lang_id="7" lang="土耳其语">MAL ALM</string>
+<string lang_id="8" lang="波斯文">شارژتغذیه</string>
+<string lang_id="9" lang="葡萄牙语">Carregar</string>
+<string lang_id="10" lang="越南文">Trữ liệu</string>
+</item>
+<item type="0">
+<value>10103000</value>
+<string lang_id="0" lang="中文">射退</string>
+<string lang_id="1" lang="俄文">Cосать назад</string>
+<string lang_id="2" lang="韩文">강제후퇴</string>
+<string lang_id="3" lang="英文">SuckBack</string>
+<string lang_id="4" lang="阿拉伯文">اطلاق</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Succión</string>
+<string lang_id="7" lang="土耳其语">Geri Emme</string>
+<string lang_id="8" lang="波斯文">مکیدن</string>
+<string lang_id="9" lang="葡萄牙语">Suck Voltar</string>
+<string lang_id="10" lang="越南文">Bắn thoát</string>
+</item>
+<item type="0">
+<value>10104000</value>
+<string lang_id="0" lang="中文">调模射出</string>
+<string lang_id="1" lang="俄文">Рег.Впрск</string>
+<string lang_id="2" lang="韩文">형조정 사출</string>
+<string lang_id="3" lang="英文">Adj Inject</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب حقن</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Inyect</string>
+<string lang_id="7" lang="土耳其语">Ayar Enj</string>
+<string lang_id="8" lang="波斯文">تنظیم تزریق</string>
+<string lang_id="9" lang="葡萄牙语">Adj Inject</string>
+<string lang_id="10" lang="越南文">Chỉnh k.bắn</string>
+</item>
+<item type="0">
+<value>10106000</value>
+<string lang_id="0" lang="中文">调模储料</string>
+<string lang_id="1" lang="俄文">Регулир.Загрузка</string>
+<string lang_id="2" lang="韩文">금형조정 계량</string>
+<string lang_id="3" lang="英文">AdjMold Charge</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب تخزين المواد</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Mold Carga</string>
+<string lang_id="7" lang="土耳其语">Ayar Mal Al</string>
+<string lang_id="8" lang="波斯文">تنظیم شارژتغذیه</string>
+<string lang_id="9" lang="葡萄牙语">Diều chỉnh k.trữ L.</string>
+<string lang_id="10" lang="越南文">Diều chỉnh k.trữ L.</string>
+</item>
+<item type="0">
+<value>10109000</value>
+<string lang_id="0" lang="中文">调模射退</string>
+<string lang_id="1" lang="俄文">Регулир.Cосать назад</string>
+<string lang_id="2" lang="韩文">조정강후</string>
+<string lang_id="3" lang="英文">AdjMold Suckback</string>
+<string lang_id="4" lang="阿拉伯文">طلاق تعديل القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Mold Succión</string>
+<string lang_id="7" lang="土耳其语">Ayar Geri Emme</string>
+<string lang_id="8" lang="波斯文">برگشت تزریق تنظیم</string>
+<string lang_id="9" lang="葡萄牙语">Ajustar Suck Voltar</string>
+<string lang_id="10" lang="越南文">Diều chỉnh k.bắn thoát</string>
+</item>
+<item type="0">
+<value>1010a000</value>
+<string lang_id="0" lang="中文">储前射退</string>
+<string lang_id="1" lang="俄文">Заде.передЗагру.</string>
+<string lang_id="2" lang="韩文">계량 전 강제후퇴</string>
+<string lang_id="3" lang="英文">SuckBk BefChg</string>
+<string lang_id="4" lang="阿拉伯文">إطلاق قبل التخزين</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Succión AnteCarga</string>
+<string lang_id="7" lang="土耳其语">Malalm Önce GeriEm</string>
+<string lang_id="8" lang="波斯文">مکیدن پیش از شارژ</string>
+<string lang_id="9" lang="葡萄牙语">Suck Voltar Antes Carregar</string>
+<string lang_id="10" lang="越南文">Bắn thoát trước trữ</string>
+</item>
+<item type="0">
+<value>11101000</value>
+<string lang_id="0" lang="中文">座进</string>
+<string lang_id="1" lang="俄文">ПодводСопла</string>
+<string lang_id="2" lang="韩文">노즐 전진</string>
+<string lang_id="3" lang="英文">Noz Adv</string>
+<string lang_id="4" lang="阿拉伯文">قاعدة الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Boquil Avan</string>
+<string lang_id="7" lang="土耳其语">Grup İleri</string>
+<string lang_id="8" lang="波斯文">بینی پیشرفت</string>
+<string lang_id="9" lang="葡萄牙语">Bico Entrar</string>
+<string lang_id="10" lang="越南文">Bệ vào </string>
+</item>
+<item type="0">
+<value>11102000</value>
+<string lang_id="0" lang="中文">座退</string>
+<string lang_id="1" lang="俄文">ОтводСопла</string>
+<string lang_id="2" lang="韩文">노즐 후퇴</string>
+<string lang_id="3" lang="英文">Noz Ret</string>
+<string lang_id="4" lang="阿拉伯文">قاعدة تراجع</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Boquil Ret</string>
+<string lang_id="7" lang="土耳其语">Grup Geri</string>
+<string lang_id="8" lang="波斯文">بینی برگشت</string>
+<string lang_id="9" lang="葡萄牙语">Bico Retiro</string>
+<string lang_id="10" lang="越南文">Bệ Thoát</string>
+</item>
+<item type="0">
+<value>11103000</value>
+<string lang_id="0" lang="中文">调模座进</string>
+<string lang_id="1" lang="俄文">ателя 2</string>
+<string lang_id="2" lang="韩文">모터 START 기동 2</string>
+<string lang_id="3" lang="英文">MtrStRun21</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot2</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam2</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور2</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun2</string>
+<string lang_id="10" lang="越南文">Mô tơ 2 KĐ HT</string>
+</item>
+<item type="0">
+<value>11104000</value>
+<string lang_id="0" lang="中文">调模座退</string>
+<string lang_id="1" lang="俄文">ателя 3</string>
+<string lang_id="2" lang="韩文">모터 START 기동 3</string>
+<string lang_id="3" lang="英文">MtrStRun31</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot3</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam3</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور3</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun3</string>
+<string lang_id="10" lang="越南文">Mô tơ 3 KĐ HT</string>
+</item>
+<item type="0">
+<value>11108000</value>
+<string lang_id="0" lang="中文">电储料座进</string>
+<string lang_id="1" lang="俄文">теля 4</string>
+<string lang_id="2" lang="韩文">모터 START 기동 4</string>
+<string lang_id="3" lang="英文">MtrStRun41</string>
+<string lang_id="4" lang="阿拉伯文">الانتهاء من بدء تشغيل المحرك </string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">ArranComp Mot4</string>
+<string lang_id="7" lang="土耳其语">Mtr. Başlat Tam4</string>
+<string lang_id="8" lang="波斯文">پایان استارت موتور4</string>
+<string lang_id="9" lang="葡萄牙语">MtrStRun4</string>
+<string lang_id="10" lang="越南文">Mô tơ 4 KĐ HT</string>
+</item>
+<item type="0">
+<value>20101000</value>
+<string lang_id="0" lang="中文">关模</string>
+<string lang_id="1" lang="俄文">MOLDзак</string>
+<string lang_id="2" lang="韩文">형폐</string>
+<string lang_id="3" lang="英文">Mold Cls</string>
+<string lang_id="4" lang="阿拉伯文">إغلاق قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Molde Cierre</string>
+<string lang_id="7" lang="土耳其语">Kapat Kalıp</string>
+<string lang_id="8" lang="波斯文">بستن قالب</string>
+<string lang_id="9" lang="葡萄牙语">Desl</string>
+<string lang_id="10" lang="越南文">Đóng khuôn</string>
+</item>
+<item type="0">
+<value>20102000</value>
+<string lang_id="0" lang="中文">压模</string>
+<string lang_id="1" lang="俄文">ДопДавлЗакрытия</string>
+<string lang_id="2" lang="韩文">형폐 가압</string>
+<string lang_id="3" lang="英文">Compress Mold</string>
+<string lang_id="4" lang="阿拉伯文">تعبئة القالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AltaPrs Cierre</string>
+<string lang_id="7" lang="土耳其语">Koruma</string>
+<string lang_id="8" lang="波斯文">فشردن قالب</string>
+<string lang_id="9" lang="葡萄牙语">ClsAddPres</string>
+<string lang_id="10" lang="越南文">Ép khuôn</string>
+</item>
+<item type="0">
+<value>20103000</value>
+<string lang_id="0" lang="中文">开模</string>
+<string lang_id="1" lang="俄文">Откртие</string>
+<string lang_id="2" lang="韩文">형개</string>
+<string lang_id="3" lang="英文">Open</string>
+<string lang_id="4" lang="阿拉伯文">فتح قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Abrir</string>
+<string lang_id="7" lang="土耳其语">Açma</string>
+<string lang_id="8" lang="波斯文">بازکردن قالب</string>
+<string lang_id="9" lang="葡萄牙语">Abrir</string>
+<string lang_id="10" lang="越南文">Mở k.</string>
+</item>
+<item type="0">
+<value>20104000</value>
+<string lang_id="0" lang="中文">调模关模</string>
+<string lang_id="1" lang="俄文">Рег.Закр.</string>
+<string lang_id="2" lang="韩文">조정 형폐</string>
+<string lang_id="3" lang="英文">Adj Close</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب إغلاق قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Cierre</string>
+<string lang_id="7" lang="土耳其语">Ayar Kapat</string>
+<string lang_id="8" lang="波斯文">تنظیم بستن</string>
+<string lang_id="9" lang="葡萄牙语">Adj Fechar</string>
+<string lang_id="10" lang="越南文">Chỉnh k.đóng k</string>
+</item>
+<item type="0">
+<value>20108000</value>
+<string lang_id="0" lang="中文">调模开模</string>
+<string lang_id="1" lang="俄文">Рег.Откр.</string>
+<string lang_id="2" lang="韩文">형조정 형개</string>
+<string lang_id="3" lang="英文">Adj Open</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب فتح قالب</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Ajuste Abrir</string>
+<string lang_id="7" lang="土耳其语">Ayar Açma</string>
+<string lang_id="8" lang="波斯文">تنظیم بازکردن</string>
+<string lang_id="9" lang="葡萄牙语">Adj Abrir</string>
+<string lang_id="10" lang="越南文">Chỉnh k.MK</string>
+</item>
+<item type="0">
+<value>21102000</value>
+<string lang_id="0" lang="中文">托模进</string>
+<string lang_id="1" lang="俄文">Продв.впередвытал.</string>
+<string lang_id="2" lang="韩文">에젝터 전진</string>
+<string lang_id="3" lang="英文">Eject Adv</string>
+<string lang_id="4" lang="阿拉伯文">طرد الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul Avan</string>
+<string lang_id="7" lang="土耳其语">İtici İleri</string>
+<string lang_id="8" lang="波斯文">پیشرفت EJ</string>
+<string lang_id="9" lang="葡萄牙语">Eject Entrar</string>
+<string lang_id="10" lang="越南文">Đỡ khuôn vào</string>
+</item>
+<item type="0">
+<value>21103000</value>
+<string lang_id="0" lang="中文">托模退</string>
+<string lang_id="1" lang="俄文">ОтведениеСбрасыв.</string>
+<string lang_id="2" lang="韩文">에젝터 후진</string>
+<string lang_id="3" lang="英文">Eject Ret</string>
+<string lang_id="4" lang="阿拉伯文">طرد الي الخلف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul Ret</string>
+<string lang_id="7" lang="土耳其语">İtici Çekis</string>
+<string lang_id="8" lang="波斯文">برگشت EJ</string>
+<string lang_id="9" lang="葡萄牙语">Eject Retiro</string>
+<string lang_id="10" lang="越南文">Đỡ khuôn rút</string>
+</item>
+<item type="0">
+<value>21104000</value>
+<string lang_id="0" lang="中文">调模托模进</string>
+<string lang_id="1" lang="俄文">Регулир.ПодвВыталк</string>
+<string lang_id="2" lang="韩文">조정 에젝터 전진</string>
+<string lang_id="3" lang="英文">AdjMold Eject Adv</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب طرد الي الأمام</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul Avan en Ajuste</string>
+<string lang_id="7" lang="土耳其语">Ayar İtici İleri</string>
+<string lang_id="8" lang="波斯文">تنظیم پیشرفت EJ</string>
+<string lang_id="9" lang="葡萄牙语">Ajuste Eject Entrar</string>
+<string lang_id="10" lang="越南文">Diều chỉnh k.Đỡ k.vào</string>
+</item>
+<item type="0">
+<value>21105000</value>
+<string lang_id="0" lang="中文">调模托模退</string>
+<string lang_id="1" lang="俄文">Регулир.ОтвВыталк</string>
+<string lang_id="2" lang="韩文">조정 에젝터 후퇴</string>
+<string lang_id="3" lang="英文">AdjMold Eject Ret</string>
+<string lang_id="4" lang="阿拉伯文">تعديل القالب طرد الي الخلف</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Expul Ret en Ajuste</string>
+<string lang_id="7" lang="土耳其语">Ayar İtici Çeki</string>
+<string lang_id="8" lang="波斯文">تنظیم برگشت EJ</string>
+<string lang_id="9" lang="葡萄牙语">Ajuste Eject Retiro</string>
+<string lang_id="10" lang="越南文">Diều chỉnh k.Đỡ k.rú</string>
+</item>
+<item type="0">
+<value>22001000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22002000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22003000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22004000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22101000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22102000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22103000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22104000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22201000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22202000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22203000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22204000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22301000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22302000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22303000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22304000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22401000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22402000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22403000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22404000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22501000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22502000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22503000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22504000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+<item type="0">
+<value>22601000</value>
+<string lang_id="0" lang="中文">中子进</string>
+<string lang_id="1" lang="俄文">Сроч.остан.внешний</string>
+<string lang_id="2" lang="韩文">외부 비상정지</string>
+<string lang_id="3" lang="英文">External Emergy Stop1</string>
+<string lang_id="4" lang="阿拉伯文">dış Acil Dur</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Emergencia Parada</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Parada Emergência</string>
+<string lang_id="10" lang="越南文">ngoài Dừng khẩn</string>
+</item>
+<item type="0">
+<value>22602000</value>
+<string lang_id="0" lang="中文">中子退</string>
+<string lang_id="1" lang="俄文">работать внешний</string>
+<string lang_id="2" lang="韩文">외부 실행</string>
+<string lang_id="3" lang="英文">External Run Key1</string>
+<string lang_id="4" lang="阿拉伯文">dış Çalıştırmak</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">Externa Boton Arranque</string>
+<string lang_id="7" lang="土耳其语"/>
+<string lang_id="8" lang="波斯文"/>
+<string lang_id="9" lang="葡萄牙语">Externa Executar Chave</string>
+<string lang_id="10" lang="越南文">ngoài chạy</string>
+</item>
+<item type="0">
+<value>22603000</value>
+<string lang_id="0" lang="中文">调模中子进</string>
+<string lang_id="1" lang="俄文">Пров Фильтр</string>
+<string lang_id="2" lang="韩文">작동유 필터이상</string>
+<string lang_id="3" lang="英文">FiltBlkChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن شاشة الزيت</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">VerifFiltroDetect</string>
+<string lang_id="7" lang="土耳其语">Yağ Süzgeci testi</string>
+<string lang_id="8" lang="波斯文">بزرسی تور فلتر</string>
+<string lang_id="9" lang="葡萄牙语">FiltBlkChkR</string>
+<string lang_id="10" lang="越南文">Kiểm tra nắm bắt lưới lọc dầu</string>
+</item>
+<item type="0">
+<value>22604000</value>
+<string lang_id="0" lang="中文">调模中子退</string>
+<string lang_id="1" lang="俄文">УровеньГидрМасла</string>
+<string lang_id="2" lang="韩文">작동유 저하</string>
+<string lang_id="3" lang="英文">HydOilLvlChk1</string>
+<string lang_id="4" lang="阿拉伯文">الكشف عن مستوى الزيت الهيدروليكي</string>
+<string lang_id="5" lang="法语"/>
+<string lang_id="6" lang="西班牙语">AceiteNivel Detect</string>
+<string lang_id="7" lang="土耳其语">Hidro Yağ SeviyeTeftiş</string>
+<string lang_id="8" lang="波斯文">بازرسی سطح روغن هیدرولیک</string>
+<string lang_id="9" lang="葡萄牙语">HydOilLvlChk</string>
+<string lang_id="10" lang="越南文">KT mức dầu t.lực</string>
+</item>
+</group>
+</MapDrv>

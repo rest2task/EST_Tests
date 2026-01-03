@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element type_name="window" type_id="4096">
+<prop 名称="Servo5_Curve" 可见="-1" 标题="0:伺服曲线|||1:Cерво График|||2:서보 곡선|||3:Servo Curve|||4:منحنى المؤازرة|||5:Servo Curve|||6:Servo Curva|||7:SERVO EĞRİSİ|||8:منحنی سروو|||9:Curva de servo|||10:Đường cong servo|||default:伺服曲线" 左="0" 顶="128" 宽度="600" 高度="618" 权限="0" 背景色="12691000" 背景图="back.png" 透明度="255" 边框色="0" 边框宽度="0" bk_fill_mode="-1" bk_fill_color="16249802"/>
+<event name="绘图" act=""/>
+<event name="初始化" act="servocurve pageIn"/>
+<event name="定时器" act="servocurve update"/>
+<event name="关闭" act="servocurve pageOut"/>
+<element type_name="label" type_id="18">
+<prop 名称="label1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="5" 宽度="590" 高度="608" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15723752" 边框粗细="0" 边框颜色="0" 圆角="5" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label56" 索引="0" 可见="-1" 可用="-1" 左="40" 顶="20" 宽度="60" 高度="28" 语言表索引="0" 文本="0:驱动|||1:серво|||2:서보|||3:Servo|||4:مؤازرة|||5:Servo|||6:Servo|||7:Servo|||8:سروو|||9:Servo|||10:Servo|||default:Drive" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="dropdown" type_id="21">
+<prop 名称="dropdown2" 索引="0" 可见="-1" 可用="-1" 左="100" 顶="20" 宽度="40" 高度="28" 数据="0:1;2;3;4;5;6;7|||1:1;2;3;4;5;6;7|||2:1;2;3;4;5;6;7|||3:1;2;3;4;5;6;7|||4:1;2;3;4;5;6;7|||5:1;2;3;4;5;6;7|||6:1;2;3;4;5;6;7|||7:1;2;3;4;5;6;7|||8:1;2;3;4;5;6;7|||9:1;2;3;4;5;6;7|||10:1;2;3;4;5;6;7|||default:1" 字体="宋体" 字号="16" 透明度="255" 背景色="16777215" 文本色="0" 是否变灰="0" 聚焦颜色="65535" 焦点文本色="16777215" 聚焦时选项背景色="-1" 聚焦时选项字体色="-1" 边框色="12632256" 边框宽度="1" 可编辑="0" 关联变量="" 值列表="" 值关联变量="p.PP.TMP.TMPVAL400" 当前值="0" cur_text="1" cbox_line_color2="0" cbox_fill_color2="15790320"/>
+<var prop="值" orient="in" tag="p.PP.TMP.TMPVAL400"/>
+<var prop="值" orient="out" tag="p.PP.TMP.TMPVAL400"/>
+<var prop="可用" orient="in" tag="p.PP.SERVO.SERVO_CURVE"/>
+<event name="选择改变" act="servocurve servoID"/>
+</element>
+<element type_name="button" type_id="16">
+<prop 名称="button10" 索引="0" 可见="-1" 可用="-1" 左="182" 顶="20" 宽度="83" 高度="28" 标题="0:开始|||1:Пуск|||2:시작|||3:Start|||4:تشغيل|||5:Start|||6:Iniciar|||7:Başlat|||8:استارت|||9:Iniciar|||10:Khởi động|||default:开始" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="" 按下图片="" 聚焦图片="" 快捷键="0" 焦点底色="55265" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="55265" button_txt_focus_color="0"/>
+<event name="点击" act="servocurve start Servo_Curve graph1"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit181" 索引="0" 可见="-1" 可用="-1" 左="12" 顶="96" 宽度="68" 高度="22" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="49407" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0" 关联变量="d.hydr1.STATE.DA_OUTPUT0" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.STATE.DA_OUTPUT0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check1" 索引="0" 可见="-1" 可用="-1" 左="12" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL1" 关联变量位="-1" 标题="0:设定压力|||1:Hед напр|||2:설정압력|||3:Prs Set|||4:|||5:|||6:|||7:Ayar Basın|||8:|||9:|||10:|||default:Prs Set" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL1"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit182" 索引="0" 可见="-1" 可用="-1" 左="108" 顶="96" 宽度="68" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="0" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0.0" 关联变量="d.hydr1.STATE.DA_OUTPUT1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="0" 最小值="0" 最大值="0" 默认单位="0" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.hydr1.STATE.DA_OUTPUT1"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check2" 索引="0" 可见="-1" 可用="-1" 左="108" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL2" 关联变量位="-1" 标题="0:设定速度|||1:НастрСкор|||2:설정속도|||3:Spd Set|||4:|||5:|||6:|||7:Ayar Hız|||8:|||9:|||10:|||default:Spd Set" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL2"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check3" 索引="0" 可见="-1" 可用="-1" 左="204" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL3" 关联变量位="-1" 标题="0:实际压力|||1:Факт.давл|||2:실제압력|||3:Real Prs |||4:|||5:|||6:|||7:Gerçek Basın |||8:|||9:|||10:|||default:Real Prs " 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL3"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit184" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="96" 宽度="68" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="13461042" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0.0" 关联变量="p.PP.TMP.TMPVAL10" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL10"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL10"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check4" 索引="0" 可见="-1" 可用="-1" 左="300" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL4" 关联变量位="-1" 标题="0:输出电流|||1:Текущий|||2:현재위치|||3:Current|||4:|||5:|||6:|||7:Geçerli|||8:|||9:|||10:|||default:Current" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit185" 索引="0" 可见="-1" 可用="-1" 左="396" 顶="96" 宽度="68" 高度="22" 文本="0" 字体="宋体" 字号="16" 透明度="255" 背景色="255" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0" 关联变量="p.PP.TMP.TMPVAL12" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="0" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL12"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPSTR0"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check5" 索引="0" 可见="-1" 可用="-1" 左="396" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL5" 关联变量位="-1" 标题="0:电机转速|||1:ПодачаСкор|||2:모터속도|||3:Motr Spd|||4:|||5:|||6:|||7:SERVO HIZI|||8:|||9:|||10:|||default:Motr Spd" 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="0" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit186" 索引="0" 可见="-1" 可用="-1" 左="492" 顶="96" 宽度="68" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="9961879" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0.0" 关联变量="p.PP.TMP.TMPVAL11" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="文本" orient="out" tag="p.PP.TMP.TMPVAL11"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SERVO_3_ENABLE"/>
+</element>
+<element type_name="checkbox" type_id="23">
+<prop 名称="check6" 索引="0" 可见="-1" 可用="-1" 左="492" 顶="72" 宽度="96" 高度="20" 选择="0" 关联变量="p.PP.TMP.TMPVAL6" 关联变量位="-1" 标题="0:母线电压|||1:напряжшин|||2:버스라인|||3:B-voltage |||4:|||5:|||6:|||7:Büs Gerilim|||8:|||9:|||10:|||default:B-voltage " 背景色="16777215" 焦点底色="55265" 焦点文本色="0" 对齐="0" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="16" 透明度="255" 禁止未选图="check-off.png" 使能未选图="check-off.png" 禁止选择图="check-on.png" 使能选择图="check-on.png"/>
+<var prop="选择" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+<var prop="选择" orient="out" tag="p.PP.TMP.TMPVAL6"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SERVO_3_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label105" 索引="0" 可见="-1" 可用="-1" 左="85" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:L|||1:L|||2:L|||3:L|||4:L|||5:L|||6:L|||7:L|||8:L|||9:L|||10:L|||default:L" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label106" 索引="0" 可见="-1" 可用="-1" 左="181" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:L|||1:L|||2:L|||3:L|||4:L|||5:L|||6:L|||7:L|||8:L|||9:L|||10:L|||default:L" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label107" 索引="0" 可见="-1" 可用="-1" 左="277" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:L|||1:L|||2:L|||3:L|||4:L|||5:L|||6:L|||7:L|||8:L|||9:L|||10:L|||default:L" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label108" 索引="0" 可见="-1" 可用="-1" 左="373" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:L|||1:L|||2:L|||3:L|||4:L|||5:L|||6:L|||7:L|||8:L|||9:L|||10:L|||default:L" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label109" 索引="0" 可见="-1" 可用="-1" 左="469" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:R0|||1:R0|||2:R0|||3:R0|||4:R0|||5:R0|||6:R0|||7:R0|||8:R0|||9:R0|||10:R0|||default:R0" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label110" 索引="0" 可见="-1" 可用="-1" 左="565" 顶="96" 宽度="20" 高度="22" 语言表索引="0" 文本="0:R1|||1:R1|||2:R1|||3:R1|||4:R1|||5:R1|||6:R1|||7:R1|||8:R1|||9:R1|||10:R1|||default:R1" 横向对齐="0" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SERVO_3_ENABLE"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label104" 索引="0" 可见="-1" 可用="-1" 左="8" 顶="130" 宽度="40" 高度="20" 语言表索引="0" 文本="0:L|||1:L|||2:L|||3:L|||4:L|||5:L|||6:L|||7:L|||8:L|||9:L|||10:L|||default:L" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label91" 索引="0" 可见="-1" 可用="-1" 左="515" 顶="130" 宽度="40" 高度="20" 语言表索引="0" 文本="0:R0|||1:R0|||2:R0|||3:R0|||4:R0|||5:R0|||6:R0|||7:R0|||8:R0|||9:R0|||10:R0|||default:R0" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="0" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="label103" 索引="0" 可见="-1" 可用="-1" 左="555" 顶="130" 宽度="40" 高度="20" 语言表索引="0" 文本="0:R1|||1:R1|||2:R1|||3:R1|||4:R1|||5:R1|||6:R1|||7:R1|||8:R1|||9:R1|||10:R1|||default:R1" 横向对齐="1" 纵向对齐="1" 文本色="0" 是否变灰="-1" 字体="宋体" 字号="12" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SERVO_3_ENABLE"/>
+</element>
+<element type_name="edit" type_id="17">
+<prop 名称="edit188" 索引="0" 可见="-1" 可用="-1" 左="204" 顶="96" 宽度="68" 高度="22" 文本="0.0" 字体="宋体" 字号="16" 透明度="255" 背景色="5275648" 禁用背景色="10789024" 边框色="7895160" 边框宽度="1" 对齐="2" 文本色="16777215" 是否变灰="-1" 禁用文本色="0" 描述="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:0.0" 关联变量="d.servo1.STATE.SERVO_PRESS_1" 延迟更新="0" 只读="-1" 密码模式="0" 输入模式="0" 显示模式="0" 最大字符数="0" 使用数据库="-1" 最小值="0" 最大值="0" 默认单位="-1" 小数位="1" 单位="0" 圆角矩形="2" bk_fill_mode="-1" bk_fill_color="15790320" edit_auto_scale="1" edit_line_color2="2" edit_disable_backcolor="10789024"/>
+<var prop="文本" orient="in" tag="d.servo1.STATE.SERVO_PRESS_1"/>
+</element>
+<element type_name="graph" type_id="5376">
+<prop 名称="graph1" 可见="-1" 可用="-1" 左="5" 顶="149" 宽度="590" 高度="410" 背景色="12632256" 网格显示="-1" 网格偏移="0" 水平间距="57" 垂直间距="37" 网格颜色="7895160" 网格线形="2" 固定X轴="-1" 边框颜色="15780518" 左边框="40" 右边框="70" 上边框="20" 下边框="20" 触发ID="0" 采集周期="0" 总采集时间="0" 曲线模式="1" 游标线宽="2" 游标颜色="255" 游标是否显示="0"/>
+<element type_name="curve" type_id="5378">
+<prop 名称="vol" 曲线颜色="16711935" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY2" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL6"/>
+</element>
+<element type_name="curve" type_id="5378">
+<prop 名称="spdSet" 曲线颜色="0" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY1" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL2"/>
+</element>
+<element type_name="curve" type_id="5378">
+<prop 名称="prsReal" 曲线颜色="32768" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY1" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL3"/>
+</element>
+<element type_name="curve" type_id="5378">
+<prop 名称="prsSet" 曲线颜色="65535" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY1" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL1"/>
+</element>
+<element type_name="curve" type_id="5378">
+<prop 名称="motorSpd" 曲线颜色="255" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY3" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL5"/>
+</element>
+<element type_name="curve" type_id="5378">
+<prop 名称="current" 曲线颜色="13461042" 点大小="1" 线样式="0" 显示模式="1" 最大点数="2000" X轴刻度="scaleX" Y轴刻度="scaleY2" X轴数据源="0" Y轴数据源="" 是否记录="0" 记录数="0" X倍数="1" Y倍数="1"/>
+<var prop="显示模式" orient="in" tag="p.PP.TMP.TMPVAL4"/>
+</element>
+<element type_name="axis" type_id="5377">
+<prop 名称="scaleY3" 可见="-1" 文本色="0" 字号="12" 水平_垂直="1" 位置="520" 起始点="0" 范围="2500" 刻度段数="10" 小数位="0"/>
+</element>
+<element type_name="axis" type_id="5377">
+<prop 名称="scaleY1" 可见="-1" 文本色="0" 字号="12" 水平_垂直="1" 位置="5" 起始点="0" 范围="200" 刻度段数="10" 小数位="0"/>
+</element>
+<element type_name="axis" type_id="5377">
+<prop 名称="scaleY2" 可见="-1" 文本色="17151" 字号="12" 水平_垂直="1" 位置="560" 起始点="0" 范围="800" 刻度段数="10" 小数位="0"/>
+<var prop="可见" orient="in" tag="p.PP.OBJ.SERVO_3_ENABLE"/>
+</element>
+<element type_name="axis" type_id="5377">
+<prop 名称="scaleX" 可见="0" 文本色="0" 字号="12" 水平_垂直="0" 位置="390" 起始点="0" 范围="570" 刻度段数="10" 小数位="0"/>
+</element>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_labellabel" 索引="0" 可见="-1" 可用="-1" 左="10" 顶="592" 宽度="106" 高度="18" 语言表索引="0" 文本="0:输入值范围：|||1:КолЗнаков:|||2:입력범위|||3:Input Range:|||4:مجموعة قيم الإدخال:|||5:Input Range:|||6:Alcance:|||7:Girdi Alanı:|||8:محدوده ارزش وارد شده:|||9:Variavalinser:|||10:Phạm vi:|||default:输入值范围：" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="label" type_id="18">
+<prop 名称="_input_range_label" 索引="0" 可见="-1" 可用="-1" 左="117" 顶="592" 宽度="150" 高度="18" 语言表索引="0" 文本="0:|||1:|||2:|||3:|||4:|||5:|||6:|||7:|||8:|||9:|||10:|||default:" 横向对齐="0" 纵向对齐="1" 文本色="16711680" 是否变灰="0" 字体="宋体" 字号="14" 透明度="255" 背景色="-1" 边框粗细="0" 边框颜色="0" 圆角="0" 显示方式="0" 格式="" 转换表名称="" 自动换行="0"/>
+</element>
+<element type_name="locator" type_id="6">
+<prop 名称="locator1" 锁住="0" 左="515" 顶="130" 列数="2" 行数="1" 横向间距="0" 纵向间距="0" 横向偏移="0" 对齐方式="2"/>
+</element>
+<horz order="0" ele_index="2" ele_name="dropdown2"/>
+<horz order="1" ele_index="3" ele_name="button10"/>
+<horz order="2" ele_index="5" ele_name="check1"/>
+<horz order="3" ele_index="7" ele_name="check2"/>
+<horz order="4" ele_index="8" ele_name="check3"/>
+<horz order="5" ele_index="10" ele_name="check4"/>
+<horz order="6" ele_index="12" ele_name="check5"/>
+<horz order="7" ele_index="14" ele_name="check6"/>
+<vert order="0" ele_index="2" ele_name="dropdown2"/>
+<vert order="1" ele_index="3" ele_name="button10"/>
+<vert order="2" ele_index="5" ele_name="check1"/>
+<vert order="3" ele_index="7" ele_name="check2"/>
+<vert order="4" ele_index="8" ele_name="check3"/>
+<vert order="5" ele_index="10" ele_name="check4"/>
+<vert order="6" ele_index="12" ele_name="check5"/>
+<vert order="7" ele_index="14" ele_name="check6"/>
+<tab order="0" ele_index="2" ele_name="dropdown2"/>
+<tab order="1" ele_index="3" ele_name="button10"/>
+<tab order="2" ele_index="5" ele_name="check1"/>
+<tab order="3" ele_index="7" ele_name="check2"/>
+<tab order="4" ele_index="8" ele_name="check3"/>
+<tab order="5" ele_index="10" ele_name="check4"/>
+<tab order="6" ele_index="12" ele_name="check5"/>
+<tab order="7" ele_index="14" ele_name="check6"/>
+<id order="0" ele_index="0" ele_name="label1"/>
+<id order="1" ele_index="1" ele_name="label56"/>
+<id order="2" ele_index="2" ele_name="dropdown2"/>
+<id order="3" ele_index="3" ele_name="button10"/>
+<id order="4" ele_index="4" ele_name="edit181"/>
+<id order="5" ele_index="5" ele_name="check1"/>
+<id order="6" ele_index="6" ele_name="edit182"/>
+<id order="7" ele_index="7" ele_name="check2"/>
+<id order="8" ele_index="8" ele_name="check3"/>
+<id order="9" ele_index="9" ele_name="edit184"/>
+<id order="10" ele_index="10" ele_name="check4"/>
+<id order="11" ele_index="11" ele_name="edit185"/>
+<id order="12" ele_index="12" ele_name="check5"/>
+<id order="13" ele_index="13" ele_name="edit186"/>
+<id order="14" ele_index="14" ele_name="check6"/>
+<id order="15" ele_index="15" ele_name="label105"/>
+<id order="16" ele_index="16" ele_name="label106"/>
+<id order="17" ele_index="17" ele_name="label107"/>
+<id order="18" ele_index="18" ele_name="label108"/>
+<id order="19" ele_index="19" ele_name="label109"/>
+<id order="20" ele_index="20" ele_name="label110"/>
+<id order="21" ele_index="21" ele_name="label104"/>
+<id order="22" ele_index="22" ele_name="label91"/>
+<id order="23" ele_index="23" ele_name="label103"/>
+<id order="24" ele_index="24" ele_name="edit188"/>
+<id order="25" ele_index="25" ele_name="graph1"/>
+<id order="26" ele_index="26" ele_name="_input_range_labellabel"/>
+<id order="27" ele_index="27" ele_name="_input_range_label"/>
+<id order="28" ele_index="28" ele_name="locator1"/>
+<jmp_list desc="">
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button1" 索引="0" 可见="-1" 可用="-1" 左="5" 顶="746" 宽度="78" 高度="54" 标题="1:Сост.|||2:상태|||3:STAT|||4:حالة|||5:STAT|||6:Estado|||0:状态|||7:DURUM|||8:حالت|||9:Estado|||10:Tr.thái|||default:STAT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnSTAT.png" 按下图片="btnSTATx.png" 聚焦图片="btRelease.png" 快捷键="112" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服状态&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button2" 索引="0" 可见="-1" 可用="-1" 左="91" 顶="746" 宽度="78" 高度="54" 标题="1:ЯCnt|||2:자기학습|||3:LRN|||4:التعلم الذاتي|||5:LRN|||6:Learn|||0:自学习|||7:ÖĞRENİN|||8:خودآموزی|||9:Auto-apre|||10:Tự học tập|||default:LRN" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnLRN.png" 按下图片="btnLRNx.png" 聚焦图片="btRelease.png" 快捷键="113" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服配置&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button3" 索引="0" 可见="-1" 可用="-1" 左="176" 顶="746" 宽度="78" 高度="54" 标题="1:отлад|||2:디버그|||3:DBG|||4:تكييف  |||5:DBG|||6:Dbg|||0:调试|||7:AYAR|||8:تنظیم|||9:Depu|||10:Gỡ lỗi|||default:DBG" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnDBG.png" 按下图片="btnDBGx.png" 聚焦图片="btRelease.png" 快捷键="114" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;Servo_Test5&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button4" 索引="0" 可见="-1" 可用="-1" 左="261" 顶="746" 宽度="78" 高度="54" 标题="1:Действие|||2:동작|||3:ACT|||4:التصرف|||5:ACT|||6:Acción|||0:动作|||7:AKSİYON|||8:عمل|||9:Ação|||10:Động|||default:ACT" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnACT.png" 按下图片="btnACTx.png" 聚焦图片="btRelease.png" 快捷键="115" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act="画面.显示窗口(&quot;伺服参数一&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button5" 索引="0" 可见="-1" 可用="-1" 左="346" 顶="746" 宽度="78" 高度="54" 标题="1:График|||2:그래프|||3:CURV|||4:منحنى |||5:CURV|||6:Curv|||0:曲线|||7:EĞRİ|||8:منحنی|||9:Curva|||10:Đg cong |||default:CURV" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnCURV.png" 按下图片="btnCURVx.png" 聚焦图片="btPress.png" 快捷键="116" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="可见" orient="in" tag="数据库.临时变量.z参数画面显示"/>
+<event name="按下" act=""/>
+<event name="点击" act=""/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button6" 索引="0" 可见="-1" 可用="-1" 左="431" 顶="746" 宽度="78" 高度="54" 标题="1:Помощь|||2:도움말|||3:HELP|||4:مساعدة|||5:HELP|||6:Help|||0:帮助|||7:YARDIM|||8:کمک|||9:Ajuda|||10:Hỗ trợ|||default:HELP" 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnHELP.png" 按下图片="btnHELPx.png" 聚焦图片="btRelease.png" 快捷键="117" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<event name="点击" act="画面.显示窗口(&quot;伺服通讯测试&quot;)"/>
+</element>
+</jmp_btn>
+<jmp_btn exist="1">
+<element type_name="button" type_id="16">
+<prop 名称="button7" 索引="0" 可见="-1" 可用="-1" 左="517" 顶="746" 宽度="78" 高度="54" 标题="1:Насос|||2:펌프|||3: PUMP |||4:PUMP|||5:PUMP|||6:Bomba|||0:油泵|||7:Pompa|||8:PUMP|||9:Bomba|||10:PUMP|||default: PUMP " 文本色="15793151" 是否变灰="0" 字体="宋体" 字号="18" 透明度="255" 背景色="15847342" 横向对齐="1" 纵向对齐="1" 常态图片="btnPUMP.png" 按下图片="btnPUMPx.png" 聚焦图片="btRelease.png" 快捷键="118" 焦点底色="65535" 焦点文本色="0" 自动触发="0" 自动触发延迟="200" 自动触发间隔="200" 按下触发="0" button_focus_color="65535" button_txt_focus_color="0"/>
+<var prop="文本色" orient="in" tag="p.PP.MACHSET.JKEY_COLOR7"/>
+<var prop="标题" orient="in" tag="p.PP.MACHSET.JKEY_STR7"/>
+<event name="按下" act=""/>
+<event name="点击" act="jump key 7"/>
+</element>
+</jmp_btn>
+</jmp_list>
+</element>
